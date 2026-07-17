@@ -15,11 +15,11 @@
      setFont() overrides :root and everything scales.
   ═══════════════════════════════════════════════════════ */
   :root {
-    --fs-xs:   0.68rem;
-    --fs-sm:   0.78rem;
-    --fs-base: 0.88rem;
-    --fs-lg:   1.02rem;
-    --fs-xl:   1.25rem;
+    --fs-xs:   0.72rem;
+    --fs-sm:   0.83rem;
+    --fs-base: 0.94rem;
+    --fs-lg:   1.06rem;
+    --fs-xl:   1.28rem;
     --fs-2xl:  1.55rem;
 
     --navy:    #0d1b2a;
@@ -179,9 +179,10 @@
   .hero-lbl {
     font-family: var(--mono);
     font-size: var(--fs-xs);
-    color: rgba(200,169,110,0.4);
+    color: rgba(200,169,110,0.5);
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 2px;
   }
   .hero-val {
     font-size: var(--fs-sm);
@@ -229,7 +230,8 @@
     align-items: center;
     gap: 11px;
     cursor: pointer;
-    transition: filter 0.14s, transform 0.14s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07), 0 0 0 0.5px rgba(0,0,0,0.05);
+    transition: filter 0.14s, transform 0.14s, box-shadow 0.14s;
   }
   .mc:active { filter: brightness(0.92); transform: scale(0.984); }
 
@@ -326,6 +328,8 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 5px;
+    gap: 8px;
+    min-width: 0;
   }
   .prog-track {
     height: 3px;
@@ -345,16 +349,15 @@
   ═══════════════════════════════════════════════════════ */
   .el-hdr {
     background: var(--navy);
-    padding: 14px 16px;
-    scroll-snap-align: start;
+    padding: 16px 16px 14px;
   }
   .el-step {
     font-family: var(--mono);
     font-size: var(--fs-xs);
-    color: rgba(200,169,110,0.5);
-    letter-spacing: 0.14em;
+    color: rgba(200,169,110,0.65);
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
   .el-name {
     font-size: var(--fs-xl);
@@ -406,9 +409,10 @@
      ELEMENT VIEW — CONNECTIONS
   ═══════════════════════════════════════════════════════ */
   .conn-wrap {
-    padding: 10px 14px;
-    background: var(--white);
+    padding: 10px 14px 8px;
+    background: var(--bg);
     border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
   }
   .conn-lbl {
     font-family: var(--mono);
@@ -440,12 +444,13 @@
      ELEMENT VIEW — ACCORDION SECTIONS
   ═══════════════════════════════════════════════════════ */
   .acc {
-    margin: 8px 12px;
+    margin: 6px 12px;
     border-radius: var(--r);
-    border: 1px solid var(--rule);
+    border: 1px solid rgba(0,0,0,0.1);
     overflow: hidden;
     background: var(--white);
     scroll-snap-align: start;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
   .acc-hdr {
     display: flex;
@@ -460,13 +465,14 @@
   .acc-hdr:active { background: rgba(0,0,0,0.03); }
   .acc-ttl {
     font-family: var(--mono);
-    font-size: var(--fs-xs);
+    font-size: var(--fs-sm);
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--ink-lt);
     transition: color 0.18s;
     flex: 1;
+    min-width: 0;
   }
   .acc-ttl.open-color { color: inherit; }
   .acc-chev {
@@ -494,25 +500,37 @@
   .legal-p { margin-bottom: 10px; }
   .legal-p:last-child { margin-bottom: 0; }
   .legal-cite {
-    padding: 0 14px 8px;
-    font-size: var(--fs-xs);
-    color: var(--ink-lt);
-    font-style: italic;
-    font-family: var(--mono);
-  }
-  .legal-link {
-    display: block;
-    padding: 0 14px 12px;
-    font-family: var(--mono);
+    margin: 8px 14px;
+    padding: 8px 10px;
     font-size: var(--fs-xs);
     color: var(--c-general);
+    font-family: var(--mono);
+    background: rgba(44,74,126,0.06);
+    border-left: 3px solid rgba(44,74,126,0.3);
+    border-radius: 0 6px 6px 0;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+  .legal-link {
+    display: inline-flex;
+    align-items: center;
+    margin: 4px 14px 12px;
+    padding: 5px 10px;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    color: var(--c-general);
+    background: rgba(44,74,126,0.08);
+    border: 1px solid rgba(44,74,126,0.2);
+    border-radius: 6px;
     cursor: pointer;
+    text-decoration: none;
   }
 
   /* ── Sparring questions ─── */
   .sq {
     border-bottom: 1px solid var(--rule);
-    padding: 10px 14px;
+    padding: 12px 14px;
   }
   .sq:last-child { border-bottom: none; }
   .sq-num {
@@ -590,9 +608,12 @@
      ELEMENT VIEW — JUDGEMENT CARD
   ═══════════════════════════════════════════════════════ */
   .jcard {
-    margin: 8px 12px;
+    margin: 8px 12px 16px;
     padding: 14px;
     scroll-snap-align: start;
+    background: rgba(0,0,0,0.02);
+    border-radius: var(--r);
+    border: 1px solid var(--rule);
   }
   .jlbl {
     font-family: var(--mono);
@@ -723,6 +744,7 @@
     background: var(--navy); padding: 10px 12px;
     display: flex; align-items: center; gap: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0;
+    scroll-snap-align: start;
   }
   .mod-nav-back {
     width: 32px; height: 32px; border-radius: var(--rsm);
@@ -818,7 +840,17 @@
     .result-wrap { padding: 60px 32px; }
     .acc { margin: 8px 16px; }
   }
-  </style>
+
+  /* ── Overflow protection ───────────────────────────── */
+  .acc-ttl { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .acc-chev { flex-shrink: 0; }
+  .mc-info { min-width: 0; }
+  .mc-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mc-sec  { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .el-name, .el-desc, .legal-p, .sq-q, .sq-ans, .lm-hold,
+  .hero-val, .mod-nav-bc { word-break: break-word; overflow-wrap: break-word; }
+  .prog-meta span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+    </style>
   <style id="fs-override"></style>
 </head>
 <body>
@@ -1450,11 +1482,11 @@ function setFont(size){
   FS = size;
   var s = size/15;
   $('fs-override').textContent = ':root{'
-    +'--fs-xs:'  +(0.68*s).toFixed(3)+'rem;'
-    +'--fs-sm:'  +(0.78*s).toFixed(3)+'rem;'
-    +'--fs-base:'+(0.88*s).toFixed(3)+'rem;'
-    +'--fs-lg:'  +(1.02*s).toFixed(3)+'rem;'
-    +'--fs-xl:'  +(1.25*s).toFixed(3)+'rem;'
+    +'--fs-xs:'  +(0.72*s).toFixed(3)+'rem;'
+    +'--fs-sm:'  +(0.83*s).toFixed(3)+'rem;'
+    +'--fs-base:'+(0.94*s).toFixed(3)+'rem;'
+    +'--fs-lg:'  +(1.06*s).toFixed(3)+'rem;'
+    +'--fs-xl:'  +(1.28*s).toFixed(3)+'rem;'
     +'--fs-2xl:' +(1.55*s).toFixed(3)+'rem;'
     +'}';
   syncBars();
@@ -1472,12 +1504,9 @@ function renderAccordionMod(mod){
 
   var els = mod.els || [];
   els.forEach(function(el, i){
-    var sec = makeAcc(
-      (el.atom ? el.atom+' — ' : '') + el.name,
-      '#2c4a7e',
-      makeLegalBody(el),
-      false
-    );
+    var acLabel = el.name;
+    if(el.sub) acLabel += ' — ' + el.sub;
+    var sec = makeAcc(acLabel, '#2c4a7e', makeLegalBody(el), false);
     main.appendChild(sec);
   });
   main.appendChild(makeFontBar());

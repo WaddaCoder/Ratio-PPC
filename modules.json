@@ -18,17 +18,6 @@
     ]
   },
   {
-    "id": "GE",
-    "name": "General Exceptions",
-    "icon": "🛡️",
-    "section": "S.76–106 PPC",
-    "type": "accordion",
-    "src": "foundations/ge.json",
-    "tag": "Active",
-    "palette": "general",
-    "chapter": "general"
-  },
-  {
     "id": "GEXPL",
     "name": "General Explanations",
     "icon": "📖",
@@ -51,12 +40,23 @@
     "chapter": "general"
   },
   {
-    "id": "CO",
-    "name": "Common Object",
-    "icon": "⚖️",
-    "section": "S.149 PPC",
-    "type": "module",
-    "src": "modules/co.json",
+    "id": "GE",
+    "name": "General Exceptions",
+    "icon": "🛡️",
+    "section": "S.76–106 PPC",
+    "type": "accordion",
+    "src": "foundations/ge.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "ABETMENT",
+    "name": "Abetment",
+    "icon": "↪️",
+    "section": "S.107–120 PPC",
+    "type": "branch",
+    "src": "modules/abetment.json",
     "tag": "Soon",
     "palette": "general",
     "chapter": "general"
@@ -73,12 +73,12 @@
     "chapter": "general"
   },
   {
-    "id": "ABETMENT",
-    "name": "Abetment",
-    "icon": "↪️",
-    "section": "S.107–120 PPC",
-    "type": "branch",
-    "src": "modules/abetment.json",
+    "id": "CO",
+    "name": "Common Object",
+    "icon": "⚖️",
+    "section": "S.149 PPC",
+    "type": "module",
+    "src": "modules/co.json",
     "tag": "Soon",
     "palette": "general",
     "chapter": "general"
@@ -106,23 +106,23 @@
     "chapter": "person"
   },
   {
-    "id": "QATLADJ",
-    "name": "Qatl-Adjacent Provisions",
-    "icon": "🔖",
-    "section": "S.324, 326–329 PPC",
-    "type": "accordion",
-    "src": "modules/qatladj.json",
-    "tag": "Soon",
-    "palette": "person",
-    "chapter": "person"
-  },
-  {
     "id": "HURTCORE",
     "name": "Hurt Core",
     "icon": "🩺",
     "section": "S.323–337H PPC",
     "type": "module",
     "src": "modules/hurtcore.json",
+    "tag": "Soon",
+    "palette": "person",
+    "chapter": "person"
+  },
+  {
+    "id": "QATLADJ",
+    "name": "Qatl-Adjacent Provisions",
+    "icon": "🔖",
+    "section": "S.324, 326–329 PPC",
+    "type": "accordion",
+    "src": "modules/qatladj.json",
     "tag": "Soon",
     "palette": "person",
     "chapter": "person"
@@ -403,6 +403,17 @@
     "chapter": "state"
   },
   {
+    "id": "RABBIT_HOLE",
+    "name": "Rabbit Hole Essays",
+    "icon": "🐇",
+    "section": "15 deep-dive jurisprudential essays",
+    "type": "essays",
+    "src": "essays.json",
+    "tag": "Essays",
+    "palette": "tool",
+    "chapter": "tools"
+  },
+  {
     "id": "CODE_HYPERLINKS",
     "name": "Code Hyperlinks",
     "icon": "🔗",
@@ -421,17 +432,6 @@
     "type": "arcs",
     "src": "arcs.json",
     "tag": "Arc",
-    "palette": "tool",
-    "chapter": "tools"
-  },
-  {
-    "id": "RABBIT_HOLE",
-    "name": "Rabbit Hole Essays",
-    "icon": "🐇",
-    "section": "15 deep-dive jurisprudential essays",
-    "type": "essays",
-    "src": "essays.json",
-    "tag": "Essays",
     "palette": "tool",
     "chapter": "tools"
   },
