@@ -37,6 +37,12 @@
       "name": "Punishment — S.53 Framework",
       "section": "S.53 PPC",
       "src": "foundations/punish.json"
+    },
+    {
+      "id": "reasoning",
+      "name": "Ratio Legis",
+      "section": "Logic & Quantitative Reasoning",
+      "src": "foundations/reasoning.json"
     }
   ]
 }

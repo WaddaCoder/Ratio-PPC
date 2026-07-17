@@ -1063,6 +1063,10 @@ function openMod(m){
         renderEl(data, 0);
       })
       .catch(function(){ toast('Module not yet available','#4a3070'); });
+  } else if(m.type==='reasoning'){
+    fetchJ(m.src)
+      .then(function(data){ CUR_MOD=data; HISTORY.push({type:'home'}); renderReasoning(data); })
+      .catch(function(){ toast('Module not yet available','#4a3070'); });
   } else if(m.type==='accordion'||m.type==='branch'){
     fetchJ(m.src)
       .then(function(data){ CUR_MOD=data; HISTORY.push({type:'home'}); renderAccordionMod(data); })
@@ -1641,6 +1645,110 @@ function renderTechniques(data){
   main.appendChild(makeFontBar());
   var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
   fabHide();
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   RATIO LEGIS — REASONING MODULE RENDERER
+═══════════════════════════════════════════════════════════ */
+function renderReasoning(mod){
+  showScreen('main');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav(mod.name, null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:12px 14px 14px;border-bottom:1px solid rgba(255,255,255,0.06)';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#f0ece0;margin-bottom:3px">'+mod.name+'</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.55)">'+mod.sub+'</div>';
+  main.appendChild(hdr);
+
+  (mod.groups||[]).forEach(function(group){
+    /* Group section divider */
+    var div=mk('div');
+    div.style.cssText='display:flex;align-items:center;gap:10px;padding:16px 14px 6px';
+    div.innerHTML='<div style="height:1px;width:14px;background:rgba(0,0,0,0.18);flex-shrink:0"></div>'
+      +'<span style="font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:'+group.accent+';white-space:nowrap">'+group.title+'</span>'
+      +'<div style="height:1px;flex:1;background:rgba(0,0,0,0.18)"></div>';
+    main.appendChild(div);
+
+    (group.concepts||[]).forEach(function(c){
+      main.appendChild(makeConceptCard(c, group.accent));
+    });
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+function makeConceptCard(c, accent){
+  /* Concept body */
+  var body=mk('div');
+
+  /* Symbol + Core */
+  var coreDiv=mk('div'); coreDiv.style.padding='12px 14px';
+  var sym=mk('div');
+  sym.style.cssText='font-family:var(--mono);font-size:var(--fs-2xl);color:'+accent+';font-weight:700;margin-bottom:8px;letter-spacing:0.1em';
+  sym.textContent=c.symbol;
+  coreDiv.appendChild(sym);
+  var coreP=mk('div'); coreP.style.cssText='font-size:var(--fs-base);color:var(--navy);line-height:1.7';
+  (c.core||'').split('\n\n').forEach(function(p){
+    var pd=mk('p','legal-p'); pd.textContent=p.trim(); coreP.appendChild(pd);
+  });
+  coreDiv.appendChild(coreP);
+  body.appendChild(coreDiv);
+
+  /* PPC Bridge */
+  var bridgeDiv=mk('div');
+  bridgeDiv.style.cssText='border-top:1px solid var(--rule);padding:10px 14px;background:rgba(0,0,0,0.02)';
+  var bridgeLbl=mk('div');
+  bridgeLbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:'+accent+';margin-bottom:6px';
+  bridgeLbl.textContent='PPC Bridge';
+  bridgeDiv.appendChild(bridgeLbl);
+  var bridgeP=mk('div'); bridgeP.style.cssText='font-size:var(--fs-sm);color:var(--navy);line-height:1.65';
+  (c.ppc_bridge||'').split('\n\n').forEach(function(p){
+    var pd=mk('p','legal-p'); pd.textContent=p.trim(); bridgeP.appendChild(pd);
+  });
+  bridgeDiv.appendChild(bridgeP);
+  body.appendChild(bridgeDiv);
+
+  /* Worked Examples — nested accordions */
+  if(c.worked && c.worked.length){
+    var wrapDiv=mk('div'); wrapDiv.style.cssText='border-top:1px solid var(--rule);padding:10px 14px 4px';
+    var wrapLbl=mk('div');
+    wrapLbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-lt);margin-bottom:8px';
+    wrapLbl.textContent='Worked Examples';
+    wrapDiv.appendChild(wrapLbl);
+    var tierColors={E:'#2c5f2e',M:'#8b4513',H:'#8b2535'};
+    c.worked.forEach(function(w){
+      var color=tierColors[w.tier]||'#2c4a7e';
+      var wbody=mk('div');
+      var qDiv=mk('div'); qDiv.style.cssText='padding:10px 12px;font-size:var(--fs-sm);color:var(--navy);line-height:1.55;font-weight:600';
+      qDiv.textContent=w.q;
+      var aDiv=mk('div'); aDiv.style.cssText='padding:0 12px 10px;font-size:var(--fs-sm);color:var(--navy);line-height:1.65;border-top:1px solid var(--rule)';
+      aDiv.innerHTML='<div style="font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;color:'+color+';text-transform:uppercase;letter-spacing:0.08em;padding:8px 0 5px">Answer</div>'+w.a;
+      wbody.appendChild(qDiv); wbody.appendChild(aDiv);
+      wrapDiv.appendChild(makeAcc('['+w.tier+'] '+w.label, color, wbody, false));
+    });
+    body.appendChild(wrapDiv);
+  }
+
+  /* Sparring Questions */
+  if(c.sq && c.sq.length){
+    body.appendChild(makeAcc('\u2694 Sparring ('+c.sq.length+')', '#8b4513', makeSparBody(c.sq), false));
+  }
+
+  /* Advanced Card */
+  if(c.depth && c.depth.length){
+    var advBody=mk('div'); advBody.style.padding='12px 14px';
+    c.depth.forEach(function(d){
+      var dd=mk('p','legal-p'); dd.textContent=d; advBody.appendChild(dd);
+    });
+    body.appendChild(makeAcc('\u25B2 Advanced', accent, advBody, false));
+  }
+
+  return makeAcc(c.symbol+' \u2014 '+c.title, accent, body, false);
 }
 
 </script>
