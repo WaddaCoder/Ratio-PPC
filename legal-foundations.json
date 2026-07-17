@@ -3,18 +3,6 @@
   "subtitle": "Structural doctrines that govern every offence",
   "modules": [
     {
-      "id": "ge",
-      "name": "General Exceptions",
-      "section": "S.76–106 PPC",
-      "src": "foundations/ge.json"
-    },
-    {
-      "id": "gexpl",
-      "name": "General Explanations",
-      "section": "S.6–52D PPC",
-      "src": "foundations/gexpl.json"
-    },
-    {
       "id": "actus",
       "name": "Actus Reus & Mens Rea",
       "section": "Core doctrine",

@@ -9,7 +9,37 @@
     "tag": "Gateway",
     "palette": "gateway",
     "chapter": null,
-    "chips": ["General Exceptions","General Explanations","Actus Reus","Stages of Crime","Theories","Stat. Interpretation","Jurisdiction"]
+    "chips": [
+      "General Exceptions",
+      "General Explanations",
+      "Actus Reus",
+      "Stages of Crime",
+      "Theories",
+      "Stat. Interpretation",
+      "Jurisdiction"
+    ]
+  },
+  {
+    "id": "GE",
+    "name": "General Exceptions",
+    "icon": "🛡️",
+    "section": "S.76–106 PPC",
+    "type": "accordion",
+    "src": "foundations/ge.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "GEXPL",
+    "name": "General Explanations",
+    "icon": "📖",
+    "section": "S.6–52D PPC",
+    "type": "accordion",
+    "src": "foundations/gexpl.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
   },
   {
     "id": "CI",
