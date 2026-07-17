@@ -1,0 +1,2104 @@
+[
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S141_142"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.141 Unlawful Assembly must be proven before"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: Abetment mode (S.107) must be identified befo"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S301"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.299 Qatl definitions prerequisite for every"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: Prior concert (meeting of minds) prerequisite"
+  },
+  {
+    "from": {
+      "module": "actus",
+      "element": "AR"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: Actus reus + mens rea both prerequisite simul"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "T∨E"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.378 Theft or S.383 Extortion prerequisite f"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬MF"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: General Exceptions (S.76–S.106) prerequisite "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S305"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.305 Wali definition prerequisite for any Qi"
+  },
+  {
+    "from": {
+      "module": "cheating",
+      "element": "S415"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.415 Cheating definition prerequisite for S."
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S463"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.463 Forgery definition prerequisite for S.4"
+  },
+  {
+    "from": {
+      "module": "wrestraint",
+      "element": "WConf"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.340 Wrongful Confinement prerequisite for S"
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: Stages of crime must proceed in order: intent"
+  },
+  {
+    "from": {
+      "module": "intimidation",
+      "element": "S503"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.503 Criminal Intimidation definition prereq"
+  },
+  {
+    "from": {
+      "module": "mischief",
+      "element": "S425"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PREREQ"
+    },
+    "label": "🔑 PREREQ: S.425 Mischief definition prerequisite for S."
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S141_142"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.141: 5+ persons AND one qualifying common o"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.34: 2+ persons AND prior concert AND act in"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.300 Murder: actus reus (death caused) AND n"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "T∨E"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.390 Robbery: (theft or extortion) AND force"
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S465"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.465 Forgery: false document AND fraudulent "
+  },
+  {
+    "from": {
+      "module": "cc",
+      "element": "Agr"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.120-A Conspiracy: agreement AND illegal obj"
+  },
+  {
+    "from": {
+      "module": "rape",
+      "element": "rc1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.375 Rape: sexual act AND absence of consent"
+  },
+  {
+    "from": {
+      "module": "defamation",
+      "element": "S499"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.499 Defamation: statement AND injury to rep"
+  },
+  {
+    "from": {
+      "module": "cheating",
+      "element": "S415"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.415 Cheating: deception AND inducement AND "
+  },
+  {
+    "from": {
+      "module": "intimidation",
+      "element": "S503"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CONJUNCT"
+    },
+    "label": "∧ CONJUNCT: S.503 Criminal Intimidation: threat AND inten"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "S110"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.110–S.114: abettor's punishment derives ent"
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Rule"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.149 Common Object: every assembly member gu"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "Fur"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.34 Common Intention: the act of one is the "
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St4"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.511 Attempt: punishment derived from the co"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "S392"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.396 Murder in Dacoity: all five+ participan"
+  },
+  {
+    "from": {
+      "module": "trespass",
+      "element": "S459_460"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.460 Lurking house-trespass by night: Qatl/h"
+  },
+  {
+    "from": {
+      "module": "cc",
+      "element": "Agr"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.120-B(1) Conspiracy: punishment derived fro"
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S150_151"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.150 Hiring persons for unlawful assembly: l"
+  },
+  {
+    "from": {
+      "module": "receiving",
+      "element": "S414"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DERIV"
+    },
+    "label": "↪ DERIV: S.414 Assisting in disposal of stolen propert"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.107 Abetment: Instigation OR Conspiracy OR "
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S143_145"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.141 Unlawful Assembly: any ONE of five comm"
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Limb1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.149 Two limbs: 'in prosecution of common ob"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.300 Murder: any ONE of four clauses suffice"
+  },
+  {
+    "from": {
+      "module": "rape",
+      "element": "rc1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.375 Rape: consent vitiated by any ONE of mu"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "T∨E"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.390 Robbery: underlying offence is theft OR"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬MF"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: General Exceptions: any ONE applicable except"
+  },
+  {
+    "from": {
+      "module": "defamation",
+      "element": "S499_Exc1to3"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.499 Defamation: any ONE of ten exceptions d"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬PDBody"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: Private Defence: body OR property — either ri"
+  },
+  {
+    "from": {
+      "module": "cheating",
+      "element": "S415"
+    },
+    "to": {
+      "type": "technique",
+      "id": "DISJUNCT"
+    },
+    "label": "∨ DISJUNCT: S.415 Cheating: inducing delivery of property"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: S.107 Abetment: one entry point → three indep"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬MF"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: General Exceptions: one chapter → twelve inde"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Act295"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: Blasphemy module: one entry → S.295 (objects)"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S301"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: Qatl: one entry → four independent variant br"
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S143_145"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: S.141 Unlawful Assembly: one section → five q"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: S.300 Murder: one section → four clause branc"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬PDBody"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: Private Defence: one right → two branches (bo"
+  },
+  {
+    "from": {
+      "module": "punish",
+      "element": "¬S53PUN"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: Punishment (S.53): one framework → five type "
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: Stages of crime: one act → four stage branche"
+  },
+  {
+    "from": {
+      "module": "defamation",
+      "element": "S499_Exc1to3"
+    },
+    "to": {
+      "type": "technique",
+      "id": "BRANCH"
+    },
+    "label": "⑂ BRANCH: S.499 Defamation: one base offence → ten inde"
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Compare"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: S.34 Common Intention vs S.149 Common Object "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S318_320"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Qatl-i-Amd vs Qatl Shibh-i-Amd: intention vs "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S321_322"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Qatl-i-Amd vs Qatl-i-Khata: intention vs mist"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "cl2"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Qisas regime vs Ta'zir regime: private right "
+  },
+  {
+    "from": {
+      "module": "wrestraint",
+      "element": "WRest"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Wrongful Restraint (S.339) vs Wrongful Confin"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "¬Ex"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Robbery vs Dacoity: five-person threshold cha"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S26RTB"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Dishonest vs Fraudulent: the two mental state"
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S463"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Forgery (S.463) vs Cheating (S.415): document"
+  },
+  {
+    "from": {
+      "module": "misapprop",
+      "element": "S405"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Criminal Breach of Trust (S.405) vs Theft (S."
+  },
+  {
+    "from": {
+      "module": "intimidation",
+      "element": "S503"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Criminal Intimidation (S.503) vs Extortion (S"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Instigation vs Conspiracy as abetment modes: "
+  },
+  {
+    "from": {
+      "module": "isqat",
+      "element": "S338A"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: Isqat-i-Haml with consent vs without consent:"
+  },
+  {
+    "from": {
+      "module": "defamation",
+      "element": "S499"
+    },
+    "to": {
+      "type": "technique",
+      "id": "COMPARE"
+    },
+    "label": "↔ COMPARE: S.499 Defamation: truth alone vs truth for pu"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S306_307"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Qatl-i-Amd → Qisas right vests → Wali decides"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "S110"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Abetment mode established → S.109 punishment "
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Rule"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Unlawful assembly formed → offence committed "
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "S392"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Dacoity committed → murder occurs during it →"
+  },
+  {
+    "from": {
+      "module": "cc",
+      "element": "Agr"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Criminal Conspiracy formed → object offence c"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "T∨E"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Theft + force at same time → robbery triggere"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S312_314"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Qisas waived by wali → S.311 Fasad-fil-Arz ma"
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St4"
+    },
+    "to": {
+      "type": "technique",
+      "id": "CASCADE"
+    },
+    "label": "⛲ CASCADE: Attempt fails → S.511 automatically triggers "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S301"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.299 (Parent) → S.302 Amd / S.316 Shibh-i-Am"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "¬Ex"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.391 Dacoity (Parent) → S.395–S.402 all puni"
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S463"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.463 Forgery (Parent) → S.465–S.477-A all ag"
+  },
+  {
+    "from": {
+      "module": "mischief",
+      "element": "S425"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.425 Mischief (Parent) → S.426–S.440 all fif"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.107 Abetment modes (Parent) → S.108A, S.109"
+  },
+  {
+    "from": {
+      "module": "wrestraint",
+      "element": "WRest"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.339 Wrongful Restraint (Parent) → S.341–S.3"
+  },
+  {
+    "from": {
+      "module": "forceassault",
+      "element": "S349"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.349 Force (Grandparent) → S.350 Criminal Fo"
+  },
+  {
+    "from": {
+      "module": "misapprop",
+      "element": "S403"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.378 Theft (Parent) → S.379 punishment / S.3"
+  },
+  {
+    "from": {
+      "module": "extortion",
+      "element": "S383"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.383 Extortion (Parent) → S.384–S.389 all va"
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S141_142"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.141 Unlawful Assembly (Parent) → S.142–S.16"
+  },
+  {
+    "from": {
+      "module": "cheating",
+      "element": "S415"
+    },
+    "to": {
+      "type": "technique",
+      "id": "PARENT"
+    },
+    "label": "🌳 PARENT: S.415 Cheating (Parent) → S.417 (personation)"
+  },
+  {
+    "from": {
+      "module": "misapprop",
+      "element": "S403"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.378 Theft: 'dishonestly' → S.24 → S.23 gain"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.300 Murder: S.300 → S.299 → S.39 voluntaril"
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Gate"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.149 Common Object: S.149 → S.141 → five com"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "T∨E"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.390 Robbery → S.378 Theft → 'dishonestly' →"
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S465"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.463 Forgery: 'false document' → S.464 defin"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.34 CI: 'common intention' → S.39 voluntaril"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬UM"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: GE S.84 Unsound Mind: 'unsound mind' imports "
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S6_37_38STRUCT"
+    },
+    "to": {
+      "type": "technique",
+      "id": "NEST"
+    },
+    "label": "🪆 NEST: S.6 Reading Rules: the topmost shell — every "
+  },
+  {
+    "from": {
+      "module": "wrestraint",
+      "element": "WConf"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Wrongful Confinement ladder: S.342 → S.343 (3"
+  },
+  {
+    "from": {
+      "module": "forceassault",
+      "element": "S352_355"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Assault ladder: S.352 (base) → S.353 (vs publ"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "S392"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Robbery/Dacoity ladder: S.392 (robbery) → S.3"
+  },
+  {
+    "from": {
+      "module": "mischief",
+      "element": "S426_427"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Mischief ladder: S.426 (base) → S.427 (Rs.50+"
+  },
+  {
+    "from": {
+      "module": "kidnap",
+      "element": "S363"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Kidnapping ladder: S.363 (base) → S.364 (to m"
+  },
+  {
+    "from": {
+      "module": "trespass",
+      "element": "S447"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: House trespass ladder: S.447 → S.448 (house) "
+  },
+  {
+    "from": {
+      "module": "trespass",
+      "element": "S453_455"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Lurking trespass ladder: S.453 (lurking) → S."
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S466_467"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Forgery ladder: S.465 (base) → S.466 (court r"
+  },
+  {
+    "from": {
+      "module": "extortion",
+      "element": "S385_387"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Extortion ladder: S.384 (base) → S.386 (fear "
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "s115a"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ESCALATION"
+    },
+    "label": "📶 ESCALATION: Abetment ladder: S.116 (imprisonment offence "
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S6_37_38STRUCT"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: S.6: two lines of text that silently import t"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S2425DF"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: 'Dishonestly' in S.378 Theft: one word import"
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Rule"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: S.149: two sentences importing S.141's entire"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S21PS"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: 'Public servant' in any offence: S.21's elabo"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: S.107 'abets': the entire abetment architectu"
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St4"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: S.511 Attempt: one section that implicitly re"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S52GF"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: 'Good faith' in GE exceptions: S.52's definit"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬PDLimit"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: S.99 Private Defence limits: four limitations"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ICEBERG"
+    },
+    "label": "🧊 ICEBERG: S.34 'common intention': three words importin"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "cl2"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: Qatl-i-Amd: Qisas layer (private right of hei"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S312_314"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: S.311 Fasad-fil-Arz: PPC private law layer + "
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: S.34 CI and S.149 CO: both can be charged sim"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Cons"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: S.109 Abetment and S.120-B Conspiracy: both f"
+  },
+  {
+    "from": {
+      "module": "cheating",
+      "element": "S420"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: PPC + PECA 2016: two statutory layers applyin"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "QA"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: Anti-Terrorism Act + PPC: ATA adds a terror-s"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Act295"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: Blasphemy S.295-C: PPC criminal layer + Const"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S321_322"
+    },
+    "to": {
+      "type": "technique",
+      "id": "LAYER"
+    },
+    "label": "🧅 LAYER: Diyat compensation layer + Ta'zir imprisonmen"
+  },
+  {
+    "from": {
+      "module": "punish",
+      "element": "¬S53PUN"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: S.53 Punishment list: Qisas / Diyat / Arsh / "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S301"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: S.299–S.338H: entire Qatl and Hurt framework "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S306_307"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: Wali concept: right of Qisas held by heirs of"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S312_314"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: S.311 Fasad-fil-Arz: State override mechanism"
+  },
+  {
+    "from": {
+      "module": "hurtcore",
+      "element": "S337A"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: Hurt chapter: Shajjah / Jurh / Jaifah / Arsh "
+  },
+  {
+    "from": {
+      "module": "isqat",
+      "element": "S338"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: Isqat-i-Haml and Isqat-i-Janin: Islamic misca"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Act295"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: S.295-B and S.295-C Blasphemy: inserted by Zi"
+  },
+  {
+    "from": {
+      "module": "marriage",
+      "element": "S498A"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: S.498A Fornication: inserted 1979 as part of "
+  },
+  {
+    "from": {
+      "module": "theories",
+      "element": "Evo"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: The Silence broken: Macaulay's deliberate mor"
+  },
+  {
+    "from": {
+      "module": "punish",
+      "element": "¬S53PUN"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ISLAMIZ"
+    },
+    "label": "🕸 ISLAMIZ: S.53 seam in full: two lineages share one pun"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S39VOL"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Mens rea arc: S.39 voluntarily → S.24/25 dish"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬Con87"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Consent arc: GE S.87–S.92 → S.375 Rape → S.49"
+  },
+  {
+    "from": {
+      "module": "wrestraint",
+      "element": "WRest"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Harm escalation arc: Restraint → Force/Assaul"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S21PS"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Public servant arc: S.21 definition → S.121–S"
+  },
+  {
+    "from": {
+      "module": "misapprop",
+      "element": "S403"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Property dishonesty arc: Misappropriation → R"
+  },
+  {
+    "from": {
+      "module": "forgery",
+      "element": "S463"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Document integrity arc: Forgery → Trade Marks"
+  },
+  {
+    "from": {
+      "module": "theories",
+      "element": "Evo"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Reform arc: Theories of Punishment → Punishme"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S52GF"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Good faith arc: S.52 defined in GEXPL → S.88–"
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Stages arc: Intention → Preparation (S.399) →"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Abetment arc: S.107 modes → S.108A jurisdicti"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ARC"
+    },
+    "label": "➡ ARC: Group liability arc: S.34 CI (2+) → S.120-A C"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "s115a"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.115(1) and S.115(2): same abetment structur"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "s115b"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.116(1) and S.116(2): same non-commission st"
+  },
+  {
+    "from": {
+      "module": "hurtcore",
+      "element": "S337A"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.337-A(i)–(vi): Shajjah wound classification"
+  },
+  {
+    "from": {
+      "module": "hurtcore",
+      "element": "S337F"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.337-F(i)–(vi): Jurh body wound classificati"
+  },
+  {
+    "from": {
+      "module": "defamation",
+      "element": "S499_Exc1to3"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.499 Exceptions 1–10: same exception structu"
+  },
+  {
+    "from": {
+      "module": "intimidation",
+      "element": "S506_507"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.506(1) and S.506(2): criminal intimidation "
+  },
+  {
+    "from": {
+      "module": "intimidation",
+      "element": "S504"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.176(1)(2)(3): same omission-to-notify struc"
+  },
+  {
+    "from": {
+      "module": "intimidation",
+      "element": "S504"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.174(1)(2)(3): same non-attendance structure"
+  },
+  {
+    "from": {
+      "module": "hurtcore",
+      "element": "S337M"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.337-H(i) and (ii): hurt by rash/negligent a"
+  },
+  {
+    "from": {
+      "module": "extortion",
+      "element": "S388_389"
+    },
+    "to": {
+      "type": "technique",
+      "id": "ITER"
+    },
+    "label": "🔁 ITER: S.388 and S.388(2): extortion by accusation i"
+  },
+  {
+    "from": {
+      "module": "commonobj",
+      "element": "CO_Gate"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.149 explicitly names S.141: the section imp"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "rl1"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.390 Robbery explicitly defined in terms of "
+  },
+  {
+    "from": {
+      "module": "cc",
+      "element": "Ill"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.120-A Criminal Conspiracy cross-references "
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.300 Murder refers back to S.299 Qatl defini"
+  },
+  {
+    "from": {
+      "module": "stages",
+      "element": "St4"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.511 Attempt: carries no punishment of its o"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬PDLimit"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: Private defence limits (S.99) explicitly cros"
+  },
+  {
+    "from": {
+      "module": "isqat",
+      "element": "S338"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.338 Isqat-i-Haml cross-references S.338A–C "
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S312_314"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.311 Fasad-fil-Arz explicitly cross-referenc"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S6_37_38STRUCT"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.6 reading rules cross-reference all General"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "S108A"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.108A Abetment jurisdiction cross-references"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "¬Ex"
+    },
+    "to": {
+      "type": "technique",
+      "id": "XREF"
+    },
+    "label": "🔗 XREF: S.391 Dacoity explicitly cross-references S.3"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH8"
+    },
+    "label": "🐇 Macaulay the Outsider — Why S.34 Survived"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬MF"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH5"
+    },
+    "label": "🐇 Why a General Part? The Code’s Structural Logic"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH9"
+    },
+    "label": "🐇 One Law, Three Masters — The Sociological Arc"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "¬H"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH2"
+    },
+    "label": "🐇 Huquq Allah and Huquq al-‘Ibad: Two Rights"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Act295"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH9"
+    },
+    "label": "🐇 One Law, Three Masters — The Sociological Arc"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Ev295"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH5"
+    },
+    "label": "🐇 Why a General Part? The Code’s Structural Logic"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Evo"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH8"
+    },
+    "label": "🐇 Macaulay the Outsider — Why the Outsider Saw Clear"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH7"
+    },
+    "label": "🐇 The Riot at the River — What the British Were Real"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S311"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH2"
+    },
+    "label": "🐇 Huquq Allah and Huquq al-‘Ibad: Two Rights, Two Lo"
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S153A_153B"
+    },
+    "to": {
+      "type": "essay",
+      "id": "RH6"
+    },
+    "label": "🐇 The Unification Machine — One Law for Many Gods"
+  },
+  {
+    "from": {
+      "module": "ci",
+      "element": "CI"
+    },
+    "to": {
+      "type": "element",
+      "module": "co",
+      "element": "CO_Rule"
+    },
+    "label": "→ Compare: S.34 CI vs S.149 CO"
+  },
+  {
+    "from": {
+      "module": "co",
+      "element": "CO_Rule"
+    },
+    "to": {
+      "type": "element",
+      "module": "ci",
+      "element": "CI"
+    },
+    "label": "→ Compare: S.149 CO vs S.34 CI"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "to": {
+      "type": "element",
+      "module": "qatlcore",
+      "element": "S301"
+    },
+    "label": "→ S.299 Qatl definitions underpin S.300"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S301"
+    },
+    "to": {
+      "type": "element",
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "label": "→ S.300 Murder clauses in S.302 context"
+  },
+  {
+    "from": {
+      "module": "abetment",
+      "element": "Ins"
+    },
+    "to": {
+      "type": "element",
+      "module": "ci",
+      "element": "CI"
+    },
+    "label": "→ Abetment vs Common Intention — different vicarious l"
+  },
+  {
+    "from": {
+      "module": "robbery",
+      "element": "T∨E"
+    },
+    "to": {
+      "type": "element",
+      "module": "extortion",
+      "element": "S383"
+    },
+    "label": "→ S.383 Extortion is one foundation of S.390 Robbery"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "cl2"
+    },
+    "to": {
+      "type": "element",
+      "module": "qatlcore",
+      "element": "S306_307"
+    },
+    "label": "→ Qisas track activates after S.302 conviction"
+  },
+  {
+    "from": {
+      "module": "misapprop",
+      "element": "S405"
+    },
+    "to": {
+      "type": "element",
+      "module": "cheating",
+      "element": "S415"
+    },
+    "label": "→ Misappropriation vs Cheating — different deceptive m"
+  },
+  {
+    "from": {
+      "module": "wrestraint",
+      "element": "WRest"
+    },
+    "to": {
+      "type": "element",
+      "module": "wrestraint",
+      "element": "WConf"
+    },
+    "label": "→ Wrongful Restraint escalates to Wrongful Confinement"
+  },
+  {
+    "from": {
+      "module": "kidnap",
+      "element": "S363"
+    },
+    "to": {
+      "type": "element",
+      "module": "rape",
+      "element": "rc1"
+    },
+    "label": "→ Kidnapping for rape: S.365-B imports S.375"
+  },
+  {
+    "from": {
+      "module": "ge",
+      "element": "¬MF"
+    },
+    "to": {
+      "type": "element",
+      "module": "murder",
+      "element": "Niyyat"
+    },
+    "label": "→ General Exception of Accident applies to Qatl-i-Amd"
+  },
+  {
+    "from": {
+      "module": "gexpl",
+      "element": "¬S2425DF"
+    },
+    "to": {
+      "type": "element",
+      "module": "cheating",
+      "element": "S415"
+    },
+    "label": "→ S.24 Dishonestly imports into S.378 and S.415"
+  },
+  {
+    "from": {
+      "module": "rape",
+      "element": "rc1"
+    },
+    "to": {
+      "type": "arc",
+      "id": "arc_rape"
+    },
+    "label": "⇄ Rape Law Reform Arc — S.375 is the legislative end"
+  },
+  {
+    "from": {
+      "module": "murder",
+      "element": "¬H"
+    },
+    "to": {
+      "type": "arc",
+      "id": "arc_honour"
+    },
+    "label": "⇄ Honour Killing Reform Arc — Diyat waiver mechanism"
+  },
+  {
+    "from": {
+      "module": "qatlcore",
+      "element": "S311"
+    },
+    "to": {
+      "type": "arc",
+      "id": "arc_honour"
+    },
+    "label": "⇄ S.311 Fasad-fil-Arz is the reform response to hono"
+  },
+  {
+    "from": {
+      "module": "blasphemy",
+      "element": "Act295"
+    },
+    "to": {
+      "type": "arc",
+      "id": "arc_blasphemy"
+    },
+    "label": "⇄ Blasphemy Weaponisation Arc — S.295-C is the Zia i"
+  },
+  {
+    "from": {
+      "module": "stateoff",
+      "element": "S121"
+    },
+    "to": {
+      "type": "arc",
+      "id": "arc_repeal"
+    },
+    "label": "⇄ S.121 Waging War survived Partition — see Repeal A"
+  },
+  {
+    "from": {
+      "module": "tranquillity",
+      "element": "S153A_153B"
+    },
+    "to": {
+      "type": "arc",
+      "id": "arc_blasphemy"
+    },
+    "label": "⇄ S.153-A inter-group enmity parallels S.295 misuse "
+  }
+]
