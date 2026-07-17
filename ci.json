@@ -1,0 +1,103 @@
+{
+  "id": "ci",
+  "name": "Common Intention",
+  "section": "S.34 PPC",
+  "formula": "∀ x ∈ Group: CI(x) ∧ Act ∧ Furtherance(x)  →  Liability(x)",
+  "operator": "∀ Universal Quantifier",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "CI",
+      "name": "Common Intention",
+      "sub": "S.34 PPC — shared purpose, all members",
+      "step": "Element 1 of 3",
+      "atom": "CI",
+      "operator": "",
+      "desc": "All members of the group must share the common intention. It need not be pre-arranged — it can develop on the spot. But it must be shared by all, not merely by some.",
+      "legal": "Common intention is inferred from conduct. It can crystallise at the scene. However the intention must be shared by all members, not just some. A person who secretly pursues a different goal is not bound by the common intention of the group.",
+      "cite": "PLD 2001 SC 378 — common intention requires prior concert. 1981 SCMR 308 — can develop on the spot.",
+      "ll": "S.34 PPC — official text",
+      "section": "34",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Three persons set out to commit robbery. One member, without the others knowing, intends to commit murder. Is that member alone liable for murder under S.34?",
+          "reveal": "Yes — that member alone is liable for murder. S.34 does not extend liability beyond what was commonly intended. The secret divergence breaks the quantifier for the murder charge.",
+          "cite": "PLD 1964 Kar. 38 (Khalil) — offence must be covered by the intention, not merely likely"
+        },
+        {
+          "q": "Two persons meet by chance and spontaneously join a fight already in progress. Can common intention be formed in this way?",
+          "reveal": "Yes. Common intention can develop entirely on the spot without any prior arrangement. What matters is that the shared purpose exists at the time of the act, however suddenly it arose.",
+          "cite": "1981 SCMR 308 — common intention can develop on the spot"
+        },
+        {
+          "q": "How does S.34 differ from S.149 (common object of unlawful assembly)?",
+          "reveal": "S.34 requires a common intention shared by all members and active participation in furtherance of that intention. S.149 requires membership of an unlawful assembly of five or more — liability attaches by mere membership even without active participation.",
+          "cite": "S.34 vs S.149 PPC — structural distinction"
+        }
+      ]
+    },
+    {
+      "id": "Act",
+      "name": "Criminal Act Done",
+      "sub": "S.34 PPC — by any member of the group",
+      "step": "Element 2 of 3",
+      "atom": "Act",
+      "operator": "",
+      "desc": "The criminal act must actually be done — by any member of the group. S.34 is not an independent offence; it is a rule of joint liability that attaches to an underlying completed offence.",
+      "legal": "S.34 has no independent existence — it must be read with a substantive offence. The act must be fully established as an offence in itself. If the underlying act is not criminal, S.34 has nothing to attach to.",
+      "cite": "S.34 PPC — rule of evidence, not a substantive offence. Must be read with the principal offence charged.",
+      "ll": "S.34 PPC — official text",
+      "section": "34",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is charged under S.302/34 — murder with common intention. The prosecution fails to prove A personally fired the shot. Can A still be convicted?",
+          "reveal": "Yes — if the prosecution proves someone in the group fired the shot and A shared the common intention and participated in furtherance. S.34 is precisely designed for this.",
+          "cite": "PLD 2001 SC 378 — act done by any member, not necessarily the accused"
+        },
+        {
+          "q": "S.34 is described as a rule of evidence, not a substantive offence. What does this mean practically?",
+          "reveal": "It means S.34 cannot be charged alone — it must always accompany a substantive offence. The charge reads \"Section 302 read with Section 34\" or \"S.392/34\". Without the principal offence, S.34 has no content.",
+          "cite": "S.34 PPC — procedural character confirmed in multiple judgments"
+        },
+        {
+          "q": "If the principal offender is acquitted, can the others still be convicted under S.34?",
+          "reveal": "Yes. The acquittal of the principal does not automatically acquit those charged under S.34. If common intention and furtherance are established for the other accused, their liability under S.34 is independent.",
+          "cite": "1993 SCMR 1934 (Piran Ditta) — common intention judged from all circumstances"
+        }
+      ]
+    },
+    {
+      "id": "Fur",
+      "name": "In Furtherance",
+      "sub": "S.34 PPC — act done in furtherance of common intention",
+      "step": "Element 3 of 3",
+      "atom": "Fur",
+      "operator": "",
+      "desc": "Each accused's participation must be in furtherance of the common intention. Mere presence at the scene is not enough. There must be active participation directed toward the shared goal.",
+      "legal": "Furtherance requires more than passive presence. The accused must have done something that advanced the common purpose. Standing guard, blocking escape routes, providing a weapon, or actual participation all constitute furtherance.",
+      "cite": "PLD 2001 SC 378 — mere presence insufficient. Active participation in furtherance required.",
+      "ll": "S.34 PPC — official text",
+      "section": "34",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A stands at the door of a shop while B steals inside. A does not enter and does not touch anything. Is A liable under S.34?",
+          "reveal": "Yes — standing guard is furtherance of the common intention. A's role facilitated B's theft by watching for interruption. Courts consistently hold that acting as a lookout satisfies the furtherance requirement.",
+          "cite": "S.34 PPC — furtherance includes facilitating acts"
+        },
+        {
+          "q": "A person joins a group but then has a change of heart and stands aside. They neither help nor hinder. Are they liable under S.34?",
+          "reveal": "Mere withdrawal without communication may not defeat S.34 liability if the act was already in progress. To effectively withdraw, courts have held that the person must communicate withdrawal and take steps to prevent the offence.",
+          "cite": "1981 SCMR 308 — participation and withdrawal both fact-specific"
+        },
+        {
+          "q": "The ∀ quantifier makes every group member liable. What is the logical consequence when the furtherance condition fails for one member?",
+          "reveal": "The quantifier fails for that specific member only. ∀x means for ALL x satisfying the conditions. If CI(x) ∧ Act ∧ Furtherance(x) is False for a specific x, that x is not liable — even if all other group members are.",
+          "cite": "S.34 PPC — individual liability assessed for each accused"
+        }
+      ]
+    }
+  ]
+}

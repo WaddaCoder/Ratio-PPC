@@ -1,0 +1,165 @@
+{
+  "id": "murder",
+  "name": "Murder",
+  "section": "S.299–302 PPC",
+  "formula": "Qatl ∧ Niyyat ∧ ¬Exception  →  Qatl-i-Amd (S.300/302)",
+  "operator": "∧ Conjunction + Qisas/Taʼzir Dual Regime",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "QA",
+      "name": "Qatl — Causing Death",
+      "sub": "S.299(k) PPC — death of a human being",
+      "step": "Element 1 of 5",
+      "atom": "QA",
+      "operator": "",
+      "desc": "S.299(k): Qatl means causing the death of a person. The death must be established as a fact. The accused's act must be the proximate cause of death. Remote causes or pre-existing conditions complicate this analysis.",
+      "legal": "Death must be established beyond reasonable doubt — ordinarily by medical evidence (post-mortem report, medico-legal certificate). The accused's act must be the proximate or operative cause. If a pre-existing condition combined with the accused's act, courts examine whether the act accelerated death. Pakistani courts generally apply the thin skull principle.",
+      "cite": "S.299(k) PPC — Qatl defined. Medical evidence requirement confirmed in multiple Supreme Court judgments.",
+      "ll": "S.299 PPC — definitions, official text",
+      "section": "299",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The accused stabbed the victim once. The victim survived the stab but died three weeks later of a hospital infection. Is Qatl established?",
+          "reveal": "This turns on causation. Courts apply the operating cause test — if the stab wound set in motion the chain of events leading to death, the accused may still be liable. However if the hospital infection was so extraordinary as to break the chain of causation, it may be treated as a nova causa interveniens.",
+          "cite": "S.299(k) PPC — proximate cause analysis"
+        },
+        {
+          "q": "The victim had a pre-existing heart condition. A minor assault triggered a fatal heart attack. Is Qatl established?",
+          "reveal": "Potentially yes. Pakistani courts generally follow the thin skull principle — the accused takes the victim as they find them. If the assault was the operative cause that triggered the fatal event, death is established. The pre-existing condition does not automatically break causation.",
+          "cite": "General criminal law principle — thin skull rule applied in Pakistani courts"
+        },
+        {
+          "q": "Why must death be established before examining intent? What is the logical structure of the murder analysis?",
+          "reveal": "Without proof of death there is no murder regardless of intent — the actus reus is missing. The conjunction requires all elements simultaneously but the logical sequence is: (1) death occurred, (2) the accused caused it, (3) the requisite intent existed, (4) no exception applies.",
+          "cite": "S.302 PPC — logical structure of the murder offence"
+        }
+      ]
+    },
+    {
+      "id": "Niyyat",
+      "name": "Niyyat — Intention",
+      "sub": "S.300 PPC — one of four clauses required",
+      "step": "Element 2 of 5",
+      "atom": "Niyyat",
+      "operator": "",
+      "desc": "S.300 defines when culpable homicide amounts to murder through four clauses: (1) intent to cause death; (2) intent to cause bodily injury likely to cause death; (3) intent to cause injury sufficient to cause death; (4) knowledge that the act is imminently dangerous and will most probably cause death.",
+      "legal": "Only one of the four S.300 clauses need be established. Clause (1) requires direct intent to kill — the highest mens rea. Clause (4) is the lowest threshold — knowledge of an imminently dangerous act. The clause established directly affects whether S.302(a) Qisas or S.302(b)/(c) Taʼzir applies.",
+      "cite": "S.300 PPC — four clauses elevating culpable homicide to murder. PLD 2018 SC 840 (Muhammad Qasim v. State).",
+      "ll": "S.300 PPC — official text",
+      "section": "300",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The accused fired a gun into a crowd without targeting anyone specific. Three people died. Which S.300 clause applies and why?",
+          "reveal": "Most likely S.300 Clause (4) — knowledge that the act is imminently dangerous and must in the ordinary course of nature cause death. The accused may not have intended any specific death but knew that firing into a crowd would most probably cause deaths.",
+          "cite": "S.300 Clause (4) PPC — knowledge of imminently dangerous act"
+        },
+        {
+          "q": "What is the practical difference between S.300 Clause (2) and Clause (3)?",
+          "reveal": "Clause (2): the accused intended to cause bodily injury AND knew it was likely to cause death — subjective knowledge required. Clause (3): the accused intended to cause bodily injury which was sufficient in the ordinary course to cause death — no subjective knowledge required, the standard is objective.",
+          "cite": "S.300 Clauses (2) and (3) PPC — distinction confirmed in multiple High Court judgments"
+        },
+        {
+          "q": "A person administers a substance believing it is harmless but which causes death. Which clause of S.300 applies, if any?",
+          "reveal": "Likely none — making this culpable homicide NOT amounting to murder rather than murder. Without intent to cause death (Cl.1), intent to cause likely-fatal injury (Cl.2/3), or knowledge of imminently dangerous character (Cl.4), S.300 is not satisfied. This falls under S.299 culpable homicide with a lower mens rea.",
+          "cite": "S.299 vs S.300 PPC — the crucial distinction"
+        }
+      ]
+    },
+    {
+      "id": "Qisas",
+      "name": "Qisas or Taʼzir Regime",
+      "sub": "S.302 PPC — tripartite punishment structure",
+      "step": "Element 3 of 5",
+      "atom": "Qisas",
+      "operator": "",
+      "desc": "S.302 prescribes three punishment tracks: (a) Qisas — death as retribution, requires strict proof, can be waived for Diyat; (b) Taʼzir death — where Qisas proof is unavailable; (c) Taʼzir imprisonment — up to 25 years where Qisas is not applicable in law.",
+      "legal": "Qisas under S.302(a) requires: sane adult defendant, deliberate killing, and proof by confession or qualified eyewitnesses per S.304. If Qisas proof fails, the court may still convict under S.302(b) Taʼzir using standard criminal evidence. Justice Khosa's 2015 majority judgment confirmed Qisas and Taʼzir are mutually exclusive — a court cannot award both.",
+      "cite": "Justice Khosa 3-2 majority judgment (2015) — Qisas and Taʼzir are mutually exclusive. PLD 1989 SC 633.",
+      "ll": "S.302 PPC — official text",
+      "section": "302",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The victim's heirs forgive the accused and accept Diyat. What happens to the murder conviction?",
+          "reveal": "The Qisas punishment is remitted — the accused cannot be executed under Qisas. However the state may still prosecute under S.302(b) Taʼzir. Since the 2016 amendments, honour killings under S.311 are non-compoundable — the heirs' forgiveness does not prevent Taʼzir punishment.",
+          "cite": "S.310, S.311 PPC — Diyat and fasad-fil-arz provisions. 2016 amendments on non-compoundability"
+        },
+        {
+          "q": "What is the evidentiary standard for Qisas conviction under S.302(a) vs Taʼzir under S.302(b)?",
+          "reveal": "Qisas requires two or more adult Muslim male eyewitnesses who saw the actual killing, or a valid confession. Taʼzir under S.302(b) uses standard criminal evidence — circumstantial evidence, forensics, and single eyewitness testimony can suffice if convincing beyond reasonable doubt.",
+          "cite": "S.304 PPC — Qisas proof requirements. Qanun-e-Shahadat Order 1984"
+        },
+        {
+          "q": "Why does the choice between S.302(a) and S.302(b) matter for the defence strategy?",
+          "reveal": "Under S.302(a) Qisas, challenging the eyewitness evidence or confession to a higher standard can prevent the death sentence while still allowing S.302(b) conviction. Under S.302(b) Taʼzir, the standard evidence rules apply. Defence counsel must analyse which regime is being pursued and attack the evidence accordingly.",
+          "cite": "S.302(a) vs S.302(b) PPC — strategic implications"
+        }
+      ]
+    },
+    {
+      "id": "¬Exc",
+      "name": "No General Exception",
+      "sub": "S.76–106 + S.300 Provisos — negation layers",
+      "step": "Element 4 of 5",
+      "atom": "¬Exc",
+      "operator": "",
+      "desc": "Murder has two layers of negation: the four provisos to S.300 each reduce murder to culpable homicide (lesser offence, not acquittal); and the General Exceptions in S.76-106 negate the offence entirely. Both must be considered.",
+      "legal": "S.300 Provisos 1-4 are internal negators: grave and sudden provocation (P1), act exceeding private defence (P2), public servant in discharge of duty exceeding power (P3), sudden fight without premeditation (P4). Each reduces murder to S.304 culpable homicide — the accused is convicted of a lesser charge. S.96-106 private defence negates entirely. The difference is acquittal vs lesser conviction.",
+      "cite": "S.300 Provisos 1-4 PPC — reduce murder to culpable homicide. S.96-106 — full negation and acquittal.",
+      "ll": "S.300 Provisos and S.96–106 PPC — official text",
+      "section": "300",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "What is the critical difference between a successful S.300 proviso defence and a successful S.96-106 private defence in a murder case?",
+          "reveal": "The S.300 provisos reduce the charge — the accused is still convicted but of S.304 culpable homicide not amounting to murder, which carries a lower punishment. A successful S.96-106 private defence results in complete acquittal — the accused is not guilty of any offence. The stakes of which defence succeeds could not be higher.",
+          "cite": "S.300 Provisos vs S.96-106 PPC — acquittal vs lesser conviction"
+        },
+        {
+          "q": "The accused killed under grave and sudden provocation. Apply S.300 Proviso 1 — what are the three conditions?",
+          "reveal": "Three conditions: (1) the provocation must be grave — serious enough to deprive a reasonable person of self-control; (2) it must be sudden — no time to cool; (3) the accused must not have sought or voluntarily provoked the situation. If all three are met, the charge reduces from murder to S.304 culpable homicide. Premeditation defeats the proviso entirely.",
+          "cite": "S.300 Proviso 1 PPC — grave and sudden provocation"
+        },
+        {
+          "q": "A soldier kills under orders believed to be lawful. How does S.76 (mistake of fact) interact with the murder charge?",
+          "reveal": "S.76 provides a complete defence if the soldier genuinely believed in good faith that they were bound by law to act. This negates the Niyyat element — without wrongful intent, S.300 cannot be satisfied. The key question is whether the belief was sincere and based on reasonable grounds. This is the classic S.76 Illustration (a) scenario.",
+          "cite": "S.76 PPC Illustration (a) — soldier acting under orders in good faith"
+        }
+      ]
+    },
+    {
+      "id": "¬H",
+      "name": "Honour Killing — Outcome Determination",
+      "sub": "S.311 PPC — does the killing carry the karo kari character?",
+      "step": "Overlay — Outcome Determination",
+      "atom": "¬H",
+      "operator": "",
+      "desc": "Murder is already established by Elements 1–4. This overlay determines the outcome path. The question is not guilt — it is whether the killing bears the karo kari / honour killing character under S.311. Verified against the Bare Act: S.311 applies where not all wali have waived or compounded the right of Qisas, OR where fasad-fil-arz is attracted — either trigger alone is sufficient. The court may then award Ta'zir of death, life imprisonment, or imprisonment up to fourteen years — but where the killing was committed in the name or on the pretext of honour, the proviso removes that discretion entirely and mandates imprisonment for life specifically, not a fourteen-year ceiling. If neither trigger applies and all wali have validly waived/compounded: standard murder outcome under S.309/310 governs.",
+      "legal": "S.311 PPC (verified against the Bare Act): \"Where all the wali do not waive or compound the right of qisas, or if the principle of fasad fil arz is attracted, the court may... punish an offender against whom the right of qisas has been waived or compounded with death or imprisonment for life or imprisonment of either description for a term which may extend to fourteen years as ta'zir: Provided that if the offence has been committed in the name or on the pretext of honour, the punishment shall be imprisonment for life.\" Two distinct triggers operate disjunctively: (1) incomplete waiver/compounding by all wali, or (2) fasad-fil-arz being attracted — either alone is sufficient to engage S.311. Where the honour proviso applies, the court's general discretion (death / life / up to 14 years) collapses to a single mandated outcome: life imprisonment, no more, no less.",
+      "cite": "S.311 PPC — fasad-fil-arz provision added by Criminal Law Amendment Act 2016. Confirmed in multiple post-2016 High Court judgments.",
+      "ll": "S.311 PPC — official text",
+      "section": "311",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A husband kills his wife claiming honour. The wife's family forgives him and accepts Diyat. After 2016, is he free?",
+          "reveal": "Not necessarily. The court must examine whether this constitutes fasad-fil-arz under S.311. If the killing was in the name of honour (karo kari), the court has an independent obligation to consider Taʼzir punishment regardless of the family's forgiveness. The state becomes a party to a prosecution that cannot be settled by private arrangement.",
+          "cite": "S.311 PPC — 2016 amendment making honour killings non-compoundable"
+        },
+        {
+          "q": "What is the constitutional basis for the state overriding a victim family's right to waive Qisas?",
+          "reveal": "The argument is that honour killings constitute systemic social harm — not merely a private wrong — that falls within the state's parens patriae power. The 2016 amendments reflect the legislative judgment that certain killings cause harm beyond the immediate victim-family relationship, justifying state intervention even against the heirs' wishes.",
+          "cite": "Criminal Law Amendment Act 2016 — constitutional basis discussed in post-amendment jurisprudence"
+        },
+        {
+          "q": "How does S.311 alter the logical structure of the murder formula? Where does it sit?",
+          "reveal": "S.311 prevents the Diyat acceptance (which normally negates Qisas consequences) from fully terminating the criminal proceedings. The formula becomes: if Murder established AND honour killing character found AND Diyat accepted, THEN Taʼzir still applies. The heirs' forgiveness negates Qisas but not Taʼzir. It is a partial negation only.",
+          "cite": "S.311 PPC — logical position in the murder analysis"
+        }
+      ]
+    }
+  ]
+}

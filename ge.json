@@ -1,0 +1,687 @@
+{
+  "id": "ge",
+  "name": "General Exceptions",
+  "section": "S.76–106 PPC",
+  "formula": "Liability = Offence-Formula ∧ ¬Exception",
+  "operator": "¬ Negation Layer",
+  "type": "branch",
+  "els": [
+    {
+      "id": "¬MF",
+      "name": "Mistake of Fact",
+      "sub": "S.76 / S.79 PPC — good faith, not mistake of law",
+      "step": "Exception 1 of 5",
+      "atom": "¬MF",
+      "operator": "",
+      "desc": "S.76: an act done by a person bound by law, or believing themselves bound by law, through a mistake of fact in good faith. S.79: act done in good faith believing it to be justified by law. Not mistake of law.",
+      "legal": "Good faith is the operative atom. The accused must genuinely and reasonably believe their act was lawful. Mistake of law — believing an act is legal when it is not — does not qualify. Classic illustration: a soldier who fires on orders believing it to be lawful.",
+      "cite": "S.76 PPC Illustration (a): soldier fires on mob under orders — no offence. Good faith is the operative atom.",
+      "ll": "S.76–79 PPC — official text",
+      "section": "76",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A police officer arrests the wrong person genuinely believing them to be a named fugitive. Is this wrongful confinement under S.340?",
+          "reveal": "No, if the belief was in good faith and based on reasonable grounds. S.76 protects acts done under a mistaken belief of legal obligation. The mistake of fact — identity — negates the offence.",
+          "cite": "S.76 PPC — act done by mistake of fact in good faith"
+        },
+        {
+          "q": "Does good faith under S.52 PPC require mere sincerity, or also due care and attention?",
+          "reveal": "Both. S.52 PPC defines good faith as requiring not just honesty of belief but due care and attention. A carelessly formed belief, however sincere, may not qualify.",
+          "cite": "S.52 PPC — good faith defined"
+        },
+        {
+          "q": "A person mistakenly believes a law permits them to take their neighbour's property. They act on this belief. Does S.76 or S.79 apply?",
+          "reveal": "Neither. Both sections require mistake of FACT, not mistake of LAW. Believing an act is legally permitted when it is not is a mistake of law — specifically excluded from the protection of these sections.",
+          "cite": "S.76 and S.79 PPC — mistake of fact only, not law"
+        }
+      ]
+    },
+    {
+      "id": "¬JA",
+      "name": "Judicial Act",
+      "sub": "S.77 PPC — absolute protection for judges",
+      "step": "Exception 5 of 5",
+      "atom": "¬JA",
+      "operator": "",
+      "desc": "S.77: nothing is an offence which is done by a judge when acting judicially in the exercise of any power which is, or which in good faith he believes to be, given to him by law.",
+      "legal": "S.77 provides absolute protection for judicial acts. No civil or criminal liability attaches to a judge acting within their judicial capacity. This is the cornerstone of judicial independence. The act must be judicial — administrative acts by judges do not attract this protection.",
+      "cite": "S.77 PPC — absolute judicial immunity. Foundational for judicial independence in Pakistan.",
+      "ll": "S.77 PPC — official text",
+      "section": "77",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A judge sentences an innocent person to death through gross negligence in evaluating evidence. Can the judge be criminally prosecuted?",
+          "reveal": "No — S.77 provides absolute protection for judicial acts. The sentence, however erroneous, is a judicial act. Criminal prosecution of a judge for their judicial decisions is not available under Pakistani law.",
+          "cite": "S.77 PPC — absolute protection, no exception for negligence"
+        },
+        {
+          "q": "A judge uses their official position to extort a bribe from a litigant in chambers. Is S.77 available?",
+          "reveal": "No. Extortion is not a judicial act — it is a criminal act committed using judicial office as a vehicle. S.77 protects acts done IN THE EXERCISE of judicial power. An act of corruption is not an exercise of judicial power.",
+          "cite": "S.77 PPC — protection limited to judicial acts only"
+        },
+        {
+          "q": "How does S.77 interact with the right of private defence? If a judge is attacked in court, does S.77 limit their right?",
+          "reveal": "Not at all. S.77 is a defence for judicial acts — it has no bearing on personal rights. If a judge is physically attacked, their right of private defence under S.96-106 is fully available. S.77 and S.96-106 operate in entirely separate domains.",
+          "cite": "S.77 vs S.96 PPC — different domains"
+        }
+      ]
+    },
+    {
+      "id": "¬JOrd",
+      "name": "Act Done Pursuant to Court Judgment or Order",
+      "sub": "S.78 PPC — protection for those executing judicial process",
+      "step": "Exception (Tier 2)",
+      "atom": "¬JOrd",
+      "operator": "",
+      "desc": "S.78: nothing is an offence which is done in pursuance of, or which is warranted by, the judgment or order of a Court of Justice, if done while such judgment or order remains in force — even if the Court had no jurisdiction to pass it, provided the person acting believed in good faith that the Court had such jurisdiction.",
+      "legal": "S.78 protects EXECUTORS of court orders (bailiffs, police, officers carrying out a warrant), distinct from S.77 which protects the JUDGE personally. Critically, S.78 protects even execution of a jurisdictionally defective order, so long as the executing person had a good-faith belief the court had jurisdiction — this prevents officers carrying out facially valid court orders from being criminally liable for jurisdictional defects they could not reasonably have detected.",
+      "cite": "S.78 PPC — official text. Cross-reference S.77 PPC (prior card) — S.77 protects the judge; S.78 protects those executing the judge's order.",
+      "ll": "S.78 PPC — official text",
+      "section": "78",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A police officer executes an arrest warrant issued by a Magistrate, genuinely and reasonably believing the Magistrate had jurisdiction to issue it. It later emerges the Magistrate lacked jurisdiction. Apply S.78.",
+          "reveal": "The officer is protected. S.78 explicitly extends to orders issued without jurisdiction, provided the executing person believed in good faith that the Court had jurisdiction — the officer is not required to independently verify jurisdiction before executing a facially valid order.",
+          "cite": "S.78 PPC — protection extends to good-faith execution of jurisdictionally defective orders."
+        },
+        {
+          "q": "How does S.78 differ in WHO it protects compared to S.77?",
+          "reveal": "S.77 protects the judge personally for acts done while acting judicially. S.78 protects a different actor entirely — the person executing or acting pursuant to the resulting judgment or order, such as a bailiff, police officer, or court officer carrying out the order's terms.",
+          "cite": "S.77 PPC vs S.78 PPC — judge's personal immunity vs the executing officer's protection."
+        },
+        {
+          "q": "Does S.78 protect a person who executes an order they know to have lapsed or been overturned?",
+          "reveal": "No. S.78's protection is conditioned on the order remaining 'in force' at the time of the act — execution of an order known to have expired, been set aside, or otherwise ceased to be in force falls outside the section's protection.",
+          "cite": "S.78 PPC — protection limited to execution while the judgment or order remains in force."
+        }
+      ]
+    },
+    {
+      "id": "¬Acc",
+      "name": "Accident",
+      "sub": "S.80 PPC — no intent, no knowledge, lawful act, lawful means, due care",
+      "step": "Exception (Tier 1)",
+      "atom": "¬Acc",
+      "operator": "",
+      "desc": "S.80: nothing is an offence which is done by accident or misfortune, and without any criminal intention or knowledge, in the doing of a lawful act in a lawful manner by lawful means and with proper care and caution.",
+      "legal": "S.80 is distinct from S.76/79's mistake-of-fact defences: mistake involves a false BELIEF about the facts that justifies the act; accident involves NO belief, intent, or knowledge of harm at all — the harm is genuinely unforeseen. Four conditions must ALL hold: (1) the underlying act itself was lawful, (2) done in a lawful manner, (3) by lawful means, (4) with proper care and caution. Failing any one of these four removes the defence entirely — a person doing an unlawful act, or a lawful act carelessly, cannot claim accident even if the specific harm was unforeseen.",
+      "cite": "S.80 PPC — official text. Cross-reference General Explanations S.39 ('voluntarily') — accident negates the voluntariness the offence definitions require.",
+      "ll": "S.80 PPC — official text",
+      "section": "80",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is driving within the speed limit, fully attentive, on a clear day, when a child unexpectedly darts into the road and is struck. Apply S.80's four conditions. Is A protected?",
+          "reveal": "Likely yes, if all four conditions are satisfied on the facts: driving itself is lawful, done lawfully (within rules of the road), by lawful means (a vehicle operated properly), with proper care and caution (attentive, within speed limit). The harm was genuinely unforeseeable given the child's sudden, unexpected entry. If any one condition fails — say A was speeding — S.80 is unavailable entirely, not merely reduced.",
+          "cite": "S.80 PPC — all four conditions are conjunctive; failing one defeats the defence entirely."
+        },
+        {
+          "q": "A is committing an unlawful act (driving without a license) and, despite careful driving, accidentally strikes someone. Does S.80 apply?",
+          "reveal": "No. S.80's first condition requires the underlying act itself be lawful. Driving without a license is not a lawful act, so S.80 is unavailable regardless of how carefully A drove or how unforeseeable the specific harm was.",
+          "cite": "S.80 PPC — the lawful-act requirement is a threshold condition, not a balancing factor."
+        },
+        {
+          "q": "How does S.80 (Accident) differ from S.76/79 (Mistake of Fact) in terms of the actor's state of mind?",
+          "reveal": "Mistake of Fact (S.76/79) involves the actor holding a genuine but false BELIEF that justifies the act — they think they are bound or justified by law. Accident (S.80) involves no relevant belief about harm at all — the actor isn't acting on any mistaken justification; the harmful outcome itself was simply unintended and unforeseen during an otherwise lawful, careful act.",
+          "cite": "S.80 PPC vs S.76/79 PPC — absence of any harm-related belief (Accident) vs a false justifying belief (Mistake)."
+        }
+      ]
+    },
+    {
+      "id": "¬Nec",
+      "name": "Necessity",
+      "sub": "S.81 PPC — lesser evil, no criminal intent",
+      "step": "Exception 2 of 5",
+      "atom": "¬Nec",
+      "operator": "",
+      "desc": "S.81: an act likely to cause harm but done without criminal intent and in good faith to prevent or avoid greater harm. The harm done must be less than the harm prevented. Classic lesser-evil logic.",
+      "legal": "Three conditions: the act must be done in good faith, without criminal intent, and the harm caused must be less than the harm prevented. The comparison is not merely of outcomes but of the reasonableness of the belief at the time of acting.",
+      "cite": "S.81 PPC — lesser evil logic. See also MPC S.3.02 necessity defence for comparative analysis.",
+      "ll": "S.81 PPC — official text",
+      "section": "81",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A driver swerves to avoid a child, hitting a parked car. No criminal intent. Is this necessity?",
+          "reveal": "Potentially yes — S.81 applies where harm is caused to prevent greater harm. The harm to the parked car is less than potential harm to the child. The act was in good faith without criminal intent. Civil liability may still arise — S.81 is a criminal defence only.",
+          "cite": "S.81 PPC — necessity in criminal law does not negate civil liability"
+        },
+        {
+          "q": "How does S.81 necessity differ from private defence under S.96-106?",
+          "reveal": "Private defence applies when responding to an unlawful act directed at them. Necessity applies when the threat is not from an unlawful act — it may be a natural event. Necessity is broader but has no specific proportionality rules like S.99.",
+          "cite": "S.81 vs S.96 PPC — structural distinction"
+        },
+        {
+          "q": "A person destroys property to create a firebreak and prevent a larger fire. The property owner claims mischief. Apply S.81.",
+          "reveal": "S.81 would apply — harm to the property (lesser) was caused to prevent greater harm (the larger fire) in good faith without criminal intent. Both theft and mischief charges would be negated.",
+          "cite": "S.81 PPC — lesser harm to prevent greater harm"
+        }
+      ]
+    },
+    {
+      "id": "¬Inf7",
+      "name": "Infancy — Absolute Bar",
+      "sub": "S.82 PPC — under 10 years, doli incapax",
+      "step": "Exception (Tier 1)",
+      "atom": "¬Inf7",
+      "operator": "",
+      "desc": "S.82: nothing is an offence which is done by a child under 10 years of age (as amended in 2016, raising the threshold from the original 7 years).",
+      "legal": "S.82 is an absolute, irrebuttable bar — age alone is dispositive, with no inquiry into the child's actual understanding or maturity. This reflects the doctrine of doli incapax (incapable of crime) applied categorically rather than case-by-case for this youngest age band, distinguishing it sharply from S.83's rebuttable approach for the 10–14 band. The threshold was raised from 7 to 10 years by a 2016 amendment.",
+      "cite": "S.82 PPC — official text, as amended 2016. Cross-reference S.83 (next card) — the rebuttable counterpart for ages 10–14.",
+      "ll": "S.82 PPC — official text",
+      "section": "82",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A 9-year-old, demonstrably aware that an act is wrong and intending the harm, commits an act that would otherwise be an offence. Does S.82 protect the child?",
+          "reveal": "Yes. S.82 is absolute — actual understanding, maturity, or even demonstrated awareness of wrongdoing is irrelevant. Age under 10 (per the 2016 amendment) is conclusive and unrebuttable.",
+          "cite": "S.82 PPC — categorical bar, no inquiry into actual mental capacity."
+        },
+        {
+          "q": "Why might the legislature have raised the absolute bar from 7 to 10 in 2016, rather than leaving every case to individual assessment?",
+          "reveal": "An absolute rule for the youngest band avoids litigating the mental capacity of very young children case-by-case, reflecting a categorical judgment that children below this age cannot, as a class, form the culpable mental state criminal liability requires — the 2016 amendment extended that categorical protection to a wider age band, administrative certainty being preferred over individualized inquiry up to this higher age.",
+          "cite": "S.82 PPC, as amended 2016 — categorical age-based rule, extended to age 10."
+        },
+        {
+          "q": "Does S.82 require the prosecution to prove the child lacked understanding, or does the defence simply need to prove age?",
+          "reveal": "Simply age. Once age under 10 is established, the inquiry ends — there is no further question of understanding for the prosecution to rebut, unlike S.83's regime.",
+          "cite": "S.82 PPC — age alone is the sole and sufficient fact."
+        }
+      ]
+    },
+    {
+      "id": "¬Inf12",
+      "name": "Infancy — Immature Understanding",
+      "sub": "S.83 PPC — 10 to 14 years, rebuttable",
+      "step": "Exception (Tier 1)",
+      "atom": "¬Inf12",
+      "operator": "",
+      "desc": "S.83: nothing is an offence done by a child above 10 and under 14 (as amended in 2016, raising the band from 7–12), who has not attained sufficient maturity of understanding to judge the nature and consequences of their conduct on that occasion.",
+      "legal": "Unlike S.82's absolute bar, S.83 is rebuttable and fact-specific: the child's actual maturity AT THE TIME of the specific act is the test, not age alone. The same child might be protected for one act and not another, depending on whether they understood that particular act's nature and consequences. This requires individualized evidence of the child's developmental state and understanding on the occasion in question. The 2016 amendment raised this band from 7–12 to 10–14, in step with S.82's own threshold increase.",
+      "cite": "S.83 PPC — official text, as amended 2016. Cross-reference S.82 (prior card) — the absolute bar this section's rebuttable approach is distinguished from.",
+      "ll": "S.83 PPC — official text",
+      "section": "83",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A 12-year-old commits an act, and evidence shows the child fully understood the act's nature and likely consequences at the time. Does S.83 protect the child?",
+          "reveal": "No. S.83 only protects a child who has NOT attained sufficient maturity to understand the nature and consequences of that specific conduct. Where the prosecution shows the child did understand, the defence fails, even though the child is within the 10–14 age band.",
+          "cite": "S.83 PPC — rebuttable on proof of actual understanding at the time of the act."
+        },
+        {
+          "q": "Is the relevant maturity assessed generally (is this child mature for their age overall) or specifically (did this child understand this particular act)?",
+          "reveal": "Specifically — S.83's text ties the inquiry to 'that occasion' and that conduct's nature and consequences. A child could be found to understand a simple act of theft but not understand the consequences of a more complex offence, meaning the same child's liability could differ across different alleged acts.",
+          "cite": "S.83 PPC — 'on that occasion,' an act-specific rather than general-maturity inquiry."
+        },
+        {
+          "q": "Compare S.82 and S.83's structures after the 2016 amendment. Why might the legislature have used an absolute rule for one age band and a rebuttable, evidence-based rule for the next?",
+          "reveal": "Below 10, the legislature judged categorical incapacity warranted certainty without case-by-case litigation. Between 10 and 14, children's developmental variation becomes significant enough that a blanket rule would be both under- and over-inclusive, so the law shifts to individualized proof of actual understanding — a deliberate graduated approach to the doli incapax doctrine, with both thresholds raised together by the 2016 amendment.",
+          "cite": "S.82 PPC vs S.83 PPC, both as amended 2016 — graduated approach reflecting increasing developmental variability with age."
+        }
+      ]
+    },
+    {
+      "id": "¬UM",
+      "name": "Unsound Mind",
+      "sub": "S.84 PPC — M'Naghten standard",
+      "step": "Exception 4 of 5",
+      "atom": "¬UM",
+      "operator": "",
+      "desc": "S.84: nothing is an offence done by a person of unsound mind who, at the time of doing it, was incapable of knowing the nature of the act, or that it was wrong or contrary to law. Pakistan's insanity defence.",
+      "legal": "S.84 applies the M'Naghten standard — the accused must be incapable of knowing either: (a) the nature of the act, or (b) that the act was wrong. Both limbs are alternative. The incapacity must exist AT THE TIME of the act.",
+      "cite": "M'Naghten's Case (1843) 10 Cl & F 200 — foundational for insanity defence. Applied identically in Pakistan and majority US jurisdictions.",
+      "ll": "S.84 PPC — official text",
+      "section": "84",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Pakistan's S.84 uses the M'Naghten standard. The US Model Penal Code uses a 'substantial capacity' test. What is the practical difference?",
+          "reveal": "M'Naghten is binary — the accused either knew or did not know the nature/wrongness of the act. MPC's substantial capacity test asks whether the accused lacked substantial capacity to appreciate criminality or conform conduct to law — a broader, more graduated standard.",
+          "cite": "M'Naghten (1843) vs MPC S.4.01 — comparative standard"
+        },
+        {
+          "q": "The accused was sane when they planned the crime but became acutely psychotic at the moment of execution. Does S.84 apply?",
+          "reveal": "Yes — if the incapacity existed at the time of the act. S.84 is specific: the test is the mental state AT THE MOMENT of commission. Prior sanity and subsequent sanity are irrelevant.",
+          "cite": "S.84 PPC — incapacity must exist at time of act"
+        },
+        {
+          "q": "The accused knew the physical nature of the act but claimed not to know it was legally wrong. Does S.84 apply?",
+          "reveal": "Potentially yes. S.84 has two alternative limbs: inability to know the NATURE of the act, OR inability to know it was WRONG. If the accused knew they were stabbing but was incapable of knowing this was wrong, the second limb may apply.",
+          "cite": "S.84 PPC — two alternative limbs of the insanity defence"
+        }
+      ]
+    },
+    {
+      "id": "¬IntoxInv",
+      "name": "Intoxication — Involuntary",
+      "sub": "S.85 PPC — incapacity caused against one's will",
+      "step": "Exception (Tier 1)",
+      "atom": "¬IntoxInv",
+      "operator": "",
+      "desc": "S.85: nothing is an offence done by a person who, at the time of doing it, is by reason of intoxication incapable of knowing the nature of the act, or that it is wrong/contrary to law — PROVIDED the intoxicating substance was administered without their knowledge or against their will.",
+      "legal": "S.85's defence is a full, complete defence — but it is narrowly conditioned on involuntariness: the person must have been intoxicated WITHOUT their knowledge or AGAINST their will (e.g., a drink was secretly spiked). This is structurally identical in its incapacity test to S.84's unsound-mind standard (incapable of knowing the nature of the act, or that it is wrong), but the cause of the incapacity is intoxication rather than mental illness, and critically requires the involuntariness condition that S.84 does not.",
+      "cite": "S.85 PPC — official text. Cross-reference S.84 PPC (Unsound Mind, already built) — an identical incapacity test, applied here to involuntarily-induced intoxication.",
+      "ll": "S.85 PPC — official text",
+      "section": "85",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A's drink is secretly spiked by a third party without A's knowledge. A becomes incapacitated and, while intoxicated, commits an act that would otherwise be an offence, genuinely unaware of the act's nature. Apply S.85.",
+          "reveal": "A is protected. The intoxication was administered without A's knowledge — satisfying S.85's involuntariness requirement — and A lacked the capacity to know the nature of the act, mirroring S.84's incapacity test exactly.",
+          "cite": "S.85 PPC — both the involuntariness condition and the S.84-equivalent incapacity test must be satisfied."
+        },
+        {
+          "q": "A voluntarily drinks alcohol, knowing what it is, and becomes incapacitated to the same degree as the spiked-drink scenario above. Does S.85 protect A?",
+          "reveal": "No. S.85's protection is expressly conditioned on the intoxicant being administered without the person's knowledge or against their will. A's voluntary consumption — even if A did not intend to become this incapacitated — fails this condition entirely; S.85 simply does not apply to voluntary intoxication, however severe.",
+          "cite": "S.85 PPC — involuntariness is a threshold condition, not a matter of degree of incapacity."
+        },
+        {
+          "q": "How does S.85's incapacity standard compare to S.84's Unsound Mind standard already built in this app?",
+          "reveal": "They are textually identical: incapable of knowing the nature of the act, or that it is wrong or contrary to law — the same M'Naghten-style test. The two sections share an incapacity standard but differ in cause (mental illness vs. involuntary intoxication) and, critically, S.85 carries an extra involuntariness gatekeeping condition S.84 does not need.",
+          "cite": "S.84 PPC and S.85 PPC — identical incapacity language, the involuntariness requirement being S.85's distinguishing additional element."
+        }
+      ]
+    },
+    {
+      "id": "¬IntoxVol",
+      "name": "Intoxication — Voluntary (Specific Intent Only)",
+      "sub": "S.86 PPC — narrow carve-out for offences requiring particular intent or knowledge",
+      "step": "Exception (Tier 1)",
+      "atom": "¬IntoxVol",
+      "operator": "",
+      "desc": "S.86: where an act is not an offence unless done with a particular knowledge or intent, a person who does the act in a state of voluntary intoxication is liable to be dealt with as if they had the same knowledge as they would have had if not intoxicated, UNLESS the thing causing intoxication was administered without their knowledge or against their will.",
+      "legal": "S.86 is NOT a defence in the way S.84/85 are — it is a deeming/imputation rule. Voluntary intoxication does not excuse the offence; instead, the law deems the person to have had the KNOWLEDGE they would have had sober. Critically, the section's text only addresses imputed KNOWLEDGE, not intent — Pakistani and Indian courts have historically read this narrowly, meaning voluntary intoxication can, in some circumstances, still negate a specific subjective intent requirement even though knowledge is always imputed. This is a genuinely technical, frequently-misunderstood provision: voluntary intoxication is essentially never a full defence, but it may reduce liability for offences requiring a very specific intent, by being relevant evidence on whether that specific intent was actually formed.",
+      "cite": "S.86 PPC — official text. Cross-reference S.85 PPC (prior card) — the involuntariness exception in S.86 mirrors S.85's full-defence condition.",
+      "ll": "S.86 PPC — official text",
+      "section": "86",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A voluntarily becomes heavily intoxicated and, in that state, commits an act causing death, claiming they lacked the specific intent to kill due to intoxication. Apply S.86. Is voluntary intoxication a defence to the underlying act?",
+          "reveal": "Voluntary intoxication is not a defence to the act itself — S.86 deems A to have had the knowledge A would have had sober. However, since S.86's deeming language addresses knowledge specifically, intoxication may still be relevant to whether A actually held a very specific subjective INTENT some offences require, distinct from the imputed knowledge. The practical effect is narrow and fact-specific, not a general escape from liability.",
+          "cite": "S.86 PPC — knowledge is always imputed regardless of voluntary intoxication; specific intent may remain a genuine question on the facts."
+        },
+        {
+          "q": "Compare S.85 and S.86. Why does involuntary intoxication (S.85) provide a complete defence while voluntary intoxication (S.86) provides, at most, a narrow technical argument about specific intent?",
+          "reveal": "The law treats voluntary intoxication as a state the person chose to enter, and does not allow a person to escape liability merely by self-inducing incapacity — hence S.86 imputes sober knowledge regardless. Involuntary intoxication (S.85) involves no such choice, so it is treated like unsound mind (S.84): a genuine incapacity defence.",
+          "cite": "S.85 PPC vs S.86 PPC — voluntariness of the intoxication as the dividing line between a full defence and a narrow imputation rule."
+        },
+        {
+          "q": "Does S.86 apply to all offences equally, or only to a specific category?",
+          "reveal": "S.86's text is expressly limited to offences 'not an offence except when done with a particular knowledge or intent' — i.e., offences requiring a specific mental element beyond general culpability. It does not provide any benefit, narrow or otherwise, for offences with no such specific knowledge/intent requirement.",
+          "cite": "S.86 PPC — limited in scope to offences requiring particular knowledge or intent."
+        }
+      ]
+    },
+    {
+      "id": "¬Con87",
+      "name": "Consent to Non-Fatal Harm",
+      "sub": "S.87 PPC — adult consent excludes acts not intended/known likely to cause death or grievous hurt",
+      "step": "Exception (Tier 2)",
+      "atom": "¬Con87",
+      "operator": "",
+      "desc": "S.87: an act not intended, and not known by the doer to be likely, to cause death or grievous hurt, done in good faith and without such intent/knowledge, is not an offence by reason of any harm it may cause to a person above 18 years who has consented to take the risk of that harm.",
+      "legal": "S.87 is the baseline consent rule: an adult (18+) can validly consent to risk of harm, but ONLY where the act itself was not intended or known likely to cause death or grievous hurt. This is the classic sports/games rationale — consenting to play a contact sport carries an accepted risk of ordinary injury, but consent under S.87 does not extend to acts the doer knew were likely to kill or grievously injure.",
+      "cite": "S.87 PPC and its Illustrations — official text. Cross-reference General Explanations S.90 (the vitiating-consent rules, future card) and the Hurt module's Grievous Hurt definition.",
+      "ll": "S.87 PPC and Illustrations — official text",
+      "section": "87",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Two adults agree to box under standard rules. One sustains ordinary bruising. Apply S.87.",
+          "reveal": "Protected, assuming the act was not intended or known likely to cause death or grievous hurt and was done in good faith — ordinary boxing injury within the accepted risk of the consented-to activity falls within S.87.",
+          "cite": "S.87 PPC — consented ordinary-risk activity, not intended/known likely to cause death or grievous hurt."
+        },
+        {
+          "q": "A and Z agree that A will strike Z with a weapon known to be likely to cause grievous hurt, and Z consents. Does S.87 protect A if grievous hurt results?",
+          "reveal": "No. S.87 only protects acts NOT known likely to cause death or grievous hurt. Where the act was known likely to cause grievous hurt, S.87 does not apply regardless of consent — a different, narrower exception (S.88, next card) governs acts risking death/grievous hurt done for the person's benefit.",
+          "cite": "S.87 PPC — excludes acts known likely to cause death or grievous hurt; consent alone does not extend this far."
+        },
+        {
+          "q": "Does S.87 protect a 16-year-old's consent to risk of ordinary harm?",
+          "reveal": "No. S.87 specifically requires the consenting person be above 18 years of age. A minor's purported consent does not satisfy S.87 — separate, more limited provisions (S.89, S.90's child-consent rule) govern consent involving minors.",
+          "cite": "S.87 PPC — the 18-year age threshold is an explicit, non-negotiable condition."
+        }
+      ]
+    },
+    {
+      "id": "¬Con88",
+      "name": "Consent to Risk of Death/Grievous Hurt for the Person's Benefit",
+      "sub": "S.88 PPC — good-faith acts for the consenting person's own benefit",
+      "step": "Exception (Tier 2)",
+      "atom": "¬Con88",
+      "operator": "",
+      "desc": "S.88: an act not intended to cause death, done in good faith for the benefit of a person who has consented to take the risk of that act, is not an offence by reason of any harm it may cause, or be intended by the doer to cause, or be known by the doer to be likely to cause, to that person.",
+      "legal": "S.88 is the surgery/medical-treatment provision: it extends consent's protection further than S.87 — covering acts even KNOWN LIKELY to cause harm (such as the pain and risk of surgery) — provided three conditions hold: the act was not intended to cause DEATH specifically, it was done in good faith, and it was for the consenting person's own benefit. This is what makes a surgeon's consented operation lawful even though the surgeon knows the operation will cause harm (the incision itself) and carries risk.",
+      "cite": "S.88 PPC — official text. Cross-reference S.87 PPC (prior card) — S.88 extends protection to known-likely harm (but never intended death) for the person's own benefit specifically.",
+      "ll": "S.88 PPC — official text",
+      "section": "88",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A surgeon performs a consented operation on Z, knowing the operation carries real risk of serious harm and will definitely cause the pain/harm of the incision itself, done in good faith for Z's benefit. Apply S.88.",
+          "reveal": "Protected. S.88 covers acts known likely to cause harm (not merely risked, but known likely), provided the act was not intended to cause death, was done in good faith, and was for the consenting person's own benefit — exactly the surgical scenario.",
+          "cite": "S.88 PPC — known-likely harm protected where not intended to cause death, done in good faith, for the patient's benefit."
+        },
+        {
+          "q": "How does S.88 differ from S.87 in the degree of harm it can excuse?",
+          "reveal": "S.87 only excuses harm NOT known likely to occur (ordinary accepted risk). S.88 goes further, excusing harm the doer actually KNOWS is likely to occur — but narrows the purpose requirement to acts done specifically for the consenting person's own benefit, and categorically excludes any act intended to cause death.",
+          "cite": "S.87 PPC vs S.88 PPC — S.88 permits known-likely harm but only for the person's benefit and never intending death."
+        },
+        {
+          "q": "A performs an act on Z, with Z's consent, intending to cause Z's death as an act of mercy. Does S.88 protect A?",
+          "reveal": "No. S.88 explicitly excludes acts intended to cause death — this exclusion is absolute and is the textual basis on which Pakistani law does not recognise consent as a defence to what would otherwise be euthanasia.",
+          "cite": "S.88 PPC — 'not intended to cause death' is an absolute exclusion, regardless of the consenting person's own wishes."
+        }
+      ]
+    },
+    {
+      "id": "¬Con89",
+      "name": "Act for Benefit of a Child or Person of Unsound Mind, by Consent of Guardian",
+      "sub": "S.89 PPC — guardian-consent for those who cannot consent themselves",
+      "step": "Exception (Tier 2)",
+      "atom": "¬Con89",
+      "operator": "",
+      "desc": "S.89: an act done in good faith for the benefit of a person under 12 years of age, or of unsound mind, by or with the consent of the guardian or other person having lawful charge of that person, is not an offence by reason of any harm it may cause or be intended/known likely to cause — SUBJECT to express exceptions: it does not extend to intentionally causing death or attempting to cause death; to doing anything known by the doer to be likely to cause death, for a purpose other than preventing death or grievous hurt or curing a grievous disease/infirmity; to causing grievous hurt or attempting to/known likely to, unless for the same preventing/curing purpose; or to abetting an offence by such person.",
+      "legal": "S.89 supplies the consent mechanism where the protected person (a child under 12, or a person of unsound mind) cannot validly consent for themselves — the guardian consents on their behalf. The four provisos sharply limit this: intentional killing is never excused; conduct known likely to cause death is excused ONLY where the purpose is preventing death/grievous hurt or curing a grievous disease (the classic risky-but-necessary medical treatment scenario); the same logic applies to grievous hurt; and a guardian's consent can never excuse the protected person being used to commit an offence against someone else.",
+      "cite": "S.89 PPC and its provisos — official text. Cross-reference S.82/S.83 (Infancy cards) — this section's under-12 threshold versus those sections' own age thresholds for criminal responsibility, two distinct age-based rules serving different purposes.",
+      "ll": "S.89 PPC — official text",
+      "section": "89",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A guardian consents, on behalf of a 6-year-old, to a risky but medically necessary surgery intended to cure a grievous illness, known to carry a risk of death. Apply S.89.",
+          "reveal": "Protected. This falls within S.89's proviso permitting acts known likely to cause death where the purpose is curing a grievous disease or infirmity — exactly the necessary-but-risky medical treatment scenario the section is designed to cover.",
+          "cite": "S.89 PPC proviso — known-likely-death acts excused only for the specific purpose of preventing death/grievous hurt or curing grievous disease."
+        },
+        {
+          "q": "A guardian consents to an act intended to cause the death of the child in their charge. Apply S.89.",
+          "reveal": "Not protected. S.89's first proviso is absolute: the section never extends to intentionally causing death or attempting to do so, regardless of the guardian's consent or stated purpose.",
+          "cite": "S.89 PPC, first proviso — intentional killing is an absolute exclusion, not subject to any guardian consent."
+        },
+        {
+          "q": "Can a guardian's consent under S.89 excuse the protected child being used as an instrument to commit an offence against a third party?",
+          "reveal": "No. S.89's final proviso explicitly excludes abetment of an offence by the protected person — guardian consent under this section operates only to protect the CHILD/protected person from liability for harm done TO them, never to authorize using them to harm others.",
+          "cite": "S.89 PPC, final proviso — guardian consent cannot extend to abetting the protected person's commission of an offence against someone else."
+        }
+      ]
+    },
+    {
+      "id": "¬S90",
+      "name": "Vitiating Consent — Fear, Misconception, Infancy, Insanity",
+      "sub": "S.90 PPC — when apparent consent is not legally valid consent",
+      "step": "Exception (Tier 2)",
+      "atom": "¬S90",
+      "operator": "",
+      "desc": "S.90: a consent is not such consent as is intended by any section of this Code if given by a person under fear of injury or under a misconception of fact, and the person doing the act knows or has reason to believe the consent was so given; or if given by a person of unsound mind or intoxicated, unable to understand the nature/consequences of that to which they give consent; or if given by a child under 12 years of age — unless a contrary intention appears.",
+      "legal": "S.90 is the GATEKEEPING provision underlying every other consent-based exception in this cluster (S.87, S.88, S.91, S.92's negative implication) — it defines what does NOT count as valid consent in the first place. Three vitiating categories: (1) consent obtained through fear of injury or misconception of fact, where the actor knew or had reason to believe this — mirroring the General Explanations S.26 'reason to believe' standard already built; (2) consent from someone unable to understand the nature/consequences due to unsoundness of mind or intoxication; (3) consent from a child under 12. Apparent agreement that falls into any of these categories is treated in law as NO consent at all.",
+      "cite": "S.90 PPC — official text. Cross-reference General Explanations S.26 ('reason to believe') — the same objective standard governing the actor's knowledge that consent was vitiated by fear or misconception.",
+      "ll": "S.90 PPC — official text",
+      "section": "90",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Z agrees to an act only because A has threatened Z with injury if Z refuses. A knows this is why Z agreed. Apply S.90.",
+          "reveal": "Z's apparent consent is not valid consent under S.90, since it was given under fear of injury and A knew (or had reason to believe) this was the reason for the agreement. Any later reliance on 'Z consented' as a defence fails — in law, there was no consent at all.",
+          "cite": "S.90 PPC, first limb — consent given under fear of injury, known to the actor, is not consent."
+        },
+        {
+          "q": "A obtains Z's agreement to a procedure by deliberately misleading Z about a material fact relevant to the decision. Z would not have agreed had Z known the truth. Apply S.90.",
+          "reveal": "Z's apparent consent is not valid consent — it was given under a misconception of fact A induced (or knew to exist), falling within S.90's first limb's second branch. The agreement is legally treated as no consent.",
+          "cite": "S.90 PPC, first limb — consent given under misconception of fact, known to the actor, is not consent."
+        },
+        {
+          "q": "An 11-year-old purports to consent to an act that would otherwise rely on S.87's adult-consent protection. Apply S.90's third limb together with S.87's own 18-year threshold.",
+          "reveal": "The child's purported consent fails twice over: S.90 expressly states consent from a child under 12 is not valid consent at all, and separately S.87 itself requires the consenting person be above 18. Either provision independently defeats reliance on the child's agreement as valid consent.",
+          "cite": "S.90 PPC, third limb, read together with S.87 PPC's own independent 18-year threshold — two separate textual bars to a child's purported consent."
+        }
+      ]
+    },
+    {
+      "id": "¬Con91",
+      "name": "Exclusion of Acts That Are Independently Offences",
+      "sub": "S.91 PPC — consent does not excuse harm to the public or persons other than the consenter",
+      "step": "Exception (Tier 2)",
+      "atom": "¬Con91",
+      "operator": "",
+      "desc": "S.91: the exceptions in S.87, S.88, and S.89 do not extend to acts which are offences independently of any harm which they may cause, or be intended to cause, or be known to be likely to cause, to the person giving consent or on whose behalf consent is given.",
+      "legal": "S.91 closes a potential loophole: S.87-89 excuse harm done TO the consenting person specifically. But if the underlying act is independently criminal for some OTHER reason (e.g., it harms public order, breaches a separate statutory prohibition, or harms third parties) — quite apart from the harm to the consenter — consent does not excuse that independent wrong. The Code's own Illustration involves causing miscarriage: even where this would otherwise fall under consent-based protection regarding harm to the woman, it remains independently an offence under the separate miscarriage provisions (cross-reference Isqat-i-Haml, S.338 et seq, already built) unless those provisions' own specific conditions are independently met.",
+      "cite": "S.91 PPC and its Illustration — official text. Cross-reference Isqat module S.338-338C (already built) — the Code's own example of an independently-criminal act not excused merely by the woman's consent regarding harm to herself.",
+      "ll": "S.91 PPC and Illustration — official text",
+      "section": "91",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A performs an act on Z with Z's full, valid consent. The act, quite apart from any harm to Z, also independently violates a separate prohibition protecting public order. Apply S.91.",
+          "reveal": "Z's consent does not excuse the act. S.91 confirms that S.87-89's consent-based exceptions only ever address harm to the consenting person — they do not extend to acts that are independently offences for reasons unrelated to that harm, such as harm to the public or to third parties.",
+          "cite": "S.91 PPC — consent-based exceptions confined strictly to harm to the consenting person; independent wrongs are unaffected."
+        },
+        {
+          "q": "Apply S.91's own Illustration regarding causing miscarriage. Why does a woman's consent to a procedure not automatically excuse it under S.87/88, even though the harm is primarily to her own body?",
+          "reveal": "The Code's own Illustration confirms causing miscarriage 'is an offence independently of any harm which it may cause or be intended to cause to the woman' — meaning the specific, separately-defined offence (the Isqat-i-Haml framework) governs regardless of her consent to risk harm to herself, because the act is independently criminalised for reasons beyond her personal bodily autonomy (the law's separate interest in the unborn child). S.91 ensures the general consent exceptions cannot be used to bypass this more specific, independently-grounded prohibition.",
+          "cite": "S.91 PPC Illustration, cross-referenced with the Isqat module's own framework — consent to personal risk does not excuse an act independently criminalised for separate reasons."
+        }
+      ]
+    },
+    {
+      "id": "¬Con92",
+      "name": "Good-Faith Act for Benefit, Without Consent",
+      "sub": "S.92 PPC — emergency action where consent could not be obtained",
+      "step": "Exception (Tier 2)",
+      "atom": "¬Con92",
+      "operator": "",
+      "desc": "S.92: an act done in good faith for the benefit of a person, even without that person's consent, is not an offence by reason of any harm it may cause, if the circumstances are such that it is impossible for the person to signify consent, or they are incapable of giving consent and have no guardian from whom it is possible to obtain consent in time for the thing to be done with benefit — subject to provisos largely mirroring S.89's (no intentional killing, death/grievous-hurt-risking acts only for preventing death/grievous hurt or curing grievous disease, no abetment of an offence).",
+      "legal": "S.92 is the unconscious-patient/emergency provision — the classic case is emergency surgery on someone brought to hospital unconscious, where there is no time to obtain consent and delay would itself cause harm. Unlike S.89 (guardian consents on behalf of someone who cannot consent themselves), S.92 covers situations where there is NO ONE available to consent at all — not even a guardian — and obtaining consent before acting is impossible given the urgency. The provisos mirror S.89's closely, maintaining the same absolute bar on intentional killing and the same narrow death/grievous-hurt-risk exception limited to genuinely necessary, curative purposes.",
+      "cite": "S.92 PPC and its provisos — official text. Cross-reference S.89 PPC (prior card) — the closely parallel provisos, with S.92 distinguished by the complete absence of any available consenting party rather than the consenter's incapacity addressed by a guardian.",
+      "ll": "S.92 PPC — official text",
+      "section": "92",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An unconscious accident victim is brought to a hospital with no family present and no time to locate a guardian. A surgeon performs emergency, genuinely necessary surgery in good faith to save the patient's life, without obtaining anyone's consent. Apply S.92.",
+          "reveal": "Protected. The patient was incapable of consenting, no guardian was available in time, and the act was done in good faith for the patient's benefit under genuine emergency circumstances — precisely the scenario S.92 is designed to cover.",
+          "cite": "S.92 PPC — emergency action for an incapacitated person's benefit, where no one was available to consent in time."
+        },
+        {
+          "q": "How does S.92 differ from S.89 in terms of WHO would otherwise need to consent?",
+          "reveal": "S.89 covers situations where a guardian IS available and DOES consent on behalf of a child or person of unsound mind. S.92 covers the situation where NO ONE is available to consent at all — neither the affected person (incapable or unable to signify) nor any guardian who could be reached in time — making the good-faith benefit-based act lawful even absent any actual consent from anyone.",
+          "cite": "S.92 PPC vs S.89 PPC — S.89 requires actual guardian consent; S.92 applies precisely because no such consent could be obtained from anyone in time."
+        },
+        {
+          "q": "Do S.92's provisos (no intentional killing, narrow death/grievous-hurt-risk exception) mirror S.89's provisos closely?",
+          "reveal": "Yes, closely. S.92's provisos largely parallel S.89's: intentional killing is never excused; acts known likely to cause death are excused only for the purpose of preventing death/grievous hurt or curing a grievous disease/infirmity; the same restriction applies to grievous hurt; and the section cannot be used to abet an offence by the protected person. The structural symmetry reflects that both sections address the same underlying concern (acting for the benefit of someone who cannot themselves validly consent) through closely related, similarly-limited mechanisms.",
+          "cite": "S.92 PPC and S.89 PPC — closely parallel proviso structures reflecting their shared underlying purpose."
+        }
+      ]
+    },
+    {
+      "id": "¬Comm93",
+      "name": "Communication Made in Good Faith",
+      "sub": "S.93 PPC — truthful disclosure causing harm is not an offence",
+      "step": "Exception (Tier 3)",
+      "atom": "¬Comm93",
+      "operator": "",
+      "desc": "S.93: no communication made in good faith is an offence by reason of any harm caused to the person to whom it is made, if it is made for that person's benefit.",
+      "legal": "S.93 protects a narrow but important scenario: telling someone a hard truth, in good faith and for their benefit, even where the disclosure itself causes harm (shock, distress) does not constitute an offence. The Code's own Illustration is a doctor honestly informing a patient their condition is incurable, even though the news causes the patient's death from the shock — the doctor's good-faith, benefit-directed communication is protected despite the fatal outcome.",
+      "cite": "S.93 PPC and its Illustration — official text. Cross-reference S.88/S.92 (Consent cluster, already built) — the same good-faith-for-benefit logic applied here specifically to communications rather than physical acts.",
+      "ll": "S.93 PPC and Illustration — official text",
+      "section": "93",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A surgeon, in good faith, truthfully informs a patient that their illness is incurable. The shock of the news causes the patient's death. Apply S.93's own Illustration.",
+          "reveal": "This is the Code's own Illustration directly: 'A, a surgeon, in good faith, communicates to a patient his opinion that he cannot live. The patient dies in consequence. A has committed no offence, though he knew it likely that the communication might cause the patient's death.' The surgeon is fully protected.",
+          "cite": "S.93 PPC Illustration — truthful, good-faith, benefit-directed disclosure protected even where death results from the shock of the news."
+        },
+        {
+          "q": "Does S.93 require the communication to actually benefit the recipient in outcome, or merely to be made with that purpose in good faith?",
+          "reveal": "The text requires the communication be 'made for the benefit of that person' and made 'in good faith' — the focus is on the maker's good-faith purpose and the communication's benefit-directed character, not on whether the recipient's situation actually improved as a result. The doctor's Illustration itself shows the outcome (death) was the opposite of beneficial, yet the section still applies.",
+          "cite": "S.93 PPC — good faith and benefit-directed purpose at the time of communication, not a guaranteed beneficial outcome."
+        },
+        {
+          "q": "How does S.93 relate structurally to S.88's protection of good-faith acts known likely to cause harm for a person's benefit?",
+          "reveal": "S.93 extends the identical underlying logic from physical acts to mere communications: just as S.88 protects a doctor's surgical incision (a physical act known likely to cause harm, done in good faith for the patient's benefit), S.93 protects the doctor's words (a communication known likely to cause harm, done in good faith for the patient's benefit). Both sections share the same good-faith-for-benefit architecture, applied to different categories of conduct.",
+          "cite": "S.93 PPC and S.88 PPC — the same good-faith-for-benefit structure applied respectively to communications and physical acts."
+        }
+      ]
+    },
+    {
+      "id": "¬Duress",
+      "name": "Compulsion by Threats (Duress)",
+      "sub": "S.94 PPC — except murder and offences against the State punishable with death",
+      "step": "Exception (Tier 1)",
+      "atom": "¬Duress",
+      "operator": "",
+      "desc": "S.94: except for murder, and offences against the State punishable with death, nothing is an offence done by a person compelled by threats which, at the time of doing the act, reasonably caused the apprehension of instant death to that person — provided the person did not, of their own accord or from reasonable apprehension of harm short of instant death, place themselves in the situation enabling them to be subjected to such compulsion.",
+      "legal": "S.94 has a narrow trigger and two express exclusions. The threat must specifically cause apprehension of INSTANT death — not future harm, not harm to a third party, not lesser injury. The two carve-outs (murder; offences against the State punishable with death) are absolute — duress is never available no matter how severe the threat for these offences. There is also a self-induced-jeopardy bar: a person who voluntarily joined an enterprise they knew might expose them to such compulsion cannot later claim S.94.",
+      "cite": "S.94 PPC and its Illustration — official text. Cross-reference Murder module (S.302) — the express carve-out confirming duress is never a defence to Qatl-i-Amd.",
+      "ll": "S.94 PPC and Illustration — official text",
+      "section": "94",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is threatened with instant death unless A assists in committing theft. A complies, reasonably believing the threat genuine and imminent. Apply S.94.",
+          "reveal": "S.94 likely protects A, since theft is not murder or an offence against the State punishable with death, and the threat was of instant death, reasonably apprehended, with no indication A voluntarily entered the compelling situation.",
+          "cite": "S.94 PPC — instant-death threat, non-excluded offence, no self-induced jeopardy."
+        },
+        {
+          "q": "A is threatened with instant death unless A commits murder. A complies. Apply S.94's express exclusion.",
+          "reveal": "S.94 does not protect A. Murder is expressly and absolutely excluded from this defence regardless of the threat's severity or genuineness — the section's opening words carve it out entirely.",
+          "cite": "S.94 PPC — murder is an absolute exclusion, not merely a heavily weighted factor."
+        },
+        {
+          "q": "A voluntarily joins a criminal gang, aware that members are sometimes coerced into further crimes under threat of violence from the gang's leadership. A is later threatened with instant death unless A commits an offence. Can A invoke S.94?",
+          "reveal": "Likely not. S.94's proviso bars the defence where the person 'of their own accord, or by reason of a threat of being beaten, joined' the situation enabling the compulsion. A's voluntary, knowing entry into a gang with awareness of this risk likely falls within this self-induced-jeopardy bar.",
+          "cite": "S.94 PPC proviso — voluntary or foreseeably-risky entry into the compelling situation defeats the defence."
+        }
+      ]
+    },
+    {
+      "id": "¬Triv95",
+      "name": "Act Causing Slight Harm (Trifling Acts)",
+      "sub": "S.95 PPC — de minimis, harm so slight no person of ordinary sense would complain",
+      "step": "Exception (Tier 3)",
+      "atom": "¬Triv95",
+      "operator": "",
+      "desc": "S.95: nothing is an offence by reason that it causes, or is intended to cause, or is known to be likely to cause, any harm, if that harm is so slight that no person of ordinary sense and temper would complain of it.",
+      "legal": "S.95 is the Code's de minimis provision — the law does not concern itself with genuinely trifling harm. The standard is objective: not whether THIS particular complainant was bothered, but whether a person of ORDINARY sense and temper would complain. This protects against criminalising the ordinary frictions of daily life (an accidental minor jostle, a trivial inconvenience) where pursuing the matter as a criminal offence would be disproportionate to the triviality of the harm itself.",
+      "cite": "S.95 PPC — official text.",
+      "ll": "S.95 PPC — official text",
+      "section": "95",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, while passing through a crowded space, accidentally and lightly brushes against Z, causing momentary, trivial inconvenience that any ordinary person would simply shrug off. Apply S.95.",
+          "reveal": "Protected. This is precisely the kind of slight harm S.95 is designed to exclude from criminal liability — harm so minor that no person of ordinary sense and temper would complain of it, regardless of whether this particular Z happened to be unusually sensitive.",
+          "cite": "S.95 PPC — objective ordinary-person standard, not the particular complainant's own sensitivity."
+        },
+        {
+          "q": "Is the S.95 standard subjective (would this particular victim complain) or objective (would an ordinary person complain)?",
+          "reveal": "Objective. The text specifically refers to 'a person of ordinary sense and temper' — an unusually sensitive complainant cannot expand S.95's narrow scope by their own heightened reaction, and conversely an unusually thick-skinned complainant's tolerance does not shrink the protection available to others facing genuinely non-trivial harm.",
+          "cite": "S.95 PPC — an objective 'ordinary sense and temper' standard, independent of the actual complainant's own sensitivity."
+        },
+        {
+          "q": "Does S.95 apply where the harm was intended or known likely, or only where it was purely accidental?",
+          "reveal": "S.95 applies regardless of the actor's mental state regarding the harm — its text covers harm that 'causes, or is intended to cause, or is known to be likely to cause' the relevant harm. Even deliberately intended harm falls within S.95's protection, provided the harm itself is genuinely slight enough that no ordinary person would complain — the section is about the triviality of the HARM, not the innocence of the actor's state of mind.",
+          "cite": "S.95 PPC — applies regardless of intent/knowledge, since the operative test is the objective slightness of the harm itself."
+        }
+      ]
+    },
+    {
+      "id": "¬PDBody",
+      "name": "Private Defence of the Body",
+      "sub": "S.97, S.100–102 PPC — the body-defence ladder",
+      "step": "Exception (Tier 1)",
+      "atom": "¬PDBody",
+      "operator": "",
+      "desc": "S.97 grants the right to defend one's own body and another's body against any offence affecting the body. S.100 lists six circumstances in which the right extends to causing death: assault reasonably causing apprehension of death; assault reasonably causing apprehension of grievous hurt; assault with intent to commit rape; assault with intent to gratify unnatural lust; assault with intent to kidnap or abduct; assault with intent to wrongfully confine under circumstances giving reasonable apprehension of inability to seek public authority. S.102 fixes commencement (reasonable apprehension of danger) and continuance (so long as the apprehension continues) of the right.",
+      "legal": "S.100's six circumstances are an EXHAUSTIVE list — death may only be caused in private defence of the body within one of these six categories; outside them, S.101 caps the response at harm other than death. S.102 is critical and frequently misunderstood: the right begins at reasonable apprehension of danger (not at the moment the attack actually starts) but ends the moment that apprehension ceases (not when the attacker is fully disabled or has fled completely) — striking a retreating, no-longer-threatening attacker exceeds the right.",
+      "cite": "S.97, S.100, S.101, S.102 PPC — official text.",
+      "ll": "S.97, S.100–102 PPC — official text",
+      "section": "97",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Z assaults A with a clear intent to commit rape. A, defending, causes Z's death. Apply S.100.",
+          "reveal": "Protected. Assault with intent to commit rape is expressly the third of S.100's six listed circumstances justifying death in defence of the body.",
+          "cite": "S.100, third circumstance — assault with intent to commit rape."
+        },
+        {
+          "q": "Z slaps A once, with no weapon and no apprehension of further serious harm. A, in response, kills Z. Apply S.100.",
+          "reveal": "Not protected for the killing. A single slap, absent reasonable apprehension of death or grievous hurt or any of S.100's other five circumstances, does not justify causing death — S.101 would cap any defensive response at harm short of death.",
+          "cite": "S.100 PPC — exhaustive list; ordinary assault without escalating apprehension does not qualify."
+        },
+        {
+          "q": "Z attacks A. A defends and disables Z, who then turns and begins fleeing. A pursues and strikes the fleeing Z. Apply S.102.",
+          "reveal": "The right has likely ended. S.102 ties continuance of the right to the continuance of reasonable apprehension of danger — once Z is fleeing and no longer poses a threat, A's apprehension should reasonably have ceased, and further force exceeds the right.",
+          "cite": "S.102 PPC — the right ends when reasonable apprehension ends, not merely when the attacker is disabled."
+        }
+      ]
+    },
+    {
+      "id": "¬PDProp",
+      "name": "Private Defence of Property",
+      "sub": "S.97, S.103–105 PPC — the property-defence ladder",
+      "step": "Exception (Tier 1)",
+      "atom": "¬PDProp",
+      "operator": "",
+      "desc": "S.97 also grants the right to defend property — one's own or another's — against theft, robbery, mischief, or criminal trespass. S.103 lists four circumstances justifying death in defence of property: robbery; house-breaking by night; mischief by fire on a building/tent/vessel used as human dwelling or property-custody; theft, mischief, or house-trespass under circumstances reasonably causing apprehension that death or grievous hurt will follow if the right is not exercised. S.105 fixes commencement and continuance for property — generally tied to the continuance of the offence itself (theft, robbery, etc.), with a special rule for house-breaking by night extending the right until the house-breaker's retreat.",
+      "legal": "S.103's four circumstances are a SEPARATE, SHORTER exhaustive list from S.100's six body-defence circumstances — the property list is narrower, reflecting that property loss is generally treated as less grave than bodily harm, with death justified only in these specific, mostly violent-property-crime scenarios. House-breaking specifically must be BY NIGHT to qualify under S.103(2) — daytime house-breaking does not, on its own, justify deadly force, though it may fall under the fourth, broader circumstance if it independently creates apprehension of death or grievous hurt.",
+      "cite": "S.97, S.103, S.104, S.105 PPC — official text. Cross-reference S.100 (prior card) — the parallel but distinct body-defence list.",
+      "ll": "S.97, S.103–105 PPC — official text",
+      "section": "97",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Z breaks into A's house at night. A, in defending the property, kills Z. Apply S.103.",
+          "reveal": "Protected. House-breaking by night is expressly the second of S.103's four circumstances justifying death in defence of property.",
+          "cite": "S.103, second circumstance — house-breaking by night."
+        },
+        {
+          "q": "Z breaks into A's house in broad daylight while A is away, taking property but using no violence and creating no apprehension of harm to any person. A returns, confronts Z, and kills Z. Apply S.103.",
+          "reveal": "Likely not protected for the killing. Daytime house-breaking is not itself one of S.103's listed circumstances (only house-breaking BY NIGHT qualifies under the second limb), and absent any reasonable apprehension of death or grievous hurt (the fourth, catch-all circumstance), S.104 would cap the permissible response at harm short of death.",
+          "cite": "S.103 PPC — night-specific qualifying language; daytime house-breaking alone does not satisfy the second circumstance."
+        },
+        {
+          "q": "How does S.105's commencement/continuance rule for property differ from S.102's rule for the body?",
+          "reveal": "S.105 generally ties the right to the continuance of the property offence itself (theft, robbery, etc. — the right continues as long as the offender is committing or attempting the offence), with a specific extension for house-breaking by night allowing the right to continue until the house-breaker effects their retreat — a broader continuance than the body-defence rule's strict apprehension-based cutoff under S.102.",
+          "cite": "S.105 PPC vs S.102 PPC — property defence's continuance rules track the underlying offence's duration, with a specific night-house-breaking extension."
+        }
+      ]
+    },
+    {
+      "id": "¬PDLimit",
+      "name": "Private Defence — Limitations and the Innocent Bystander Rule",
+      "sub": "S.99, S.106 PPC — the four restrictions and the bystander-risk rule",
+      "step": "Exception (Tier 1)",
+      "atom": "¬PDLimit",
+      "operator": "",
+      "desc": "S.99 sets four limitations on the right of private defence: (1) no right against acts of a public servant acting in good faith under colour of office, even if not strictly justifiable, unless reasonable apprehension of death/grievous hurt; (2) similarly no right against acts done under a public servant's direction; (3) no right where there is time to have recourse to public authorities; (4) the right does not extend to causing more harm than is necessary for the purpose of defence. S.106 confirms that if the defender cannot exercise the right without risk of harm to an innocent person, the right is not lost on that account.",
+      "legal": "S.99's fourth limitation — proportionality — is the most frequently litigated: harm exceeding what was necessary converts a lawful defensive act into an excess of the right, often reducing what would have been a complete defence into only a partial mitigation (e.g., Qatl-i-Amd reduced via the Qisas/Diyat framework rather than a complete acquittal). S.106 is narrow: it permits incidental, unavoidable risk to bystanders (e.g., firing at an attacker in a crowd) but does NOT permit deliberately using an innocent person as a shield or target.",
+      "cite": "S.99, S.106 PPC — official text. Cross-reference General Explanations S.21 (public servant) — relevant to S.99's first two limitations.",
+      "ll": "S.99, S.106 PPC — official text",
+      "section": "99",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A has ample time and opportunity to call for police assistance during an ongoing but non-urgent property dispute, but instead resorts immediately to forceful self-help. Apply S.99's third limitation.",
+          "reveal": "The right of private defence is likely unavailable, since S.99's third limitation removes the right where there was time to have recourse to the protection of public authorities. Immediate forceful self-help when lawful alternatives were genuinely available exceeds the right.",
+          "cite": "S.99 PPC, third limitation — availability of public-authority recourse defeats the right."
+        },
+        {
+          "q": "Z attacks A with bare hands. A responds by inflicting grossly disproportionate, life-threatening harm far beyond what was needed to repel the attack. Apply S.99's fourth limitation.",
+          "reveal": "A has exceeded the right of private defence. S.99's fourth limitation caps the response at what is necessary for the purpose of defence — disproportionate force beyond that necessity is not protected, even though some defensive response was justified.",
+          "cite": "S.99 PPC, fourth limitation — proportionality as a hard cap on the otherwise-available right."
+        },
+        {
+          "q": "A, lawfully exercising the right of private defence by firing at an armed attacker in a crowded area, risks and in fact causes harm to a bystander. Apply S.106.",
+          "reveal": "S.106 confirms A does not lose the right of private defence merely because exercising it created risk to an innocent bystander, provided the defence could not otherwise be effectively exercised. This does not extend to deliberately using the bystander as a shield or target — only to genuinely incidental, unavoidable risk.",
+          "cite": "S.106 PPC — incidental bystander risk does not defeat the right, but deliberate targeting of an innocent person is not protected."
+        }
+      ]
+    }
+  ]
+}
