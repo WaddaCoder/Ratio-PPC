@@ -1,0 +1,134 @@
+{
+  "id": "stages",
+  "name": "Stages of Crime",
+  "section": "Foundational Doctrine",
+  "formula": "Intention → Preparation → Attempt → Commission",
+  "operator": "Progressive Stages",
+  "type": "accordion",
+  "els": [
+    {
+      "id": "St1",
+      "name": "Intention",
+      "sub": "Stage 1 — purely mental, not punishable",
+      "step": "Stage 1 of 4",
+      "atom": "St1",
+      "operator": "",
+      "desc": "Formation of the idea or intention to commit a crime. This is purely a mental stage. The law does not punish a person merely for thinking or intending to commit a crime. Thoughts cannot be proved, and punishing thoughts would violate personal freedom.",
+      "legal": "The non-punishability of mere intention reflects both a practical and a principled position. Practically: thoughts are unverifiable and unprovable. Principally: criminalising thought is incompatible with personal autonomy and the presumption of innocence. A person may form and abandon criminal intentions many times without any social harm occurring.",
+      "cite": "Stage 1 — Intention not punishable. Foundational principle of PPC criminal jurisprudence. No PPC provision punishes mere intention alone.",
+      "ll": "PPC criminal liability framework — official text",
+      "section": "",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "If intention is not punishable, what prevents a person from announcing they intend to kill someone and then doing it? Is there no legal response at all?",
+          "reveal": "There are responses short of criminalising bare intention. A threat to kill may constitute an offence under S.506 PPC (criminal intimidation) — not punishing the intention but punishing the communication of the threat. Courts can also issue preventive detention orders under CrPC S.107-109 where a person is likely to commit a breach of the peace. The law responds to communicated threats; it cannot respond to unexpressed intentions.",
+          "cite": "S.506 PPC criminal intimidation. CrPC S.107–109 preventive orders"
+        },
+        {
+          "q": "Two people make an agreement to commit robbery in the future. No act has been taken. Is there a punishable stage reached?",
+          "reveal": "Yes — criminal conspiracy under S.120-A PPC. An agreement between two or more persons to commit an illegal act is punishable as criminal conspiracy even without any further act being taken. This is an exception to the non-punishability of mere intention — when intention becomes shared and articulated as an agreement, the law intervenes. The conspiracy itself is the Actus Reus.",
+          "cite": "S.120-A PPC — criminal conspiracy. Agreement itself as Actus Reus"
+        },
+        {
+          "q": "Why does the law draw the line between intention and preparation rather than between preparation and attempt as the first punishable stage?",
+          "reveal": "Because preparation involves external acts that are verifiable, while intention is purely internal. But most preparation is inherently ambiguous — buying a knife could be for cooking or for killing. The attempt stage is chosen as the primary punishable threshold because at attempt the accused has committed an act unambiguously directed at the crime, removing the ambiguity of preparation. The law balances liberty (don't punish too early) against safety (don't wait for completion).",
+          "cite": "Stages of crime theory — balancing liberty and prevention"
+        }
+      ]
+    },
+    {
+      "id": "St2",
+      "name": "Preparation",
+      "sub": "Stage 2 — generally not punishable, narrow exceptions",
+      "step": "Stage 2 of 4",
+      "atom": "St2",
+      "operator": "",
+      "desc": "Making arrangements or collecting materials for committing the crime. Generally not punishable. Exceptions where preparation IS punishable: S.126 (preparation to wage war against Pakistan), S.399 (preparation to commit dacoity), S.233-235 (counterfeiting currency).",
+      "legal": "The general non-punishability of preparation reflects the ambiguity problem — the same act of buying a weapon can be innocent or preparatory. Exceptions are created for specific offences of such gravity that even preparation poses a serious social threat justifying early intervention. The test for whether preparation has crossed into attempt is always: was the act unambiguously directed at the specific offence?",
+      "cite": "S.126 PPC — preparation to wage war. S.399 PPC — preparation for dacoity. Abdul Majid v. State 1973 SCMR 108.",
+      "ll": "S.399 PPC preparation for dacoity — official text",
+      "section": "399",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A person buys a gun, practices shooting, and reconnoitres a bank. When does preparation cross into attempt under Pakistani law?",
+          "reveal": "Abdul Majid v. State 1973 SCMR 108 provides the test: the act must show clear intention coupled with overt acts that go beyond preparation. Buying a gun and practicing are preparation — ambiguous. Reconnoitring the specific bank is closer to attempt but still arguable as preparation. Entering the bank with a weapon drawn is clearly attempt. The line is fact-specific but the court asks: is this act unambiguously committed towards this specific crime?",
+          "cite": "Abdul Majid v. State 1973 SCMR 108 — preparation vs attempt test"
+        },
+        {
+          "q": "Why is preparation for dacoity (S.399) punishable when preparation for simple theft (S.378) is not?",
+          "reveal": "The gravity and collective nature of dacoity justifies earlier intervention. Dacoity involves five or more persons, weapons, and serious violence — the social harm of a dacoity gang assembling is itself substantial. Simple theft preparation is ambiguous and individual. Parliament made a deliberate policy choice to criminalise dacoity preparation because waiting for the attempt stage was too dangerous given the organised nature of dacoity gangs.",
+          "cite": "S.399 PPC — preparation for dacoity punishable. Policy rationale of gravity and collective harm"
+        },
+        {
+          "q": "A person is found with lock-picking tools near a house at night. Is this preparation or attempt to commit burglary?",
+          "reveal": "This is the classic borderline case. Merely possessing tools is preparation. Approaching the specific house with the tools and beginning to pick the lock is attempt. Being found outside the house at night with the tools is ambiguous — courts will look at all circumstances: prior targeting of the house, time, other behaviour, explanations offered. The proximity to the specific target house is the key factor pushing toward attempt.",
+          "cite": "Preparation vs attempt — proximity and unambiguity test. S.511 PPC general attempt provision"
+        }
+      ]
+    },
+    {
+      "id": "St3",
+      "name": "Attempt",
+      "sub": "Stage 3 — punishable under S.511 PPC and specific sections",
+      "step": "Stage 3 of 4",
+      "atom": "St3",
+      "operator": "",
+      "desc": "Doing an act towards commission of the offence that goes beyond preparation. The offender has started executing their intention. Punishable: S.511 PPC is the general attempt provision — punishment up to half the maximum for the main offence. Specific sections: S.307 (attempt to murder), S.324 (attempt to commit Qatl-i-Amd by hurt).",
+      "legal": "S.511 PPC: 'Whoever attempts to commit an offence punishable with imprisonment, and in such attempt does any act towards the commission of the offence, shall be punished with imprisonment for up to one-half of the longest term prescribed for the offence.' Three ingredients: (1) intention to commit a specific offence; (2) an overt act towards commission; (3) the act goes beyond preparation.",
+      "cite": "S.511 PPC — general attempt provision. S.307 PPC attempt to commit murder. Abdul Majid v. State 1973 SCMR 108.",
+      "ll": "S.511 PPC — official text",
+      "section": "511",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A shoots at B intending to kill B. The bullet misses. Is this attempted murder under S.307 or general attempt under S.511?",
+          "reveal": "S.307 PPC specifically covers 'whoever does any act with such intention or knowledge, and under such circumstances that, if he by that act caused death, he would be guilty of qatl-i-amd.' This is more specific than S.511 and carries a higher punishment. S.511 is the residual provision — it applies where no specific attempt section exists. Since S.307 specifically covers attempted murder, it applies here, not S.511.",
+          "cite": "S.307 PPC — specific attempt to commit murder. S.511 — residual general attempt"
+        },
+        {
+          "q": "The accused mixed poison in food but the victim did not eat it. Is the act beyond preparation?",
+          "reveal": "Yes, this is attempt. Mixing poison in food specifically intended for a specific victim is an overt act unambiguously directed at killing that person — it has gone beyond preparation (acquiring poison) into an act of execution. That the victim did not consume it does not affect the attempt stage — impossibility of completion on these facts does not prevent conviction for attempt.",
+          "cite": "S.307 / S.511 PPC — attempt complete even if victim does not consume poison"
+        },
+        {
+          "q": "S.511 says punishment up to 'one-half' the maximum. Why is attempted crime punished less than completed crime?",
+          "reveal": "Because harm has not actually been caused. Proportionality in punishment requires that the sanction correspond to the actual harm done to the victim and society. An attempt causes fear and poses danger but the ultimate harm — death, injury, loss — has not materialised. However the accused's culpability (intention + overt act) is close to full, which is why S.511 still punishes significantly. The half-maximum rule balances reduced harm against near-complete culpability.",
+          "cite": "S.511 PPC — proportionality rationale. Theories of punishment applied to attempt"
+        }
+      ]
+    },
+    {
+      "id": "St4",
+      "name": "Commission / Completion",
+      "sub": "Stage 4 — offence complete, full punishment",
+      "step": "Stage 4 of 4",
+      "atom": "St4",
+      "operator": "",
+      "desc": "The offence is fully completed and the desired result is achieved. This is the completed crime. The full punishment prescribed for the offence applies. All elements of the offence — Actus Reus, Mens Rea, and any circumstantial elements — are established.",
+      "legal": "At the completion stage, the analysis shifts entirely to the offence elements and the General Exceptions. No further stage question arises. The timing of completion varies by offence: Theft is complete at the moment of movement (S.378); Murder is complete at the moment death is caused by the qualifying act; Robbery requires both the theft/extortion and the force/fear to be present.",
+      "cite": "S.302 PPC murder — completion at death caused. S.378 PPC theft — completion at movement. Stage 4 as the full offence with full punishment.",
+      "ll": "S.378 and S.302 PPC — completion moment, official text",
+      "section": "378",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A thief successfully steals a wallet. Two hours later, the police recover the wallet and return it to the victim. Does recovery of the stolen property undo the completed theft?",
+          "reveal": "No. Theft was complete at the moment of movement (S.378 — V element). Subsequent return of the property does not undo a completed offence. It may be relevant to sentencing — courts may treat voluntary return as a mitigating factor — but it does not affect the fact of conviction. The completed offence cannot be retroactively uncompleted by subsequent events.",
+          "cite": "S.378 PPC — completion at movement. Recovery does not undo completed theft"
+        },
+        {
+          "q": "If completion triggers full punishment, what is the relevance of studying the earlier stages?",
+          "reveal": "Three reasons: (1) Charging decisions — prosecutors must decide whether to charge attempt or completion, which affects sentencing range; (2) Defence strategy — arguing the accused was at preparation stage rather than attempt stage can reduce the charge entirely; (3) Judicial analysis — courts must trace through the stages to determine what offence was actually committed. The stages doctrine is analytical scaffolding that shapes every criminal case.",
+          "cite": "Stages of crime — practical relevance to charging, defence, and judicial analysis"
+        },
+        {
+          "q": "Murder requires both Qatl (causing death) and Niyyat (intention). If the accused causes death but lacked S.300 intention, is a lesser stage of completion reached?",
+          "reveal": "Yes — culpable homicide not amounting to murder under S.304 PPC. The act is complete (death occurred) but S.300 Niyyat is absent or reduced by a proviso. This is not a stage of crime question but an element deficit question. The offence is still completed — just at the S.304 level rather than S.302. The stages doctrine asks when the act crossed from preparation to attempt to completion; the element analysis then determines which completed offence was committed.",
+          "cite": "S.299–304 PPC — completed offence without full S.300 Niyyat = culpable homicide not murder"
+        }
+      ]
+    }
+  ]
+}
