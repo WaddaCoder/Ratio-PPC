@@ -183,7 +183,7 @@
         {
           "label": "S.149 Common Object: every assembly member guilty of the offence committed by any member",
           "sub": "Personal intention is irrelevant — membership + trigger = derived liability for the group",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Rule"
         },
         {
@@ -252,7 +252,7 @@
         {
           "label": "S.149 Two limbs: 'in prosecution of common object' OR 'members knew likely'",
           "sub": "Limb 2 (knew likely) is the broader and more frequently litigated; either alone is sufficient",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Limb1"
         },
         {
@@ -378,7 +378,7 @@
         {
           "label": "S.34 Common Intention vs S.149 Common Object — the most-tested pairing in the Code",
           "sub": "Headcount / prior concert / scope of liability / evidentiary burden — four structural differences",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Compare"
         },
         {
@@ -477,7 +477,7 @@
         {
           "label": "Unlawful assembly formed → offence committed in prosecution → S.149 liability fires for all members",
           "sub": "Every member is swept in automatically once the assembly and disjunctive trigger are established",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Rule"
         },
         {
@@ -609,7 +609,7 @@
         {
           "label": "S.149 Common Object: S.149 → S.141 → five common objects → each defined elsewhere",
           "sub": "S.149 is a two-line section that imports two full definitional layers beneath it",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Gate"
         },
         {
@@ -735,7 +735,7 @@
         {
           "label": "S.149: two sentences importing S.141's entire five-object framework and decades of case law",
           "sub": "The tip is visible; the mass is unlawful assembly doctrine, headcount disputes, and common object jurisprudence",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Rule"
         },
         {
@@ -1056,7 +1056,7 @@
         {
           "label": "S.149 explicitly names S.141: the section imports unlawful assembly by direct statutory reference",
           "sub": "S.149 is two sentences built entirely on S.141 — the cross-reference is on the face of the text",
-          "module": "COMMONOBJ",
+          "module": "co",
           "elementId": "CO_Gate"
         },
         {

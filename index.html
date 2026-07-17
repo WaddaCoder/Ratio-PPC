@@ -816,6 +816,7 @@
     .acc  { margin: 8px 16px; }
     .jcard { margin: 8px 16px; }
     .result-wrap { padding: 60px 32px; }
+    .acc { margin: 8px 16px; }
   }
   </style>
   <style id="fs-override"></style>
@@ -1510,7 +1511,7 @@ function renderSubList(data){
       fetchJ(sub.src)
         .then(function(modData){
           HISTORY.push({type:'sublist', data:data});
-          renderAccordionMod(modData);
+          CUR_MOD=modData; renderAccordionMod(modData);
         })
         .catch(function(){ toast('Module not yet available','#4a3070'); });
     });

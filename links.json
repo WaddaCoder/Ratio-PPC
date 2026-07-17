@@ -276,7 +276,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Rule"
     },
     "to": {
@@ -386,7 +386,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Limb1"
     },
     "to": {
@@ -584,7 +584,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Compare"
     },
     "to": {
@@ -749,7 +749,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Rule"
     },
     "to": {
@@ -958,7 +958,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Gate"
     },
     "to": {
@@ -1156,7 +1156,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Rule"
     },
     "to": {
@@ -1662,7 +1662,7 @@
   },
   {
     "from": {
-      "module": "commonobj",
+      "module": "co",
       "element": "CO_Gate"
     },
     "to": {
