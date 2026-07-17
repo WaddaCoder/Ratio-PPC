@@ -1,0 +1,2330 @@
+[
+  {
+    "s": "121",
+    "n": "Waging or attempting to wage war against Pakistan",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "121-A",
+    "n": "Conspiring to commit offences against the State",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "122",
+    "n": "Collecting arms with intention of waging war against Pakistan",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "123",
+    "n": "Concealing with intent to facilitate design to wage war",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "123-A",
+    "n": "Condemnation of creation of State or advocacy of abolition of sovereignty",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "123-B",
+    "n": "Defiling or removing the National Flag of Pakistan",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "124",
+    "n": "Assaulting President or Governor to compel or restrain lawful power",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "124-A",
+    "n": "Sedition",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "125",
+    "n": "Waging war against Asiatic Power in alliance with Pakistan",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "126",
+    "n": "Committing depredation",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "127",
+    "n": "Receiving property taken by war or depredation (S.125/126)",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "128",
+    "n": "Public servant voluntarily allowing prisoner of State or war to escape",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "129",
+    "n": "Public servant negligently suffering prisoner to escape",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "130",
+    "n": "Aiding escape or rescuing or harbouring such prisoner",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "131",
+    "n": "Abetting mutiny or attempting to seduce soldier or sailor from duty",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "132",
+    "n": "Abetment of mutiny if mutiny committed in consequence",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "133",
+    "n": "Abetment of assault by soldier on superior officer in execution of office",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "134",
+    "n": "Abetment of such assault if assault is committed",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "135",
+    "n": "Abetment of desertion",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "136",
+    "n": "Harbouring deserter",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "137",
+    "n": "Deserter concealed on board merchant vessel through negligence of master",
+    "cog": false,
+    "warr": false,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "138",
+    "n": "Abetment of act of insubordination by soldier or airman",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "140",
+    "n": "Wearing garb or carrying token used by soldier or airman",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "142",
+    "n": "Being member of unlawful assembly",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "144",
+    "n": "Joining unlawful assembly armed with deadly weapon",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "145",
+    "n": "Joining or continuing in unlawful assembly after commanded to disperse",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "147",
+    "n": "Rioting",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "148",
+    "n": "Rioting armed with deadly weapon",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "151",
+    "n": "Knowingly joining assembly of five or more persons after commanded to disperse",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "152",
+    "n": "Assaulting or obstructing public servant when suppressing riot",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "153",
+    "n": "Wantonly giving provocation with intent to cause riot",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "153-A",
+    "n": "Promoting enmity between different groups",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "153-B",
+    "n": "Inducing students to take part in political activity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "154",
+    "n": "Owner or occupier of land on which unlawful assembly is held",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "155",
+    "n": "Liability of person for whose benefit riot is committed",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "156",
+    "n": "Liability of agent of owner or occupier for whose benefit riot is committed",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "157",
+    "n": "Harbouring persons hired for an unlawful assembly",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "158",
+    "n": "Being hired to take part in an unlawful assembly or riot",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "158(2)",
+    "n": "Being hired to go armed",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "160",
+    "n": "Committing affray",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "161",
+    "n": "Public servant taking gratification other than legal remuneration",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "165-A/165",
+    "n": "Abetment of offences under S.161 165-A and 165",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "166",
+    "n": "Public servant disobeying law with intent to cause injury",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "167",
+    "n": "Public servant framing incorrect document with intent to cause injury",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "168",
+    "n": "Public servant unlawfully engaging in trade",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "169",
+    "n": "Public servant unlawfully buying or bidding for property",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "170",
+    "n": "Personating a public servant",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171",
+    "n": "Wearing garb or carrying token used by public servant with fraudulent intent",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171-E",
+    "n": "Bribery",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171-F",
+    "n": "Punishment for undue influence or personation at election",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171-G",
+    "n": "False statement in connection with an election",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171-H",
+    "n": "Illegal payments in connection with an election",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171-I",
+    "n": "Failure to keep election accounts",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "171-J",
+    "n": "Inducing any person not to participate in election or referendum",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "172",
+    "n": "Absconding to avoid service of summons from public servant",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "172(2)",
+    "n": "Absconding — summons requires attendance in court",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "173",
+    "n": "Preventing service or affixing of summons or notice or proclamation",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "173(2)",
+    "n": "Preventing service — summons required attendance in court",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "174",
+    "n": "Not obeying legal order to attend at a certain place",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "174(2)",
+    "n": "Not obeying order requiring attendance in court",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "174(3)",
+    "n": "Not obeying proclamation issued under S.87 CrPC",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "175",
+    "n": "Omitting to produce document to public servant when legally bound",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "175(2)",
+    "n": "Document required for production or delivery to court of justice",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "176",
+    "n": "Omitting to give notice or information to public servant when legally bound",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "176(2)",
+    "n": "Notice or information required respects commission of offence",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "176(3)",
+    "n": "Notice or information required by order under S.565 CrPC",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "177",
+    "n": "Knowingly furnishing false information to public servant",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "177(2)",
+    "n": "False information respecting commission of offence",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "178",
+    "n": "Refusing oath or affirmation when duly required by public servant",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "179",
+    "n": "Being legally bound to state truth and refusing to answer questions",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "180",
+    "n": "Refusing to sign statement made to public servant when legally required",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "181",
+    "n": "Knowingly making false statement to public servant on oath",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "182",
+    "n": "Giving false information to public servant to cause injurious use of lawful power",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "183",
+    "n": "Resistance to taking of property by lawful authority of public servant",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "184",
+    "n": "Obstructing sale of property offered for sale by authority of public servant",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "185",
+    "n": "Bidding by person under legal incapacity or bidding without intending to perform",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "186",
+    "n": "Obstructing public servant in discharge of public functions",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "187",
+    "n": "Omission to assist public servant when bound by law",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "187(2)",
+    "n": "Wilfully neglecting to aid public servant who demands aid",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "188",
+    "n": "Disobedience to order of public servant causing obstruction or annoyance",
+    "cog": false,
+    "warr": false,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "188(2)",
+    "n": "Disobedience causing danger to human life, health or safety",
+    "cog": false,
+    "warr": false,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "189",
+    "n": "Threatening a public servant with injury to induce official act",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "190",
+    "n": "Threatening any person to prevent legal application for protection from injury",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "193",
+    "n": "Giving or fabricating false evidence in a judicial process",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "194",
+    "n": "Fabricating false evidence to procure conviction of capital offence",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "194(2)",
+    "n": "Fabricating false evidence — if innocent person convicted and executed",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "195",
+    "n": "Fabricating false evidence to procure conviction for 7 or more years imprisonment",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "200",
+    "n": "Using as true such declaration knowing it to be false",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "302",
+    "n": "Qatl-i-amd (murder)",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "311",
+    "n": "Qatl-i-amd when waived or compounding — Fasad-fil-Arz",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "312",
+    "n": "Qatl-i-amd after compounding of qisas",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "316",
+    "n": "Qatl shibh-i-amd",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "319",
+    "n": "Qatl-i-khata",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "320",
+    "n": "Qatl-i-khata by rash or negligent driving",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "322",
+    "n": "Qatl-bis-sabab",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "324",
+    "n": "Attempt to commit qatl-i-amd",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "325",
+    "n": "Attempt to commit suicide",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "327",
+    "n": "Being a thug",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "328",
+    "n": "Exposure and abandonment of child under twelve years",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "329",
+    "n": "Concealment of birth by secret disposal of dead body",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "334",
+    "n": "Itlaf-i-udw",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "336",
+    "n": "Itlaf-i-salahiyyat-i-udw",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-A(i)",
+    "n": "Shajjah-i-Khafifa",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-A(ii)",
+    "n": "Shajjah-i-mudihah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-A(iii)",
+    "n": "Shajjah-i-hashimah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-A(iv)",
+    "n": "Shajjah-i-mudihahnaqqliah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-A(v)",
+    "n": "Shajjah-i-ammah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-A(vi)",
+    "n": "Shajjah-i-damighah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-D",
+    "n": "Jaifah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-F(i)",
+    "n": "Damiyah",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-F(ii)",
+    "n": "Badiah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-F(iii)",
+    "n": "Mutalahimah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-F(iv)",
+    "n": "Mudibah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-F(v)",
+    "n": "Hashimah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-F(vi)",
+    "n": "Munaqqilah",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-G",
+    "n": "Hurt by rash or negligent driving",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-H(i)",
+    "n": "Hurt by rash or negligent act",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-H(ii)",
+    "n": "Rash or negligent act to endanger human life or safety of others",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-I",
+    "n": "Hurt by mistake (khata)",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-J",
+    "n": "Hurt by means of a poison",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-K",
+    "n": "Hurt for extorting confession",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-L(a)",
+    "n": "Hurt other than specified — not bailable",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "337-L(b)",
+    "n": "Other hurts not covered — bailable",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-M",
+    "n": "Hurt not liable to qisas",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "337-N",
+    "n": "Hurts where qisas cannot be enforced",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "338-A(a)",
+    "n": "Isqat-i-Hamal with consent",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "338-A(b)",
+    "n": "Isqat-i-Hamal without consent",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "338-C",
+    "n": "Isqat-i-janin",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "341",
+    "n": "Wrongful restraint",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "342",
+    "n": "Wrongful confinement",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "343",
+    "n": "Wrongful confinement for three or more days",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "344",
+    "n": "Wrongful confinement for ten or more days",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "345",
+    "n": "Keeping person in wrongful confinement knowing writ issued for liberation",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "346",
+    "n": "Wrongful confinement in secret",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "347",
+    "n": "Wrongful confinement for extorting property or constraining to illegal act",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "348",
+    "n": "Wrongful confinement for extorting confession or information",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "348B",
+    "n": "Punishment for setting up a private jail (2023 Amendment)",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "348C",
+    "n": "Punishment for false imprisonment in a private jail (2023 Amendment)",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "352",
+    "n": "Assault or criminal force other than on grave provocation",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "353",
+    "n": "Assault or criminal force to deter public servant from duty",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "354",
+    "n": "Assault or criminal force to woman with intent to outrage modesty",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "354-A",
+    "n": "Assault or criminal force to woman — stripping her of clothes",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "355",
+    "n": "Assault or criminal force with intent to dishonour a person",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "356",
+    "n": "Assault or criminal force to commit theft of property worn or carried",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "357",
+    "n": "Assault or criminal force in attempt to wrongfully confine person",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "358",
+    "n": "Assault or criminal force on grave and sudden provocation",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "363",
+    "n": "Kidnapping",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "364",
+    "n": "Kidnapping or abducting in order to murder",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "364-A",
+    "n": "Kidnapping or abducting a person under fourteen",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "365",
+    "n": "Kidnapping or abducting with intent secretly and wrongfully to confine person",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "365-A",
+    "n": "Kidnapping or abducting for extorting property or compelling any person",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "366-A",
+    "n": "Procuration of minor girl",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "366-B",
+    "n": "Importation of girl from foreign country",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "367",
+    "n": "Kidnapping or abducting to subject person to grievous hurt, slavery",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "368",
+    "n": "Concealing or keeping in confinement kidnapped or abducted person",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "369",
+    "n": "Kidnapping or abducting child to take property from the child",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "370",
+    "n": "Buying or disposing of any person as a slave",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "371",
+    "n": "Habitual dealing in slaves",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "372",
+    "n": "Selling or letting to hire a minor for purposes of prostitution",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "373",
+    "n": "Buying or obtaining possession of a minor for purposes of prostitution",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "374",
+    "n": "Unlawful compulsory labour",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "376(1)",
+    "n": "Rape — by man with own wife not under twelve years of age",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "376(2)",
+    "n": "Rape — by man with own wife under twelve years of age",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "376(3)",
+    "n": "Rape — any other case",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "377",
+    "n": "Unnatural offences",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "378",
+    "n": "Theft",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "380",
+    "n": "Theft in a building, tent or vessel",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "381",
+    "n": "Theft by clerk or servant of property in possession of master",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "381-A",
+    "n": "Theft of a car or other motor vehicles",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "382",
+    "n": "Theft after preparation to cause death, hurt or restraint",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "384",
+    "n": "Extortion",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "385",
+    "n": "Putting or attempting to put in fear of injury to commit extortion",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "386",
+    "n": "Extortion by putting person in fear of death or grievous hurt",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "387",
+    "n": "Putting or attempting to put in fear of death or grievous hurt to commit extortion",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "388",
+    "n": "Extortion by threat of accusation of offence punishable with death or life",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "388(2)",
+    "n": "Extortion — if offence threatened is an unnatural offence",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "389",
+    "n": "Putting person in fear of accusation of offence punishable with death to commit extortion",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "389(2)",
+    "n": "Putting in fear of accusation — if offence is an unnatural offence",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "392",
+    "n": "Robbery",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "392(2)",
+    "n": "Robbery committed on highway between sunset and sunrise",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "393",
+    "n": "Attempt to commit robbery",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "394",
+    "n": "Voluntarily causing hurt in committing or attempting robbery",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "395",
+    "n": "Dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "396",
+    "n": "Murder in dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "397",
+    "n": "Robbery or dacoity with attempt to cause death or grievous hurt",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "398",
+    "n": "Attempt to commit robbery or dacoity when armed with deadly weapon",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "399",
+    "n": "Making preparation to commit dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "400",
+    "n": "Belonging to gang associated for habitually committing dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "401",
+    "n": "Belonging to wandering gang for habitually committing dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "402",
+    "n": "Being one of five or more assembled for purpose of committing dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "403",
+    "n": "Dishonest misappropriation of movable property",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "404",
+    "n": "Dishonest misappropriation of property from deceased person's possession",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "405",
+    "n": "Dishonest misappropriation — if by person employed by deceased",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "406",
+    "n": "Criminal breach of trust",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "407",
+    "n": "Criminal breach of trust by carrier, wharfinger",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "408",
+    "n": "Criminal breach of trust by clerk or servant",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "409",
+    "n": "Criminal breach of trust by public servant, banker, merchant or agent",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "411",
+    "n": "Dishonestly receiving stolen property knowing it to be stolen",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "412",
+    "n": "Dishonestly receiving stolen property obtained in dacoity",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "413",
+    "n": "Habitually dealing in stolen property",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "414",
+    "n": "Assisting in concealment or disposal of stolen property",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "417",
+    "n": "Cheating",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "418",
+    "n": "Cheating a person whose interest the offender was bound to protect",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "419",
+    "n": "Cheating by personation",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "420",
+    "n": "Cheating and dishonestly inducing delivery of property or making of valuable security",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "421",
+    "n": "Fraudulent removal or concealment of property to prevent distribution among creditors",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "422",
+    "n": "Fraudulently preventing debt or demand from being available for creditors",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "423",
+    "n": "Fraudulent execution of deed of transfer containing false statement of consideration",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "424",
+    "n": "Fraudulent removal or concealment of property or dishonestly releasing demand",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "426",
+    "n": "Mischief",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "427",
+    "n": "Mischief causing damage to amount of fifty rupees or upward",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "428",
+    "n": "Mischief by killing or maiming animal of value Rs.10 or upward",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "429",
+    "n": "Mischief by killing or maiming elephant, camel, horse or animal Rs.50 or upward",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "430",
+    "n": "Mischief by causing diminution of supply of water for agricultural purposes",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "431",
+    "n": "Mischief by injury to public road, bridge, river or channel",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "432",
+    "n": "Mischief by causing inundation or obstruction to public drainage",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "433",
+    "n": "Mischief by destroying lighthouse or sea-mark or exhibiting false lights",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "434",
+    "n": "Mischief by destroying or moving a land-mark fixed by public authority",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "435",
+    "n": "Mischief by fire or explosive substance — damage Rs.100 or upward",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "436",
+    "n": "Mischief by fire or explosive substance with intent to destroy house",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "437",
+    "n": "Mischief with intent to destroy or make unsafe a decked vessel or 20-ton vessel",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "438",
+    "n": "S.437 mischief committed by fire or explosive substance",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "439",
+    "n": "Running vessel aground or ashore with intent to commit theft",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "440",
+    "n": "Mischief committed after preparation to cause death or hurt",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "447",
+    "n": "Criminal trespass",
+    "cog": true,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "448",
+    "n": "House-trespass",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "449",
+    "n": "House-trespass to commit offence punishable with death",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "450",
+    "n": "House-trespass to commit offence punishable with imprisonment for life",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "451(1)",
+    "n": "House-trespass to commit offence punishable with imprisonment",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "451(2)",
+    "n": "House-trespass — if the offence is theft",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "452",
+    "n": "House-trespass after preparation for hurt, assault",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "453",
+    "n": "Lurking house-trespass or house-breaking",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "454(1)",
+    "n": "Lurking house-trespass or house-breaking to commit imprisonable offence",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "454(2)",
+    "n": "Lurking house-trespass or house-breaking — if offence is theft",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "455",
+    "n": "Lurking house-trespass or house-breaking after preparation for hurt",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "456",
+    "n": "Lurking house-trespass or house-breaking by night",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "457(1)",
+    "n": "Lurking house-trespass by night to commit imprisonable offence",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "457(2)",
+    "n": "Lurking house-trespass by night — if offence is theft",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "458",
+    "n": "Lurking house-trespass or house-breaking by night after preparation for hurt",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "459",
+    "n": "Hurt caused whilst committing lurking house-trespass or house-breaking",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "460",
+    "n": "Qatl or hurt by one of several jointly concerned in lurking house-breaking by night",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "461",
+    "n": "Dishonestly breaking open closed receptacle containing property",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "462",
+    "n": "Being entrusted with closed receptacle and fraudulently opening same",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "465",
+    "n": "Forgery",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "466",
+    "n": "Forgery of court record or register kept by public servant",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "467(1)",
+    "n": "Forgery of valuable security, will, or authority to make or transfer valuable security",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "467(2)",
+    "n": "Forgery of valuable security — when a promissory note of Central Government",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "468",
+    "n": "Forgery for the purpose of cheating",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "469",
+    "n": "Forgery for purpose of harming reputation",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "471(1)",
+    "n": "Using as genuine a forged document",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "471(2)",
+    "n": "Using forged document — when a promissory note of Central Government",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "472",
+    "n": "Making or counterfeiting seal or plate with intent to commit forgery under S.467",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "473",
+    "n": "Making or counterfeiting seal or plate with intent other than under S.467",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "474(1)",
+    "n": "Possessing forged document — description in S.466",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "474(2)",
+    "n": "Possessing forged document — description in S.467",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "475",
+    "n": "Counterfeiting device or mark for authenticating S.467 documents",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "476",
+    "n": "Counterfeiting device or mark for authenticating other documents",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "477",
+    "n": "Fraudulently destroying, defacing or secreting a will",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "477-A",
+    "n": "Falsification of accounts",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "482",
+    "n": "Using a false trade-mark or property mark with intent to deceive or injure",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "483",
+    "n": "Counterfeiting a trade-mark or property mark used by another",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "484",
+    "n": "Counterfeiting a property mark used by public servant",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "485",
+    "n": "Making or possessing instrument for counterfeiting trade or property mark",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "486",
+    "n": "Knowingly selling goods marked with counterfeit trade-mark",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "487",
+    "n": "Fraudulently making false mark upon package or receptacle containing goods",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "488",
+    "n": "Making use of any such false mark",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "489",
+    "n": "Removing, destroying or defacing any property mark with intent to cause injury",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "489-A",
+    "n": "Counterfeiting currency-notes or bank-notes",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "489-B",
+    "n": "Using as genuine forged or counterfeit currency-notes or bank-notes",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "489-C",
+    "n": "Possession of forged or counterfeit currency-notes or bank-notes",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "489-D",
+    "n": "Making or possessing instruments or materials for forging currency-notes",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "489-E",
+    "n": "Making or using documents resembling currency-notes or bank-notes",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "489-F",
+    "n": "Dishonestly issuing a cheque for repayment of loans",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": true
+  },
+  {
+    "s": "491",
+    "n": "Omitting to attend on or supply wants of helpless person when bound by contract",
+    "cog": false,
+    "warr": false,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "493",
+    "n": "Man by deceit causing woman to cohabit believing she is lawfully married to him",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "494",
+    "n": "Marrying again during lifetime of husband or wife (bigamy)",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "495",
+    "n": "Bigamy with concealment of former marriage",
+    "cog": false,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "496",
+    "n": "Going through ceremony of marriage fraudulently knowing not lawfully married",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "497",
+    "n": "Adultery",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "498",
+    "n": "Enticing or taking away or detaining married woman with criminal intent",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "500",
+    "n": "Defamation",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "501",
+    "n": "Printing or engraving matter known to be defamatory",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "502",
+    "n": "Sale of printed or engraved substance containing defamatory matter",
+    "cog": true,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "504",
+    "n": "Insult intended to provoke breach of the peace",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "505",
+    "n": "False statements or rumour with intent to cause mutiny or offence against public peace",
+    "cog": true,
+    "warr": true,
+    "bail": false,
+    "comp": false
+  },
+  {
+    "s": "506(1)",
+    "n": "Criminal intimidation",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "506(2)",
+    "n": "Criminal intimidation — if threat to cause death or grievous hurt",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "507",
+    "n": "Criminal intimidation by anonymous communication",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  },
+  {
+    "s": "508",
+    "n": "Act caused by inducing person to believe they will be rendered object of Divine displeasure",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "509",
+    "n": "Uttering word or making gesture intended to insult modesty of a woman",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": true
+  },
+  {
+    "s": "510",
+    "n": "Appearing in public in state of intoxication causing annoyance",
+    "cog": false,
+    "warr": true,
+    "bail": true,
+    "comp": false
+  }
+]

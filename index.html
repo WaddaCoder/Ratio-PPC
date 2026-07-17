@@ -945,6 +945,8 @@ function goBack(){
   if(!HISTORY.length){ goHome(); return; }
   var prev = HISTORY.pop();
   if(prev.type==='home'){ goHome(); }
+  else if(prev.type==='sublist'){ renderSubList(prev.data); }
+  else if(prev.type==='accordion'){ renderAccordionMod(prev.data); }
   else if(prev.type==='el'){
     CUR_MOD=prev.mod; CUR_IDX=prev.idx; CUR_RES=prev.res||[];
     renderEl(CUR_MOD, CUR_IDX);
@@ -974,7 +976,7 @@ function renderHome(mods){
   h.innerHTML = '<div class="hero-row">'
     + '<div class="hero-cell"><div class="hero-lbl">Mode</div><div class="hero-val">\u2630 Classroom</div></div>'
     + '<div class="hero-cell"><div class="hero-lbl">Modules</div><div class="hero-val">'+(mods.length||0)+' total</div></div>'
-    + '<div class="hero-cell"><div class="hero-lbl">Build</div><div class="hero-val">Ratio v1</div></div>'
+    + '<div class="hero-cell"><div class="hero-lbl">Build</div><div class="hero-val">Ratio v1.3</div></div>'
     + '</div>';
   home.appendChild(h);
 
@@ -1044,9 +1046,27 @@ function openMod(m){
         HISTORY.push({type:'home'});
         renderEl(data, 0);
       })
-      .catch(function(){ toast('Module not yet available', '#4a3070'); });
+      .catch(function(){ toast('Module not yet available','#4a3070'); });
+  } else if(m.type==='accordion'||m.type==='branch'){
+    fetchJ(m.src)
+      .then(function(data){ CUR_MOD=data; HISTORY.push({type:'home'}); renderAccordionMod(data); })
+      .catch(function(){ toast('Module not yet available','#4a3070'); });
+  } else if(m.type==='submodule_registry'){
+    fetchJ(m.src)
+      .then(function(data){ HISTORY.push({type:'home'}); renderSubList(data); })
+      .catch(function(){ toast('Coming soon','#4a3070'); });
+  } else if(m.type==='arcs'){
+    fetchJ(m.src)
+      .then(function(data){ HISTORY.push({type:'home'}); renderArcs(data); })
+      .catch(function(){ toast('Coming soon','#4a3070'); });
+  } else if(m.type==='sched2'){
+    fetchJ(m.src)
+      .then(function(data){ HISTORY.push({type:'home'}); renderSched2Screen(data); })
+      .catch(function(){ toast('Coming soon','#4a3070'); });
+  } else if(m.type==='essays'||m.type==='techniques'){
+    toast('Coming in Session 5','#2c4a7e');
   } else {
-    toast('Coming in the next build', '#2c4a7e');
+    toast('Coming in the next build','#2c4a6e');
   }
 }
 
@@ -1363,6 +1383,142 @@ function setFont(size){
     +'}';
   syncBars();
 }
+
+/* ═══════════════════════════════════════════════════════════
+   ACCORDION MODULE VIEW (foundations, reference modules)
+═══════════════════════════════════════════════════════════ */
+function renderAccordionMod(mod){
+  showScreen('main');
+  updHeader('el', mod.name, null);
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+
+  var els = mod.els || [];
+  els.forEach(function(el, i){
+    var sec = makeAcc(
+      (el.atom ? el.atom+' — ' : '') + el.name,
+      '#2c4a7e',
+      makeLegalBody(el),
+      false
+    );
+    main.appendChild(sec);
+  });
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SUBMODULE LIST (Legal Foundations)
+═══════════════════════════════════════════════════════════ */
+function renderSubList(data){
+  showScreen('main');
+  updHeader('el', data.title, null);
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:14px 14px 16px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-family:var(--mono);font-size:var(--fs-xs);color:rgba(200,169,110,0.5);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:5px">Legal Foundations</div>'
+    +'<div style="font-size:var(--fs-xl);font-weight:800;color:#f0ece0;margin-bottom:4px">'+data.title+'</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.6)">'+data.subtitle+'</div>';
+  main.appendChild(hdr);
+
+  (data.modules||[]).forEach(function(sub, i){
+    var card=mk('div','mc p-general ci');
+    card.style.animationDelay=(i*40)+'ms';
+    card.innerHTML='<div class="mc-info"><div class="mc-name">'+sub.name+'</div><div class="mc-sec">'+sub.section+'</div></div>'
+      +'<span class="mc-tag">Open</span>';
+    card.addEventListener('click', function(){
+      fetchJ(sub.src)
+        .then(function(modData){
+          HISTORY.push({type:'sublist', data:data});
+          renderAccordionMod(modData);
+        })
+        .catch(function(){ toast('Module not yet available','#4a3070'); });
+    });
+    main.appendChild(card);
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ARCS SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderArcs(arcs){
+  showScreen('main');
+  updHeader('el', 'Reform Arcs', null);
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:14px 14px 16px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#f0ece0;margin-bottom:4px">Social-Legal Reform Arcs</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.6)">Legislative change timelines across Pakistani criminal law</div>';
+  main.appendChild(hdr);
+
+  arcs.forEach(function(arc, i){
+    var body=mk('div');
+    var bcmap={gap:'#8b4513',case:'#c8a96e',decision:'#5c3d2e',legislation:'#8b4513',current:'#4a7c59'};
+    arc.stages.forEach(function(stage, si){
+      if(si>0){ var conn=mk('div'); conn.style.cssText='width:2px;height:12px;background:rgba(139,69,19,0.2);margin:0 auto'; body.appendChild(conn); }
+      var scard=mk('div');
+      scard.style.cssText='display:flex;border-radius:8px;border:1px solid rgba(139,69,19,0.18);background:#fdf6f0;overflow:hidden;margin:0 2px';
+      var bar=mk('div'); bar.style.cssText='width:4px;background:'+(bcmap[stage.type]||'#8b4513')+';flex-shrink:0';
+      var content=mk('div'); content.style.cssText='flex:1;padding:9px 11px';
+      var lbl=mk('div'); lbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;color:#8b4513;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:3px';
+      lbl.textContent=stage.label;
+      var stxt=mk('div'); stxt.style.cssText='font-size:var(--fs-sm);color:var(--navy);line-height:1.55';
+      stxt.textContent=stage.text;
+      content.appendChild(lbl); content.appendChild(stxt);
+      scard.appendChild(bar); scard.appendChild(content);
+      body.appendChild(scard);
+    });
+    var bwrap=mk('div'); bwrap.style.padding='12px 14px'; bwrap.appendChild(body);
+    main.appendChild(makeAcc('⇄ '+arc.title+' — '+arc.subtitle.substring(0,45),'#8b4513',bwrap,i===0));
+  });
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SCHEDULE II REFERENCE SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderSched2Screen(rows){
+  showScreen('main');
+  updHeader('el', 'Schedule II', 'CrPC Reference');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+
+  var wrap=mk('div'); wrap.style.padding='8px 12px';
+  rows.forEach(function(row){
+    var item=mk('div');
+    item.style.cssText='padding:9px 0;border-bottom:1px solid var(--rule);display:flex;align-items:flex-start;gap:10px';
+    var sec=mk('div');
+    sec.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;color:var(--gold-dk);width:40px;flex-shrink:0;padding-top:2px';
+    sec.textContent='S.'+row.s;
+    var info=mk('div'); info.style.flex='1';
+    var name=mk('div'); name.style.cssText='font-size:var(--fs-sm);color:var(--navy);margin-bottom:5px';
+    name.textContent=row.n;
+    var pills=mk('div','pills');
+    pills.appendChild(txt(mk('span','pill '+(row.cog?'pill-cog':'pill-ncog')), row.cog?'Cognizable':'Non-Cognizable'));
+    pills.appendChild(txt(mk('span','pill '+(row.warr?'pill-warr':'pill-sum')), row.warr?'Warrant':'Summons'));
+    pills.appendChild(txt(mk('span','pill '+(row.bail?'pill-bail':'pill-nbail')), row.bail?'Bailable':'Non-Bailable'));
+    pills.appendChild(txt(mk('span','pill '+(row.comp?'pill-comp':'pill-ncomp')), row.comp?'Compoundable':'Non-Compoundable'));
+    info.appendChild(name); info.appendChild(pills);
+    item.appendChild(sec); item.appendChild(info);
+    wrap.appendChild(item);
+  });
+  main.appendChild(wrap);
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
 </script>
 </body>
 </html>
