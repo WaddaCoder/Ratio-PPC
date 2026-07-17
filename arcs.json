@@ -1,0 +1,110 @@
+[
+  {
+    "id": "arc_rape",
+    "title": "Rape Law Reform Arc",
+    "subtitle": "Safia Bibi 1985 → Women's Protection Act 2006 → 2021 amendments",
+    "stages": [
+      {
+        "type": "gap",
+        "label": "Social gap",
+        "text": "The Hudood Ordinance 1979 required four male Muslim witnesses for rape conviction. Women who reported rape faced the risk of being prosecuted for Zina themselves. The law actively deterred victims from reporting."
+      },
+      {
+        "type": "decision",
+        "label": "Legal decision",
+        "text": "FSC and superior courts repeatedly held that the Hudood evidentiary standard was producing unjust outcomes but that reform required legislative action."
+      },
+      {
+        "type": "legislation",
+        "label": "Legislative response",
+        "text": "Women's Protection Act 2006 — rape moved back to PPC as S.375-376. Hudood evidentiary standard replaced with standard criminal evidence. Criminal Laws Amendment Act 2021 — S.375 consent definition (seven circumstances), S.375-A gang rape, two-finger test abolished."
+      },
+      {
+        "type": "current",
+        "label": "Current state",
+        "text": "S.375 (post-2021) defines consent as unambiguous voluntary agreement. Silence is not consent. Seven circumstances of absent consent. Two-finger test inadmissible. Gang rape carries minimum 25 years. Implementation ongoing — conviction rates remain low."
+      }
+    ]
+  },
+  {
+    "id": "arc_honour",
+    "title": "Honour Killing Reform Arc",
+    "subtitle": "Decades of karo kari → Qandeel Baloch 2016 → S.311",
+    "stages": [
+      {
+        "type": "gap",
+        "label": "Social gap",
+        "text": "Honour killings in Pakistan were routinely settled within families through Diyat acceptance. Heirs would forgive the killer — who was often a family member — and the courts would accept the settlement. The state had no independent basis to insist on punishment."
+      },
+      {
+        "type": "decision",
+        "label": "Legal decision",
+        "text": "The Lahore High Court and Supreme Court confirmed S.311's application to honour killings. Parental Diyat acceptance is insufficient where fasad-fil-arz is established. The state retains independent prosecution power."
+      },
+      {
+        "type": "legislation",
+        "label": "Legislative response",
+        "text": "Criminal Law Amendment Act 2016 — added S.311 fasad-fil-arz. Honour killings become non-compoundable. Mandatory Ta'zir minimum 14 years even where heirs forgive. Direct legislative response to decades of karo kari impunity."
+      },
+      {
+        "type": "current",
+        "label": "Current state",
+        "text": "S.311 applies in high-profile cases. Implementation in rural areas remains contested. Honour killings continue — NGO data suggests hundreds annually. The legal framework is strong; enforcement remains the gap."
+      }
+    ]
+  },
+  {
+    "id": "arc_blasphemy",
+    "title": "Blasphemy Weaponisation Arc",
+    "subtitle": "Systematic misuse → Asia Bibi 2019 → reform pressure ongoing",
+    "stages": [
+      {
+        "type": "gap",
+        "label": "Social gap",
+        "text": "S.295-C's mandatory death penalty and the social terror of blasphemy allegations created a weapon usable against personal enemies, religious minorities, and business rivals. Accusation alone could destroy a life — causing mob violence, displacement, or years in pre-trial detention — regardless of eventual acquittal."
+      },
+      {
+        "type": "decision",
+        "label": "Legal decision",
+        "text": "Supreme Court established the five red-flag evidentiary framework (Asia Bibi PLD 2019 SC 64) and the state enforcement monopoly (Mumtaz Qadri PLD 2016 SC 17). Courts must scrutinise blasphemy allegations with heightened vigilance. No legislative amendment followed."
+      },
+      {
+        "type": "legislation",
+        "label": "Legislative response",
+        "text": "No amendment to S.295-C has been enacted. The mandatory death penalty remains. The judicial framework (Asia Bibi five flags, Mumtaz Qadri enforcement monopoly) operates without legislative support. Reform pressure continues but legislative action remains politically impossible."
+      },
+      {
+        "type": "current",
+        "label": "Current state",
+        "text": "S.295-C remains unchanged. Blasphemy cases continue to be registered — Pakistan has among the highest blasphemy prosecution rates globally. The judicial framework from Asia Bibi and Mumtaz Qadri provides some protection but is not universally applied at lower court levels. The arc remains incomplete — the most open-ended of the three."
+      }
+    ]
+  },
+  {
+    "id": "arc_repeal",
+    "title": "Repeal & Omission Arc — When Dead Law Still Teaches",
+    "subtitle": "Colonial racial sentencing (1860–1949) → S.56 repealed → a still-living lesson",
+    "stages": [
+      {
+        "type": "gap",
+        "label": "Social gap",
+        "text": "The original 1860 PPC contained S.56, a provision permitting differential, generally more lenient, sentencing treatment for European and American offenders compared to other British Indian subjects — a direct statutory embodiment of colonial racial hierarchy written into the criminal law itself. For nearly ninety years, this provision sat in the same chapter that now governs ordinary sentencing for every person in Pakistan, regardless of background."
+      },
+      {
+        "type": "decision",
+        "label": "Turning point",
+        "text": "Independence in 1947 made the provision politically and constitutionally untenable. A criminal code purporting to apply equally to all citizens of a newly sovereign state could not retain a section whose entire function was to carve out preferential treatment by race and colonial origin."
+      },
+      {
+        "type": "legislation",
+        "label": "Legislative response — the repeal itself",
+        "text": "S.56 was repealed by the Criminal Law (Extinction of Discriminatory Privileges) Act, 1949 (Act II of 1950). The Act's very title states its purpose plainly: extinguishing discriminatory privileges. This is one of the cleanest examples in the entire PPC of a repeal that is not housekeeping or technical tidying, but a deliberate act of legal decolonization — removing a provision because the value system that justified it had been rejected outright."
+      },
+      {
+        "type": "current",
+        "label": "Current state",
+        "text": "S.56 today reads only as a one-line historical footnote inside Chapter III: \"Rep. by the Criminal Law (Extinction of Discriminatory Privileges) Act, 1949.\" No live provision occupies its place. The lesson it leaves behind is structural rather than substantive: a repeal in the PPC is not always neutral bookkeeping — sometimes the absence of a section is itself the legal history, and a student who skips past \"[Repealed]\" markers without asking why is skipping the part of the Code that often teaches the most about how Pakistani criminal law actually evolved. The same pattern recurs at greater social cost elsewhere: the Hudood-era provisions inserted into the broader criminal law in 1979 were not fully repealed until the Protection of Women Act 2006 — see the Rape Law Reform Arc — making S.56 the PPC's earliest and starkest example of a principle that reappears throughout this Code's 165-year history."
+      }
+    ]
+  }
+]
