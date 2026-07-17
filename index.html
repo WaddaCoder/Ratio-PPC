@@ -60,22 +60,7 @@
   /* ═══════════════════════════════════════════════════════
      HEADER
   ═══════════════════════════════════════════════════════ */
-  #hdr {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    width: 100%; max-width: 480px;
-    margin: 0 auto;
-    height: var(--hdr-h);
-    background: var(--navy);
-    border-bottom: 1px solid rgba(255,255,255,0.06);
-    z-index: 100;
-    display: none;
-    align-items: center;
-    padding: 0 12px;
-    gap: 8px;
-    flex-shrink: 0;
-  }
-  #hdr.on { display: flex; }
+  #hdr { display: none; } /* replaced by static headers */
 
   #backbtn {
     width: 34px; height: 34px;
@@ -734,6 +719,33 @@
   /* ═══════════════════════════════════════════════════════
      FONT BAR — scrolls with content, last child of screen
   ═══════════════════════════════════════════════════════ */
+  .mod-nav {
+    background: var(--navy); padding: 10px 12px;
+    display: flex; align-items: center; gap: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0;
+  }
+  .mod-nav-back {
+    width: 32px; height: 32px; border-radius: var(--rsm);
+    background: rgba(200,169,110,0.1); border: 1px solid rgba(200,169,110,0.22);
+    color: var(--gold); font-size: 16px; display: flex;
+    align-items: center; justify-content: center;
+    cursor: pointer; flex-shrink: 0; transition: background 0.15s;
+  }
+  .mod-nav-back:active { background: rgba(200,169,110,0.22); }
+  .mod-nav-bc {
+    flex: 1; font-family: var(--mono); font-size: var(--fs-xs);
+    color: rgba(200,169,110,0.5); white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis; min-width: 0;
+  }
+  .mod-nav-bc b { color: var(--gold); }
+  .mod-nav-home {
+    width: 30px; height: 30px; border-radius: var(--rsm);
+    background: rgba(200,169,110,0.08); border: 1px solid rgba(200,169,110,0.15);
+    color: var(--gold); font-size: 12px; display: flex;
+    align-items: center; justify-content: center;
+    cursor: pointer; transition: background 0.15s;
+  }
+  .mod-nav-home:active { background: rgba(200,169,110,0.18); }
   .font-bar {
     background: var(--navy);
     border-top: 1px solid rgba(255,255,255,0.05);
@@ -923,19 +935,8 @@ function showScreen(s){
 }
 
 function updHeader(mode, modName, elName){
-  var hdr   = $('hdr');
-  var brand = $('hdr-brand');
-  var bc    = $('bc');
-  var back  = $('backbtn');
-  if(mode==='home'){
-    hdr.classList.remove('on');
-    brand.style.display=''; bc.style.display='none'; back.classList.remove('vis');
-  } else {
-    hdr.classList.add('on');
-    brand.style.display='none'; bc.style.display='';
-    bc.innerHTML = (modName||'') + (elName ? ' &rsaquo; <b>'+elName+'</b>' : '');
-    back.classList.add('vis');
-  }
+  /* Static nav strips built per-screen — nothing to update globally */
+  void(mode); void(modName); void(elName);
 }
 
 function goHome(){
@@ -1078,8 +1079,10 @@ function openMod(m){
     fetchJ(m.src)
       .then(function(data){ HISTORY.push({type:'home'}); renderSched2Screen(data); })
       .catch(function(){ toast('Coming soon','#4a3070'); });
-  } else if(m.type==='essays'||m.type==='techniques'){
-    toast('Coming in Session 5','#2c4a7e');
+  } else if(m.type==='essays'){
+    fetchJ(m.src).then(renderEssays).catch(function(){ toast('Essays not available','#4a3070'); });
+  } else if(m.type==='techniques'){
+    fetchJ(m.src).then(renderTechniques).catch(function(){ toast('Techniques not available','#4a3070'); });
   } else {
     toast('Coming in the next build','#2c4a6e');
   }
@@ -1097,6 +1100,7 @@ function renderEl(mod, idx){
   updHeader('el', mod.name, el.name);
   main.innerHTML=''; main.scrollTop=0;
   main.className='on ci';
+  main.appendChild(makeModNav(mod.name, el.name));
 
   /* Progress bar */
   var pb = mk('div','prog-bar');
@@ -1362,6 +1366,22 @@ function toast(msg, color){
 /* ═══════════════════════════════════════════════════════════
    FONT BAR
 ═══════════════════════════════════════════════════════════ */
+function makeModNav(modName, elName){
+  var nav = mk('div','mod-nav');
+  var back = mk('button','mod-nav-back');
+  back.innerHTML = '&#8592;';
+  back.setAttribute('aria-label','Back');
+  back.addEventListener('click', goBack);
+  var bc = mk('div','mod-nav-bc');
+  bc.innerHTML = (modName||'') + (elName ? ' &rsaquo; <b>'+elName+'</b>' : '');
+  var home = mk('button','mod-nav-home');
+  home.innerHTML = '&#8962;';
+  home.setAttribute('aria-label','Home');
+  home.addEventListener('click', goHome);
+  nav.appendChild(back); nav.appendChild(bc); nav.appendChild(home);
+  return nav;
+}
+
 function makeFontBar(){
   var bar=mk('div','font-bar');
   var lbl=mk('span','fb-lbl'); lbl.textContent='Text size'; bar.appendChild(lbl);
@@ -1407,6 +1427,7 @@ function renderAccordionMod(mod){
   updHeader('el', mod.name, null);
   var main=$('main');
   main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav(mod.name, null));
 
   var els = mod.els || [];
   els.forEach(function(el, i){
@@ -1431,6 +1452,7 @@ function renderSubList(data){
   updHeader('el', data.title, null);
   var main=$('main');
   main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav(data.title, null));
 
   var hdr=mk('div');
   hdr.style.cssText='background:var(--navy);padding:14px 14px 16px;margin-bottom:4px';
@@ -1468,6 +1490,7 @@ function renderArcs(arcs){
   updHeader('el', 'Reform Arcs', null);
   var main=$('main');
   main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav('Reform Arcs', null));
 
   var hdr=mk('div');
   hdr.style.cssText='background:var(--navy);padding:14px 14px 16px;margin-bottom:4px';
@@ -1508,6 +1531,7 @@ function renderSched2Screen(rows){
   updHeader('el', 'Schedule II', 'CrPC Reference');
   var main=$('main');
   main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav('Schedule II', 'CrPC Reference'));
 
   var wrap=mk('div'); wrap.style.padding='8px 12px';
   rows.forEach(function(row){
@@ -1529,6 +1553,91 @@ function renderSched2Screen(rows){
     wrap.appendChild(item);
   });
   main.appendChild(wrap);
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   ESSAYS SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderEssays(essays){
+  showScreen('main');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav('Rabbit Hole Essays', null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:12px 14px 14px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#f0ece0;margin-bottom:3px">Rabbit Hole Essays</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.55)">Deep jurisprudential dives beyond the doctrine</div>';
+  main.appendChild(hdr);
+
+  essays.forEach(function(essay, i){
+    var body=mk('div');
+    var txt=mk('div','legal-text');
+    (essay.text||'').split('\n\n').forEach(function(p){
+      if(!p.trim()) return;
+      var pd=mk('p','legal-p'); pd.textContent=p.trim(); txt.appendChild(pd);
+    });
+    body.appendChild(txt);
+    if(essay.reflect && essay.reflect.length){
+      var rfSec=mk('div'); rfSec.style.cssText='border-top:1px solid var(--rule);padding:12px 14px';
+      var rfLbl=mk('div'); rfLbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-lt);margin-bottom:8px';
+      rfLbl.textContent='Reflect'; rfSec.appendChild(rfLbl);
+      essay.reflect.forEach(function(q,qi){
+        var item=mk('div'); item.style.cssText='padding:8px 0;border-bottom:1px solid var(--rule);';
+        item.appendChild(Object.assign(mk('div'),{style:'font-size:var(--fs-sm);color:var(--navy);line-height:1.55;cursor:pointer',textContent:q}));
+        rfSec.appendChild(item);
+      });
+      body.appendChild(rfSec);
+    }
+    main.appendChild(makeAcc((i+1)+'. '+essay.title, '#8b4513', body, false));
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TECHNIQUES SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderTechniques(data){
+  showScreen('main');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.appendChild(makeModNav('Code Hyperlinks', null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:12px 14px 14px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#f0ece0;margin-bottom:3px">Code Hyperlinks</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.55)">'+(data.techniques||[]).length+' relationship types</div>';
+  main.appendChild(hdr);
+
+  (data.techniques||[]).forEach(function(tech){
+    var reversed=['DISJUNCT','CASCADE','NEST','LAYER','ICEBERG','XREF'].indexOf(tech.id)>=0;
+    var body=mk('div');
+    (tech.entries||[]).forEach(function(e,ei){
+      var row=mk('div');
+      row.style.cssText='display:flex;gap:9px;padding:9px 14px;border-bottom:1px solid var(--rule);align-items:flex-start;cursor:pointer';
+      row.style.borderBottom = ei<tech.entries.length-1 ? '1px solid var(--rule)' : 'none';
+      var dot=mk('div'); dot.style.cssText='width:5px;height:5px;border-radius:50%;margin-top:5px;flex-shrink:0;background:'+tech.color;
+      var content=mk('div'); content.style.flex='1';
+      var lbl=mk('div'); lbl.style.cssText='font-size:var(--fs-sm);font-weight:600;color:var(--navy);line-height:1.4'; lbl.textContent=e.label;
+      var sub=mk('div'); sub.style.cssText='font-size:var(--fs-xs);color:var(--ink-lt);margin-top:2px;line-height:1.4'; sub.textContent=e.sub;
+      var modTag=mk('div'); modTag.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;margin-top:4px;color:'+tech.color; modTag.textContent='\u2192 '+e.module;
+      content.appendChild(lbl); content.appendChild(sub); content.appendChild(modTag);
+      row.appendChild(dot); row.appendChild(content);
+      row.addEventListener('click',function(ev){ ev.stopPropagation(); toast('\u2192 '+e.module,'#2c4a7e'); });
+      body.appendChild(row);
+    });
+    var techBg = reversed ? tech.color : 'rgba(0,0,0,0.04)';
+    var techFg = reversed ? '#fff' : tech.color;
+    main.appendChild(makeAcc(tech.icon+' '+tech.title, tech.color, body, false));
+  });
+
   main.appendChild(makeFontBar());
   var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
   fabHide();
