@@ -1,0 +1,673 @@
+{
+  "id": "reasoning",
+  "name": "Ratio Legis",
+  "sub": "Formal logic and quantitative reasoning applied to the Code",
+  "type": "reasoning",
+  "schema_version": "1.0",
+  "groups": [
+    {
+      "id": "logic_liability",
+      "title": "Logic of Liability",
+      "accent": "#2c4a7e",
+      "concepts": [
+        {
+          "id": "conj_disj",
+          "title": "Conjunction & Disjunction",
+          "symbol": "∧  ∨",
+          "core": "A conjunction (∧) requires ALL conditions to be simultaneously true — if any single condition fails, the whole fails. A disjunction (∨) requires only ONE condition — any single satisfied limb makes the expression true.\n\nIn litigation: a conjunction is prosecution's enemy (every element must hold) and defence's friend (break one, break the charge). A disjunction is prosecution's friend (prove any limb) and defence's burden (defeat every limb).",
+          "ppc_bridge": "Every PPC element checklist is a conjunction. S.378 Theft: Dishonestly ∧ Takes ∧ Movable ∧ OutOfPossession ∧ WithoutConsent — all five simultaneously.\n\nS.149 Common Object uses a disjunction on the liability limb: 'in prosecution of the common object' ∨ 'members knew it likely.' Either limb alone suffices.\n\nS.390 Robbery illustrates a compound expression: (Theft ∨ Extortion) ∧ Force — a disjunction nested inside a conjunction.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "S.390 Robbery requires theft or extortion, plus force. Is this a conjunction, disjunction, or compound expression?",
+              "a": "Compound: (Theft ∨ Extortion) ∧ Force. The foundation is a disjunction (theft OR extortion satisfies it), but force must also be present — making the complete formula conjunctive at the outer level."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Prosecution charges S.302 murder. Accused establishes accident under S.80 (GE). Does this defeat the charge even if actus reus and mens rea are both established?",
+              "a": "Yes. Full liability formula: actus reus ∧ mens rea ∧ ¬GE. Establishing even one applicable exception negates the entire conjunction. S.6 incorporates GE into every offence as an implied conjunct."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "A statute reads: 'Whoever does A and B, or C, is liable.' Formalise this. What is prosecution's minimum burden and defence's minimum rebuttal?",
+              "a": "(A ∧ B) ∨ C. Prosecution satisfies it by proving either (A and B together) OR C alone. Defence must defeat BOTH limbs: show (¬A ∨ ¬B) to break the first, AND ¬C to break the second. If either limb survives intact, the accused is liable."
+            }
+          ],
+          "sq": [
+            {
+              "q": "S.34 requires prior concert ∧ criminal act ∧ furtherance. The accused shows he lacked common intention. Is the conjunction defeated for him?",
+              "reveal": "Yes — prior concert is a necessary conjunct. CI(accused) being false makes the S.34 formula fail for that accused. The others may still be liable if their conjunction holds. S.34 operates per-accused."
+            },
+            {
+              "q": "Apply De Morgan's ¬(P∧Q)≡¬P∨¬Q to the five elements of S.378. What is the defence's minimum burden?",
+              "reveal": "¬(D∧T∧M∧WC∧OP) ≡ ¬D∨¬T∨¬M∨¬WC∨¬OP. Defence establishes ONE of five disjuncts. The weakest element of prosecution's case is the optimal target."
+            }
+          ],
+          "ppc_refs": [
+            "34",
+            "149",
+            "378",
+            "390"
+          ],
+          "depth": []
+        },
+        {
+          "id": "conditional",
+          "title": "Conditional Statements",
+          "symbol": "P → Q",
+          "core": "Every PPC section is a conditional: if the prohibited conditions are met (P), liability follows (Q). P → Q.\n\nThe contrapositive (¬Q → ¬P) is logically equivalent and is the structure of every successful defence. Two common fallacies courts commit: affirming the consequent (Q → P, invalid) and denying the antecedent (¬P → ¬Q, invalid).",
+          "ppc_bridge": "S.302: P (Qatl-i-Amd committed) → Q (liable to death or life). Contrapositive: ¬Q (not liable) → ¬P (Qatl not established or GE applies).\n\nCommon court fallacy: 'The accused fled the scene [Q]. Guilty persons flee [P→Q]. Therefore accused is guilty [P].' Affirming the consequent — invalid. Q is consistent with many antecedents besides guilt.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Write the contrapositive of: 'If an accused commits Qatl-i-Amd, he is liable under S.302.'",
+              "a": "Contrapositive: 'If the accused is NOT liable under S.302, then he did not commit Qatl-i-Amd (or a GE applied).' Logically equivalent to the original. The defence always argues from the contrapositive."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Prosecution argues: 'The accused possessed the stolen goods [Q]. Thieves possess stolen goods [P→Q]. Therefore accused is a thief [P].' Is this valid?",
+              "a": "No — fallacy of affirming the consequent. Q→P is not a valid inference from P→Q. Possession is consistent with innocently receiving, finding, or buying the goods. The inference runs backward through the conditional and is logically invalid."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "S.107 Abetment: if A abets B (P1) and B commits the offence (P2), then A is liable under S.109 (Q). Identify all points the defence can attack.",
+              "a": "Conditional chain: P1 → (A is abettor); (abettor ∧ P2) → Q. Defence attacks: (1) negate P1 — show no abetment mode was satisfied; (2) negate P2 — show the offence was not committed; (3) show a GE applies to A's conduct. Breaking any link prevents Q."
+            }
+          ],
+          "sq": [
+            {
+              "q": "The judge says: 'The accused had motive, opportunity, and no alibi. He must be guilty.' Identify the logical structure and any fallacies.",
+              "reveal": "Conflates necessary conditions (motive, opportunity) with sufficient conditions. This is affirming the consequent: if guilty (P) then motive/opportunity/no alibi (Q); Q shown; therefore P. Invalid. Q is consistent with many P values. Standard of proof requires more than satisfying necessary conditions."
+            }
+          ],
+          "ppc_refs": [
+            "107",
+            "109",
+            "302",
+            "378"
+          ],
+          "depth": []
+        },
+        {
+          "id": "quantifiers",
+          "title": "Universal vs Existential Quantifier",
+          "symbol": "∀  ∃",
+          "core": "∀ (for all/universal): must hold for EVERY member. Failing for even one member makes the universal false.\n\n∃ (there exists/existential): holds for AT LEAST ONE member. One instance satisfying the condition makes the existential true.\n\nAttacking a universal: find one counterexample. Attacking an existential: show no instance satisfies it.",
+          "ppc_bridge": "S.34 uses a universal over the group: ∀x∈Group: CI(x). Every accused must share the intention. One member lacking it exits S.34 individually.\n\nS.141 is existential over common objects: ∃ object ∈ {five qualifying objects}. Prosecution need only establish one qualifying purpose.\n\nS.499 Defamation exceptions: defence must show ∃ exception ∈ {10 exceptions} that applies — existential burden on defence.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "S.141 requires five or more persons. Is this a universal or existential quantifier over persons?",
+              "a": "Existential with a cardinality threshold: ∃ group G such that |G|≥5 ∧ G has a qualifying common object. Once at least five persons with a common object are present, the condition is satisfied."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Defence proves one of three co-accused had a different intention. How does this affect S.34 for all three?",
+              "a": "S.34 requires ∀x∈Group: CI(x). The one who lacked common intention exits S.34 — cannot be held vicariously liable. The other two may still face S.34 liability if their common intention is established. The universal fails for that one member, not necessarily the whole group."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "S.499 Defamation: prosecution bears conjunctive burden on the base offence; defence bears existential burden on exceptions. Which is easier and does the allocation make doctrinal sense?",
+              "a": "Existential burden (∃ exception applies) is generally easier than a conjunctive burden (every element established). The allocation makes sense: prosecution asserts a wrong — positive claim requiring full proof. Defence asserts an excuse — existential claim requiring only one justification. Mirrors the general principle that exceptions are defence burdens."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Prosecution says: 'All members of the assembly are liable under S.149.' Defence shows one member joined by accident and left before the offence. How does quantifier logic apply?",
+              "reveal": "∀ members liable requires each to satisfy the S.141 assembly conditions. If one member's presence was involuntary, she never satisfied the assembly predicate. The universal scope of S.149 is over lawful members, not all physical persons present."
+            }
+          ],
+          "ppc_refs": [
+            "34",
+            "141",
+            "149",
+            "499"
+          ],
+          "depth": []
+        },
+        {
+          "id": "negation_q",
+          "title": "Negating Quantified Statements",
+          "symbol": "¬∀  ¬∃",
+          "core": "¬(∀x P(x)) ≡ ∃x ¬P(x): The negation of 'all X have P' is 'at least one X lacks P.' To defeat a universal claim, find one counterexample.\n\n¬(∃x P(x)) ≡ ∀x ¬P(x): The negation of 'some X has P' is 'no X has P.' To defeat an existential claim, show the property holds nowhere.\n\nThis is the logical core of cross-examination.",
+          "ppc_bridge": "To defeat 'all accused shared the common intention' (∀x CI(x)): show ∃x ¬CI(x) — at least one accused lacked it.\n\nTo defeat 'the accused had some intention to harm' (∃ harmful intent): show ∀ acts of accused: ¬harmful_intent — no act carried harmful intent.\n\nDe Morgan: ¬(P∧Q) ≡ ¬P∨¬Q. Negating the conjunction of theft elements gives a disjunction — defence needs only one.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Prosecution says: 'All five elements of S.378 Theft are present.' Write the negation defence must prove to succeed.",
+              "a": "¬(D∧T∧M∧WC∧OP) ≡ ¬D∨¬T∨¬M∨¬WC∨¬OP. Defence establishes ONE of: not dishonest, didn't take, not movable, had consent, or not out of possession. The weakest element is the optimal target."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "S.295-C: prosecution says accused 'made some statement defiling the Prophet's name.' This is an existential claim. How does defence negate it?",
+              "a": "¬(∃ statement: defiles(statement)) ≡ ∀ statements of accused: ¬defiles(statement). Defence must show NO statement constituted defilement under the section — addressing every alleged statement. Heavier burden than defeating a universal claim."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "S.149: accused is liable if offence was in prosecution of common object OR members knew it likely. Negate this to find the complete defence.",
+              "a": "¬(InProsecution∨KnewLikely) ≡ ¬InProsecution∧¬KnewLikely. Defence must establish BOTH: (1) offence was not in prosecution of common object; AND (2) members did not know it was likely. A conjunctive defence — both must be shown. Establishing only one is insufficient."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Using quantifier negation, explain why a character witness ('the accused is honest') is logically weak against specific prosecution evidence of dishonesty.",
+              "reveal": "Prosecution's evidence: ∃ act: dishonest(act). Character witness: ∀ acts observed: honest(act). The universal claim doesn't cover unobserved acts. The specific existential claim of one dishonest act is consistent with being generally honest. The claims address different scopes — one doesn't cancel the other."
+            }
+          ],
+          "ppc_refs": [
+            "34",
+            "149",
+            "295",
+            "378"
+          ],
+          "depth": []
+        },
+        {
+          "id": "nec_suf",
+          "title": "Necessary vs Sufficient Conditions",
+          "symbol": "N → S",
+          "core": "Necessary condition: must be present for the result — without it, the result cannot occur.\nSufficient condition: if present, the result must follow.\n\nA condition can be necessary-but-not-sufficient (actus reus alone), sufficient-but-not-necessary (any one of several disjunctive ways to satisfy an element), or both necessary AND sufficient (biconditional P↔Q).",
+          "ppc_bridge": "Death is necessary for Qatl — without it, no Qatl offence regardless of intention. But death alone is insufficient — natural death satisfies the necessary condition but not the sufficient.\n\nFive persons is necessary for S.141 — without five, no assembly. Sufficient requires additionally a qualifying common object.\n\nProof beyond reasonable doubt is necessary for criminal conviction. Not sufficient in itself — technical acquittals exist even where the court believes guilt.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Is the presence of five or more persons a sufficient condition for unlawful assembly under S.141?",
+              "a": "No — necessary but not sufficient. You additionally need one of five qualifying common objects (overawing government, resisting law, mischief, taking property, or compelling). Five people assembled to watch cricket satisfy the necessary headcount but not the sufficient conditions."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "S.302 requires Qatl-i-Amd. Is the accused's intention to kill a sufficient condition for a S.302 conviction?",
+              "a": "No — intention alone is not sufficient. The act must result in death. A person who intends to kill but fails (victim survives) faces S.324, not S.302. Nor is intention to kill the only route — S.300's four clauses include intention to cause grievous hurt likely to cause death, imminently dangerous acts, and knowledge of likely death. Intention is sufficient for clause (i) but not necessary for (ii)-(iv)."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "A police officer shoots a suspect in good faith believing he was acting under lawful authority (S.76 GE). The suspect dies. Identify which conditions are necessary, which are present, and which are absent.",
+              "a": "Necessary conditions for S.302 conviction: death (present), causing act (present), Qatl-i-Amd intention (present — the officer intended to shoot). Necessary condition for liability to attach: ¬GE (ABSENT — S.76 good faith mistake is present). The GE satisfies its necessary condition, negating the liability conjunction. All actus reus and mens rea conditions present, but GE negates the result."
+            }
+          ],
+          "sq": [
+            {
+              "q": "An accused is found with stolen goods but there is no other evidence. Prosecution says possession is sufficient proof of theft. Assess using necessary/sufficient analysis.",
+              "reveal": "Possession is a necessary consequence of theft (if you stole it, you have it) but not a sufficient condition for the theft conclusion. Possession is consistent with innocent receipt, finding, or purchase. Theft implies possession (P→Q) does not mean possession implies theft (Q→P). This is the fallacy of affirming the consequent."
+            }
+          ],
+          "ppc_refs": [
+            "76",
+            "141",
+            "300",
+            "302",
+            "324"
+          ],
+          "depth": []
+        },
+        {
+          "id": "predicates",
+          "title": "Predicates as Legal Rules",
+          "symbol": "P(x)",
+          "core": "A predicate is a function that takes an argument and returns true or false. Murder(x) = 'x committed murder' is a predicate in x.\n\nFormalising PPC sections as predicate logic makes the logical structure visible, identifies what proof must cover, and reveals where universal versus existential conditions apply. The full liability predicate is a conjunction of element predicates, modified by the negation of any applicable General Exception.",
+          "ppc_bridge": "Theft predicate: Theft(x) ↔ [Dishonestly(x)∧Takes(x)∧Movable(x)∧WithoutConsent(x)∧OutOfPossession(x)].\n\nCommon Intention predicate: CI_liable(x) ↔ [∃G: x∈G ∧ ∀y∈G: CI(y) ∧ Act_done(G) ∧ Furtherance(x)].\n\nFormalising S.34 reveals: the group condition is universal (∀ members share intention) but the group itself is existential (∃ group containing x). This mixed quantifier structure explains the precise proof obligation.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Formalise S.503 Criminal Intimidation as a predicate in x (the accused).",
+              "a": "Intimidation(x) ↔ [∃ person P: Threatens(x,P) ∧ (Object_alarm(x) ∨ Object_compel(x) ∨ Object_prevent(x))] where Object_alarm = intention to cause alarm; Object_compel = induce act/omission not legally bound to do; Object_prevent = prevent exercise of legal right."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Formalise S.149 Common Object as a predicate, making the group structure explicit.",
+              "a": "CO_liable(x) ↔ [∃G: x∈G ∧ |G|≥5 ∧ ∃obj∈S141_objects: G_has_obj(G,obj) ∧ (InProsecution(offence,G) ∨ KnewLikely(offence,G))]. The predicate makes visible: x's liability depends on a group condition (existential over groups), a headcount condition, an object condition (existential over five objects), and a disjunctive liability trigger."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "Using predicate logic, show why establishing Theft(x) does not automatically establish CBT(x) under S.405, even though both involve dishonesty with property.",
+              "a": "Theft(x): ¬LawfulCustody(x) ∧ Takes(x) ∧ Dishonestly(x)... CBT(x): LawfulCustody(x) ∧ DishonestlyMisappropriates(x)... The predicates are mutually exclusive on LawfulCustody: Theft requires its absence; CBT requires its presence. Establishing one formally excludes the other — they are disjoint predicate domains."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Formalise S.34 and S.149 as predicates. What must prosecution establish differently for each?",
+              "reveal": "Both require a group with a shared illegal purpose and an offence committed. S.34 requires ∀ members share the INTENTION (∀y: CI(y)). S.149 requires the group formed an ASSEMBLY (common OBJECT, not identical intention per member). S.34 is stricter on the mental element per member; S.149 is stricter on the group's structural predicate. Proof obligations are structurally similar but substantively different."
+            }
+          ],
+          "ppc_refs": [
+            "34",
+            "149",
+            "378",
+            "403",
+            "405",
+            "503"
+          ],
+          "depth": []
+        }
+      ]
+    },
+    {
+      "id": "argument_structure",
+      "title": "Argument Structure",
+      "accent": "#5c2a00",
+      "concepts": [
+        {
+          "id": "mp_mt",
+          "title": "Modus Ponens & Modus Tollens",
+          "symbol": "MP  MT",
+          "core": "Modus Ponens (MP): P→Q, P is true, therefore Q. Valid.\nModus Tollens (MT): P→Q, Q is false, therefore P is false. Valid.\n\nTwo invalid forms: Affirming the Consequent (P→Q, Q, therefore P — INVALID). Denying the Antecedent (P→Q, ¬P, therefore ¬Q — INVALID).\n\nMost weak prosecution arguments are instances of affirming the consequent. Most invalid defences are instances of denying the antecedent.",
+          "ppc_bridge": "Valid MP (prosecution): S.302 imposes liability for Qatl-i-Amd (P→Q). Accused committed Qatl-i-Amd (P). Therefore liable (Q).\n\nValid MT (defence): If there was criminal mens rea (P), no GE applies (implied Q). But a GE does apply (¬Q). Therefore no operative criminal liability (¬P).\n\nCommon invalid argument: 'The accused had motive and opportunity [Q]. Guilty people have motive and opportunity [P→Q]. Therefore accused is guilty [P].' Affirming the consequent.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Write a valid modus ponens argument establishing S.379 Theft liability.",
+              "a": "P1 (rule): All who commit theft (P) are liable under S.379 (Q). P2 (fact): The accused committed theft (P is true). Conclusion (MP): The accused is liable under S.379 (Q follows necessarily)."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Defence argues: 'My client has an alibi — he was in Lahore when the murder occurred in Karachi. Therefore he cannot be guilty.' Identify the logical form.",
+              "a": "Modus Tollens. Rule: if accused committed murder (P), he was at the scene (Q). Fact: NOT at scene (assuming alibi accepted, ¬Q). Conclusion: did NOT commit murder (¬P). Valid. The alibi works as modus tollens — provided it is believed."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "'Accused was seen near the victim's house after the murder. Murderers often visit the scene afterward. Therefore accused is likely the murderer.' Identify the logical form and evaluate.",
+              "a": "Affirming the consequent. P = murderer. Q = seen near scene. Argument: P→Q (murderers visit scenes), Q (accused near scene), therefore P (accused is murderer). Invalid. Q has many antecedents: curiosity, chance proximity, living nearby. The inference is logically invalid as a deductive argument."
+            }
+          ],
+          "sq": [
+            {
+              "q": "A judge says: 'We cannot acquit because the accused has no explanation for where he was.' Identify the logical error.",
+              "reveal": "The accused bears no burden to explain. The absence of an explanation is not modus tollens (which would require: if innocent, would have explanation; no explanation; therefore not innocent). Innocence does not imply the ability to explain. This reverses the burden of proof."
+            }
+          ],
+          "ppc_refs": [
+            "302",
+            "378",
+            "379"
+          ],
+          "depth": []
+        },
+        {
+          "id": "de_morgan",
+          "title": "De Morgan's Laws",
+          "symbol": "¬(P∧Q)  ¬(P∨Q)",
+          "core": "¬(P∧Q) ≡ ¬P∨¬Q: The negation of a conjunction is the disjunction of the negations.\n¬(P∨Q) ≡ ¬P∧¬Q: The negation of a disjunction is the conjunction of the negations.\n\nFor lawyers: to defeat a conjunctive charge (all elements required), negate any ONE element. To defeat a disjunctive charge (any element suffices), negate ALL elements. De Morgan's Laws are the mathematical foundation of criminal defence strategy.",
+          "ppc_bridge": "Negating S.378 Theft (∧ of 5 elements): ¬(D∧T∧M∧WC∧OP) ≡ ¬D∨¬T∨¬M∨¬WC∨¬OP. Defence need only establish one disjunct.\n\nNegating S.149 Limbs (∨ of 2 limbs): ¬(InProsecution∨KnewLikely) ≡ ¬InProsecution∧¬KnewLikely. Defence must defeat BOTH limbs — more burden for a disjunctive offence.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Apply De Morgan's Law to S.390 Robbery: (Theft∨Extortion)∧Force. What must defence show to defeat the charge?",
+              "a": "¬((T∨E)∧F) ≡ ¬(T∨E)∨¬F ≡ (¬T∧¬E)∨¬F. Defence can succeed by showing: EITHER (no theft AND no extortion), OR no force. The force element alone, if absent, defeats robbery regardless of whether theft/extortion was established."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "S.499 Defamation has 10 exceptions. Prosecution needs to rule them all out to get a conviction. What is the logical burden on prosecution?",
+              "a": "Prosecution must show ¬(∃ exception that applies) ≡ ∀ exceptions: does not apply. A universal burden over all 10 exceptions. In practice: the defence raises the exception it relies on (existential claim), and prosecution then negates that specific one. But if prosecution charges without addressing exceptions, the charge is logically incomplete."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "S.34 applies where A∧B∧C. S.149 applies where (assembly formed)∧(InProsecution∨KnewLikely). Using De Morgan, derive the complete defence for each and compare.",
+              "a": "S.34 defence: ¬(A∧B∧C) ≡ ¬A∨¬B∨¬C. Need one of three. S.149 defence: ¬(Assembly∧(InPros∨Knew)) ≡ ¬Assembly∨(¬InPros∧¬Knew). Must defeat assembly OR defeat both disjunctive liability limbs. S.149 is harder on the liability element; S.34 is harder on the mental element. Strategic choice: attack the weakest element of whichever charge."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Client is charged with both S.34 and S.149 on the same facts. How does De Morgan's analysis inform which defence argument is most efficient?",
+              "reveal": "If the common intention argument (¬CI) also implies the accused didn't know the assembly's likely offence (¬KnewLikely), one factual argument defeats both charges via both De Morgan analyses simultaneously. The overlap in De Morgan outputs is the most efficient defence."
+            }
+          ],
+          "ppc_refs": [
+            "34",
+            "149",
+            "390",
+            "499"
+          ],
+          "depth": []
+        },
+        {
+          "id": "syllogism",
+          "title": "Syllogism in Criminal Liability",
+          "symbol": "SYL",
+          "core": "A categorical syllogism has three parts: Major Premise (a general rule), Minor Premise (a specific fact), and Conclusion (what follows necessarily). The classic form: all M are P (major); all S are M (minor); therefore all S are P (conclusion).\n\nEvery criminal conviction follows this structure. Understanding which premise is contested tells you where to focus argument. Courts rarely dispute major premises (the law); they almost always dispute minor premises (the facts).",
+          "ppc_bridge": "Every criminal charge is a syllogism:\nMajor: All who commit Qatl-i-Amd (M) are liable under S.302 (P).\nMinor: The accused (S) committed Qatl-i-Amd (M).\nConclusion: The accused (S) is liable under S.302 (P).\n\nIn practice, legal argument is almost entirely about the minor premise — whether the accused's acts satisfy the legal definition in the major premise. Challenges to the major premise (challenging the law itself) require constitutional litigation.\n\nGeneral Exceptions create a fourth element: Major; Minor; GE does not apply; Conclusion. Each GE is a potential interruption between the minor premise and the conclusion.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Construct a valid syllogism for a charge of S.406 Criminal Breach of Trust.",
+              "a": "Major: All persons who dishonestly misappropriate property entrusted to them (M) are liable under S.406 (P). Minor: The accused (S) dishonestly misappropriated property entrusted to him (M). Conclusion: The accused (S) is liable under S.406 (P). The defence will almost always attack the minor premise — whether the property was 'entrusted' and whether the act was 'dishonest.'"
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Prosecution's syllogism: Major: All persons who intentionally kill with premeditation are liable for murder. Minor: The accused killed with premeditation. Conclusion: Accused is liable for murder. Defence admits the minor premise but argues the major premise doesn't match S.302. What is the defence's strategy?",
+              "a": "The defence is attacking the major premise as an incorrect statement of the law. S.300 requires Qatl-i-Amd satisfying one of four clauses — 'premeditation' is not the statutory standard. The correct major premise is: 'All persons who commit Qatl-i-Amd as defined in S.300...' By correcting the major premise, the defence may show that even if the accused killed intentionally, the specific S.300 clauses are not satisfied."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "Construct competing syllogisms for prosecution and defence in a S.149 Common Object case, and identify the exact point of factual dispute.",
+              "a": "Prosecution syllogism: Major: All members of an unlawful assembly (M) are liable for offences committed in prosecution of the common object (P). Minor: The accused (S) was a member of the unlawful assembly when the offence was committed (M). Conclusion: The accused (S) is liable under S.149 (P). Defence syllogism: Major: Members who were unaware of the likely offence (M) are not liable under S.149's second limb (P). Minor: The accused (S) was unaware the offence was likely (M). Conclusion: The accused (S) is not liable under S.149's second limb (P). The exact factual dispute: what did the accused know about the likely offence at the time of the assembly? Both syllogisms are valid — the dispute is entirely in their competing minor premises."
+            }
+          ],
+          "sq": [
+            {
+              "q": "The syllogism structure suggests that if prosecution establishes the minor premise (accused committed the actus reus and mens rea), the conclusion (liability) follows automatically. What prevents this automatic conclusion in PPC cases?",
+              "reveal": "Two things interrupt the syllogism between minor premise and conclusion: (1) General Exceptions under S.76-106, which the accused can establish to prevent the conclusion following; (2) Procedural bars (double jeopardy, limitation, jurisdiction) that prevent the legal conclusion even where the factual premises are satisfied. GE's function in the PPC is precisely to create a structured gap between the established minor premise and the conclusion of liability — it's the space where justice moderates logic."
+            }
+          ],
+          "ppc_refs": [
+            "149",
+            "300",
+            "302",
+            "406"
+          ],
+          "depth": []
+        },
+        {
+          "id": "suppressed_premises",
+          "title": "Suppressed Premises in Judicial Reasoning",
+          "symbol": "P*",
+          "core": "A suppressed premise (enthymeme) is an unstated assumption that makes an argument work. Every judicial opinion contains suppressed premises — factual, normative, or legal assumptions the court did not articulate but relied on.\n\nIdentifying suppressed premises is the key skill in case analysis. The suppressed premise is often the most contestable part of the reasoning — and the most important target for distinguishing or overturning a precedent.",
+          "ppc_bridge": "Classic suppressed premises in PPC jurisprudence:\n\nIn S.295-C blasphemy cases: courts sometimes convict without explicitly addressing mens rea, suppressing the premise that 'intention is not required for this offence' — a highly contested proposition that the suppressed premise quietly resolves.\n\nIn S.302 honour killing cases: courts applying qisas sometimes suppress the premise that the wali's right to waive Qisas operates independently of public interest — a premise that S.311 (Fasad-fil-Arz) directly challenges.\n\nIn S.34 Common Intention: courts suppressing the premise that 'participation in the act is sufficient proof of shared intention' — a weaker standard than the stated requirement of prior concert.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "A judge convicts for theft saying: 'The accused was caught with the goods in his bag, therefore he stole them.' Identify the suppressed premise.",
+              "a": "Suppressed premise: 'A person found with goods in his bag must have obtained them by theft.' This is neither stated nor proven. The missing premise is doing significant work: it excludes innocent possession, gifting, finding, or purchase. Once made explicit, the suppressed premise is clearly questionable — and cross-examination should target the alternative explanations it silently excludes."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Court holds: 'The accused shared the common intention because he was present and participated.' Identify and evaluate the suppressed premise.",
+              "a": "Suppressed premise: 'Presence and participation are sufficient evidence of shared common intention.' This is legally incorrect — Mahbub Shah v. Emperor PLD 1945 PC 18 explicitly held that presence and participation alone are insufficient. The Privy Council required evidence of prior arrangement or common purpose, not merely contemporaneous action. The suppressed premise, once identified, is contrary to binding authority. This is how precedents are undermined: expose the suppressed premise, show it conflicts with established law."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "A court holds that a confession obtained during police custody is voluntary because 'the accused is educated and knew his rights.' Identify all suppressed premises and evaluate their defensibility.",
+              "a": "Multiple suppressed premises: (1) 'Educated persons understand their rights regarding police custody' — suppresses that S.25 CrPC rights may not be communicated regardless of education; (2) 'Understanding one's rights means one can effectively assert them' — suppresses the coercive power differential in custody; (3) 'Voluntary confessions by educated persons are reliable' — suppresses that coercion operates on educated and uneducated alike. Once all three are made explicit, the reasoning appears significantly weaker. Each suppressed premise is empirically contestable and the conclusion (voluntariness) rests on all three holding simultaneously."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Judicial opinions never state all their premises. Is this a flaw in legal reasoning or a practical necessity?",
+              "reveal": "Both. Opinions suppress premises partly out of practical necessity — stating every assumption would make judgments impossibly long. But suppression also serves rhetorical purposes: contestable premises are easier to accept when left implicit. The skill of legal advocacy is to identify which suppressed premises are doing the most argumentative work, make them explicit, and then challenge them on the facts or on law. The discipline of making suppressed premises visible is what separates rigorous legal analysis from mere authority-citing."
+            }
+          ],
+          "ppc_refs": [
+            "34",
+            "295",
+            "300",
+            "302",
+            "311"
+          ],
+          "depth": []
+        },
+        {
+          "id": "truth_sets",
+          "title": "Truth Sets & Legislative Scope",
+          "symbol": "T(P)",
+          "core": "The truth set T(P) of a predicate P is the set of all cases for which P is true. Legal provisions define truth sets: T(S.300) is the set of all acts qualifying as murder.\n\nLegislative change is a set operation: adding an element widens the truth set; adding an exception narrows it. The effective conviction truth set is T(offence) ∩ ¬T(applicable exceptions).",
+          "ppc_bridge": "T(S.379 Theft) = all acts satisfying all five theft elements. T(GE.S.76-S.106) = all acts excused by any General Exception. Effective conviction set = T(S.379) ∩ ¬T(GE).\n\nThe 2023 Criminal Laws Amendment Act expanded T(Offences) by adding S.52B-D and S.348A-C. T(Wrongful Confinement offences) now includes private jail cases.\n\nQisas and Ta'zir operate as disjoint punishment sets: T(Qisas punishment) ∩ T(Ta'zir punishment) = ∅ for any given case.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "What is T(S.141) ∩ T(S.149) and what does this mean for prosecution?",
+              "a": "T(S.141) = all unlawful assemblies. T(S.149) = all members of unlawful assemblies who face vicarious liability. The intersection = all accused who were members when an offence was committed in prosecution of the common object. S.149 has no application outside T(S.141) — the intersection defines the effective scope."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "The 1990 Qisas and Diyat Ordinance replaced S.299-338 PPC. Using set language, describe what happened to T(Murder offences).",
+              "a": "T(Pre-1990 Murder) was replaced entirely — set substitution, not amendment. The new T(Qatl-i-Amd) is not the same set: it has different elements (Qisas eligibility, wali rights, Diyat options). This was not an amendment (adding to an existing truth set) but a replacement (substituting the entire defining predicate)."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "S.311 Fasad-fil-Arz allows the State to impose Ta'zir even after the wali has waived Qisas and accepted Diyat. Using set operations, show why this expands T(State punishment authority).",
+              "a": "Pre-S.311: T(State punishment) ∩ T(Wali waived) = ∅. After S.311: T(State Ta'zir for Fasad) ∩ T(Wali waived) ≠ ∅ in cases of gross public disorder. S.311 created a non-empty intersection between state punishment authority and waived private rights — a set expansion. T(Qisas exercised) and T(S.311 applies) remain mutually exclusive: S.311 only activates after waiver."
+            }
+          ],
+          "sq": [
+            {
+              "q": "S.295-C states it applies 'by whatever means.' How does this affect T(S.295-C) compared to a provision specifying particular means?",
+              "reveal": "'By whatever means' = ∀ means M: if defiling_via_M, then S.295-C applies. This maximises T(S.295-C) — no act of defilement can fall outside the truth set on grounds of method. A provision specifying means would have T = {acts of defilement via specified means only}, creating a gap. The 'whatever means' formulation was a deliberate legislative choice to prevent truth-set gaps."
+            }
+          ],
+          "ppc_refs": [
+            "149",
+            "295",
+            "299",
+            "300",
+            "311"
+          ],
+          "depth": []
+        }
+      ]
+    },
+    {
+      "id": "quantitative_evidence",
+      "title": "Quantitative Reasoning in Evidence",
+      "accent": "#1a5c52",
+      "concepts": [
+        {
+          "id": "thresholds",
+          "title": "Thresholds & Linear Inequalities",
+          "symbol": "x ≥ k",
+          "core": "Many PPC provisions turn on crossing a numerical threshold. The threshold x ≥ k changes the entire legal regime when crossed — the consequence is discontinuous. Below: one regime. At or above: a completely different regime.\n\nThresholds encode legislative policy judgements. Understanding the threshold structure tells you what the legislature considered important enough to trigger a new regime.",
+          "ppc_bridge": "Age thresholds: S.82 (x < 7: absolute bar, doli incapax), S.83 (7 ≤ x ≤ 12: rebuttable). The transition at x=7 is a legal phase transition — not gradual, absolute.\n\nHeadcount thresholds: S.141 (≥5 = unlawful assembly), S.391 (≥5 = dacoity, triggering S.395-402 rather than robbery S.392). The 5-person threshold converts robbery to a different offence entirely — cognizability, bail, and punishment all change discontinuously.\n\nDuration thresholds in confinement: S.343 (3+ days), S.344 (10+ days) — each threshold activates a new punishment rung.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Accused and 4 others commit robbery together. Prosecution argues dacoity. Is the S.391 threshold crossed?",
+              "a": "Accused + 4 others = 5 total. S.391 requires five or more persons: x ≥ 5. Five satisfies x ≥ 5. This IS dacoity. Had it been accused + 3 others = 4, the threshold would not be crossed and it remains robbery."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "An accused is 11 years old at the time of the offence. What is the legal regime and evidentiary consequence?",
+              "a": "S.82 (x < 7): absolute bar, no criminal capacity. S.83 (7 ≤ x ≤ 12): rebuttable presumption the child lacked sufficient maturity. At age 11, prosecution bears the burden of rebutting this presumption — it must show sufficient maturity to understand the nature and consequences of the act."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "If the law raises the dacoity headcount threshold from 5 to 10 by amendment, what happens to cases involving 6-9 persons?",
+              "a": "They fall back into the robbery regime (S.392) for post-amendment acts. The effect is discontinuous: before the amendment, 5+ = dacoity; after, only 10+ = dacoity. This creates a retroactivity question (S.38 PPC on prospective application). The threshold change also affects Schedule II flags — cognizability, bail, compoundability — for the intermediate range."
+            }
+          ],
+          "sq": [
+            {
+              "q": "S.82 creates a hard threshold at age 7 (absolute). S.83 creates a rebuttable zone from 7-12. What is the policy logic of having a zone rather than a second hard threshold at 12?",
+              "reveal": "The zone reflects that maturity is a continuous variable between 7 and 12, not a binary switch. A hard threshold at 12 would treat an 11-year-old prodigy and a 7.5-year-old with developmental delay identically. The rebuttable presumption allows individual assessment. Above 12, the law assumes full capacity. This is a policy choice to apply a probabilistic zone where individual variation is large, and a hard threshold where it is small."
+            }
+          ],
+          "ppc_refs": [
+            "82",
+            "83",
+            "141",
+            "343",
+            "391",
+            "392"
+          ],
+          "depth": []
+        },
+        {
+          "id": "std_proof",
+          "title": "Standard of Proof as Hypothesis Testing",
+          "symbol": "α  H₀",
+          "core": "Criminal trials can be modelled as hypothesis tests. H₀ (null hypothesis) = not guilty. H₁ = guilty. Conviction = rejecting H₀ in favour of H₁.\n\nType I error (α): wrongly convicting an innocent person (false positive). 'Beyond reasonable doubt' sets α very low.\n\nType II error (β): wrongly acquitting a guilty person (false negative). The criminal standard deliberately increases β to protect α. 'Let ten guilty go free rather than convict one innocent' reflects a deliberate α/β tradeoff.",
+          "ppc_bridge": "The criminal standard (beyond reasonable doubt) corresponds to setting α very low — perhaps 0.01 or lower. Civil standard (balance of probabilities) corresponds to α ≈ 0.5.\n\nThe presumption of innocence is H₀: the system starts at not guilty and requires evidence to overcome it. Reverse-onus provisions shift from testing H₁ to testing whether the accused can sustain H₀ — constitutionally contentious for this reason.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "In hypothesis testing terms, what does 'reasonable doubt' represent?",
+              "a": "Reasonable doubt is the threshold below which the court cannot reject H₀ (not guilty). If the probability of guilt on the evidence does not reach beyond the reasonable doubt threshold, H₀ is not rejected and the accused is acquitted. It represents the minimum evidence standard required to keep the Type I error rate low enough to satisfy the system's tolerance for wrongful conviction."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "A statute creates a reverse onus: once prosecution proves element A, the accused must disprove element B on balance of probabilities. Map this to hypothesis testing.",
+              "a": "Prosecution establishes A (initial threshold crossed). This shifts the inquiry: now H₀ = accused did not satisfy ¬B; H₁ = accused did satisfy ¬B. The accused must now reject H₀ to balance of probabilities standard (α ≈ 0.5). The effective overall standard is asymmetric: prosecution's burden on A is criminal standard; defence's burden on ¬B is civil standard."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "DNA evidence places the accused at the scene with probability 0.9999. Defence argues this still leaves reasonable doubt. Evaluate using hypothesis testing.",
+              "a": "P(match | innocent) = 0.0001 (false positive rate of the test). But conviction requires the posterior probability P(guilty | all evidence). By Bayes' theorem: P(guilty | DNA) depends on P(guilty before DNA) (the prior, based on other evidence). If the prior P(guilty) was low due to a strong alibi (say 0.01), even 99.99% DNA accuracy may not reach beyond reasonable doubt. The defence argument is logically sound: the DNA probability does not alone determine the posterior guilt probability."
+            }
+          ],
+          "sq": [
+            {
+              "q": "The 'beyond reasonable doubt' standard is deliberately asymmetric — it preferentially protects against Type I errors. Is this right in a society where crime rates are very high?",
+              "reveal": "A genuine policy tension. High crime rates increase the prior P(guilty) for accused persons, making Type II errors (letting guilty go free) more costly. But lowering the standard increases Type I errors (wrongful convictions), damaging institutional legitimacy. Systems under pressure sometimes shift standards informally through judicial culture without formally changing the legal standard. There is no clean answer — this is a constitutional and social values question, not a statistical one."
+            }
+          ],
+          "ppc_refs": [
+            "302",
+            "311"
+          ],
+          "depth": []
+        },
+        {
+          "id": "conf_intervals",
+          "title": "Confidence Intervals in Expert Testimony",
+          "symbol": "CI = x̄ ± zσ",
+          "core": "A 95% confidence interval means: if we repeated the sampling procedure 100 times, approximately 95 of the resulting intervals would contain the true parameter. It does NOT mean 'there is a 95% probability the true value is in this interval' for any single interval.\n\nCourts frequently misstate confidence intervals. The Bayesian interpretation ('95% chance the true value is here') is incorrect for frequentist CIs but is what most people intuitively understand. Expert witnesses often allow this misstatement to stand.",
+          "ppc_bridge": "Financial fraud under S.420: expert accountants estimate loss with a CI. A CI of [Rs.5M, Rs.15M] at 95% confidence does not mean 95% probability the true loss is in that range for this case — it means the method is correct 95% of the time over many such estimates.\n\nForensic age estimation in S.82/S.83 cases: a CI of [6, 9] years at 95% spans both the absolute bar and the rebuttable zone — the court cannot apply either provision with certainty.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "An expert testifies the estimated time of death is between 10pm and 2am with 95% confidence. Accused has an alibi for 11pm-1am. Does the CI exculpate him?",
+              "a": "Not conclusively. The CI means the method produces intervals containing the true time in 95% of cases. The true time could be anywhere within 10pm-2am. If his alibi covers only 11pm-1am, the true time could be 10pm-11pm or 1am-2am — neither covered. The CI narrows the search but doesn't place the time outside the alibi window."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "A forensic accountant says: 'I am 95% confident the loss is Rs.8 million.' Defence argues this means 5% chance of a different figure, therefore reasonable doubt exists. Evaluate.",
+              "a": "The defence conflates the frequentist CI (5% of such intervals miss the true value) with probability of being wrong in this specific case. However, if the lower bound of the CI is below the statutory threshold for a more serious charge, the CI is relevant to which charge is proven. Statistical uncertainty in an estimate does not automatically translate into legal reasonable doubt without reference to what the uncertainty means for the specific element at issue."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "Bone density analysis estimates accused's age as 11 years (CI: 9-13, 95% confidence). The offence is S.302. How should the court reason about age thresholds?",
+              "a": "The CI spans S.83 (7-12: rebuttable zone, covers part of CI) and adult capacity (>12: covers part of CI). The court cannot determine whether the accused was under or over 12 with sufficient certainty. Given the CI's spread, and that the most protective threshold (S.83) falls within a substantial portion of the CI, the principle of reasonable doubt suggests applying the more protective interpretation. Several jurisdictions hold that uncertain forensic age evidence should be resolved in favour of the accused."
+            }
+          ],
+          "sq": [
+            {
+              "q": "An expert says DNA matches the accused with '1 in 10 million' probability of a random match. Prosecution argues certainty. What is wrong?",
+              "reveal": "The 1-in-10-million figure is P(DNA match | innocent person selected at random) — not P(innocent | DNA matches). By Bayes' theorem, the posterior P(innocent | match) depends on the prior P(innocent) and P(match | innocent). If the city has 20 million people, approximately 2 people would match by chance. P(accused is the guilty one | match) depends heavily on other evidence. The prosecutor's fallacy: treating P(evidence | innocent) as if it equals P(innocent | evidence)."
+            }
+          ],
+          "ppc_refs": [
+            "82",
+            "83",
+            "420"
+          ],
+          "depth": []
+        },
+        {
+          "id": "corr_cause",
+          "title": "Correlation vs Causation in Criminal Evidence",
+          "symbol": "r ≠ →",
+          "core": "Correlation: two variables tend to move together. Causation: one variable causes the other to change. Correlation does not imply causation.\n\nFour possible explanations for correlation between A and B: A causes B; B causes A; a third variable C causes both; chance. Courts must identify which explanation is supported by evidence before drawing causal inferences.",
+          "ppc_bridge": "Classic error in criminal courts: prior convictions correlate with subsequent convictions. Judges sometimes reason 'this person has re-offended before, therefore likely guilty now' — treating historical correlation as causal proof of current offending.\n\nCircumstantial evidence chains: motive + opportunity + presence all correlate with guilt. But correlation with guilt-in-guilty-persons is not the same as proof — these indicators also correlate with many innocent explanations.",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "Police presence correlates with higher crime rates in some areas. Does this mean police cause crime?",
+              "a": "No — reverse causation. High crime areas attract police presence, not the other way around. The third-variable explanation: poverty and social conditions cause both high crime and high police deployment. Correlation without causal analysis is misleading."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "Prosecution introduces evidence that the accused was convicted of a similar offence five years ago. They argue 'pattern of behaviour proves current guilt.' Evaluate the logical validity.",
+              "a": "Prior conviction and current offence are correlated in re-offenders. But the correlation does not establish that the prior conviction causes the current offence, nor does it prove the accused committed the current offence. The inference is inductive, not deductive. Pakistan Evidence Act restrictions on similar fact evidence reflect this logic: without specific similarities beyond mere correlation, prior convictions are prejudicial, not probative."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "A study shows 80% of persons convicted of murder in Province X were from low-income backgrounds. Prosecution suggests poverty caused the murder. Defence argues it shows prosecution bias. Evaluate both.",
+              "a": "Neither argument directly follows from the correlation. 80% conviction rate for low-income accused could reflect: (a) higher actual rates of murder in low-income groups due to structural factors; (b) differential prosecution rates (bias); (c) differential conviction rates; (d) differential reporting rates. Causation cannot be identified without controlling for each alternative. Both the prosecution's argument (poverty caused this murder) and the defence's argument (bias caused this conviction) are unproven from the statistic alone — though the defence's argument identifies a plausible mechanism requiring investigation."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Forensic financial analysis shows this company's accounts display three ratios that fraudulent companies typically show. Prosecution argues this proves fraud. Assess.",
+              "reveal": "The ratios correlate with fraud in companies already known to be fraudulent. The argument is: fraud causes these ratios (F→R), company has these ratios (R), therefore company committed fraud (F). This is affirming the consequent, compounded by base rate neglect: if 90% of companies with these ratios are legitimate, even a high correlation between fraud and these ratios doesn't establish fraud here. The ratios are suspicious indicators that justify investigation, not proof of causation."
+            }
+          ],
+          "ppc_refs": [
+            "302",
+            "420"
+          ],
+          "depth": []
+        },
+        {
+          "id": "chi_square",
+          "title": "Independence Testing & Systemic Bias",
+          "symbol": "χ²",
+          "core": "A chi-square (χ²) test of independence asks: are two categorical variables independent? If bail grant rates are independent of religion, we expect the same grant rate across all groups. A significant χ² suggests they are NOT independent.\n\nThis is the statistical tool for systemic discrimination arguments. It does not prove discrimination in any individual case, but can establish a pattern that makes individual discrimination more plausible and shifts the burden of explanation onto the system.",
+          "ppc_bridge": "Bail applications: if grant rates vary significantly by religion, ethnicity, or income level, a χ² test would reveal this. This type of analysis has been used in jurisdictions to challenge systemic disparities.\n\nConviction rates under S.295-C: if they differ significantly by the accused's religion (Muslims vs non-Muslims charged with similar statements), χ² analysis could form the statistical backbone of a constitutional challenge under Article 25 (equality).",
+          "worked": [
+            {
+              "tier": "E",
+              "label": "Easy",
+              "q": "In a sample of 200 bail applications, 100 by wealthy accused (60 granted) and 100 by poor accused (30 granted). Is there evidence of income-based bias?",
+              "a": "Grant rates: wealthy 60%, poor 30%. Expected under independence: 45% each. Observed vs expected diverge significantly. A formal χ² test would yield a highly significant result (p < 0.001). This is statistical evidence of dependence between income level and bail outcome — not proof of discrimination, but strong evidence of a pattern requiring explanation."
+            },
+            {
+              "tier": "M",
+              "label": "Medium",
+              "q": "A defence lawyer argues that all 15 recent S.295-C convictions in a district involved non-Muslim accused, while Muslim accused charged with similar statements were acquitted. How would you test this statistically?",
+              "a": "Set up a contingency table: rows = religion (Muslim/non-Muslim), columns = verdict (convicted/acquitted). Count observations in each cell. Apply χ² test: H₀ = verdict is independent of religion. If p < 0.05, reject H₀ and conclude verdicts are not independent of religion. The test doesn't prove individual cases were wrong but establishes a pattern inconsistent with equal treatment — supporting a constitutional challenge under Article 25."
+            },
+            {
+              "tier": "H",
+              "label": "Hard",
+              "q": "A study shows Diyat awards in S.302 cases are significantly lower when the victim is female. Construct the χ² hypothesis and discuss the constitutional implications.",
+              "a": "H₀: Diyat amount is independent of victim's gender. If χ² rejects H₀, the data shows Diyat is gender-correlated. Constitutional implication: Article 25 guarantees equality regardless of sex. If the PPC formula or judicial application produces systematically lower compensation for female victims, this may constitute a constitutionally suspect classification. However, if the Diyat formula derives from Islamic jurisprudence (protected under Articles 227-231), there is a direct tension between Article 25 and the constitutional requirement to Islamise laws — one of the unresolved seams in the constitutional structure."
+            }
+          ],
+          "sq": [
+            {
+              "q": "Statistical evidence of systemic bias is relevant to constitutional challenges but not to individual criminal liability. Why can't a defendant say: 'I am innocent because bail statistics show bias against people like me'?",
+              "reveal": "Statistical patterns operate at the population level; individual liability is determined at the case level. Even if bail is statistically biased against a group, the individual case is adjudicated on its own facts. Statistical evidence can however be relevant to: (a) constitutional challenges seeking systemic reform; (b) sentencing where systemic disadvantage is a mitigating factor; (c) establishing context for an abuse of process claim. Individual acquittal on statistical grounds alone is not available."
+            }
+          ],
+          "ppc_refs": [
+            "295",
+            "302"
+          ],
+          "depth": []
+        }
+      ]
+    }
+  ]
+}
