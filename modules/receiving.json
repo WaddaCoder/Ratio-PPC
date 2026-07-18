@@ -1,0 +1,166 @@
+{
+  "id": "receiving",
+  "name": "Receiving Stolen Property",
+  "section": "S.410–414 PPC",
+  "formula": "Stolen Property (Consolidated Taint) → Knowing Receipt/Retention/Facilitation",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S410",
+      "name": "Stolen Property — The Foundational Definition",
+      "sub": "S.410 PPC — property tainted by Theft, Extortion, Robbery, Misappropriation, or Breach of Trust",
+      "step": "Element 1 of 5",
+      "atom": "S410",
+      "desc": "Property whose possession has been transferred by theft, extortion, or robbery, and property criminally misappropriated or made the subject of criminal breach of trust, is designated 'stolen property' — regardless of whether the transfer, misappropriation, or breach occurred within or outside Pakistan. Once such property comes into the possession of a person legally entitled to it, it ceases to be stolen property.",
+      "legal": "S.410 performs a vital definitional function: it gathers together the property-tainting effects of FIVE separate offences already built elsewhere in this app — Theft (S.378), Extortion (S.383), Robbery (S.390), Criminal Misappropriation (S.403), and Criminal Breach of Trust (S.405) — into a single unified category, 'stolen property,' that the receiving-offences in S.411 onward then operate on. This means the receiving offences do not require the receiver to know or prove which SPECIFIC one of these five source offences originally tainted the property, only that it qualifies as 'stolen property' under this consolidated definition. The cessation rule (property ceasing to be 'stolen' once it reaches someone legally entitled to it) is a clean, logical endpoint preventing indefinite taint from attaching to property long after it has been properly restored.",
+      "cite": "S.410 PPC — official text. Cross-reference Theft S.378, Extortion S.383, Robbery S.390, Misappropriation S.403, and Criminal Breach of Trust S.405 (all already built) — the five source offences whose tainting effect this section consolidates into a single 'stolen property' category.",
+      "ll": "S.410 PPC — official text",
+      "section": "410",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.410–414 specifically as of this build. Flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "Property is taken from Z through Extortion (already built in the Extortion module) rather than ordinary Theft. A later receives this property, knowing it was obtained through some wrongful means but uncertain whether it was Theft, Extortion, or Robbery specifically. Apply S.410. Does the receiving offence require A to know or the prosecution to prove which specific one of the five source offences tainted the property?",
+          "reveal": "No. S.410 consolidates the tainting effect of Theft, Extortion, Robbery, Criminal Misappropriation, and Criminal Breach of Trust into a single unified 'stolen property' category — the receiving offences built on this definition (S.411 onward) require only that the property qualify as 'stolen property' under this consolidated definition, not that the receiver know or the prosecution specifically prove which of the five source offences was the actual origin. A's uncertainty about the precise originating offence is immaterial so long as A knew or had reason to believe the property was, in some way, stolen property within this definition.",
+          "cite": "S.410 PPC — consolidating five distinct source offences into a single 'stolen property' category, removing any need to prove the specific originating offence for receiving-offence purposes."
+        },
+        {
+          "q": "Property stolen from Z eventually, through a chain of transactions, comes into the possession of Z's rightful heir following Z's death, who is legally entitled to it. A then receives the property from the heir, entirely unaware of its earlier history and with no reason to suspect any wrongdoing. Apply S.410's cessation rule. Could A be liable for receiving stolen property?",
+          "reveal": "No — by the time the property reached the legally entitled heir, S.410's own text provides that it 'ceases to be stolen property' at that point. A's subsequent receipt from the heir is therefore receipt of property that is, by definition, no longer 'stolen property' under this section, regardless of its more distant history. This cessation rule is precisely what prevents an indefinite taint from following property forever once it has been properly restored to someone with a legal right to it.",
+          "cite": "S.410 PPC's cessation rule — property ceases to be 'stolen property' once it reaches a person legally entitled to its possession, regardless of more distant history."
+        },
+        {
+          "q": "Does S.410 require that the original tainting offence (Theft, Extortion, etc.) have occurred within Pakistan for the 'stolen property' designation to apply?",
+          "reveal": "No. S.410's text expressly states the designation applies 'whether the transfer has been made, or the misappropriation or breach of trust has been committed, within or without Pakistan' — property stolen, extorted, or otherwise tainted entirely outside Pakistan's territory still qualifies as 'stolen property' for purposes of the receiving offences built on this definition, should it later be received within Pakistan's jurisdiction. This extraterritorial reach prevents the receiving offences from being circumvented simply by ensuring the original tainting offence occurs abroad.",
+          "cite": "S.410 PPC — explicit extraterritorial reach, the 'stolen property' designation applying regardless of where the original tainting offence occurred."
+        }
+      ]
+    },
+    {
+      "id": "S411",
+      "name": "Dishonestly Receiving Stolen Property",
+      "sub": "S.411 PPC — the base receiving offence",
+      "step": "Element 2 of 5",
+      "atom": "S411",
+      "desc": "Whoever dishonestly receives or retains any stolen property, knowing or having reason to believe it to be stolen property, is punished with imprisonment up to 3 years, fine, or both.",
+      "legal": "S.411's mental-state structure directly engages the 'reason to believe' standard already built in General Explanations S.26 — the prosecution does not need to prove the receiver's actual subjective knowledge that the property was stolen; sufficient objective cause to believe it was stolen (the S.26 standard) independently satisfies this element, alongside actual knowledge as an alternative route. The section also covers both RECEIVING (the initial act of taking the property into one's possession) and RETAINING (continuing to hold property one may have received innocently, but later comes to know or have reason to believe is stolen) — meaning even a person who initially received property in complete innocence becomes liable from the moment they acquire the relevant knowledge or reason to believe, if they continue to retain it thereafter.",
+      "cite": "S.411 PPC — official text. Cross-reference General Explanations S.26 ('Reason to believe') — the operative objective standard this section's mental element draws on.",
+      "ll": "S.411 PPC — official text",
+      "section": "411",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A receives a valuable watch from B as a gift, with no knowledge or suspicion at the time that it was stolen. Weeks later, A learns clear facts strongly suggesting the watch was stolen from Z, but A continues to keep and use it anyway. Apply S.411. Does A's initial innocent receipt protect A from liability?",
+          "reveal": "No. S.411 covers both receiving AND retaining stolen property with the requisite knowledge or reason to believe — A's initial innocent receipt does not provide ongoing protection once A subsequently acquires reason to believe the watch was stolen and nonetheless continues to retain it. From the moment A's knowledge or reason to believe arises, A's continued retention satisfies S.411 independently of how the watch was originally acquired.",
+          "cite": "S.411 PPC's 'receives or retains' language — continued retention after acquiring the requisite knowledge or reason to believe is independently sufficient, regardless of innocent initial receipt."
+        },
+        {
+          "q": "A purchases goods at a price far below their genuine market value, from a seller operating in circumstances that would cause a reasonable person to suspect the goods were stolen, but A does not actually turn their mind to the question and has no actual subjective belief either way. Apply S.411 and the General Explanations S.26 'reason to believe' standard. Is A's lack of actual subjective suspicion a defence?",
+          "reveal": "Not necessarily — S.411's text covers 'knowing or having reason to believe,' and the General Explanations S.26 standard for 'reason to believe' is an OBJECTIVE one: sufficient cause to believe, assessed from the circumstances, rather than requiring proof of A's actual subjective mental state. If the circumstances (suspiciously low price, suspicious seller circumstances) were such that a reasonable person would have reason to believe the goods were stolen, A's failure to actually turn their mind to the question does not provide a defence — willful blindness to objectively suspicious circumstances does not escape the 'reason to believe' standard.",
+          "cite": "S.411 PPC read with General Explanations S.26 — the 'reason to believe' standard is objective, not requiring proof of actual subjective suspicion, and is not defeated by willful blindness to suspicious circumstances."
+        },
+        {
+          "q": "How does S.411's structure relate to the five source offences consolidated under S.410's 'stolen property' definition? Could a person who personally committed the original Theft also be separately charged under S.411 for later 'receiving' the same property from themselves?",
+          "reveal": "No — S.411 is conceptually and practically aimed at a DIFFERENT person from the one who committed the original tainting offence; it punishes a distinct individual's dishonest receipt or retention of property already tainted by someone else's earlier offence. A person who personally stole the property is liable for Theft itself (S.378) and does not separately 'receive' it from their own prior theft in any meaningful sense — S.411's receiving offence is designed to capture the secondary market for stolen goods, the chain of people who knowingly deal in property after the original offence, not to create a redundant, second charge against the original offender for the same underlying conduct.",
+          "cite": "S.411 PPC — conceptually targeting secondary receivers distinct from the original offender, not creating redundant liability for the same person's own prior theft."
+        }
+      ]
+    },
+    {
+      "id": "S412",
+      "name": "Receiving Property Stolen in the Commission of a Dacoity",
+      "sub": "S.412 PPC — the dacoity-specific aggravation",
+      "step": "Element 3 of 5",
+      "atom": "S412",
+      "desc": "Whoever dishonestly receives or retains stolen property knowing or having reason to believe it was obtained through the commission of Dacoity, or dishonestly receives property from a person known or believed to belong or have belonged to a gang of dacoits, knowing or having reason to believe the property to have been stolen, is punished with imprisonment for life, or rigorous imprisonment up to 10 years, plus fine.",
+      "legal": "S.412 dramatically escalates S.411's base 3-year ceiling to life imprisonment specifically where the property's taint traces to Dacoity (already built in the Robbery & Dacoity module) — reflecting the same heightened concern with organised, multi-person property crime already visible throughout that module's own provisions (the five-or-more threshold, the severe joint-liability mechanisms in S.394/396). The section's second limb is structurally distinctive: it does not require the receiver to know the SPECIFIC property came from a dacoity, only that the property came FROM a person known or believed to belong (or have belonged) to a gang of dacoits, AND that the property itself is known or believed to be stolen — this captures ongoing dealing with known dacoit-gang members as a category, not merely isolated transactions tied to a specific dacoity event.",
+      "cite": "S.412 PPC — official text. Cross-reference Robbery & Dacoity module S.391, S.395–402 — the same heightened concern with organised, multi-person property crime recurring here in the receiving context.",
+      "ll": "S.412 PPC — official text",
+      "section": "412",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A receives property from B, knowing B to currently belong to a known gang of dacoits, and knowing the property itself to be stolen — but A has no specific knowledge that THIS particular item came from a dacoity rather than some other form of theft B's gang may have separately committed. Apply S.412's second limb. Is A liable under the enhanced tier?",
+          "reveal": "Yes. S.412's second limb does not require knowledge that the specific property came from a dacoity event specifically — it requires only that the receiver know or have reason to believe the SOURCE PERSON belongs or has belonged to a gang of dacoits, and separately know or have reason to believe the PROPERTY itself to be stolen. Both elements are satisfied here independently of any specific knowledge connecting this particular item to a specific dacoity, making this second limb broader and easier to satisfy than the first limb (which does require knowledge connecting the property to a dacoity specifically).",
+          "cite": "S.412 PPC's second limb — satisfied by knowledge of the source person's gang membership plus knowledge the property is stolen generally, without requiring specific knowledge connecting that property to a dacoity event."
+        },
+        {
+          "q": "Compare S.412's life-imprisonment ceiling to S.411's base 3-year ceiling for ordinary stolen property receiving. What does this more than threefold-in-kind escalation (fixed term to life imprisonment) signal about how the legislature treats receivers connected to organised dacoity specifically?",
+          "reveal": "The escalation to life imprisonment — a category shift, not merely a longer fixed term — reflects that receiving property connected to dacoity is treated as comparably serious to participating in the underlying organised crime itself, consistent with the Robbery & Dacoity module's own severe joint-liability provisions (S.394's hurt-in-robbery and S.396's murder-in-dacoity, both of which similarly escalate to life-imprisonment-eligible exposure for all participants). The receiving offence under S.412 functions as an economic extension of that same severity calibration: someone who knowingly provides a market for dacoity-derived property, or who deals with known dacoit gang members, is treated as facilitating and sustaining the organised criminal enterprise itself, not merely committing an isolated, lesser property offence.",
+          "cite": "S.412 PPC's life-imprisonment ceiling, paralleling the severity calibration already seen in S.394/396 PPC (Robbery & Dacoity module) — receiving as economic facilitation of organised crime, not merely isolated property offence."
+        },
+        {
+          "q": "A person was once a member of a gang of dacoits years ago but has since genuinely left that life entirely. A current acquaintance, aware only of this past (not current) gang membership, receives stolen property from this person, knowing the property to be stolen. Apply S.412's 'belong OR have belonged' language. Does the past, no-longer-current membership still trigger this section?",
+          "reveal": "Yes — S.412's text explicitly covers a person known or believed 'to belong or to have belonged to a gang of dacoits,' using the disjunctive present-or-past tense deliberately. The receiver's knowledge of even past gang membership, combined with knowledge that the property is stolen, is sufficient to trigger S.412's enhanced tier; the section does not require that the source person currently still be an active dacoit at the time of the receiving transaction.",
+          "cite": "S.412 PPC — 'belong or have belonged' explicitly covering both current and past gang membership, with no requirement of ongoing active dacoity participation at the time of receiving."
+        }
+      ]
+    },
+    {
+      "id": "S413",
+      "name": "Habitually Dealing in Stolen Property",
+      "sub": "S.413 PPC — the pattern-of-conduct aggravation",
+      "step": "Element 4 of 5",
+      "atom": "S413",
+      "desc": "Whoever habitually receives or deals in property known or believed to be stolen property is punished with imprisonment for life, or imprisonment of either description up to 10 years, plus fine.",
+      "legal": "S.413 escalates to the same severe life-imprisonment-eligible tier as S.412, but through a completely different aggravating mechanism: not the dacoity connection, but HABITUALITY — a demonstrated pattern of repeated dealing in stolen property over time, rather than a single isolated transaction. This is the same single-act-versus-habitual-pattern severity escalation already encountered repeatedly throughout this app (S.370/371's slave-dealing distinction in the Kidnapping module, S.326/327's historical Thug provision in the Qatl Core module, S.343/344's duration-based escalation in Wrongful Restraint) — confirming this is a deeply recurring structural principle across multiple, otherwise unrelated chapters of the Code: demonstrated criminal enterprise as an ongoing pattern consistently draws substantially harsher punishment than an isolated act, even where the isolated act and the pattern share identical underlying conduct.",
+      "cite": "S.413 PPC — official text. Cross-reference S.370/371 PPC (Kidnapping module, slave-dealing), S.326/327 PPC (Qatl Core module, historical Thug provision), S.343/344 PPC (Wrongful Restraint module, duration escalation) — the same single-act-vs-habitual severity escalation recurring across at least four separate chapters of the Code.",
+      "ll": "S.413 PPC — official text",
+      "section": "413",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, on a single isolated occasion, knowingly receives one item of stolen property. Separately, B has, over an extended period, repeatedly and as an ongoing practice received and dealt in property B knows or has reason to believe to be stolen, across numerous separate transactions. Apply S.411 and S.413 respectively. Compare A and B's punishment exposure.",
+          "reveal": "A faces up to 3 years under S.411's base receiving offence for the single isolated transaction. B faces life imprisonment, or imprisonment up to 10 years, under S.413's habitual-dealing provision — a substantially more severe exposure reflecting B's demonstrated, ongoing pattern of criminal enterprise rather than an isolated act, even though the underlying conduct (knowingly receiving/dealing in stolen property) is conceptually the same act repeated.",
+          "cite": "S.411 PPC (3 years, single act) vs S.413 PPC (life/10 years, habitual dealing) — the same single-act-vs-habitual-pattern severity escalation recurring across this app's structure."
+        },
+        {
+          "q": "Why might the legislature have created S.413 as a separate, distinctly-labelled provision, rather than simply treating habitual dealing as an aggravating sentencing factor available to courts under the general S.411 provision's existing discretion?",
+          "reveal": "Creating a separate, specifically-labelled offence for habitual dealing — rather than leaving it to general sentencing discretion under S.411 — allows the prosecution to specifically charge and prove the pattern of habitual conduct as a defined element of a distinct, more severely punished offence, rather than relying on a sentencing judge's discretionary weighing of an aggravating factor within S.411's comparatively modest 3-year ceiling. This mirrors the same charging-function rationale already discussed for S.381 (Theft) and S.408 (Criminal Breach of Trust) — a dedicated provision for a specific aggravating pattern makes that aggravation a defined, provable element of its own offence, with its own appropriately severe punishment ceiling, rather than a matter of judicial discretion within a lower ceiling.",
+          "cite": "S.413 PPC as a separately-labelled offence — the same charging-function rationale already discussed for S.381 PPC (Theft) and S.408 PPC (Criminal Breach of Trust), applied here to habitual stolen-property dealing."
+        },
+        {
+          "q": "Does S.413 require that each individual instance of dealing, considered separately, itself be proven to the same standard as a standalone S.411 offence, or is the habitual pattern itself the operative element?",
+          "reveal": "S.413's text focuses on the habitual character of the conduct itself — 'whoever habitually receives or deals in property which he knows or has reason to believe to be stolen property' — the section's gravamen is the demonstrated pattern, not necessarily requiring the prosecution to separately prove each individual transaction within that pattern to the full standard that would be required to convict on a standalone S.411 charge for that specific instance. The habitual pattern, established through the totality of the evidence, is itself what S.413 punishes, distinguishing its evidentiary focus from S.411's transaction-specific focus.",
+          "cite": "S.413 PPC — the habitual pattern itself as the operative element, distinguishing its evidentiary focus from S.411's transaction-specific approach."
+        }
+      ]
+    },
+    {
+      "id": "S414",
+      "name": "Assisting in Concealment of Stolen Property",
+      "sub": "S.414 PPC — the facilitation-without-receiving offence",
+      "step": "Element 5 of 5",
+      "atom": "S414",
+      "desc": "Whoever voluntarily assists in concealing, disposing of, or making away with property known or believed to be stolen property is punished with imprisonment up to 3 years, fine, or both.",
+      "legal": "S.414 captures a category of conduct that does NOT require the offender to ever personally receive or retain the stolen property at all — unlike S.411–413, which all require receiving, retaining, or dealing in the property, S.414 punishes mere ASSISTANCE in concealing, disposing of, or making away with property, which could be satisfied by a person who helps transport, hide, or arrange disposal of stolen property without ever taking it into their own possession or control at any point. This closes a potential gap: a person who facilitates the practical logistics of dealing with stolen property, without ever becoming a 'receiver' in the technical sense, would otherwise risk escaping the receiving-offence framework entirely; S.414 ensures such facilitation is independently punishable.",
+      "cite": "S.414 PPC — official text. Cross-reference S.411 PPC — S.414's facilitation-without-receiving structure as a deliberate gap-closing provision relative to the receiving/retaining requirement of the preceding sections.",
+      "ll": "S.414 PPC — official text",
+      "section": "414",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, knowing certain goods to be stolen, helps the thief transport and hide the goods in a remote location, but A never personally takes possession or control of the goods at any point — A's role is purely logistical assistance. Apply S.411 and S.414. Does A's lack of personal possession or control prevent liability under either section?",
+          "reveal": "A is not liable under S.411 (which requires receiving or retaining the property), but IS liable under S.414, which requires only voluntary assistance in concealing, disposing of, or making away with the property, knowing or having reason to believe it to be stolen — with no requirement that A ever personally receive, retain, or control the property. S.414 exists precisely to capture this kind of purely facilitative role that would otherwise escape liability under the more possession-focused S.411–413 framework.",
+          "cite": "S.414 PPC — satisfied by mere facilitative assistance without personal receipt or possession, distinguishing it from S.411's receiving/retaining requirement."
+        },
+        {
+          "q": "How does S.414's 3-year ceiling compare to S.411's base 3-year ceiling for actual receiving? What does this parity suggest about how the legislature weighs facilitation against direct receipt?",
+          "reveal": "The identical 3-year ceiling suggests the legislature treats knowing facilitation of concealment or disposal as comparably culpable to actually receiving or retaining the stolen property oneself — despite the practical difference that S.414's offender never personally benefits from possession of the property in the way a receiver under S.411 typically does. This reflects a judgment that the harm to the property's rightful owner, and the practical assistance rendered to those profiting from the original theft, is substantially the same whether the helper personally possesses the goods or merely facilitates their concealment and disposal on someone else's behalf.",
+          "cite": "S.414 PPC's parity with S.411 PPC's base ceiling — reflecting comparable culpability for facilitation versus direct receipt, despite the practical difference in personal benefit."
+        },
+        {
+          "q": "Does S.414 require that the assistance actually succeed in concealing or disposing of the property, or is the act of assistance itself sufficient regardless of outcome?",
+          "reveal": "S.414's text covers a person who 'voluntarily assists in concealing or disposing of or making away with' stolen property — the section's focus is on the voluntary act of assistance itself, with knowledge or reason to believe the property is stolen, rather than on the ultimate success of the concealment or disposal effort. A person who voluntarily renders such assistance, even if the concealment attempt is ultimately discovered or fails to achieve its purpose, would still satisfy the section's core requirement, since the wrong S.414 targets is the knowing facilitation itself, not a guaranteed successful outcome.",
+          "cite": "S.414 PPC — the voluntary act of assistance itself as the operative element, not requiring proof that the concealment or disposal effort actually succeeded."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "theft",
+  "name": "Theft",
+  "section": "S.378–382 PPC",
+  "formula": "D ∧ M ∧ P ∧ ¬C ∧ V  →  Theft (S.378)",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "D",
+      "name": "Dishonest Intention",
+      "sub": "S.24 PPC — wrongful gain or loss",
+      "step": "Element 1 of 5",
+      "atom": "D",
+      "desc": "The accused must intend to cause wrongful gain or wrongful loss — defined exhaustively by S.24 PPC. This mental element must exist at the moment of taking.",
+      "legal": "Dishonest intention is inferred from conduct and circumstances. If the accused genuinely believed they had a right to the property, this element fails. Either wrongful gain to the taker OR wrongful loss to the owner suffices — the disjunction in S.24 is explicit.",
+      "cite": "1994 SCMR 1230 (State v. Nadeem Afzal) — dishonest intention confirmed as vital ingredient.",
+      "ll": "S.24 PPC — official text",
+      "section": "24",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Supreme Court in 1994 SCMR 1230 (State v. Nadeem Afzal) confirmed both dishonest intention and absence of consent are vital ingredients — four of five elements alone will never suffice.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "Can a person intend to take property they genuinely believe is their own and still be guilty of theft? Why or why not?",
+          "reveal": "No. If the accused genuinely believed they had a legal right to the property, the mental element is absent. The belief must be sincere. Courts examine surrounding circumstances to test sincerity.",
+          "cite": "PLD 1954 FC 77 — intention gathered from conduct and attending circumstances"
+        },
+        {
+          "q": "If the accused intended to return the property after temporary use, does dishonest intention still exist?",
+          "reveal": "Generally yes. Temporary deprivation still causes wrongful loss to the owner. The intention to return may reduce punishment but does not defeat the element.",
+          "cite": "1994 SCMR 1230 — dishonest intention is a vital ingredient"
+        },
+        {
+          "q": "Does S.24 require both wrongful gain AND wrongful loss simultaneously, or does either suffice?",
+          "reveal": "Either suffices. S.24 states \"with the intention of causing wrongful gain to one person OR wrongful loss to another.\" The disjunction is explicit in the statute.",
+          "cite": "S.24 PPC — plain statutory language"
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "name": "Movable Property",
+      "sub": "S.22 PPC — tangible, not land or fixtures",
+      "step": "Element 2 of 5",
+      "atom": "M",
+      "desc": "The property must be movable — capable of being carried from place to place. Land and things permanently attached are excluded. S.22 PPC defines movable property.",
+      "legal": "Property must be tangible and physically movable. Land and permanent fixtures are excluded. Once severed from land an object becomes movable — timber on a tree cannot be stolen; cut timber can be.",
+      "cite": "S.22 PPC defines movable property. S.378 Illustrations clarify the severance principle.",
+      "ll": "S.22 PPC — official text",
+      "section": "22",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Can electricity or data be movable property under S.378? What does the section require physically?",
+          "reveal": "Not under S.378 as drafted. Theft requires physical movement of a tangible object. Electricity theft is addressed by separate legislation in Pakistan.",
+          "cite": "S.22 PPC — movable property defined"
+        },
+        {
+          "q": "A tree is cut down and the timber carried away. Is the timber movable property? At what point does the analysis change?",
+          "reveal": "Yes — once severed. Before severance it is part of immovable property. The moment of severance converts it. This is why S.378 requires movement — the movement can itself be the act of severance.",
+          "cite": "S.378 Illustrations — severance principle"
+        },
+        {
+          "q": "A person takes water from a river flowing through private land. Apply S.22 and S.378. Is this theft?",
+          "reveal": "Generally no — water in a natural stream is not in private possession. However water in a private tank would be different. The possession element (P) becomes the key analysis, not movability.",
+          "cite": "S.378 PPC — all elements must conjoin"
+        }
+      ]
+    },
+    {
+      "id": "P",
+      "name": "Out of Possession",
+      "sub": "S.378 PPC — possession, not ownership",
+      "step": "Element 3 of 5",
+      "atom": "P",
+      "desc": "The property must be taken out of the possession of some person. Possession does not mean ownership — a servant who holds their employer's goods is in possession. Abandoned property cannot be stolen.",
+      "legal": "Possession not ownership is the operative test. A person can steal their own property if it is in another's lawful possession. Genuinely abandoned property has no possessor and cannot be stolen.",
+      "cite": "S.378 PPC — possession distinguished from ownership. Confirmed in multiple Supreme Court theft judgments.",
+      "ll": "S.378 PPC — official text",
+      "section": "378",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Can a person steal their own property? Ownership and possession are different concepts in law — apply both.",
+          "reveal": "Yes. If A pledges goods to B as security, B is in possession. If A takes the goods back without B's consent, A commits theft even though A owns the property.",
+          "cite": "S.378 PPC — possession distinguished from ownership"
+        },
+        {
+          "q": "Property has been abandoned by its owner — lying in a public place. Can it be stolen?",
+          "reveal": "No. Genuinely abandoned property passes into a state of no possession. However courts scrutinise abandonment carefully — goods that are merely lost are still in the constructive possession of the original owner.",
+          "cite": "S.378 — possession element requires a possessor"
+        },
+        {
+          "q": "A pickpocket takes a wallet from a person who is unconscious. Is the possession element satisfied?",
+          "reveal": "Yes. A person retains possession even when unconscious. Possession in law is not destroyed by temporary incapacity. The victim's unawareness is irrelevant.",
+          "cite": "General principle of constructive possession"
+        }
+      ]
+    },
+    {
+      "id": "¬C",
+      "name": "Without Consent",
+      "sub": "S.378 PPC — negation atom, consent defeats offence",
+      "step": "Element 4 of 5",
+      "atom": "¬C",
+      "desc": "The taking must be without the consent of the person in possession. This is a negation element — proven consent defeats the offence entirely regardless of all other elements. Consent by fraud or fear is not valid.",
+      "legal": "If genuine consent is established the entire formula returns False. Consent is limited to its scope. A shopkeeper who allows handling has not consented to permanent removal. Consent obtained by deception is vitiated.",
+      "cite": "1994 SCMR 1230 — absence of consent confirmed as vital ingredient alongside dishonest intention.",
+      "ll": "S.378 PPC — official text",
+      "section": "378",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A shopkeeper allows customers to handle goods before purchase. A customer picks up an item and walks out. Is the without-consent element satisfied?",
+          "reveal": "Yes. The consent extended only to handling for inspection, not permanent removal without payment. Consent is limited by its scope — exceeding it means no consent.",
+          "cite": "S.378 — scope of consent is fact-specific"
+        },
+        {
+          "q": "Consent obtained by a false story — does this defeat the element?",
+          "reveal": "No. Consent obtained by deception is not valid. Courts apply a but-for test — would the owner have consented but for the deception? If no, consent is vitiated.",
+          "cite": "S.378 — vitiated consent does not defeat the element"
+        },
+        {
+          "q": "This is the negation atom ¬C. If consent is proven True, trace the logical consequence through the full formula.",
+          "reveal": "If C is True then ¬C is False. One False conjunct makes the entire conjunction False. The offence fails here regardless of D, M, P, and V being fully established.",
+          "cite": "1994 SCMR 1230 — confirmed in law"
+        }
+      ]
+    },
+    {
+      "id": "V",
+      "name": "Movement",
+      "sub": "S.378 PPC — slightest movement suffices",
+      "step": "Element 5 of 5",
+      "atom": "V",
+      "desc": "The accused must actually move the property in order to the taking. The slightest movement suffices. Theft is complete at the moment of movement — not when the thief escapes.",
+      "legal": "Movement is the completing act of theft. A thief caught immediately after lifting an object has completed the offence. Theft is complete at the place of movement not where the thief is apprehended.",
+      "cite": "S.378 Illustrations — movement of property not escape of thief is the completing act.",
+      "ll": "S.378 Illustrations — official text",
+      "section": "378",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A thief picks up a bag but is immediately grabbed before taking a single step. Theft or attempt?",
+          "reveal": "Theft is complete. S.378 requires movement in order to taking — lifting the bag is movement. There is no requirement to escape or leave the spot.",
+          "cite": "S.378 Illustration — slightest removal suffices"
+        },
+        {
+          "q": "At what precise moment is theft complete — movement, leaving premises, or reaching safety?",
+          "reveal": "At the moment of movement. This is settled law. Theft is not a continuing offence. The actus reus is the movement itself.",
+          "cite": "S.378 PPC — movement is the completing act"
+        },
+        {
+          "q": "Property is loaded onto a truck. The truck has not moved yet. Has theft been committed?",
+          "reveal": "Yes if the loading constituted movement of the property. Moving property onto a vehicle is moving the property. The vehicle need not depart.",
+          "cite": "S.378 Illustrations — movement of property is decisive"
+        }
+      ]
+    },
+    {
+      "id": "S379_380",
+      "name": "Punishment for Theft; Theft in a Dwelling House",
+      "sub": "S.379/380 PPC — base punishment and the dwelling-house aggravation",
+      "step": "Element 6 of 9",
+      "atom": "S379_380",
+      "desc": "S.379 punishes theft generally with up to 3 years' imprisonment, fine, or both. S.380 escalates this where the theft occurs in any building, tent, or vessel used as a human dwelling or for the custody of property, raising the ceiling to 7 years plus fine.",
+      "legal": "S.380's aggravation is location-based, not victim-based or value-based — it does not matter who the victim is or what was stolen; what matters is that the theft occurred within a structure used as a dwelling or for property custody. The rationale tracks a similar logic to S.448's house-trespass aggravation (Criminal Trespass, future session): violating the security of a dwelling is treated as a distinct, additional harm beyond the property loss itself, reflecting the privacy and security interest a home or custody-structure represents.",
+      "cite": "S.379 and S.380 PPC — official text.",
+      "ll": "S.379, S.380 PPC — official text",
+      "section": "379",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits theft of a wallet from a stranger on a crowded public street. Separately, B commits theft of an identical wallet of identical value from inside the victim's home. Apply S.379/380. Compare the punishment ceilings.",
+          "reveal": "A faces up to 3 years under S.379's general theft provision, since the theft occurred in a public place with no dwelling-house element. B faces up to 7 years under S.380, since the theft occurred inside a building used as a human dwelling — more than double A's exposure, despite the stolen property being identical in nature and value. The aggravation tracks location, not the value or nature of what was stolen.",
+          "cite": "S.379 PPC (general, 3 years) vs S.380 PPC (dwelling-house, 7 years) — location-based aggravation independent of property value."
+        },
+        {
+          "q": "Does S.380 require that the building actually be occupied by someone at the time of the theft, or is it sufficient that the building is generally used as a dwelling?",
+          "reveal": "S.380's text requires only that the building, tent, or vessel 'is used as a human dwelling, or used for the custody of property' — it does not require that someone actually be present or that the structure be occupied at the precise moment of the theft. A house that is its owner's residence but temporarily empty (the owner away at work, for example) still satisfies S.380's dwelling-use requirement, since the section is concerned with the structure's general use and character, not momentary occupancy.",
+          "cite": "S.380 PPC — 'used as' a dwelling, not requiring contemporaneous occupancy at the time of the theft."
+        }
+      ]
+    },
+    {
+      "id": "S381_381A",
+      "name": "Theft by Clerk or Servant; Theft of a Motor Vehicle",
+      "sub": "S.381/381A PPC — a breach-of-trust-adjacent aggravation, and a 1996 vehicle-specific provision",
+      "step": "Element 7 of 9",
+      "atom": "S381_381A",
+      "desc": "S.381 punishes theft by a clerk or servant of property in their master/employer's possession, with up to 7 years plus fine. S.381A (inserted 1996) specifically punishes theft of a car or other motor vehicle (including motorcycle, scooter, or tractor) with up to 7 years plus a fine not exceeding the stolen vehicle's value — its Explanation extends coverage to theft of a tube-well electric motor or transformer.",
+      "legal": "S.381's aggravation reflects a position-of-trust concern conceptually adjacent to, but structurally distinct from, Criminal Breach of Trust (S.405, future session) — a clerk or servant stealing from their employer's property breaches the trust inherent in their position, even though the theft itself (taking property they were never entrusted with managing or controlling) remains theft rather than the distinct breach-of-trust offence. S.381A's 1996 insertion responds to the specific, high-frequency social problem of vehicle theft, treating it as warranting the same 7-year ceiling as the dwelling-house and clerk/servant aggravations, with the fine specifically tied to the vehicle's actual value rather than a fixed figure — ensuring the financial penalty scales with the real economic harm of the specific vehicle stolen.",
+      "cite": "S.381 PPC and S.381A PPC (inserted by Act I of 1996, Explanation added by Act XVI of 1996) — official text. Cross-reference Criminal Breach of Trust S.405 (future session) — conceptually adjacent but structurally distinct from S.381's clerk/servant theft aggravation.",
+      "ll": "S.381, S.381A PPC — official text",
+      "section": "381",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is employed as a clerk by Z. A steals office equipment belonging to Z that A was never given any responsibility to manage, control, or have custody over — A simply works in the same building and takes the equipment opportunistically. Apply S.381. Does A's mere employment relationship with Z, without any entrustment of the specific property, satisfy this section?",
+          "reveal": "Yes. S.381's text requires only that the offender be 'a clerk or servant, or being employed in the capacity of a clerk or servant,' and that the theft be 'in respect of any property in the possession of his master or employer' — it does not require that the specific property stolen have been entrusted to or under the management of that particular clerk or servant. The employment relationship and the property being in the employer's possession generally are sufficient; this distinguishes S.381 theft from Criminal Breach of Trust, which specifically requires entrustment of the particular property in question.",
+          "cite": "S.381 PPC — employment relationship and employer's possession of the property sufficient, without requiring specific entrustment of that property to the offender."
+        },
+        {
+          "q": "A steals an electric motor specifically installed at a tube well, intending to resell it for scrap value. Apply S.381A's Explanation. Does this fall within the motor-vehicle theft provision, despite involving no actual vehicle?",
+          "reveal": "Yes — S.381A's Explanation expressly extends the section's coverage: 'Theft of an electric motor of a tube well or transformer shall be within the meaning of this section.' Despite S.381A's main text addressing cars and motor vehicles specifically, the Explanation deliberately broadens the section to capture this economically significant but vehicle-unrelated category of theft, likely reflecting the practical reality that tube-well motors and transformers were (or remain) a frequent target of theft in Pakistan, warranting the same elevated 7-year ceiling as vehicle theft.",
+          "cite": "S.381A PPC Explanation — extending vehicle-theft coverage to tube-well motors and transformers despite the main text's vehicle-specific framing."
+        }
+      ]
+    },
+    {
+      "id": "S382",
+      "name": "Theft After Preparation for Causing Death, Hurt, or Restraint",
+      "sub": "S.382 PPC — the bridge provision toward Robbery",
+      "step": "Element 8 of 9",
+      "atom": "S382",
+      "desc": "Whoever commits theft, having made preparation for causing death, hurt, restraint, or fear of any of these, to any person, in order to commit the theft, effect escape afterward, or retain the stolen property, is punished with rigorous imprisonment up to 10 years plus fine.",
+      "legal": "S.382 sits at the conceptual threshold between pure Theft and Robbery: it punishes theft accompanied by ADVANCE PREPARATION for violence (carrying a weapon for potential use, positioning accomplices to restrain the victim if needed) even where that preparation is never actually acted upon during the theft itself. This is structurally distinct from Robbery (S.390, already built), which requires the offender to ACTUALLY cause or attempt to cause death/hurt/restraint (or fear of it) at the time of the theft — S.382 criminalises the preparatory mindset and equipment even absent any actual use of force during the specific theft in question, making it a kind of inchoate aggravation bridging pure Theft and the more serious Robbery offence.",
+      "cite": "S.382 PPC and its two Illustrations — official text. Cross-reference Robbery module S.390 — S.382's preparation-only threshold vs S.390's actual-use-or-attempt requirement for force/hurt/restraint.",
+      "ll": "S.382 PPC and Illustrations — official text",
+      "section": "382",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits theft on Z's property while carrying a loaded pistol concealed under his clothing, specifically having brought the pistol in case Z resisted and needed to be hurt to prevent that resistance. Z never actually notices or resists, and A never draws or uses the pistol. Apply S.382 and its own Illustration (a). Has A committed the offence defined in this section, despite never actually using or threatening force?",
+          "reveal": "Yes — this is the Code's own Illustration (a) directly. S.382 is satisfied by the preparation itself (bringing the pistol for the purpose of potentially hurting Z), regardless of whether that preparation was ever actually deployed during the theft. A's theft, accompanied by this preparatory equipping for potential violence, satisfies S.382 even though the theft proceeded without any actual confrontation or use of force.",
+          "cite": "S.382 PPC Illustration (a) — preparation for violence sufficient, regardless of whether the violence is actually deployed during the theft."
+        },
+        {
+          "q": "How does S.382's preparation-based threshold differ from S.390's actual-use-or-attempt requirement for Robbery (already built)? Could the same fact pattern satisfy S.382 but not S.390, or vice versa?",
+          "reveal": "Yes, the two thresholds can diverge in either direction. A theft accompanied only by advance preparation for violence that is never actually used or attempted (as in S.382's own Illustration (a), where A never draws the pistol) satisfies S.382 but would NOT satisfy S.390's Robbery definition, which requires the offender to 'voluntarily cause or attempt to cause' death, hurt, or wrongful restraint, or fear of the same — mere silent preparation without any actual act or attempt during the theft does not rise to Robbery's threshold. Conversely, a theft where the offender spontaneously uses force in the moment, without any advance preparation at all, would satisfy S.390 Robbery but not S.382, since S.382 specifically requires preparation made in advance. The two provisions test for different things: S.382 tests preparatory intent and equipping; S.390 tests actual conduct or attempted conduct during the theft itself.",
+          "cite": "S.382 PPC (advance preparation, no actual use required) vs S.390 PPC Robbery module (actual use or attempt required, regardless of advance preparation) — genuinely distinct thresholds that can diverge in either direction on the same or similar facts."
+        },
+        {
+          "q": "A picks Z's pocket while several of A's companions stand nearby, specifically positioned by A in advance so that they can restrain Z if Z notices and tries to apprehend A. Z does not notice, and the companions never act. Apply S.382 and its own Illustration (b). Does this satisfy the section?",
+          "reveal": "Yes — this is the Code's own Illustration (b) directly, structurally parallel to Illustration (a) but using positioned accomplices rather than a concealed weapon as the prepared means of potential restraint. The preparation (positioning companions in advance for the specific purpose of restraining Z if needed) satisfies S.382 regardless of whether the companions ever actually had to act, confirming the section's threshold is preparation itself, not deployment.",
+          "cite": "S.382 PPC Illustration (b) — advance positioning of accomplices for potential restraint, satisfying the section even though never deployed."
+        }
+      ]
+    }
+  ]
+}

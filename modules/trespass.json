@@ -1,0 +1,256 @@
+{
+  "id": "trespass",
+  "name": "Criminal Trespass",
+  "section": "S.441–462 PPC",
+  "formula": "Entry/Remaining → Structural/Concealment/Timing Narrowing → Purpose or Violence Escalation",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S441_446",
+      "name": "Criminal Trespass, House Trespass, Lurking House Trespass, and House Breaking — The Foundational Definitions",
+      "sub": "S.441–446 PPC — the six-tier definitional ladder underlying this entire chapter",
+      "step": "Element 1 of 10",
+      "atom": "S441_446",
+      "desc": "S.441 defines Criminal Trespass: entering property in another's possession with intent to commit an offence or to intimidate/insult/annoy the possessor, OR lawfully entering but unlawfully remaining with that same intent. S.442 narrows this to House Trespass specifically: criminal trespass by entering or remaining in a building, tent, or vessel used as a human dwelling, place of worship, or property-custody location (with an Explanation confirming mere introduction of any part of the body suffices). S.443 adds Lurking House Trespass: house trespass committed with precautions taken to conceal it from someone entitled to exclude the trespasser. S.444 narrows further to Lurking House Trespass BY NIGHT: the same conduct between sunset and sunrise. S.445 defines House Breaking: house trespass effected (or departed from) through any of six specific listed methods — a self-made passage, an unintended entry point or climbing over a wall, forcibly opening a passage, opening a lock, using criminal force or assault, or using a passage the trespasser themselves had previously unfastened. S.446 narrows this to House Breaking BY NIGHT.",
+      "legal": "These six sections form a precise, nested definitional hierarchy, each one a narrower sub-species of the one before it: Criminal Trespass (broadest) → House Trespass (specific to dwelling/worship/custody structures) → Lurking House Trespass (house trespass plus concealment) → Lurking House Trespass by Night (the same, restricted to night hours) → House Breaking (house trespass effected through one of six specific forceful/improper methods) → House Breaking by Night. Critically, House Breaking and Lurking House Trespass are SEPARATE, PARALLEL narrowings of House Trespass (one by METHOD of entry, the other by CONCEALMENT), not sequential steps on the same ladder — a single act could satisfy both simultaneously (entering by climbing a wall, which satisfies House Breaking's second method, while also concealing the act, which separately satisfies Lurking House Trespass), or satisfy only one. The Code's eight Illustrations to S.445 each map onto one of the six specific entry/exit methods, providing a complete worked example for each.",
+      "cite": "S.441, S.442 (and Explanation), S.443, S.444, S.445 (and Explanation, plus all eight Illustrations), and S.446 PPC — official text.",
+      "ll": "S.441–446 PPC and Illustrations — official text",
+      "section": "441",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "S.460’s joint-liability mechanism is confirmed as the fourth instance of the same group-liability pattern already traced through S.394/396 (Robbery & Dacoity module). No verified Pakistani landmark case is logged against S.441–462 specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A commits house trespass by making a small hole through the wall of Z's house and putting only his hand through the resulting aperture, without his body ever fully entering. Apply S.442's Explanation and S.445's own Illustration (a). Has A committed house trespass at all, and separately, does this specific method of entry qualify as house breaking?",
+          "reveal": "Yes to both. S.442's Explanation confirms 'the introduction of any part of the criminal trespasser's body is entering sufficient to constitute house trespass' — A's hand alone satisfies the entry requirement. And this is also the Code's own Illustration (a) to S.445 directly: making a hole through the wall and introducing a body part through it satisfies the 'house breaking' definition, since this is an entry through a passage not intended by anyone other than the trespasser for human entrance (the second of the six listed methods).",
+          "cite": "S.442 PPC Explanation and S.445 PPC Illustration (a) — partial bodily entry through a self-made aperture satisfying both house trespass generally and house breaking specifically."
+        },
+        {
+          "q": "A commits house trespass by entering Z's house through a window, which A simply climbed through without using any force, breaking any lock, or making any new opening. Apply S.445's own Illustration (c). Does mere entry through a window, with no forceful or improper method beyond the entry itself, qualify as house breaking?",
+          "reveal": "Yes — this is the Code's own Illustration (c) directly: 'A commits house trespass by entering Z's house, through a window. This is house breaking.' A window is not a passage 'intended... for human entrance' in the ordinary sense (unlike a door), so entering through it satisfies the second of S.445's six listed methods (entry through a passage not intended for human entrance, or by climbing/scaling), even without any additional force, lock-breaking, or other obviously forceful conduct beyond the unconventional entry point itself.",
+          "cite": "S.445 PPC Illustration (c) — mere entry through a window (an unintended entry passage) independently satisfies house breaking, without requiring additional force or lock-breaking."
+        },
+        {
+          "q": "A commits house trespass by entering Z's house through the door, having lawfully found the key Z had previously lost, and using that key to open the door normally. Apply S.445's own Illustration (f). Does using a genuinely possessed (if originally lost-and-found) key to open a door normally still satisfy house breaking?",
+          "reveal": "Yes — this is the Code's own Illustration (f) directly: 'A finds the key of Z's house door, which Z had lost, and commits house trespass by entering Z's house, having opened the door with that key. This is house breaking.' Even though A used the actual, legitimate key (rather than picking a lock or forcing entry), and opened the door in the ordinary, intended manner, this still satisfies house breaking — the wrong lies in A's lack of authorization to use that key at all, not in any unusual mechanical method of opening the door, confirming that house breaking's six methods focus on the trespasser's lack of right to use the passage, not merely on whether force was used.",
+          "cite": "S.445 PPC Illustration (f) — using a found key to open a door normally still satisfies house breaking, since the wrong lies in unauthorized use of the passage, not in the use of force specifically."
+        }
+      ]
+    },
+    {
+      "id": "S447",
+      "name": "Punishment for Criminal Trespass",
+      "sub": "S.447 PPC — the base tier for the broadest definitional category",
+      "step": "Element 2 of 10",
+      "atom": "S447",
+      "desc": "Whoever commits criminal trespass is punished with imprisonment up to 3 months, fine up to 1,500 rupees, or both.",
+      "legal": "S.447 sets the lightest punishment in this entire chapter, applicable to the broadest definitional category (S.441's general criminal trespass, not yet narrowed to a dwelling or any specific aggravating method or purpose). The fine figure (1,500 rupees) has been periodically revised — the same Ordinance 86 of 2002 update already encountered for S.341's Wrongful Restraint fine in an earlier module — confirming this particular fine figure has NOT suffered the same unrevised-since-1860 fate as S.67's figures discussed in the Punishments module.",
+      "cite": "S.447 PPC, fine amount as substituted by Ordinance 86 of 2002 — official text. Cross-reference S.341 PPC (Wrongful Restraint module) — the same 2002 fine-revision Ordinance applying to both sections.",
+      "ll": "S.447 PPC — official text",
+      "section": "447",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A enters Z's open field (not a dwelling, place of worship, or property-custody structure) with intent to annoy Z, who is working there. Apply S.447. Does this conduct rise to House Trespass under S.448, or remain at the base Criminal Trespass level under S.447?",
+          "reveal": "This remains base Criminal Trespass under S.447 specifically, since an open field is not a building, tent, or vessel used as a human dwelling, place of worship, or property-custody location — the specific structural requirement S.442 imposes to elevate conduct to House Trespass. A's conduct satisfies S.441's general criminal trespass definition (entry with intent to annoy a person in possession) but does not meet S.442's narrower structural requirement, so the lighter S.447 punishment ceiling applies rather than S.448's higher one.",
+          "cite": "S.447 PPC governing criminal trespass on open land lacking S.442's specific dwelling/worship/custody structure requirement."
+        },
+        {
+          "q": "Why might the legislature have set S.447's ceiling so much lower (3 months) than even the base House Trespass ceiling under S.448 (1 year, already confirmed in this chapter's structure), despite both addressing unauthorized entry with similar underlying intent?",
+          "reveal": "The structural requirement separating Criminal Trespass generally from House Trespass specifically — entry into a dwelling, place of worship, or property-custody structure — reflects a heightened privacy and security interest specifically associated with these structures, beyond the general wrong of trespassing on possessed property. This mirrors the same elevated concern for dwelling-security already seen in Theft's S.380 dwelling-house aggravation and Hurt's various structure-specific provisions throughout this app — unauthorized entry into someone's home or place of worship is treated as inherently more serious than trespass on open or undeveloped land, even before any further aggravating purpose or method is considered.",
+          "cite": "S.447 PPC's modest ceiling vs S.448 PPC's higher ceiling — reflecting the same elevated dwelling/worship-structure security concern already seen in S.380 PPC (Theft module) and throughout the Hurt cluster."
+        },
+        {
+          "q": "Does S.447 require that the trespasser's intended offence, intimidation, insult, or annoyance actually be carried out, or is the trespassory entry itself, with the requisite intent, sufficient to complete the offence?",
+          "reveal": "S.441's underlying definition (which S.447 punishes) requires entry 'with intent to commit an offence or to intimidate, insult or annoy' — the offence is structured around the entry combined with the requisite intent at the time of entry, not around proof that the intended offence, intimidation, insult, or annoyance was actually subsequently carried out or achieved. A trespasser who enters with the requisite intent but is interrupted or changes their mind before accomplishing the intended further act has still completed criminal trespass itself, since the entry-plus-intent is what the definition requires, consistent with the general pattern throughout this Code where intent-based offences are typically completed upon the qualifying act combined with the requisite mental state, not upon achieving some further downstream result.",
+          "cite": "S.441 PPC's entry-plus-intent structure — the offence completed upon entry with requisite intent, not requiring proof that the intended further act was actually achieved."
+        }
+      ]
+    },
+    {
+      "id": "S448",
+      "name": "Punishment for House Trespass",
+      "sub": "S.448 PPC — the base tier for the dwelling/worship/custody-specific category",
+      "step": "Element 3 of 10",
+      "atom": "S448",
+      "desc": "Whoever commits house trespass is punished with imprisonment up to 1 year, fine up to 3,000 rupees, or both.",
+      "legal": "S.448 escalates S.447's base 3-month ceiling fourfold to 1 year once the trespass specifically targets a dwelling, place of worship, or property-custody structure — the same structural protection already discussed. This 1-year ceiling and 3,000-rupee fine, like S.447's figures, were also updated by the 2002 Ordinance, confirming the legislature periodically revisited this entire chapter's fine figures together rather than addressing them piecemeal.",
+      "cite": "S.448 PPC, fine amount as substituted by Ordinance 86 of 2002 — official text.",
+      "ll": "S.448 PPC — official text",
+      "section": "448",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A enters Z's house (satisfying S.442's House Trespass definition) but has no further specific purpose beyond annoying Z, and does not commit, attempt, or prepare for any further offence, nor take any precautions to conceal the trespass, nor use any of S.445's six listed forceful entry methods. Apply S.448. Does this base-level house trespass, without any further aggravating purpose or method, still carry meaningful punishment exposure?",
+          "reveal": "Yes — S.448 applies to house trespass generally, without requiring any of the further aggravating purposes (committing a specific further offence) or methods (concealment, forceful entry) addressed by the more severely punished provisions later in this chapter (S.449–462). A's bare house trespass, motivated solely by the annoyance intent already sufficient to satisfy S.441/442's underlying definition, still carries up to 1 year's imprisonment and a 3,000-rupee fine under S.448, even without any of the chapter's further escalating factors being present.",
+          "cite": "S.448 PPC — applying to bare house trespass without requiring any further aggravating purpose or forceful method, those being addressed separately by S.449 onward."
+        },
+        {
+          "q": "How does S.448's structure relate to the rest of this chapter's escalation ladder (S.449–462)? Is S.448 ever displaced entirely once a more specific, more severely punished provision applies, or does it remain independently relevant?",
+          "reveal": "S.448 functions as the residual base provision for house trespass that does not rise to any of the more specific, more severely punished categories addressed by S.449 onward (trespass with intent to commit a specific further offence, trespass with violent preparation, lurking trespass, house breaking, night-time variants, or violence actually occurring during the trespass). Where any of those more specific provisions is established on the facts, the more specific and more severely punished provision would govern instead of S.448, following the same specific-displaces-general charging principle already encountered throughout this Code — but S.448 remains the operative provision for any house trespass that genuinely does not rise to one of those more specific categories.",
+          "cite": "S.448 PPC as the residual base provision, displaced by more specific provisions (S.449 onward) where their additional requirements are independently satisfied."
+        },
+        {
+          "q": "Compare S.448's fine ceiling (3,000 rupees) to S.447's fine ceiling (1,500 rupees). Does this exact doubling pattern, combined with the identical 2002 revision Ordinance, suggest anything about how the legislature approached updating this chapter's figures?",
+          "reveal": "The clean doubling pattern (1,500 to 3,000) alongside the parallel escalation in imprisonment ceiling (3 months to 1 year, also a fourfold increase) suggests the 2002 Ordinance updated this chapter's fine figures in a deliberately proportional, internally consistent manner relative to each section's own imprisonment ceiling, rather than applying a single flat figure across all sections regardless of their relative severity. This is a useful, almost mathematically clean confirmation that the 2002 revision was a considered, structured update rather than an arbitrary or piecemeal adjustment.",
+          "cite": "S.447 PPC vs S.448 PPC fine figures — a clean proportional doubling pattern suggesting a deliberately structured 2002 revision rather than arbitrary piecemeal updates."
+        }
+      ]
+    },
+    {
+      "id": "S449_452",
+      "name": "House Trespass with Purpose — Escalating by the Gravity of the Intended Offence or Preparation",
+      "sub": "S.449/450/451/452 PPC — the purpose-calibrated escalation ladder",
+      "step": "Element 4 of 10",
+      "atom": "S449_452",
+      "desc": "S.449: house trespass in order to commit an offence punishable with death — imprisonment for life, or up to 10 years rigorous imprisonment, plus fine. S.450: house trespass in order to commit an offence punishable with life imprisonment — up to 10 years, plus fine. S.451: house trespass in order to commit an offence punishable with imprisonment generally — up to 2 years, plus fine, rising to up to 7 years specifically where the intended offence is theft. S.452: house trespass after making preparation for causing hurt, assault, wrongful restraint, or fear of any of these — up to 7 years, plus fine.",
+      "legal": "S.449–451 form a precisely graduated ladder keyed directly to the gravity of the offence the trespasser intends to commit once inside — death-punishable offences carry the highest exposure (life imprisonment available), life-imprisonment-punishable offences next, and generally imprisonment-punishable offences lowest (2 years), with theft specifically carved out for a much higher 7-year ceiling within that lowest tier, reflecting theft's particular prevalence as the actual motivating purpose behind most house trespass in practice. S.452 then adds a structurally distinct aggravation — not keyed to the gravity of an INTENDED OFFENCE, but to advance PREPARATION FOR VIOLENCE specifically — mirroring the same preparation-for-violence concept already built into Theft's S.382 and Mischief's S.440, now confirmed as a third independent instance of this recurring aggravation pattern across multiple property-offence chapters.",
+      "cite": "S.449, S.450, S.451, and S.452 PPC — official text. Cross-reference S.382 PPC (Theft module) and S.440 PPC (Mischief module) — S.452 as a third confirmed instance of the same preparation-for-violence aggravation pattern recurring across multiple property-offence chapters.",
+      "ll": "S.449, S.450, S.451, S.452 PPC — official text",
+      "section": "449",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits house trespass specifically intending to commit theft once inside. B commits house trespass specifically intending to commit an offence punishable with death. Apply S.451 and S.449 respectively. Compare A and B's punishment exposure, and identify which specific limb of S.451 governs A's case.",
+          "reveal": "A falls under S.451's specific theft-carve-out limb, facing up to 7 years (the enhanced figure 'if the offence intended to be committed is theft'), rather than S.451's general 2-year ceiling that would apply to house trespass intending some other, non-theft, imprisonment-punishable offence. B faces a substantially higher exposure under S.449 — life imprisonment, or up to 10 years rigorous imprisonment — reflecting the much graver intended offence (one punishable with death) compared to A's intended theft.",
+          "cite": "S.451 PPC's theft-specific carve-out (7 years) within its general imprisonment-offence tier (2 years), contrasted with S.449 PPC's far higher exposure for trespass intending a death-punishable offence."
+        },
+        {
+          "q": "A commits house trespass, having armed themselves in advance specifically in case the house's occupant resisted and needed to be assaulted or restrained to prevent that resistance — but A has no specific further offence in mind beyond the trespass itself and whatever opportunistic conduct might arise. Apply S.452. Does this fall under S.452 even without any of S.449–451's specific further-offence intent?",
+          "reveal": "Yes — S.452 is structurally independent of S.449–451's offence-gravity ladder; it requires only that the trespasser have made preparation for causing hurt, assault, wrongful restraint, or fear of these, regardless of whether any further specific offence (death-punishable, life-punishable, or otherwise) was also intended. A's advance arming specifically to potentially assault or restrain the occupant satisfies S.452's own requirement directly, carrying up to 7 years' exposure, independent of and potentially in addition to whatever liability might separately arise under S.449–451 if a further specific offence intent were also established on the same facts.",
+          "cite": "S.452 PPC — structurally independent of S.449–51's offence-gravity ladder, triggered by advance violence-preparation alone regardless of any further specific offence intent."
+        },
+        {
+          "q": "How does S.452's preparation-for-violence concept compare to the identical concept already built into S.382 (Theft module) and S.440 (Mischief module)? Does this recurring pattern across three separate property-offence chapters suggest anything about the structure of this part of the Code more broadly?",
+          "reveal": "This confirms a genuinely consistent, deliberate structural pattern: the legislature consistently treats advance preparation for violence as an aggravating factor warranting separate, elevated punishment across multiple distinct property-offence chapters (Theft, Mischief, and now Criminal Trespass), each time using the same underlying logic — preparation alone is sufficient regardless of actual deployment, the preparation must be undertaken in contemplation of the specific property offence being committed, and the resulting punishment ceiling is calibrated relative to that chapter's own baseline severity. Recognising this as a recurring, named pattern (rather than three coincidentally similar but unrelated provisions) is itself a useful piece of exam-ready synthesis, since Mr. Faisal's framework rewards exactly this kind of cross-chapter pattern recognition.",
+          "cite": "S.452 PPC, S.382 PPC (Theft module), and S.440 PPC (Mischief module) — three confirmed instances of the same deliberate preparation-for-violence aggravation pattern, recurring consistently across distinct property-offence chapters."
+        }
+      ]
+    },
+    {
+      "id": "S453_455",
+      "name": "Lurking House Trespass and House Breaking — By Day",
+      "sub": "S.453/454/455 PPC — the concealment/forceful-entry escalation ladder, daytime tier",
+      "step": "Element 5 of 10",
+      "atom": "S453_455",
+      "desc": "S.453: lurking house trespass or house breaking generally — up to 2 years, plus fine. S.454: the same, in order to commit an offence punishable with imprisonment — up to 3 years, plus fine, rising to up to 10 years specifically for theft. S.455: the same, after preparation for causing hurt, assault, or wrongful restraint (or fear of these) — up to 10 years, plus fine.",
+      "legal": "S.453–455 apply the identical three-tier escalation structure already seen in S.448/451/452 for ordinary house trespass, but to the more aggravated categories of Lurking House Trespass (concealed) and House Breaking (forceful/improper entry method) — base tier, purpose-specific tier with a theft carve-out, and violence-preparation tier. Each ceiling in this lurking/breaking ladder sits meaningfully higher than its ordinary-house-trespass counterpart (2 years vs 1 year base; 10 years vs 7 years for the theft-purpose carve-out; 10 years vs 7 years for violence-preparation), confirming the legislature treats concealment or forceful/improper entry method as itself a further aggravating factor warranting elevated punishment at every corresponding tier of the underlying purpose-based ladder.",
+      "cite": "S.453, S.454, and S.455 PPC — official text. Cross-reference S.448, S.451, S.452 PPC (ordinary House Trespass tiers, this same module) — the identical three-tier escalation structure applied at a higher baseline severity throughout.",
+      "ll": "S.453, S.454, S.455 PPC — official text",
+      "section": "453",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits lurking house trespass (concealing the trespass from someone entitled to exclude them) specifically intending to commit theft once inside. Apply S.454's theft-specific carve-out. What is A's maximum exposure, and how does this compare to the equivalent ordinary house trespass scenario already covered under S.451?",
+          "reveal": "A faces up to 10 years under S.454's theft-specific carve-out for lurking house trespass — a meaningfully higher ceiling than the 7-year carve-out S.451 provides for ordinary (non-concealed) house trespass intending theft. The concealment element of lurking house trespass adds a further 3 years of exposure at this specific tier, confirming concealment itself functions as an independent aggravating factor layered on top of the underlying theft-purpose aggravation, rather than the two aggravations simply averaging out or one displacing the other.",
+          "cite": "S.454 PPC's 10-year theft-specific ceiling vs S.451 PPC's 7-year equivalent for ordinary house trespass — concealment functioning as an independent additional aggravating factor."
+        },
+        {
+          "q": "Why might the legislature have calibrated lurking house trespass and house breaking to consistently higher ceilings than the equivalent ordinary house trespass tiers, across every corresponding level of the purpose-based ladder?",
+          "reveal": "Both lurking house trespass (concealment from someone entitled to exclude the trespasser) and house breaking (forceful or improper entry methods) reflect a more deliberate, more sophisticated, and arguably more threatening form of intrusion than bare house trespass — a trespasser who takes active steps to conceal their presence, or who forces entry through improper means, demonstrates a higher degree of premeditation and a greater willingness to overcome the occupant's security measures, warranting consistently elevated punishment at every corresponding tier of intended purpose or violence-preparation, rather than merely at the base tier alone.",
+          "cite": "S.453–455 PPC's consistently elevated ceilings relative to S.448/451/452 — reflecting the greater premeditation and security-defeating character of concealment or forceful entry, warranting elevation at every tier."
+        },
+        {
+          "q": "Does S.453 require both lurking house trespass AND house breaking to be established simultaneously, or is either one independently sufficient to trigger this section's punishment?",
+          "reveal": "Either is independently sufficient — S.453's text covers 'whoever commits lurking house trespass OR house breaking,' using the disjunctive structure consistent with how these two concepts were established earlier in this module as separate, parallel narrowings of House Trespass (one by concealment, one by entry method), not sequential requirements that must both be satisfied together. A trespasser who satisfies either category alone (concealed entry without any of S.445's six forceful methods, or a forceful S.445 entry method without any specific concealment effort) independently triggers S.453's punishment tier, and the same disjunctive structure carries through S.454 and S.455 as well.",
+          "cite": "S.453 PPC's disjunctive 'lurking house trespass or house breaking' structure — either category independently sufficient, not requiring both simultaneously, carrying through S.454/455 as well."
+        }
+      ]
+    },
+    {
+      "id": "S456_458",
+      "name": "Lurking House Trespass and House Breaking — By Night",
+      "sub": "S.456/457/458 PPC — the same escalation ladder, nighttime tier",
+      "step": "Element 6 of 10",
+      "atom": "S456_458",
+      "desc": "S.456: lurking house trespass by night or house breaking by night, generally — up to 3 years, plus fine. S.457: the same, in order to commit an offence punishable with imprisonment — up to 5 years, plus fine, rising to up to 14 years specifically for theft. S.458: the same, after preparation for causing hurt, assault, or wrongful restraint (or fear of these) — up to 14 years, plus fine.",
+      "legal": "This is the THIRD parallel application of the identical three-tier escalation structure within this single chapter (following ordinary House Trespass in S.448/451/452, and daytime Lurking House Trespass/House Breaking in S.453/455), now applied specifically to the NIGHTTIME variant already defined in S.444/446. Every ceiling in this night-time ladder sits higher again than its daytime lurking/breaking counterpart (3 years vs 2 years base; 14 years vs 10 years for the theft carve-out; 14 years vs 10 years for violence-preparation) — confirming night-time commission functions as yet another independent layer of aggravation stacked on top of the underlying purpose and concealment/method aggravations, reflecting the heightened danger and difficulty of detection or resistance occupants face when intrusions occur while they are likely asleep or otherwise vulnerable.",
+      "cite": "S.456, S.457, and S.458 PPC — official text. Cross-reference S.453–455 PPC (daytime lurking house trespass/house breaking ladder, this same module) — the identical three-tier structure applied at a further-elevated baseline for night-time commission.",
+      "ll": "S.456, S.457, S.458 PPC — official text",
+      "section": "456",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Compare the theft-specific carve-out ceiling across all three tiers of this chapter's escalation structure: ordinary house trespass (S.451, 7 years), daytime lurking/breaking (S.454, 10 years), and night-time lurking/breaking (S.457, 14 years). What pattern does this three-step progression confirm about how the legislature layers independent aggravating factors?",
+          "reveal": "This confirms a clean, additive layering pattern: each independent aggravating factor (concealment/forceful-method, then night-time timing) adds a consistent, substantial increment to the punishment ceiling at the same underlying theft-purpose tier — 7 years (bare house trespass) → 10 years (adding concealment/forceful method) → 14 years (adding night-time timing on top of that). This is a particularly clean, almost arithmetic illustration of how the legislature treats multiple distinct aggravating factors as cumulative rather than as alternative or overlapping categories, each factor independently justifying its own additional increment of severity.",
+          "cite": "S.451/454/457 PPC's theft-carve-out progression (7\\u219210\\u219214 years) — a clean illustration of cumulative, additive aggravation-stacking across concealment/method and timing factors."
+        },
+        {
+          "q": "A commits lurking house trespass exactly at sunset, with some ambiguity about whether the act occurred just before or just after the precise moment of sunset. Why might this timing ambiguity matter significantly given the gap between S.454's daytime ceiling (10 years for the theft variant) and S.457's night-time ceiling (14 years for the same variant)?",
+          "reveal": "Given S.444's definition fixing 'night' as specifically the period 'after sunset and before sunrise,' the precise timing of the act relative to the exact moment of sunset could determine a 4-year swing in maximum exposure at the theft-specific tier alone (10 years under S.454 if just before sunset, versus 14 years under S.457 if just after) — confirming that establishing the precise timing of the trespass, not merely a general sense of 'evening' or 'daytime,' can carry serious, exam-relevant consequences for which specific provision and ceiling applies. This is exactly the kind of precise factual/temporal distinction a proposition-based exam question might be built around.",
+          "cite": "S.444 PPC's precise sunset-to-sunrise definition of 'night,' combined with the substantial ceiling gap between S.454 PPC (daytime, 10 years) and S.457 PPC (night-time, 14 years) at the identical theft-specific tier — confirming the practical significance of precise timing."
+        },
+        {
+          "q": "Does S.456 require that the lurking house trespass or house breaking be committed ENTIRELY within the night-time period, or could a trespass beginning during the day and continuing into the night also potentially satisfy this section?",
+          "reveal": "S.444's underlying definition of 'lurking house trespass by night' (which S.456 punishes) requires that the trespasser 'commits lurking house trespass after sunset and before sunrise' — the text's most natural reading focuses on the trespass being committed during that specific window, which would most directly capture trespass that begins (or is at least actively being committed) within the night-time period, rather than necessarily requiring the entire duration of a trespass that might span both day and night to fall exclusively within night hours. The precise application to a trespass spanning both periods is not exhaustively addressed in the section's own brief text, and would likely depend on exactly which act or moment of 'committing' the trespass is identified as the relevant act for timing purposes.",
+          "cite": "S.444 PPC and S.456 PPC — focusing on commission of the trespass within the night-time window, with the precise treatment of a trespass spanning both day and night not exhaustively addressed in the text."
+        }
+      ]
+    },
+    {
+      "id": "S459_460",
+      "name": "Hurt or Qatl During Lurking House Trespass; Joint Liability for the Same",
+      "sub": "S.459/460 PPC — the most severe provisions in this chapter, with Chapter XVI cross-reference and joint liability",
+      "step": "Element 7 of 10",
+      "atom": "S459_460",
+      "desc": "S.459 (substituted 1997): whoever, while committing lurking house trespass or house breaking, causes hurt to any person, or attempts to commit Qatl or hurt to any person, is punished with imprisonment for life, or up to 10 years, AND ALSO liable to the same punishment for the Qatl/hurt/attempt as specified in Chapter XVI. S.460 (substituted 1997): if, during lurking house trespass by night or house breaking by night, any one participant voluntarily causes or attempts Qatl or hurt to any person, EVERY person jointly concerned in that trespass faces the identical exposure — life imprisonment or up to 10 years, plus the same Chapter XVI punishment for the Qatl/hurt/attempt.",
+      "legal": "S.459 and S.460 are the most severe provisions in this entire chapter, and both explicitly cross-reference Chapter XVI (the Qatl/Hurt framework already extensively built across the Murder, Qatl Core, and Hurt modules) — rather than creating a freestanding punishment figure for the resulting Qatl or hurt, these sections direct that the SAME punishment already specified in Chapter XVI for that category of Qatl or hurt applies, IN ADDITION TO the trespass-specific imprisonment. S.460's joint-liability mechanism is, structurally, the FOURTH confirmed instance in this app of the same group-liability pattern already seen in Robbery's S.394 (hurt in robbery) and S.396 (murder in dacoity), and Wrongful Restraint's structurally similar provisions — where any one participant in a jointly-committed offence causes death or hurt, every participant faces the same severe exposure, regardless of individual involvement in or knowledge of the specific violent act.",
+      "cite": "S.459 and S.460 PPC, both substituted by Act II of 1997 — official text. Cross-reference Murder, Qatl Core, and Hurt modules (Chapter XVI generally) — the punishment framework these sections explicitly incorporate by reference. Cross-reference S.394/396 PPC (Robbery & Dacoity module) — the same joint-liability pattern, now confirmed as recurring a fourth time across this app's build.",
+      "ll": "S.459, S.460 PPC — official text",
+      "section": "459",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "While committing house breaking, A causes hurt amounting to Shajjah-i-Hashimah (already built in the Hurt module, carrying 10% Diyat Arsh plus up to 10 years Ta'zir) to the house's occupant. Apply S.459. What is A's total punishment exposure, combining both the trespass-specific and Chapter XVI components?",
+          "reveal": "A faces life imprisonment, or up to 10 years' imprisonment, under S.459's trespass-specific component, PLUS the full Chapter XVI punishment already established for Shajjah-i-Hashimah specifically (10% Diyat Arsh plus up to 10 years Ta'zir, as already verified in the Hurt module) — S.459's own text directs that the offender 'shall also be liable to the same punishment for... causing hurt... as is specified in Chapter XVI of this Code,' meaning the two punishment components are cumulative, not alternative. A's total exposure therefore combines both the house-breaking-specific sentence and the full, separately-calibrated Hurt punishment for the specific category of injury actually caused.",
+          "cite": "S.459 PPC's 'shall also be liable to the same punishment... as is specified in Chapter XVI' language — cumulative, not alternative, liability combining the trespass-specific sentence with the full Chapter XVI punishment for whatever specific Qatl/hurt category resulted."
+        },
+        {
+          "q": "Four persons jointly commit lurking house trespass by night. During the trespass, one of the four, acting alone and without any prior agreement with the others, attempts to commit Qatl against the house's occupant. Apply S.460. What is the exposure for the three who did not attempt any Qatl and had no advance knowledge that this would occur?",
+          "reveal": "All four face the identical exposure under S.460: life imprisonment, or up to 10 years' imprisonment, PLUS the same Chapter XVI punishment for the attempted Qatl as would apply to the one who actually attempted it. S.460's text is explicit and unqualified: 'every person jointly concerned in committing such lurking house trespass by night, or house breaking by night, shall be punished' identically, regardless of which specific participant caused or attempted the Qatl or hurt, and regardless of the other participants' individual knowledge or involvement — the same unqualified joint-liability structure already confirmed for S.396 PPC's murder-in-dacoity provision (Robbery & Dacoity module).",
+          "cite": "S.460 PPC — unqualified joint liability extending the full exposure to every participant regardless of individual involvement, directly paralleling S.396 PPC's (Robbery & Dacoity module) identical structural mechanism."
+        },
+        {
+          "q": "Why might the legislature have chosen to incorporate Chapter XVI's punishment BY REFERENCE in S.459/460, rather than simply writing out a fresh, freestanding punishment figure for Qatl or hurt occurring during a house trespass?",
+          "reveal": "Incorporation by reference ensures perfect consistency: whatever punishment Chapter XVI prescribes for a given category of Qatl or hurt (the full Qisas/Diyat/Arsh/Ta'zir architecture already built across the Murder, Qatl Core, and Hurt modules, including all its detailed sub-tiers and aggravating/mitigating provisions) automatically and precisely applies here too, without the legislature needing to separately replicate or risk inconsistently restating that entire complex framework within the Criminal Trespass chapter itself. This drafting technique avoids the risk of two parallel, potentially divergent punishment schemes for what is substantively the same underlying wrong (causing Qatl or hurt), regardless of which chapter's provisions happen to be the formal trigger for the charge.",
+          "cite": "S.459/460 PPC's incorporation-by-reference of Chapter XVI — ensuring perfect consistency with the full Qisas/Diyat/Arsh/Ta'zir framework already built, avoiding divergent parallel punishment schemes for the same underlying Qatl/hurt wrong."
+        }
+      ]
+    },
+    {
+      "id": "S461_462",
+      "name": "Dishonestly Breaking Open a Receptacle; the Same by an Entrusted Custodian",
+      "sub": "S.461/462 PPC — the chapter-closing receptacle-specific provisions",
+      "step": "Element 8 of 10",
+      "atom": "S461_462",
+      "desc": "S.461: whoever dishonestly, or with intent to commit mischief, breaks open or unfastens any closed receptacle which contains (or which they believe contains) property, is punished with imprisonment up to 2 years, fine, or both. S.462: the same conduct, committed by a person ENTRUSTED with that receptacle without authority to open it, is punished with imprisonment up to 3 years, fine, or both.",
+      "legal": "S.461/462 close this chapter with a receptacle-specific pair mirroring the same general-provision-then-entrustment-aggravation pattern already seen throughout this app (S.378/S.381 for Theft, S.406/S.408/S.409 for Criminal Breach of Trust) — S.461 addresses anyone breaking open a closed receptacle (a box, chest, container, or similar) believed to contain property, while S.462 specifically escalates where the offender was ENTRUSTED with that very receptacle (for example, a custodian given temporary charge of a locked box without authority to open it) and breaches that specific trust by opening it anyway. Notably, both sections cover conduct motivated by EITHER dishonest intent OR intent to commit mischief — a disjunctive structure confirming this provision sits at a genuine intersection between the Theft/Misappropriation family of offences (dishonest intent) and the Mischief chapter just completed (mischief intent), rather than belonging exclusively to one or the other.",
+      "cite": "S.461 and S.462 PPC — official text. Cross-reference S.378/381 PPC (Theft module) and S.406/408/409 PPC (Criminal Breach of Trust module) — the same general-provision-then-entrustment-aggravation pattern recurring here for receptacle-breaking specifically.",
+      "ll": "S.461, S.462 PPC — official text",
+      "section": "461",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is given temporary custody of a locked strongbox by its owner, specifically without any authority to open it themselves. A nonetheless breaks the strongbox open, intending to dishonestly take whatever property is inside. Apply S.461 and S.462. Which section governs, and why does A's custodial relationship to the strongbox matter to the analysis?",
+          "reveal": "S.462 governs specifically, since A was entrusted with the strongbox itself (even while lacking authority to open it) at the time of the breaking — this is precisely the aggravating relationship S.462 targets, escalating the ceiling from S.461's general 2 years to S.462's 3 years. Had a complete stranger, with no entrustment relationship to the strongbox at all, broken it open in the same manner, S.461's general provision would apply instead, at the lower ceiling, since the specific betrayal-of-entrusted-custody element that elevates the offence under S.462 would be absent.",
+          "cite": "S.462 PPC's entrustment-specific aggravation, escalating from S.461's general 2-year ceiling to 3 years where the offender was specifically entrusted with the receptacle itself."
+        },
+        {
+          "q": "A breaks open a closed box belonging to Z, not to steal anything, but purely out of spite, intending only to damage and destroy the box and whatever might be inside, with no intention of taking any property for A's own benefit. Apply S.461's disjunctive structure. Does A's purely destructive, non-acquisitive motive still satisfy this section?",
+          "reveal": "Yes — S.461's text explicitly covers breaking open a receptacle 'dishonestly, OR with intent to commit mischief,' a disjunctive structure where either mental state independently suffices. A's purely destructive motive, lacking any dishonest intent to acquire property, still satisfies the section through its mischief-intent limb, confirming S.461 (and S.462) sit at a genuine intersection between the dishonesty-based offences (Theft, Misappropriation) and the destruction-based Mischief chapter, rather than requiring proof of dishonest acquisitive intent specifically.",
+          "cite": "S.461 PPC's disjunctive 'dishonestly, or with intent to commit mischief' structure — either mental state independently sufficient, confirming the section's position at the intersection of dishonesty-based and destruction-based offence categories."
+        },
+        {
+          "q": "Does S.461 require that the receptacle actually contain property, or is it sufficient that the offender merely BELIEVES it contains property, even if it turns out to be empty?",
+          "reveal": "S.461's text covers a receptacle 'which contains or which he believes to contain property' — the disjunctive 'or' confirms that the offender's genuine belief that the receptacle contains property is independently sufficient, even where that belief turns out to be mistaken and the receptacle is in fact empty or contains nothing of value. This mirrors the same belief-based sufficiency structure already encountered in several other offences throughout this Code (such as S.412's Receiving Stolen Property provisions, which similarly key liability to belief rather than requiring objectively confirmed fact in every respect) — the offender's own state of mind at the time of the act is what the section is concerned with, not the receptacle's actual contents as later discovered.",
+          "cite": "S.461 PPC's 'contains or which he believes to contain' language — genuine belief independently sufficient even if mistaken, paralleling the belief-based sufficiency structure already seen in S.412 PPC (Receiving Stolen Property module)."
+        }
+      ]
+    }
+  ]
+}

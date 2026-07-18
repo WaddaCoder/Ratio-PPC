@@ -1,0 +1,286 @@
+{
+  "id": "mischief",
+  "name": "Mischief",
+  "section": "S.425–440 PPC",
+  "formula": "Wrongful Loss Intent/Knowledge → Property Destruction/Injury → Value/Target-Based Escalation",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S425",
+      "name": "Mischief — The Foundational Definition",
+      "sub": "S.425 PPC — wrongful destruction or injurious alteration of property",
+      "step": "Element 1 of 9",
+      "atom": "S425",
+      "desc": "Whoever, with intent to cause (or knowing it likely to cause) wrongful loss or damage to the public or to any person, causes the destruction of any property, or any change in property or its situation that destroys or diminishes its value or utility, or affects it injuriously, commits 'mischief.' Explanation 1 confirms the offender need not intend loss specifically to the property's OWNER — intending or knowing of likely wrongful loss to ANY person via the property's injury suffices, whoever it belongs to. Explanation 2 confirms mischief can be committed even against property the offender themselves owns, solely or jointly.",
+      "legal": "S.425's two Explanations together produce a strikingly broad definition: mischief does not require the offender to harm someone else's property to benefit themselves, nor does it require the harmed party to be the property's actual owner. The Code's eight Illustrations span an unusually wide range of fact patterns — burning a security, melting ice through water introduction, throwing a ring into a river, destroying one's own effects to defeat a creditor's execution, scuttling an insured ship to defraud underwriters, casting away a ship to harm a lender with a maritime-loan interest, shooting a jointly-owned horse, and driving cattle onto a neighbour's field — confirming the offence captures property destruction motivated by an enormous range of underlying purposes, so long as the wrongful-loss intent or knowledge element is satisfied.",
+      "cite": "S.425 PPC, both Explanations, and all eight Illustrations (a)–(h) — official text.",
+      "ll": "S.425 PPC and Illustrations — official text",
+      "section": "425",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "This module surfaces a significant cross-reference: S.435/436’s mandatory minimums, inserted by the Criminal Laws (Amendment) Ordinance 1980, are confirmed to be from the SAME 1980 amendment wave already flagged for S.392 PPC’s highway-robbery mandatory minimum (Robbery & Dacoity module) — a third independently-dated data point (alongside S.364A’s 1958 insertion) confirming mandatory minimums in the PPC have multiple distinct historical waves predating the 2005/2016 cluster centred in the Theories of Punishment Evolutionary Arc. No verified Pakistani landmark case is logged against S.425–440 specifically as of this build.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A, having joint ownership of a horse together with Z, shoots and kills the horse specifically intending to cause wrongful loss to Z. Apply S.425's Explanation 2 and its own Illustration (g). Does A's own partial ownership interest in the horse provide any defence, given A is destroying property A partly owns?",
+          "reveal": "No — this is the Code's own Illustration (g) directly, and Explanation 2 confirms it expressly: 'mischief may be committed by an act affecting property belonging to the person who commits the act, or to that person and others jointly.' A's joint ownership interest does not exempt A from liability; the offence is fully satisfied because A's act was motivated by intent to cause wrongful loss specifically to Z's interest in the jointly-owned property, regardless of A's own simultaneous ownership stake.",
+          "cite": "S.425 PPC Explanation 2 and Illustration (g) — joint or sole ownership by the offender provides no defence where the act is intended to cause wrongful loss to another's interest in the same property."
+        },
+        {
+          "q": "A, knowing that creditors are about to seize A's own effects to satisfy a debt owed to Z, destroys those effects specifically to prevent Z from recovering the debt through that seizure. Apply S.425's own Illustration (d). Whose property is being destroyed here, and does this affect whether mischief has been committed?",
+          "reveal": "A is destroying A's OWN property here — this is the Code's own Illustration (d) directly. Despite the property belonging entirely to A, the destruction still constitutes mischief, because A's intent was specifically to cause damage to Z (by defeating Z's ability to recover the debt through the anticipated seizure), satisfying Explanation 1's confirmation that the offence requires only intent or knowledge of likely wrongful loss to SOME person via the property's destruction, not necessarily loss to the property's own owner specifically (since here the owner and the offender are the same person, yet the wrongful-loss target, Z, is someone else entirely).",
+          "cite": "S.425 PPC Illustration (d) and Explanation 1 — destruction of one's own property still constitutes mischief where the intent is to cause wrongful loss to a third party's separate interest (here, a creditor's right to satisfaction through seizure)."
+        },
+        {
+          "q": "A causes cattle to enter and graze upon Z's field, intending and knowing it likely that this will damage Z's standing crop. Apply S.425's own Illustration (h). Does mischief require some dramatic, violent act of destruction, or can comparatively passive or indirect conduct like directing animals onto land also satisfy the section?",
+          "reveal": "Indirect conduct is independently sufficient — this is the Code's own Illustration (h). A's act of causing cattle to enter Z's field, rather than any direct, violent destruction performed by A's own hands, satisfies S.425 fully, since the section's core requirement is causing destruction or injurious change to property with the requisite intent or knowledge, regardless of whether the mechanism of harm is direct (A personally destroying something) or indirect (A directing some other instrumentality, here animals, to cause the harm).",
+          "cite": "S.425 PPC Illustration (h) — indirect mechanisms of causing property harm (such as directing animals) satisfy the section just as fully as direct destructive acts."
+        }
+      ]
+    },
+    {
+      "id": "S426_427",
+      "name": "Punishment for Mischief; Mischief Causing Damage of Fifty Rupees or More",
+      "sub": "S.426/427 PPC — the base tier and the value-threshold escalation",
+      "step": "Element 2 of 9",
+      "atom": "S426_427",
+      "desc": "S.426 punishes mischief generally with up to 3 months' imprisonment, fine, or both. S.427 escalates this where the mischief causes loss or damage of 50 rupees or more, to up to 2 years' imprisonment, fine, or both.",
+      "legal": "S.426/427 introduces the first of several value-threshold and target-specific escalations that structure this entire chapter — a deliberately graduated severity ladder running from S.426's minimal 3-month base, through value-based thresholds (S.427), animal-value thresholds (S.428/429), and finally specific high-value or high-risk targets (irrigation works, public roads, lighthouses, dwellings) carrying ceilings up to life imprisonment. S.427's 50-rupee threshold, fixed in 1860 terms, is a useful point of comparison against the already-discussed pattern of colonial-era rupee figures becoming effectively symbolic over time (the S.67 discussion in the Punishments module) — worth noting honestly as a similar candidate for that same observation, though this module does not have independent confirmation of whether S.427's figure has been periodically revised the way some other PPC fine figures have.",
+      "cite": "S.426 and S.427 PPC — official text. Cross-reference Punishments module's S.67 discussion — a similar candidate for the observation about unrevised colonial-era rupee figures, though not independently confirmed here.",
+      "ll": "S.426, S.427 PPC — official text",
+      "section": "426",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits mischief causing damage valued at 40 rupees. B commits mischief causing damage valued at 60 rupees. Apply S.426 and S.427. Compare A and B's punishment exposure.",
+          "reveal": "A faces only S.426's base tier (up to 3 months, fine, or both), since the damage falls below S.427's 50-rupee threshold. B, whose damage meets or exceeds that threshold, faces S.427's substantially higher ceiling (up to 2 years, fine, or both) — an eightfold increase in the maximum imprisonment term triggered entirely by crossing this specific monetary threshold, regardless of any other facts about the manner or motive of the mischief.",
+          "cite": "S.426 PPC (below 50 rupees, 3 months) vs S.427 PPC (50 rupees or more, 2 years) — a value-threshold escalation independent of any other aggravating circumstance."
+        },
+        {
+          "q": "Does S.427 require that the offender know or intend that the damage will reach the 50-rupee threshold specifically, or is it sufficient that the damage objectively reaches that value regardless of the offender's own assessment of its worth?",
+          "reveal": "S.427's text states the punishment applies where mischief 'thereby causes loss or damage to the amount of fifty rupees or upwards' — this appears to focus on the objective value of the damage actually caused, rather than requiring the offender to specifically know or intend that the damage would reach that particular monetary threshold. The underlying mischief itself still requires the general intent or knowledge of likely wrongful loss/damage under S.425's definition, but S.427's specific 50-rupee escalation appears to function based on the objectively realized value of the damage, not the offender's own valuation or expectation at the time of the act.",
+          "cite": "S.427 PPC — the 50-rupee threshold appearing to operate on the objective value of damage actually caused, layered on top of S.425's general intent/knowledge requirement for mischief itself."
+        },
+        {
+          "q": "S.427's 50-rupee threshold was fixed in the original 1860 drafting. Given the discussion already logged in the Punishments module regarding S.67's unrevised colonial-era rupee figures, what should a careful student do with S.427's figure, given this module does not independently confirm whether it has been revised?",
+          "reveal": "The honest approach, consistent with this app's standing discipline, is to flag the comparison as a worthwhile observation — noting the structural similarity to S.67's documented unrevised-figure problem — without asserting as settled fact that S.427's figure has or has not been revised, since that would require independent verification this module does not claim to have performed. A student encountering this in practice should treat the 50-rupee figure's current real-world significance (likely now a very low, easily-crossed threshold given 160+ years of inflation since 1860, by analogy to the confirmed S.67 pattern) as a reasonable inference worth raising with an instructor, rather than a confirmed fact asserted with the same certainty as the verified statutory text itself.",
+          "cite": "S.427 PPC's 50-rupee threshold — an honest flag drawing a structural parallel to the verified S.67 pattern (Punishments module) without asserting unverified revision history as settled fact."
+        }
+      ]
+    },
+    {
+      "id": "S428_429",
+      "name": "Mischief by Killing or Maiming Animals — Two Value-Based Tiers",
+      "sub": "S.428/429 PPC — a general value threshold and a named-livestock exception",
+      "step": "Element 3 of 9",
+      "atom": "S428_429",
+      "desc": "S.428 punishes mischief by killing, poisoning, maiming, or rendering useless any animal valued at 10 rupees or more, with up to 2 years' imprisonment, fine, or both. S.429 punishes the same conduct against elephants, camels, horses, mules, buffaloes, bulls, cows, or oxen specifically — regardless of their value — or any other animal valued at 50 rupees or more, with up to 5 years' imprisonment, fine, or both.",
+      "legal": "S.429's structure is notable for explicitly naming a list of specific livestock species (elephant, camel, horse, mule, buffalo, bull, cow, ox) and removing the value requirement entirely for those named animals — 'whatever may be the value thereof' — while retaining a 50-rupee threshold for any other, unnamed animal. This reflects the particular agricultural and economic significance these specific working/draft animals held in the society this Code was originally drafted for, warranting protection regardless of an individual animal's market value, while the general animal-protection provision in S.428 (10-rupee threshold, no species limitation) and the residual unnamed-animal limb of S.429 (50-rupee threshold) both retain value-based gating.",
+      "cite": "S.428 and S.429 PPC — official text.",
+      "ll": "S.428, S.429 PPC — official text",
+      "section": "428",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A kills a goat valued at 15 rupees. B kills a cow of comparatively low individual market value, perhaps worth only 20 rupees. Apply S.428 and S.429. Which provision governs each, and why does the cow's modest value not prevent S.429 from applying to B?",
+          "reveal": "A's killing of the goat (an unnamed animal, not within S.429's specific list) valued above S.428's 10-rupee threshold falls under S.428, with up to 2 years' exposure. B's killing of the cow falls under S.429 specifically, because cow is one of the named species (elephant, camel, horse, mule, buffalo, bull, cow, ox) for which S.429 explicitly removes the value requirement — 'whatever may be the value thereof.' B faces up to 5 years' exposure under S.429 regardless of the cow's comparatively modest individual market value, precisely because the named-species limb does not gate on value at all.",
+          "cite": "S.428 PPC (unnamed animals, 10-rupee threshold) vs S.429 PPC (named livestock species, no value threshold at all) — the named-species limb removing value-gating entirely."
+        },
+        {
+          "q": "A kills a dog valued at 60 rupees — not one of S.429's named species, but exceeding its 50-rupee threshold for unnamed animals. Does S.429 or S.428 apply?",
+          "reveal": "S.429 applies, specifically through its residual 'any other animal of the value of fifty rupees or upwards' limb — the dog, while not one of the named livestock species, still falls within S.429's broader catch-all for any animal meeting the 50-rupee threshold, rather than S.428's lower 10-rupee threshold. This means S.429 actually has two distinct routes to its own application: the named-species route (no value requirement) and the residual any-animal route (50-rupee threshold) — both carrying the identical up-to-5-year ceiling once either route is satisfied.",
+          "cite": "S.429 PPC's residual 'any other animal' limb — a second, value-gated route to the same 5-year ceiling, distinct from but parallel to the named-species route."
+        },
+        {
+          "q": "Why might the legislature have structured S.428 and S.429 as two separate sections with different ceilings (2 years vs 5 years), rather than a single unified animal-mischief provision with one consistent value threshold applying to every animal equally?",
+          "reveal": "The differentiated structure reflects a deliberate legislative judgment that certain specifically named animals — working and draft animals essential to agriculture, transport, and the broader economy of the society this Code was drafted for — warrant categorically stronger protection than animals generally, justified by their economic and social importance independent of any individual animal's market value at a given moment. A single low-value individual elephant or working bull might have a modest market price in some circumstances, yet still represent significant ongoing economic utility to its owner or community; the value-independent named-species protection in S.429 captures this utility-based concern that a purely value-based threshold (as in S.428) would not adequately address.",
+          "cite": "S.428 vs S.429 PPC — reflecting a legislative judgment that named working/draft animals warrant utility-based protection independent of individual market value."
+        }
+      ]
+    },
+    {
+      "id": "S430_433",
+      "name": "Mischief Against Infrastructure — Irrigation, Roads, Drainage, and Navigation Aids",
+      "sub": "S.430/431/432/433 PPC — public-infrastructure-specific aggravations",
+      "step": "Element 4 of 9",
+      "atom": "S430_433",
+      "desc": "S.430 punishes mischief causing (or known likely to cause) diminished water supply for agriculture, human/animal consumption, cleanliness, or manufacturing, with up to 5 years plus fine. S.431 punishes mischief rendering a public road, bridge, navigable river, or channel impassable or less safe, also up to 5 years plus fine. S.432 punishes mischief causing inundation or obstruction to public drainage with attendant injury or damage, also up to 5 years plus fine. S.433 punishes mischief destroying, moving, or impairing a lighthouse, sea mark, buoy, or other navigational guide, with up to 7 years plus fine — the highest ceiling in this infrastructure cluster.",
+      "legal": "These four sections form a coherent cluster targeting mischief against critical public infrastructure — water supply, roads/waterways, drainage, and maritime navigation aids — each carrying a substantially higher ceiling than the base S.426 tier, reflecting the broader public harm such infrastructure damage can cause beyond the immediate property loss to any single owner. S.433's notably higher 7-year ceiling (versus the other three sections' shared 5-year ceiling) reflects the particularly severe and potentially life-threatening consequences of disabling navigational aids relied upon by mariners, where the harm extends to maritime safety itself rather than merely economic or infrastructural disruption.",
+      "cite": "S.430, S.431, S.432, and S.433 PPC — official text.",
+      "ll": "S.430, S.431, S.432, S.433 PPC — official text",
+      "section": "430",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A deliberately diverts an irrigation channel, knowing this is likely to diminish the water supply available to a farming community for agricultural purposes. Apply S.430. Does S.430 require proof that the diminished water supply actually caused crop failure or other realized agricultural harm, or is the act of causing the diminution itself sufficient?",
+          "reveal": "The act of causing (or knowing it likely to cause) the diminution in water supply itself appears to be the operative element — S.430's text covers 'doing any act which causes, or which he knows to be likely to cause, a diminution of the supply of water,' without requiring proof of a further, separate realized harm like actual crop failure. Consistent with the broader pattern already seen throughout this Code (S.415 Cheating's 'likely to cause' language, S.425's own knowledge-based mischief definition), the causing or known-likelihood of the specified harm (here, diminished water supply) is generally what completes these offences, not a further chain of proven downstream consequences.",
+          "cite": "S.430 PPC — causing or knowing likely diminution of water supply as the operative element, consistent with the 'likely to cause' pattern recurring throughout this Code."
+        },
+        {
+          "q": "Why might S.433 (navigational aids, 7 years) carry a higher ceiling than S.430–432 (water supply, roads, drainage, all 5 years), despite all four sections addressing public infrastructure broadly?",
+          "reveal": "Disabling a lighthouse, sea mark, or buoy creates a distinctive risk profile beyond ordinary infrastructural disruption: mariners navigating by these aids in the dark or in poor visibility conditions could be led into genuinely life-threatening hazards (shipwreck, grounding, collision) as a direct result of the aid's destruction or impairment, whereas diminished water supply, a less passable road, or drainage obstruction, while seriously harmful, do not carry the same immediate, acute risk to human life in the way a mariner's navigational error caused by a disabled sea mark could. This likely explains the legislature's choice to single out navigational aids for the higher 7-year ceiling within this otherwise similarly-structured infrastructure cluster.",
+          "cite": "S.433 PPC's elevated 7-year ceiling — reflecting the distinctive acute risk to human life from disabled navigational aids, beyond the infrastructural disruption addressed by S.430–432's shared 5-year ceiling."
+        },
+        {
+          "q": "A act renders a public road impassable, but the road in question is a minor, rarely-used rural track rather than a major thoroughfare. Does S.431's text distinguish between major and minor public roads in terms of which roads qualify for this section's protection?",
+          "reveal": "S.431's text protects 'any public road, bridge, navigable river or navigable channel, natural or artificial' without itself distinguishing between major and minor roads, or specifying any threshold of traffic volume or importance a road must meet to qualify. So long as the road in question is genuinely a public road (as opposed to a private way), S.431 applies regardless of how heavily it is used, leaving any practical significance of the road's relative importance to sentencing discretion within the section's ceiling, rather than to the section's threshold applicability.",
+          "cite": "S.431 PPC — protecting any public road without distinguishing major from minor roads, leaving relative importance to sentencing discretion rather than threshold applicability."
+        }
+      ]
+    },
+    {
+      "id": "S434",
+      "name": "Mischief by Destroying or Moving a Public Landmark",
+      "sub": "S.434 PPC — protecting official boundary/survey markers",
+      "step": "Element 5 of 9",
+      "atom": "S434",
+      "desc": "Whoever commits mischief by destroying or moving any landmark fixed by a public servant's authority, or by any act rendering such a landmark less useful as such, is punished with imprisonment up to 1 year, fine, or both.",
+      "legal": "S.434 protects the integrity of official boundary, survey, or demarcation markers specifically established under public authority — a comparatively modest 1-year ceiling reflecting that, while interfering with official landmarks can create genuine legal and administrative confusion (property boundary disputes, surveying errors), the section addresses a narrower, more administrative harm than the infrastructure-safety concerns underlying S.430–433's higher ceilings. The landmark must specifically be one 'fixed by the authority of a public servant' — private boundary markers established between neighbouring landowners without any public-servant authorization would not fall within this specific section's protection, though interference with such private markers might still constitute mischief generally under the base S.425/426 framework.",
+      "cite": "S.434 PPC — official text. Cross-reference General Explanations S.21 — the public servant authority requirement this section's protected landmarks must trace back to.",
+      "ll": "S.434 PPC — official text",
+      "section": "434",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A removes a boundary marker that two neighbouring private landowners had informally agreed upon and placed themselves, with no government surveyor or public authority ever having been involved in establishing it. Apply S.434. Does this specific landmark fall within this section's protection?",
+          "reveal": "No — S.434 specifically protects landmarks 'fixed by the authority of a public servant.' A purely private boundary marker, established by agreement between neighbouring landowners without any public-servant involvement or authorization, does not satisfy this requirement, and S.434's specific, more targeted protection does not extend to it. A's removal of this marker might still potentially constitute mischief generally under S.425/426's broader framework if the other elements of mischief (wrongful loss intent or knowledge) are satisfied, but the specific landmark-protection provision of S.434 itself would not apply.",
+          "cite": "S.434 PPC — specifically requiring public-servant authority behind the landmark; purely private boundary markers fall outside this section's specific protection, though general mischief liability under S.425/426 might still apply."
+        },
+        {
+          "q": "Why might S.434's ceiling (1 year) be set considerably lower than the infrastructure-protection provisions in S.430–433 (5–7 years), despite both addressing harm to officially-significant fixtures?",
+          "reveal": "The harm S.434 addresses is primarily administrative and evidentiary — confusion about property boundaries, survey accuracy, or official demarcation — rather than the more immediate, tangible infrastructural or safety harms addressed by S.430–433 (disrupted water supply, impassable roads, flooding, or maritime hazards). While landmark interference can create real downstream legal and practical problems, the legislature appears to have judged this harm as comparatively less severe and less immediate than the infrastructure-disruption and safety concerns warranting the higher ceilings elsewhere in this cluster.",
+          "cite": "S.434 PPC's comparatively modest 1-year ceiling — reflecting the more administrative/evidentiary character of landmark-interference harm versus the more immediate infrastructural/safety harms in S.430–433."
+        },
+        {
+          "q": "Does S.434 require that the landmark actually be destroyed entirely, or could partial interference also satisfy the section?",
+          "reveal": "S.434's text covers destroying OR moving the landmark, OR any act that renders it 'less useful as such' — this third, broader limb confirms that complete destruction is not required; any act that diminishes the landmark's usefulness for its demarcation purpose, even without fully destroying or relocating it, independently satisfies the section. This mirrors the same 'diminishes value or utility' language already built into S.425's general mischief definition, applied here specifically to official landmarks.",
+          "cite": "S.434 PPC's 'renders such landmark less useful' limb — partial interference diminishing usefulness sufficient, without requiring complete destruction or relocation, paralleling S.425's general mischief definition."
+        }
+      ]
+    },
+    {
+      "id": "S435_436",
+      "name": "Mischief by Fire or Explosive Substance — Property Damage and Dwelling Destruction",
+      "sub": "S.435/436 PPC — the two most severe mischief tiers, both with mandatory minimums",
+      "step": "Element 6 of 9",
+      "atom": "S435_436",
+      "desc": "S.435 punishes mischief by fire or explosive substance intending or knowing it likely to cause damage to property valued at 100 rupees or more (10 rupees or more for agricultural produce specifically), with a MANDATORY MINIMUM of 2 years rising to up to 7 years, plus mandatory fine liability. S.436 punishes mischief by fire or explosive substance intending or knowing it likely to destroy a building ordinarily used as a place of worship, human dwelling, or property-custody location, with imprisonment for life, or a MANDATORY MINIMUM of 3 years rising to up to 10 years, plus mandatory fine liability.",
+      "legal": "Both sections specifically target fire and explosives as the method of mischief, reflecting the Code's recognition that these particular means carry distinctively severe, often uncontrollable destructive potential beyond ordinary mischief methods. Both carry genuine mandatory minimums (1980-era amendments converting what were originally open 'may extend to' ceilings into floor-and-ceiling ranges) — fitting the broader mandatory-minimum legislative pattern already extensively traced in the Theories of Punishment Evolutionary Arc, though notably from the SAME 1980 amendment wave already flagged for S.392 (Robbery's highway-aggravation mandatory minimum, Robbery & Dacoity module), confirming 1980 as a significant, independently-identifiable moment of mandatory-minimum legislative activity predating the more frequently discussed 2005/2016 cluster. S.436's specific protection of dwellings, places of worship, and property-custody buildings directly parallels the same protected-structure category already encountered in Theft's S.380 dwelling-house aggravation, here escalated dramatically given the fire/explosive method's potential for mass harm to occupants.",
+      "cite": "S.435 and S.436 PPC, mandatory minimums inserted by Criminal Laws (Amendment) Ordinance 1980 — official text. Cross-reference Theories of Punishment Evolutionary Arc element — confirming 1980 as a distinct, independently-identifiable wave of mandatory-minimum legislative activity, alongside S.392 PPC (Robbery & Dacoity module) from the same amendment. Cross-reference Theft module S.380 (dwelling-house protection) — the same protected-structure category, escalated here given the fire/explosive method.",
+      "ll": "S.435, S.436 PPC — official text",
+      "section": "435",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A sets fire to agricultural produce valued at 15 rupees, intending to cause this damage. Apply S.435's specific agricultural-produce threshold. Does the lower 10-rupee threshold for agricultural produce (versus the general 100-rupee threshold) mean A faces the same mandatory-minimum exposure as someone who burns non-agricultural property worth 100+ rupees?",
+          "reveal": "Yes — S.435's text explicitly sets a lower, specific threshold 'where the property is agricultural produce' at 10 rupees or upwards, rather than the general 100-rupee threshold applying to other property types. Since A's agricultural produce (valued at 15 rupees) exceeds this lower, produce-specific threshold, A faces the identical mandatory-minimum-2-years-to-7-years exposure under S.435 as someone burning non-agricultural property worth well over 100 rupees — reflecting a deliberate legislative judgment that agricultural produce, given its often time-sensitive and livelihood-critical character, warrants protection at a much lower value threshold than property generally.",
+          "cite": "S.435 PPC's specific 10-rupee agricultural-produce threshold (versus the general 100-rupee threshold) — reflecting agricultural produce's livelihood-critical character warranting protection at a far lower value."
+        },
+        {
+          "q": "A sets fire to a building genuinely believing, in good faith but mistakenly, that the building was abandoned and not actually used as anyone's dwelling, place of worship, or property-custody location. The building turns out to have actually been an occupied dwelling. Does S.436's mental-state requirement (intending or knowing it likely to cause destruction of such a building) accommodate this kind of good-faith mistake?",
+          "reveal": "S.436's text requires intending or knowing it likely that the act will cause destruction of a building 'ordinarily used' as a dwelling, place of worship, or property-custody location — if A genuinely and reasonably believed, based on a fair assessment of the building's actual condition and appearance, that it was abandoned and not so used, this could potentially negate the specific knowledge/intent element S.436 requires regarding the building's protected character, though the underlying conduct might still constitute mischief generally under S.425/426 if the other general mischief elements (intent or knowledge of wrongful loss to the property itself) are independently satisfied. The precise application of a good-faith mistake defence to this specific knowledge element would depend closely on the particular facts and the genuineness/reasonableness of A's belief.",
+          "cite": "S.436 PPC's specific knowledge/intent requirement regarding the building's protected dwelling/worship/custody character — potentially negated by a genuine, reasonable good-faith mistake about the building's actual use, though general mischief liability under S.425/426 might independently remain."
+        },
+        {
+          "q": "Compare S.435's mandatory minimum (2 years) to S.436's mandatory minimum (3 years). Both sections share the same fire/explosive method and the same 1980 mandatory-minimum amendment wave. What is the precise additional element justifying S.436's higher floor?",
+          "reveal": "S.435 addresses fire/explosive mischief causing property damage generally (above the relevant value threshold), while S.436 specifically addresses fire/explosive mischief intended or known likely to DESTROY a building used as a dwelling, place of worship, or property-custody location — a categorically more severe target given the direct risk to human occupants (in the case of dwellings) or to communally significant property (places of worship). The higher mandatory floor reflects this more severe, occupant-endangering target category, on top of the shared concern with fire/explosives as a method already justifying both sections' generally severe treatment relative to ordinary mischief.",
+          "cite": "S.436 PPC's higher 3-year mandatory minimum versus S.435 PPC's 2-year minimum — reflecting the more severe, occupant-endangering target category (dwellings/worship places/custody buildings) addressed specifically by S.436."
+        }
+      ]
+    },
+    {
+      "id": "S437_438",
+      "name": "Mischief Against Vessels — General and Fire/Explosive-Specific",
+      "sub": "S.437/438 PPC — maritime property protection",
+      "step": "Element 7 of 9",
+      "atom": "S437_438",
+      "desc": "S.437 punishes mischief to a decked vessel, or any vessel of 20 tons burden or more, intending to destroy or render it unsafe (or knowing it likely to do so), with up to 10 years plus mandatory fine. S.438 punishes the same mischief specifically where committed (or attempted) by fire or explosive substance, with imprisonment for life or up to 10 years, plus mandatory fine.",
+      "legal": "S.437/438 mirrors the same general-method versus fire/explosive-specific structure already seen in S.435/436, but applied to vessels rather than land-based property/buildings — S.437 addresses vessel mischief generally, S.438 specifically escalates where fire or explosives are the method, reaching life imprisonment as an available outcome. Notably, S.438 explicitly extends to ATTEMPTS ('whoever commits, or attempts to commit... such mischief'), an inchoate-liability extension not explicitly stated in S.437's own text for ordinary-method vessel mischief, reflecting the especially severe and often irreversible consequences of fire/explosive attacks on vessels (which could result in sinking, loss of cargo, or loss of life among crew) warranting criminalisation even where the attempt does not fully succeed.",
+      "cite": "S.437 and S.438 PPC — official text. Cross-reference S.435/436 PPC (the parallel general-method vs fire/explosive-specific structure for buildings) — the same structural pattern applied here to vessels.",
+      "ll": "S.437, S.438 PPC — official text",
+      "section": "437",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A attempts to set fire to a decked vessel, intending to destroy it, but the fire is extinguished before causing significant damage. Apply S.438. Does the fact that A's attempt failed to actually destroy or render the vessel unsafe prevent liability under this section?",
+          "reveal": "No — S.438's text explicitly covers 'whoever commits, or attempts to commit, by fire or any explosive substance, such mischief as is described in the last preceding section' — the attempt itself, using fire or explosives with the requisite destructive intent or knowledge, is independently sufficient to trigger S.438's severe punishment range (life imprisonment or up to 10 years), without requiring that the attempt actually succeed in destroying or rendering the vessel unsafe. This explicit attempt-coverage is a notable inchoate-liability feature not equivalently spelled out in S.437's own text for non-fire/explosive vessel mischief.",
+          "cite": "S.438 PPC's explicit 'commits, or attempts to commit' language — attempted fire/explosive vessel mischief independently sufficient, regardless of whether the attempt succeeds."
+        },
+        {
+          "q": "A commits mischief against a small, undecked rowing boat of minimal tonnage, intending to render it unsafe. Apply S.437's specific vessel-description requirements. Does this small boat fall within S.437's protection?",
+          "reveal": "Not under S.437 specifically — the section's text requires either a 'decked vessel' or 'any vessel of a burden of twenty tons or upwards.' A small, undecked rowing boat of minimal tonnage would not satisfy either of these two specific qualifying descriptions, meaning S.437's specific, more severely punished vessel-mischief provision would not apply to this particular boat; the conduct would instead fall back to the general mischief framework under S.425/426 (and any applicable value-based escalation under S.427, depending on the boat's value and the damage caused) rather than S.437's vessel-specific 10-year ceiling.",
+          "cite": "S.437 PPC's specific qualifying requirements (decked vessel, or 20+ tons burden) — a small undecked boat falling outside this section's specific protection, defaulting to the general mischief framework instead."
+        },
+        {
+          "q": "Why might S.438 reach all the way to life imprisonment as an available outcome, the same severe ceiling already seen for S.436's dwelling/worship-place destruction by fire/explosive, while S.437's general vessel mischief caps at 10 years?",
+          "reveal": "Both S.436 and S.438 share the combination of fire/explosive method with a target category carrying significant risk to human life and substantial economic value — dwellings/places of worship typically house occupants, and decked vessels or large vessels (20+ tons) typically carry crew and passengers, meaning fire or explosive attacks on either target category create comparable risks of mass casualties alongside the property destruction itself. This shared life-imprisonment ceiling across both sections reflects the legislature's consistent treatment of fire/explosive attacks on occupant-bearing structures or vessels as warranting its most severe available punishment, regardless of whether the structure is land-based or maritime.",
+          "cite": "S.438 PPC's life-imprisonment ceiling matching S.436 PPC's — both reflecting the shared severe risk profile of fire/explosive attacks on occupant-bearing targets, whether land-based dwellings or maritime vessels."
+        }
+      ]
+    },
+    {
+      "id": "S439",
+      "name": "Intentionally Running a Vessel Aground to Commit Theft or Misappropriation",
+      "sub": "S.439 PPC — a specific maritime-fraud-adjacent provision",
+      "step": "Element 8 of 9",
+      "atom": "S439",
+      "desc": "Whoever intentionally runs any vessel aground or ashore, intending to commit theft of property contained in it or to dishonestly misappropriate such property, or with intent that such theft or misappropriation may be committed, is punished with up to 10 years plus mandatory fine.",
+      "legal": "S.439 sits at an interesting structural intersection between Mischief and the Theft/Misappropriation offences already built elsewhere in this app — the act of running a vessel aground is itself the 'mischief'-adjacent conduct this chapter addresses, but the section's defining feature is the SPECIFIC PURPOSE behind that act: facilitating theft or misappropriation of the vessel's cargo or contents, whether by the offender personally or by enabling others to do so ('with intent that such theft or misappropriation MAY BE committed' — a notably broader formulation than requiring the offender's own personal intent to commit the theft). This purposive structure mirrors the same preparation-for-a-further-offence logic already seen in Theft's S.382 (preparation for violence) and the broader pattern of provisions throughout this Code that punish an act based on the further criminal purpose it serves, not merely the act's immediate, direct consequence.",
+      "cite": "S.439 PPC — official text. Cross-reference Theft module S.382 (preparation for violence in committing theft) — the same purposive-act structure, here applied to vessel-grounding as the preparatory act facilitating theft/misappropriation of cargo.",
+      "ll": "S.439 PPC — official text",
+      "section": "439",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, the captain of a vessel, intentionally runs the vessel aground specifically so that local accomplices on shore can more easily steal the cargo once the vessel is stranded — A does not personally intend to take any of the cargo themselves. Apply S.439's 'with intent that such theft... may be committed' language. Does A's lack of personal intent to commit the theft prevent liability?",
+          "reveal": "No — S.439's text specifically includes the broader formulation 'or with intent that such theft or misappropriation of property may be committed,' which is disjunctively separate from and broader than 'intending to commit theft... himself.' A's intent to facilitate theft by the shore-based accomplices, even without any personal intent to personally take the cargo, satisfies this broader limb of S.439 directly — the section captures both the person who runs the vessel aground intending to personally steal from it, AND the person who does so specifically to enable theft by others.",
+          "cite": "S.439 PPC's 'or with intent that such theft... may be committed' limb — capturing facilitation of theft by others, not merely personal intent to commit the theft oneself."
+        },
+        {
+          "q": "How does S.439's structure relate to the underlying Theft offence (S.378, already built) and Criminal Misappropriation (S.403, already built)? Does a person convicted under S.439 also need to be separately convicted of the underlying theft or misappropriation itself?",
+          "reveal": "S.439 punishes the specific act of intentionally running the vessel aground or ashore with the requisite purposive intent — it is a complete, freestanding offence triggered by that act and intent, regardless of whether the intended theft or misappropriation actually occurs afterward or is separately proven and charged. This mirrors the same preparatory/purposive-act structure already discussed for S.382 (Theft module): the offence is established by the preparatory or facilitating act combined with the requisite criminal purpose, not by requiring proof that the further intended offence (here, the actual theft or misappropriation of the cargo) was itself completed and separately convicted.",
+          "cite": "S.439 PPC as a complete, freestanding offence triggered by the grounding act plus requisite intent — not requiring separate proof or conviction of the underlying intended theft/misappropriation, paralleling S.382 PPC's (Theft module) preparatory-act structure."
+        },
+        {
+          "q": "Does S.439 require that the vessel actually be damaged or destroyed by being run aground, or is the act of grounding itself, with the requisite intent, sufficient regardless of the vessel's ultimate physical condition?",
+          "reveal": "S.439's text requires only that the offender 'intentionally runs any vessel aground or ashore' with the specified theft/misappropriation intent — it does not separately require proof that the vessel itself was damaged, destroyed, or rendered unsafe as a result. This distinguishes S.439 from the genuinely mischief-focused S.437/438 (which specifically require intent or knowledge of destroying or rendering the vessel unsafe), confirming that S.439 is better understood as a theft-facilitation provision using the vessel-grounding act as its trigger, rather than a pure property-destruction provision in the same vein as the rest of this Mischief chapter.",
+          "cite": "S.439 PPC — requiring only the grounding act plus theft/misappropriation intent, not proof of actual vessel damage, distinguishing it from S.437/438's genuinely destruction-focused requirements."
+        }
+      ]
+    },
+    {
+      "id": "S440",
+      "name": "Mischief Committed After Preparation for Causing Death, Hurt, or Restraint",
+      "sub": "S.440 PPC — the chapter-closing bridge toward violent offences",
+      "step": "Element 9 of 9",
+      "atom": "S440",
+      "desc": "Whoever commits mischief, having made preparation for causing death, hurt, or wrongful restraint (or fear of any of these) to any person, is punished with up to 5 years plus mandatory fine.",
+      "legal": "S.440 closes the Mischief chapter with a structural counterpart to Theft's S.382 (preparation for causing death/hurt/restraint in committing theft, already built) — the same advance-preparation-for-violence concept, here applied to mischief rather than theft. Just as S.382 punishes theft accompanied by advance preparation for violence regardless of whether that preparation is actually deployed, S.440 punishes mischief accompanied by the identical kind of advance preparation, again regardless of actual deployment. This closing provision confirms the same conceptual bridge-toward-violence logic recurs across multiple property-offence chapters in this Code, not merely within Theft specifically — mischief, like theft, can be aggravated by advance violent preparation even where that preparation never needs to be actually used during the specific offence in question.",
+      "cite": "S.440 PPC — official text. Cross-reference Theft module S.382 (preparation for causing death/hurt/restraint in committing theft) — the identical structural concept applied here to close the Mischief chapter.",
+      "ll": "S.440 PPC — official text",
+      "section": "440",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits an act of mischief against Z's property while having, in advance, armed themselves with a weapon specifically in case Z or others tried to intervene and needed to be threatened or hurt to prevent that intervention. Z never actually notices or intervenes, and A never uses or displays the weapon. Apply S.440. Does this satisfy the section, despite the weapon never being deployed?",
+          "reveal": "Yes — this mirrors precisely the same logic already confirmed for S.382 PPC's own Illustration (a) in the Theft module (carrying a weapon for potential use, never deployed). S.440 is satisfied by the advance preparation itself (arming oneself in case violent intervention-prevention became necessary), regardless of whether that preparation was ever actually deployed during the mischief. A's mischief, accompanied by this advance preparatory equipping, satisfies S.440 even though the mischief proceeded without any actual confrontation or use of force.",
+          "cite": "S.440 PPC — advance preparation for violence sufficient regardless of deployment, directly paralleling S.382 PPC's (Theft module) identical structural logic and confirmed Illustration."
+        },
+        {
+          "q": "Compare S.440's 5-year ceiling to S.382's 10-year ceiling for the structurally identical preparation-for-violence concept applied to theft instead of mischief. Why might the legislature have set different ceilings for what is conceptually the same aggravating mechanism?",
+          "reveal": "Despite sharing an identical structural mechanism (advance preparation for violence accompanying a property offence), theft and mischief are not treated as equally severe base offences throughout this Code — theft generally carries higher base ceilings than the lower end of the mischief spectrum (compare S.379's 3-year theft base to S.426's 3-month mischief base), and this relative severity difference between the underlying offences appears to carry through proportionally even when the same preparation-for-violence aggravation is layered on top of each. The aggravating mechanism itself is conceptually identical, but it operates as a multiplier or escalation relative to each chapter's own baseline severity, rather than producing an identical absolute ceiling regardless of which underlying offence it attaches to.",
+          "cite": "S.440 PPC's 5-year ceiling vs S.382 PPC's 10-year ceiling — the identical preparation-for-violence mechanism producing different absolute ceilings, reflecting each chapter's own distinct baseline severity rather than an identical fixed escalation."
+        },
+        {
+          "q": "Does S.440 require that the preparation for violence be specifically connected to facilitating the mischief itself (analogous to S.382's 'in order to the committing of the theft' language), or could entirely unrelated advance preparation for violence, coincidentally present at the same time as separate mischief, also satisfy the section?",
+          "reveal": "While S.440's own text is somewhat more compact than S.382's explicit 'in order to the committing of the theft, or to retiring after committing it, or to retaining property taken by it' framing, the most natural reading — consistent with the parallel structure and purpose this section shares with S.382 — is that the preparation must be connected to and undertaken in contemplation of the mischief itself (for facilitating its commission, escape, or retention of any resulting benefit), rather than being entirely coincidental, unrelated advance preparation for violence that merely happens to exist at the same general time as a separately-motivated act of mischief. The precise outer boundary of how closely connected the preparation must be to the specific mischief is not exhaustively elaborated in the section's own brief text.",
+          "cite": "S.440 PPC — most naturally read as requiring preparation connected to and undertaken in contemplation of the specific mischief, by analogy to S.382 PPC's more explicit connecting language, though the precise boundary is not exhaustively specified in S.440's own briefer text."
+        }
+      ]
+    }
+  ]
+}

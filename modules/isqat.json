@@ -1,0 +1,136 @@
+{
+  "id": "isqat",
+  "name": "Isqat-i-Haml & Isqat-i-Janin",
+  "section": "S.338–338C PPC",
+  "formula": "Developmental Stage → Good Faith Exception → Outcome-Dependent Punishment",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S338",
+      "name": "Isqat-i-Haml — Miscarriage Before Organ Formation",
+      "sub": "S.338 PPC — the foundational definition, with a dual good-faith exception",
+      "step": "Element 1 of 4",
+      "atom": "S338",
+      "desc": "Whoever causes a woman with child — whose organs have not yet formed — to miscarry, is said to cause Isqat-i-Haml, UNLESS the miscarriage is caused in good faith for the purpose of saving the woman's life, or providing her necessary treatment. The Code's own Explanation confirms a woman who causes herself to miscarry falls within this section's meaning — self-induced miscarriage is not excluded from the definition.",
+      "legal": "The defining threshold for Isqat-i-Haml (as distinct from Isqat-i-Janin, covered next) is the developmental stage of the pregnancy: organs not yet formed. This is a precise, biologically-anchored line the Code draws rather than a fixed time period, meaning the applicable category depends on actual fetal development at the time of the act, not a calendar measurement of weeks. The dual good-faith exception — saving the woman's life, or providing her necessary treatment — mirrors the same good-faith standard already defined in General Explanations S.52 (requiring due care and attention, not mere sincere belief), meaning a person relying on this exception must show their belief in the necessity was held with genuine care, not just asserted after the fact.",
+      "cite": "S.338 PPC and its Explanation — official text. Cross-reference General Explanations S.52 (good faith requires due care and attention) — the operative standard for both limbs of the exception.",
+      "ll": "S.338 PPC — official text",
+      "section": "338",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.338–338C specifically as of this build. Flagged honestly rather than inventing a citation; if Mr. Faisal references a specific case in class, that should be the trigger to log it properly with citation verification.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A causes a pregnant woman, whose pregnancy is at a stage before any organs have formed, to miscarry. A genuinely and carefully believed this was medically necessary to save the woman's life, having consulted appropriate medical guidance before acting. Apply S.338. Has A committed Isqat-i-Haml?",
+          "reveal": "No. S.338's own exception removes this from the definition of Isqat-i-Haml entirely where the miscarriage is caused in good faith for the purpose of saving the woman's life. Since A's belief was held with the due care and attention required by the General Explanations S.52 good-faith standard (genuine medical consultation, not mere assertion), the exception applies, and A's conduct does not constitute the offence at all — this is a complete definitional exclusion, not merely a punishment-reducing factor.",
+          "cite": "S.338 PPC exception (life-saving purpose, in good faith) read with General Explanations S.52 (good faith standard)."
+        },
+        {
+          "q": "A pregnant woman, at a pre-organ-formation stage, causes herself to miscarry without any life-saving or necessary-treatment justification. Apply the Code's own Explanation to S.338. Does the woman herself fall within the scope of this section?",
+          "reveal": "Yes. The Explanation expressly states 'a woman who causes herself to miscarry is within the meaning of this section' — S.338 does not exempt the pregnant woman from potential liability merely because she is the one who caused her own miscarriage, distinguishing this from many other legal systems' approaches that treat self-induced abortion differently from third-party-caused abortion. The same good-faith exception (life-saving or necessary treatment) would, however, still be available to her on the same terms as it would to anyone else.",
+          "cite": "S.338 PPC Explanation — self-induced miscarriage expressly within the section's scope, not exempted."
+        },
+        {
+          "q": "What is the precise difference between the two limbs of S.338's good-faith exception — 'saving the life of the woman' versus 'providing necessary treatment to her'? Could a miscarriage be justified under the second limb even where the woman's life was not actually in danger?",
+          "reveal": "Yes — the two limbs are disjunctive and address different scenarios. 'Saving the life of the woman' covers the narrower, more acute scenario where continuing the pregnancy poses a direct threat to the woman's survival. 'Providing necessary treatment to her' is broader, covering situations where the miscarriage is a necessary incident of medical treatment the woman requires for some other condition, even where her life is not immediately at risk — for example, treatment for a serious illness where the pregnancy itself is not the life-threatening factor, but the required treatment incidentally causes miscarriage. Both limbs require the same good-faith, due-care standard, but they cover genuinely different medical justifications.",
+          "cite": "S.338 PPC — disjunctive two-limb exception ('saving the life' OR 'necessary treatment'), covering distinct medical justifications."
+        }
+      ]
+    },
+    {
+      "id": "S338A",
+      "name": "Punishment for Isqat-i-Haml",
+      "sub": "S.338A PPC — consent as the determining factor",
+      "step": "Element 2 of 4",
+      "atom": "S338A",
+      "desc": "Isqat-i-Haml is punished with imprisonment of either description up to 3 years if caused with the woman's consent, or up to 10 years if caused without her consent. A proviso adds: where any hurt is caused to the woman, or she dies, as a result of the Isqat-i-Haml, the convict additionally faces whatever punishment is provided for that hurt or death.",
+      "legal": "S.338A's consent/non-consent distinction is the single variable determining the applicable Ta'zir ceiling — more than a threefold difference between the consensual tier (3 years) and the non-consensual tier (10 years), reflecting that causing a woman to miscarry against her will is treated as a substantially graver wrong than doing so with her agreement, even though both fall within the same underlying Isqat-i-Haml definition. The proviso's additional-liability mechanism for resulting hurt or death operates on the same cumulative-liability logic already seen throughout this app (S.112 in Abetment, S.324's hurt-on-top-of-attempt structure in Qatl Core) — the Isqat-i-Haml punishment does not subsume or cap liability for any separate, additional harm that results from the act.",
+      "cite": "S.338A PPC and its proviso — official text. Cross-reference S.112 PPC (Abetment module) and S.324 PPC (Qatl Core module) — the same cumulative-liability-for-resulting-harm pattern recurring across multiple chapters.",
+      "ll": "S.338A PPC — official text",
+      "section": "338A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes Isqat-i-Haml to a woman without her consent, and as a direct result, the woman herself suffers a serious, qualifying hurt. Apply S.338A's proviso. Does A's punishment stop at the 10-year ceiling for the non-consensual Isqat-i-Haml itself?",
+          "reveal": "No. S.338A's proviso specifically adds that where hurt is caused to the woman as a result of the Isqat-i-Haml, the convict is ALSO liable to whatever punishment is provided for that specific kind of hurt under the Hurt cluster (S.332–338H, already built) — this is cumulative, additional liability on top of the 10-year non-consent ceiling, not a punishment capped at that ceiling alone. A would face the Isqat-i-Haml punishment AND the separate punishment applicable to whichever specific Hurt category the resulting injury falls into.",
+          "cite": "S.338A PPC proviso — cumulative liability for resulting hurt, on top of (not capped by) the base Isqat-i-Haml punishment."
+        },
+        {
+          "q": "Why might the legislature have set the non-consensual tier (10 years) at more than three times the consensual tier (3 years), rather than a smaller proportional difference?",
+          "reveal": "The substantial gap reflects that non-consensual Isqat-i-Haml combines two distinct wrongs: the termination of the pregnancy itself, and the violation of the woman's own bodily autonomy and consent in having that termination imposed upon her without agreement. The consensual tier addresses only the first wrong (assuming the consent itself is otherwise validly given); the non-consensual tier's substantially higher ceiling reflects the legislature's judgment that the autonomy violation compounds the underlying wrong significantly, warranting punishment proportionate to both harms combined rather than merely a modest increase.",
+          "cite": "S.338A PPC — the threefold-plus gap between consensual (3 years) and non-consensual (10 years) tiers, reflecting the compounded wrong of consent violation."
+        },
+        {
+          "q": "Does S.338A's proviso apply only where the woman survives with hurt, or does it also cover the scenario where the woman dies as a result of the Isqat-i-Haml?",
+          "reveal": "Both scenarios are covered. The proviso's text states 'if as a result of isqat i haml, any hurt is caused to woman OR SHE DIES, the convict shall also be liable to the punishment provided for such hurt or death as the case may be' — the disjunctive 'or she dies' limb extends the same cumulative-liability principle to a fatal outcome, meaning the convict would face liability for whatever category of Qatl (Qatl-i-Amd, Shibh-i-Amd, Khata, or Bis-Sabab, depending on the precise facts) the resulting death falls into, in addition to the Isqat-i-Haml punishment itself.",
+          "cite": "S.338A PPC proviso — disjunctive coverage of both resulting hurt and resulting death, with cumulative liability for either outcome."
+        }
+      ]
+    },
+    {
+      "id": "S338B",
+      "name": "Isqat-i-Janin — Miscarriage After Organ Formation",
+      "sub": "S.338B PPC — the later-stage counterpart, with a narrower single-limb exception",
+      "step": "Element 3 of 4",
+      "atom": "S338B",
+      "desc": "Whoever causes a woman with child — some of whose limbs or organs HAVE been formed — to miscarry, is said to cause Isqat-i-Janin, UNLESS the miscarriage is caused in good faith for the purpose of saving the woman's life. The Explanation again confirms self-induced miscarriage falls within the section.",
+      "legal": "The critical distinction from S.338 is the developmental threshold: Isqat-i-Janin applies once some limbs or organs have formed, marking a later stage of pregnancy than Isqat-i-Haml's pre-organ-formation threshold. Notably, S.338B's good-faith exception is narrower than S.338's — it covers ONLY saving the woman's life, dropping the second 'necessary treatment' limb that S.338 includes. This narrowing is a deliberate legislative choice: as the pregnancy advances to the point where organs have formed, the exception justifying termination contracts to the single, most acute justification (life-saving), no longer extending to the broader category of treatment-necessitated termination that remains available at the earlier, pre-organ-formation stage.",
+      "cite": "S.338B PPC and its Explanation — official text. Cross-reference S.338 PPC — the narrower single-limb exception here, contrasted with S.338's broader dual-limb exception, reflecting the later developmental stage.",
+      "ll": "S.338B PPC — official text",
+      "section": "338B",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes a woman, whose pregnancy has progressed to the point where some limbs have formed, to miscarry. A's stated purpose was that this was necessary medical treatment for an unrelated condition, but the woman's life was not in danger. Apply S.338B. Does the exception apply?",
+          "reveal": "No. Unlike S.338's broader exception (which covers both life-saving AND necessary treatment), S.338B's exception covers ONLY the purpose of saving the woman's life. Since the woman's life was not in danger here, and the stated justification falls under the 'necessary treatment' category that S.338B does NOT include as an exception (unlike S.338), this scenario does not fall within S.338B's narrower exception — A would potentially be liable for Isqat-i-Janin despite having a genuine, good-faith treatment-related purpose, precisely because that purpose alone does not satisfy this section's narrower exception.",
+          "cite": "S.338B PPC — single-limb exception (life-saving only), excluding the broader 'necessary treatment' justification available under S.338."
+        },
+        {
+          "q": "Why might the legislature have deliberately narrowed the exception from S.338's dual-limb structure to S.338B's single-limb structure, rather than keeping the same exception consistent across both developmental stages?",
+          "reveal": "As a pregnancy advances to the point where limbs or organs have formed, the developing fetus's moral and legal status is treated as more advanced and significant within this framework — reflected directly in S.338C's punishment structure (covered next), which ties compensation to whether the child was born dead or alive, treating Isqat-i-Janin's potential victim with greater specificity than Isqat-i-Haml's. Correspondingly, the legislature appears to have narrowed the available justification for terminating a more developmentally advanced pregnancy to only the most acute, life-threatening scenario, removing the broader 'necessary treatment' justification that remains available at the earlier, less developmentally advanced stage governed by S.338.",
+          "cite": "S.338B PPC's narrower exception, read together with S.338C's more elaborate, child-specific punishment structure — both reflecting the more advanced developmental and legal significance attached to the later-stage pregnancy."
+        },
+        {
+          "q": "Does S.338B require that ALL of the fetus's limbs and organs have formed, or is partial formation sufficient to trigger this section rather than S.338?",
+          "reveal": "Partial formation is sufficient. S.338B's text specifies 'a woman with child SOME of whose limbs or organs have been formed' — the word 'some' confirms that complete formation of every limb and organ is not required; once any limbs or organs have begun to form, the pregnancy has crossed the threshold separating S.338's pre-organ-formation category from S.338B's post-organ-formation category.",
+          "cite": "S.338B PPC — 'some of whose limbs or organs have been formed' as the operative, partial-formation threshold."
+        }
+      ]
+    },
+    {
+      "id": "S338C",
+      "name": "Punishment for Isqat-i-Janin",
+      "sub": "S.338C PPC — outcome-dependent Diyat/Ta'zir structure, with multiple-fetus and resulting-harm provisos",
+      "step": "Element 4 of 4",
+      "atom": "S338C",
+      "desc": "Isqat-i-Janin is punished according to outcome: one-twentieth of Diyat if the child is born dead; full Diyat if the child is born alive but dies as a result of any act of the offender; and imprisonment of either description up to 7 years as Ta'zir (this third limb applying regardless of the first two, based on the structure of the section). Two provisos extend the framework: where more than one child is in the womb, the offender faces separate Diyat or Ta'zir for EACH child; and where any hurt is caused to the woman, or she dies, as a result of the Isqat-i-Janin, the offender additionally faces whatever punishment is provided for that hurt or death.",
+      "legal": "S.338C's outcome-dependent structure is the most elaborate punishment scheme in this small cluster, distinguishing three scenarios by reference to the developed fetus/child's fate: born dead (lowest compensation, one-twentieth Diyat — reflecting that the child never achieved independent life), born alive but dies from the offender's act (full Diyat — treating this as equivalent in compensation terms to causing the death of an already-living person), and the Ta'zir imprisonment component running alongside either outcome. The multiple-fetus proviso is a direct, explicit anti-discount mechanism: an offender causing the loss of twins or triplets faces separate liability for each child individually, rather than a single liability figure regardless of how many fetuses were affected — preventing the legal consequence from being diluted simply because multiple lives were affected by a single act.",
+      "cite": "S.338C PPC and both its provisos — official text.",
+      "ll": "S.338C PPC — official text",
+      "section": "338C",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An offender causes Isqat-i-Janin to a woman carrying twins. Both children are born dead as a result. Apply S.338C and its multiple-fetus proviso. What is the total Diyat liability?",
+          "reveal": "One-twentieth of Diyat for EACH child separately, per S.338C(a) combined with the multiple-fetus proviso — meaning the offender's total liability is two separate one-twentieth-Diyat payments (effectively one-tenth of Diyat in total), not a single one-twentieth payment treated as covering both children collectively. The proviso explicitly directs that 'the offender shall be liable to separate diyat or ta'zir, as the case may be, for every such child' where more than one child is in the womb.",
+          "cite": "S.338C(a) PPC and its multiple-fetus proviso — separate one-twentieth-Diyat liability for each of multiple children, not a single combined payment."
+        },
+        {
+          "q": "An offender causes Isqat-i-Janin; the child is born alive but dies shortly afterward specifically as a result of an act of the offender (rather than from unrelated causes). Apply S.338C(b). What is the Diyat liability, and how does this compare to the born-dead scenario under S.338C(a)?",
+          "reveal": "Full Diyat — a substantially higher figure than the one-twentieth-Diyat applicable where the child is born dead. The distinction reflects that a child who achieves live birth, however briefly, before dying as a direct result of the offender's act is treated, for compensation purposes, as having achieved the independent life that the born-dead scenario never reached — the resulting death of a live-born child is compensated at the same full level as causing the death of any other living person, rather than the much-reduced figure applicable to a child who never achieved independent life at all.",
+          "cite": "S.338C(b) PPC — full Diyat for a live-born child who dies from the offender's act, contrasted with S.338C(a)'s one-twentieth Diyat for stillbirth."
+        },
+        {
+          "q": "How does S.338C's resulting-hurt/death proviso for the WOMAN compare to S.338A's identical proviso for Isqat-i-Haml? Are these genuinely two separate provisions, or could a single act trigger both simultaneously?",
+          "reveal": "They are structurally parallel but apply to different underlying offences (S.338A governs the proviso for Isqat-i-Haml specifically; S.338C governs the identical-in-substance proviso for Isqat-i-Janin specifically) — a single act could only trigger one or the other, not both simultaneously, since a given miscarriage is classified as either Isqat-i-Haml (pre-organ-formation) or Isqat-i-Janin (post-organ-formation) based on the pregnancy's developmental stage at the time, never both at once. Both provisos share the identical underlying principle (cumulative liability for resulting harm to the woman, on top of the base offence), simply restated separately in each section to ensure the rule is clearly stated for whichever of the two offences actually applies on the facts.",
+          "cite": "S.338A PPC proviso vs S.338C PPC proviso — identical underlying principle, restated separately for Isqat-i-Haml and Isqat-i-Janin respectively, since the two offences are mutually exclusive based on developmental stage."
+        }
+      ]
+    }
+  ]
+}

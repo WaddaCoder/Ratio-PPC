@@ -1,0 +1,196 @@
+{
+  "id": "trademarks",
+  "name": "Trade, Property &amp; Other Marks",
+  "section": "S.478–489 PPC",
+  "formula": "Mark Definition → False Use/Counterfeiting → Reverse-Burden Defence",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S478_481",
+      "name": "Trade Mark, Property Mark, and Their False Use — The Foundational Definitions",
+      "sub": "S.478–481 PPC — four definitional sections underlying this entire cluster",
+      "step": "Element 1 of 6",
+      "atom": "S478_481",
+      "desc": "S.478: a Trade Mark is a mark denoting goods are the manufacture/merchandise of a particular person (extended to include marks registered under the Trade Marks Act 1940). S.479: a Property Mark is a mark denoting that movable property belongs to a particular person. S.480: using a False Trade Mark is marking goods (or a container) in a manner reasonably calculated to cause belief that the goods are the manufacture/merchandise of a person they are not actually from. S.481: using a False Property Mark is the same conduct, but as to ownership of movable property generally rather than manufacture/merchandise origin specifically.",
+      "legal": "Trade Marks and Property Marks address two related but conceptually distinct interests: a Trade Mark protects the integrity of MANUFACTURE/MERCHANDISE ORIGIN claims (this product comes from this maker), while a Property Mark protects OWNERSHIP claims over movable property generally (this item belongs to this person), independent of who manufactured it. S.480/481 then define the FALSE USE of each — marking goods or property in a manner 'reasonably calculated to cause it to be believed' the false origin/ownership claim is true, an objective reasonable-calculation standard rather than requiring proof the false belief was actually, successfully induced in any specific person.",
+      "cite": "S.478, S.479, S.480, and S.481 PPC — official text.",
+      "ll": "S.478–481 PPC — official text",
+      "section": "478",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.478–489 specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A marks goods with a symbol falsely suggesting they were manufactured by a well-known company, when in fact A manufactured them independently. Separately, B marks goods A genuinely manufactured, but with a symbol falsely suggesting the goods belong to (are owned by) a different person Z, when in fact A still owns them. Apply S.480 and S.481 respectively. Which section governs each scenario?",
+          "reveal": "A's conduct falls under S.480 (False Trade Mark), since the false claim concerns manufacturing/merchandise ORIGIN — suggesting the goods came from the well-known company's manufacture when they did not. B's conduct falls under S.481 (False Property Mark), since the false claim concerns OWNERSHIP of property already correctly understood to be A's own manufacture — suggesting it belongs to Z when it does not. The two sections address genuinely distinct false claims (origin of manufacture vs. ownership), even though both involve placing a misleading mark on goods.",
+          "cite": "S.480 PPC (false manufacture/merchandise origin claim) vs S.481 PPC (false ownership claim) — addressing distinct underlying false claims despite similar marking conduct."
+        },
+        {
+          "q": "Does S.480 require proof that any specific person actually was deceived and came to believe the false manufacture claim, or is the manner of marking itself, objectively assessed, sufficient?",
+          "reveal": "S.480's text requires marking 'in a manner reasonably calculated to cause it to be believed' the false claim — this is an objective standard focused on the manner of marking itself, not a requirement of proven actual deception of any specific identified person. A marking method that would reasonably tend to cause the false belief satisfies this element, regardless of whether any particular buyer or observer can be shown to have actually formed that false belief as a result.",
+          "cite": "S.480 PPC's 'reasonably calculated to cause it to be believed' standard — an objective test focused on the marking method itself, not requiring proof of actual induced belief in any specific person."
+        },
+        {
+          "q": "S.478's definition of Trade Mark expressly extends to marks 'registered in the register of trade marks kept under the Trade Marks Act, 1940.' What does this cross-reference to a separate statute suggest about the relationship between this PPC provision and broader intellectual-property/commercial law?",
+          "reveal": "This confirms S.478's PPC definition deliberately incorporates and defers to the formal trademark registration system established under the separate Trade Marks Act 1940, rather than creating an entirely independent, freestanding PPC-only concept of what counts as a trade mark. This means the full scope of what qualifies as a protected trade mark for purposes of this entire PPC cluster cannot be fully determined from the PPC text alone — it depends in part on the registration scheme of a separate statute this app has not independently built or verified, a genuine boundary of this module's scope worth flagging honestly.",
+          "cite": "S.478 PPC's cross-reference to the Trade Marks Act 1940 — honestly flagging that full determination of trade mark scope depends partly on a separate statute outside this app's verified coverage."
+        }
+      ]
+    },
+    {
+      "id": "S482",
+      "name": "Punishment for Using a False Trade Mark or Property Mark",
+      "sub": "S.482 PPC — with a reverse burden of proof",
+      "step": "Element 2 of 6",
+      "atom": "S482",
+      "desc": "Whoever uses any false trade mark or false property mark is punished with imprisonment up to 1 year, fine, or both — UNLESS they prove they acted without intent to defraud.",
+      "legal": "S.482's structure places a REVERSE BURDEN on the defendant: once the prosecution establishes use of a false trade/property mark (as defined in S.480/481), the burden shifts to the defendant to affirmatively prove absence of fraudulent intent, rather than the prosecution needing to affirmatively prove the defendant's fraudulent intent as it ordinarily would for most offences in this Code. This is a notable departure from the typical mental-state-proof allocation seen throughout this app, and reflects a practical recognition that a defendant's own state of mind regarding why they used a particular mark is often peculiarly within that defendant's own knowledge.",
+      "cite": "S.482 PPC — official text.",
+      "ll": "S.482 PPC — official text",
+      "section": "482",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The prosecution establishes that A used a false trade mark on goods, satisfying S.480's definition. A offers no evidence at all regarding A's own state of mind or intent at the time. Apply S.482's reverse burden. What is the likely outcome?",
+          "reveal": "A would likely be convicted under S.482, since the section places the burden on A to prove absence of fraudulent intent once the prosecution establishes the false-mark-use itself — A's failure to offer any evidence on this point means A has not discharged that burden, and the statutory consequence (conviction, absent such proof) follows. This is a meaningfully different evidentiary posture from most offences in this Code, where the prosecution would instead need to affirmatively prove the defendant's fraudulent intent as part of its own case.",
+          "cite": "S.482 PPC's reverse burden — absence of any defence evidence on intent results in conviction, since the burden to prove absence of fraudulent intent rests on the defendant."
+        },
+        {
+          "q": "Why might the legislature have specifically reversed the burden of proof for S.482, when most other offences throughout this Code require the prosecution to affirmatively establish the defendant's mental state?",
+          "reveal": "This likely reflects a practical evidentiary judgment: once the objective fact of false-mark-use is established (a comparatively straightforward, observable fact), the defendant's own reason for using that particular mark is often peculiarly within the defendant's exclusive knowledge and difficult for the prosecution to independently establish through external evidence, whereas the defendant is well-positioned to explain (if true) a genuinely innocent, non-fraudulent reason for the marking. This reverse-burden technique appears again in S.486 (discussed next), suggesting a deliberate pattern specifically within this trade/property mark cluster, rather than a general feature of this Code's mental-state proof allocation.",
+          "cite": "S.482 PPC's reverse burden — reflecting a practical evidentiary judgment about which party is better positioned to establish the defendant's reason for the marking, a pattern recurring in S.486 within this same cluster."
+        },
+        {
+          "q": "Does S.482's reverse burden require the defendant to prove absence of fraudulent intent 'beyond reasonable doubt,' or to some lesser evidentiary standard?",
+          "reveal": "The section's own text does not specify the precise standard of proof the defendant must meet to discharge this reverse burden — this is a matter that would typically be addressed by general evidentiary principles and procedural law (the CrPC and broader rules of evidence) rather than by the PPC's own substantive text. This app's PPC-only scope means the precise evidentiary standard applicable to this specific reverse burden is not something to be confidently asserted here without venturing into procedural/evidentiary law this module has not independently verified.",
+          "cite": "S.482 PPC — the precise standard of proof for discharging the reverse burden left to general evidentiary/procedural principles outside this module's PPC-specific scope, honestly flagged rather than asserted."
+        }
+      ]
+    },
+    {
+      "id": "S483_485",
+      "name": "Counterfeiting a Trade/Property Mark — General, Public-Servant, and Instrument-Possession Variants",
+      "sub": "S.483/484/485 PPC — escalating from general counterfeiting to public-servant marks to preparatory instruments",
+      "step": "Element 3 of 6",
+      "atom": "S483_485",
+      "desc": "S.483: counterfeiting a trade/property mark used by another person — up to 2 years, fine, or both. S.484: counterfeiting a property mark (or other mark) used BY A PUBLIC SERVANT to denote manufacture origin, time/place, quality, passage through a particular office, or exemption entitlement, or using such a counterfeit as genuine knowing it to be counterfeit — up to 3 years plus mandatory fine. S.485: making or possessing any die, plate, or instrument for counterfeiting a trade/property mark, or possessing a mark itself for the purpose of falsely denoting origin/ownership — up to 3 years, fine, or both.",
+      "legal": "S.483 addresses counterfeiting an ordinary private person's mark; S.484 escalates specifically where the counterfeited mark is one USED BY A PUBLIC SERVANT (engaging the same S.21 framework already built in General Explanations) for official certification purposes — reflecting the same institutional-integrity concern already seen in Forgery's S.466 (court records/public registers). S.485 then extends liability backward to the PREPARATORY-INSTRUMENT stage, mirroring the same inchoate-liability logic already extensively confirmed throughout this app (S.472/473 in the Forgery module, S.398 in Robbery & Dacoity) — criminalising possession of counterfeiting tools independently of any completed act of counterfeiting.",
+      "cite": "S.483, S.484, and S.485 PPC — official text. Cross-reference General Explanations S.21 (public servant definition) and S.466 PPC (Forgery module, public-record protection) — the same institutional-integrity concern. Cross-reference S.472/473 PPC (Forgery module) and S.398 PPC (Robbery & Dacoity module) — the same preparatory-instrument inchoate-liability pattern.",
+      "ll": "S.483, S.484, S.485 PPC — official text",
+      "section": "483",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A counterfeits a quality-certification mark that a public servant uses to denote goods have passed an official inspection process, intending to apply this counterfeit mark to goods that never actually underwent that inspection. Apply S.484. Why does this conduct trigger a higher ceiling than S.483's general counterfeiting provision would?",
+          "reveal": "S.484 specifically and severely punishes counterfeiting marks used by a public servant for official certification purposes — here, denoting that goods passed a particular inspection process, one of the specific categories S.484's text names ('passed through a particular office'). This triggers the higher 3-year ceiling (with mandatory fine) rather than S.483's general 2-year ceiling, reflecting the same elevated institutional-integrity concern already seen for forged public records under S.466 — counterfeiting an official certification mark corrupts public confidence in the government's own certification and inspection systems, a more severe harm than counterfeiting an ordinary private trader's mark.",
+          "cite": "S.484 PPC's elevated ceiling for public-servant-used marks — paralleling the same institutional-integrity concern already established for S.466 PPC (Forgery module, public records)."
+        },
+        {
+          "q": "A is found in possession of a specially-made die specifically designed for counterfeiting a particular trade mark, but A has not yet actually counterfeited anything with it — A was apprehended before ever using the die. Apply S.485. Does mere possession of the die, without any completed counterfeiting act, satisfy this section?",
+          "reveal": "Yes — S.485's text explicitly covers 'whoever makes or has in his possession any die, plate or other instrument for the purpose of counterfeiting,' independent of whether any actual counterfeiting has yet been carried out using that instrument. This mirrors the same preparatory-instrument, possession-based inchoate liability already confirmed for S.472/473 (Forgery module, counterfeit seals/plates) and S.398 (Robbery & Dacoity module, possessing a deadly weapon during an attempted robbery) — mere possession with the requisite purpose independently completes the offence, without requiring proof of any further completed act.",
+          "cite": "S.485 PPC — possession-based inchoate liability satisfied without requiring a completed counterfeiting act, paralleling S.472/473 PPC (Forgery module) and S.398 PPC (Robbery & Dacoity module)."
+        },
+        {
+          "q": "Does S.484's second limb ('uses as genuine any such mark knowing the same to be counterfeit') require that the user have personally counterfeited the mark themselves, or could a person who merely uses a mark counterfeited by someone else also satisfy this limb?",
+          "reveal": "The second limb is independent of the counterfeiting act itself — it covers anyone who 'uses as genuine any such mark knowing the same to be counterfeit,' regardless of who originally created the counterfeit. This mirrors the same derivative-use structure already seen in S.471 (Forgery module, using a forged document as genuine) — a person who knowingly uses a counterfeit public-servant mark, even without having personally counterfeited it, satisfies S.484's second limb on their own knowing use, independent of and in addition to whatever liability the original counterfeiter separately faces.",
+          "cite": "S.484 PPC's second limb — independent knowing-use liability regardless of who originally counterfeited the mark, paralleling S.471 PPC's (Forgery module) derivative-use structure."
+        }
+      ]
+    },
+    {
+      "id": "S486",
+      "name": "Selling Goods Marked with a Counterfeit Trade Mark or Property Mark",
+      "sub": "S.486 PPC — the three-part reverse-burden defence for sellers",
+      "step": "Element 4 of 6",
+      "atom": "S486",
+      "desc": "Whoever sells, exposes, or possesses for sale or trade/manufacture purposes any goods bearing a counterfeit trade/property mark is punished with imprisonment up to 1 year, fine, or both — UNLESS they prove: (a) having taken all reasonable precautions, they had no reason to suspect the mark's genuineness; AND (b) on demand, they gave all information in their power about the persons from whom they obtained the goods; OR (c) they otherwise acted innocently.",
+      "legal": "S.486 extends the same reverse-burden structure already seen in S.482, but with a more elaborate, three-part defence specifically tailored to sellers and traders — recognising that a seller in a commercial supply chain may genuinely and innocently be unaware that goods they received from a supplier bear a counterfeit mark. Limbs (a) and (b) must be established TOGETHER (the conjunctive 'and' between them), while limb (c) offers an independent, alternative route ('otherwise he had acted innocently') for situations not neatly captured by the specific reasonable-precautions-plus-disclosure formula in (a)+(b).",
+      "cite": "S.486 PPC — official text.",
+      "ll": "S.486 PPC — official text",
+      "section": "486",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, a retailer, sells goods bearing a counterfeit trade mark, having taken all reasonable precautions and having had no reason to suspect the mark's genuineness at the time of sale. When later asked by the prosecutor's representative, A fully discloses all information A possesses about the supplier from whom A obtained the goods. Apply S.486's limbs (a) and (b). Does A successfully establish the defence?",
+          "reveal": "Yes — A has satisfied both limb (a) (reasonable precautions taken, no reason to suspect genuineness) AND limb (b) (full disclosure of supplier information on demand), which together constitute one complete route to the S.486 defence, since the section's text joins these two limbs with the conjunctive 'and.' A's successful establishment of both elements together discharges the reverse burden S.486 places on sellers of counterfeit-marked goods.",
+          "cite": "S.486 PPC limbs (a) and (b) — conjunctively satisfied together as one complete defence route, given the section's 'and' connecting language."
+        },
+        {
+          "q": "B, a different retailer, cannot specifically satisfy the precise reasonable-precautions-plus-disclosure formula of limbs (a) and (b) — perhaps B genuinely cannot recall or no longer has records identifying the original supplier. Does this necessarily mean B has no defence available under S.486?",
+          "reveal": "Not necessarily — S.486's limb (c) provides an independent, alternative defence route: 'that otherwise he had acted innocently.' This disjunctive 'or' before limb (c) confirms it operates as a separate, alternative path to the defence, not requiring satisfaction of the specific (a)+(b) formula. B could potentially still establish the defence by proving general innocence of conduct through limb (c), even without being able to satisfy the more specific precautions-and-disclosure requirements of (a) and (b).",
+          "cite": "S.486 PPC limb (c) — an independent, alternative 'otherwise acted innocently' defence route, distinct from and not requiring satisfaction of the specific (a)+(b) formula."
+        },
+        {
+          "q": "How does S.486's three-part defence structure compare to S.482's simpler 'unless he proves he acted without intent to defraud' formula? Why might the legislature have crafted a more elaborate defence specifically for the selling-of-marked-goods context?",
+          "reveal": "Selling goods through a commercial supply chain presents a distinctively complex evidentiary situation compared to directly using a false mark oneself (S.482's context): a seller may have received already-counterfeit-marked goods from an upstream supplier without ever personally creating or even closely examining the mark, making a simple 'no intent to defraud' formula potentially too blunt an instrument. The more elaborate (a)+(b)/(c) structure specifically addresses the realistic commercial scenario of an innocent intermediary in a supply chain, requiring either demonstrated reasonable diligence plus transparency about the supply source, or a more general showing of innocence, rather than the single, simpler intent-focused inquiry S.482 uses for direct false-mark-use.",
+          "cite": "S.486 PPC's more elaborate three-part defence vs S.482 PPC's simpler formula — reflecting the distinctively complex evidentiary situation of an intermediary seller in a commercial supply chain, as opposed to a person directly using a false mark themselves."
+        }
+      ]
+    },
+    {
+      "id": "S487_488",
+      "name": "Making or Using a False Mark Upon a Receptacle Containing Goods",
+      "sub": "S.487/488 PPC — contents-misrepresentation, with the same reverse-burden structure",
+      "step": "Element 5 of 6",
+      "atom": "S487_488",
+      "desc": "S.487: making a false mark on a case/package/receptacle, in a manner reasonably calculated to cause belief that it contains goods it does not contain, or does not contain goods it does contain, or that the contained goods are of a different nature/quality than they really are — up to 3 years, fine, or both, UNLESS the offender proves absence of intent to defraud. S.488: making USE of such a false mark in the manner S.487 prohibits is punished AS IF the offender had committed the S.487 offence itself.",
+      "legal": "S.487 protects against misrepresentation of a RECEPTACLE'S CONTENTS specifically — a distinct concern from S.480/481's manufacture-origin and ownership concerns, addressing instead false claims about what is or is not inside a package, or about the contained goods' nature or quality. S.488 then mirrors the same derivative-use structure already seen in S.471 (Forgery) and S.484's second limb (this same module) — a person who merely USES a false S.487-type mark (without having necessarily made it themselves) faces identical punishment 'as if he had committed an offence against that section,' ensuring downstream users of contents-misrepresenting marks cannot escape with lesser liability than the original mark-maker.",
+      "cite": "S.487 and S.488 PPC — official text. Cross-reference S.471 PPC and S.484 PPC's second limb (Forgery module and this same module) — the same derivative-use punishment structure recurring a third time.",
+      "ll": "S.487, S.488 PPC — official text",
+      "section": "487",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A marks a shipping container in a manner reasonably calculated to cause belief that it contains high-quality goods, when in fact it contains substantially inferior goods. Apply S.487. Does the false mark need to misrepresent the PRESENCE or ABSENCE of goods specifically, or can it also misrepresent the QUALITY of genuinely-present goods?",
+          "reveal": "S.487's text covers three distinct, disjunctively-listed forms of contents misrepresentation: causing belief that the receptacle contains goods it does not contain, OR that it does not contain goods it does contain, OR that the contained goods are 'of a nature or quality different from the real nature or quality thereof.' A's quality-misrepresentation scenario falls squarely within this third limb — the section is not confined merely to presence/absence misrepresentation, but extends to misrepresenting the genuine nature or quality of goods that are, in fact, actually present.",
+          "cite": "S.487 PPC's third disjunctive limb — covering quality/nature misrepresentation of genuinely-present goods, not merely presence/absence misrepresentation."
+        },
+        {
+          "q": "B did not personally create the false contents-mark on a package, but B knowingly uses that already-existing false mark in the course of B's own business dealings. Apply S.488. What is B's punishment exposure, and how is it calculated?",
+          "reveal": "B faces punishment 'as if he had committed an offence against' S.487 itself — meaning B's exposure is calculated using the identical framework S.487 establishes (up to 3 years, fine, or both, subject to the same reverse-burden defence of proving absence of intent to defraud), regardless of B's non-involvement in originally creating the false mark. This is now the THIRD confirmed instance within this app's Forgery/Trade-Mark cluster of the same derivative-use punishment structure (alongside S.471 in Forgery and S.484's second limb in this same module).",
+          "cite": "S.488 PPC — derivative punishment identical to S.487's own framework, the third confirmed instance of this recurring derivative-use structure within the Forgery/Trade-Mark cluster."
+        },
+        {
+          "q": "Does S.488 carry its own independent reverse-burden defence language, or does it simply incorporate S.487's defence by reference through the 'as if he had committed an offence against that section' formula?",
+          "reveal": "S.488's text does not restate the reverse-burden defence language independently — it relies entirely on the incorporation-by-reference formula ('punished as if he had committed an offence against that section') to import S.487's complete framework, including its 'unless he proves that he acted without intent to defraud' defence. This is a clean, efficient drafting technique avoiding the need to restate an identical defence structure twice, while still ensuring the same defence is genuinely available to the S.488 user-offender as is available to the original S.487 mark-maker.",
+          "cite": "S.488 PPC — incorporating S.487's full framework, including its reverse-burden defence, entirely by reference rather than restating it independently."
+        }
+      ]
+    },
+    {
+      "id": "S489",
+      "name": "Tampering with a Property Mark with Intent to Cause Injury",
+      "sub": "S.489 PPC — the chapter-closing destructive/alterative provision",
+      "step": "Element 6 of 6",
+      "atom": "S489",
+      "desc": "Whoever removes, destroys, defaces, or adds to any property mark, intending or knowing it likely that this may cause injury to any person, is punished with imprisonment up to 1 year, fine, or both.",
+      "legal": "S.489 closes this cluster with a destructive/alterative counterpart to the false-marking provisions addressed earlier — rather than creating a NEW false mark (S.480/481) or counterfeiting an EXISTING mark (S.483), S.489 addresses tampering with a genuine, already-existing property mark by removing, destroying, defacing, or adding to it, where this tampering is intended or known likely to cause injury (the same broad S.44 injury concept already engaged throughout this Code) to some person. This mirrors the same forgery-versus-destruction structural pairing already confirmed for S.467 (forging a will/valuable security) versus S.477 (destroying one) in the Forgery module — false creation and destructive tampering are treated as parallel, comparably-conceived wrongs against the same underlying mark/document integrity interest.",
+      "cite": "S.489 PPC — official text. Cross-reference General Explanations S.44 (Injury) and S.467/477 PPC (Forgery module) — the same forgery-versus-destruction structural pairing recurring here for property marks.",
+      "ll": "S.489 PPC — official text",
+      "section": "489",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A deliberately defaces a genuine property mark on goods belonging to Z, specifically intending that this will cause Z difficulty in proving ownership of the goods if they are later lost or disputed. Apply S.489. Does this satisfy the section, even though A never created any FALSE mark and never counterfeited anything?",
+          "reveal": "Yes — S.489 specifically addresses tampering with a GENUINE, already-existing property mark (removing, destroying, defacing, or adding to it), as distinct from the false-marking provisions (S.480/481) or counterfeiting provisions (S.483) addressed elsewhere in this cluster. A's defacement of Z's genuine mark, intending thereby to cause Z injury (here, difficulty proving ownership), satisfies S.489 directly through its own distinct destructive/alterative framework, entirely independent of whether any false or counterfeit mark was ever involved.",
+          "cite": "S.489 PPC — addressing tampering with a genuine mark, structurally distinct from and independent of the false-marking (S.480/481) and counterfeiting (S.483) provisions elsewhere in this cluster."
+        },
+        {
+          "q": "Does S.489 require that the offender's own property be the one bearing the tampered mark, or could tampering with a mark on someone else's property also satisfy the section?",
+          "reveal": "S.489's text covers tampering with 'any property mark,' without restricting this to marks on the offender's own property — and given the section requires intent or knowledge of likely INJURY TO ANY PERSON as its operative mental element, this naturally contemplates tampering with marks on property that may belong to, or whose ownership-marking concerns, someone other than the offender. The section is concerned with the injurious effect of the tampering on the relevant person whose interest the mark protects, not with whose property is physically marked.",
+          "cite": "S.489 PPC — not restricted to tampering with marks on the offender's own property; concerned with injurious effect on whoever's interest the mark protects."
+        },
+        {
+          "q": "How does S.489's 'removes, destroys, defaces, or ADDS TO' language work — why would ADDING something to an existing property mark, rather than only removing or damaging it, also constitute tampering?",
+          "reveal": "Adding to an existing genuine property mark could alter its meaning or create confusion about its scope or application just as effectively as removing or defacing it — for example, adding additional markings that suggest the property mark covers more items than it genuinely does, or that modify the apparent ownership claim in some misleading way. This fourth limb ensures the section captures alteration-by-addition as comparably wrongful to alteration-by-subtraction (removal/destruction/defacement), recognising that tampering with a mark's integrity can be accomplished by adding false elements just as much as by removing or damaging genuine ones.",
+          "cite": "S.489 PPC's 'adds to' limb — capturing alteration-by-addition as comparably wrongful to alteration-by-subtraction, both potentially distorting the mark's genuine meaning or scope."
+        }
+      ]
+    }
+  ]
+}

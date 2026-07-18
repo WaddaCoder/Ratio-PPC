@@ -1,0 +1,256 @@
+{
+  "id": "marriage",
+  "name": "Offences Related to Marriage &amp; Women",
+  "section": "S.493A–498C PPC",
+  "formula": "Marital Deception/Coercion → Specific Vulnerable-Category Protection → Mandatory Minimums",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S493A",
+      "name": "Cohabitation Caused by Deceitfully Inducing a Belief of Lawful Marriage",
+      "sub": "S.493A PPC — the 2006-reinserted provision, closing a 27-year Hudood-era gap",
+      "step": "Element 1 of 9",
+      "atom": "S493A",
+      "desc": "Every man who deceitfully causes any woman who is not lawfully married to him to believe that she is lawfully married to him, and to cohabit with him in that belief, is punished with rigorous imprisonment up to 25 years plus fine.",
+      "legal": "This section's history is itself a significant data point: the ORIGINAL S.493 (Cohabitation Caused by a Man Deceitfully Inducing a Belief of Lawful Marriage) was repealed by the 1979 Hudood Ordinance, leaving a genuine protective gap until S.493A restored equivalent (and more severely punished) protection in 2006 — this is now the FOURTH independently confirmed instance of the same 1979-Hudood-repeal-then-2006-Protection-of-Women-Act-restoration pattern already traced through the Rape Law Reform Arc, S.365B (Kidnapping module), and S.367A (Kidnapping module). The 25-year ceiling is dramatically more severe than typical deception-based offences elsewhere in this Code, reflecting the serious, often long-term harm to a woman deceived into believing she is in a lawful marriage — affecting her legal status, any children born of the relationship, property/inheritance expectations, and social standing.",
+      "cite": "S.493A PPC, inserted by Act VI of 2006 — official text. Cross-reference the Rape Law Reform Arc, S.365B PPC, and S.367A PPC (both Kidnapping module) — a fourth independently confirmed instance of the 1979-Hudood-repeal-then-2006-restoration pattern.",
+      "ll": "S.493A PPC — official text",
+      "section": "493A",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "S.493A is confirmed as a FOURTH independent instance of the 1979-Hudood-repeal-then-2006-restoration pattern already traced through the Rape Law Reform Arc and S.365B/S.367A (Kidnapping module). No verified Pakistani landmark case is logged against S.493A–498C specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A man deceitfully causes a woman to genuinely believe she is lawfully married to him, and she cohabits with him on that belief for several years, only later discovering no lawful marriage ever existed. Apply S.493A. What is the man's punishment exposure?",
+          "reveal": "Up to 25 years' rigorous imprisonment plus fine — a notably severe ceiling reflecting the serious, often long-term harm such deception causes: the woman's mistaken belief in her own marital status, potential implications for any children born during the relationship, and the broader social and legal consequences of having been deceived about something as fundamental as her own marriage. This is among the more severely punished deception-based offences in this Code outside the property/financial-fraud context.",
+          "cite": "S.493A PPC — 25-year ceiling reflecting the serious, long-term personal and legal harm of marital deception."
+        },
+        {
+          "q": "Why is S.493A's 2006 insertion date significant, and how does it connect to a pattern already documented elsewhere in this app?",
+          "reveal": "S.493A's 2006 insertion specifically restored protection that had existed under the original S.493 until the 1979 Hudood Ordinance repealed it — a 27-year gap during which this specific protective provision was simply absent from the law. This is now the FOURTH independently confirmed instance of the same 1979-repeal-then-2006-restoration pattern already documented across the Rape Law Reform Arc, S.365B, and S.367A (both Kidnapping module) — confirming this was not an isolated event specific to any one offence category, but a broader, repeated legislative cycle affecting multiple distinct protective provisions for women across this Code.",
+          "cite": "S.493A PPC's 2006 insertion as a fourth confirmed instance of the 1979-Hudood-repeal-then-2006-restoration pattern, alongside the Rape Law Reform Arc and S.365B/S.367A PPC (Kidnapping module)."
+        },
+        {
+          "q": "Does S.493A require that the deceived woman actually have no other valid marriage of her own, or could this section apply even where she is separately and validly married to someone else, provided she is not lawfully married to THIS particular man?",
+          "reveal": "S.493A's text requires only that the woman 'is not lawfully married to him' — referring specifically to the absence of a lawful marriage between her and the deceiving man, not to her marital status generally. A woman who is, for example, separately and validly married to a different man, but who is deceived by this man into believing she is ALSO lawfully married to HIM, would still fall within S.493A's protection, since the section's concern is specifically the deceived belief about marriage to this particular man, not her overall marital status.",
+          "cite": "S.493A PPC — 'not lawfully married to him' referring specifically to the absence of a lawful marriage with the deceiving man, not to the woman's marital status generally."
+        }
+      ]
+    },
+    {
+      "id": "S494_495",
+      "name": "Marrying Again During the Lifetime of a Spouse, With and Without Concealment",
+      "sub": "S.494/495 PPC — the bigamy provision and its concealment-aggravated variant",
+      "step": "Element 2 of 9",
+      "atom": "S494_495",
+      "desc": "S.494: marrying again while having a living husband/wife, where the second marriage is void by reason of taking place during the first spouse's lifetime, is punished with imprisonment up to 7 years plus fine. The Exception excludes: (a) a person whose marriage to the living spouse has been declared void by a competent court; (b) a person whose former spouse has been continually absent and unheard-of as alive for 7 years, PROVIDED the person discloses the real facts to the new spouse before the subsequent marriage. S.495: the SAME offence, but where the offender additionally CONCEALED the former marriage from the person with whom the subsequent marriage was contracted, is punished with up to 10 years plus fine.",
+      "legal": "S.494's Exception carves out two genuine, good-faith scenarios from bigamy liability: a court-declared-void prior marriage, or a 7-year continuous unheard-of absence — but the SECOND limb of this Exception carries its own internal condition: disclosure of the real facts to the new spouse before the subsequent marriage. This disclosure condition is precisely what S.495 escalates upon: where the offender commits the SAME underlying bigamy but additionally conceals the former marriage from the new spouse (defeating exactly the kind of transparency the S.494 Exception's second limb would otherwise require to escape liability), the punishment rises substantially from 7 to 10 years. This creates an elegant internal logic: disclosure can excuse bigamy entirely under narrow Exception circumstances, while concealment of the same underlying fact specifically aggravates the offence under S.495.",
+      "cite": "S.494 PPC and its Exception, and S.495 PPC — official text.",
+      "ll": "S.494, S.495 PPC — official text",
+      "section": "494",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A's spouse has been continually absent and unheard-of as alive for exactly 7 years. A wishes to remarry, and BEFORE the subsequent marriage takes place, A fully informs the new prospective spouse, Z, of the real facts — namely that A's former spouse has been absent for 7 years and not declared dead by any court. Apply S.494's Exception. Does A's subsequent marriage fall within the Exception, avoiding bigamy liability?",
+          "reveal": "Yes — this satisfies the Exception's second limb precisely: 7 years of continuous, unheard-of absence, combined with A's disclosure of the real facts to Z before the marriage takes place. Both conditions of this specific limb are met, meaning A's subsequent marriage falls within the Exception and does not constitute bigamy under S.494, despite the technical fact that A's former spouse may, for all anyone knows, still be alive somewhere.",
+          "cite": "S.494 PPC Exception, second limb — 7-year unheard-of absence plus pre-marriage disclosure of the real facts together satisfying the Exception."
+        },
+        {
+          "q": "Now vary the facts: A's spouse has been absent and unheard-of for the same 7 years, but A deliberately CONCEALS this fact from Z, falsely representing to Z that A has never been married before at all. Apply S.495. Does A's concealment of the former marriage change the applicable provision and punishment?",
+          "reveal": "Yes — A's deliberate concealment from Z defeats the disclosure condition that would otherwise bring A within S.494's Exception (the second limb specifically requires disclosure before the marriage). Since A instead concealed the former marriage, A falls under S.495's more severely punished concealment-aggravated variant: up to 10 years, rather than either escaping liability entirely (had A disclosed) or facing only S.494's base 7-year ceiling (had A married again without specifically concealing the prior marriage from the new spouse, even if not strictly satisfying the Exception's other conditions).",
+          "cite": "S.495 PPC — concealment of the former marriage from the new spouse specifically defeating the S.494 Exception's disclosure condition and triggering the more severe 10-year ceiling."
+        },
+        {
+          "q": "Does S.494's Exception's first limb (marriage declared void by a competent court) require any disclosure condition similar to the second limb's 7-year-absence-plus-disclosure requirement?",
+          "reveal": "No — the Exception's first limb (a court having already declared the marriage to the living spouse void) operates independently and unconditionally, without any separate disclosure requirement attached to it. This makes sense structurally: once a competent court has formally declared the prior marriage void, there is no longer, in the law's own eyes, a 'living husband or wife' in the relevant sense at all — the legal predicate for bigamy liability has already been judicially removed, unlike the second limb's scenario, where the former spouse's marital status remains technically unresolved (merely unheard-of, not judicially declared void or dead), making the disclosure condition a necessary safeguard specifically for that more uncertain scenario.",
+          "cite": "S.494 PPC Exception's first limb (court-declared void) operating unconditionally, distinguished from the second limb's (7-year absence) disclosure-conditioned structure, reflecting the different degree of legal certainty in each scenario."
+        }
+      ]
+    },
+    {
+      "id": "S496",
+      "name": "Marriage Ceremony Fraudulently Gone Through Without Lawful Marriage",
+      "sub": "S.496 PPC — the sham-ceremony provision",
+      "step": "Element 3 of 9",
+      "atom": "S496",
+      "desc": "Whoever, dishonestly or with fraudulent intention, goes through the ceremony of being married, knowing they are not thereby lawfully married, is punished with imprisonment up to 7 years plus fine.",
+      "legal": "S.496 addresses a distinct scenario from S.494/495's bigamy framework: here, the offender knows from the outset that the ceremony itself will NOT produce a lawful marriage at all (for reasons unrelated to having a living prior spouse — perhaps a defect in the ceremony's form, lack of legal capacity, or some other legal impediment), yet dishonestly proceeds through the ceremony anyway, creating a false appearance of lawful marriage. This differs from S.493A's deceit-based cohabitation-inducement offence in its specific focus on the CEREMONY ITSELF as the deceptive act, rather than on subsequently inducing a belief about marital status through cohabitation — though the two could well overlap on similar underlying facts.",
+      "cite": "S.496 PPC — official text. Cross-reference S.493A PPC (this same module) — a related but structurally distinct deceptive-marriage offence, focused specifically on the ceremony itself rather than subsequent cohabitation-based inducement.",
+      "ll": "S.496 PPC — official text",
+      "section": "496",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, knowing full well that a particular marriage ceremony will not produce a legally valid marriage (perhaps due to a known legal impediment unrelated to any prior existing marriage), nonetheless dishonestly goes through with that ceremony with Z, intending to create a false appearance of lawful marriage. Apply S.496. Does A's knowledge that the ceremony itself was legally defective, rather than having a prior living spouse, change the analysis?",
+          "reveal": "No — S.496 is specifically calibrated to exactly this scenario: it does not require a prior living spouse (the bigamy-specific concern of S.494/495) at all. S.496's core requirement is dishonestly or fraudulently going through a marriage ceremony while knowing it will not produce a lawful marriage, for whatever underlying legal reason that knowledge is based on. A's knowledge of the ceremony's legal defect, combined with the dishonest decision to proceed anyway, satisfies S.496 directly, entirely independent of any bigamy-specific concern.",
+          "cite": "S.496 PPC — applying regardless of the SPECIFIC reason the ceremony fails to produce a lawful marriage, so long as the offender knew of this and proceeded dishonestly anyway."
+        },
+        {
+          "q": "Could a single fact pattern potentially satisfy both S.493A (deceitfully causing cohabitation-belief) and S.496 (fraudulent ceremony) simultaneously?",
+          "reveal": "Yes, in principle — a man who dishonestly goes through a sham marriage ceremony with a woman (satisfying S.496), and who then also deceitfully causes her to believe she is lawfully married to him and to cohabit with him on that belief (satisfying S.493A), could face liability under both provisions for what may be a single overall deceptive scheme, since the two sections address related but textually distinct elements (the ceremony itself, versus the subsequent inducement of belief and cohabitation) that could both genuinely be satisfied on the same underlying facts.",
+          "cite": "S.496 PPC and S.493A PPC — potentially overlapping liability where a single deceptive scheme satisfies both the ceremony-focused and cohabitation-inducement-focused elements."
+        },
+        {
+          "q": "Does S.496 require that the other party to the ceremony also be deceived, or could this section apply even where both parties to the ceremony knew it would not produce a lawful marriage?",
+          "reveal": "S.496's text focuses on the offender's own knowledge and dishonest/fraudulent intention in going through the ceremony — it does not explicitly require that the OTHER party be unaware or deceived. However, the dishonest or fraudulent intention element most naturally suggests some wrongful purpose typically directed at deceiving someone (whether the other party to the ceremony, or third parties who might be led to believe a lawful marriage occurred), and a scenario where both parties knowingly participate in a sham ceremony with shared, non-fraudulent understanding (and no intent to deceive any third party either) might not straightforwardly satisfy the dishonest/fraudulent intention requirement, though the precise boundary is not exhaustively addressed in the section's own brief text.",
+          "cite": "S.496 PPC — focused on the offender's own dishonest/fraudulent intention; the precise treatment of a scenario where both ceremony participants knowingly and non-fraudulently understand its invalidity is not exhaustively addressed in the text."
+        }
+      ]
+    },
+    {
+      "id": "S496A",
+      "name": "Enticing, Taking Away, or Detaining a Woman with Criminal Intent",
+      "sub": "S.496A PPC — the 2006-inserted provision addressing illicit-intercourse-motivated abduction",
+      "step": "Element 4 of 9",
+      "atom": "S496A",
+      "desc": "Whoever takes or entices away any woman with intent that she may have illicit intercourse with any person, or conceals or detains any woman with that intent, is punished with imprisonment up to 7 years plus fine.",
+      "legal": "S.496A (inserted 2006, the same reform wave as S.493A) shares significant conceptual overlap with provisions already built elsewhere in this app — particularly S.365B (Kidnapping/Abduction module, kidnapping or abduction with intent to compel marriage or illicit intercourse) and S.366A (procuration of a minor girl). The key distinguishing feature of S.496A is that it does NOT require the conduct to rise to the level of kidnapping or abduction as those terms are specifically defined in S.359–362 — 'takes or entices away,' 'conceals or detains' is a broader, less formally defined set of conduct than S.359's specific kidnapping/abduction definitions, meaning S.496A can capture conduct that might fall short of technically satisfying those more specific definitional requirements while still achieving the same illicit-intercourse-facilitating purpose.",
+      "cite": "S.496A PPC, inserted by Act VI of 2006 — official text. Cross-reference S.365B PPC and S.366A PPC (Kidnapping module) — related but textually broader/less formally defined conduct requirements, both addressing illicit-intercourse-facilitating purposes.",
+      "ll": "S.496A PPC — official text",
+      "section": "496A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A entices a woman to leave her current location, intending that she have illicit intercourse with a third person, but A's conduct does not clearly satisfy S.362's specific definition of 'abduction' (compelling by force or inducing by deceitful means) — perhaps A simply persuaded her through ordinary social pressure or incentive, without force or clear deceit. Apply S.496A. Does this conduct still fall within the section despite not clearly satisfying the more specific Abduction definition?",
+          "reveal": "Yes, potentially — S.496A's 'takes or entices away' language is broader and less formally defined than S.362's specific Abduction definition (Robbery & Dacoity module's structural neighbour, though built in the Kidnapping module). A's enticement, even through means short of clear force or deceit, could still satisfy S.496A's broader 'entices away' language with the requisite illicit-intercourse intent, without needing to separately establish that A's conduct rises to the level of formal Abduction under S.362's narrower, more technically defined test.",
+          "cite": "S.496A PPC's broader 'takes or entices away' language — potentially capturing conduct falling short of S.362 PPC's (Kidnapping module) more formally defined Abduction test, while still satisfying the illicit-intercourse-intent requirement."
+        },
+        {
+          "q": "How does S.496A's 7-year ceiling compare to S.365B's punishment (Kidnapping module, life imprisonment for kidnapping/abducting with intent to compel marriage or illicit intercourse)? What does this difference suggest about how the two provisions are calibrated relative to each other?",
+          "reveal": "S.365B's far more severe life-imprisonment ceiling applies specifically where the more demanding KIDNAPPING or ABDUCTION definitions (S.359–362) are satisfied alongside the illicit-intercourse/forced-marriage intent, while S.496A's more modest 7-year ceiling applies to the broader, less formally demanding 'takes or entices away/conceals or detains' conduct. This calibration makes structural sense: the more serious kidnapping/abduction-specific conduct (involving force, deceit, or violation of lawful guardianship) warrants S.365B's severe exposure, while the broader, potentially less coercive 'enticement' conduct captured by S.496A — while still seriously wrongful given its illicit-intercourse purpose — is calibrated to a comparatively lower, though still substantial, punishment ceiling.",
+          "cite": "S.496A PPC (7 years, broader conduct) vs S.365B PPC (life imprisonment, Kidnapping module, requiring the more specific and demanding kidnapping/abduction definitions) — a calibration reflecting the relative severity of the underlying conduct required by each provision."
+        },
+        {
+          "q": "Does S.496A require that the illicit intercourse actually occur, or that the woman actually be successfully taken/enticed/concealed/detained for any meaningful duration, or is the act combined with the requisite intent sufficient on its own?",
+          "reveal": "S.496A's text requires the act (taking, enticing, concealing, or detaining) combined with the specific intent that the woman may have illicit intercourse — consistent with the general pattern throughout this Code's intent-based offences, the offence is most naturally read as complete upon the qualifying act done with the requisite intent, without requiring proof that the illicit intercourse itself was actually accomplished, or that the taking/enticement/concealment/detention persisted for any particular minimum duration beyond what is needed to establish the act itself occurred.",
+          "cite": "S.496A PPC — the qualifying act combined with the requisite intent as the operative completion point, consistent with the general intent-based-offence-completion pattern throughout this Code, not requiring proof that the illicit intercourse was actually accomplished."
+        }
+      ]
+    },
+    {
+      "id": "S496B_C",
+      "name": "Fornication; Punishment for False Accusation of Fornication",
+      "sub": "S.496B/496C PPC — the 2017-inserted, paired offence and its false-accusation deterrent",
+      "step": "Element 5 of 9",
+      "atom": "S496B_C",
+      "desc": "S.496B: a man and woman not married to each other commit fornication if they willfully have sexual intercourse with one another — punished with imprisonment up to 5 years plus fine up to 10,000 rupees. S.496C: bringing, levelling, or giving evidence of a FALSE charge of fornication against any person is punished identically (up to 5 years, fine up to 10,000 rupees) — with a proviso allowing a court dismissing a complaint under CrPC S.203C, after giving the accused a chance to show cause, to proceed directly to sentencing under S.496C without requiring further proof, if satisfied an offence under this section has been committed.",
+      "legal": "S.496B and S.496C (both inserted 2017, decades after even the 2006 reform wave) form a deliberately paired structure: S.496B criminalises the underlying consensual conduct itself (willful sexual intercourse between unmarried persons), while S.496C creates an identically-punished DETERRENT against FALSE accusations of that same conduct — a structural safeguard recognising that accusations of this particular nature carry serious reputational and legal consequences, warranting an equally severe deterrent against fabricated charges. S.496C's proviso, referencing CrPC S.203C, creates a streamlined procedural mechanism allowing a court that has already dismissed a fornication complaint as false to proceed directly to sentencing the false accuser without requiring an entirely separate, fresh proof process — a notable procedural efficiency specific to this offence.",
+      "cite": "S.496B and S.496C PPC, both inserted by Act IV of 2017 — official text. Cross-reference CrPC S.203C (referenced in S.496C's proviso, outside this app's PPC-only scope) — honestly flagged as a cross-code procedural mechanism this module does not independently build out.",
+      "ll": "S.496B, S.496C PPC — official text",
+      "section": "496",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A and B, an unmarried man and woman, willfully engage in consensual sexual intercourse with one another. Apply S.496B. Does the fact that the conduct was fully consensual between two adults prevent liability?",
+          "reveal": "No — S.496B's text defines fornication simply as a man and woman not married to each other willfully having sexual intercourse with one another, without any exception for mutual consent between adults. Both A and B, having willfully engaged in this conduct, each independently satisfy S.496B's definition and face up to 5 years' imprisonment plus fine, regardless of the conduct being entirely consensual — the section criminalises the underlying conduct itself based on the parties' unmarried status to each other, not on any lack of consent.",
+          "cite": "S.496B PPC — criminalising willful sexual intercourse between unmarried persons regardless of mutual consent, based on marital status rather than consent."
+        },
+        {
+          "q": "C falsely accuses D of having committed fornication, fabricating the entire allegation with no basis in fact. Apply S.496C. What is C's punishment exposure, and how does it compare to the underlying S.496B fornication offence itself?",
+          "reveal": "C faces an identical punishment range to S.496B itself — up to 5 years' imprisonment plus fine up to 10,000 rupees — under S.496C's false-accusation provision. This identical-severity pairing reflects the legislature's judgment that fabricating a fornication accusation, given the serious reputational and legal consequences such an accusation carries for the falsely accused person, warrants a deterrent every bit as severe as the underlying offence the false accusation purports to allege.",
+          "cite": "S.496C PPC — identical punishment severity to the underlying S.496B offence, reflecting the serious consequences a false fornication accusation carries for the falsely accused."
+        },
+        {
+          "q": "A court is considering a fornication complaint under CrPC S.203C and dismisses it as unfounded, having given the original accused (now potentially the S.496C defendant) an opportunity to show cause. Apply S.496C's proviso. What streamlined procedure becomes available to the court at this point?",
+          "reveal": "The proviso allows the Presiding Officer, having dismissed the original complaint under CrPC S.203C and given the accused an opportunity to show cause, to proceed directly to sentencing under S.496C without requiring any further, separate proof process — provided the court is satisfied an offence under S.496C (the false accusation itself) has been committed. This is a notable procedural efficiency: rather than requiring an entirely fresh prosecution and proof process for the false-accusation charge, the same proceedings that established the original complaint was false/unfounded can flow directly into sentencing for that false accusation, so long as the accused was given a fair opportunity to respond first.",
+          "cite": "S.496C PPC's proviso — a streamlined procedural mechanism allowing direct sentencing for the false accusation within the same proceedings that dismissed the original complaint, rather than requiring a fresh proof process."
+        }
+      ]
+    },
+    {
+      "id": "S498A",
+      "name": "Prohibition of Depriving Women from Inheriting Property",
+      "sub": "S.498A PPC — the 2011-inserted, mandatory-minimum inheritance-protection provision",
+      "step": "Element 6 of 9",
+      "atom": "S498A",
+      "desc": "Whoever, by deceitful or illegal means, deprives any woman from inheriting any movable or immovable property at the time of opening of succession, is punished with imprisonment of either description up to 10 years but not less than 5 years, or fine of 1 million rupees, or both.",
+      "legal": "S.498A opens Chapter XXA (Of Offences Against Women, inserted 2011) with a genuine mandatory minimum (5 years, not merely a possible ceiling) addressing a documented, real-world social problem in Pakistan: women being systematically deprived of their lawful inheritance shares through deceit or illegal pressure at the precise moment of succession opening (typically a relative's death). This provision directly criminalises conduct that might otherwise only generate civil inheritance-dispute litigation, elevating it to a serious criminal offence with substantial mandatory exposure — reflecting the same kind of deliberate legislative intervention against a specific, documented social harm already seen in this app's Reform Arcs (honour killing, rape law) and the broader 2005/2016-era pattern of mandatory minimums protecting women specifically.",
+      "cite": "S.498A PPC, inserted by Act XXVI of 2011 — official text. Cross-reference the Theories of Punishment Evolutionary Arc element and the various 2005/2016-era mandatory minimums already traced throughout this app — S.498A as a further, 2011-dated instance of legislative intervention specifically protecting women's documented vulnerabilities.",
+      "ll": "S.498A PPC — official text",
+      "section": "498A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Following a relative's death, A (a family member positioned to benefit) uses deceitful means — perhaps forging or misrepresenting documents — to prevent Z, a woman legally entitled to a share of the deceased's estate, from receiving her lawful inheritance share. Apply S.498A. What is A's punishment exposure, and is there a discretionary floor below which a court cannot sentence?",
+          "reveal": "A faces imprisonment of either description for a term which 'may extend to ten years but shall not be less than five years' — a genuine mandatory minimum of 5 years, removing judicial discretion to sentence below that floor regardless of mitigating circumstances, alongside the alternative or additional 1 million rupee fine option. This mandatory minimum structure is consistent with the broader pattern of legislative intervention removing downward sentencing discretion specifically for offences harming women's documented vulnerabilities, already traced extensively elsewhere in this app's build.",
+          "cite": "S.498A PPC's genuine 5-year mandatory minimum — consistent with the broader pattern of legislative intervention removing downward sentencing discretion for offences specifically harming women, already traced throughout this app."
+        },
+        {
+          "q": "Does S.498A require that the deprivation be accomplished specifically through DECEIT, or could purely illegal (but non-deceptive) means, such as outright physical exclusion or intimidation without any false representation, also satisfy the section?",
+          "reveal": "S.498A's text covers deprivation 'by deceitful OR illegal means' — this disjunctive structure confirms deceit is not a required element; purely illegal means that do not involve any deceptive misrepresentation (such as physically preventing a woman from accessing her inheritance, or illegally excluding her name from succession documents through force or threat rather than deceit) would independently satisfy the section through its separate 'illegal means' limb.",
+          "cite": "S.498A PPC's disjunctive 'deceitful or illegal means' — illegal but non-deceptive deprivation methods independently sufficient, not requiring proof of deceit specifically."
+        },
+        {
+          "q": "Does S.498A require that the woman ultimately and permanently lose her inheritance entirely, or could temporary deprivation, or deprivation of only part of her lawful share, also satisfy the section?",
+          "reveal": "S.498A's text does not specify a permanence or completeness requirement — it covers deprivation 'from inheriting any movable or immovable property,' which would naturally extend to deprivation of any portion of what the woman is lawfully entitled to inherit, not only a complete and permanent deprivation of her entire inheritance. Depriving a woman of even part of her lawful share through deceitful or illegal means would likely satisfy the section, consistent with the general pattern throughout this Code where partial harm is typically treated as satisfying an offence's core requirement, with the EXTENT of the harm being more relevant to sentencing within the available range than to threshold liability itself.",
+          "cite": "S.498A PPC — no apparent permanence or completeness requirement; partial deprivation of a lawful inheritance share likely sufficient to satisfy the section's threshold requirement."
+        }
+      ]
+    },
+    {
+      "id": "S498B",
+      "name": "Prohibition of Forced Marriage",
+      "sub": "S.498B PPC — with a specific, more severe sub-tier for minors and non-Muslim women",
+      "step": "Element 7 of 9",
+      "atom": "S498B",
+      "desc": "Whoever coerces or in any manner compels a woman to enter into marriage is punished with imprisonment up to 7 years (or not less than 3 years) plus fine of 500,000 rupees. The 2017-added proviso establishes a more severe sub-tier: where the woman is a 'female child' as defined under the Child Marriage Restraint Act 1929, or a non-Muslim woman, the offender faces up to 10 years but not less than 5 years, plus fine up to 1 million rupees.",
+      "legal": "S.498B's base tier already carries a genuine mandatory minimum (3 years), but the 2017-added proviso layers a further, more severe sub-tier specifically protecting two named vulnerable categories: female children (cross-referencing the separate Child Marriage Restraint Act 1929, a statute this app has not independently built or verified) and non-Muslim women specifically. This dual-category enhancement reflects a legislative judgment that forced marriage of a minor, or forced marriage specifically targeting a non-Muslim woman (potentially implicating additional vulnerabilities related to religious-minority status), warrants the same elevated mandatory-minimum treatment (5 years, doubling the base 3-year floor) and elevated fine ceiling (doubling from 500,000 to 1 million rupees) already seen calibrated for other specifically protected categories throughout this Code.",
+      "cite": "S.498B PPC, inserted by Act XXVI of 2011, proviso added by Act IV of 2017 — official text. Cross-reference to the Child Marriage Restraint Act 1929 — honestly flagged as a separate statute this app has not independently built out or verified.",
+      "ll": "S.498B PPC — official text",
+      "section": "498B",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A coerces a woman who is an adult, Muslim woman into entering a marriage against her will. Separately, B coerces a female child (as defined under the Child Marriage Restraint Act 1929) into marriage. Apply S.498B's base tier and proviso respectively. Compare A and B's punishment exposure.",
+          "reveal": "A faces S.498B's base tier: up to 7 years but not less than 3 years, plus fine of 500,000 rupees. B faces the more severe proviso tier specifically because the victim is a female child: up to 10 years but not less than 5 years, plus fine up to 1 million rupees — both the mandatory minimum and the fine ceiling double under the proviso's enhanced protection for this specifically named vulnerable category.",
+          "cite": "S.498B PPC base tier (3-7 years, 500,000 rupees) vs the 2017 proviso's enhanced tier for female children/non-Muslim women (5-10 years, 1 million rupees) — a doubling of both the mandatory floor and fine ceiling."
+        },
+        {
+          "q": "Why might the 2017 proviso specifically single out non-Muslim women, alongside female children, for this enhanced protective tier?",
+          "reveal": "This is worth flagging as an observed legislative choice rather than a definitively explained one, since the text itself does not state the underlying rationale: religious-minority women in Pakistan may face documented additional vulnerabilities or pressures specifically related to their minority religious status in the context of forced marriage (potentially including conversion-related pressures or particular social/community dynamics), and the legislature's specific choice to name this category alongside female children suggests a recognition of some particular, documented vulnerability pattern — though this module, given its PPC-only scope, does not independently verify or elaborate on the specific social/empirical basis for this legislative choice beyond what the statutory text itself establishes.",
+          "cite": "S.498B PPC's 2017 proviso specifically naming non-Muslim women — an observed legislative choice flagged honestly without asserting an unverified social/empirical rationale beyond the statutory text itself."
+        },
+        {
+          "q": "Does S.498B require that the coercion or compulsion be physical in nature, or could other forms of pressure (social, financial, psychological) also satisfy the section's 'in any manner whatsoever compels' language?",
+          "reveal": "S.498B's text explicitly uses the broad formulation 'coerces or in any manner whatsoever compels' — the phrase 'in any manner whatsoever' is deliberately expansive, confirming the section is not confined to physical coercion specifically. Social, financial, psychological, or other non-physical forms of compulsion that genuinely compel a woman into marriage against her will would independently satisfy this broad language, consistent with the general pattern throughout this Code of using deliberately broad, non-exhaustive language wherever the legislature wants to ensure comprehensive coverage of the various methods by which a particular wrong might be accomplished.",
+          "cite": "S.498B PPC's 'in any manner whatsoever compels' language — deliberately broad, extending beyond physical coercion to social, financial, psychological, or other non-physical forms of compulsion."
+        }
+      ]
+    },
+    {
+      "id": "S498C",
+      "name": "Prohibition of Marriage with the Holy Quran",
+      "sub": "S.498C PPC — addressing a specific, documented coercive practice",
+      "step": "Element 8 of 9",
+      "atom": "S498C",
+      "desc": "Whoever compels, arranges, or facilitates the marriage of a woman with the Holy Quran is punished with imprisonment up to 7 years but not less than 3 years, plus fine of 500,000 rupees. The Explanation confirms that an oath by a woman on the Holy Quran to remain unmarried for life, or to not claim her inheritance share, is deemed to be 'marriage with the Holy Quran' for purposes of this section.",
+      "legal": "S.498C addresses a specific, documented coercive practice in certain regions and communities where women are compelled to take a religious oath (framed as a symbolic 'marriage' to the Holy Quran) specifically to prevent them from ever marrying a human spouse or claiming their lawful inheritance share — a practice historically used to keep family property concentrated within a family line by preventing women from marrying out or asserting inheritance claims. The Explanation's specific definitional work is crucial: it confirms that what might otherwise appear to be a purely voluntary religious devotional practice is, for purposes of this section, treated identically to a literal 'marriage with the Quran' wherever it specifically functions to prevent the woman from marrying or claiming inheritance — directly connecting this provision to S.498A's inheritance-deprivation concern addressed earlier in this same chapter.",
+      "cite": "S.498C PPC and its Explanation, inserted by Act XXVI of 2011 — official text. Cross-reference S.498A PPC (this same module) — the inheritance-deprivation concern this practice often specifically serves.",
+      "ll": "S.498C PPC — official text",
+      "section": "498C",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A family compels a woman to take an oath on the Holy Quran specifically to remain unmarried for the rest of her life, with the underlying purpose of preventing her from ever claiming her share of family inheritance through marriage to an outsider. Apply S.498C's Explanation. Does this oath-based practice fall within the section's prohibition, even though no literal 'marriage ceremony' with the Quran itself took place?",
+          "reveal": "Yes — this is precisely what the Explanation addresses directly: 'oath by a woman on Holy Quran to remain unmarried for the rest of her life or, not to claim her share of inheritance shall be deemed to be marriage with the Holy Quran.' The Explanation's deeming provision ensures this specific coercive practice — which might otherwise be characterised merely as a religious devotional oath rather than a literal 'marriage' — is treated identically to marriage with the Quran for purposes of this section's prohibition and punishment.",
+          "cite": "S.498C PPC's Explanation — deeming a compelled lifetime-unmarried or inheritance-renunciation oath on the Holy Quran to constitute 'marriage with the Holy Quran' for purposes of this section."
+        },
+        {
+          "q": "How does S.498C connect conceptually to S.498A's inheritance-deprivation provision, given the Explanation's specific reference to oaths renouncing inheritance claims?",
+          "reveal": "S.498C and S.498A address closely related underlying harms through different specific mechanisms: S.498A directly criminalises deceitful or illegal deprivation of a woman's inheritance, while S.498C specifically targets one particular, documented coercive METHOD sometimes used to achieve that same inheritance-deprivation outcome — compelling a woman into a religiously-framed oath that functions to prevent her ever claiming her share. A single underlying scheme to deprive a woman of inheritance through compelled Quran-oath could potentially trigger liability under both provisions, since they address overlapping but textually distinct conduct (the general deprivation itself under S.498A, and this specific coercive religious-oath method under S.498C).",
+          "cite": "S.498C PPC and S.498A PPC — addressing overlapping inheritance-deprivation harms through different specific mechanisms, potentially both triggered by a single underlying coercive scheme."
+        },
+        {
+          "q": "Does S.498C require proof that the woman's oath was genuinely coerced, or could a woman's freely and voluntarily chosen religious devotion (genuinely wishing to remain unmarried for sincere religious reasons, with no family pressure involved at all) also fall within the section's prohibition?",
+          "reveal": "S.498C's text requires that someone 'compels or arranges or facilitates' the marriage/oath — the section is concerned with externally imposed compulsion, arrangement, or facilitation by another person, not with a woman's own genuinely free and voluntary religious choice made entirely independently and without any compelling, arranging, or facilitating conduct by anyone else. A woman's sincere, freely-chosen religious devotion, with no other person compelling, arranging, or facilitating it for the kind of inheritance/marriage-prevention purpose this section addresses, would not naturally fall within this section's prohibition, which specifically targets the wrongful conduct of those who impose this practice on a woman against her genuine will.",
+          "cite": "S.498C PPC — targeting the compelling/arranging/facilitating conduct of others, not a woman's own genuinely free and voluntary religious choice made without external compulsion."
+        }
+      ]
+    }
+  ]
+}

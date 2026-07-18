@@ -1,0 +1,186 @@
+{
+  "id": "stateoff",
+  "name": "Offences Against the State",
+  "section": "S.121–130 PPC",
+  "formula": "Waging War → Preparation → Speech-Based Offences → Allied-Power Extension → Custodial Liability",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S121_121A",
+      "name": "Waging War Against Pakistan, and Conspiracy to Wage It",
+      "sub": "S.121/121A PPC — the most severely punished offence in this entire Code",
+      "step": "Element 1 of 6",
+      "atom": "S121_121A",
+      "desc": "S.121: whoever wages war against Pakistan, attempts to wage such war, or abets the waging of such war, shall be punished with death or imprisonment for life, plus liability to fine. The Illustration confirms joining an insurrection against Pakistan satisfies the section. S.121A: conspiring (within or without Pakistan) to commit any S.121 offence, or to deprive Pakistan of sovereignty over its territories, or to overawe the Federal Government by criminal force, is independently punishable.",
+      "legal": "S.121's punishment — death OR life imprisonment, with NO lesser tier available at all — places it among the most severely punished provisions in the entire PPC, reflecting that waging war against the state is treated as the gravest possible wrong a person can commit, on par with or exceeding even Qatl-i-Amd's severity. The complete absence of any intermediate punishment option (no 'or up to X years' fallback) is itself significant — unlike virtually every other offence in this Code, the legislature gives courts no room to calibrate down for lesser degrees of participation; even ATTEMPTING or ABETTING the waging of war carries the identical death-or-life exposure as actually waging it. S.121A then extends liability backward to mere CONSPIRACY — confirming the same inchoate-liability theory already discussed in the Rabbit Hole module's Essay 5, here applied to the most serious offence category in the Code.",
+      "cite": "S.121 PPC and its Illustration, S.121A PPC — official text. Cross-reference the Rabbit Hole module, Essay 5 (inchoate liability theory) — S.121A's conspiracy-to-wage-war provision as a further instance of the same common-law harm-prevention reasoning.",
+      "ll": "S.121, S.121A PPC — official text",
+      "section": "121",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "S.124A Sedition's three Explanations are the most practically significant boundary-drawing mechanism in this chapter — see also S.499 PPC (Defamation module) and S.153A PPC (Criminal Intimidation/Insult module) for the same recurring good-faith-carve-out architecture. No verified Pakistani landmark case is logged against S.121-130 specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A joins an armed insurrection against the Pakistani state, participating in a comparatively minor support role rather than a leadership position. Apply S.121's own Illustration.",
+          "reveal": "A has committed the offence defined in S.121 — the Code's own Illustration confirms 'A joins an insurrection against Pakistan. A has committed the offence defined in this section,' with no qualification for the degree or seniority of A's participation. Joining itself is sufficient.",
+          "cite": "S.121 PPC's own Illustration — mere joining of an insurrection satisfies the section, regardless of the seniority or scale of the participant's role."
+        },
+        {
+          "q": "B, located entirely outside Pakistan, conspires with others to overawe the Federal Government by threatened criminal force, without ever personally waging war or entering Pakistani territory. Apply S.121A.",
+          "reveal": "B is independently liable under S.121A, which explicitly applies 'within or without Pakistan' — B's physical location outside the country does not place the conspiracy beyond the section's reach, and conspiring to overawe the Federal Government by criminal force is itself one of S.121A's named triggers, entirely separate from actually waging war.",
+          "cite": "S.121A PPC's extraterritorial reach and its independent overawing-by-criminal-force trigger — conspiracy liability without requiring actual war or Pakistani presence."
+        },
+        {
+          "q": "Why might the legislature have given courts no intermediate punishment option for S.121, unlike almost every other offence in the Code which offers a range?",
+          "reveal": "This reflects a deliberate legislative judgment that waging war against the state represents a categorically distinct, maximal threat to the state's existence itself, not merely a serious harm to be calibrated by degree — the binary death-or-life structure signals that any successful or attempted act of war against the state is treated as equally grave regardless of its particular circumstances, a structural choice setting S.121 apart from the graduated severity ladders seen throughout virtually every other chapter already built in this app.",
+          "cite": "S.121 PPC's binary death-or-life structure — a deliberate departure from this Code's otherwise near-universal graduated-severity pattern, reflecting the categorically maximal threat the offence represents."
+        }
+      ]
+    },
+    {
+      "id": "S122_123",
+      "name": "Collecting Arms to Wage War; Concealing a Design to Wage War",
+      "sub": "S.122/123 PPC — preparatory and concealment liability",
+      "step": "Element 2 of 6",
+      "atom": "S122_123",
+      "desc": "S.122: collecting men, arms, or ammunition, or otherwise preparing to wage war, with intent to wage or be prepared to wage war against Pakistan — life imprisonment or up to 10 years, plus fine. S.123: by act or illegal omission, concealing the existence of a design to wage war, intending or knowing it likely to facilitate that war — up to 10 years, fine.",
+      "legal": "S.122 extends liability to the PREPARATORY stage — mere collection of resources with the requisite intent, well short of actually waging war, already attracts severe punishment, mirroring the same preparatory-instrument pattern already seen extensively throughout this app (S.485 Trade Marks, S.489D Currency Notes). S.123's concealment offence is structurally distinct: it does not require the concealer to be involved in the war-design itself, only to conceal its existence with the requisite intent or knowledge — an omission-based offence (S.43's 'illegal omission' concept, already built in General Explanations Deep Dive) applied to the gravest possible context.",
+      "cite": "S.122, S.123 PPC — official text. Cross-reference S.485 PPC (Trade Marks module), S.489D PPC (Currency Notes module) — the recurring preparatory-instrument liability pattern; S.43 PPC (General Explanations Deep Dive) — the illegal-omission concept underlying S.123.",
+      "ll": "S.122, S.123 PPC — official text",
+      "section": "122",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A collects weapons and recruits assistance, intending to be prepared to wage war against Pakistan if circumstances develop favourably, but no actual war or attempt occurs. Apply S.122.",
+          "reveal": "A is liable under S.122, which explicitly covers preparing to wage war with intent EITHER to wage it OR merely to be prepared to wage it — actual commencement of war or even a specific attempt is not required; the preparatory collection itself, done with the requisite forward-looking intent, completes the offence.",
+          "cite": "S.122 PPC's disjunctive intent structure — covering both intent to actually wage war and mere intent to be prepared to, without requiring war to actually commence."
+        },
+        {
+          "q": "B, aware that others are designing to wage war against Pakistan but not personally involved in that design, deliberately says nothing to authorities, intending this silence to help the design succeed. Apply S.123.",
+          "reveal": "B is liable under S.123 — concealing the existence of a design to wage war, even by omission (deliberate silence) rather than affirmative action, satisfies the section provided B intended or knew it likely the concealment would facilitate the war. B's own non-involvement in the underlying design is irrelevant; the concealment itself is the offence.",
+          "cite": "S.123 PPC — concealment by omission satisfies the section independently of the concealer's own involvement in the underlying war-design."
+        }
+      ]
+    },
+    {
+      "id": "S123A_123B",
+      "name": "Condemning the Creation of the State; Defiling the National Flag",
+      "sub": "S.123A/123B PPC — 1950 and 1984 insertions protecting state legitimacy and national symbols",
+      "step": "Element 3 of 6",
+      "atom": "S123A_123B",
+      "desc": "S.123A: within or without Pakistan, with intent to influence (or knowing it likely to influence) any person or section of the public in a manner prejudicial to Pakistan's safety/ideology, or to endanger its sovereignty over its territories, condemning the creation of Pakistan via the 1947 partition, or advocating curtailment/abolition of its sovereignty (whether by amalgamation with neighbouring states or otherwise) — up to 10 years rigorous imprisonment, plus fine. Subsection (2) allows a court to make protective orders regarding the accused's movements/associations/communications pending case resolution. S.123B: deliberately defiling or setting fire to the National Flag, or unauthorisedly removing it from government property — up to 3 years, fine, or both.",
+      "legal": "S.123A (inserted 1950) is genuinely distinctive within the Code — it criminalises a specific category of SPEECH (condemning the state's founding, or advocating sovereignty curtailment) rather than physical conduct, extraterritorially, conditioned on intent or known likelihood to influence public opinion in a manner prejudicial to state safety/ideology or sovereignty. Subsection (2)'s mid-proceeding protective-order power is itself unusual — allowing courts to restrict an accused's movements and communications before any conviction, reflecting the legislature's view of the unique ongoing risk this specific offence category poses while a case is pending. S.123B (inserted 1984) is narrower and more concrete — protecting the physical National Flag specifically, a symbolic-property offence with no speech component at all.",
+      "cite": "S.123A PPC (inserted 1950) and S.123B PPC (inserted 1984) — official text.",
+      "ll": "S.123A, S.123B PPC — official text",
+      "section": "123",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, while physically located outside Pakistan, publishes written material advocating that certain Pakistani territories be amalgamated with a neighbouring state, intending this to influence public opinion in a manner endangering Pakistan's sovereignty over those territories. Apply S.123A.",
+          "reveal": "A is liable under S.123A — the section explicitly applies 'within or without Pakistan,' and advocating curtailment of Pakistan's sovereignty over its territories 'whether by amalgamation with the territories of neighbouring States or otherwise' is expressly named as a triggering act, provided the requisite intent or known-likelihood-of-influence element is also satisfied.",
+          "cite": "S.123A PPC's extraterritorial reach and explicit naming of sovereignty-curtailment-by-amalgamation as a triggering act."
+        },
+        {
+          "q": "While B's S.123A case is still pending trial, the court makes an order restricting B's communications with certain other individuals. Apply S.123A subsection (2). Does this require B to have already been convicted?",
+          "reveal": "No — subsection (2) explicitly authorises such orders 'until such time as the case is finally decided,' meaning the protective order power operates DURING the pending proceedings, before any conviction, reflecting the legislature's judgment that this specific offence category (influence operations affecting state safety/sovereignty) poses an ongoing risk during litigation itself, distinct from the punishment imposed only upon conviction.",
+          "cite": "S.123A PPC subsection (2) — protective orders available during pending proceedings, prior to and independent of any conviction."
+        },
+        {
+          "q": "C deliberately sets fire to the National Flag displayed on a government building. Apply S.123B. How does this offence differ structurally from S.123A?",
+          "reveal": "S.123B is a narrower, purely conduct-based offence protecting the physical Flag itself — no speech, intent-to-influence-public-opinion, or sovereignty-endangerment element is required at all; deliberately defiling, burning, or unauthorisedly removing the Flag from government property is itself sufficient, a structurally simpler and more concrete offence than S.123A's speech-and-intent-laden provision.",
+          "cite": "S.123B PPC — a purely conduct-based, symbolic-property offence, structurally simpler than S.123A's speech-and-influence-based provision."
+        }
+      ]
+    },
+    {
+      "id": "S124_124A",
+      "name": "Assaulting the President or Governor; Sedition",
+      "sub": "S.124/124A PPC — protecting the head of state's lawful authority, and the most contested provision in this chapter",
+      "step": "Element 4 of 6",
+      "atom": "S124_124A",
+      "desc": "S.124: with intent to induce or compel the President or a Governor to exercise or refrain from exercising any lawful power, assaulting, wrongfully restraining, or overawing (by criminal force or show of criminal force) the President or Governor — up to 7 years, fine. S.124A (Sedition): by words spoken/written, signs, or visible representation, bringing or attempting to bring into hatred or contempt, or exciting or attempting to excite disaffection towards, the Federal or Provincial Government established by law — life imprisonment (to which fine may be added), or up to 3 years (to which fine may be added), or fine alone. Three Explanations: 'disaffection' includes disloyalty and all feelings of enmity (Explanation 1); good-faith criticism of government measures seeking lawful alteration, without exciting hatred/contempt/disaffection, is NOT an offence (Explanation 2); good-faith criticism of administrative/other government action, without exciting hatred/contempt/disaffection, is NOT an offence (Explanation 3).",
+      "legal": "S.124A is genuinely the most contested provision in this entire chapter, and its three Explanations exist precisely to police the boundary between criminal sedition and protected political criticism — the dividing line is not WHETHER criticism occurred, but whether it crossed into exciting 'hatred, contempt, or disaffection' as opposed to good-faith advocacy for lawful change (Explanation 2) or good-faith criticism of specific administrative actions (Explanation 3). This mirrors the same good-faith-carve-out architecture already seen in Defamation's S.499 exceptions and the Criminal Intimidation/Insult module's S.153A Explanation — a recurring drafting pattern wherever the Code criminalises a category of speech, ensuring legitimate criticism remains distinguishable from the prohibited conduct. The practical, frequently-litigated difficulty is that 'exciting disaffection' versus 'good-faith criticism seeking lawful alteration' is inherently a matter of characterisation and degree, making this section's actual boundary the subject of ongoing legal and political debate.",
+      "cite": "S.124, S.124A PPC and its three Explanations — official text. Cross-reference S.499 PPC Exceptions (Defamation module) and S.153A PPC Explanation (Criminal Intimidation/Insult module, already built) — the same good-faith-carve-out architecture recurring across multiple speech-restricting provisions in this Code.",
+      "ll": "S.124, S.124A PPC and Explanations — official text",
+      "section": "124",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A publishes a sharply critical article arguing that a specific government policy is misguided and should be repealed through the ordinary legislative process, without any language inciting hatred or disloyalty toward the government as an institution. Apply S.124A's Explanation 2.",
+          "reveal": "A's article likely falls within Explanation 2's protection — comments expressing disapprobation of government measures, with a view to obtaining their alteration by LAWFUL means, without exciting or attempting to excite hatred, contempt, or disaffection, do not constitute sedition. The critical distinction is between advocating lawful change to a specific policy (protected) and exciting hatred/disloyalty toward the government as such (prohibited).",
+          "cite": "S.124A PPC Explanation 2 — good-faith advocacy for lawful policy change is expressly excluded from sedition, distinguishing it from incitement of hatred or disloyalty."
+        },
+        {
+          "q": "B, with intent to compel the President to refrain from exercising a specific lawful power, uses criminal force against the President. Apply S.124.",
+          "reveal": "B is liable under S.124 — the section requires the specific intent to induce or compel the exercise (or non-exercise) of lawful presidential power, combined with assault, wrongful restraint, or overawing by criminal force; B's conduct, aimed at compelling the President to refrain from a specific lawful act, satisfies this structure directly.",
+          "cite": "S.124 PPC — assault or overawing combined with the specific intent to compel exercise or non-exercise of lawful presidential/gubernatorial power."
+        },
+        {
+          "q": "Why might S.124A's three Explanations be considered the single most practically important part of the entire section, more so than the prohibition itself?",
+          "reveal": "Because the prohibition's core terms — 'hatred,' 'contempt,' 'disaffection' — are inherently broad and could, without careful boundary-drawing, sweep in ordinary, legitimate political criticism and journalism. The three Explanations do the actual work of distinguishing protected speech (good-faith criticism seeking lawful change, good-faith criticism of specific administrative actions) from prohibited incitement, making them the practical battleground in any genuine sedition dispute — a defendant's case typically turns not on whether the words were critical, but on whether they fall within or outside the Explanations' protection.",
+          "cite": "S.124A PPC's three Explanations — functioning as the practical boundary-drawing mechanism between protected political criticism and prohibited incitement, often the actual contested issue in sedition litigation."
+        }
+      ]
+    },
+    {
+      "id": "S125_127",
+      "name": "Waging War Against an Allied Power; Depredation; Receiving War Property",
+      "sub": "S.125/126/127 PPC — extending state-protection logic to Pakistan's allies",
+      "step": "Element 5 of 6",
+      "atom": "S125_127",
+      "desc": "S.125: waging war (or attempting/abetting it) against a Power in alliance or at peace with Pakistan — life imprisonment (fine may be added), or up to 7 years (fine may be added), or fine alone. S.126: committing or preparing to commit depredation on the territories of a Power in alliance/peace with Pakistan — up to 7 years, fine, plus forfeiture of property used in or acquired by the depredation. S.127: knowingly receiving property taken through the S.125/126 offences — up to 7 years, fine, plus forfeiture of the received property.",
+      "legal": "These three sections extend the same war-protection logic outward to Pakistan's diplomatic relationships — recognising that an act of war or depredation against an allied power, conducted from or connected to Pakistan, threatens Pakistan's own international position and treaty relationships, not merely the allied power's interests directly. S.127's downstream receiving-liability mirrors the same structure already seen in Receiving Stolen Property (S.411-414, already built) and Currency Notes' S.489B — knowingly receiving property derived from the underlying offence is independently punished, extending liability along the property's chain of custody.",
+      "cite": "S.125, S.126, S.127 PPC — official text. Cross-reference S.411-414 PPC (Receiving Stolen Property module) and S.489B PPC (Currency Notes module) — the recurring downstream-receiving-liability pattern.",
+      "ll": "S.125, S.126, S.127 PPC — official text",
+      "section": "125",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A wages war against a foreign power that is formally allied with Pakistan. Compare A's punishment exposure under S.125 to the exposure for waging war against Pakistan itself under S.121.",
+          "reveal": "S.125's maximum (life imprisonment) matches S.121's upper end, but S.125 also offers two LOWER alternative tiers (up to 7 years, or fine alone) that S.121 does not — S.121's structure is binary (death or life, nothing less), while S.125 offers graduated discretion. This reflects a calibrated distinction: waging war against an ally is treated as serious as waging war against Pakistan itself at the top end, but with more room for lesser punishment than S.121 allows.",
+          "cite": "S.125 PPC's graduated tiers vs S.121 PPC's binary death-or-life structure — a calibrated distinction in available judicial discretion despite the shared upper-end severity."
+        },
+        {
+          "q": "B knowingly receives property that was taken during a depredation against an allied power's territory, committed by someone else. Apply S.127.",
+          "reveal": "B is independently liable under S.127, which punishes knowing receipt of property taken in the commission of the S.125/126 offences, with forfeiture of the received property — mirroring the same downstream-receiving liability structure already confirmed in Receiving Stolen Property and Currency Notes, extending accountability along the chain of who benefits from the underlying offence.",
+          "cite": "S.127 PPC — knowing-receipt liability extending accountability along the property chain, the same structural pattern already confirmed in Receiving Stolen Property and Currency Notes modules."
+        }
+      ]
+    },
+    {
+      "id": "S128_130",
+      "name": "Public Servant Allowing a State Prisoner to Escape; Aiding or Harbouring Such a Prisoner",
+      "sub": "S.128/129/130 PPC — voluntary vs negligent escape-allowance, and third-party assistance",
+      "step": "Element 6 of 6",
+      "atom": "S128_130",
+      "desc": "S.128: a public servant having custody of a State prisoner or prisoner of war who VOLUNTARILY allows escape — life imprisonment, or up to 10 years, plus fine. S.129: the same custodian who NEGLIGENTLY suffers such escape — simple imprisonment up to 3 years, plus fine. S.130: knowingly aiding/assisting escape, rescuing, harbouring/concealing an escaped prisoner, or resisting recapture — life imprisonment, or up to 10 years, plus fine. The Explanation confirms a prisoner permitted to be at large on parole within certain limits is deemed to have 'escaped' if they go beyond those limits.",
+      "legal": "S.128 versus S.129 is a clean, deliberate mens rea contrast: identical underlying conduct (a custodian's prisoner escapes) produces dramatically different exposure depending on whether the custodian acted VOLUNTARILY (intentionally facilitating escape, S.128's severe life-imprisonment-or-10-year tier) or merely NEGLIGENTLY (failing to prevent escape through carelessness, S.129's much lighter simple-imprisonment-up-to-3-years tier) — the same voluntariness distinction already built into S.39's General Explanations Deep Dive treatment, here producing one of the starkest punishment differentials in the Code based purely on mental state rather than outcome. S.130 extends liability to third parties entirely outside the custodial relationship, matching S.128's severity for knowing assistance, rescue, or harbouring.",
+      "cite": "S.128, S.129, S.130 PPC and Explanation — official text. Cross-reference S.39 PPC (General Explanations Deep Dive) — the voluntariness distinction underlying S.128's severe tier versus S.129's negligence-based lighter tier.",
+      "ll": "S.128, S.129, S.130 PPC — official text",
+      "section": "128",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A public servant deliberately, intentionally allows a State prisoner to escape, fully aware of and intending the consequence. Compare this to a different public servant whose carelessness (failing to properly secure a door) allows a different prisoner to escape without any intention of that outcome. Apply S.128 and S.129 respectively.",
+          "reveal": "The first public servant faces S.128's severe tier — life imprisonment or up to 10 years — for voluntary, intentional facilitation of escape. The second faces S.129's far lighter tier — simple imprisonment up to 3 years — for the same outcome (a prisoner escaping) produced merely negligently rather than intentionally. This stark differential, despite identical outcomes, reflects the same voluntariness-based mental-state distinction already built into S.39's General Explanations treatment.",
+          "cite": "S.128 PPC vs S.129 PPC — identical outcome (prisoner escape) producing dramatically different punishment based purely on voluntary intent versus mere negligence, mirroring S.39 PPC's voluntariness distinction."
+        },
+        {
+          "q": "A State prisoner is permitted parole within specified geographic limits, then deliberately travels beyond those limits. Apply the Explanation to S.128-130. Has this prisoner 'escaped'?",
+          "reveal": "Yes — the Explanation specifically confirms a prisoner permitted to be at large on parole within certain limits 'is said to escape from lawful custody if he goes beyond the limits within which he is allowed to be at large.' Anyone with custodial responsibility who voluntarily allows this boundary-violation, or any third party who knowingly assists it, falls within S.128/130's framework just as if the prisoner had escaped from physical confinement directly.",
+          "cite": "S.128-130 PPC Explanation — parole-boundary violation constitutes 'escape' for purposes of this entire cluster of provisions, equivalent to escape from physical confinement."
+        },
+        {
+          "q": "B knowingly harbours a State prisoner who has already escaped, with no involvement in the original escape itself. Apply S.130.",
+          "reveal": "B is independently liable under S.130, which explicitly covers harbouring or concealing 'any such prisoner who has escaped from lawful custody' as one of several distinct triggering acts (alongside aiding escape, rescuing, and resisting recapture) — B's lack of involvement in the original escape does not matter, since harbouring after the fact is itself independently sufficient.",
+          "cite": "S.130 PPC — harbouring an already-escaped prisoner independently triggers liability, regardless of the harbourer's non-involvement in the original escape."
+        }
+      ]
+    }
+  ]
+}

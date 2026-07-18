@@ -1,0 +1,181 @@
+{
+  "id": "armyoff",
+  "name": "Offences Relating to the Army, Navy and Air Force",
+  "section": "S.131–140 PPC",
+  "formula": "Abetment → Completion Escalation → Negligence vs Intent Calibration",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S131_132",
+      "name": "Abetting Mutiny; Abetment of Mutiny Where Mutiny Actually Occurs",
+      "sub": "S.131/132 PPC — attempt-vs-completion escalation for military mutiny",
+      "step": "Element 1 of 6",
+      "atom": "S131_132",
+      "desc": "S.131: abetting the committing of mutiny by an officer, soldier, sailor, or airman in the armed forces, or attempting to seduce such a person from their allegiance or duty — life imprisonment, or up to 10 years, plus fine. The Explanation confirms these terms include any person subject to the Pakistan Army Act 1952, Pakistan Navy Ordinance 1961, or Pakistan Air Force Act 1953. S.132: the same abetment of mutiny, WHERE mutiny is actually committed in consequence — death, life imprisonment, or up to 10 years, plus fine.",
+      "legal": "S.131 and S.132 form a clean attempt-versus-completion pair: identical underlying conduct (abetting mutiny) carries identical punishment EXCEPT for the addition of death as an available sentence once the abetted mutiny actually occurs — S.132's ceiling adds death precisely where the abetment succeeded in its object. This mirrors the same attempt-vs-completion escalation logic already seen throughout the abetment-based provisions in this Code (Abetment module's S.109, and Chapter VI's S.121/121A waging-war structure), confirming that successful incitement of the gravest military wrong (mutiny actually breaking out) is treated as warranting the Code's most severe available sentence.",
+      "cite": "S.131 PPC and its Explanation, S.132 PPC — official text. Cross-reference S.109 PPC (Abetment module) — the recurring attempt-vs-completion punishment escalation pattern for abetment offences.",
+      "ll": "S.131, S.132 PPC and Explanation — official text",
+      "section": "131",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.131-140 specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A abets the committing of mutiny by a soldier, attempting to seduce them from their duty, but the mutiny never actually occurs. Apply S.131.",
+          "reveal": "A faces life imprisonment or up to 10 years, plus fine, under S.131 — the abetment itself, regardless of whether mutiny actually results, is sufficient for this severe tier.",
+          "cite": "S.131 PPC — abetment alone, without requiring the mutiny to actually occur, attracts this severe tier."
+        },
+        {
+          "q": "B engages in identical abetment conduct, but in B's case the soldier actually does mutiny as a direct consequence. Apply S.132. How does B's exposure differ from A's?",
+          "reveal": "B faces the same life imprisonment/10-year range as A, but with DEATH now also available as a sentencing option — S.132's text adds 'death or' to the identical underlying punishment structure, specifically because the abetment succeeded in actually producing the mutiny.",
+          "cite": "S.132 PPC — adding death as an available sentence specifically where the abetted mutiny was actually committed, otherwise identical to S.131's range."
+        },
+        {
+          "q": "Does S.131's Explanation extend coverage beyond formally commissioned military personnel?",
+          "reveal": "Yes — the Explanation confirms the terms 'officer,' 'soldier,' 'sailor,' or 'airman' include any person subject to the Pakistan Army Act 1952, Pakistan Navy Ordinance 1961, or Pakistan Air Force Act 1953, ensuring the section's protective scope tracks the actual statutory definition of who falls under military discipline, not merely a narrower colloquial understanding of these terms.",
+          "cite": "S.131 PPC Explanation — extending coverage to anyone subject to the relevant Pakistan armed forces statutes, not merely formally commissioned personnel."
+        }
+      ]
+    },
+    {
+      "id": "S133_134",
+      "name": "Abetting Assault on a Superior Officer — Attempt and Completion",
+      "sub": "S.133/134 PPC — the same attempt-completion structure applied to assault rather than mutiny",
+      "step": "Element 2 of 6",
+      "atom": "S133_134",
+      "desc": "S.133: abetting an assault by an officer, soldier, sailor, or airman on a superior officer in the execution of their office — up to 3 years, fine. S.134: the same abetment, where the assault is actually committed in consequence — up to 7 years, fine.",
+      "legal": "The same attempt-versus-completion structure as S.131/132 recurs here, scaled down to assault on a superior officer rather than mutiny — but notably, S.133/134's punishment ceilings (3 and 7 years respectively) are far more modest than S.131/132's life-imprisonment-range, reflecting the comparative severity gap between assaulting a superior officer and mutiny against the armed forces' command structure as a whole. The trial-court allocation is also genuinely distinct: S.133 (mere abetment) is triable by a Magistrate of First Class, while S.134 (completed assault) escalates to Court of Session — confirming that completion of the abetted act elevates not just the punishment range but also which court has jurisdiction to try the matter.",
+      "cite": "S.133, S.134 PPC — official text.",
+      "ll": "S.133, S.134 PPC — official text",
+      "section": "133",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Compare the punishment ceilings of S.131/132 (mutiny abetment) to S.133/134 (assault-on-superior abetment). Why might mutiny abetment carry such a dramatically higher ceiling?",
+          "reveal": "Mutiny threatens the armed forces' command structure and discipline as a whole — a systemic threat — while assault on a superior officer, though serious, is a more individualised wrong against a single person's authority. This calibration mirrors the broader pattern already seen throughout this Code, where systemic threats to institutional order (mutiny, waging war) consistently attract far higher ceilings than individualised wrongs (assault), even within the same general subject-matter chapter.",
+          "cite": "S.131/132 PPC vs S.133/134 PPC — calibrated severity gap reflecting systemic institutional threat versus individualised wrong, both within Chapter VII."
+        },
+        {
+          "q": "A abets an assault on a superior officer that is never actually carried out. B engages in identical abetment, but the assault is actually committed. Which court tries each case?",
+          "reveal": "A's case (S.133, mere abetment) is triable by a Magistrate of First Class. B's case (S.134, completed assault) escalates to the Court of Session — confirming that completion of the abetted act elevates not just the punishment ceiling but the trial court's seniority as well.",
+          "cite": "S.133 PPC vs S.134 PPC — trial-court allocation escalating from Magistrate of First Class to Court of Session upon the abetted act's completion."
+        }
+      ]
+    },
+    {
+      "id": "S135_136",
+      "name": "Abetment of Desertion; Harbouring a Deserter",
+      "sub": "S.135/136 PPC — inducing desertion and sheltering those who have deserted",
+      "step": "Element 3 of 6",
+      "atom": "S135_136",
+      "desc": "S.135: abetting the desertion of an officer, soldier, sailor, or airman — up to 2 years, fine, or both. S.136: knowingly or having reason to believe a person has deserted, harbouring such officer, soldier, sailor, or airman — up to 2 years, fine, or both. The Exception to S.136: this provision does not extend to a wife harbouring her husband.",
+      "legal": "S.135 and S.136 address two distinct stages of the same underlying wrong — inducing the desertion in the first place (S.135) versus sheltering someone who has already deserted (S.136) — sharing an identical punishment ceiling despite addressing conceptually different conduct. S.136's spousal exception is a genuinely notable carve-out, recognising that the marital relationship's expected loyalty and the practical reality of cohabitation make criminalising a wife's harbouring of her own deserting husband an unreasonable extension of the offence, even though the same conduct by anyone else would be criminal.",
+      "cite": "S.135 PPC, S.136 PPC and its Exception — official text.",
+      "ll": "S.135, S.136 PPC and Exception — official text",
+      "section": "135",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A's husband has deserted from the armed forces. A, aware of this, allows him to stay in their shared home. Apply S.136's Exception.",
+          "reveal": "A is not liable under S.136 — the Exception expressly states 'this provision does not extend to the case in which the harbour is given by a wife to her husband.' A's spousal relationship to the deserter places her conduct outside the section's reach entirely, regardless of her knowledge of his desertion.",
+          "cite": "S.136 PPC Exception — spousal harbouring of a deserting husband expressly excluded from the offence."
+        },
+        {
+          "q": "B, a friend (not a spouse) of the same deserter, knowingly allows him to stay in B's home. Apply S.136.",
+          "reveal": "B is liable under S.136 — the Exception is narrowly confined to a wife harbouring her husband specifically; no equivalent exception exists for friends, other family members, or any other relationship. B's knowing harbouring of the deserter satisfies the section directly.",
+          "cite": "S.136 PPC — the spousal Exception's narrow scope, not extending to non-spousal relationships even where comparable personal closeness exists."
+        },
+        {
+          "q": "Does S.135 require that the desertion actually succeed, or is abetting an attempted desertion sufficient?",
+          "reveal": "S.135's text covers 'abets the desertion' without requiring proof the desertion actually succeeded — consistent with the general abetment-liability pattern already established throughout this Code (Abetment module), the abetment itself, done with the requisite intent, is independently sufficient regardless of whether the underlying desertion was actually completed.",
+          "cite": "S.135 PPC — abetment of desertion sufficient on its own terms, consistent with the general abetment-liability pattern requiring no proof the underlying act succeeded."
+        }
+      ]
+    },
+    {
+      "id": "S137",
+      "name": "Deserter Concealed on Board a Merchant Vessel Through the Master's Negligence",
+      "sub": "S.137 PPC — the sole non-cognizable, summons-only provision in this entire chapter",
+      "step": "Element 4 of 6",
+      "atom": "S137",
+      "desc": "S.137: the master or person in charge of a merchant vessel, on board which a deserter from the armed forces is concealed, is liable to a penalty not exceeding 1,500 rupees (figure updated by 2002 amendment), if they might have known of the concealment but for some neglect of duty as master, or some want of discipline aboard the vessel.",
+      "legal": "S.137 is genuinely distinctive within this chapter: Schedule II confirms it as the ONLY provision requiring BOTH 'shall not arrest without warrant' (non-cognizable) AND summons-only process — every other section in this entire cluster requires at minimum a warrant, and most are fully cognizable. This reflects the section's underlying nature: it punishes pure NEGLIGENCE (the master 'might have known... but for some neglect'), not knowing or intentional facilitation of desertion — the master is liable for a failure of duty/discipline, not for actually concealing the deserter themselves, which is precisely why this provision sits at the lightest-touch end of the entire chapter's procedural spectrum.",
+      "cite": "S.137 PPC — official text, fine figure updated by Ordinance 86 of 2002.",
+      "ll": "S.137 PPC — official text",
+      "section": "137",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A deserter conceals themselves aboard a merchant vessel without the master's knowledge, but a reasonably attentive master, properly maintaining discipline aboard the vessel, would likely have discovered the concealment. Apply S.137.",
+          "reveal": "The master is liable to a penalty (fine) up to the statutory maximum, since S.137's liability is triggered by what the master 'might have known... but for some neglect of his duty... or some want of discipline on board' — actual knowledge of the concealment is not required; negligent failure to discover it, through inattention to duty or shipboard discipline, is sufficient.",
+          "cite": "S.137 PPC — negligence-based liability, not requiring actual knowledge of the deserter's concealment."
+        },
+        {
+          "q": "Why is S.137 the only provision in this entire chapter requiring both non-cognizable status and summons-only process, when most surrounding sections are fully cognizable with warrant required?",
+          "reveal": "This reflects S.137's genuinely distinct nature as a pure negligence-based, fine-only offence rather than an intentional facilitation offence — the master is not accused of deliberately helping a deserter, only of a failure of duty/discipline that allowed an undetected concealment. This is calibrated as the lightest-touch procedural treatment in the entire chapter, consistent with it being the only negligence-based (rather than intent-based) provision among S.131-140.",
+          "cite": "S.137 PPC's uniquely light procedural treatment (non-cognizable, summons-only) — reflecting its status as the chapter's sole negligence-based, rather than intent-based, offence."
+        },
+        {
+          "q": "Does S.137 apply to a master who deliberately, knowingly concealed a deserter aboard their vessel?",
+          "reveal": "Not directly — S.137's text is specifically calibrated to negligent failure to discover concealment ('might have known... but for some neglect'), not deliberate concealment. A master who deliberately and knowingly concealed a deserter would more likely fall within S.136's harbouring provision (knowing or having reason to believe), which carries a more severe 2-year ceiling rather than S.137's modest fine-only structure.",
+          "cite": "S.137 PPC vs S.136 PPC — negligent non-discovery (S.137, fine-only) distinguished from knowing harbouring (S.136, up to 2 years), based on the master's actual mental state."
+        }
+      ]
+    },
+    {
+      "id": "S138_139",
+      "name": "Abetment of an Act of Insubordination; Application to Persons Subject to the Service Acts",
+      "sub": "S.138/139 PPC — resetting back to cognizable severity, and the chapter-wide jurisdictional saving clause",
+      "step": "Element 5 of 6",
+      "atom": "S138_139",
+      "desc": "S.138: abetting what the abettor knows to be an act of insubordination by an officer, soldier, sailor, or airman, where that act of insubordination is actually committed in consequence — up to 6 months, fine, or both. S.139: no person subject to the Pakistan Army Act 1952, Pakistan Air Force Act 1953, or Pakistan Navy Ordinance 1961, is subject to punishment under THIS Code for any offence defined in this Chapter.",
+      "legal": "S.138 confirms a notable structural feature: this section requires the abettor's KNOWLEDGE that the act constitutes insubordination AND requires the insubordination actually be committed in consequence — combining both the knowledge requirement and the completion requirement into a single offence, rather than splitting attempt and completion into two separate sections the way S.131/132 and S.133/134 do. S.139 is a pure jurisdictional saving clause, not an offence at all — it confirms that persons already subject to military justice under the specific Army/Navy/Air Force statutes are NOT additionally punishable under this PPC Chapter for the same conduct, avoiding double jeopardy between the civilian PPC framework and the separate military justice system.",
+      "cite": "S.138 PPC, S.139 PPC — official text.",
+      "ll": "S.138, S.139 PPC — official text",
+      "section": "138",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A abets what A knows to be an act of insubordination by a soldier, and the insubordination is in fact carried out. Apply S.138.",
+          "reveal": "A faces up to 6 months, fine, or both — S.138 requires both A's knowledge that the act constitutes insubordination AND that the insubordination actually be committed in consequence, combining both elements into this single, comparatively lighter-ceiling offence rather than the attempt/completion split seen in S.131/132 and S.133/134.",
+          "cite": "S.138 PPC — combining the knowledge requirement and the completion requirement into a single offence, structurally distinct from the attempt/completion pairs elsewhere in this chapter."
+        },
+        {
+          "q": "A serving soldier, already subject to the Pakistan Army Act 1952, commits conduct that would otherwise fall within this Chapter's offences. Apply S.139. Can this soldier be punished under the PPC for this conduct?",
+          "reveal": "No — S.139 explicitly confirms that persons subject to the Pakistan Army Act, Pakistan Air Force Act, or Pakistan Navy Ordinance are NOT subject to punishment under THIS Code for any offence defined in this Chapter. Such a person's conduct would instead be addressed through the separate military justice framework established by those specific statutes, not through this PPC chapter, avoiding a double jeopardy overlap between the two systems.",
+          "cite": "S.139 PPC — a jurisdictional saving clause excluding persons already subject to military justice statutes from PPC liability for the same chapter's offences, preventing overlap between the civilian and military justice systems."
+        }
+      ]
+    },
+    {
+      "id": "S140",
+      "name": "Wearing the Garb or Carrying the Token of a Soldier, Sailor, or Airman with Fraudulent Intent",
+      "sub": "S.140 PPC — the lightest-touch, chapter-closing impersonation offence",
+      "step": "Element 6 of 6",
+      "atom": "S140",
+      "desc": "S.140: a person who, not being a soldier, sailor, or airman in the military, naval, or air service of Pakistan, wears any garb or carries any token resembling that used by such a person, with the intention of causing it to be believed they are such a person, is punished with imprisonment up to 3 months, or fine up to 1,500 rupees, or both.",
+      "legal": "S.140 closes Chapter VII with a deliberately light-touch impersonation offence — Schedule II confirms it as cognizable but summons-only (not warrant-required) and the chapter's only bailable provision, the genuinely lightest-touch procedural treatment in this entire cluster apart from S.137's negligence-based fine. This is consistent with the offence's comparatively modest underlying harm: unauthorised wearing of military-resembling garb with fraudulent intent to be believed a service member, while a real wrong (potentially enabling further deception or undermining public trust in genuine service members), is calibrated as far less severe than the mutiny, desertion, and assault-based offences earlier in the same chapter.",
+      "cite": "S.140 PPC — official text.",
+      "ll": "S.140 PPC — official text",
+      "section": "140",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, not a member of the armed forces, wears a uniform closely resembling military garb, specifically intending that observers believe A is an actual service member. Apply S.140.",
+          "reveal": "A is liable under S.140 — wearing garb resembling that used by a soldier, sailor, or airman, with the specific intention of causing belief that A is such a person, satisfies the section directly, attracting up to 3 months' imprisonment or a fine up to 1,500 rupees, or both.",
+          "cite": "S.140 PPC — fraudulent-intent impersonation through resembling garb, regardless of how the impersonation is subsequently used."
+        },
+        {
+          "q": "How does S.140's procedural treatment (cognizable but summons-only, uniquely bailable) compare to the rest of this chapter, and what does that comparison suggest about its relative severity?",
+          "reveal": "S.140 is the only provision in this chapter that is both cognizable AND bailable simultaneously — every other cognizable provision in this cluster (S.131, S.132, S.136, S.138) is non-bailable, while S.137 is the chapter's sole non-cognizable provision. This unique combination places S.140 at a genuinely distinct, lighter procedural position than every other offence in Chapter VII, consistent with impersonation through garb being treated as a real but comparatively modest wrong relative to mutiny, desertion, and assault on a superior officer.",
+          "cite": "S.140 PPC's unique cognizable-and-bailable combination — the lightest-touch procedural treatment among the chapter's intent-based offences, distinguishing it from every other provision in Chapter VII."
+        }
+      ]
+    }
+  ]
+}

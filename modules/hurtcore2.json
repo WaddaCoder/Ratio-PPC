@@ -1,0 +1,406 @@
+{
+  "id": "hurtcore2",
+  "name": "Hurt Classification (Part 2)",
+  "section": "S.337M–338H PPC",
+  "formula": "Qisas Exclusion/Enforcement → Wali/Execution → Arsh Valuation Tables → Merger/Payment → Chapter Closing",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S337M",
+      "name": "Hurt Not Liable to Qisas",
+      "sub": "S.337M PPC — four categorical exclusions, mirroring S.306 for Qatl",
+      "step": "Element 1 of 14",
+      "atom": "S337M",
+      "desc": "Hurt is not liable to Qisas in four situations: where the offender is a minor or insane (liable instead to Arsh and Ta'zir); where the offender causes hurt at the victim's own instance/request (liable to Ta'zir only, for the kind of hurt caused); where the offender causes Itlaf-i-Udw of a physically imperfect organ and the offender's own corresponding organ does not share that imperfection (liable to Arsh and possibly Ta'zir); and where the offender's own organ liable to Qisas is missing (liable to Arsh and possibly Ta'zir).",
+      "legal": "S.337M is the Hurt cluster's direct structural counterpart to S.306 (Qatl-i-Amd not liable to Qisas) already built in the Qatl Core module — both share the minor/insane exclusion, but Hurt adds two additional, physically-grounded exclusions specific to bodily injury that have no equivalent in the homicide context: where the victim's organ was already imperfect before the injury (since true physical equivalence for Qisas becomes impossible), and where the offender's own corresponding organ is missing entirely (since Qisas by definition requires causing similar hurt at the same body part, which is physically impossible if that part does not exist on the offender). The Code's own three Illustrations to S.337M(c) work through the physical-imperfection exclusion precisely, distinguishing genuine physical imperfection (no Qisas) from a merely minor defect like a pierced ear, or a non-physical defect like loss of hearing in an otherwise intact ear (both of which still permit Qisas).",
+      "cite": "S.337M PPC and its three Illustrations — official text. Cross-reference Qatl Core module S.306 (Qatl-i-Amd not liable to Qisas) — the structurally parallel provision for homicide.",
+      "ll": "S.337M PPC — official text",
+      "section": "337M",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "This module completes the procedural architecture surrounding the Hurt provisions built in Part 1. No additional verified Pakistani landmark case is logged against these specific procedural sections beyond what is already noted in Part 1 (the Fakhra Younus case connection to S.336A/336B). Flagged honestly rather than inventing further citations for the purely procedural/administrative sections in this module.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A amputates Z's right ear, half of which was already missing before the injury. A's own right ear is physically perfect. Apply S.337M(c) and the Code's own Illustration (i). Is A liable to Qisas?",
+          "reveal": "No — this is the Code's own Illustration (i) directly. Since Z's ear was already physically imperfect (half missing) before A's act, and A's own ear is perfect (lacking that same imperfection), true Qisas equivalence is impossible — causing the same injury to A's perfect ear would not replicate the actual harm to Z's already-imperfect ear. A is liable to Arsh instead, and may also face Ta'zir for the kind of hurt caused.",
+          "cite": "S.337M(c) PPC and Illustration (i) — physical imperfection in the victim's organ excluding Qisas where the offender's corresponding organ is perfect."
+        },
+        {
+          "q": "Using the same facts as above, but now Z's ear, while missing no physical material, has no power of hearing at all — a purely functional defect, not a physical one. Apply Illustration (ii). Does this change the analysis?",
+          "reveal": "Yes — this is the Code's own Illustration (ii). Because the defect in Z's ear is functional (loss of hearing) rather than physical (missing material), it does not trigger the S.337M(c) exclusion at all. A remains liable to Qisas, because the section's exclusion is specifically tied to physical imperfection of the organ, not functional impairment — a hearing-impaired but physically intact ear is treated as a physically perfect organ for Qisas-equivalence purposes.",
+          "cite": "S.337M(c) PPC and Illustration (ii) — functional defect (not physical) does not exclude Qisas."
+        },
+        {
+          "q": "Again using similar facts, but now Z's ear is merely pierced (for an earring, for example) with no other defect. Apply Illustration (iii). Does a minor cosmetic alteration like piercing trigger the S.337M(c) exclusion?",
+          "reveal": "No — the Code's own Illustration (iii) confirms that such a minor defect is not 'physical imperfection' for purposes of this exclusion. A pierced ear remains, in the eyes of S.337M(c), a physically perfect organ, and A remains liable to Qisas. The three Illustrations together draw a precise line: genuine missing/imperfect physical material excludes Qisas (Illustration i); functional impairment alone does not (Illustration ii); and minor cosmetic alterations like piercing also do not (Illustration iii).",
+          "cite": "S.337M(c) PPC and Illustration (iii) — minor defects like piercing do not constitute physical imperfection excluding Qisas."
+        }
+      ]
+    },
+    {
+      "id": "S337M_2",
+      "name": "Aggravated Ta'zir for Hurt by Habitual/Honour-Motivated Offenders",
+      "sub": "S.337M(2) PPC — mandatory enhanced Ta'zir floor",
+      "step": "Element 2 of 14",
+      "atom": "S337M_2",
+      "desc": "Notwithstanding the rest of Chapter XVI, in all cases of hurt the court may, in addition to Arsh, award Ta'zir to an offender who is a previous convict, habitual, hardened, desperate or dangerous criminal, or where the offence was committed in the name or on the pretext of honour. Where this aggravating category applies, the proviso mandates the Ta'zir shall not be less than one-third of the maximum imprisonment provided for that kind of hurt — a mandatory minimum floor, not merely an available ceiling.",
+      "legal": "This sub-section operates as a cross-cutting aggravation layered on top of every single punishment tier already built in Part 1 (S.332–337F) and the rest of this module — wherever the offender falls into the specified categories (recidivism, dangerousness, or honour motivation), the otherwise-discretionary Ta'zir ceiling for that specific hurt category converts into a mandatory floor of at least one-third of that ceiling. This mirrors the same honour-killing mandatory-minimum pattern already seen in S.324 (Qatl Core module) and the broader 2005/2016 legislative trend of removing judicial discretion to impose lenient sentences specifically in honour-motivated cases.",
+      "cite": "S.337M(2) PPC, honour-killing limb added by Act I of 2005 — official text. Cross-reference S.324 PPC (Qatl Core module) — the same honour-motivated mandatory-minimum pattern applied to attempted Qatl.",
+      "ll": "S.337M(2) PPC — official text",
+      "section": "337",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An offender with three prior convictions causes Shajjah-i-Hashimah to a victim (ordinarily: 10% Diyat Arsh, up to 10 years Ta'zir under S.337A(iii)). Apply S.337M(2). Does the offender's recidivist status change the available sentencing range?",
+          "reveal": "Yes. Because the offender is a previous convict, S.337M(2)'s proviso converts the otherwise-discretionary 'up to 10 years' ceiling into a mandatory floor of not less than one-third of that maximum — meaning the court must impose at least approximately 3 years and 4 months of Ta'zir, in addition to the Arsh, rather than retaining full discretion to impose anything from zero up to 10 years as it would for a first-time offender.",
+          "cite": "S.337M(2) PPC proviso — mandatory one-third-of-maximum Ta'zir floor for recidivist/dangerous offenders."
+        },
+        {
+          "q": "How does S.337M(2)'s mandatory floor mechanism compare structurally to S.311's honour-killing override (corrected in the Murder module this session) and S.324's honour-killing attempt floor (Qatl Core module)? Is this the same legislative instinct applied a third time within this app's build?",
+          "reveal": "Yes — this is a third application of the same underlying legislative pattern across three different stages of bodily-harm offences: S.311 mandates a specific outcome (life imprisonment) overriding family waiver/compounding for completed honour-motivated Qatl; S.324 sets an absolute sentencing floor (not less than 5 years) for honour-motivated attempted Qatl; and S.337M(2) sets a proportional floor (not less than one-third of the otherwise-applicable maximum) for honour-motivated or recidivist hurt generally. All three reflect the same 2005/2016-era legislative project of closing down judicial or family-level leniency specifically where honour-motivation (or, in S.337M(2)'s case, demonstrated dangerousness/recidivism) is present.",
+          "cite": "S.337M(2) PPC vs S.311 PPC (Murder module, corrected) vs S.324 PPC (Qatl Core module) — three distinct mandatory-minimum mechanisms reflecting the same legislative policy across different offence stages."
+        },
+        {
+          "q": "Does S.337M(2) apply automatically to every hurt offence, or does it require the prosecution to specifically establish one of the listed aggravating categories?",
+          "reveal": "It requires specific proof of one of the listed categories — the sub-section's text conditions its application on the offender being 'a previous convict, habitual, hardened, desperate or dangerous criminal' or the offence having been 'committed in the name or on the pretext of honour.' Absent proof of one of these specific aggravating facts, the ordinary discretionary Ta'zir range under whichever specific hurt provision applies (S.334, S.336, S.337A, S.337D, S.337F, etc.) governs without the mandatory one-third floor being engaged.",
+          "cite": "S.337M(2) PPC — conditional application requiring proof of a specifically listed aggravating category, not automatic for all hurt offences."
+        }
+      ]
+    },
+    {
+      "id": "S337N",
+      "name": "Cases in Which Qisas for Hurt Shall Not Be Enforced",
+      "sub": "S.337N PPC — enforcement bars on an otherwise valid right",
+      "step": "Element 3 of 14",
+      "atom": "S337N",
+      "desc": "Qisas for hurt is not enforced where: the offender dies before execution; the offender's own organ liable to Qisas is lost before execution (offender liable to Arsh and possibly Ta'zir instead); the victim waives Qisas or compounds with Badal-i-Sulh; or the right of Qisas devolves onto a person who cannot claim Qisas against the offender under this Chapter (offender liable to Arsh if another wali exists, or Ta'zir if the offender is the only remaining wali).",
+      "legal": "S.337N is the Hurt cluster's structural counterpart to S.307 (Cases in which Qisas for Qatl-i-Amd shall not be enforced), already built in the Qatl Core module — the same distinction applies: S.337M addresses categorical non-liability to Qisas in the first place, while S.337N addresses cases where Qisas would otherwise be valid but cannot actually be carried out due to subsequent events. The second category here — the offender's own Qisas-liable organ being lost before execution — has no direct equivalent in the Qatl context, since death (the Qisas punishment for Qatl) cannot become physically impossible to execute in the way that organ-specific physical retaliation can.",
+      "cite": "S.337N PPC — official text. Cross-reference Qatl Core module S.307 — the structurally parallel enforcement-bar provision for homicide.",
+      "ll": "S.337N PPC — official text",
+      "section": "337N",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An offender is sentenced to Qisas for Itlaf-i-Udw (amputation) of Z's hand, but before the sentence can be executed, the offender's own corresponding hand is lost in an unrelated accident. Apply S.337N(1)(b). What happens to the Qisas sentence?",
+          "reveal": "Qisas cannot be enforced, since the offender no longer possesses the organ that would need to be amputated to carry out the sentence. Under S.337N(1)(b)'s proviso, the offender instead becomes liable to Arsh, and may also face Ta'zir for the kind of hurt originally caused — the unenforceability of the physical-equivalence punishment converts the case into the compensation-and-imprisonment framework instead, rather than the offender escaping punishment for the original hurt entirely.",
+          "cite": "S.337N(1)(b) PPC — Qisas unenforceable where the offender's own corresponding organ is lost before execution, converting to Arsh/Ta'zir."
+        },
+        {
+          "q": "How does the second category in S.337N (offender's organ lost before execution) differ analytically from the second category in S.337M (offender's organ already missing at the time the original hurt was caused)? Are these the same fact pattern at different points in time?",
+          "reveal": "They are genuinely distinct, not merely the same fact pattern at different times. S.337M(d) addresses the offender's organ already being missing at the time Qisas liability would first be assessed — meaning Qisas was never categorically available in the first place for that offender. S.337N(1)(b) addresses a situation where Qisas WAS validly available and sentenced, but the offender's organ is lost in the intervening period between sentencing and actual execution — Qisas was valid when imposed but becomes impossible to carry out afterward. The timing distinction matters analytically in the same way the S.306/S.307 distinction mattered for Qatl: one is about categorical availability, the other about subsequent enforceability of an otherwise valid right.",
+          "cite": "S.337M(d) PPC (categorical unavailability at time of assessment) vs S.337N(1)(b) PPC (subsequent unenforceability of a validly-imposed sentence) — distinct timing of the same missing-organ fact pattern."
+        },
+        {
+          "q": "A victim of hurt waives the right of Qisas under S.337N(1)(c). Does this operate identically to a wali's waiver of Qisas for Qatl under S.309, already built in the Qatl Core module?",
+          "reveal": "Largely yes — S.337N(1)(c) expressly contemplates waiver or compounding with Badal-i-Sulh for hurt, paralleling S.309/310's waiver and compounding mechanisms for Qatl. The key structural difference is who holds the right: for hurt, S.337O (the next element) establishes that the victim themselves is the primary wali (rather than the victim's heirs, as in Qatl, since the victim of hurt is by definition alive to exercise the right personally) — heirs only step into that role if the victim dies before Qisas is executed. The waiver/compounding mechanics themselves operate on the same underlying logic across both contexts.",
+          "cite": "S.337N(1)(c) PPC waiver/compounding for hurt, paralleling S.309/310 PPC (Qatl Core module) — with S.337O's victim-as-primary-wali rule as the key structural distinction."
+        }
+      ]
+    },
+    {
+      "id": "S337O_P",
+      "name": "Wali and Execution of Qisas for Hurt",
+      "sub": "S.337O/337P PPC — who holds the right, and how it is carried out",
+      "step": "Element 4 of 14",
+      "atom": "S337O_P",
+      "desc": "S.337O establishes the wali for hurt as: the victim themselves (with a minor/insane victim's right exercised by their father or paternal grandfather); the victim's heirs, if the victim dies before execution; or the Government, in the absence of victim or heirs. S.337P governs execution: carried out in public by an authorised medical officer, who must examine the offender beforehand to ensure execution does not cause death or exceed the hurt originally caused; the wali (or representative) must be present, with a court-authorised officer permitted to give execution permission if the wali fails to appear after being informed; and the same two-year pregnancy postponement mechanism already seen in S.314(3) for Qatl applies here as well.",
+      "legal": "The victim-as-primary-wali structure in S.337O is the most significant departure from the Qatl wali framework (S.305, already built): in Qatl cases the victim is dead, so the right necessarily passes to heirs from the outset; in hurt cases the victim is, by definition, alive, and S.337O correctly places the right of Qisas in the victim's own hands first, with heirs and Government only becoming relevant as fallback positions if the victim later dies before execution. S.337P's execution safeguards mirror S.314's structure for Qatl almost provision-for-provision (public execution by an authorised official, mandatory wali presence, pregnancy postponement), but adds a distinctive medical safeguard specific to hurt: the examining medical officer must ensure the Qisas execution itself does not accidentally cause the offender's death or exceed the severity of the original injury — a precision requirement that has no equivalent in the Qatl context, where the Qisas punishment (death) carries no risk of 'exceeding' itself.",
+      "cite": "S.337O and S.337P PPC — official text. Cross-reference Qatl Core module S.305 (wali for Qatl, heirs-based) and S.314 (execution of Qisas for Qatl) — structurally parallel but adapted for the victim being alive in hurt cases.",
+      "ll": "S.337O, S.337P PPC — official text",
+      "section": "337",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is sentenced to Qisas for causing Itlaf-i-Udw to a 9-year-old victim. Apply S.337O's proviso. Who exercises the right of Qisas on the child victim's behalf?",
+          "reveal": "The child's father, or if not alive, the paternal grandfather, exercises the right of Qisas on the minor victim's behalf, per S.337O's proviso. This mirrors the same father/paternal-grandfather representative structure already seen in S.313(2)(b) for a minor or insane wali in the Qatl context, applied here to a minor victim of hurt who is personally alive but legally incapable of exercising the right themselves.",
+          "cite": "S.337O(a) PPC proviso — father/paternal grandfather exercising a minor victim's right of Qisas, paralleling S.313(2)(b) PPC (Qatl Core module)."
+        },
+        {
+          "q": "Why does S.337P specifically require the examining medical officer to ensure the execution of Qisas 'does not cause the death of the offender or exceed the hurt caused by him to the victim' — a requirement with no direct equivalent in S.314's execution provisions for Qatl?",
+          "reveal": "Because the Qisas punishment for hurt is, by its nature, an attempt at precise physical replication of a specific, calibrated injury (the same kind and degree of hurt the offender caused) rather than a uniform outcome like death. There is a genuine risk that executing the Qisas could, through medical complication or imprecision, either kill the offender (a far more severe outcome than the original injury warranted) or inflict greater harm than the original injury (exceeding proportional equivalence). For Qatl, by contrast, the Qisas punishment is death itself — there is no 'exceeding' possible, since death is the maximum outcome already. This distinctive precision-and-proportionality safeguard is therefore unique to the hurt context.",
+          "cite": "S.337P(1) PPC — medical precision safeguard unique to hurt Qisas, with no direct equivalent in S.314 PPC's Qatl execution provisions."
+        },
+        {
+          "q": "A wali (the victim) fails to appear at the scheduled date, time, and place for execution of Qisas, despite having been properly informed by the court. Apply S.337P(2). Can the execution proceed without the wali present?",
+          "reveal": "Yes. S.337P(2) provides that where the wali or their representative fails to appear after being informed of the date, time, and place by the court, an officer authorised by the court may give permission for the execution of Qisas to proceed — this is the same mechanism already seen in S.314(2) for Qatl, ensuring a wali's absence or non-cooperation cannot indefinitely block a validly-ordered Qisas execution.",
+          "cite": "S.337P(2) PPC — court-authorised officer permission mechanism where the wali fails to appear, paralleling S.314(2) PPC (Qatl Core module)."
+        }
+      ]
+    },
+    {
+      "id": "S337Q",
+      "name": "Arsh for Single Organs",
+      "sub": "S.337Q PPC — full Diyat value for organs found singly",
+      "step": "Element 5 of 14",
+      "atom": "S337Q",
+      "desc": "The Arsh for causing Itlaf of an organ found singly in the human body is equivalent to the full value of Diyat. The Code's own Explanation specifies the nose and tongue as examples of organs found singly.",
+      "legal": "S.337Q is the first of four Arsh valuation rules calibrated to how many of a given organ type a person normally has — a single organ (one of which a person has exactly one) attracts the full Diyat value if destroyed, since there is no remaining matching organ to account for in the calculation. This sits at the top of the Arsh valuation scale, equal in monetary terms to the compensation for an entire human life (Diyat itself), reflecting that loss of a singular, irreplaceable organ is treated with comparable severity to homicide for compensation purposes, even though the underlying offence categories (Hurt vs Qatl) remain analytically distinct.",
+      "cite": "S.337Q PPC and its Explanation — official text.",
+      "ll": "S.337Q PPC — official text",
+      "section": "337Q",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes Itlaf-i-Udw of Z's tongue. Apply S.337Q. What is the Arsh, and why is the tongue treated this way rather than under the paired-organ rule?",
+          "reveal": "The Arsh is equivalent to the full value of Diyat, since the tongue is expressly listed in S.337Q's own Explanation as an organ found singly in the human body — a person has only one tongue, so there is no question of partial loss relative to a matching pair, unlike organs such as hands or eyes which exist in pairs and are valued under the separate S.337R rule.",
+          "cite": "S.337Q PPC Explanation — tongue as an example of a singly-occurring organ, attracting full Diyat-value Arsh."
+        },
+        {
+          "q": "Why might the legislature value the loss of a single, singly-occurring organ at the full Diyat amount — the same figure used to compensate for an entire human life under the Qatl framework?",
+          "reveal": "Organs found singly in the body (the nose, the tongue, and by clear implication other singular organs not expressly named but falling within the same category) are, by definition, irreplaceable in their entirety once destroyed — there is no remaining matching organ that continues to provide partial function, unlike a paired organ where the other one of the pair survives. The legislature appears to have judged that total, complete loss of such an organ represents a categorically severe harm warranting compensation at the same level as loss of life itself, even though the criminal offence category and punishment structure (Qisas/Arsh/Ta'zir for hurt, rather than Qisas/Diyat/Ta'zir for Qatl) remain entirely distinct.",
+          "cite": "S.337Q PPC — full-Diyat valuation reflecting the complete, irreplaceable nature of losing a singly-occurring organ."
+        },
+        {
+          "q": "Does S.337Q's full-Diyat Arsh apply only to the nose and tongue specifically, or could other organs also fall within this category?",
+          "reveal": "The Explanation states the nose and tongue 'are included' among singly-occurring organs — the word 'included' signals this is an illustrative, non-exhaustive list rather than an exhaustive closed category. Any other organ a person possesses only one of, by the same logic, would also fall within S.337Q's full-Diyat valuation rule, even though the Explanation does not individually name every such organ.",
+          "cite": "S.337Q PPC Explanation — 'included' language signalling a non-exhaustive, illustrative list of singly-occurring organs."
+        }
+      ]
+    },
+    {
+      "id": "S337R",
+      "name": "Arsh for Organs in Pairs",
+      "sub": "S.337R PPC — half-Diyat per organ, with a single-remaining-organ exception",
+      "step": "Element 6 of 14",
+      "atom": "S337R",
+      "desc": "For organs found in pairs, full Diyat compensates loss of both; loss of one of the pair attracts one-half of Diyat. The Explanation lists hands, feet, eyes, lips, and breasts as paired organs. A proviso addresses the situation where the victim only has one such organ to begin with (the other already missing or incapacitated): in that case, Itlaf of the existing/capable organ attracts the FULL Diyat value, not merely one-half, since it represents total, complete loss of that entire organ-pair's function for the victim.",
+      "legal": "S.337R's base rule (half-Diyat per organ of a pair) reflects straightforward proportional division — losing one of two equally-valued organs is worth half what losing both would be worth. The proviso, however, is the more analytically interesting feature: it recognises that if the victim's other organ of the pair is already missing or incapacitated, the victim has effectively already suffered the loss represented by that side, and destroying the one remaining functional organ represents the SAME total deprivation as destroying both organs of an intact pair would — hence the proviso elevates the Arsh to full Diyat in that specific scenario, rather than leaving it at the ordinary half-Diyat figure that would apply to a victim who still retains both organs intact before the injury.",
+      "cite": "S.337R PPC, its Explanation, and its proviso — official text.",
+      "ll": "S.337R PPC — official text",
+      "section": "337R",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes blindness in Z's one remaining functional eye — Z's other eye had already been lost in an earlier, unrelated accident before A's act. Apply S.337R's proviso. Is A liable for half-Diyat or full-Diyat Arsh?",
+          "reveal": "Full Diyat. S.337R's proviso specifically addresses this scenario: where the victim has only one such organ remaining (the other already missing or incapacitated), the Arsh for causing Itlaf of the existing, capable organ is equal to the full value of Diyat — not the ordinary half-Diyat that would apply to one eye of an intact pair. The rationale is that Z, who already lost effective use of paired vision through the earlier accident, now suffers total loss of all remaining sight through A's act, representing the same complete deprivation that destroying both eyes of an intact pair would represent.",
+          "cite": "S.337R PPC proviso — full-Diyat Arsh where the victim's only remaining organ of a pair is destroyed, the other already missing/incapacitated."
+        },
+        {
+          "q": "A causes Itlaf to one of Z's two perfectly healthy hands. Z's other hand remains fully intact and functional. Apply S.337R's base rule. What is the Arsh?",
+          "reveal": "One-half of Diyat — the ordinary base rule under S.337R applies here, since Z retains a fully functional matching organ (the other hand) and has not suffered the total deprivation that would trigger the proviso. The half-Diyat figure reflects proportional compensation for losing one of two equally functioning paired organs.",
+          "cite": "S.337R PPC base rule — half-Diyat for one organ of an intact pair, distinguished from the proviso's full-Diyat scenario."
+        },
+        {
+          "q": "Why does the legislature distinguish between the ordinary half-Diyat rule and the proviso's full-Diyat exception, rather than simply always awarding half-Diyat for loss of any single organ of a designated pair, regardless of the other organ's condition?",
+          "reveal": "The distinction tracks actual functional and compensatory reality rather than a rigid, purely mechanical halving rule. The half-Diyat figure makes sense as compensation when the victim retains a fully functional matching organ — they have lost half of their paired capacity, but not all of it. Where the other organ is already gone or incapacitated, however, a mechanical half-Diyat rule would under-compensate the victim, since they are in fact losing the entirety of their remaining functional capacity in that organ-pair category, not merely half of an intact pair. The proviso corrects for this by recognising the victim's actual total loss in that specific scenario.",
+          "cite": "S.337R PPC — proviso correcting the base half-Diyat rule to track actual total functional loss rather than mechanical halving."
+        }
+      ]
+    },
+    {
+      "id": "S337S",
+      "name": "Arsh for Organs in Quadruplicate",
+      "sub": "S.337S PPC — quarter-Diyat increments for sets of four",
+      "step": "Element 7 of 14",
+      "atom": "S337S",
+      "desc": "For organs found in sets of four (the Explanation names eyelids as the example), Arsh scales in quarter-Diyat increments: one-fourth of Diyat for Itlaf of one such organ, one-half for two, three-fourths for three, and full Diyat for all four.",
+      "legal": "S.337S extends the same proportional-division logic seen in S.337R (pairs, half-Diyat increments) to organs occurring in a set of four, simply scaling the increment to one-quarter per organ instead of one-half. Notably, S.337S does not include a proviso analogous to S.337R's single-remaining-organ exception — the section's text moves directly from one-organ (one-quarter) through to all-four (full Diyat) without addressing a scenario where some of the four were already missing or incapacitated before the offender's act, a structural gap that the next element will examine.",
+      "cite": "S.337S PPC and its Explanation — official text. Cross-reference S.337R — the same proportional-division logic, scaled to quarters rather than halves, but without an equivalent proviso for partially-pre-incapacitated organ sets.",
+      "ll": "S.337S PPC — official text",
+      "section": "337S",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes Itlaf of two of Z's four eyelids. Apply S.337S(b). What is the Arsh?",
+          "reveal": "One-half of the Diyat value — S.337S(b) specifically provides this figure for Itlaf of two of the four-set organs. The proportional scaling continues consistently: one-fourth for one eyelid, one-half for two, three-fourths for three, and full Diyat only if all four are destroyed.",
+          "cite": "S.337S(b) PPC — one-half Diyat for Itlaf of two of four quadruplicate organs."
+        },
+        {
+          "q": "S.337R (paired organs) includes a proviso addressing the scenario where the victim already has only one remaining organ of the pair before the offence. S.337S (quadruplicate organs) contains no equivalent proviso. If a victim already had only two functioning eyelids before an offender destroys those remaining two, does S.337S(b)'s one-half figure still apply, or might the analysis need to draw on S.337R's proviso logic by analogy?",
+          "reveal": "S.337S's text, as verified, does not contain an explicit proviso parallel to S.337R's — this appears to be a genuine structural gap rather than a deliberate legislative choice, since the underlying logic motivating S.337R's proviso (total functional loss deserves full compensation, not a mechanical fraction) would seem to apply with equal force to quadruplicate organs. Whether courts would apply S.337R's proviso logic by analogy to fill this apparent gap in S.337S is a genuine open question this app flags honestly rather than resolving with invented authority — it is exactly the kind of structural inconsistency a careful student should notice and could productively raise with Mr. Faisal directly.",
+          "cite": "S.337S PPC — honest flag of an apparent structural gap (no proviso analogous to S.337R's single-remaining-organ exception) rather than an invented resolution."
+        },
+        {
+          "q": "Why might the legislature have chosen eyelids specifically as the named example of a quadruplicate organ, when most visible body parts occur singly or in pairs?",
+          "reveal": "Each eye has both an upper and lower eyelid, giving a person four eyelids total (two per eye) — this is simply an anatomical fact about how eyelids are structured, making it one of the few naturally-occurring sets of four in the human body, which is presumably why the legislature selected it as the explanatory example for this otherwise unusual quadruplicate category.",
+          "cite": "S.337S PPC Explanation — eyelids as the anatomically natural example of an organ occurring in a set of four (two per eye)."
+        }
+      ]
+    },
+    {
+      "id": "S337T_U",
+      "name": "Arsh for Fingers and Teeth",
+      "sub": "S.337T/337U PPC — fixed fractional Arsh per digit/joint and per tooth",
+      "step": "Element 8 of 14",
+      "atom": "S337T_U",
+      "desc": "S.337T fixes Arsh for Itlaf of a finger (hand or foot) at one-tenth of Diyat, and for a joint of a finger at one-thirteenth of Diyat — with a proviso specifically raising the joint figure to one-twentieth of Diyat where the joint is of a thumb. S.337U fixes Arsh for a tooth (other than a milk tooth) at one-twentieth of Diyat, rising to the full Diyat value where 20 or more teeth are destroyed; a milk tooth attracts only Daman plus up to 1 year's Ta'zir, unless its destruction impedes the growth of the replacement adult tooth, in which case the full S.337U(1) Arsh applies instead.",
+      "legal": "These two sections move from organ-level Arsh calculation to highly specific, itemised valuations for individual digits and teeth — effectively a fixed compensation schedule rather than a proportional formula. S.337T's thumb-specific proviso (one-twentieth rather than one-thirteenth for a thumb joint) reflects that thumbs, anatomically and functionally, are valued differently from the other four fingers even at the joint level. S.337U's milk-tooth carve-out is a sensible age-calibration: a child's milk tooth is naturally temporary and due to be replaced regardless, so ordinary destruction of one attracts only modest Daman/Ta'zir — but where the destruction actually impedes the underlying permanent tooth's growth, the harm becomes effectively permanent, triggering the full adult-tooth Arsh figure instead.",
+      "cite": "S.337T and S.337U PPC, including S.337T's thumb proviso and S.337U's milk-tooth provisions — official text.",
+      "ll": "S.337T, S.337U PPC — official text",
+      "section": "337",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes Itlaf of the joint of Z's thumb specifically (not a joint of one of the other four fingers). Apply S.337T's proviso. What is the Arsh, and how does it differ from the general joint-of-a-finger rule?",
+          "reveal": "One-twentieth of Diyat, per S.337T's specific proviso for a thumb joint — lower than the general one-thirteenth figure that applies to a joint of any of the other four fingers. This is a deliberate, anatomically-specific carve-out distinguishing the thumb's joints from the other fingers' joints within the overall finger-Arsh schedule.",
+          "cite": "S.337T PPC proviso — one-twentieth Diyat for a thumb joint specifically, distinct from the general one-thirteenth figure for other finger joints."
+        },
+        {
+          "q": "A knocks out a 7-year-old child's milk tooth in a manner that does not affect the underlying permanent tooth's eventual growth. Apply S.337U(3). What is the offender's liability?",
+          "reveal": "Daman (court-determined compensation) and possibly imprisonment of either description up to 1 year — this is the base milk-tooth rule under S.337U(3), reflecting that a milk tooth's loss without impeding permanent-tooth growth is a comparatively minor, naturally self-correcting harm. Had the destruction impeded the permanent tooth's growth instead, the proviso to S.337U(3) would instead apply the full S.337U(1) Arsh (one-twentieth of Diyat) as for an adult tooth, since the harm in that scenario becomes effectively permanent rather than naturally self-resolving.",
+          "cite": "S.337U(3) PPC — milk-tooth Daman/Ta'zir base rule, with proviso elevating to full Arsh where permanent-tooth growth is impeded."
+        },
+        {
+          "q": "An offender destroys 22 of a victim's teeth in a single violent act. Apply S.337U(2). How is the total Arsh calculated — by simply multiplying one-twentieth of Diyat by 22, or some other method?",
+          "reveal": "S.337U(2) provides a fixed threshold rule rather than continued multiplication: 'the arsh for causing itlaf of twenty or more teeth shall be equal to the value of diyat' — once the victim has lost 20 or more teeth, the total Arsh is simply capped at the full Diyat value, rather than continuing to multiply the per-tooth one-twentieth figure beyond that point (which would, after 20 teeth, already mathematically equal full Diyat, with any additional teeth beyond 20 not increasing the figure further since it cannot exceed the full Diyat ceiling).",
+          "cite": "S.337U(2) PPC — full-Diyat ceiling triggered at 20 or more teeth, rather than uncapped continued multiplication of the per-tooth figure."
+        }
+      ]
+    },
+    {
+      "id": "S337V",
+      "name": "Arsh for Hair",
+      "sub": "S.337V PPC — fixed Arsh for uprooting hair, by location",
+      "step": "Element 9 of 14",
+      "atom": "S337V",
+      "desc": "Uprooting all the hair of the head, beard, moustaches, eyebrow, eyelashes, or any other body part attracts Arsh equal to full Diyat, plus up to 3 years' Ta'zir. Uprooting one eyebrow specifically attracts one-half of Diyat; one eyelash attracts one-quarter of Diyat. Where hair is forcibly removed by a process not covered by these specific categories, the offender instead faces Daman plus up to 1 year's imprisonment.",
+      "legal": "S.337V's base rule treats total hair-uprooting from any named body region as warranting full-Diyat compensation — a notably severe valuation for what might initially seem a less severe injury than organ loss, reflecting the Code's recognition of hair loss as carrying significant dignitary and appearance-related harm (consistent with the broad 'disfigurement' concept already defined in the S.332 Explanation). The graduated reduction for partial losses (one eyebrow at half-Diyat, one eyelash at quarter-Diyat) follows the same proportional logic seen throughout this Arsh schedule, while the residual category (hair removed by an uncovered process, attracting only Daman) ensures the section remains comprehensive even for hair-loss scenarios not captured by the specifically-named categories.",
+      "cite": "S.337V PPC — official text.",
+      "ll": "S.337V PPC — official text",
+      "section": "337V",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A forcibly uproots all of Z's head hair entirely. Apply S.337V(1)(a). What is the Arsh and additional Ta'zir exposure?",
+          "reveal": "Full Diyat value as Arsh, and A may also be punished with imprisonment of either description for a term up to 3 years as Ta'zir. This is the most severe tier within S.337V, reserved for complete uprooting of hair from any of the specifically named regions (head, beard, moustaches, eyebrow, eyelashes, or any other body part), treating total hair loss from a region as warranting the same full-Diyat valuation already seen for singly-occurring organs under S.337Q.",
+          "cite": "S.337V(1)(a) PPC — full Diyat Arsh plus up to 3 years Ta'zir for complete uprooting of hair from a named region."
+        },
+        {
+          "q": "A uproots one of Z's eyebrows entirely (not both, and not merely an eyelash). Apply S.337V(1)(b). What is the Arsh, and how does this compare to uprooting one eyelash under S.337V(1)(c)?",
+          "reveal": "One-half of Diyat for the single eyebrow, under S.337V(1)(b). This is double the figure for a single eyelash, which attracts only one-quarter of Diyat under S.337V(1)(c). The graduated figures reflect a judgment that an eyebrow represents proportionally more significant facial feature/appearance harm than a single eyelash, even though both are governed by the same general hair-uprooting framework.",
+          "cite": "S.337V(1)(b)-(c) PPC — one-half Diyat for one eyebrow vs one-quarter Diyat for one eyelash."
+        },
+        {
+          "q": "A uses a chemical depilatory process to remove hair from Z's arm — a body part not specifically named in S.337V(1), and a removal method not involving direct physical uprooting. Apply S.337V(2). What is A's liability?",
+          "reveal": "Daman (court-determined compensation) and imprisonment of either description up to 1 year, under S.337V(2)'s residual category for hair forcibly removed by a process not covered under sub-section (1). Since this scenario does not fit squarely within the uprooting-based categories of S.337V(1) (which the named regions and fixed fractions are built around), it falls instead into this lower, residual liability tier.",
+          "cite": "S.337V(2) PPC — residual Daman/Ta'zir tier for hair removal not falling within S.337V(1)'s specific uprooting categories."
+        }
+      ]
+    },
+    {
+      "id": "S337W",
+      "name": "Merger of Arsh",
+      "sub": "S.337W PPC — avoiding double-counting across overlapping injuries",
+      "step": "Element 10 of 14",
+      "atom": "S337W",
+      "desc": "Where an accused causes more than one hurt, Arsh is ordinarily payable separately for each — but with two merger rules: where hurt is caused to an organ, the accused is liable for Arsh to that organ only, not separately for Arsh to any part of that organ; and where multiple wounds join together to form a single wound, the accused is liable to Arsh for one wound only. Separately, S.337W(2) provides that where the offender, after causing hurt, goes on to cause the victim's death by Qatl liable to Diyat, the Arsh merges into the Diyat — provided death occurs before the original wound has healed.",
+      "legal": "S.337W is this cluster's direct counterpart to the Punishments module's S.71 (limit of punishment for an offence made up of several offences) — both share the same underlying anti-double-counting principle, here applied specifically to Arsh compensation rather than general criminal punishment. The Code's own two Illustrations track precisely onto the S.71 Illustrations' logic: amputating fingers and then the whole hand at the wrist produces liability for the hand only (the larger, encompassing injury subsumes the smaller, included one), while two separate stab wounds that physically merge into one wound attract Arsh for one wound only. S.337W(2)'s death-merger rule additionally prevents an offender from facing both Arsh for the original hurt AND a separate Diyat for the resulting death where that death flows directly from the unhealed original wound — the Arsh is absorbed into the Diyat rather than being charged cumulatively.",
+      "cite": "S.337W PPC and its two Illustrations — official text. Cross-reference Punishments module S.71 PPC — the structurally parallel anti-double-counting principle applied to general punishment rather than Arsh specifically.",
+      "ll": "S.337W PPC and Illustrations — official text",
+      "section": "337W",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A amputates Z's fingers on the right hand, and then, in the same act, amputates the entire hand from the wrist joint. Apply S.337W(1)(a) and the Code's own Illustration (i). Is A liable for separate Arsh for the fingers and for the hand?",
+          "reveal": "No — this is the Code's own Illustration (i) directly. A is liable to Arsh specified for the hand only. Although there is technically a separate Arsh figure for fingers and for a hand, S.337W(1)(a)'s merger rule provides that where hurt is caused to an organ, the accused is liable for Arsh to that organ (the hand, the larger encompassing structure) and not additionally for Arsh to any part of that organ (the fingers, which are part of the hand that was destroyed).",
+          "cite": "S.337W(1)(a) PPC and Illustration (i) — Arsh for the encompassing organ (hand) only, not additionally for its constituent part (fingers)."
+        },
+        {
+          "q": "A stabs Z twice on the thigh in quick succession, and the two wounds are positioned so close together that they merge into what is medically a single wound. Apply S.337W(1)(b) and Illustration (ii). How many Arsh payments is A liable for?",
+          "reveal": "One — this is the Code's own Illustration (ii). Despite there having been two separate stabbing acts, since the resulting wounds physically join together and form a single wound, S.337W(1)(b)'s merger rule treats this as warranting Arsh for one wound only, not two separate Arsh payments for what became, in physical/medical reality, a single combined injury.",
+          "cite": "S.337W(1)(b) PPC and Illustration (ii) — single Arsh liability where multiple wounds merge into one physical wound."
+        },
+        {
+          "q": "An offender causes hurt to a victim. Before the wound heals, the offender returns and kills the victim through an act constituting Qatl liable to Diyat. Apply S.337W(2). Does the offender face both the Arsh for the original hurt and the full Diyat for the death separately?",
+          "reveal": "No — S.337W(2) specifically provides that where death is caused before the healing of the wound caused by the original hurt, the Arsh merges into the Diyat, meaning the offender faces the Diyat liability for the death, with the earlier Arsh absorbed into it rather than charged as an additional, separate compensation amount. Had the original wound already healed before the subsequent fatal act occurred, this merger provision would not apply, and the two compensation obligations would likely be treated as arising from two genuinely separate criminal episodes instead.",
+          "cite": "S.337W(2) PPC — Arsh merges into Diyat where death is caused before the original wound heals, avoiding cumulative compensation for what becomes a single fatal episode."
+        }
+      ]
+    },
+    {
+      "id": "S337X_Z",
+      "name": "Payment of Arsh, Value and Payment of Daman, and Disbursement",
+      "sub": "S.337X/337Y/337Z PPC — the final procedural mechanics",
+      "step": "Element 11 of 14",
+      "atom": "S337X_Z",
+      "desc": "S.337X allows Arsh to be paid in a lump sum or instalments over up to 5 years, with the same non-payment consequences (jail as simple imprisonment, bail on security, parole, or estate recovery on death) already seen for Diyat under S.331. S.337Y directs the court to determine Daman's value having regard to treatment expenses, loss/disability in organ function or power, and compensation for the victim's anguish — payable on the same lump-sum-or-instalment basis as Arsh, with identical non-payment consequences. S.337Z provides that Arsh or Daman is payable to the victim, or, if the victim has died, to their heirs according to their inheritance shares.",
+      "legal": "These three sections complete the Hurt cluster's compensation machinery by mirroring, almost provision-for-provision, the Diyat payment and disbursement mechanics already built in the Qatl Core module under S.330/331 — the same instalment period (5 years), the same three-track non-payment enforcement menu (jail/bail/parole), and the same estate-survival rule on the convict's death. The genuinely distinct feature here is S.337Y's Daman valuation criteria: unlike Arsh (which follows the fixed fractional schedule just built across S.337Q–V) or Diyat (which follows S.323's silver-weight formula), Daman is explicitly calibrated to three concrete, case-specific factors — actual treatment costs, functional/organ impact, and the victim's anguish — giving courts genuine discretion to tailor the compensation amount to the individual victim's actual circumstances rather than applying a fixed formula.",
+      "cite": "S.337X, S.337Y, and S.337Z PPC — official text. Cross-reference Qatl Core module S.330/331 — the structurally near-identical Diyat payment and disbursement mechanics.",
+      "ll": "S.337X, S.337Y, S.337Z PPC — official text",
+      "section": "337",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A court must determine the Daman owed to a victim who suffered Ghayr-Jaifah-Mudihah hurt (bone exposed, body wound). Apply S.337Y(1). What three factors must the court weigh in fixing the amount?",
+          "reveal": "The court weighs: the expenses incurred on the victim's treatment; the loss or disability caused in the functioning or power of any organ; and compensation for the anguish suffered by the victim. Unlike Arsh, which follows the fixed fractional schedule built across S.337Q through S.337V, Daman is explicitly a discretionary, case-specific calculation tailored to these three concrete factors rather than a pre-set formula.",
+          "cite": "S.337Y(1)(a)-(c) PPC — the three factors governing judicial determination of Daman, distinct from Arsh's fixed fractional schedule."
+        },
+        {
+          "q": "A convict ordered to pay Arsh in instalments dies before completing payment, having paid only a portion. Apply S.337X(3). What happens to the remaining unpaid Arsh, and how does this compare to the equivalent rule for unpaid Diyat under S.331(3)?",
+          "reveal": "The remaining unpaid Arsh is recovered from the convict's estate, per S.337X(3) — textually and structurally identical to S.331(3)'s rule for unpaid Diyat in the Qatl Core module. Both provisions treat the underlying compensation obligation (Arsh or Diyat) as a debt that survives the convict's death and becomes a claim against their estate, rather than being extinguished by death, consistent with the broader pattern already noted in the Punishments module's S.70 (fine surviving the offender's death).",
+          "cite": "S.337X(3) PPC vs S.331(3) PPC (Qatl Core module) — structurally identical estate-recovery rules for unpaid Arsh and unpaid Diyat respectively."
+        },
+        {
+          "q": "A victim of hurt dies from an unrelated cause years after receiving a Qisas/Arsh judgment, before Arsh or Daman has been fully disbursed. Apply S.337Z. Who receives the remaining compensation?",
+          "reveal": "The victim's heirs, according to their respective shares in inheritance — S.337Z expressly provides that Arsh or Daman is payable to the victim, or, if the victim has died, to their heirs according to inheritance shares, mirroring the same heir-distribution logic already seen in S.330 for Diyat disbursement in the Qatl context. The compensation obligation does not lapse or revert to the offender simply because the original victim is no longer alive to receive it personally.",
+          "cite": "S.337Z PPC — disbursement to heirs by inheritance share where the victim has died, paralleling S.330 PPC (Qatl Core module)."
+        }
+      ]
+    },
+    {
+      "id": "S338D_E",
+      "name": "Confirmation of Death/Qisas Sentences; Waiver and Compounding of Chapter XVI Offences",
+      "sub": "S.338D/338E PPC — closing procedural safeguards for the whole chapter",
+      "step": "Element 12 of 14",
+      "atom": "S338D_E",
+      "desc": "S.338D requires High Court confirmation before any death sentence (whether by Qisas or Ta'zir) or any Qisas sentence for hurt can actually be executed. S.338E extends the waiver/compounding mechanism (S.309, 310, and 311, applied mutatis mutandis) to all offences under this entire Chapter — not just Qatl specifically — with the court retaining discretion to acquit or award Ta'zir according to the nature of the offence once waived/compounded, subject to the same 2016 fasad-fil-arz override requiring the court to impose imprisonment or fine where that principle is attracted.",
+      "legal": "S.338D is a chapter-wide safeguard ensuring no death sentence or hurt-Qisas sentence becomes final and executable without independent High Court review, regardless of which specific provision within Chapter XVI produced that sentence. S.338E is the provision that explains why the S.309/310/311 framework, built in detail in the Qatl Core module specifically for Qatl, also governs waiver and compounding for Hurt offences — the 'mutatis mutandis' (with necessary modifications) language signals that the same waiver/compounding/fasad-fil-arz-override structure applies across the whole chapter, adapted as needed for the specific offence (for example, the victim themselves typically being the relevant party for hurt, per S.337O, rather than heirs as the primary holders).",
+      "cite": "S.338D and S.338E PPC, the 2016 fasad-fil-arz proviso added by Act XLIII of 2016 — official text. Cross-reference S.309/310/311 PPC (Qatl Core module and Murder module, S.311 corrected this session) — the framework S.338E extends chapter-wide.",
+      "ll": "S.338D, S.338E PPC — official text",
+      "section": "338",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A trial court sentences an offender to death as Ta'zir for Qatl-i-Amd. Apply S.338D. Can this sentence be carried out immediately once the trial court's judgment is final?",
+          "reveal": "No. S.338D requires that any sentence of death — whether awarded by way of Qisas or Ta'zir — must be confirmed by the High Court before it can be executed. This applies regardless of which specific Chapter XVI provision produced the death sentence (S.302 Qisas/Ta'zir for Qatl-i-Amd, or S.311's mandatory life-imprisonment proviso would not trigger this since that is life imprisonment rather than death, but any actual death sentence under the chapter requires this additional High Court confirmation layer before execution).",
+          "cite": "S.338D PPC — mandatory High Court confirmation for any death sentence under Chapter XVI, regardless of whether by Qisas or Ta'zir."
+        },
+        {
+          "q": "A victim of Itlaf-i-Udw (hurt, not Qatl) wishes to waive their right of Qisas against the offender. The waiver provisions in S.309 were built specifically in the context of Qatl in the Qatl Core module. Does S.309 apply to this hurt scenario at all?",
+          "reveal": "Yes, via S.338E specifically — this section extends S.309 (along with S.310 and S.311), 'mutatis mutandis,' to all offences under the entire Chapter XVI, not merely Qatl. The victim of Itlaf-i-Udw can therefore waive their right of Qisas using the same underlying waiver mechanism originally built for Qatl, adapted as necessary (for example, the victim themselves being the relevant waiving party here, consistent with S.337O's victim-as-primary-wali rule for hurt, rather than heirs as would be the case for Qatl).",
+          "cite": "S.338E(1) PPC — extending S.309/310/311 'mutatis mutandis' to all Chapter XVI offences, including Hurt."
+        },
+        {
+          "q": "A victim waives their right of Qisas for a hurt offence under S.338E. The court, exercising its discretion under S.338E's first proviso, considers acquitting the offender entirely. Could the 2016 fasad-fil-arz proviso override this discretion?",
+          "reveal": "Yes, if fasad-fil-arz is attracted on the facts. S.338E's second proviso (added 2016) specifically states that where an offence under this Chapter has been committed and the principle of fasad-fil-arz is attracted, the court 'shall' (mandatory language) punish the offender with imprisonment or fine as provided for that offence — removing the court's otherwise-available discretion to acquit despite the victim's waiver. This is the Hurt-cluster equivalent of S.311's override of family forgiveness in the Qatl context, now confirmed to operate chapter-wide via S.338E rather than being confined to homicide alone.",
+          "cite": "S.338E(1) PPC second proviso (2016) — mandatory punishment overriding waiver/compounding discretion where fasad-fil-arz is attracted, extending S.311's logic chapter-wide."
+        }
+      ]
+    },
+    {
+      "id": "S338F_H",
+      "name": "Interpretation, Rules, and Saving Provisions",
+      "sub": "S.338F/338G/338H PPC — chapter-closing administrative provisions",
+      "step": "Element 13 of 14",
+      "atom": "S338F_H",
+      "desc": "S.338F directs courts to be guided by the Injunctions of Islam as laid down in the Quran and Sunnah when interpreting and applying this entire Chapter, and in matters ancillary to it. S.338G empowers Government, in consultation with the Council of Islamic Ideology, to make rules carrying out the Chapter's purposes — with a 2010-added sub-section specifically empowering the Federal Government to establish a non-lapsable, tax-exempt fund for paying Diyat/Arsh/Daman on behalf of poor convicts otherwise confined for non-payment, including soft loans, parole release mechanisms, and victim-protection rules. S.338H is a saving clause: except for S.309, 310, and 338E, nothing in this Chapter applies retroactively to cases or offences predating the 1990 Ordinance that introduced the modern Qisas/Diyat framework.",
+      "legal": "These three closing sections are administrative/interpretive rather than substantive, but each carries real significance: S.338F's interpretive instruction confirms that the entire elaborate Qisas/Diyat/Arsh/Daman architecture built throughout this and the Qatl Core module is to be understood and applied with continuous reference back to Islamic legal sources, not merely as a self-contained secular statutory scheme. S.338G's 2010 poverty-relief fund addition is a notable, comparatively recent humanitarian intervention recognising that the elaborate compensation framework could otherwise simply convert into indefinite imprisonment for poor convicts unable to pay Diyat/Arsh/Daman — directly softening the harshness of the S.331/337X non-payment-imprisonment mechanism for those without means. S.338H's saving clause confirms the entire modern Qisas/Diyat/Arsh/Daman framework only applies prospectively from the 1990 Ordinance onward, except for the waiver/compounding provisions which apply even to older pending cases.",
+      "cite": "S.338F, S.338G (2010 fund provisions added by Act XV of 2010), and S.338H PPC — official text.",
+      "ll": "S.338F, S.338G, S.338H PPC — official text",
+      "section": "338",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A convict, too poor to pay the Diyat ordered against them, faces indefinite jail time under S.331(2)'s non-payment mechanism. Apply S.338G(2). What relief mechanism might this convict access?",
+          "reveal": "Under S.338G(2), the Federal Government may make rules establishing a non-lapsable, tax-exempt fund specifically for making Diyat/Arsh/Daman payments on behalf of poor convicts confined for non-payment, extending soft loans from that fund, enabling parole release for those who have served their substantive sentence but remain jailed only for non-payment, and providing job placement to help convicts repay any loans extended. This 2010 addition directly addresses the harshness that the S.331/337X non-payment-imprisonment mechanism would otherwise impose indefinitely on genuinely poor convicts.",
+          "cite": "S.338G(2) PPC, added 2010 — poverty-relief fund, soft loans, and parole mechanisms softening the non-payment-imprisonment consequence."
+        },
+        {
+          "q": "An offence under Chapter XVI was committed and the case was already pending before a court in 1988, two years before the 1990 Ordinance introduced the modern Qisas/Diyat framework. Apply S.338H. Does the new Qisas/Diyat/Arsh/Daman framework apply to this pending case?",
+          "reveal": "No, with one narrow exception. S.338H's saving clause provides that nothing in this Chapter, except S.309, S.310, and S.338E, applies to cases pending before any court immediately before the 1990 Ordinance's commencement, or to offences committed before that commencement. This 1988 case would therefore continue to be governed by whatever pre-1990 legal framework applied at the time, EXCEPT that the waiver and compounding mechanisms (S.309, S.310, and S.338E specifically) would still be available even to this older case, since those three provisions are expressly carved out from the saving clause's general non-retroactivity rule.",
+          "cite": "S.338H PPC — general non-retroactivity to pre-1990 cases, with S.309/310/338E specifically excepted and therefore still applicable."
+        },
+        {
+          "q": "Why might the legislature have specifically excepted S.309, S.310, and S.338E (the waiver/compounding provisions) from the general non-retroactivity rule in S.338H, while leaving the rest of the modern Qisas/Diyat framework non-retroactive?",
+          "reveal": "Allowing waiver and compounding to apply even to older, pre-1990 pending cases gives parties in those older cases the benefit of a potentially more favourable resolution mechanism (family-level forgiveness or compensation-based settlement) without requiring the court to retroactively reconstruct the entire modern Qisas/Diyat/Arsh/Daman substantive framework for an offence that occurred under a different legal regime. This targeted exception reflects a practical and arguably humanitarian legislative choice: extend the benefit of settlement mechanisms broadly, while keeping the more complex substantive punishment architecture's application clearly bounded to offences and cases arising after the 1990 reform.",
+          "cite": "S.338H PPC — rationale for excepting the waiver/compounding mechanisms specifically from the general non-retroactivity rule."
+        }
+      ]
+    }
+  ]
+}

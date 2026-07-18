@@ -1,0 +1,106 @@
+{
+  "id": "unnatural",
+  "name": "Unnatural Offences",
+  "section": "S.377–377B PPC",
+  "formula": "Penetration-Based (1860) + Non-Penetrative/Minor-Specific (2016/2018)",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S377",
+      "name": "Unnatural Offences — Carnal Intercourse Against the Order of Nature",
+      "sub": "S.377 PPC — the original 1860 provision, penetration-based",
+      "step": "Element 1 of 3",
+      "atom": "S377",
+      "desc": "Whoever voluntarily has carnal intercourse against the order of nature with any man, woman, or animal, is punished with life imprisonment, or imprisonment of either description for a term not less than 2 nor more than 10 years, plus fine. The Explanation states penetration is sufficient to constitute the carnal intercourse necessary for this offence — no further act beyond penetration itself is required.",
+      "legal": "S.377 is one of the oldest, unaltered-in-core-substance provisions in this part of the Code, carrying forward language largely unchanged since 1860 (only the transportation-to-life-imprisonment terminology update of 1972, and a 1980 amendment converting an open-ended ceiling into a defined 2–10 year range, have touched this section). The section is voluntariness-based (cross-referencing General Explanations S.39) and penetration-based (per its own Explanation) — it does not require force, lack of consent, or any of the seven circumstances S.375 (Rape) requires, meaning S.377 and S.375 are structurally independent offences with different elements, even though both can apply to overlapping factual conduct in some cases. S.377 notably applies regardless of the victim's gender (man or woman) and extends even to animals, a scope considerably broader than S.375's specifically gendered framework.",
+      "cite": "S.377 PPC and its Explanation — official text, terminology updated 1972 and 1980. Cross-reference General Explanations S.39 (Voluntarily) — the voluntariness standard this section's actus reus depends on. Cross-reference Rape module S.375 — structurally independent offence with different elements, despite some potential factual overlap.",
+      "ll": "S.377 PPC — official text",
+      "section": "377",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.377–377B specifically as of this build. Flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A and B, both adults, voluntarily engage in conduct falling within S.377's definition, with full mutual consent and no force involved on either side. Does the presence of mutual consent provide a defence to S.377, the way absence of consent is a required element under S.375 Rape?",
+          "reveal": "No — S.377's text contains no consent-based element or exception at all; it criminalises the voluntary act itself ('whoever voluntarily has carnal intercourse against the order of nature'), with voluntariness referring to the actor's own state per General Explanations S.39, not to the other party's consent or willingness. This is a structural difference from S.375 Rape, where absence of consent (or one of the seven specific circumstances) is itself a required element of the offence. Mutual willingness between the parties does not, on the text of S.377 itself, provide a defence.",
+          "cite": "S.377 PPC — no consent-based element or exception in the section's text, distinguishing it structurally from S.375 Rape's consent-centred framework."
+        },
+        {
+          "q": "How does S.377's own Explanation ('penetration is sufficient to constitute the carnal intercourse necessary to the offence') compare to S.375's definition, which lists four distinct types of prohibited acts (penile penetration, object/body-part insertion, manipulation causing penetration, oral contact)?",
+          "reveal": "S.377's Explanation sets a comparatively narrow completion threshold — penetration alone is sufficient, and the section does not itemise multiple distinct categories of prohibited act the way S.375 does. S.375, by contrast, defines rape through four distinct, disjunctively-listed categories of conduct (S.375(a)–(d)), each independently sufficient. The two sections use different definitional architectures entirely — S.377's single penetration-sufficiency Explanation versus S.375's four-category structure — reflecting that they were drafted in different eras (1860 original vs largely 2016/2021 amendments) with different drafting conventions.",
+          "cite": "S.377 PPC's single-Explanation penetration-sufficiency standard vs S.375 PPC's four-category disjunctive definitional structure (Rape module) — different drafting eras and architectures."
+        },
+        {
+          "q": "S.377 extends to carnal intercourse with 'any man, woman, or animal.' Does this mean an act involving an animal is treated identically, for punishment purposes, to an act involving a human victim under this section?",
+          "reveal": "Yes, under S.377's own text, the punishment provision applies uniformly regardless of whether the act involved a man, woman, or animal — the section does not differentiate punishment based on which of the three categories was involved. This is a notable feature of S.377's drafting: a single punishment range (life imprisonment, or 2–10 years, plus fine) applies across all three categories named in the section, without the kind of victim-category-based punishment tiering seen elsewhere in this Code (for example, S.376(3)'s enhanced punishment specifically for rape of a minor or person with disability, in the Rape module).",
+          "cite": "S.377 PPC — uniform punishment range applying regardless of whether the act involved a man, woman, or animal, with no category-based tiering."
+        }
+      ]
+    },
+    {
+      "id": "S377A",
+      "name": "Sexual Abuse — The 2016 Non-Penetrative Provision",
+      "sub": "S.377A PPC — broadly drafted, no penetration required, victim under 18",
+      "step": "Element 2 of 3",
+      "atom": "S377A",
+      "desc": "Whoever employs, uses, forces, persuades, induces, entices, or coerces any person to engage in (or assist another to engage in) fondling, stroking, caressing, exhibitionism, voyeurism, or any obscene or sexually explicit conduct or simulation thereof — independently or alongside other acts, with or without consent — where the person is under 18, commits sexual abuse.",
+      "legal": "S.377A, inserted in 2016, fills a significant gap that S.377 and S.375 (Rape) both leave open: neither of those provisions captures non-penetrative sexual conduct directed at minors. S.377A's drafting is deliberately expansive on multiple dimensions — the list of prohibited conduct (fondling, stroking, caressing, exhibitionism, voyeurism, or any obscene/sexually explicit conduct, including mere simulation of such conduct) is broad and illustrative rather than narrowly technical; the list of culpable methods (employs, uses, forces, persuades, induces, entices, coerces) is similarly broad, capturing both forceful and manipulative/persuasive routes to the same result; and critically, the section applies 'with or without consent' — explicitly removing consent as a defence given the victim's age (under 18), reflecting the same protective logic underlying age-of-consent provisions generally (consistent with S.375's sixth circumstance, where consent of a person under 16 does not negate rape liability either).",
+      "cite": "S.377A PPC, inserted by Act X of 2016 — official text. Cross-reference Rape module S.375, sixth circumstance (consent of person under 16 immaterial) — the same protective logic of removing consent as a relevant factor where the victim is a minor, here extended to a broader range of non-penetrative conduct and a higher age threshold (under 18).",
+      "ll": "S.377A PPC — official text",
+      "section": "377A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An adult persuades a 16-year-old to engage in conduct falling within S.377A's list (for example, exhibitionism), and the minor appears to willingly participate with no force or coercion used. Apply S.377A. Does the minor's apparent willingness provide a defence?",
+          "reveal": "No — S.377A's text explicitly states the conduct is captured 'with or without consent' where the person is under 18. The minor's apparent willingness or consent is expressly made irrelevant by the section's own language, consistent with the broader principle (also seen in S.375's sixth circumstance for rape) that a minor's purported consent does not legitimise sexual conduct directed at them, given the protective purpose of these provisions.",
+          "cite": "S.377A PPC — 'with or without consent' language expressly removing consent as a relevant factor where the victim is under 18."
+        },
+        {
+          "q": "How does S.377A's introduction in 2016 relate to the gap that previously existed between S.377 (penetration-based) and S.375 Rape (also requiring specific penetrative or analogous acts)? What kind of conduct would have fallen into a legal gap before 2016?",
+          "reveal": "Before S.377A's 2016 insertion, non-penetrative sexual conduct directed at a minor — fondling, exhibitionism, voyeurism, or similar conduct falling short of the penetration S.377 requires or the specific acts S.375 enumerates — would not have been captured by either of those provisions specifically, potentially leaving such conduct to be addressed only through other, less precisely targeted offences (such as general assault/criminal force provisions, or outraging modesty under S.354, already built in the Criminal Force & Assault module) rather than a provision specifically calibrated to child sexual abuse. S.377A closes this specific gap by creating a dedicated, broadly-drafted offence targeting exactly this category of non-penetrative conduct against minors.",
+          "cite": "S.377A PPC's 2016 insertion closing a specific gap between S.377's penetration requirement and S.375's enumerated-acts requirement, for non-penetrative conduct against minors. Cross-reference S.354 PPC (Criminal Force & Assault module) as one of the less precisely targeted provisions that might otherwise have been relied upon before 2016."
+        },
+        {
+          "q": "S.377A's list of prohibited conduct includes 'simulation of such conduct.' What does this addition capture that the conduct itself, without simulation, would not?",
+          "reveal": "The simulation language extends liability to conduct that mimics or play-acts the prohibited categories (fondling, exhibitionism, etc.) without the conduct necessarily being 'real' in some narrower technical sense — for example, staged or performative conduct designed to simulate sexual activity for an audience or recording, even where the parties might argue the conduct was not a genuine instance of the named category but merely an imitation or performance of it. Including simulation prevents an obvious evasion strategy where an offender might argue their conduct was merely a simulation or performance rather than the 'real' prohibited act.",
+          "cite": "S.377A PPC's 'simulation of such conduct' language — closing a potential evasion route based on characterising conduct as merely performative or simulated rather than genuine."
+        }
+      ]
+    },
+    {
+      "id": "S377B",
+      "name": "Punishment for Sexual Abuse",
+      "sub": "S.377B PPC — the severely-amended 2018 punishment provision",
+      "step": "Element 3 of 3",
+      "atom": "S377B",
+      "desc": "Whoever commits the offence of sexual abuse (S.377A) is punished with imprisonment of either description for a term not less than 14 years and up to 20 years, and with fine not less than one million rupees.",
+      "legal": "S.377B's punishment was substantially amended in 2018 (Act XXVII of 2018), and the current verified figures represent a dramatic escalation: a genuine mandatory minimum of 14 years (not merely a possible low end of discretion) combined with a mandatory minimum fine of one million rupees — figures that place S.377A/377B's punishment severity on a level comparable to or exceeding several of the gravest offences elsewhere in this Code, including the corrosive-substance/acid-attack provision (S.336B, Hurt Part 1 module, which also carries a 14-year minimum) and several of the Kidnapping module's aggravated provisions. This reflects a clear, recent (2018) legislative judgment that sexual abuse of minors, as broadly defined in S.377A, warrants among the most severe punishment tiers in the entire PPC — a level of severity the original, narrower S.377 (2–10 years for the broader, adult-inclusive unnatural-offences provision) does not approach.",
+      "cite": "S.377B PPC, punishment substituted by Act XXVII of 2018 — official text. Cross-reference Hurt Part 1 module S.336A/336B (the acid-attack provision) — both share a 14-year mandatory minimum, situating S.377B among the most severely punished offences in the entire Code as currently verified.",
+      "ll": "S.377B PPC — official text",
+      "section": "377B",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Compare S.377's punishment range (life imprisonment, or 2–10 years, plus fine) to S.377B's punishment range (14–20 years, plus a minimum one-million-rupee fine). Both sections sit in the same small chapter. Why might the legislature have created such a stark disparity between the original 1860 provision and the 2016/2018 additions?",
+          "reveal": "The disparity reflects the substantially different conduct and victim categories each provision addresses, combined with a clear, recent legislative trend toward much harsher punishment specifically for child sexual abuse. S.377 is a broad, adult-inclusive, penetration-based provision dating to 1860 with only modest terminology updates since. S.377A/377B is a narrowly-targeted, 2016/2018 provision specifically protecting minors (under 18) from a broad range of non-penetrative sexual conduct, and the legislature in 2018 deliberately set its punishment floor (14 years, plus the substantial mandatory fine) far above S.377's own range — consistent with the broader, repeatedly observed pattern across this entire build of recent legislative amendments imposing mandatory minimums specifically to remove judicial leniency in cases involving serious harm to vulnerable victims, particularly children.",
+          "cite": "S.377 PPC (1860, 2–10 years) vs S.377B PPC (2018, 14–20 years mandatory floor) — reflecting both different target conduct/victims and a recent, deliberate legislative severity escalation specifically protecting minors."
+        },
+        {
+          "q": "A court convicts an offender under S.377A for conduct involving a 17-year-old victim, with no aggravating factors beyond what S.377A itself already requires. Does the court have any discretion to impose a sentence below 14 years, given mitigating circumstances the court might otherwise wish to consider?",
+          "reveal": "No — S.377B's text sets a genuine mandatory minimum ('shall not be less than fourteen years'), removing judicial discretion to sentence below that floor regardless of mitigating circumstances the court might otherwise weigh. This mirrors the same mandatory-minimum pattern already traced extensively across this app (S.311, S.324, S.336B, S.337M(2), all discussed in the Theories of Punishment module's Evolutionary Arc element) — S.377B is a further, particularly severe example of the broader legislative trend toward removing downward sentencing discretion for offences involving serious harm to vulnerable victims.",
+          "cite": "S.377B PPC — genuine mandatory 14-year minimum, no judicial discretion to sentence below it. Cross-reference Theories of Punishment Evolutionary Arc element — a further example of the broader mandatory-minimum legislative pattern traced there."
+        },
+        {
+          "q": "Does S.377B's punishment apply only to the specific instance of sexual abuse proven, or could an offender who commits the conduct against multiple victims, or on multiple occasions against the same victim, face cumulative or enhanced liability?",
+          "reveal": "S.377B's text, as verified, prescribes the punishment for 'the offence of sexual abuse' without itself addressing multiple-victim or repeat-occurrence scenarios specifically — unlike, for example, S.338C's explicit multiple-fetus proviso (Isqat module) which expressly directs separate liability for each affected child. Whether multiple instances or victims would generate cumulative punishment would likely be assessed under the general principles already built in this app (S.71 in the Punishments module, governing punishment for offences made up of multiple acts or affecting multiple distinct victims) rather than through any S.377A/377B-specific multiple-victim provision, since the text itself does not supply one.",
+          "cite": "S.377B PPC — no explicit multiple-victim/multiple-occurrence provision in the text itself; general S.71 PPC principles (Punishments module) would likely govern cumulative liability questions instead, in the absence of a specific provision."
+        }
+      ]
+    }
+  ]
+}

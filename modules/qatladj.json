@@ -1,0 +1,99 @@
+{
+  "id": "qatladj",
+  "name": "Qatl-Adjacent Provisions",
+  "section": "S.324, S.326-329 PPC",
+  "formula": "Independent Offences — No Type-Selection Logic",
+  "type": "accordion",
+  "els": [
+    {
+      "id": "S324",
+      "name": "Attempt to Commit Qatl-i-Amd",
+      "sub": "S.324 PPC — the specific Qatl-i-Amd attempt provision, with honour-killing floor",
+      "step": "Element 14 of 17",
+      "atom": "S324",
+      "desc": "Whoever does any act with such intention or knowledge, and under such circumstances, that had the act caused Qatl they would be guilty of Qatl-i-Amd, is punished with imprisonment up to 10 years — but not less than 5 years where the offence was committed in the name or on the pretext of honour — and is also liable to fine. Where hurt is additionally caused by the act, the offender faces the punishment for that hurt on top of this attempt punishment; and where the hurt's own punishment would be Qisas that is not executable, the offender instead faces Arsh liability plus up to 7 years' additional imprisonment.",
+      "legal": "S.324 is the specific Qatl-i-Amd attempt provision already cross-referenced in the Stages of Crime foundation module's discussion of S.307/S.511 — this is the actual verified text of S.324, distinct from S.307 (which the Stages of Crime module correctly identifies as covering attempted murder generally; S.324 is the PPC's parallel, Chapter-XVI-specific attempt provision tied to the Qatl-i-Amd framework specifically). The 2005-inserted mandatory minimum of 5 years for honour-motivated attempts is structurally identical in purpose to S.311's honour-killing override for completed Qatl — ensuring that even an unsuccessful honour-motivated killing attempt cannot result in an unduly lenient sentence within the general 0–10-year range.",
+      "cite": "S.324 PPC, honour-killing minimum inserted by Act I of 2005 — official text. Cross-reference Stages of Crime foundation module (S.307/S.511 general attempt framework) and S.311 PPC (honour-killing override for completed Qatl, corrected this session).",
+      "ll": "S.324 PPC — official text",
+      "section": "324",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A stabs Z with the specific intent to kill Z, satisfying what would be S.300 Clause 1 Niyyat had death resulted. Z survives. The killing was not honour-motivated. Apply S.324. What is A's punishment exposure?",
+          "reveal": "A faces imprisonment up to 10 years and is also liable to fine — the general tier under S.324, since the honour-killing minimum proviso does not apply on these facts. If Z also suffered hurt from the stabbing (which is likely on these facts), A additionally faces whatever punishment is provided for that specific hurt, layered on top of the attempt punishment, per S.324's own text addressing the 'if hurt is caused' scenario.",
+          "cite": "S.324 PPC general tier (up to 10 years, fine) plus the additional hurt-punishment layering where hurt actually results from the attempt."
+        },
+        {
+          "q": "How does S.324's honour-killing minimum (not less than 5 years) interact with S.311's honour-killing override for completed Qatl (mandatory life imprisonment), already corrected in the Murder module this session? Are these the same mechanism applied at different stages, or genuinely different mechanisms?",
+          "reveal": "They are related but structurally different mechanisms operating at different stages of the same underlying policy concern. S.311 operates only after a completed Qatl-i-Amd where Qisas has been waived/compounded or fasad-fil-arz is attracted, converting the court's general Ta'zir discretion (death/life/up to 14 years) into a mandatory single outcome (life imprisonment) specifically for honour cases. S.324 operates at the attempt stage, where no death has occurred at all, and instead of overriding a waiver/compounding mechanism (which has no application to an unsuccessful attempt), it simply raises the floor of the available sentencing range from 0–10 years to 5–10 years for honour-motivated attempts. Both reflect the same 2005/2016-era legislative concern with ensuring honour-motivated violence cannot escape with minimal punishment, but S.311 acts on the waiver mechanism specifically while S.324 acts directly on the sentencing range for an inchoate offence.",
+          "cite": "S.324 PPC honour-minimum (sentencing floor for attempt) vs S.311 PPC honour-override (mandatory outcome overriding waiver/compounding for completed Qatl) — related policy, distinct mechanisms."
+        },
+        {
+          "q": "The hurt caused by the attempted Qatl would itself ordinarily attract Qisas, but that Qisas is not executable on the facts (for example, because the offender is a minor, per the General Exceptions/S.306-style logic). Apply S.324's proviso. What happens to the offender's liability for the hurt component?",
+          "reveal": "S.324's proviso specifically addresses this: where the punishment for the hurt would be Qisas which is not executable, the offender is instead liable to Arsh (the Chapter XVI compensation category for hurt, parallel to Diyat for Qatl) and may additionally be punished with imprisonment of either description up to 7 years. This mirrors the same Qisas-to-Diyat/Ta'zir fallback logic already seen in S.308 for completed Qatl, applied here specifically to the hurt component of an attempted Qatl where that hurt's own Qisas track is unavailable.",
+          "cite": "S.324 PPC proviso — Arsh plus up to 7 years' imprisonment substituting for unexecutable Qisas on the hurt component of an attempted Qatl."
+        }
+      ]
+    },
+    {
+      "id": "S326_327",
+      "name": "Thug",
+      "sub": "S.326/327 PPC — habitual association for robbery or child-stealing by Qatl",
+      "step": "Element 15 of 17",
+      "atom": "S326_327",
+      "desc": "A Thug is whoever has been habitually associated with one or more others for the purpose of committing robbery or child-stealing, by means of or accompanied with Qatl. The offence of being a Thug is punished with life imprisonment and liability to fine.",
+      "legal": "S.326/327 is a status-based offence rather than an act-based one in the conventional sense — it punishes habitual association for a specific predatory purpose combining property crime or child-stealing with killing, rather than any single identifiable criminal act in isolation. This is a historically significant but now rarely-invoked colonial-era provision targeting organised criminal banditry of a specific historical character (the 'Thuggee' phenomenon the British colonial administration targeted through specialised legislation in the 19th century); its retention in the modern PPC means it remains technically available, though it would now typically overlap substantially with Criminal Conspiracy (S.120-A), Dacoity, and the Qatl provisions themselves for any modern fact pattern resembling organised banditry combined with killing.",
+      "cite": "S.326 and S.327 PPC — official text.",
+      "ll": "S.326, S.327 PPC — official text",
+      "section": "326",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "What is the precise structural difference between S.326's 'Thug' offence and a straightforward charge of Criminal Conspiracy (S.120-A) to commit robbery accompanied by Qatl?",
+          "reveal": "S.120-A Criminal Conspiracy requires only an agreement (the actus reus is the agreement itself, complete at formation) between two or more persons to commit an illegal act or a legal act by illegal means — it can be established from a single agreement, even a one-time arrangement. S.326's Thug offence instead requires habitual association — a pattern of repeated, ongoing association for the specific combined purpose of robbery or child-stealing accompanied by Qatl, not a single agreement or a single criminal episode. A person could be guilty of Criminal Conspiracy for a single planned robbery-with-killing without ever being a 'Thug' under S.326, which requires the habitual, repeated character of the association.",
+          "cite": "S.326 PPC (habitual association requirement) vs S.120-A PPC (single-agreement sufficiency) — distinct thresholds despite potential factual overlap."
+        },
+        {
+          "q": "Why might a modern prosecutor today choose to charge an organised criminal gang under the specific provisions for Robbery, Dacoity, and Qatl, rather than relying on the S.326 Thug provision, even where the gang's conduct technically fits S.326's definition?",
+          "reveal": "The specific offence-by-offence provisions (Robbery/Dacoity under S.390/395, the Qatl framework under S.300–324) allow precise, fact-specific charging that maps each act to its own clearly defined elements and evidentiary requirements, whereas S.326's habitual-association standard requires proving an ongoing pattern of association for a specific combined purpose — a potentially harder and less commonly litigated evidentiary burden in modern practice, where the specific-offence provisions have far more developed case law and procedural familiarity among courts and prosecutors than the now largely historical Thug provision.",
+          "cite": "S.326 PPC as a comparatively underused, historically-rooted provision relative to the more commonly charged specific offence provisions covering the same underlying conduct."
+        },
+        {
+          "q": "Does S.326 require that the Thug personally commit the Qatl, or can habitual association with others who carry out the killing while the Thug performs a different role (such as planning or fencing stolen property) satisfy the section?",
+          "reveal": "S.326's text defines a Thug as a person 'habitually associated with any other or others' for the purpose of committing robbery or child-stealing 'by means of or accompanied with qatl' — the definition centres on habitual association for the combined criminal purpose, not on personally performing the killing. This suggests a person who consistently participates in the broader criminal enterprise (whatever their specific role within it) while that enterprise habitually combines robbery/child-stealing with Qatl could fall within the definition, though as with most group-offence provisions in this app, the precise allocation of liability for the underlying Qatl itself would still need separate analysis under the Common Intention (S.34) or Abetment (S.107–120) frameworks already built elsewhere in this app.",
+          "cite": "S.326 PPC — status defined by habitual association for the combined purpose, with separate liability analysis for the underlying Qatl itself via Common Intention S.34 or Abetment S.107–120."
+        }
+      ]
+    },
+    {
+      "id": "S328_329",
+      "name": "Exposure and Abandonment of a Child; Cruelty to a Child; Concealment of Birth",
+      "sub": "S.328/328A/329 PPC — child welfare provisions within the homicide-adjacent cluster",
+      "step": "Element 16 of 17",
+      "atom": "S328_329",
+      "desc": "S.328 punishes a parent or carer who exposes or abandons a child under 12 with intent to wholly abandon them, with up to 7 years' imprisonment, fine, or both — its Explanation expressly preserves separate liability for Qatl-i-Amd, Qatl Shibh-i-Amd, or Qatl Bis-Sabab if the child actually dies as a consequence of the exposure. S.328A (inserted 2016) separately punishes wilful cruelty to a child — assault, ill-treatment, neglect, abandonment, or any act/omission causing or risking physical or psychological harm — with a mandatory minimum of 1 year up to 3 years' imprisonment, and a mandatory minimum fine of Rs. 25,000 up to Rs. 50,000. S.329 punishes concealment of a child's birth (whether the child died before, during, or after birth) through secret burial or disposal of the body, with up to 2 years, fine, or both.",
+      "legal": "These three sections form a child-protection cluster sitting within the broader Chapter XVI homicide framework, each addressing a distinct wrong: S.328 addresses abandonment with intent (a freestanding offence even if the child survives, but explicitly not displacing a separate, more serious Qatl charge if death results); S.328A, a comparatively recent 2016 addition, addresses ongoing cruelty more broadly, including psychological harm, reflecting modern child-welfare concerns beyond the immediate life/death stakes of the rest of this cluster; and S.329 addresses concealment of an infant's death/birth through secret disposal, a distinct evidentiary-obstruction wrong that exists independently of whatever caused the child's death in the first place.",
+      "cite": "S.328 and its Explanation, S.328A (inserted by Act X (Second Amdt.) of 2016), and S.329 PPC — official text.",
+      "ll": "S.328, S.328A, S.329 PPC — official text",
+      "section": "328",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A parent abandons their 8-year-old child in a remote location with clear intent to permanently abandon the child. The child is later found to have died as a consequence of the exposure. Apply S.328's Explanation. Does the parent's liability stop at the S.328 abandonment offence?",
+          "reveal": "No. S.328's own Explanation expressly states the section 'is not intended to prevent the trial of the offender for qatl i amd or qatl i shibh i amd or qatl bis sabab, as the case may be, if the child dies in consequence of the exposure.' The parent faces potential liability under whichever of the Qatl categories the facts support (depending on their mental state and the causal mechanism of death), in addition to or instead of the standalone S.328 abandonment offence — S.328 does not cap or substitute for the more serious homicide liability that may also arise from the same underlying conduct.",
+          "cite": "S.328 PPC Explanation — expressly preserving separate Qatl liability where the abandoned child dies as a consequence."
+        },
+        {
+          "q": "How does S.328A's 2016 cruelty-to-a-child offence differ in scope from S.328's abandonment offence — could the same parent face liability under both for a single course of conduct?",
+          "reveal": "S.328 is narrowly targeted at exposure or abandonment specifically with the intention of wholly abandoning the child, limited to children under 12. S.328A is considerably broader: it covers wilful assault, ill-treatment, neglect, abandonment, or any act/omission causing or risking physical or psychological harm, without the same narrow age ceiling or the specific 'intent to wholly abandon' requirement — it could capture ongoing patterns of neglect or psychological cruelty that never amount to a single act of total abandonment. A single course of conduct involving an actual abandonment with intent could potentially satisfy both S.328 (if under-12 and total-abandonment intent is shown) and S.328A (since abandonment is also expressly listed among the cruelty categories), raising the same kind of cumulative-versus-single-punishment question already explored under S.71 in the Punishments module.",
+          "cite": "S.328 PPC (narrow: under-12, total-abandonment intent) vs S.328A PPC (broad: assault/ill-treatment/neglect/abandonment/harm-risk, no stated age ceiling) — potential overlap raising S.71-style cumulative-punishment questions."
+        },
+        {
+          "q": "A child dies during childbirth due to entirely natural causes with no wrongdoing by anyone. The mother, in shock and fear of social stigma, secretly buries the body without reporting the birth or death to any authority. Apply S.329. Is the mother liable, even though no one caused the child's death wrongfully?",
+          "reveal": "Yes, potentially. S.329's text covers concealment of birth 'whether such child dies before or after or during its birth' through secret burial or disposal with intent to conceal the birth — the section does not require that the death itself have been wrongfully caused by anyone. The wrong S.329 specifically targets is the concealment of the birth/death through secret disposal, which is a distinct wrong from causing the death itself, meaning even a natural, blameless death can still give rise to S.329 liability if the birth is then concealed through secret disposal of the body.",
+          "cite": "S.329 PPC — concealment-of-birth offence applies regardless of whether the child's death itself was wrongfully caused, focusing instead on the secret-disposal concealment."
+        }
+      ]
+    }
+  ]
+}

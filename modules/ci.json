@@ -3,7 +3,6 @@
   "name": "Common Intention",
   "section": "S.34 PPC",
   "formula": "∀ x ∈ Group: CI(x) ∧ Act ∧ Furtherance(x)  →  Liability(x)",
-  "operator": "∀ Universal Quantifier",
   "type": "sequential",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "S.34 PPC — shared purpose, all members",
       "step": "Element 1 of 3",
       "atom": "CI",
-      "operator": "",
       "desc": "All members of the group must share the common intention. It need not be pre-arranged — it can develop on the spot. But it must be shared by all, not merely by some.",
       "legal": "Common intention is inferred from conduct. It can crystallise at the scene. However the intention must be shared by all members, not just some. A person who secretly pursues a different goal is not bound by the common intention of the group.",
       "cite": "PLD 2001 SC 378 — common intention requires prior concert. 1981 SCMR 308 — can develop on the spot.",
       "ll": "S.34 PPC — official text",
       "section": "34",
-      "landmark": [],
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "PLD 2001 SC 378 (Muhammad Yaqoob v. State) — common intention requires prior concert. 1981 SCMR 308 — common intention can develop on the spot and evolve during commission.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "Three persons set out to commit robbery. One member, without the others knowing, intends to commit murder. Is that member alone liable for murder under S.34?",
@@ -43,7 +48,6 @@
       "sub": "S.34 PPC — by any member of the group",
       "step": "Element 2 of 3",
       "atom": "Act",
-      "operator": "",
       "desc": "The criminal act must actually be done — by any member of the group. S.34 is not an independent offence; it is a rule of joint liability that attaches to an underlying completed offence.",
       "legal": "S.34 has no independent existence — it must be read with a substantive offence. The act must be fully established as an offence in itself. If the underlying act is not criminal, S.34 has nothing to attach to.",
       "cite": "S.34 PPC — rule of evidence, not a substantive offence. Must be read with the principal offence charged.",
@@ -74,7 +78,6 @@
       "sub": "S.34 PPC — act done in furtherance of common intention",
       "step": "Element 3 of 3",
       "atom": "Fur",
-      "operator": "",
       "desc": "Each accused's participation must be in furtherance of the common intention. Mere presence at the scene is not enough. There must be active participation directed toward the shared goal.",
       "legal": "Furtherance requires more than passive presence. The accused must have done something that advanced the common purpose. Standing guard, blocking escape routes, providing a weapon, or actual participation all constitute furtherance.",
       "cite": "PLD 2001 SC 378 — mere presence insufficient. Active participation in furtherance required.",

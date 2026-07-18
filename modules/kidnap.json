@@ -1,0 +1,346 @@
+{
+  "id": "kidnap",
+  "name": "Kidnapping, Abduction, Slavery & Forced Labour",
+  "section": "S.359–374 PPC",
+  "formula": "Kidnapping/Abduction → Purpose-Based Aggravation → Slavery/Trafficking → Forced Labour",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S359_362",
+      "name": "Kidnapping and Abduction — The Two Foundational Definitions",
+      "sub": "S.359–362 PPC — status-based removal vs force/deceit-based inducement",
+      "step": "Element 1 of 13",
+      "atom": "S359_362",
+      "desc": "Kidnapping (S.359) is of two kinds: from Pakistan (S.360 — conveying a person beyond Pakistan's limits without their, or their lawful representative's, consent), and from lawful guardianship (S.361 — taking or enticing a minor under 14 if male or under 16 if female, or a person of unsound mind, out of their lawful guardian's keeping, without that guardian's consent). S.361's Explanation extends 'lawful guardian' to anyone lawfully entrusted with care/custody; its Exception excludes a person who in good faith believes themselves the father of an illegitimate child, or entitled to lawful custody, unless acting for an immoral or unlawful purpose. Abduction (S.362) is separately defined: compelling any person by force, or inducing them by deceitful means, to go from any place.",
+      "legal": "Kidnapping and Abduction are NOT the same offence, and this distinction matters throughout the entire chapter that follows. Kidnapping from lawful guardianship is fundamentally a status-based offence — it protects the guardian's custodial right over a minor or person of unsound mind, and critically does NOT require force, deceit, or even the minor's own lack of consent (a minor under the statutory age cannot legally consent to being taken, regardless of their personal willingness). Abduction, by contrast, applies to ANY person regardless of age or guardianship status, but requires either force or deceitful inducement as its defining mechanism. A person can be kidnapped without any abduction occurring (a minor willingly going with someone, still kidnapped if the guardian didn't consent), and a person can be abducted without being kidnapped (an adult deceived into leaving, with no guardianship relationship in play at all).",
+      "cite": "S.359, S.360, S.361 (with Explanation and Exception), and S.362 PPC — official text.",
+      "ll": "S.359–362 PPC — official text",
+      "section": "359",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "This module surfaces a third independent instance of the 1979-Hudood-Ordinance-gap-then-2006-Protection-of-Women-Act-restoration pattern already documented in the Rape Law Reform Arc — both S.365B (forced marriage/illicit intercourse, replacing the repealed S.366) and S.367A (unnatural lust, restoring language omitted from S.367) follow this same timeline independently. No additional verified Pakistani landmark case is logged against S.359–374 specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A 15-year-old girl, fully willing and with no force or deceit involved, leaves her parents' home to go live with an adult friend, without her parents' consent. Apply S.361. Has a kidnapping occurred, despite the girl's own willingness?",
+          "reveal": "Yes. S.361 protects the lawful guardian's custodial right, not the minor's own consent — a female under 16 (or male under 14) is, by the statute's own terms, legally incapable of consenting to removal from lawful guardianship in a way that defeats the offence. The girl's personal willingness to leave is simply not a relevant factor under S.361's definition; what matters is whether the lawful guardian consented, and on these facts they did not.",
+          "cite": "S.361 PPC — minor's personal consent or willingness is irrelevant; only the lawful guardian's consent matters."
+        },
+        {
+          "q": "A man, believing in good faith and with due care that he is the biological father of an illegitimate child, takes that child from the child's current caregiver without the caregiver's consent, for the legitimate purpose of raising the child himself. Apply S.361's Exception. Is this kidnapping?",
+          "reveal": "No — S.361's Exception specifically excludes this scenario: a person who in good faith believes himself to be the father of an illegitimate child, taking the child for a purpose that is neither immoral nor unlawful, falls outside the section's scope entirely. Had the same man taken the child for an immoral or unlawful purpose (the Exception's own proviso), the Exception would not apply, and ordinary S.361 liability would be assessed instead.",
+          "cite": "S.361 PPC Exception — good-faith belief in paternity, for a lawful and moral purpose, excluded from kidnapping liability."
+        },
+        {
+          "q": "A adult, through clever deception, convinces another adult Z to voluntarily travel to a remote location, where A then intends to harm Z. No force was used — Z went entirely of his own apparent free will, induced by the deceit. Apply S.362. Has abduction occurred, and would S.361 (kidnapping from lawful guardianship) apply to this same scenario?",
+          "reveal": "Abduction under S.362 is satisfied — Z was induced 'by deceitful means' to go from one place to another, which is precisely the second of S.362's two alternative mechanisms (force OR deceit). S.361 would NOT apply at all, since Z is an adult with no guardianship relationship in play — S.361 is specifically confined to minors under the stated ages and persons of unsound mind. This illustrates the core distinction: abduction can apply to any person via force or deceit; kidnapping from lawful guardianship is confined to a specific protected class regardless of force or deceit.",
+          "cite": "S.362 PPC (deceitful inducement of an adult, abduction) vs S.361 PPC (confined to minors/unsound mind, inapplicable here) — the core kidnapping/abduction distinction illustrated."
+        }
+      ]
+    },
+    {
+      "id": "S363",
+      "name": "Punishment for Kidnapping",
+      "sub": "S.363 PPC — the base punishment for both kinds of kidnapping",
+      "step": "Element 2 of 13",
+      "atom": "S363",
+      "desc": "Whoever kidnaps any person from Pakistan or from lawful guardianship is punished with imprisonment of either description up to 7 years, and is also liable to fine.",
+      "legal": "S.363 is the single punishment provision covering BOTH kinds of kidnapping defined in S.359–361 — unlike Abduction, which (notably) has no standalone general punishment section of its own at all. Abduction only becomes independently punishable when combined with one of the specific aggravating purposes addressed in S.364 onward (murder, grievous hurt, extortion, forced marriage, etc.) — simple abduction alone, without any of these further purposes, is not itself a freestanding offence under this chapter the way simple kidnapping is under S.363. This is a structurally important asymmetry worth flagging clearly.",
+      "cite": "S.363 PPC — official text. Cross-reference S.362 PPC — Abduction has no equivalent standalone base-punishment provision; it is only punished when combined with a specific aggravating purpose in S.364 onward.",
+      "ll": "S.363 PPC — official text",
+      "section": "363",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A abducts Z (using deceit, satisfying S.362) but for no further specific purpose at all — no intent to murder, extort, confine, or any other aggravating purpose named in S.364 onward. Is A independently liable under this chapter for the abduction alone?",
+          "reveal": "Not under any provision built in this module specifically for abduction. Unlike kidnapping, which S.363 punishes as a freestanding base offence regardless of further purpose, abduction has no equivalent standalone punishment provision — it only becomes punishable under this chapter when combined with one of the specific purposes addressed in S.364 (murder), S.365 (secret confinement), S.365A (extortion), S.365B (forced marriage/illicit intercourse), S.367 (grievous hurt/slavery), S.367A (unnatural lust), or S.369 (theft from a child). Pure abduction without any such purpose would need to be assessed under other, more general provisions (such as Wrongful Restraint/Confinement or Criminal Force, both already built) depending on exactly how the deceit or force was deployed.",
+          "cite": "S.362 PPC's absence of a standalone base punishment, contrasted with S.363's coverage of simple kidnapping — a genuine structural asymmetry in this chapter."
+        },
+        {
+          "q": "Why might the legislature have structured kidnapping as independently punishable on its own (S.363) while leaving abduction unpunished except when combined with a specific further purpose?",
+          "reveal": "Kidnapping from lawful guardianship protects a specific, clearly-defined custodial right that is violated the moment the minor is removed without consent, regardless of what happens afterward — the wrong is complete and self-contained at that point. Abduction, by definition, applies to any person of any age, using force or deceit to induce movement — a category broad enough that the legislature apparently judged it needed a further aggravating purpose to justify criminal punishment under this specific chapter, since 'inducing someone to go somewhere by deceit' standing entirely alone, without any further harmful purpose, may not by itself warrant the same automatic criminalisation that violating a guardian's custodial right does.",
+          "cite": "S.363 PPC vs S.362 PPC — rationale for kidnapping's self-contained punishability versus abduction's purpose-dependent punishability."
+        },
+        {
+          "q": "A kidnaps a 13-year-old boy from his lawful guardian's custody, intending no further harm whatsoever — simply wanting companionship. Apply S.363. What is A's punishment exposure, even with no aggravating purpose present?",
+          "reveal": "Up to 7 years' imprisonment of either description, and liability to fine, under S.363's base provision — since kidnapping from lawful guardianship under S.361 is independently punishable under S.363 regardless of A's further purpose. The absence of any aggravating intent (murder, extortion, etc.) means none of the more severely punished provisions in S.364 onward apply, but the base S.363 punishment still attaches simply by virtue of the kidnapping itself having occurred.",
+          "cite": "S.363 PPC — base 7-year punishment for kidnapping, applicable even absent any further aggravating purpose."
+        }
+      ]
+    },
+    {
+      "id": "S364_364A",
+      "name": "Kidnapping/Abducting in Order to Murder; the Under-14 Aggravated Variant",
+      "sub": "S.364/364A PPC — purpose-based aggravation tied to the gravest intended outcome",
+      "step": "Element 3 of 13",
+      "atom": "S364_364A",
+      "desc": "S.364 punishes kidnapping or abduction undertaken in order that the victim may be murdered, or disposed of so as to be put in danger of being murdered, with life imprisonment or rigorous imprisonment up to 10 years, plus fine. S.364A (inserted 1958, amended 1990) specifically addresses victims under 14: kidnapping/abducting such a child in order that they may be murdered, subjected to grievous hurt, slavery, or another's lust, or put in danger of any of these, carries death, life imprisonment, or rigorous imprisonment of 7–14 years (a mandatory minimum floor, not merely a ceiling) plus fine.",
+      "legal": "S.364 applies the abduction-plus-purpose structure to the gravest possible purpose (murder), and its own two Illustrations make clear the purpose-based test is satisfied by EITHER actual intent to have the victim murdered OR mere knowledge that disposing of them in a certain way creates danger of murder — the idol-sacrifice Illustration and the carrying-away-to-be-murdered Illustration both confirm this. S.364A is a significantly more severe, child-specific variant covering a WIDER range of aggravating purposes (murder, grievous hurt, slavery, OR another's lust) but confined to victims under 14 specifically — and unlike S.364's pure ceiling structure, S.364A imposes a genuine mandatory minimum (not less than 7 years) alongside its maximum, reflecting the same mandatory-floor legislative pattern already traced across multiple modules in this app's Theories of Punishment evolutionary layer.",
+      "cite": "S.364 PPC and its two Illustrations, S.364A PPC (inserted 1958, age threshold amended) — official text. Cross-reference Theories of Punishment module's new Evolutionary Arc element — S.364A's mandatory minimum fits the same Era 3 state-floor pattern traced there.",
+      "ll": "S.364, S.364A PPC — official text",
+      "section": "364",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A kidnaps Z from Pakistan, intending or knowing it likely that Z may be sacrificed to an idol. Apply S.364 and its own Illustration (a). Does the specific, somewhat unusual purpose (idol sacrifice) matter, or does any intended/foreseeable killing satisfy the section?",
+          "reveal": "Any intended or foreseeably likely killing satisfies S.364 — this is the Code's own Illustration (a), and the idol-sacrifice framing is simply a 19th-century example of one possible way a person might be 'disposed of... so as to be put in danger of being murdered.' The section's operative test is whether the kidnapping/abduction was undertaken with intent or knowledge that murder (in whatever specific form) might result; the particular method or motive behind the intended killing is not itself an element requiring separate proof.",
+          "cite": "S.364 PPC Illustration (a) — any form of intended or foreseeable killing satisfies the section, the specific method being illustrative rather than limiting."
+        },
+        {
+          "q": "A abducts an 8-year-old child specifically intending to subject the child to slavery (not murder, not grievous hurt, not lust). Apply S.364A. Does this fall within the section's scope, and what is the punishment exposure?",
+          "reveal": "Yes — S.364A's text covers a child under 14 abducted 'in order that such person may be murdered or subjected to grievous hurt, or slavery, or to the lust of any person' — slavery is one of the four named alternative purposes, each independently sufficient. The punishment is death, life imprisonment, or rigorous imprisonment of 7–14 years (note: 7 years is a genuine mandatory minimum here, not merely a possible low end of judicial discretion) plus fine — a markedly severe range reflecting the victim's young age combined with the gravity of slavery as an intended purpose.",
+          "cite": "S.364A PPC — slavery as one of four independently-sufficient aggravating purposes for the under-14 variant, with a genuine 7-year mandatory minimum."
+        },
+        {
+          "q": "How does S.364A's mandatory minimum (not less than 7 years) fit into the broader pattern already traced in the Theories of Punishment module's new Evolutionary Arc element, given that S.364A was inserted in 1958 — decades before the 2005/2016 Era 3 provisions discussed there?",
+          "reveal": "This is a genuinely useful complication worth noting honestly: S.364A's 1958 insertion predates the Era 3 pattern (2005 onward) traced in the Evolutionary Arc, which was specifically built around the state reasserting itself against ABUSE OF THE QISAS/DIYAT WAIVER MECHANISM introduced in 1990. S.364A's mandatory minimum exists for an entirely different reason — child-victim aggravated kidnapping has nothing to do with the Qisas/Diyat waiver framework at all, since kidnapping offences generally are not Qisas-eligible offences in the same sense as Qatl or Hurt. This suggests mandatory minimums in the PPC are not EXCLUSIVELY an Era 3 phenomenon responding to waiver abuse —ome older provisions like S.364A independently use mandatory floors for child-protection reasons unrelated to the Qisas/Diyat-specific pattern. A careful student should not over-extend the three-era framework to claim it explains every mandatory minimum in the entire Code; the framework specifically captures the Qisas/Diyat-waiver-abuse-response pattern, not mandatory minimums in general.",
+          "cite": "S.364A PPC (1958) as a useful counter-example showing the Theories of Punishment Evolutionary Arc's three-era framework should not be over-extended beyond its specific Qisas/Diyat-waiver-abuse-response scope."
+        }
+      ]
+    },
+    {
+      "id": "S365_365A",
+      "name": "Kidnapping/Abducting for Secret Confinement, or for Extortion",
+      "sub": "S.365/365A PPC — two distinct aggravating purposes",
+      "step": "Element 4 of 13",
+      "atom": "S365_365A",
+      "desc": "S.365 punishes kidnapping/abduction with intent to cause the victim to be secretly and wrongfully confined, with up to 7 years plus fine. S.365A (inserted 1990, amended 1991 to add death) punishes kidnapping/abduction for the purpose of extorting property, valuable security, or compelling compliance with any demand (cash or otherwise) in exchange for the victim's release, with death or life imprisonment, plus liability to forfeiture of property.",
+      "legal": "S.365 directly cross-references the Wrongful Restraint & Confinement module's S.346 (wrongful confinement in secret) — the same secrecy concept, but here addressing the kidnapping/abduction stage that PRECEDES the confinement itself, rather than the confinement's own manner. S.365A is the kidnapping-for-ransom provision and carries a dramatically more severe punishment (death or life imprisonment, forfeiture of property) than S.365's comparatively modest 7-year ceiling — reflecting that ransom-motivated kidnapping is treated as one of the gravest offences in this entire chapter, on par with or exceeding even S.364's kidnapping-to-murder provision in some respects (S.365A has no fixed-term alternative at all; it is death or life imprisonment only, with no intermediate rigorous-imprisonment option as S.364 provides).",
+      "cite": "S.365 and S.365A PPC — official text. Cross-reference Wrongful Restraint & Confinement module S.346 (secret confinement) — the same secrecy concept applied at the kidnapping/abduction stage rather than the confinement-execution stage.",
+      "ll": "S.365, S.365A PPC — official text",
+      "section": "365",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A kidnaps Z specifically intending that Z be held in a location unknown to Z's family, with no ransom or extortion purpose — simply intending secret confinement itself. Separately, B kidnaps Y specifically to demand a ransom payment for Y's release. Apply S.365 and S.365A respectively. Compare the two punishment exposures.",
+          "reveal": "A faces up to 7 years' imprisonment and fine under S.365 (secret confinement purpose, no extortion element). B faces death or life imprisonment, plus liability to forfeiture of property, under S.365A (extortion/ransom purpose) — a vastly more severe punishment despite both scenarios sharing the same underlying kidnapping/abduction act. This stark difference reflects the legislature's particular concern with kidnapping-for-ransom as among the most serious offences in this chapter, warranting punishment comparable to or exceeding the kidnapping-to-murder provision under S.364.",
+          "cite": "S.365 PPC (7 years, secret confinement purpose) vs S.365A PPC (death/life, extortion purpose) — a dramatic punishment gap between two purpose-based variants of the same underlying act."
+        },
+        {
+          "q": "How does S.365's 'secretly and wrongfully confined' intent requirement relate to S.346 (Wrongful Restraint & Confinement module, secret confinement)? Are these the same wrong addressed twice, or genuinely distinct stages?",
+          "reveal": "They are genuinely distinct stages of what could be the same overall criminal episode. S.365 punishes the kidnapping/abduction ITSELF, where that act is undertaken with the specific intent that secret confinement will follow — the wrong S.365 addresses is the kidnapping/abduction, characterised by this particular intent. S.346 separately punishes the ACTUAL MANNER of confinement once it is carried out, as an additive punishment on top of whatever the base wrongful confinement punishment already is. A single criminal episode — kidnapping someone with intent to confine them secretly, then actually confining them in that secret manner — could potentially engage BOTH S.365 (for the kidnapping with that specific intent) and S.346 (for the manner of the subsequent confinement itself), since they punish different acts within the same overall scheme.",
+          "cite": "S.365 PPC (kidnapping/abduction with secret-confinement intent) vs S.346 PPC (Wrongful Restraint & Confinement module, the manner of confinement itself) — potentially cumulative liability for distinct stages of one criminal episode."
+        },
+        {
+          "q": "Why might S.365A specify liability to 'forfeiture of property' specifically, when the Punishments module already noted that the general forfeiture-of-property machinery under S.61/62 was repealed in 1921?",
+          "reveal": "This is a genuinely sharp observation worth confirming directly: S.61/62's repeal removed the GENERAL machinery for imposing forfeiture of property as a free-standing punishment across the Code broadly, but S.53's tenfold punishment list (Punishments module) still names 'Forfeiture of property' as a category, and specific sections like S.365A can and do expressly prescribe it for that particular offence. This is precisely the situation flagged in the Punishments module's own S.53 discussion: forfeiture 'still applies where specific sections elsewhere in the Code expressly prescribe it' — S.365A is exactly such a specific section, reviving forfeiture as an applicable punishment for this particular, especially grave offence even though the general 1921-repealed machinery no longer exists for offences that don't specifically name it.",
+          "cite": "S.365A PPC's forfeiture-of-property liability as a specific-section exception to the general 1921 repeal of forfeiture machinery, exactly as flagged in the Punishments module's S.53 discussion."
+        }
+      ]
+    },
+    {
+      "id": "S365B",
+      "name": "Kidnapping, Abducting or Inducing a Woman to Compel Marriage or Illicit Intercourse",
+      "sub": "S.365B PPC — the 2006 forced-marriage and coerced-intercourse provision",
+      "step": "Element 5 of 13",
+      "atom": "S365B",
+      "desc": "Whoever kidnaps or abducts any woman intending or knowing it likely that she will be compelled to marry against her will, or forced/seduced to illicit intercourse, is punished with life imprisonment and fine. A second limb separately punishes anyone who, through criminal intimidation, abuse of authority, or other compulsion, induces a woman to go from any place with the same intent or knowledge regarding forced/seduced illicit intercourse — punishable identically.",
+      "legal": "S.365B, inserted in 2006 (the same Protection of Women Act reform era already discussed extensively in the Rape Law Reform Arc), directly criminalises forced marriage and coerced sexual intercourse achieved through kidnapping or abduction. It replaced the OLD S.366, which covered substantially the same ground but was repealed by the 1979 Hudood Ordinance — meaning this specific protective provision actually went MISSING from active law for 27 years (1979–2006) before being reinstated in essentially modernised form as S.365B, a striking parallel to the Rape Law Reform Arc's own broader 1979–2006 Hudood-to-Protection-Act timeline already built into this app. S.365B's second limb (criminal intimidation, abuse of authority, or other compulsion inducing a woman to travel) is broader than kidnapping/abduction alone, capturing coercive inducement methods that may not technically satisfy S.362's force-or-deceit definition but achieve the same practical result.",
+      "cite": "S.365B PPC, inserted by Act VI of 2006 — official text. Cross-reference the Rape Law Reform Arc (Reform Arcs section) — S.365B's 1979–2006 gap (old S.366 repealed by Hudood, replaced by S.365B in the same 2006 Protection of Women Act reform wave) is a direct structural parallel to the broader Rape law timeline already built there.",
+      "ll": "S.365B PPC — official text",
+      "section": "365B",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why is it notable that the old S.366 (covering forced marriage, repealed in 1979 by the Hudood Ordinance) was not replaced by an equivalent provision until S.365B in 2006 — a 27-year gap?",
+          "reveal": "This is the same pattern already documented in this app's Rape Law Reform Arc: the 1979 Hudood Ordinance did not merely fail to improve protections for women in sexual and marriage-coercion offences — in several respects it actively repealed existing protective provisions without adequate replacement, leaving genuine legal gaps that persisted for decades until the 2006 Protection of Women Act reform wave addressed them. S.365B's 27-year gap (1979–2006) is a second, independent confirmation of the same broader historical pattern the Rape Law Reform Arc traces — worth connecting explicitly rather than treating as an isolated, unrelated fact.",
+          "cite": "S.365B PPC's 1979–2006 gap, directly paralleling the Rape Law Reform Arc's broader documented pattern of the 1979 Hudood Ordinance creating protective gaps later closed by the 2006 reform wave."
+        },
+        {
+          "q": "A induces a woman to travel to a different city through abuse of his position of authority over her (for example, an employer threatening her job), intending that she be forced into illicit intercourse there — but without using any force or deceit that would independently satisfy S.362's abduction definition. Apply S.365B's second limb. Does this still fall within the section?",
+          "reveal": "Yes. S.365B's second limb is specifically drafted to capture exactly this scenario — inducement through 'criminal intimidation... or abuse of authority or any other method of compulsion,' which is broader than S.362's force-or-deceit abduction definition. The section does not require that the inducement independently qualify as abduction under S.362; the second limb is a freestanding alternative route to liability, covering coercive methods (like abuse of an authority relationship) that achieve the same practical result of compelling the woman's movement without necessarily fitting S.362's narrower definitional categories.",
+          "cite": "S.365B PPC second limb — a broader, freestanding alternative to S.362's abduction definition, capturing abuse-of-authority and other compulsion methods independently."
+        },
+        {
+          "q": "Does S.365B require that the forced marriage or illicit intercourse actually occur, or is the kidnapping/abduction/inducement with the relevant intent or knowledge sufficient on its own?",
+          "reveal": "The intent or knowledge alone is sufficient — S.365B's text covers kidnapping/abducting/inducing a woman 'with intent that she may be compelled... OR knowing it to be likely that she will be compelled' to marry against her will or be forced/seduced to illicit intercourse. The offence is complete at the point of kidnapping/abduction/inducement with the requisite mental state; it does not require the prosecution to additionally prove the forced marriage or intercourse actually took place, though if it did occur, that would obviously be relevant evidence supporting the existence of the requisite intent or knowledge at the time of the original act.",
+          "cite": "S.365B PPC — intent or knowledge of likely compulsion sufficient; actual occurrence of forced marriage/intercourse not a required element."
+        }
+      ]
+    },
+    {
+      "id": "S366A_366B",
+      "name": "Procuration of a Minor Girl; Importation of a Girl from a Foreign Country",
+      "sub": "S.366A/366B PPC — inducement-based offences not requiring kidnapping or abduction at all",
+      "step": "Element 6 of 13",
+      "atom": "S366A_366B",
+      "desc": "S.366A punishes inducing a minor girl under 18, by any means whatsoever, to go from any place or do any act, with intent or knowledge that she will be forced or seduced to illicit intercourse with another person — up to 10 years plus fine. S.366B punishes importing into Pakistan, from any country outside it, a girl under 21, with the same intent/knowledge regarding illicit intercourse — also up to 10 years plus fine.",
+      "legal": "Both sections deliberately avoid requiring kidnapping or abduction as defined in S.359–362 at all — S.366A's 'by any means whatsoever' language and S.366B's focus on the act of importation itself are drafted broadly enough to capture inducement or transportation achieved through methods that might not satisfy the narrower force/deceit or guardian-consent-violation definitions earlier in this chapter. Notably, the two sections use different age thresholds (under 18 for S.366A, under 21 for S.366B) and different geographic triggers (any inducement anywhere, versus specifically importation FROM abroad INTO Pakistan) — S.366B is specifically aimed at the cross-border trafficking dimension, while S.366A addresses domestic inducement of minors generally.",
+      "cite": "S.366A and S.366B PPC, both inserted by the Indian Penal Code (Amendment) Act 1923 — official text.",
+      "ll": "S.366A, S.366B PPC — official text",
+      "section": "366",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, through persuasion and manipulation falling short of force, deceit, or abuse of authority, convinces a 17-year-old girl to travel to a different city, knowing it likely she will be forced into illicit intercourse there. Apply S.366A. Does the absence of force, deceit, or abuse-of-authority-level compulsion prevent liability?",
+          "reveal": "No — S.366A's text covers inducement 'by any means whatsoever,' a deliberately broad formulation that does not require the specific compulsion mechanisms named in S.362 (force/deceit) or S.365B (criminal intimidation/abuse of authority/compulsion). Mere persuasion or manipulation, so long as it actually induces the minor girl to go from a place or do an act, with the requisite intent or knowledge regarding illicit intercourse, is sufficient to satisfy this section's broadly-drafted inducement requirement.",
+          "cite": "S.366A PPC — 'by any means whatsoever' as a deliberately broad inducement standard, not requiring force, deceit, or specific compulsion mechanisms."
+        },
+        {
+          "q": "A 20-year-old woman is brought into Pakistan from a neighbouring country, with the person bringing her knowing it likely she will be forced into illicit intercourse once in Pakistan. Apply S.366B. Does her age (20, technically an adult under general PPC definitions but under 21 for this specific section) affect the analysis?",
+          "reveal": "S.366B specifically uses 'under the age of twenty one years' as its own age threshold — notably higher than both S.10's general definition of when childhood ends and S.366A's own 18-year threshold. Since the woman here is 20, she falls within S.366B's specific under-21 protective scope even though she would be considered an adult ('woman' rather than a minor under S.10's general man/woman definitions, General Explanations module). This is a deliberate, section-specific age threshold distinct from the general age definitions elsewhere in the Code, reflecting the particular cross-border-trafficking concern S.366B addresses.",
+          "cite": "S.366B PPC's specific under-21 threshold, distinct from General Explanations S.10's general age-of-majority concepts and from S.366A's own 18-year threshold."
+        },
+        {
+          "q": "Why might the legislature have set a higher age threshold for S.366B (under 21, cross-border importation) than for S.366A (under 18, domestic inducement)?",
+          "reveal": "Cross-border trafficking may involve distinct vulnerabilities not necessarily present in domestic inducement cases — a young woman brought from abroad into Pakistan may face additional barriers (unfamiliarity with the local language, legal system, social networks, or means of seeking help) that persist somewhat beyond the age of full legal majority, potentially justifying an extended protective threshold specifically for the importation scenario. The precise historical rationale is not stated in the section's own text, but the differential threshold itself is a clear, deliberate legislative choice rather than an oversight, given both sections were inserted by the same 1923 amending Act.",
+          "cite": "S.366A vs S.366B PPC — differential age thresholds (18 vs 21) reflecting the legislature's distinct treatment of domestic inducement versus cross-border importation, both inserted by the same 1923 Act."
+        }
+      ]
+    },
+    {
+      "id": "S367_367A",
+      "name": "Kidnapping/Abducting to Subject to Grievous Hurt, Slavery, or Unnatural Lust",
+      "sub": "S.367/367A PPC — two further purpose-based aggravations",
+      "step": "Element 7 of 13",
+      "atom": "S367_367A",
+      "desc": "S.367 punishes kidnapping/abduction in order that the victim be subjected (or disposed of so as to be put in danger of being subjected) to grievous hurt or slavery, or with knowledge it is likely — up to 10 years plus fine. The original text also covered 'unnatural lust' but that phrase was omitted by the 1979 Hudood Ordinance. S.367A (inserted 2006) separately and specifically restores and punishes kidnapping/abduction to subject a person to unnatural lust, or knowledge it is likely — with death or rigorous imprisonment up to 25 years, plus fine.",
+      "legal": "S.367 and S.367A together tell a small but precise version of the same 1979-gap-then-2006-restoration story already seen with S.365B. The original 1860 S.367 covered grievous hurt, slavery, AND unnatural lust together in one section; the 1979 Hudood Ordinance specifically omitted the 'unnatural lust' phrase from S.367, leaving a protective gap for 27 years; the 2006 reform wave then restored protection against this specific purpose, but as an entirely NEW, separate section (S.367A) rather than simply reinserting the omitted phrase into the original S.367 — and crucially, gave it a dramatically more severe punishment (death or up to 25 years) than S.367's own 10-year ceiling, reflecting a 2006-era judgment that this purpose warranted significantly harsher treatment than the original 1860 drafters had assigned it.",
+      "cite": "S.367 PPC (original text, 'unnatural lust' phrase omitted 1979) and S.367A PPC (inserted 2006) — official text. Cross-reference S.365B PPC and the Rape Law Reform Arc — a third documented instance of the same 1979-Hudood-gap-then-2006-restoration pattern.",
+      "ll": "S.367, S.367A PPC — official text",
+      "section": "367",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Between 1979 and 2006, the phrase 'unnatural lust' was absent from S.367 following the Hudood Ordinance's omission. Could a person who kidnapped someone specifically to subject them to unnatural lust during this period have been prosecuted under the unamended S.367 as it stood at that time?",
+          "reveal": "Not under S.367's own purpose-based language as it stood during that period, since the relevant phrase had been omitted — this represents a genuine 27-year gap in this specific protective provision, structurally identical to the S.365B gap already noted. A prosecutor during this period would have needed to rely on whatever other available provisions might cover the underlying conduct (general kidnapping/abduction provisions without the specific purpose-aggravation, or other offences depending on what actually occurred), since the purpose-specific aggravated provision itself was unavailable until S.367A's 2006 insertion.",
+          "cite": "S.367 PPC's 1979–2006 gap regarding unnatural lust — a third documented instance of the Hudood-omission-then-2006-restoration pattern, alongside S.365B and the broader Rape Law Reform Arc."
+        },
+        {
+          "q": "Why might the legislature, in 2006, have chosen to create an entirely new section (S.367A) rather than simply reinserting the omitted 'unnatural lust' phrase back into the existing S.367?",
+          "reveal": "Creating a new, separate section allowed the legislature to assign a dramatically more severe punishment (death or up to 25 years) specifically to this purpose, without disturbing S.367's own more moderate 10-year ceiling for grievous hurt and slavery. Had the legislature simply reinserted the phrase into S.367, all three purposes (grievous hurt, slavery, unnatural lust) would have been forced to share the same single punishment ceiling, which would have either under-punished the unnatural lust purpose at 10 years, or over-punished grievous hurt/slavery by raising the entire section's ceiling to 25 years/death. The separate-section approach let the legislature calibrate severity independently for the restored purpose.",
+          "cite": "S.367A PPC's creation as a separate section — enabling independent punishment calibration (25 years/death) distinct from S.367's own ceiling (10 years) for the other two purposes."
+        },
+        {
+          "q": "A kidnaps Z, knowing it likely (though not specifically intending) that Z will be subjected to grievous hurt as a result of the disposition A arranges. Apply S.367. Does the knowledge-based route (rather than specific intent) satisfy the section?",
+          "reveal": "Yes — S.367's text covers kidnapping/abduction undertaken 'in order that' the victim may be subjected to the relevant harms, 'or knowing it to be likely that such person will be so subjected or disposed of' — this is the same disjunctive intent/knowledge structure recurring throughout this entire chapter (and indeed throughout much of the PPC, going back to S.350's criminal force definition). A's knowledge of the likely consequence, even without specific intent to bring it about, independently satisfies the section.",
+          "cite": "S.367 PPC — disjunctive intent/knowledge structure, knowledge of likelihood independently sufficient, consistent with the pattern seen throughout this chapter and the wider Code."
+        }
+      ]
+    },
+    {
+      "id": "S368_369",
+      "name": "Wrongfully Concealing a Kidnapped Person; Kidnapping a Child to Steal From It",
+      "sub": "S.368/369 PPC — derivative liability for concealment, and a specific child-theft provision",
+      "step": "Element 8 of 13",
+      "atom": "S368_369",
+      "desc": "S.368 punishes whoever, knowing a person has been kidnapped or abducted, wrongfully conceals or confines that person — punished IDENTICALLY to how the original kidnapper/abductor would be punished, based on the same intention, knowledge, or purpose with which the concealer detains the victim. S.369 separately punishes kidnapping/abducting a child under 10 specifically with intent to dishonestly take movable property from the child's person, with up to 7 years plus fine.",
+      "legal": "S.368 is a derivative-liability mechanism that does not require the concealer to have been involved in the original kidnapping/abduction at all — a person who later learns a victim has been kidnapped and then chooses to wrongfully conceal or confine them faces the SAME punishment scale as the original kidnapper would, calibrated to the concealer's OWN intention or purpose in detaining the victim (which may differ entirely from the original kidnapper's purpose). This is analytically similar to, but structurally distinct from, the Abetment framework's various provisions on concealment of a known criminal design — here the concealment relates to an already-completed kidnapping rather than a design not yet executed. S.369 is a narrower, specific provision targeting kidnapping young children (under 10 specifically, a notably lower threshold than S.361's general 14/16 kidnapping-from-guardianship ages) for the specific purpose of theft from the child's person — directly cross-referencing the Theft module's S.24 dishonest intention requirement.",
+      "cite": "S.368 and S.369 PPC — official text. Cross-reference Abetment module S.118–120 (concealment of a design to commit an offence) — a structurally related but distinct concealment concept, here applied to an already-completed kidnapping. Cross-reference Theft module S.378/General Explanations S.24 — the dishonest intention requirement S.369 incorporates.",
+      "ll": "S.368, S.369 PPC — official text",
+      "section": "368",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "B, who had no role in A's original kidnapping of Z for ransom purposes, later learns of the kidnapping and agrees to hide Z in his own basement, purely out of personal loyalty to A and with no extortion purpose of his own. Apply S.368. How is B punished, and does it matter that B's own purpose differs from A's original ransom motive?",
+          "reveal": "B is punished 'in the same manner as if he had kidnapped or abducted such person with the same intention or knowledge, or for the same purpose as that with or for which he conceals or detains such person' — critically, the relevant intention/purpose for calibrating B's punishment is B's OWN intention or purpose in concealing/detaining Z, not necessarily A's original kidnapping purpose. If B's purpose in concealing Z is simply loyalty-based assistance with no independent extortion or other aggravating purpose of his own, B's punishment would be calibrated to whatever B's own intention/knowledge/purpose in the concealment actually was — the section's language ties punishment to the concealer's state of mind in the act of concealment itself, not automatically importing the original kidnapper's purpose wholesale.",
+          "cite": "S.368 PPC — punishment calibrated to the concealer's OWN intention, knowledge, or purpose in the act of concealment, not automatically the original kidnapper's purpose."
+        },
+        {
+          "q": "A kidnaps an 11-year-old child specifically intending to dishonestly take jewellery the child is wearing. Apply S.369. Does this fall within the section's scope, given the child is older than the under-10 threshold?",
+          "reveal": "No — S.369's text specifically applies to a child 'under the age of ten years.' An 11-year-old falls outside this specific section's narrow age threshold entirely, even though the underlying conduct (kidnapping with intent to dishonestly take property) is otherwise identical to what S.369 addresses. This fact pattern would need to be assessed under other applicable provisions instead — potentially general kidnapping/abduction provisions (without S.369's specific theft-purpose framing) combined with theft analysis under the already-built Theft module, rather than S.369 itself.",
+          "cite": "S.369 PPC — strict under-10 age threshold; a child outside this narrow range falls outside this specific section regardless of otherwise-identical conduct."
+        },
+        {
+          "q": "Why might the legislature have set S.369's age threshold for child-theft-kidnapping (under 10) lower than S.361's general kidnapping-from-guardianship thresholds (under 14 for males, under 16 for females)?",
+          "reveal": "S.369 addresses a narrower, specific scenario — using a very young child's body essentially as an unwitting vehicle for property theft (the dishonest taking of movable property the child happens to be wearing or carrying), which presupposes a child young and vulnerable enough to be easily kidnapped for this purpose and unable to meaningfully resist or report it. The lower age threshold may reflect a judgment that this particular method of theft-via-child-kidnapping is most realistically and distinctively associated with very young children specifically, while S.361's broader kidnapping-from-guardianship protection (covering any purpose, not just theft) extends further to protect somewhat older minors from a wider range of potential harms.",
+          "cite": "S.369 PPC's narrower under-10 threshold vs S.361 PPC's broader 14/16 thresholds — reflecting the specific, narrow theft-via-child-kidnapping scenario S.369 addresses."
+        }
+      ]
+    },
+    {
+      "id": "S370_371",
+      "name": "Buying, Disposing of, or Habitually Dealing in Slaves",
+      "sub": "S.370/371 PPC — the slavery-trafficking provisions",
+      "step": "Element 9 of 13",
+      "atom": "S370_371",
+      "desc": "S.370 punishes importing, exporting, removing, buying, selling, or disposing of any person as a slave, or accepting/receiving/detaining any person as a slave against their will, with up to 7 years plus fine. S.371 punishes the HABITUAL version of the same conduct — habitually importing, exporting, removing, buying, selling, trafficking, or dealing in slaves — with life imprisonment, or imprisonment up to 10 years, plus fine.",
+      "legal": "S.370 and S.371 mirror the same single-act-versus-habitual-pattern structure already seen in S.343/S.344's duration-based escalation (Wrongful Restraint module) and in the historical S.326/327 Thug provision (Qatl Core module, requiring habitual association) — a single act of slave-dealing under S.370 carries a markedly lower ceiling (7 years) than the habitual, pattern-of-conduct version under S.371 (up to life imprisonment), reflecting the legislature's consistent treatment of demonstrated, repeated criminal enterprise as warranting substantially harsher punishment than an isolated act, even where the isolated act and the pattern share the identical underlying wrongful conduct.",
+      "cite": "S.370 and S.371 PPC — official text. Cross-reference S.343/344 PPC (Wrongful Restraint module, duration escalation) and S.326/327 PPC (Qatl Core module, the historical Thug provision's habitual-association requirement) — the same single-act-vs-habitual-pattern severity escalation recurring across multiple chapters.",
+      "ll": "S.370, S.371 PPC — official text",
+      "section": "370",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, on a single occasion, sells one person into slavery. Separately, B has, over several years, repeatedly and as an ongoing pattern of conduct bought, sold, and traded in multiple enslaved persons. Apply S.370 and S.371 respectively. Compare the punishment exposures.",
+          "reveal": "A faces up to 7 years' imprisonment plus fine under S.370 for the single act. B faces life imprisonment, or imprisonment up to 10 years, plus fine, under S.371's habitual-dealing provision — a substantially more severe punishment reflecting B's demonstrated, ongoing pattern of criminal enterprise in slave trafficking, rather than an isolated act. This mirrors the same single-act-vs-habitual severity escalation already seen in the historical Thug provision (S.326/327) and the duration-based escalation in Wrongful Restraint (S.343/344), confirming this is a recurring structural pattern across multiple PPC chapters rather than an isolated drafting choice.",
+          "cite": "S.370 PPC (7 years, single act) vs S.371 PPC (life/10 years, habitual dealing) — the same single-act-vs-habitual-pattern severity escalation recurring across S.326/327 and S.343/344 in other modules."
+        },
+        {
+          "q": "Does S.370 require that the person be physically transported across a border (imported or exported) for liability to attach, or can purely domestic conduct also satisfy the section?",
+          "reveal": "Purely domestic conduct is independently sufficient — S.370's text lists several alternative, disjunctive acts: 'imports, exports, removes, buys, sells or disposes of any person as a slave, or accepts, receives or detains against his will any person as a slave.' Buying, selling, disposing of, accepting, receiving, or wrongfully detaining a person as a slave, entirely within Pakistan with no cross-border element at all, independently satisfies several of these alternative limbs without needing to establish any import/export/removal across a border.",
+          "cite": "S.370 PPC — disjunctive list of acts, several of which (buying, selling, disposing, accepting, receiving, detaining) require no cross-border element at all."
+        },
+        {
+          "q": "A person voluntarily and knowingly enters into what they consider a binding arrangement to work for another person under conditions amounting to slavery, genuinely consenting to this arrangement. Does the person who 'accepts, receives or detains' them as a slave have a consent-based defence under S.370?",
+          "reveal": "S.370's text specifically covers detaining a person 'against his will' as one limb, which would seem to require absence of consent for THAT particular limb — but the section's other limbs (importing, exporting, removing, buying, selling, disposing of a person as a slave) contain no equivalent consent-based qualifier at all. This means even a person's purported 'consent' to being bought, sold, or disposed of as a slave would likely not provide a defence to those other limbs of the offence, since slavery as an institution is treated by the Code as inherently wrongful regardless of any purported agreement, consistent with the broader principle (also seen in the General Exceptions module) that consent cannot legitimise certain categories of fundamentally serious harm.",
+          "cite": "S.370 PPC — the 'against his will' qualifier applies specifically to the detention limb; the buying/selling/disposing limbs contain no equivalent consent-based qualifier, suggesting purported consent to slavery itself provides no defence."
+        }
+      ]
+    },
+    {
+      "id": "S371A_371B",
+      "name": "Selling or Buying a Person for Prostitution",
+      "sub": "S.371A/371B PPC — trafficking for sexual exploitation, with rebuttable presumptions",
+      "step": "Element 10 of 13",
+      "atom": "S371A_371B",
+      "desc": "S.371A punishes selling, letting to hire, or otherwise disposing of any person with intent (or knowledge of likelihood) that they will be used for prostitution, illicit intercourse, or any unlawful/immoral purpose, with up to 25 years plus fine. S.371B punishes the mirror-image conduct — buying, hiring, or otherwise obtaining possession of a person for the same purposes — with the identical punishment. Both sections carry built-in rebuttable presumptions: under S.371A, disposing of a female to a prostitute or brothel-keeper is presumed (until disproven) to be done with prostitution-intent; under S.371B, a prostitute or brothel-keeper who buys/obtains a female is presumed (until disproven) to have done so with that same intent.",
+      "legal": "These twin sections (the seller's side and the buyer's side of the same trafficking transaction) carry a strikingly severe punishment ceiling — 25 years, far exceeding S.370's 7-year ceiling for ordinary slave-dealing — reflecting the legislature's particular concern with sexual exploitation specifically. The built-in presumptions are a significant evidentiary tool: rather than requiring the prosecution to affirmatively prove prostitution-intent from scratch in every case, the mere fact of disposing of (or obtaining) a female specifically to or from a known prostitute or brothel-keeper SHIFTS the burden to the defendant to disprove that intent, rather than leaving the prosecution to establish it as an ordinary element. The repealed S.372/373 (minor-specific equivalents, repealed by the 1979 Hudood Ordinance) are noted here only as historical context, not built as standalone content, consistent with this app's established repeal-handling approach.",
+      "cite": "S.371A and S.371B PPC, both inserted by Act VI of 2006, including their respective Explanations establishing the rebuttable presumptions — official text. Historical note: the now-repealed S.372/373 (minor-specific equivalents, repealed by the 1979 Hudood Ordinance) once covered related ground; their repeal is noted as context, not built as standalone content, consistent with the app's established repeal-handling convention from the Punishments module's S.56 discussion.",
+      "ll": "S.371A, S.371B PPC — official text",
+      "section": "371",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A disposes of a female to a known brothel-keeper. The prosecution does not present any direct, affirmative evidence of A's specific prostitution-intent at the time. Apply S.371A's Explanation (a). Can A still be convicted absent such direct evidence?",
+          "reveal": "Yes, potentially. S.371A's Explanation (a) establishes that disposing of a female to a prostitute or brothel-keeper is PRESUMED, until the contrary is proved, to have been done with intent that she be used for prostitution — this presumption shifts the evidentiary burden onto A to disprove that intent, rather than requiring the prosecution to affirmatively establish it through direct evidence from the outset. Absent A successfully rebutting the presumption with contrary evidence, the presumed intent stands and can support a conviction.",
+          "cite": "S.371A PPC Explanation (a) — rebuttable presumption of prostitution-intent shifting the evidentiary burden to the defendant once disposal to a known prostitute/brothel-keeper is established."
+        },
+        {
+          "q": "How do the rebuttable presumptions in S.371A and S.371B compare structurally to the 'reason to believe' standard already built in General Explanations S.26?",
+          "reveal": "They are related but distinct evidentiary mechanisms. S.26's 'reason to believe' standard defines a substantive mental-state threshold (sufficient cause to believe something, an objective standard below actual knowledge) that the prosecution must affirmatively establish as an element of certain offences (such as receiving stolen property). The S.371A/371B presumptions instead operate procedurally: once specific foundational facts are established (disposal to/acquisition from a known prostitute or brothel-keeper), the relevant intent is PRESUMED to exist, and the burden shifts to the defendant to disprove it — this is a burden-shifting evidentiary tool, not merely a substantive mental-state definition like S.26's 'reason to believe.'",
+          "cite": "S.371A/371B PPC's rebuttable presumptions (burden-shifting evidentiary mechanism) vs General Explanations S.26 'reason to believe' (substantive mental-state threshold the prosecution must affirmatively prove) — distinct legal tools."
+        },
+        {
+          "q": "Why might these two sections (S.371A and S.371B) both carry the same severe 25-year ceiling, rather than treating the seller's conduct as more or less serious than the buyer's?",
+          "reveal": "Treating both sides of the trafficking transaction with identical severity reflects a legislative judgment that the seller and the buyer are equally culpable participants in the same underlying exploitative transaction — neither role is treated as more passive or less blameworthy than the other. This symmetrical treatment ensures that demand-side participants (buyers) face the same deterrent exposure as supply-side participants (sellers), avoiding a structure where only one side of the trafficking market bears serious criminal risk while the other faces comparatively lesser consequences.",
+          "cite": "S.371A and S.371B PPC's identical 25-year ceilings — reflecting equal culpability treatment of both the supply side (selling) and demand side (buying) of sexual-exploitation trafficking."
+        }
+      ]
+    },
+    {
+      "id": "S374",
+      "name": "Unlawful Compulsory Labour",
+      "sub": "S.374 PPC — forced labour, with a specific prisoner-of-war/protected-person variant",
+      "step": "Element 11 of 13",
+      "atom": "S374",
+      "desc": "S.374(1) punishes unlawfully compelling any person to labour against their will, with up to 1 year, fine, or both. S.374(2) (added 1958) separately punishes compelling a prisoner of war or protected person to serve in Pakistan's armed forces, also up to 1 year — with an Explanation incorporating the Geneva Conventions' own definitions of these two terms by direct reference.",
+      "legal": "S.374(1) is the PPC's general forced-labour provision, carrying a notably modest 1-year ceiling compared to most of the other offences in this chapter — a significant contrast worth flagging, since compelling labour against someone's will is nonetheless treated far more leniently here than the slavery provisions (S.370/371, up to life imprisonment) or trafficking provisions (S.371A/B, up to 25 years) addressed earlier in the same chapter, despite some conceptual overlap between forced labour and slavery-adjacent exploitation. S.374(2)'s incorporation of Geneva Convention definitions by direct cross-reference is a notable example of the PPC explicitly importing international humanitarian law definitions rather than creating its own freestanding domestic definitions — Pakistan's 1951 ratification of the relevant Conventions is the international-law backdrop this provision operationalises domestically.",
+      "cite": "S.374 PPC, sub-section (2) added by the Pakistan Penal Code (Amendment) Act 1958 — official text, with explicit cross-reference to Article 4 of both the Third and Fourth Geneva Conventions of 1949.",
+      "ll": "S.374 PPC — official text",
+      "section": "374",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why might S.374(1)'s general forced-labour provision carry only a 1-year ceiling, when the slavery provisions (S.370/371) elsewhere in this same chapter carry ceilings up to life imprisonment for what might seem like conceptually related exploitative conduct?",
+          "reveal": "This is a genuine, notable disparity worth flagging honestly rather than smoothing over: the Code appears to draw a sharper distinction between the STATUS of slavery (treating a person as property, buying/selling/disposing of them as such) and the narrower ACT of compelling labour against someone's will without necessarily treating them as enslaved property in the full sense S.370/371 addresses. Whether this calibration reflects a defensible distinction or a genuine undervaluation of compulsory-labour harm relative to other exploitation in this chapter is a fair question a careful student might reasonably raise — the text itself does not explain the rationale, and this app flags the disparity honestly rather than constructing a justification the statute itself does not supply.",
+          "cite": "S.374(1) PPC's comparatively modest 1-year ceiling, honestly flagged as a notable disparity against the much higher ceilings in S.370/371 for conceptually adjacent exploitative conduct, without inventing an unstated legislative rationale."
+        },
+        {
+          "q": "A Pakistani military commander compels a prisoner of war, as defined by the Third Geneva Convention, to serve actively in Pakistan's armed forces. Apply S.374(2). What is the relevant legal source for determining whether the captured individual actually qualifies as a 'prisoner of war' for purposes of this section?",
+          "reveal": "S.374(2)'s own Explanation directs that 'prisoner of war' and 'protected person' carry the same meanings assigned to them by Article 4 of the Geneva Convention Relative to the Treatment of Prisoners of War (1949) and Article 4 of the Geneva Convention Relative to the Protection of Civilian Persons in Time of War (1949) respectively — both ratified by Pakistan in 1951. This means determining whether someone qualifies as a 'prisoner of war' for S.374(2) purposes requires looking directly to the Geneva Convention's own definitional Article 4, not to any PPC-internal definition, since the PPC explicitly defers to and incorporates the international treaty's definitions rather than creating its own.",
+          "cite": "S.374(2) PPC Explanation — explicit incorporation of Geneva Convention Article 4 definitions by direct cross-reference, rather than an independent PPC definition."
+        },
+        {
+          "q": "Does S.374(1)'s 'unlawfully compels' language require that the compulsion involve physical force specifically, or could economic coercion or other non-physical pressure also satisfy this section?",
+          "reveal": "S.374(1)'s text simply requires that a person be 'unlawfully' compelled to labour 'against the will of that person' — it does not specify physical force as the only qualifying mechanism, unlike some other provisions in this Code that explicitly require force or specific compulsion methods. Read in light of the broader pattern already seen in this chapter (S.365B's 'criminal intimidation... or abuse of authority or any other method of compulsion' language, and S.366A's 'by any means whatsoever'), it would be consistent with the Code's general drafting approach in this area for non-physical coercion — economic pressure, threats, or other forms of unlawful compulsion — to also potentially satisfy S.374(1), though the precise outer boundary of what counts as sufficiently 'unlawful' compulsion for this specific section is not exhaustively defined in the text itself.",
+          "cite": "S.374(1) PPC — 'unlawfully compels... against the will' language, read alongside the broader chapter's tendency toward broadly-defined compulsion mechanisms (S.365B, S.366A), though without an exhaustive definition of the outer boundary in this specific section."
+        }
+      ]
+    }
+  ]
+}

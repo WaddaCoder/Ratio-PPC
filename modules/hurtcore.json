@@ -1,0 +1,316 @@
+{
+  "id": "hurtcore",
+  "name": "Hurt Classification (Part 1)",
+  "section": "S.332–337F PPC",
+  "formula": "Hurt → Body Region → Severity Sub-Type → Calibrated Punishment",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S332",
+      "name": "Hurt — The Foundational Definition",
+      "sub": "S.332 PPC — pain, harm, disease, infirmity, injury, or impairment without death",
+      "step": "Element 1 of 11",
+      "atom": "S332",
+      "desc": "A person causes hurt who causes pain, harm, disease, infirmity, or injury to any person, or impairs, disables, disfigures, defaces, or dismembers any organ or part of the body, without causing death. S.332(2) lists five kinds of hurt: Itlaf-i-Udw, Itlaf-i-Salahiyyat-i-Udw, Shajjah, Jurh, and all other kinds of hurt. The Code's own Explanation defines 'disfigure' as disfigurement of the face, or disfigurement/dismemberment of any organ or part that impairs, injures, corrodes, or deforms the symmetry or appearance of a person.",
+      "legal": "S.332 is the umbrella definition feeding the entire Hurt classification system — every subsequent section in this cluster defines a specific sub-category falling within this foundational definition, each with its own punishment track calibrated to severity. The 'without causing death' qualifier is the critical boundary separating this entire cluster from the Qatl framework already built: if death results, the analysis moves to Qatl-i-Amd, Shibh-i-Amd, Khata, or Bis-Sabab depending on mental state and causation — not to any Hurt provision.",
+      "cite": "S.332 PPC and its Explanation — official text. Cross-reference Qatl/Qisas/Diyat Core module — the 'without causing death' boundary separating Hurt from the Qatl framework entirely.",
+      "ll": "S.332 PPC — official text",
+      "section": "332",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "S.336A/336B (hurt by corrosive substance) is the direct statutory product of the acid-attack reform movement already logged in this app’s case history — the Fakhra Younus case (General Exceptions module case log) is the social-legal catalyst most directly connected to this 2011 insertion. No other verified Pakistani landmark case has been independently logged against the remaining Hurt classification sections (S.332–337F) specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "An assault causes severe injury that the victim ultimately dies from three weeks later, due to complications. At the moment the injury was inflicted, would this fall under the Hurt cluster (S.332 onward) or the Qatl cluster?",
+          "reveal": "At the moment of infliction, before the outcome is known, the act is alleged hurt under S.332 — but since the victim ultimately dies, the final legal characterisation shifts entirely to the Qatl framework (most likely Qatl-i-Amd if the S.300 Niyyat threshold is met on the facts, or one of the lesser Qatl categories otherwise), not to any Hurt provision. S.332's own definition expressly excludes hurt 'causing death' — once death actually results, the Hurt cluster's provisions simply do not apply to that outcome, regardless of what the initial injury would have been classified as had the victim survived.",
+          "cite": "S.332 PPC — 'without causing his death' as the definitional boundary; death recharacterises the entire analysis into the Qatl framework."
+        },
+        {
+          "q": "S.332(2) lists five kinds of hurt: Itlaf-i-Udw, Itlaf-i-Salahiyyat-i-Udw, Shajjah, Jurh, and 'all kinds of other hurts.' What is the practical function of this fifth, catch-all category?",
+          "reveal": "The catch-all 'all kinds of other hurts' category ensures the Hurt definition remains comprehensive even though the four named, specifically-defined categories (organ severance, organ function destruction, head/face wounds, and body wounds) do not exhaustively describe every possible form of bodily harm. This residual category is given its own specific punishment treatment later in the cluster (S.337L, 'Punishment for other hurt') precisely because some injuries genuinely fall outside the four named, technically-defined categories yet still satisfy S.332(1)'s general pain/harm/disease/infirmity/injury definition.",
+          "cite": "S.332(2)(e) PPC — residual catch-all category, addressed separately under S.337L."
+        },
+        {
+          "q": "Does S.332 itself prescribe any punishment, or is it purely a definitional section?",
+          "reveal": "S.332 is purely definitional — it establishes what conduct counts as 'hurt' and enumerates the five kinds, but prescribes no punishment of its own. Every subsequent section in this cluster (S.334 for Itlaf-i-Udw, S.336 for Itlaf-i-Salahiyyat-i-Udw, S.337A for Shajjah, S.337D/F for Jaifah/Ghayr Jaifah, and so on) supplies the specific punishment for its own particular sub-category. This mirrors the same definitions-then-punishments structure already seen in S.299/300 (definitions) followed by S.302 (punishment) for Qatl.",
+          "cite": "S.332 PPC as purely definitional, structurally parallel to S.299/300's definitional role preceding S.302's punishment provision."
+        }
+      ]
+    },
+    {
+      "id": "S333_334",
+      "name": "Itlaf-i-Udw — Dismemberment or Severance",
+      "sub": "S.333/334 PPC — the most severe Hurt category",
+      "step": "Element 2 of 11",
+      "atom": "S333_334",
+      "desc": "Itlaf-i-Udw (S.333) is dismembering, amputating, or severing any limb or organ of another person's body. S.334 punishes this, where done with intent to cause hurt or knowledge it is likely to cause hurt, with Qisas (in consultation with an authorised medical officer) — and where Qisas is not executable having regard to the principles of equality under Islamic Injunctions, the offender instead faces Arsh liability plus up to 10 years' Ta'zir imprisonment.",
+      "legal": "Itlaf-i-Udw sits at the top of the Hurt severity hierarchy, mirroring Qatl-i-Amd's position at the top of the homicide hierarchy, and uses an almost identical structural mechanism: Qisas as the primary punishment (here, causing similar dismemberment to the offender, consistent with S.299(k)'s definition of Qisas as 'causing similar hurt at the same part of the body'), falling back to Arsh plus Ta'zir where Qisas cannot actually be executed — for example where exact anatomical equivalence cannot be achieved consistent with Islamic principles of equality. This Qisas-to-Arsh/Ta'zir fallback structure recurs throughout the rest of this cluster, just as the Qisas-to-Diyat/Ta'zir fallback recurred throughout the Qatl Core module.",
+      "cite": "S.333 and S.334 PPC — official text. Cross-reference S.299(k) Qisas definition (Murder module) and the Qatl Core module's S.308 Qisas-to-Diyat/Ta'zir fallback structure — the same fallback logic applied to hurt instead of death.",
+      "ll": "S.333, S.334 PPC — official text",
+      "section": "333",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A intentionally severs Z's hand. Apply S.333/334. What is the primary punishment, and under what circumstance does the analysis shift to the fallback track?",
+          "reveal": "A has committed Itlaf-i-Udw under S.333 (severance of a limb), and the primary punishment under S.334 is Qisas — causing similar severance to A's own hand, in consultation with an authorised medical officer. The analysis shifts to the fallback track (Arsh plus up to 10 years' Ta'zir) only where Qisas is found not executable having regard to the principles of equality under Islamic Injunctions — for example, if exact anatomical equivalence in the severance cannot be safely or properly achieved.",
+          "cite": "S.334 PPC — Qisas as primary punishment, Arsh/Ta'zir as fallback where Qisas is inexecutable on equality grounds."
+        },
+        {
+          "q": "How does the structure of S.334 (Qisas, falling back to Arsh plus Ta'zir) compare to S.302's structure for Qatl-i-Amd (Qisas, Ta'zir-death, or Ta'zir-imprisonment, already built in the Murder module)? Is the underlying logic the same?",
+          "reveal": "The underlying logic is structurally parallel but not identical in mechanics. Both begin with Qisas as the primary, retributive punishment. For Qatl, S.302 provides three distinct tracks (Qisas, Ta'zir-death where Qisas proof under S.304 is unavailable, or Ta'zir-imprisonment up to 25 years where Qisas is inapplicable in law) — the fallback there is triggered primarily by failure of proof. For Itlaf-i-Udw, S.334's fallback to Arsh plus Ta'zir is triggered specifically by Qisas being inexecutable on grounds of Islamic equality principles — a different triggering condition focused on practical/ethical executability of the punishment itself rather than evidentiary failure, though evidentiary failure under S.304(2) (which extends S.304's proof requirements to hurt) could also independently prevent Qisas from being established in the first place.",
+          "cite": "S.334 PPC vs S.302 PPC (Murder module) — structurally parallel Qisas-first logic, but distinct triggering conditions for the fallback track."
+        },
+        {
+          "q": "Why does S.334 require consultation with an authorised medical officer specifically for the Qisas determination, rather than leaving this purely to judicial discretion?",
+          "reveal": "Executing Qisas for Itlaf-i-Udw requires causing precisely equivalent physical dismemberment to the offender — a medical determination of anatomical equivalence, surgical feasibility, and whether the equality principles required by Islamic Injunctions can actually be satisfied in the specific case is inherently a medical question, not a purely legal one. The authorised medical officer's involvement (the same role already encountered in the Qatl Core module's S.314(3) pregnancy-postponement provision and the General Explanations S.299(c) definition of 'authorised medical officer') ensures the practical, physical aspects of executing this severe punishment are properly assessed before the court proceeds.",
+          "cite": "S.334 PPC medical officer consultation requirement, cross-referenced to the 'authorised medical officer' definition and its parallel role in S.314(3) (Qatl Core module)."
+        }
+      ]
+    },
+    {
+      "id": "S335_336",
+      "name": "Itlaf-i-Salahiyyat-i-Udw — Destruction of Organ Function",
+      "sub": "S.335/336 PPC — functional impairment without physical severance",
+      "step": "Element 3 of 11",
+      "atom": "S335_336",
+      "desc": "Itlaf-i-Salahiyyat-i-Udw (S.335) is destroying or permanently impairing the functioning, power, or capacity of a body organ, or causing permanent disfigurement — without the organ itself being severed. S.336 punishes this through the identical Qisas/Arsh-Ta'zir structure already seen in S.334: Qisas (in medical consultation) as primary punishment, Arsh plus up to 10 years' Ta'zir as the fallback where Qisas is inexecutable on equality grounds.",
+      "legal": "The key distinction from Itlaf-i-Udw is physical integrity versus function: Itlaf-i-Udw requires the organ itself to be severed or removed; Itlaf-i-Salahiyyat-i-Udw covers cases where the organ remains physically present but its functioning, power, or capacity is destroyed or permanently impaired — for example, blinding an eye that remains physically intact, or permanently paralysing a limb that is not amputated. Permanent disfigurement (cross-referencing the S.332 Explanation's definition) is also folded into this category. Both S.334 and S.336 carry textually identical punishment structures, reflecting that the legislature treats permanent functional destruction as comparably serious to physical severance, even though the underlying conduct differs.",
+      "cite": "S.335 and S.336 PPC — official text. Cross-reference S.332 Explanation (disfigurement definition) and S.333/334 (Itlaf-i-Udw) — the physical-severance vs functional-destruction distinction between these two adjacent categories.",
+      "ll": "S.335, S.336 PPC — official text",
+      "section": "335",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A strikes Z in the eye, causing permanent blindness, but the eye itself remains physically intact and is not removed. Apply S.333–336. Which category does this fall under — Itlaf-i-Udw or Itlaf-i-Salahiyyat-i-Udw?",
+          "reveal": "Itlaf-i-Salahiyyat-i-Udw under S.335, not Itlaf-i-Udw under S.333. The eye itself has not been dismembered, amputated, or severed — it remains physically present — but its function (vision) has been permanently destroyed. This is precisely the distinction S.335 is drafted to capture: functional destruction without physical removal, governed by S.336's punishment structure rather than S.334's.",
+          "cite": "S.335 PPC — functional destruction (blindness with intact organ) as Itlaf-i-Salahiyyat-i-Udw, distinguished from S.333's physical-severance requirement."
+        },
+        {
+          "q": "Why might the legislature have given S.334 (Itlaf-i-Udw) and S.336 (Itlaf-i-Salahiyyat-i-Udw) textually identical punishment structures, rather than treating physical severance as inherently more serious than functional destruction or vice versa?",
+          "reveal": "The legislature appears to have judged that the practical harm to the victim — permanent loss of an organ's use — is comparably severe whether achieved through physical removal or through functional destruction while the organ remains physically present. From the victim's perspective, permanent blindness in an intact eye and loss of an amputated eye both result in the same practical loss of sight; the legislature's identical treatment reflects a focus on the functional consequence to the victim rather than the specific physical mechanism by which that consequence was brought about.",
+          "cite": "S.334 vs S.336 PPC — identical punishment structures despite the physical/functional distinction, reflecting equivalent practical harm to the victim."
+        },
+        {
+          "q": "Does permanent disfigurement under S.335 require any loss of function at all, or can pure cosmetic disfigurement with no functional impairment satisfy this section?",
+          "reveal": "S.335's text covers destruction/impairment of functioning, power, or capacity 'or causes permanent disfigurement' — the disjunctive 'or' indicates permanent disfigurement is an independent, alternative basis for liability, not requiring proof of functional impairment as well. Read together with the S.332 Explanation's definition of disfigurement (impairing, injuring, corroding, or deforming the symmetry or appearance of a person), purely cosmetic permanent disfigurement — with no loss of the organ's actual function — independently satisfies S.335 on its own terms.",
+          "cite": "S.335 PPC — disjunctive structure allowing permanent disfigurement alone, without functional impairment, to satisfy the section. Cross-reference S.332 Explanation's disfigurement definition."
+        }
+      ]
+    },
+    {
+      "id": "S336A_336B",
+      "name": "Hurt Caused by Corrosive Substance",
+      "sub": "S.336A/336B PPC — the dedicated acid-attack provision",
+      "step": "Element 4 of 11",
+      "atom": "S336A_336B",
+      "desc": "Inserted in 2011, S.336A defines hurt by corrosive substance as causing or attempting to cause hurt by means of a corrosive substance — with intention or knowledge — through swallowing, inhalation, contact, or any other means of introduction into the human body. The Explanation defines 'corrosive substance' broadly to include every kind of acid, poison, explosive, heating substance, noxious thing, arsenic, or any other chemical with a corroding, deleterious effect on the human body. S.336B punishes this with life imprisonment or imprisonment of either description for not less than 14 years, and a minimum fine of one million rupees — both the imprisonment floor and the fine floor are mandatory minimums, not discretionary ceilings.",
+      "legal": "S.336A/336B is the PPC's dedicated statutory response to acid attacks, inserted by the 2011 Second Amendment Act — this is the direct legislative product of the Fakhra Younus case and the broader acid-attack reform movement already logged as a landmark case in this app under the General Exceptions module's case log. Unlike most Hurt provisions in this cluster, which use the Qisas-first structure, S.336B imposes a straightforward, severe Ta'zir-only punishment with mandatory minimums on both imprisonment and fine — reflecting both the practical difficulty of applying physical-equivalence Qisas to chemical corrosive injury, and the legislature's deliberate choice to remove judicial discretion to impose an unduly lenient sentence, mirroring the same mandatory-minimum pattern already seen in S.310A (compelled marriage as Badal-i-Sulh) and S.324's honour-killing-attempt floor.",
+      "cite": "S.336A and S.336B PPC, inserted by Act XXV (Second Amendment) of 2011 — official text. Cross-reference the Fakhra Younus landmark case (already logged in this app, General Exceptions module case log) as the direct social-legal catalyst for this 2011 insertion.",
+      "ll": "S.336A, S.336B PPC — official text",
+      "section": "336",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A throws acid at Z's face, intending to cause hurt. Z suffers severe, disfiguring burns. Apply S.336A/336B. What is A's punishment exposure, and is there any judicial discretion to impose a lighter sentence?",
+          "reveal": "A is liable under S.336B to life imprisonment, or imprisonment of either description for a term which 'shall not be less than fourteen years' — note the mandatory floor language, distinct from the more typical 'may extend to' ceiling language used throughout most of this Code. A also faces a mandatory minimum fine of one million rupees. The drafting deliberately removes the downward discretion a court would ordinarily have: the court can choose between life imprisonment and a fixed-term sentence, but cannot go below fourteen years for the fixed-term option, and cannot impose a fine below one million rupees regardless of mitigating circumstances the court might otherwise wish to weigh.",
+          "cite": "S.336B PPC — mandatory minimum imprisonment (14 years) and mandatory minimum fine (one million rupees), no downward judicial discretion below these floors."
+        },
+        {
+          "q": "Why does S.336B impose a straightforward Ta'zir-only punishment with mandatory minimums, rather than following the Qisas-first structure used in S.334 and S.336 for Itlaf-i-Udw and Itlaf-i-Salahiyyat-i-Udw?",
+          "reveal": "Acid and corrosive-substance injuries typically cause diffuse, unpredictable, and often disfiguring chemical damage that does not map cleanly onto the precise physical-equivalence model Qisas requires (causing 'similar hurt at the same part of the body,' per S.299(k)) — it would be both practically very difficult and ethically fraught to attempt to replicate a corrosive chemical injury exactly on the offender. The legislature instead opted for a severe, mandatory-minimum Ta'zir-only framework, ensuring serious punishment is guaranteed without requiring the courts to grapple with the practical impossibility of executing precise Qisas for this category of harm.",
+          "cite": "S.336B PPC — Ta'zir-only structure reflecting the practical inapplicability of precise physical-equivalence Qisas to corrosive chemical injury."
+        },
+        {
+          "q": "Does S.336A require that the corrosive substance actually cause hurt, or does an unsuccessful attempt also satisfy the section?",
+          "reveal": "S.336A's text explicitly covers both: 'causes or attempts to cause hurt by means of a corrosive substance.' The section is drafted disjunctively to capture both completed corrosive-substance hurt and unsuccessful attempts to cause it, meaning an offender who throws acid at a victim who manages to evade the attack entirely, suffering no actual injury, can still be liable under this section for the attempt itself, without needing to separately rely on the general attempt framework (S.511) or the Stages of Crime analysis already built elsewhere in this app.",
+          "cite": "S.336A PPC — 'causes or attempts to cause' as an internally complete attempt provision, not requiring resort to the general S.511 attempt framework."
+        }
+      ]
+    },
+    {
+      "id": "S337_1to3",
+      "name": "Shajjah — Classification of Head and Face Wounds",
+      "sub": "S.337(1)–(2) PPC — the six-way Shajjah taxonomy",
+      "step": "Element 5 of 11",
+      "atom": "S337_1to3",
+      "desc": "Shajjah (S.337) is any hurt to the head or face not amounting to Itlaf-i-Udw or Itlaf-i-Salahiyyat-i-Udw. Six progressively severe sub-types are defined by their physical character: Shajjah-i-Khafifah (no bone exposed), Shajjah-i-Mudihah (bone exposed, no fracture), Shajjah-i-Hashimah (bone fractured, not dislocated), Shajjah-i-Munaqqilah (bone fractured and dislocated), Shajjah-i-Ammah (skull fractured, wound touches the brain membrane), and Shajjah-i-Damighah (skull fractured, wound ruptures the brain membrane).",
+      "legal": "This six-tier classification is a precise anatomical severity ladder specific to head and face injuries, moving from the least severe (no bone exposure at all) through progressively more invasive stages (exposure, fracture, dislocation) to the two most severe categories involving the skull and brain membrane itself. Each tier is defined entirely by objective physical/medical criteria — there is no subjective or intent-based distinction between the six Shajjah sub-types themselves; the classification depends purely on the physical extent of the injury actually caused, which then determines which specific punishment tier under S.337A applies.",
+      "cite": "S.337(1)–(2) PPC — official text, defining the six Shajjah sub-types by objective anatomical criteria.",
+      "ll": "S.337 PPC — official text",
+      "section": "337",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A strikes Z on the forehead with a blunt object. The skin is bruised but no bone is exposed at all. Apply S.337's classification. Which Shajjah sub-type, if any, does this fall under?",
+          "reveal": "Shajjah-i-Khafifah — the least severe of the six sub-types, defined precisely as causing Shajjah 'without exposing bone of the victim.' Since the injury here does not expose any bone, it falls at the bottom of the six-tier ladder regardless of how painful or visible the bruising might be, because the classification system is built entirely around the specific anatomical criteria the Code itself defines, not a general impression of severity.",
+          "cite": "S.337(3)(i) PPC — Shajjah-i-Khafifah defined as Shajjah without bone exposure."
+        },
+        {
+          "q": "What is the precise anatomical distinction between Shajjah-i-Hashimah and Shajjah-i-Munaqqilah — both involve a fractured bone. What additional element separates the two?",
+          "reveal": "Shajjah-i-Hashimah is fracturing the bone 'without dislocating it' — the bone breaks but remains in its original position. Shajjah-i-Munaqqilah requires both fracture AND dislocation — 'causing fracture of the bone of the victim and thereby bone is dislocated.' The dislocation is the precise additional element that elevates a Munaqqilah injury above a Hashimah injury within this severity ladder, even though both share the common feature of bone fracture.",
+          "cite": "S.337(3)(iii) and (iv) PPC — fracture-without-dislocation (Hashimah) vs fracture-with-dislocation (Munaqqilah)."
+        },
+        {
+          "q": "Why does the Shajjah classification stop specifically at the head and face, with a separate classification system (Jurh, covered next) governing wounds to the rest of the body?",
+          "reveal": "The head and face contain the skull and its proximity to the brain, meaning injuries there carry a distinctive risk profile — the two most severe Shajjah categories (Ammah and Damighah) specifically track whether a skull fracture wound touches or ruptures the brain's membrane, a risk consideration that has no direct equivalent for wounds to limbs or the trunk. The legislature appears to have judged that head/face injuries warrant their own dedicated, anatomically-specific classification system precisely because of this distinctive brain-proximity risk, while wounds elsewhere on the body (governed by the separate Jurh/Jaifah/Ghayr-Jaifah system) are classified according to different criteria more relevant to those body regions, such as whether the injury penetrates the body cavity of the trunk.",
+          "cite": "S.337 (Shajjah, head/face specific) vs S.337B–F (Jurh, body-general) — distinct classification systems reflecting the distinctive brain-proximity risk unique to head/face injuries."
+        }
+      ]
+    },
+    {
+      "id": "S337A",
+      "name": "Punishment of Shajjah",
+      "sub": "S.337A PPC — the six-tier Shajjah punishment ladder",
+      "step": "Element 6 of 11",
+      "atom": "S337A",
+      "desc": "Each Shajjah sub-type carries its own calibrated punishment: Khafifah — Daman plus up to 2 years' Ta'zir; Mudihah — Qisas (medically supervised), falling back to Arsh of 5% of Diyat plus up to 5 years' Ta'zir; Hashimah — Arsh of 10% of Diyat plus up to 10 years' Ta'zir; Munaqqilah — Arsh of 15% of Diyat plus up to 10 years' Ta'zir; Ammah — Arsh of one-third of Diyat plus up to 10 years' Ta'zir; Damighah — Arsh of one-half of Diyat plus up to 14 years' Ta'zir.",
+      "legal": "S.337A converts S.337's purely anatomical six-tier classification into a precisely calibrated punishment ladder, with the Arsh percentage of Diyat increasing in lockstep with anatomical severity: 5% for Mudihah, rising through 10% (Hashimah), 15% (Munaqqilah), one-third (Ammah), to one-half of full Diyat for Damighah — the most severe category, where the brain membrane itself is ruptured. Only Mudihah retains the Qisas-first structure seen elsewhere in this cluster; the remaining five tiers (Khafifah, Hashimah, Munaqqilah, Ammah, Damighah) go straight to Arsh or Daman without a Qisas stage at all, reflecting that precise physical-equivalence retaliation becomes increasingly impractical or inappropriate as the anatomical specificity and severity of head/face injuries increases.",
+      "cite": "S.337A PPC — official text, all six tiers verified.",
+      "ll": "S.337A PPC — official text",
+      "section": "337A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes Shajjah-i-Ammah to Z — a skull fracture where the wound touches the brain membrane. Apply S.337A(v). What is the Arsh liability, and what additional Ta'zir is available?",
+          "reveal": "Under S.337A(v), A is liable to Arsh equal to one-third of the Diyat value, and may also be punished with imprisonment of either description for a term which may extend to ten years as Ta'zir. Note that Ammah does not follow the Qisas-first structure that Mudihah uses — the section moves directly to the Arsh/Ta'zir framework for this severe category, without an intervening Qisas stage.",
+          "cite": "S.337A(v) PPC — Shajjah-i-Ammah, one-third Diyat Arsh, up to 10 years Ta'zir, no Qisas stage."
+        },
+        {
+          "q": "Why does only Shajjah-i-Mudihah (the second-least-severe tier) retain a Qisas stage, while the more severe tiers (Hashimah, Munaqqilah, Ammah, Damighah) move directly to Arsh without any Qisas option at all?",
+          "reveal": "This likely reflects a practical and ethical judgment about the executability of precise physical-equivalence retaliation as injury severity increases: Mudihah (bone exposed, no fracture) may be a category where causing an anatomically similar injury to the offender remains medically feasible and consistent with Islamic equality principles, whereas the more severe categories — involving actual bone fracture, dislocation, or skull/brain-membrane involvement — likely present much greater practical and ethical difficulty in achieving genuine physical equivalence through Qisas, making the Arsh/Ta'zir compensation-and-punishment framework the more workable and consistently applied mechanism for those graver injuries.",
+          "cite": "S.337A PPC — Qisas retained only for Mudihah, the comparatively lower-severity tier where physical equivalence remains practically achievable."
+        },
+        {
+          "q": "Arrange all six Shajjah tiers in a single ascending severity table, showing the Arsh/Daman liability and the maximum Ta'zir for each.",
+          "reveal": "Khafifah: Daman (court-determined, no fixed Diyat percentage), up to 2 years. Mudihah: Qisas, falling back to 5% Diyat Arsh, up to 5 years. Hashimah: 10% Diyat Arsh, up to 10 years. Munaqqilah: 15% Diyat Arsh, up to 10 years. Ammah: one-third Diyat Arsh, up to 10 years. Damighah: one-half Diyat Arsh, up to 14 years — the highest Ta'zir ceiling and highest Arsh percentage in the entire Shajjah ladder, reflecting its position as the most severe category (skull fracture rupturing the brain membrane).",
+          "cite": "S.337A(i)–(vi) PPC — complete six-tier comparative table, Arsh percentage and Ta'zir ceiling both increasing with anatomical severity."
+        }
+      ]
+    },
+    {
+      "id": "S337B_C",
+      "name": "Jurh and Jaifah — Body Wounds Penetrating the Trunk Cavity",
+      "sub": "S.337B/337C PPC — the body-wound classification gateway",
+      "step": "Element 7 of 11",
+      "atom": "S337B_C",
+      "desc": "Jurh (S.337B) is any hurt to a body part other than the head or face that leaves a mark of the wound, whether temporary or permanent — split into two kinds: Jaifah and Ghayr Jaifah. Jaifah (S.337C) is specifically Jurh where the injury extends into the body cavity of the trunk.",
+      "legal": "Jurh is the body-wound counterpart to Shajjah's head/face classification, but structured differently: rather than a single six-tier severity ladder, Jurh first splits into two fundamentally distinct categories based on whether the wound penetrates the trunk's body cavity (Jaifah) or not (Ghayr Jaifah), with Ghayr Jaifah then having its own internal six-tier classification (covered next). The trunk-cavity-penetration threshold for Jaifah reflects the distinctive risk of internal organ damage and life-threatening complications that a body-cavity-penetrating wound carries, comparable in spirit to how Shajjah's most severe tiers specifically track brain-membrane involvement.",
+      "cite": "S.337B and S.337C PPC — official text.",
+      "ll": "S.337B, S.337C PPC — official text",
+      "section": "337",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A stabs Z in the abdomen, and the wound penetrates into the trunk's body cavity. Apply S.337B/337C. Which classification applies, and what does this signify about the injury's severity profile compared to a similar wound that does not penetrate the cavity?",
+          "reveal": "This is Jaifah under S.337C — a Jurh wound specifically extending into the body cavity of the trunk. The cavity-penetration threshold is the defining severity marker within the Jurh system: a wound of similar size and location that does NOT penetrate the body cavity would instead fall under Ghayr Jaifah (covered in the next element), reflecting that cavity penetration carries materially greater risk of internal organ injury, infection, and life-threatening complication, warranting its own distinct, more severely punished category under S.337D.",
+          "cite": "S.337C PPC — body-cavity penetration as the defining threshold separating Jaifah from Ghayr Jaifah."
+        },
+        {
+          "q": "Does S.337B's Jurh definition require the wound to be visible or permanent, or can a temporary mark satisfy the definition?",
+          "reveal": "S.337B's text explicitly covers a wound 'whether temporary or permanent' — the section does not require lasting or permanent marking. Any mark of the wound, even one that will eventually heal without trace, satisfies the Jurh threshold, provided it otherwise meets the location requirement (body parts other than head/face) and leaves some mark at the time of infliction.",
+          "cite": "S.337B PPC — 'whether temporary or permanent,' no permanence requirement for the Jurh threshold."
+        },
+        {
+          "q": "How does the Jaifah/Ghayr-Jaifah split under S.337B/C structurally compare to the Itlaf-i-Udw/Itlaf-i-Salahiyyat-i-Udw distinction (S.333/335)? Are both pairs distinguishing the same kind of feature?",
+          "reveal": "No — they distinguish along different axes entirely. Itlaf-i-Udw vs Itlaf-i-Salahiyyat-i-Udw distinguishes physical severance from functional destruction, both potentially affecting the same organ in different ways. Jaifah vs Ghayr Jaifah instead distinguishes wounds by anatomical depth/penetration — specifically whether the wound reaches the trunk's body cavity — rather than by the mechanism (severance vs function loss) of the injury. The two pairs sit in entirely separate branches of the overall Hurt classification tree, each using its own internal logic suited to the type of injury it addresses.",
+          "cite": "S.333/335 PPC (severance vs function) vs S.337B/C PPC (cavity penetration vs not) — distinct classificatory axes within the broader Hurt taxonomy."
+        }
+      ]
+    },
+    {
+      "id": "S337D",
+      "name": "Punishment for Jaifah",
+      "sub": "S.337D PPC — single-tier punishment for trunk-cavity-penetrating wounds",
+      "step": "Element 8 of 11",
+      "atom": "S337D",
+      "desc": "Whoever causes Jaifah, with intent to cause hurt or knowledge it is likely to cause hurt, is liable to Arsh equal to one-third of the Diyat value, and may also be punished with imprisonment of either description for a term which may extend to ten years as Ta'zir.",
+      "legal": "Unlike Shajjah's six-tier system or Ghayr Jaifah's own internal six-tier system (covered next), Jaifah has only a single punishment tier — the body-cavity-penetration threshold itself is treated as sufficiently severe and well-defined that no further internal gradation is needed; any wound crossing that threshold attracts the identical one-third-of-Diyat Arsh and up-to-10-year Ta'zir exposure regardless of precisely how deep or extensive the cavity penetration is. This single-tier structure mirrors the position of Shajjah-i-Ammah within its own ladder — both carry an identical one-third-of-Diyat Arsh figure, suggesting a degree of cross-category calibration between comparably severe injuries to the head/face versus the trunk.",
+      "cite": "S.337D PPC — official text.",
+      "ll": "S.337D PPC — official text",
+      "section": "337D",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why might Jaifah have only a single punishment tier, while Shajjah (head/face wounds) has six progressively severe tiers and Ghayr Jaifah (non-cavity-penetrating body wounds) also has its own six-tier system?",
+          "reveal": "The cavity-penetration threshold that defines Jaifah is itself already a significant severity marker — once a wound crosses into the trunk's body cavity, the legislature appears to have judged that further fine-grained internal distinctions (analogous to Shajjah's bone-exposure/fracture/dislocation gradations) were not necessary, since cavity penetration alone already signals a sufficiently serious category of injury warranting a single, fixed, substantial punishment level. Ghayr Jaifah, by contrast, covers the full range of non-cavity-penetrating wounds, from minor skin rupture to bone fracture with dislocation, which is itself a wide severity range justifying internal gradation.",
+          "cite": "S.337D PPC single-tier structure, contrasted with S.337A's six-tier Shajjah ladder and S.337F's six-tier Ghayr Jaifah ladder."
+        },
+        {
+          "q": "Compare Jaifah's punishment (one-third Diyat Arsh, up to 10 years Ta'zir) to Shajjah-i-Ammah's punishment (also one-third Diyat Arsh, up to 10 years Ta'zir, per S.337A(v)). What does this coincidence suggest about how the legislature calibrated severity across the two separate classification systems?",
+          "reveal": "The identical figures suggest the legislature calibrated comparable severity levels consistently across the Shajjah (head/face) and Jurh (body) classification systems, even though the systems use different anatomical criteria to define their categories. Shajjah-i-Ammah (skull fracture touching the brain membrane) and Jaifah (wound penetrating the trunk cavity) are, in the legislature's apparent judgment, comparably severe injuries warranting the same Arsh percentage and Ta'zir ceiling, despite arising from entirely different anatomical mechanisms and classification logic — a useful cross-check for a student trying to build intuition for how severely the Code treats different categories of injury relative to one another.",
+          "cite": "S.337D PPC vs S.337A(v) PPC — identical punishment figures across the two distinct classification systems, suggesting deliberate cross-category severity calibration."
+        },
+        {
+          "q": "Does S.337D's Arsh liability (one-third of Diyat) apply regardless of which specific organ within the trunk cavity is affected by the wound, or could the specific organ injured affect the Arsh amount?",
+          "reveal": "S.337D's text fixes the Arsh at one-third of Diyat for Jaifah generally, without distinguishing between different organs that might be affected by a cavity-penetrating wound — the punishment is calibrated to the cavity-penetration threshold itself, not to which specific internal organ was reached or damaged. This is consistent with Jaifah's single-tier structure: the section does not provide for organ-specific variation within the Jaifah category itself, unlike, for example, the later Arsh tables (S.337Q onward, not built in this session) which do distinguish compensation amounts for specific named organs in the Itlaf-i-Udw context.",
+          "cite": "S.337D PPC — fixed one-third Diyat Arsh for Jaifah generally, no organ-specific variation within this section itself."
+        }
+      ]
+    },
+    {
+      "id": "S337E",
+      "name": "Ghayr Jaifah — Classification of Non-Cavity Body Wounds",
+      "sub": "S.337E PPC — the six-way Ghayr Jaifah taxonomy",
+      "step": "Element 9 of 11",
+      "atom": "S337E",
+      "desc": "Ghayr Jaifah (S.337E) is Jurh that does not amount to Jaifah — i.e., a body wound (other than head/face) that does not penetrate the trunk cavity. Six sub-types are defined: Damiyah (skin ruptured, bleeding occurs), Badi'ah (flesh cut/incised without exposing bone), Mutalahimah (flesh lacerated), Mudihah (bone exposed), Hashimah (bone fractured without dislocation), and Munaqqilah (bone fractured and dislocated).",
+      "legal": "Ghayr Jaifah's six-tier classification runs along a strikingly similar progression to Shajjah's own six-tier ladder — starting from minimal skin rupture, moving through cutting, laceration, bone exposure, fracture, and finally fracture-with-dislocation. Notably, the names Mudihah, Hashimah, and Munaqqilah recur from the Shajjah classification (S.337(3)), applied here to the body generally rather than specifically to the head/face — the same anatomical concepts (bone exposure, fracture without dislocation, fracture with dislocation) are reused across both classification systems, but Ghayr Jaifah adds three additional, less severe tiers (Damiyah, Badi'ah, Mutalahimah) addressing softer-tissue injuries that have no direct equivalent named category within the Shajjah system, which begins its own ladder at the no-bone-exposure Khafifah tier.",
+      "cite": "S.337E PPC — official text. Cross-reference S.337 (Shajjah) — the Mudihah/Hashimah/Munaqqilah terminology recurs across both classification systems, applied to different body regions.",
+      "ll": "S.337E PPC — official text",
+      "section": "337E",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes a wound on Z's arm (not the head, face, or trunk cavity) where the skin is ruptured and bleeding occurs, but there is no cutting into the flesh beyond the skin itself. Apply S.337E. Which Ghayr Jaifah sub-type applies?",
+          "reveal": "Damiyah — the least severe of the six Ghayr Jaifah sub-types, defined precisely as a wound 'in which the skin is ruptured and bleeding occurs.' This sits at the bottom of the Ghayr Jaifah ladder, below Badi'ah (which requires cutting/incising the flesh, not merely rupturing the skin surface) and the more severe tiers above it.",
+          "cite": "S.337E(3)(i) PPC — Damiyah defined as skin rupture with bleeding, the least severe Ghayr Jaifah tier."
+        },
+        {
+          "q": "The terms Mudihah, Hashimah, and Munaqqilah appear both in the Shajjah classification (S.337) and the Ghayr Jaifah classification (S.337E), using what appear to be identical anatomical definitions (bone exposure; fracture without dislocation; fracture with dislocation). Does this mean a Shajjah-i-Mudihah injury and a Ghayr-Jaifah-Mudihah injury carry the same punishment under S.337A and S.337F respectively?",
+          "reveal": "No — despite sharing identical anatomical definitions and terminology, the two carry different punishments because they sit within different classification systems with different overall severity calibrations. Shajjah-i-Mudihah under S.337A(ii) carries Qisas (falling back to 5% Diyat Arsh plus up to 5 years Ta'zir) — reflecting the head/face location's distinctive risk profile. Ghayr-Jaifah-Mudihah under S.337F(iv) instead carries Daman (not Arsh) plus up to 5 years Ta'zir, with no Qisas stage at all. The identical anatomical terminology describes the same physical injury type, but the body location (head/face vs elsewhere) changes the applicable punishment structure entirely — a student must track which classification system (Shajjah vs Ghayr Jaifah) governs, not just the anatomical sub-type name.",
+          "cite": "S.337A(ii) PPC (Shajjah-i-Mudihah, Qisas/Arsh) vs S.337F(iv) PPC (Ghayr-Jaifah-Mudihah, Daman only) — identical terminology, different punishment structures depending on body location."
+        },
+        {
+          "q": "Why does Ghayr Jaifah include three additional, softer-tissue tiers (Damiyah, Badi'ah, Mutalahimah) that have no equivalent in the Shajjah classification?",
+          "reveal": "Shajjah's classification begins at Khafifah, defined as Shajjah without any bone exposure — effectively treating all non-bone-exposing head/face wounds as a single undifferentiated category. Ghayr Jaifah, covering the much larger and more varied surface area of the rest of the body, instead breaks down the non-bone-exposing wounds into three further distinct gradations (mere skin rupture, incised flesh, lacerated flesh) before reaching the bone-exposure threshold. This may reflect that body wounds short of bone exposure present a wider practically-relevant range of severity worth distinguishing for punishment purposes, whereas the legislature judged a single Khafifah category sufficient for the comparatively more constrained range of non-bone-exposing head/face injuries.",
+          "cite": "S.337E PPC's three additional soft-tissue tiers absent from S.337's Shajjah classification — reflecting a more granular gradation of non-bone-exposing injury for body wounds generally."
+        }
+      ]
+    },
+    {
+      "id": "S337F",
+      "name": "Punishment of Ghayr Jaifah",
+      "sub": "S.337F PPC — the six-tier Ghayr Jaifah punishment ladder",
+      "step": "Element 10 of 11",
+      "atom": "S337F",
+      "desc": "Each Ghayr Jaifah sub-type carries Daman (not Arsh) plus an escalating Ta'zir ceiling: Damiyah — up to 1 year; Badi'ah — up to 3 years; Mutalahimah — up to 3 years; Mudihah — up to 5 years; Hashimah — up to 5 years; Munaqqilah — up to 7 years.",
+      "legal": "Unlike both the Shajjah ladder (S.337A, which uses Arsh percentages of Diyat for its more severe tiers) and Itlaf-i-Udw/Itlaf-i-Salahiyyat-i-Udw (which use Qisas falling back to Arsh), every single tier of Ghayr Jaifah uses Daman — court-determined compensation, defined in S.299(d) as the compensation for causing hurt not liable to Arsh — rather than a fixed Arsh percentage. This is a structurally distinct compensation mechanism throughout the entire Ghayr Jaifah ladder, reflecting that this category of injury (non-cavity-penetrating body wounds) is treated by the Code as falling outside the Arsh-eligible categories entirely, leaving compensation to judicial discretion within the Daman framework while still escalating the Ta'zir ceiling from 1 year (Damiyah) to 7 years (Munaqqilah) as severity increases.",
+      "cite": "S.337F PPC — official text, all six tiers verified. Cross-reference S.299(d) Daman definition (court-determined compensation for hurt not liable to Arsh).",
+      "ll": "S.337F PPC — official text",
+      "section": "337F",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A causes Munaqqilah (fracture with dislocation) to Z's arm — the most severe Ghayr Jaifah tier. Apply S.337F(vi). What is A's liability, and how does this compare to the Arsh-based liability for an anatomically similar Shajjah-i-Munaqqilah injury to the head?",
+          "reveal": "Under S.337F(vi), A is liable to Daman (court-determined compensation, not a fixed Arsh percentage) and may also be punished with imprisonment up to 7 years as Ta'zir. This contrasts with Shajjah-i-Munaqqilah under S.337A(iv), which carries a fixed Arsh of 15% of Diyat plus up to 10 years Ta'zir. Despite sharing the identical anatomical definition (fracture with dislocation), the body-location difference (head/face vs elsewhere) produces a materially different compensation mechanism (fixed Arsh percentage vs court-determined Daman) and a different, lower Ta'zir ceiling (7 years vs 10 years) for the Ghayr Jaifah version.",
+          "cite": "S.337F(vi) PPC (Daman, up to 7 years) vs S.337A(iv) PPC (15% Diyat Arsh, up to 10 years) — same anatomical injury type, different punishment depending on body location and classification system."
+        },
+        {
+          "q": "Why does every tier of Ghayr Jaifah use Daman rather than Arsh, when the structurally similar Mudihah/Hashimah/Munaqqilah tiers within Shajjah use Arsh (or Qisas, for Shajjah-i-Mudihah specifically)?",
+          "reveal": "The precise legislative rationale is not stated explicitly within the section's own text, but the consistent pattern suggests the legislature treated Ghayr Jaifah injuries — despite sharing some anatomical terminology with Shajjah — as falling outside the categories the Code has chosen to assign fixed Arsh percentages to, leaving the compensation amount to judicial determination through the Daman mechanism instead. This may reflect that the precise severity and consequence of similarly-named injuries (bone exposure, fracture) can vary more widely depending on which part of the body (excluding head/face) is affected, making a single fixed percentage less appropriate than case-by-case judicial assessment.",
+          "cite": "S.337F PPC's uniform reliance on Daman across all six tiers, contrasted with S.337A's mixed Qisas/Arsh structure for the anatomically similar Shajjah tiers."
+        },
+        {
+          "q": "Compare the Ta'zir ceilings across all six Ghayr Jaifah tiers (1, 3, 3, 5, 5, 7 years) to the six Shajjah tiers (2, 5, 10, 10, 10, 14 years). What does this comparison suggest about the relative severity the Code attaches to body wounds versus head/face wounds at comparable anatomical stages?",
+          "reveal": "At every comparable anatomical stage, the Shajjah (head/face) Ta'zir ceiling is equal to or higher than the corresponding Ghayr Jaifah (body) ceiling — Khafifah's 2 years exceeds Damiyah's 1 year; Shajjah's bone-exposure tier (Mudihah, 5 years) matches Ghayr Jaifah's equivalent (also Mudihah, 5 years); but Shajjah's fracture-without-dislocation tier (Hashimah, 10 years) substantially exceeds Ghayr Jaifah's equivalent (also Hashimah, but only 5 years); and the pattern continues with Shajjah's Munaqqilah (10 years) exceeding Ghayr Jaifah's Munaqqilah (7 years). This consistent pattern confirms the legislature treats head/face injuries as inherently warranting higher maximum punishment than anatomically comparable body injuries, consistent with the distinctive brain-proximity risk profile already discussed as the rationale for giving Shajjah its own dedicated, generally more severe classification system.",
+          "cite": "S.337A PPC vs S.337F PPC — comparative Ta'zir ceiling table confirming the Code's consistently higher severity treatment of head/face injuries over anatomically comparable body injuries."
+        }
+      ]
+    }
+  ]
+}

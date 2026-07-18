@@ -1,0 +1,196 @@
+{
+  "id": "cheating",
+  "name": "Cheating",
+  "section": "S.415–420 PPC",
+  "formula": "Deception → Fraudulent/Dishonest Inducement → Delivery, Harmful Act, or Security Manipulation",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S415",
+      "name": "Cheating — The Foundational Definition",
+      "sub": "S.415 PPC — deception leading to delivery of property or harmful action/inaction",
+      "step": "Element 1 of 6",
+      "atom": "S415",
+      "desc": "Whoever, by deceiving any person, fraudulently or dishonestly induces the deceived person to deliver property, or consent that any person retain property, or intentionally induces them to do or omit something they would not otherwise do or omit, causing or likely to cause damage or harm to that person or any other in body, mind, reputation, or property, is said to 'cheat.' The Explanation confirms dishonest concealment of facts is itself a form of deception.",
+      "legal": "S.415 defines cheating through two distinct routes, both requiring deception as the trigger: the PROPERTY route (fraudulently/dishonestly inducing delivery or retention-consent of property) and the ACT-OR-OMISSION route (intentionally inducing conduct the victim would not otherwise have engaged in, causing or likely to cause harm in body, mind, reputation, or property — the same broad S.44 injury concept already engaged throughout this app, including in Extortion). The Code's nine Illustrations span an instructive range — false civil-service pretence, counterfeit marks, false samples, dishonoured bills, false claims about goods, false promises to repay, false promises to deliver, false claims of contract performance, and concealed prior sale — and Illustration (g) is particularly important: it draws the precise line between cheating and mere civil breach of contract, turning entirely on whether the deceptive intent existed AT THE TIME the inducement occurred.",
+      "cite": "S.415 PPC, its Explanation, and all nine Illustrations (a)–(i) — official text. Cross-reference General Explanations S.44 (Injury) — the same broad body/mind/reputation/property harm concept already engaged in the Extortion module.",
+      "ll": "S.415 PPC and Illustrations — official text",
+      "section": "415",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.415–420 specifically as of this build. Flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A intentionally deceives Z into believing A will deliver a certain quantity of indigo plant, which A does not actually intend to deliver, and thereby dishonestly induces Z to advance money on the faith of that promised delivery. Apply S.415's own Illustration (g). Now consider a variation: A genuinely DOES intend to deliver the indigo at the time of obtaining the money, but later breaks the contract and never delivers. Does this variation also constitute cheating?",
+          "reveal": "The first scenario is cheating — this is the Code's own Illustration (g) directly, since A never intended to perform at the time of inducing Z to advance the money. The variation, however, is explicitly NOT cheating according to the same Illustration: where A genuinely intended to deliver at the time of obtaining the money, and only later breaks the contract, A 'does not cheat, but is liable only to a civil action for breach of contract.' This is precisely the line between criminal cheating and ordinary civil breach of contract — it turns entirely on whether the deceptive, non-performing intent existed AT THE MOMENT of inducement, not on whether performance ultimately occurred.",
+          "cite": "S.415 PPC Illustration (g) — the precise dividing line between criminal cheating and civil breach of contract, turning on the timing of the deceptive intent relative to the inducement."
+        },
+        {
+          "q": "A sells and conveys an estate to B. A then, knowing full well that the prior sale to B means A no longer has any right to the property, sells or mortgages the same estate to Z without disclosing the earlier sale to B, and receives money from Z as the purchase or mortgage price. Apply S.415's own Illustration (i) and the Explanation regarding concealment. Has A cheated Z, despite never making an affirmative false statement?",
+          "reveal": "Yes — this is the Code's own Illustration (i), read together with the Explanation's statement that 'a dishonest concealment of facts is a deception within the meaning of this section.' A never needed to make any affirmative false statement to Z; A's deliberate concealment of the prior sale to B, while accepting Z's money for property A no longer had any right to convey, itself constitutes the deception required for cheating. This confirms S.415 captures cheating by silence and concealment just as fully as cheating by affirmative false statement.",
+          "cite": "S.415 PPC Illustration (i) and Explanation — dishonest concealment of material facts satisfies the deception element just as fully as an affirmative false statement."
+        },
+        {
+          "q": "How does S.415's act-or-omission route (intentionally inducing conduct the victim would not otherwise engage in, causing harm in body, mind, reputation, or property) differ from S.415's property route (inducing delivery or retention-consent of property)? Could a single deceptive act satisfy both routes simultaneously?",
+          "reveal": "The property route is narrower and specifically transactional — it requires the deception to induce delivery of property or consent to its retention. The act-or-omission route is considerably broader, covering ANY induced conduct (not limited to property transactions) that causes or is likely to cause harm across the full S.44 range (body, mind, reputation, or property). A single deceptive scheme could indeed satisfy both routes simultaneously — for example, deceiving someone into both handing over money (the property route) AND taking some other harmful action they would not otherwise have taken, such as signing away a legal right (the act-or-omission route) — though only one route needs to be established for the cheating offence itself to be made out.",
+          "cite": "S.415 PPC's two disjunctive routes — the narrower property-transaction route and the broader act-or-omission route engaging the full S.44 injury concept, either independently sufficient and potentially overlapping on the same facts."
+        }
+      ]
+    },
+    {
+      "id": "S416",
+      "name": "Cheating by Personation",
+      "sub": "S.416 PPC — deception through impersonation, real or imaginary",
+      "step": "Element 2 of 6",
+      "atom": "S416",
+      "desc": "A person is said to cheat by personation if they cheat by pretending to be some other person, or by knowingly substituting one person for another, or representing that they or any other person is someone other than who they really are. The Explanation confirms the offence is committed whether the impersonated individual is real or entirely imaginary.",
+      "legal": "S.416 is a specific, named sub-species of the general Cheating offence (S.415), distinguished by the particular METHOD of deception used: impersonation specifically, rather than deception through false claims about goods, false promises, or concealment. The Explanation's confirmation that the impersonated person can be entirely imaginary is significant — it means the offence does not require proof that any real, identifiable individual was actually impersonated; inventing a fictional persona to deceive a victim satisfies S.416 just as fully as impersonating a genuine, real person, since the harm to the deceived victim is identical either way.",
+      "cite": "S.416 PPC and its Explanation, plus both original Illustrations — official text. Cross-reference S.415 PPC — personation as a specifically named method of deception within the broader cheating framework.",
+      "ll": "S.416 PPC and Illustrations — official text",
+      "section": "416",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A cheats Z by pretending to be a wealthy banker who shares the same name as a genuine, real banker. Separately, B cheats Y by pretending to be an entirely fictional person B invented for the purpose, who does not correspond to any real individual at all. Apply S.416 and its Explanation. Are both A and B liable for cheating by personation?",
+          "reveal": "Yes, both are liable. A's scenario is the Code's own Illustration (a) directly — pretending to be a real, named banker. B's scenario is covered by S.416's own Explanation, which expressly states 'the offence is committed whether the individual personated is a real or imaginary person.' The fictional, invented nature of B's persona does not provide any defence; the deceptive harm to Y is the same regardless of whether the impersonated identity corresponds to an actual living person.",
+          "cite": "S.416 PPC Explanation and Illustration (a) — personation of either a real or entirely imaginary person equally satisfies the section."
+        },
+        {
+          "q": "A pretends to be B, a specific person who has since died. Apply S.416's own Illustration (b). Does the fact that the impersonated person B is deceased, rather than living, affect A's liability?",
+          "reveal": "No — this is the Code's own Illustration (b) directly: 'A cheats by pretending to be B, a person who is deceased. A cheats by personation.' The impersonated person's death does not provide any defence or exception; S.416 is concerned with the deceptive harm caused to the victim being deceived, not with whether the impersonated identity belongs to someone currently living, deceased, or even real at all (per the Explanation already discussed).",
+          "cite": "S.416 PPC Illustration (b) — personation of a deceased real person satisfies the section just as fully as personation of a living or imaginary person."
+        },
+        {
+          "q": "Does S.416 require that the personation itself be the sole or even primary mechanism inducing the victim's harmful reliance, or could personation be just one element within a broader deceptive scheme that also involves other false statements?",
+          "reveal": "S.416's text simply requires that the offender 'cheats by pretending to be some other person' — it does not require personation to be the sole deceptive mechanism employed. A broader scheme combining personation with other false statements or concealments would still satisfy S.416 so long as the personation itself genuinely contributed to the deception that induced the cheating, even where other deceptive elements were also present in the same overall scheme.",
+          "cite": "S.416 PPC — no requirement that personation be the sole or exclusive deceptive mechanism within a broader scheme."
+        }
+      ]
+    },
+    {
+      "id": "S417",
+      "name": "Punishment for Cheating",
+      "sub": "S.417 PPC — the base punishment tier",
+      "step": "Element 3 of 6",
+      "atom": "S417",
+      "desc": "Whoever cheats is punished with imprisonment of either description up to 1 year, fine, or both.",
+      "legal": "S.417's 1-year ceiling is notably modest compared to most other property offences already built in this app — lower than Theft's 3-year base (S.379) and far below Criminal Breach of Trust's graduated ladder reaching life imprisonment (S.409). This reflects that S.417 governs the most basic, undifferentiated form of cheating before any of the specific aggravating circumstances addressed in S.418–420 are considered; the legislature reserved meaningfully harsher punishment for cheating combined with specific aggravating factors (a position of legal duty to protect the victim's interest, personation, or actual dishonest inducement of property delivery) rather than treating bare cheating itself as comparably serious to the gravest property offences.",
+      "cite": "S.417 PPC — official text.",
+      "ll": "S.417 PPC — official text",
+      "section": "417",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why might the legislature have set S.417's base cheating ceiling (1 year) so much lower than Theft's base ceiling (3 years, S.379) or Criminal Breach of Trust's base ceiling (7 years, S.406), despite all three being core property offences?",
+          "reveal": "This is worth flagging honestly as a genuine, notable disparity rather than smoothing it over with an invented justification the text does not supply: cheating, theft, and breach of trust all involve dishonest dealing with property, yet the legislature's chosen base ceilings differ substantially (1 year, 3 years, and 7 years respectively). One plausible reading is that bare cheating, considered at its most undifferentiated and stripped of any aggravating factor, was judged the least severe of the three core dishonesty offences in this part of the Code — perhaps reflecting an assumption that cheating victims retain some greater capacity for self-protection through ordinary diligence compared to victims of outright theft or breach of an existing trust relationship. This remains an interpretive reading rather than a stated legislative rationale.",
+          "cite": "S.417 PPC's comparatively modest base ceiling, honestly flagged against S.379 PPC (Theft) and S.406 PPC (Criminal Breach of Trust) without inventing an unstated legislative rationale."
+        },
+        {
+          "q": "Does S.417 itself distinguish between cheating that results in actual harm to the victim and cheating that, while satisfying S.415's definition, causes only a likelihood of harm rather than realized harm?",
+          "reveal": "S.417's text simply punishes 'whoever cheats,' without itself drawing this distinction — the distinction, if any, would need to come from S.415's own definitional structure, which already covers conduct 'likely to cause damage or harm' as an alternative to conduct that actually 'causes' damage or harm. Since S.415's definition already treats likely harm as sufficient to establish cheating in the first place, S.417's punishment provision applies uniformly once the underlying cheating offence is established, regardless of whether the harm was realized or merely likely at the time of the deceptive inducement.",
+          "cite": "S.417 PPC applying uniformly to established cheating regardless of whether S.415's 'causes' or 'likely to cause' limb was the basis for establishing the underlying offence."
+        },
+        {
+          "q": "A cheats Z out of a very large sum of money through an elaborate, sophisticated scheme. B cheats Y out of a trivial sum through a crude, simple deception. Does S.417 itself distinguish punishment based on the value of property involved or the sophistication of the scheme?",
+          "reveal": "No — S.417's text sets a single, undifferentiated 1-year ceiling for cheating generally, without any value-based or sophistication-based tiering built into the section itself. Both A and B would face the identical statutory ceiling under S.417, with the value involved and the sophistication of the scheme being relevant only to where within that single ceiling a sentencing court chooses to position the actual sentence, rather than to which statutory provision applies in the first place. This contrasts with several other property offences already built in this app (such as Theft's S.380 dwelling-house aggravation or S.381A's vehicle-specific provision) which create entirely separate, more severely punished tiers for specific aggravating circumstances.",
+          "cite": "S.417 PPC — a single undifferentiated ceiling regardless of property value or scheme sophistication, contrasted with the more granular tiering seen in other property offences already built in this app."
+        }
+      ]
+    },
+    {
+      "id": "S418",
+      "name": "Cheating with Knowledge of Likely Wrongful Loss to a Protected Person",
+      "sub": "S.418 PPC — the legal-duty-to-protect aggravation",
+      "step": "Element 4 of 6",
+      "atom": "S418",
+      "desc": "Whoever cheats with knowledge that they are likely thereby to cause wrongful loss to a person whose interest in the relevant transaction they were bound, by law or legal contract, to protect, is punished with imprisonment up to 3 years, fine, or both.",
+      "legal": "S.418 escalates S.417's base 1-year ceiling threefold to 3 years where the offender occupies a specific position of legal or contractual duty to protect the very interest their cheating undermines — a structural aggravation conceptually adjacent to, though distinct from, the entrustment relationship underlying Criminal Breach of Trust (S.405, already built). The key distinction: S.405 requires actual entrustment with property or dominion over it; S.418 requires only a legal or contractual DUTY TO PROTECT a person's interest in a transaction, which could exist without any direct entrustment of property at all (for example, a professional advisor bound to protect a client's interests in a transaction they are merely advising on, without ever holding the client's property themselves).",
+      "cite": "S.418 PPC — official text. Cross-reference Criminal Breach of Trust module S.405 — a related but distinct legal-duty concept; S.418's duty-to-protect is broader than and does not require S.405's specific entrustment-with-property relationship.",
+      "ll": "S.418 PPC — official text",
+      "section": "418",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is a financial advisor under a legal/contractual duty to protect Z's interests in a specific investment transaction Z is considering. A cheats Z in connection with that same transaction, knowing it is likely to cause Z wrongful loss — but A never held or was entrusted with any of Z's property directly. Apply S.418. Does the absence of any direct entrustment relationship (which would be required for Criminal Breach of Trust under S.405) prevent S.418 from applying?",
+          "reveal": "No. S.418 requires only that the offender be bound 'by law, or by legal contract, to protect' the victim's interest in the relevant transaction — it does not require the kind of direct entrustment with property or dominion over property that S.405 Criminal Breach of Trust specifically requires. A's duty to protect Z's interests as a financial advisor, even without ever personally holding Z's property, is sufficient to trigger S.418's enhanced tier once the underlying cheating (knowing of likely wrongful loss) is established.",
+          "cite": "S.418 PPC — duty-to-protect requirement broader than and independent of S.405 PPC's entrustment-with-property requirement."
+        },
+        {
+          "q": "Compare S.418's 3-year ceiling to S.417's base 1-year ceiling. What is the precise additional element S.418 requires beyond ordinary cheating, and why might this specific combination warrant a threefold increase?",
+          "reveal": "S.418 requires the additional element of a pre-existing legal or contractual duty specifically to protect the victim's interest in the very transaction being cheated, combined with the offender's KNOWLEDGE that the cheating is likely to cause wrongful loss to that protected interest. This combination — betraying both the general honesty obligation S.415 already requires AND a specific, pre-existing protective duty, with actual knowledge of the likely harm to the protected interest — represents a compounded wrong beyond ordinary cheating, justifying the threefold ceiling increase: not merely deceiving a stranger, but deceiving someone the offender was specifically bound to protect.",
+          "cite": "S.418 PPC's additional elements (pre-existing protective duty plus knowledge of likely wrongful loss to that protected interest) as the compounded wrong justifying the threefold ceiling increase over S.417."
+        },
+        {
+          "q": "Does S.418 require that the wrongful loss actually occur, or is knowledge of the likelihood of such loss, at the time of the cheating, sufficient on its own?",
+          "reveal": "Knowledge of the likelihood is sufficient on its own — S.418's text covers cheating 'with the knowledge that he is likely thereby to cause wrongful loss,' which is a forward-looking, likelihood-based mental-state requirement at the time of the cheating, not a requirement that the wrongful loss actually materialise afterward. This mirrors the same 'likely to cause' structure already built into S.415's own definition of cheating generally, confirming a consistent approach across this cluster: the offender's knowledge or awareness of likely harm at the time of acting is what matters, not proof of an ultimately realized harmful outcome.",
+          "cite": "S.418 PPC — knowledge of likely wrongful loss at the time of cheating is sufficient, mirroring S.415's own 'likely to cause' structure; actual realized loss is not a required element."
+        }
+      ]
+    },
+    {
+      "id": "S419",
+      "name": "Punishment for Cheating by Personation",
+      "sub": "S.419 PPC — the personation-specific punishment tier",
+      "step": "Element 5 of 6",
+      "atom": "S419",
+      "desc": "Whoever cheats by personation is punished with imprisonment of either description up to 7 years, fine, or both.",
+      "legal": "S.419 supplies the dedicated punishment tier for the specific personation-based cheating method defined in S.416, and the ceiling (7 years) is dramatically higher than S.417's general 1-year ceiling for cheating generally — a sevenfold increase reflecting that deceiving a victim through assumed false identity is treated as substantially more serious than other forms of cheating (false promises, false samples, concealment) addressed under the general S.417 provision. This significant gap is worth comparing directly against S.418's more modest threefold increase for the legal-duty-to-protect aggravation, confirming that personation specifically, as a method of deception, is treated by the legislature as warranting the more severe escalation among the various cheating aggravations in this cluster.",
+      "cite": "S.419 PPC — official text. Cross-reference S.416 PPC (Cheating by Personation, already built) and S.417/418 PPC — comparing the severity escalations across the different cheating-aggravation methods.",
+      "ll": "S.419 PPC — official text",
+      "section": "419",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A cheats Z by pretending to be a wealthy, real banker sharing the same name (the same fact pattern as S.416's own Illustration (a), already built). Apply S.419. What is A's punishment exposure, and how does this compare to the punishment A would have faced for cheating Z through some other deceptive method, such as a false sample or false promise to repay?",
+          "reveal": "A faces up to 7 years' imprisonment under S.419, since the cheating was accomplished specifically through personation (satisfying S.416's definition). Had A instead cheated Z through some other method covered only by S.415's general definition — a false sample, a false promise to repay, a counterfeit mark — without personation being involved, A would instead face only S.417's general 1-year ceiling. The specific method of deception used (personation specifically) is what triggers the dramatically more severe S.419 tier.",
+          "cite": "S.419 PPC's 7-year ceiling specifically tied to the personation method of cheating defined in S.416, contrasted with S.417's general 1-year ceiling for other deceptive methods."
+        },
+        {
+          "q": "Why might cheating by personation specifically warrant a sevenfold increase over general cheating (1 year to 7 years), while the legal-duty-to-protect aggravation under S.418 warrants only a threefold increase (1 year to 3 years)?",
+          "reveal": "This is worth noting as an observed pattern rather than a definitively explained one, since the text itself does not supply the underlying rationale: one plausible reading is that personation involves a distinctively severe form of deception — the wholesale assumption of a false identity — that may be harder for an ordinarily diligent victim to detect or guard against compared to a false promise or breach of a duty relationship where the victim at least knows who they are actually dealing with. Identity-based deception may also carry broader societal harms (undermining trust in identity generally, potentially enabling further downstream fraud against third parties) beyond the immediate financial harm to the deceived victim, which the legislature may have judged warrants the more severe escalation. This remains an interpretive observation, not a stated legislative rationale.",
+          "cite": "S.419 PPC's sevenfold increase vs S.418 PPC's threefold increase — an observed pattern in the relative severity calibration across cheating aggravations, flagged as an interpretive reading rather than an invented definitive rationale."
+        },
+        {
+          "q": "Could a single act of cheating by personation also independently satisfy S.418's legal-duty-to-protect aggravation, if the personator also happened to occupy a position of legal duty toward the victim? If so, which provision would govern?",
+          "reveal": "In principle, yes, both could be satisfied on the same facts if a person bound by a legal or contractual duty to protect a victim's interest also chose to cheat that victim specifically through personation. Since S.419 carries the higher ceiling (7 years) compared to S.418's 3 years, and both provisions punish the broader underlying offence of cheating (as defined in S.415) with different aggravating-circumstance enhancements layered on top, the more severely punished provision — S.419, given personation is established — would likely be the one actually charged and applied, since it already comprehensively captures the wrong on these facts at a higher severity level than S.418 would.",
+          "cite": "S.419 PPC and S.418 PPC — potentially overlapping aggravations on the same facts, with the more severely punished provision (S.419, given personation) likely governing in practice."
+        }
+      ]
+    },
+    {
+      "id": "S420",
+      "name": "Cheating and Dishonestly Inducing Delivery of Property",
+      "sub": "S.420 PPC — the most commonly charged cheating provision",
+      "step": "Element 6 of 6",
+      "atom": "S420",
+      "desc": "Whoever cheats and thereby dishonestly induces the deceived person to deliver any property, or to make, alter, or destroy the whole or part of a valuable security, or anything signed/sealed and capable of being converted into a valuable security, is punished with imprisonment up to 7 years plus mandatory fine liability.",
+      "legal": "S.420 is, in practice, the most frequently invoked cheating provision in Pakistani criminal litigation, since it captures the paradigm case the public most readily associates with 'cheating' or fraud: deception leading to actual delivery of property or to the creation/alteration/destruction of a valuable security. Its 7-year ceiling matches S.419's personation-specific tier, and like S.407 (Criminal Breach of Trust by carrier/wharfinger/warehouse-keeper, already built), S.420 makes fine liability mandatory rather than merely optional — 'shall also be liable to fine,' not 'or with fine.' S.420's scope deliberately extends beyond simple property delivery to cover inducing the VICTIM THEMSELVES to make, alter, or destroy a valuable security or convertible instrument, capturing fraud schemes where the victim is manipulated into personally creating or destroying the very document that effects their own loss.",
+      "cite": "S.420 PPC — official text. Cross-reference S.407 PPC (Criminal Breach of Trust module) — the same mandatory-fine drafting pattern recurring here.",
+      "ll": "S.420 PPC — official text",
+      "section": "420",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A deceives Z into believing a worthless document is a valuable, genuine security, and thereby dishonestly induces Z to personally destroy a genuinely valuable security Z actually holds, believing (falsely, due to A's deception) that doing so is necessary or beneficial. Apply S.420. Does inducing Z to destroy Z's own property, rather than inducing Z to hand property over to A, satisfy this section?",
+          "reveal": "Yes — S.420's text explicitly covers inducing the deceived person 'to make, alter or destroy the whole or any part of a valuable security' as an independent route alongside the more straightforward 'deliver any property' route. A's scheme, which induces Z to destroy Z's own valuable security through deception, falls squarely within this destruction-inducement limb, even though no property was ever directly delivered to A and the harm consists entirely of Z's own valuable security being destroyed at A's instigation.",
+          "cite": "S.420 PPC's 'make, alter or destroy' limb — independently sufficient even without any direct delivery of property to the deceiver, capturing schemes where the victim is induced to destroy their own valuable security."
+        },
+        {
+          "q": "Why might S.420 make fine liability mandatory ('shall also be liable to fine') rather than merely optional, mirroring the same drafting pattern already seen in S.407 for carrier/wharfinger/warehouse-keeper breach of trust?",
+          "reveal": "Both S.420 and S.407 address property offences with a distinctly commercial or transactional character — S.407's carrier/wharfinger/warehouse-keeper context and S.420's property-delivery-through-deception context both typically involve quantifiable financial harm flowing directly from the offence. Making fine mandatory in both contexts ensures a guaranteed financial consequence directly tied to the economic nature of the harm caused, rather than leaving the financial dimension of the punishment to discretionary judicial choice the way S.406's more general, less specifically transactional breach-of-trust provision does.",
+          "cite": "S.420 PPC's mandatory fine, paralleling the same drafting rationale already discussed for S.407 PPC — guaranteed financial consequence for offences with a distinctly transactional, quantifiable-harm character."
+        },
+        {
+          "q": "How does S.420 relate to S.417 (general cheating punishment)? If a cheating scheme results in actual delivery of property, does S.417 still apply at all, or does S.420 entirely displace it?",
+          "reveal": "Where a cheating scheme actually results in dishonestly induced delivery of property (or the making/altering/destroying of a valuable security), S.420 is the specifically applicable, more severely punished provision (7 years, mandatory fine) and would be the one charged, rather than the general S.417 (1 year). S.417 remains the applicable provision specifically for cheating that does NOT result in any of S.420's specific outcomes — for example, cheating that merely induces some other harmful act or omission falling under S.415's broader act-or-omission route, without any property delivery or valuable-security manipulation occurring. The two provisions are not cumulative for the same conduct; S.420 is the specific, more severely punished variant that applies once its particular property-delivery or security-manipulation outcome is established.",
+          "cite": "S.420 PPC as the specific, more severely punished variant applicable once property delivery or valuable-security manipulation is established, with S.417 remaining the general provision for cheating outcomes falling outside S.420's specific scope."
+        }
+      ]
+    }
+  ]
+}

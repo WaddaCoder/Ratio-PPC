@@ -1,0 +1,131 @@
+{
+  "id": "extortion",
+  "name": "Extortion",
+  "section": "S.383–389 PPC",
+  "formula": "Fear of Injury → Dishonest Inducement → Delivery of Property",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S383",
+      "name": "Extortion — The Foundational Definition",
+      "sub": "S.383 PPC — fear-induced delivery of property",
+      "step": "Element 1 of 7",
+      "atom": "S383",
+      "desc": "Whoever intentionally puts any person in fear of injury to that person or any other, and thereby dishonestly induces the person so put in fear to deliver property, valuable security, or anything signed/sealed convertible into a valuable security, commits extortion.",
+      "legal": "Extortion's defining mechanism is fear-induced delivery: unlike Theft (which requires taking property without consent), Extortion requires the victim's own act of delivery, but that delivery is induced by fear rather than freely given. The Code's four Illustrations span a wide range of fear sources — reputational (threatening to publish a defamatory libel), liberty-based (threatening wrongful confinement of a victim's child), property-based (threatening to destroy crops), and physical (threatening grievous hurt to extract a signed blank paper) — confirming that 'injury' under S.383 is read broadly, consistent with the General Explanations S.44 definition of injury as harm to body, mind, reputation, or property.",
+      "cite": "S.383 PPC and its four Illustrations — official text. Cross-reference General Explanations S.44 (Injury — harm to body, mind, reputation, or property) — the broad injury concept S.383's fear element draws on.",
+      "ll": "S.383 PPC and Illustrations — official text",
+      "section": "383",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.383–389 specifically as of this build. Flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A threatens to publish a defamatory libel about Z unless Z pays him money. Z, fearing reputational harm, pays. Apply S.383 and Illustration (a). Has A committed extortion, even though the threatened harm is purely reputational rather than physical?",
+          "reveal": "Yes — this is the Code's own Illustration (a) directly. S.383's 'injury' element is not confined to physical harm; reputational harm (the threat of a defamatory libel) is independently sufficient to satisfy the fear element, consistent with General Explanations S.44's broad definition of injury as harm to body, MIND, REPUTATION, or property. A's threat, and Z's fear-induced payment, satisfy extortion fully.",
+          "cite": "S.383 PPC Illustration (a) and General Explanations S.44 — reputational harm independently sufficient to satisfy the fear element of extortion."
+        },
+        {
+          "q": "A, by threatening Z with grievous hurt, induces Z to sign a blank piece of paper and hand it to A, with no specific monetary or property demand stated at the time. Apply S.383 and Illustration (d). Does handing over a blank signed paper, rather than money or identifiable property, satisfy extortion?",
+          "reveal": "Yes — this is the Code's own Illustration (d). S.383's text explicitly covers delivery of 'anything signed or sealed which may be converted into a valuable security' — a blank signed paper, capable of later being converted into a valuable security (for example, by writing a promissory note on it), falls within this category even though it has no immediate, defined value at the moment of delivery. The potential for future conversion into a valuable security is what matters, not the paper's value at the instant of handover.",
+          "cite": "S.383 PPC Illustration (d) — a blank signed paper convertible into a valuable security satisfies the 'anything signed or sealed' limb of extortion."
+        },
+        {
+          "q": "How does S.383's fear-induced-delivery mechanism differ from the dishonest-taking mechanism in Theft (S.378, already built)? Could the same property end up in the offender's hands through either route depending on subtle factual differences?",
+          "reveal": "Yes, the line can be subtle. Theft requires the offender to move property out of the victim's possession without the victim's consent — the victim plays no voluntary role in the transfer. Extortion requires the victim's own act of delivery, but that delivery is not truly voluntary in the ordinary sense — it is dishonestly induced by fear. The same item of property changing hands could be Theft (if simply taken without any inducement) or Extortion (if the victim themselves hands it over because they were put in fear) depending entirely on whether the victim's own act of delivery was the mechanism, or whether the offender unilaterally took the property. This distinction is precisely why Robbery's own definition (S.390, already built) separately addresses 'when theft is robbery' and 'when extortion is robbery' as two distinct routes to the same overarching offence.",
+          "cite": "S.383 PPC (fear-induced delivery) vs S.378 PPC (Theft module, dishonest taking without consent) — the victim's own act of delivery as the defining distinction, directly feeding into Robbery's dual-route structure already built."
+        }
+      ]
+    },
+    {
+      "id": "S384",
+      "name": "Punishment for Extortion",
+      "sub": "S.384 PPC — the base punishment tier",
+      "step": "Element 2 of 7",
+      "atom": "S384",
+      "desc": "Whoever commits extortion is punished with imprisonment of either description up to 3 years, fine, or both.",
+      "legal": "S.384 sets the baseline punishment before the escalating fear-source tiers in S.385–389 are considered. Notably, this 3-year ceiling matches S.379's base Theft punishment exactly — the legislature appears to have treated the two property offences as comparably serious at their respective base tiers, with the more severe variants of each (S.380–382 for Theft; S.385–389 for Extortion) escalating from broadly similar starting points.",
+      "cite": "S.384 PPC — official text. Cross-reference Theft module S.379 — identical 3-year base ceiling for the two property offences.",
+      "ll": "S.384 PPC — official text",
+      "section": "384",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why might the legislature have set Extortion's base punishment (S.384) at the identical 3-year ceiling as Theft's base punishment (S.379), despite the two offences requiring entirely different mechanisms of property transfer?",
+          "reveal": "Despite the different mechanisms (dishonest taking vs fear-induced delivery), both base offences share the same fundamental harm: dishonest deprivation of property from its rightful possessor. The identical base ceiling suggests the legislature treated this shared core harm as warranting comparable baseline punishment, reserving the differentiation for the escalating circumstances that aggravate each offence beyond its base form — location and trust-position for Theft (S.380–382); severity and nature of the threatened harm for Extortion (S.385–389).",
+          "cite": "S.384 PPC vs S.379 PPC (Theft module) — identical base ceilings reflecting the shared core harm of dishonest property deprivation, before offence-specific aggravating factors are considered."
+        },
+        {
+          "q": "Does S.384 itself specify what kind of fear or injury must have been used to commit the extortion, or does it apply uniformly regardless of the specific threat used?",
+          "reveal": "S.384 applies to extortion generally, as defined in S.383, without itself distinguishing by the type or severity of fear/injury used — that differentiation is precisely what the subsequent sections (S.385 for fear of injury generally, S.386/387 for fear of death/grievous hurt, S.388/389 for fear of accusation of a serious offence) provide. S.384 functions as the residual/base provision applicable whenever none of the more specific, more severely punished variants in S.385–389 are engaged on the facts.",
+          "cite": "S.384 PPC as the residual base provision, with S.385–389 providing the more specific, more severely punished fear-source variants."
+        }
+      ]
+    },
+    {
+      "id": "S385_387",
+      "name": "Fear of Injury, and Fear of Death/Grievous Hurt — The Attempt and Completion Pairs",
+      "sub": "S.385/386/387 PPC — two matched attempt/completion pairs, escalating by severity of threat",
+      "step": "Element 3 of 7",
+      "atom": "S385_387",
+      "desc": "S.385 punishes putting (or attempting to put) a person in fear of any injury, in order to commit extortion — up to 2 years, fine, or both — regardless of whether the extortion itself succeeds. S.386 punishes completed extortion specifically achieved by fear of death or grievous hurt, with up to 10 years plus fine. S.387 punishes the attempt-stage equivalent — putting or attempting to put a person in fear of death or grievous hurt, in order to commit extortion — with up to 7 years plus fine.",
+      "legal": "These three sections reveal a structural pattern: S.385 and S.387 are both ATTEMPT-STAGE provisions (criminalising the act of inducing fear 'in order to' commit extortion, regardless of whether the extortion is ultimately completed), while S.386 is the COMPLETION-STAGE provision for the death/grievous-hurt fear category specifically. There is no separate completion-stage section for the general 'fear of any injury' category beyond S.384 itself — S.384 (base extortion) already covers completed extortion by ordinary fear of injury, while S.385 separately covers the attempt to induce such fear even if the extortion fails. This produces an asymmetric structure worth tracking carefully: general injury has one attempt provision (S.385) and relies on S.384 for completion; death/grievous hurt has both a dedicated attempt provision (S.387) and a dedicated completion provision (S.386), each with a different ceiling (7 years attempt vs 10 years completion).",
+      "cite": "S.385, S.386, and S.387 PPC — official text.",
+      "ll": "S.385, S.386, S.387 PPC — official text",
+      "section": "385",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A attempts to put Z in fear of death, intending to extort money, but Z is unafraid and refuses to pay — the extortion itself fails completely. Apply S.387. Is A still liable, despite the extortion never succeeding?",
+          "reveal": "Yes. S.387 explicitly covers putting OR ATTEMPTING TO PUT a person in fear of death or grievous hurt, 'in order to the committing of extortion' — the section is satisfied by the attempt to induce the relevant fear with extortionate purpose, regardless of whether the underlying extortion actually succeeds. A faces up to 7 years under S.387 even though Z never paid and the extortion attempt failed entirely.",
+          "cite": "S.387 PPC — attempt-stage provision, satisfied regardless of whether the underlying extortion succeeds."
+        },
+        {
+          "q": "A successfully extorts money from Z by genuinely putting Z in fear of grievous hurt, and Z pays as a direct result. Apply S.386. Why does this scenario engage S.386 (10-year ceiling) rather than S.387 (7-year ceiling), given both sections reference fear of death/grievous hurt?",
+          "reveal": "S.386 applies because the extortion was actually COMPLETED — Z paid as a result of the fear A induced. S.387 is specifically the lesser-punished ATTEMPT-stage provision, applicable where the offender puts or attempts to put the victim in fear but the text's own framing ('in order to the committing of extortion') signals this provision addresses the inducement itself rather than a completed transaction. Once the extortion is actually completed via fear of death or grievous hurt, S.386's higher 10-year ceiling — specifically tied to the completed offence — applies instead of S.387's attempt-stage 7-year ceiling.",
+          "cite": "S.386 PPC (completed extortion by fear of death/grievous hurt, 10 years) vs S.387 PPC (attempt/inducement stage, 7 years) — completion-vs-attempt distinguishing the two ceilings."
+        },
+        {
+          "q": "Is there a dedicated completion-stage provision, parallel to S.386, specifically for extortion completed through ordinary fear of injury falling short of death or grievous hurt? Where would such a completed extortion be charged?",
+          "reveal": "No dedicated completion-stage provision exists for this specific category beyond the general S.384 base provision. Completed extortion by ordinary fear of injury (not amounting to fear of death or grievous hurt) is charged under S.384's general 3-year ceiling, since S.384 itself does not specify the severity of the fear/injury used — it is the catch-all completion provision for extortion generally. S.385 only adds attempt-stage liability for the ordinary-injury category (in case the extortion attempt fails), without a separate, more specific completion provision parallel to S.386's structure for the death/grievous-hurt category.",
+          "cite": "S.384 PPC as the only completion-stage provision for ordinary-injury extortion, since no dedicated 'fear of ordinary injury, completed' provision parallel to S.386 exists in the text."
+        }
+      ]
+    },
+    {
+      "id": "S388_389",
+      "name": "Extortion by Threat of Accusation of a Grave Offence",
+      "sub": "S.388/389 PPC — the blackmail-by-false-accusation provisions, with an S.377 enhancement",
+      "step": "Element 4 of 7",
+      "atom": "S388_389",
+      "desc": "S.388 punishes completed extortion achieved by putting a person in fear of being accused of an offence punishable with death, life imprisonment, or up to 10 years' imprisonment (or of having attempted to induce another to commit such an offence) — up to 10 years plus fine, rising to life imprisonment specifically where the underlying threatened accusation concerns an offence under S.377 (Unnatural Offences). S.389 punishes the parallel attempt-stage conduct — putting or attempting to put a person in fear of such an accusation, in order to commit extortion — with the identical punishment structure (10 years, or life imprisonment for the S.377-linked variant).",
+      "legal": "This is the PPC's classical 'blackmail' provision — extortion achieved not through threats of physical or property harm, but through the threat of social and legal destruction via a false or genuine accusation of a serious crime. The S.377-specific enhancement to life imprisonment (rather than the general 10-year ceiling) reflects the particularly severe social stigma historically attached to accusations under that section, making threatened S.377 accusations an especially potent and historically exploited extortion tool — directly connecting to the broader pattern already discussed in the Unnatural Offences module regarding S.377's severe social consequences independent of the underlying section's other elements. Unusually, S.388 and S.389 share an almost identical structure and identical punishment ceilings, differing only in completion (S.388) versus attempt (S.389) — unlike the asymmetric structure seen in S.385–387.",
+      "cite": "S.388 and S.389 PPC — official text. Cross-reference Unnatural Offences module S.377 — the specific enhancement tied to threatened accusation under that section, reflecting its severe social stigma as an extortion lever.",
+      "ll": "S.388, S.389 PPC — official text",
+      "section": "388",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A threatens to falsely accuse Z of having committed an offence punishable with life imprisonment, unless Z pays a substantial sum. Z, fearing the accusation, pays. Apply S.388. What is A's punishment exposure?",
+          "reveal": "Up to 10 years' imprisonment plus fine, under S.388's general tier — since the threatened offence (one punishable with life imprisonment) falls within the general category S.388 addresses, and is not specifically an offence under S.377. Had A instead threatened to accuse Z specifically of an offence under S.377, the enhanced life-imprisonment tier would apply instead of the general 10-year ceiling.",
+          "cite": "S.388 PPC general tier — 10 years for threatened accusation of offences generally punishable with death/life/up to 10 years, distinguished from the S.377-specific life-imprisonment enhancement."
+        },
+        {
+          "q": "Does S.388 require that the threatened accusation be false, or could a threat to make a genuinely true accusation also satisfy this section if used for extortionate purposes?",
+          "reveal": "S.388's text does not require the threatened accusation to be false — it covers putting a person in fear of 'an accusation against that person or any other, of having committed or attempted to commit any offence' meeting the severity threshold, without qualifying this with any falsity requirement. This means even threatening to report a genuinely committed offence, if done specifically to extort property or compliance rather than for legitimate law-enforcement purposes, could satisfy S.388 — the wrong the section targets is the extortionate USE of the threat, not necessarily the truth or falsity of the underlying accusation.",
+          "cite": "S.388 PPC — no falsity requirement in the text; the wrong targeted is extortionate use of an accusation threat, regardless of whether the underlying accusation would be true or false."
+        },
+        {
+          "q": "Compare S.388/389's structure (nearly identical attempt and completion provisions, both capped or enhanced identically) to S.385–387's structure (asymmetric, with different ceilings for attempt vs completion). What might explain why the legislature treated these two clusters of extortion variants differently?",
+          "reveal": "This is a structural observation worth noting honestly rather than resolving definitively, since the text itself does not explain the asymmetry: one plausible reading is that the threat-of-accusation category (S.388/389) was treated as comparably serious whether or not the extortion actually succeeded, given that merely uttering such a threat already inflicts significant reputational and psychological harm independent of whether payment follows — whereas the fear-of-death/grievous-hurt category (S.385–387) was calibrated to treat actual completion as meaningfully more serious than the bare attempt, perhaps reflecting that the physical threat's harm is more closely tied to whether the extortion is consummated. This remains an interpretive observation rather than a stated legislative rationale, flagged honestly as such.",
+          "cite": "S.388/389 PPC's symmetric structure vs S.385–387 PPC's asymmetric structure — a structural pattern noted without an invented definitive legislative rationale, since the text itself does not supply one."
+        }
+      ]
+    }
+  ]
+}

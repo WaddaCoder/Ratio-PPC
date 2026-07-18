@@ -1,0 +1,136 @@
+{
+  "id": "rape",
+  "name": "Rape",
+  "section": "S.375–376 PPC",
+  "formula": "Act ∧ (¬Consent ∨ Incapacity) ∧ ¬Exception  →  Rape (S.375)",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "Act",
+      "name": "Sexual Act",
+      "sub": "S.375 PPC — penetration, post-2021 definition",
+      "step": "Element 1 of 4",
+      "atom": "Act",
+      "desc": "The physical act of rape under S.375 as amended in 2021. Penetration — however slight — satisfies the physical element. The 2021 amendments broadened the definition to include additional acts beyond the original formulation.",
+      "legal": "Penetration however slight suffices — emission is not required. The 2021 amendments expanded the definition to include additional forms of sexual assault. Medical evidence (medico-legal certificate, DNA) corroborates but is not strictly required for conviction where the complainant's testimony is credible and reliable.",
+      "cite": "S.375 PPC as amended by Criminal Laws Amendment Act 2021. PLD 2021 SC 600 on medical evidence standards.",
+      "ll": "S.375 PPC — official text",
+      "section": "375",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Criminal Laws Amendment Act 2021 completely rewrote S.375 consent definition. PLD 2021 SC 600 (Salman Akram Raja J.) on DNA evidence standards. S.375-A added for gang rape — each participant liable as if sole perpetrator. Two-finger test declared inadmissible by Supreme Court 2021.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "Is medical evidence — a medico-legal certificate or DNA match — required to establish the physical act of rape?",
+          "reveal": "No. Pakistani courts have held that the complainant's testimony, if credible, reliable, and corroborated by circumstantial evidence, can establish the act without medical evidence. DNA evidence, where available, is highly probative but its absence does not defeat the case. The two-finger test was declared inadmissible by the Supreme Court in 2021.",
+          "cite": "PLD 2021 SC 600 — DNA evidence standards. Two-finger test declared inadmissible"
+        },
+        {
+          "q": "The 2021 Criminal Laws Amendment Act rewrote S.375. What was the most significant structural change to the physical element?",
+          "reveal": "The 2021 amendments broadened the definition of the sexual act beyond the original narrow formulation, aligning Pakistani law more closely with international standards. The amendment also introduced S.375-A specifically for gang rape, making each participant liable as if the sole perpetrator regardless of their individual role.",
+          "cite": "Criminal Laws Amendment Act 2021 — S.375 and S.375-A"
+        },
+        {
+          "q": "Under S.375-A (gang rape), two accused participated but only one performed penetration. Is the non-penetrating accused liable for rape?",
+          "reveal": "Yes under S.375-A. The section specifically provides that where rape is committed by two or more persons, each person involved is deemed to have committed the offence — regardless of whether they personally performed the penetrating act. This is a specific extension of liability beyond the general S.34 common intention doctrine.",
+          "cite": "S.375-A PPC — gang rape, each participant deemed to have committed the offence"
+        }
+      ]
+    },
+    {
+      "id": "¬Con",
+      "name": "Absence of Consent",
+      "sub": "S.375 PPC — post-2021 consent definition",
+      "step": "Element 2 of 4",
+      "atom": "¬Con",
+      "desc": "The 2021 amendments introduced a comprehensive consent definition. Consent must be free, voluntary, and informed. Seven circumstances are specified under which consent is absent or vitiated: force, threat, intoxication, unsoundness of mind, age (under 16), spousal relationship does not negate absence of consent in certain circumstances, and deception.",
+      "legal": "Consent is defined as unambiguous voluntary agreement communicated through words, gestures, or conduct. Silence or passivity does not constitute consent. The 2021 amendments enumerate seven specific circumstances negating consent, including: where consent is obtained by putting a person in fear of death or hurt, by impersonating a husband, where the person is intoxicated, where the person is of unsound mind, and where the person is under 16 years of age.\n\nCircumstance 1 — Against her will: The sexual act was committed against the express will of the complainant. She actively refused or resisted. The clearest and most direct negation of consent. Punishment: Strongest circumstance. No consent analysis required — the act was against expressed will.\n\nCircumstance 2 — Without her consent: The act occurred without any consent being given — neither express nor implied. The complainant did not communicate agreement in any form. Punishment: Covers passive non-consent — absence of agreement, not active refusal. Distinct from Circumstance 1.\n\nCircumstance 3 — Consent obtained by fear of death or hurt: Consent was given but obtained by putting the complainant or any person she cares about in fear of death or hurt. The consent is vitiated by coercion. Punishment: Vitiated consent — agreement existed but was coerced. Fear directed at third parties (family) also covered.\n\nCircumstance 4 — Consent by impersonation of husband: The accused obtained consent by falsely representing himself as the complainant's husband or a man she believed she was lawfully married to. A specific deception-based vitiating circumstance. Punishment: Deception vitiates consent. The accused knew he was not her husband. Consent given under false identity is no consent.\n\nCircumstance 5 — Complainant under 16 years of age: The complainant was under 16 years of age at the time of the act. Consent is legally irrelevant — a person under 16 cannot give valid consent to sexual intercourse regardless of what they communicated. Punishment: Statutory rape — consent is an absolute non-defence. Age is the operative fact, not the presence or absence of agreement.\n\nCircumstance 6 — Consent under intoxication or unsoundness of mind: The complainant was intoxicated, of unsound mind, or otherwise incapable of understanding the nature and consequences of the act to which she consented. Incapacity vitiates consent. Punishment: Capacity-based vitiating circumstance. The accused must have known or had reason to know of the incapacity.\n\nCircumstance 7 — Silence or passivity is not consent: Post-2021 definition: consent requires unambiguous voluntary agreement communicated through words, gestures, or conduct. A woman who does not physically resist shall not by reason only of that fact be regarded as consenting. Punishment: The 2021 amendment's most significant change — removes the passive consent inference. Silence, freezing, or failure to resist is not consent under Pakistani law.",
+      "cite": "S.375 PPC post-2021 consent definition. Criminal Laws Amendment Act 2021 — seven circumstances negating consent.",
+      "ll": "S.375 PPC — consent definition, official text",
+      "section": "375",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A complainant initially consented but withdrew consent during the act. The accused did not stop. Is consent absent?",
+          "reveal": "Yes. Consent under the 2021 definition is an ongoing condition — it can be withdrawn at any point. Once consent is withdrawn and the act continues, the absence of consent element is satisfied from the moment of withdrawal. The accused's failure to stop after withdrawal of consent constitutes rape for the period after withdrawal.",
+          "cite": "S.375 PPC post-2021 — ongoing nature of consent"
+        },
+        {
+          "q": "The accused obtained consent by falsely claiming to be the complainant's husband. Does this vitiate consent?",
+          "reveal": "Yes. The 2021 amendments specifically include consent obtained by impersonation of a husband as a circumstance negating valid consent. This is one of the seven enumerated circumstances. The complainant's factual agreement is not valid legal consent when obtained by this form of deception.",
+          "cite": "S.375 PPC — impersonation as vitiating consent, Criminal Laws Amendment Act 2021"
+        },
+        {
+          "q": "The complainant was 15 years old at the time. She says she consented. Does consent operate as a defence?",
+          "reveal": "No. Under S.375 as amended, where the complainant is under 16 years of age, consent is not a valid defence regardless of the complainant's stated agreement. The law deems persons under 16 legally incapable of giving valid consent to sexual acts. This is statutory rape — the consent element is irrebuttably established.",
+          "cite": "S.375 PPC — age 16 as threshold for valid consent"
+        }
+      ]
+    },
+    {
+      "id": "Proof",
+      "name": "Proof Standards",
+      "sub": "S.375–376 PPC — evidence and corroboration",
+      "step": "Element 3 of 4",
+      "atom": "Proof",
+      "desc": "Rape prosecution in Pakistan historically required corroboration of the complainant's testimony. Post-2021, the complainant's sole testimony can suffice if credible and reliable. DNA evidence is admissible but not mandatory. The two-finger test is inadmissible. Delay in reporting is not fatal to the prosecution.",
+      "legal": "The corroboration requirement has been substantially relaxed post-2021. A credible, reliable, and consistent complainant's testimony can ground a conviction without independent corroboration. DNA evidence where available carries significant weight. Courts must not draw adverse inference from delay in reporting alone — delay may be explained by fear, trauma, or family pressure. The two-finger test (virginity testing) is inadmissible as both scientifically unreliable and violating human dignity.",
+      "cite": "PLD 2021 SC 600 — two-finger test inadmissible. 2019 SCMR 1082 — sole testimony can suffice. DNA evidence framework under 2021 amendments.",
+      "ll": "S.375–376 PPC and 2021 amendments — official text",
+      "section": "375",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The complainant delayed reporting rape by three months, claiming fear of family reaction. Should the court draw an adverse inference from this delay?",
+          "reveal": "Not automatically. Pakistani courts post-2021 recognise that delay in reporting sexual offences is common and may be explained by fear, trauma, stigma, or family pressure. The explanation for delay must be examined but delay alone is not fatal to the prosecution. Courts have explicitly held that the social reality of reporting barriers must be judicially acknowledged.",
+          "cite": "2019 SCMR 1082 — delay in reporting not fatal. Post-2021 judicial approach"
+        },
+        {
+          "q": "DNA evidence collected from the complainant does not match the accused. The accused was one of four men. How does S.375-A interact with the DNA evidence?",
+          "reveal": "Under S.375-A, each participant in gang rape is liable regardless of which individual performed penetration. DNA non-matching for a specific accused does not automatically acquit under S.375-A if other evidence establishes their participation. However DNA non-match is a significant evidentiary factor that the prosecution must address.",
+          "cite": "S.375-A PPC — gang rape liability. PLD 2021 SC 600 — DNA evidence weight"
+        },
+        {
+          "q": "The defence asks the court to order a two-finger test on the complainant to determine prior sexual activity. How should the court respond?",
+          "reveal": "The court must refuse. The Supreme Court in 2021 declared the two-finger test inadmissible as both scientifically unreliable (prior sexual activity does not establish consent) and as a violation of the complainant's human dignity and right to privacy under Articles 9 and 14 of the Constitution. Defence counsel making such an application risks adverse comment from the court.",
+          "cite": "PLD 2021 SC 600 — two-finger test declared inadmissible"
+        }
+      ]
+    },
+    {
+      "id": "¬ExR",
+      "name": "No General Exception",
+      "sub": "S.76–106 PPC — negation layer",
+      "step": "Element 4 of 4",
+      "atom": "¬ExR",
+      "desc": "The General Exceptions apply to rape as to all offences. However the exceptions practically available in rape prosecutions are narrow — mistake of fact as to consent is the most commonly raised. Private defence and necessity are not available. Insanity (S.84) may be raised.",
+      "legal": "The most commonly raised exception in rape cases is a claim of genuine and reasonable belief in consent — analogous to S.79 mistake of fact. Pakistani courts have generally rejected this defence where the circumstances clearly indicated absence of consent. S.84 (unsound mind) may provide a complete defence but the burden of proof lies on the accused. Private defence (S.96-106) has no application in rape.",
+      "cite": "S.79 and S.84 PPC — exceptions applicable in rape prosecution. Burden of proof on accused for insanity defence.",
+      "ll": "S.76–106 PPC — General Exceptions, official text",
+      "section": "76",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The accused claims he genuinely believed the complainant consented. He points to her initial ambiguous body language. Is this a viable defence under S.79 (mistake of fact)?",
+          "reveal": "Unlikely post-2021. S.375 now requires unambiguous voluntary agreement — silence or ambiguous conduct does not constitute consent. A claimed belief based on ambiguous signals does not meet the good faith standard under S.79. The accused would need to establish that he had reasonable and sincere grounds for belief in unambiguous consent, which the 2021 consent definition makes very difficult.",
+          "cite": "S.79 PPC — good faith belief. S.375 post-2021 — unambiguous consent standard"
+        },
+        {
+          "q": "The accused was suffering from acute psychosis at the time of the offence. His psychiatrist confirms he did not know the act was wrong. Is S.84 available?",
+          "reveal": "Yes. S.84 provides a complete defence if at the time of the act the accused was incapable of knowing the nature of the act or that it was wrong. The psychiatrist's evidence, if credible and establishing incapacity at the moment of commission, can ground a successful S.84 defence. The accused is acquitted but may be subject to safe custody orders.",
+          "cite": "S.84 PPC — insanity defence, incapacity at time of act"
+        },
+        {
+          "q": "Rape carries a punishment of 10 to 25 years or death under S.376. Does the severity of punishment affect the standard of proof required?",
+          "reveal": "The formal legal standard remains proof beyond reasonable doubt throughout — it does not formally increase with the severity of the offence. However in practice Pakistani courts apply heightened scrutiny to both the prosecution and defence evidence in capital and near-capital cases. The Supreme Court has emphasized careful evaluation of evidence where the death penalty is a possibility.",
+          "cite": "S.376 PPC — punishment. Supreme Court practice on capital cases"
+        }
+      ]
+    }
+  ]
+}

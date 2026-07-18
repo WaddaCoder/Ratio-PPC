@@ -1,0 +1,196 @@
+{
+  "id": "currency",
+  "name": "Currency Notes &amp; Bank Notes",
+  "section": "S.489A–489G PPC",
+  "formula": "Counterfeiting/Trafficking/Possession → Systemic Monetary-Integrity Protection",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S489A",
+      "name": "Counterfeiting Currency Notes or Bank Notes",
+      "sub": "S.489A PPC — the foundational, most severely punished currency offence",
+      "step": "Element 1 of 7",
+      "atom": "S489A",
+      "desc": "Whoever counterfeits, or knowingly performs any part of the process of counterfeiting, any currency note or bank note, is punished with imprisonment for life, or up to 10 years, plus fine. The Explanation (applying also to S.489B/C/D) defines 'bank-note' broadly: a promissory note or engagement to pay money to bearer on demand, issued by any banking business anywhere in the world, or issued by/under authority of any State or Sovereign Power, intended as equivalent to or a substitute for money.",
+      "legal": "S.489A's life-imprisonment ceiling places currency/bank-note counterfeiting among the most severely punished offences anywhere in this entire app, reflecting the unique, systemic harm such counterfeiting poses to an entire economy's monetary integrity and public trust in currency — a harm extending far beyond any single victim's individual loss. The Explanation's notably broad 'bank-note' definition, extending to notes issued by banking businesses ANYWHERE IN THE WORLD and by any State or Sovereign Power, confirms this cluster's protective scope is not limited to Pakistani currency specifically, but extends to safeguarding the integrity of currency and bank-note systems generally, wherever in the world they originate. The 'knowingly performs any part of the process' language confirms liability extends to anyone contributing to even a single stage of a counterfeiting operation, not only the person who completes the entire counterfeiting process personally.",
+      "cite": "S.489A PPC and its Explanation — official text.",
+      "ll": "S.489A PPC — official text",
+      "section": "489A",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "S.489F is confirmed as the third reverse-burden provision within this broader Chapter XVIII, alongside S.482 and S.486 (Trade Marks module). No verified Pakistani landmark case is logged against S.489A–489G specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A participates in a counterfeiting operation by performing only one specific, limited stage of the overall process — for example, A produces only the paper substrate used, while other unrelated individuals separately handle the printing and finishing stages, with A having no role in or even direct knowledge of those later stages. Apply S.489A. Does A's limited, partial role still satisfy the section?",
+          "reveal": "Yes — S.489A's text explicitly covers 'whoever counterfeits, OR KNOWINGLY PERFORMS ANY PART OF THE PROCESS of counterfeiting' — A's limited contribution of one stage (the paper substrate), performed knowingly as part of an overall counterfeiting process, independently satisfies the section even without A personally completing the entire counterfeiting operation or even being involved in every stage. This broad formulation ensures every knowing participant in a counterfeiting operation, regardless of which specific stage they contribute to, faces the full severity of S.489A's punishment.",
+          "cite": "S.489A PPC's 'knowingly performs any part of the process' language — capturing partial, stage-specific participation in a counterfeiting operation, not requiring personal completion of the entire process."
+        },
+        {
+          "q": "A counterfeits a banknote issued by a foreign country's central bank, intending to use the counterfeit currency outside Pakistan entirely, with no connection to Pakistani currency at all. Apply S.489A's Explanation. Does this fall within the section's protection, given the foreign, non-Pakistani character of the targeted currency?",
+          "reveal": "Yes — the Explanation's definition of 'bank-note' explicitly extends to a note 'issued by any person carrying on the business of banking in any part of the world, or issued by or under the authority of any State or Sovereign Power' — this is a deliberately global, not Pakistan-specific, definition. A's counterfeiting of a foreign country's currency falls within S.489A's protection just as fully as counterfeiting Pakistani currency would, reflecting the section's broader concern with currency/bank-note integrity generally, not merely domestic Pakistani monetary integrity specifically.",
+          "cite": "S.489A PPC's Explanation — a deliberately global 'bank-note' definition extending protection to foreign currencies, not confined to Pakistani currency specifically."
+        },
+        {
+          "q": "Why might the legislature have set S.489A's ceiling at life imprisonment — among the most severe in this entire Code — specifically for currency/bank-note counterfeiting, compared to the merely severe (but lower) ceilings for forging other valuable securities under S.467 (Forgery module, also life imprisonment available, but for a narrower category)?",
+          "reveal": "Currency and bank notes function as the foundational medium of exchange for an entire economy, meaning counterfeiting them threatens not merely individual property interests (as forging a private valuable security or will primarily does) but the systemic integrity and public trust underlying the entire monetary system itself — widespread currency counterfeiting can, in principle, generate inflationary and confidence-eroding effects extending far beyond any single transaction or victim. This systemic dimension likely explains why currency-specific counterfeiting warrants its own dedicated chapter with the same severe life-imprisonment ceiling already seen for S.467's narrower valuable-security category, rather than simply being absorbed into the general Forgery framework as just another type of 'valuable security.'",
+          "cite": "S.489A PPC's life-imprisonment ceiling — reflecting the systemic, economy-wide harm of currency counterfeiting, warranting its own dedicated chapter alongside (rather than absorbed into) S.467 PPC's general valuable-security forgery provision."
+        }
+      ]
+    },
+    {
+      "id": "S489B_C",
+      "name": "Using as Genuine, or Possessing, Forged or Counterfeit Currency/Bank Notes",
+      "sub": "S.489B/489C PPC — the downstream-use and possession tiers",
+      "step": "Element 2 of 7",
+      "atom": "S489B_C",
+      "desc": "S.489B: selling to, buying or receiving from another, or otherwise trafficking in or using as genuine, any forged/counterfeit currency/bank note, knowing or having reason to believe it forged/counterfeit — the IDENTICAL severe tier as S.489A (life imprisonment or up to 10 years, plus fine). S.489C: merely possessing a forged/counterfeit currency/bank note, with the same knowledge/belief and intent to use it (or that it may be used) as genuine — a lower tier, up to 7 years, fine, or both.",
+      "legal": "S.489B's identical severity to S.489A itself — rather than a reduced, derivative tier (contrast S.471's Forgery-module structure, where downstream use borrows the underlying document's OWN severity rather than being independently fixed) — confirms the legislature treats trafficking in or using counterfeit currency as comparably serious to the original counterfeiting act itself, reflecting that currency's fungible, easily-circulated nature means downstream trafficking poses comparably severe systemic harm to the original counterfeiting. S.489C's distinctly lower 7-year ceiling for MERE POSSESSION (without proof of actual trafficking or use) reflects a calibrated, lesser severity for the earlier, less-consummated stage of involvement, consistent with the general pattern throughout this Code of graduating punishment by the degree of actual circulation/use versus mere possession-with-intent.",
+      "cite": "S.489B and S.489C PPC — official text. Cross-reference S.471 PPC (Forgery module) — a useful contrast: S.471's downstream-use punishment is derivative of the underlying document's own severity tier, while S.489B fixes an independent, identical-to-counterfeiting severity tier directly.",
+      "ll": "S.489B, S.489C PPC — official text",
+      "section": "489",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A knowingly sells counterfeit currency notes to B, who in turn knowingly buys them. Apply S.489B. Does this section apply to only the seller, only the buyer, or both parties to this transaction?",
+          "reveal": "Both parties — S.489B's text explicitly covers 'whoever sells to, OR BUYS OR RECEIVES FROM, any other person... or otherwise traffics in or uses as genuine' counterfeit currency, with the requisite knowledge or reason to believe. Both A (the seller) and B (the knowing buyer) independently satisfy this section's disjunctive structure, each facing the identical severe life-imprisonment/10-year exposure, reflecting the legislature's equal-culpability treatment of both supply-side and demand-side participants in counterfeit currency trafficking, mirroring the same symmetrical treatment already confirmed for S.371A/371B (Kidnapping module, prostitution trafficking).",
+          "cite": "S.489B PPC's symmetrical seller/buyer coverage — paralleling the same equal-culpability treatment of supply and demand sides already confirmed for S.371A/371B PPC (Kidnapping module)."
+        },
+        {
+          "q": "C is found in possession of counterfeit currency notes, knowing them to be counterfeit, but C's only intention is to eventually destroy them (perhaps having received them unknowingly and later discovered the counterfeit nature, with no intention to ever pass them off as genuine). Apply S.489C. Does C's possession, absent any intent to use the notes as genuine, satisfy this section?",
+          "reveal": "Not on these facts — S.489C's text requires possession 'intending to use the same as genuine or that it may be used as genuine,' meaning the possessor's intent (or contemplated future use by someone) regarding genuine-use is a required element, not merely the fact of knowing possession alone. C's stated intent to destroy the notes, rather than use or facilitate their use as genuine, would mean C's possession, as described, does not satisfy S.489C's specific intent requirement, though C might face other considerations depending on the full facts (such as obligations to report or surrender counterfeit currency, which would fall outside this PPC provision's own scope).",
+          "cite": "S.489C PPC — requiring intent to use (or that the notes may be used) as genuine; mere knowing possession without this specific intent does not, on its own text, satisfy the section."
+        },
+        {
+          "q": "Why might S.489C's possession-only tier (7 years) be set notably lower than S.489A/489B's counterfeiting/trafficking tier (life imprisonment/10 years), despite all three sections addressing the same underlying counterfeit-currency problem?",
+          "reveal": "This reflects the same general-pattern calibration already seen throughout this Code distinguishing earlier, less-consummated stages of criminal involvement from completed or actively-circulating conduct: counterfeiting (S.489A) and active trafficking/use (S.489B) both involve either creating the systemic harm directly or actively perpetuating its circulation into the economy, while mere possession (S.489C), even with intent to eventually use the notes as genuine, has not yet actually achieved that circulation. The lower ceiling reflects this lesser, not-yet-fully-realized degree of actual harm to the monetary system, while still treating mere possession with the requisite intent as a serious offence in its own right given the genuine risk it represents.",
+          "cite": "S.489C PPC's lower ceiling vs S.489A/489B PPC — reflecting the lesser, not-yet-circulated degree of actual systemic harm at the mere-possession stage, consistent with this Code's general pattern of graduating punishment by degree of actual realized conduct."
+        }
+      ]
+    },
+    {
+      "id": "S489D",
+      "name": "Making or Possessing Instruments or Materials for Forging Currency Notes or Bank Notes",
+      "sub": "S.489D PPC — the preparatory-instrument tier, matching S.489A's full severity",
+      "step": "Element 3 of 7",
+      "atom": "S489D",
+      "desc": "Whoever makes, performs any part of the process of making, buys, sells, disposes of, or possesses any machinery, instrument, or material for the purpose of being used (or knowing/having reason to believe it intended to be used) for forging or counterfeiting any currency/bank note, is punished with imprisonment for life, or up to 10 years, plus fine — the same severe tier as S.489A itself.",
+      "legal": "S.489D's preparatory-instrument provision is notable for matching S.489A's full life-imprisonment severity exactly, rather than the somewhat reduced tier typically seen for preparatory-instrument offences elsewhere in this app (compare S.472/473 in the Forgery module, where the preparatory-instrument tier for S.467-linked forgery matches S.467's own severity, but S.473's tier for other forgery sits at a reduced 7 years rather than matching the lower S.465 base tier exactly). This confirms the legislature treats the mere preparatory stage of currency counterfeiting — making, trading in, or possessing the specialized machinery/materials this typically requires — as warranting identical severity to actually completing the counterfeiting itself, likely reflecting that producing convincing counterfeit currency requires sophisticated, hard-to-acquire specialized equipment, making the preparatory stage itself a meaningfully serious and rare achievement worth deterring with maximum severity.",
+      "cite": "S.489D PPC — official text. Cross-reference S.472/473 PPC (Forgery module) — a useful contrast in how preparatory-instrument tiers are calibrated relative to their underlying completed-offence tiers across different chapters.",
+      "ll": "S.489D PPC — official text",
+      "section": "489D",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A possesses specialized printing machinery specifically capable of producing convincing counterfeit currency, knowing and intending it to be used for that purpose, but A has not yet actually produced any counterfeit notes with it. Apply S.489D. What is A's punishment exposure, and how does this compare to actually completing the counterfeiting under S.489A?",
+          "reveal": "A faces the identical exposure under S.489D as A would face under S.489A for actually completing the counterfeiting — life imprisonment, or up to 10 years, plus fine. Unlike many other preparatory-instrument provisions throughout this Code that carry a somewhat reduced ceiling relative to the completed offence, S.489D matches S.489A's full severity exactly, reflecting the legislature's judgment that the specialized, sophisticated preparatory stage of currency counterfeiting is itself serious enough to warrant maximum punishment, even without proof that any actual counterfeit currency was ever produced.",
+          "cite": "S.489D PPC — matching S.489A's full life-imprisonment severity exactly at the preparatory-instrument stage, unlike the somewhat reduced preparatory-tier calibration seen elsewhere in this Code (e.g., S.473 PPC, Forgery module)."
+        },
+        {
+          "q": "Does S.489D require that the offender personally intend to use the machinery/materials for counterfeiting, or is it sufficient that the offender merely knows or has reason to believe someone else intends such use?",
+          "reveal": "S.489D's text covers possession (or making, buying, selling, disposing of) such machinery/materials 'for the purpose of being used, OR KNOWING OR HAVING REASON TO BELIEVE that it is intended to be used,' for counterfeiting — this disjunctive structure means the offender's own personal intent to use the materials for counterfeiting is not the only route to liability; knowledge or reason to believe that the materials are intended for such use by anyone (potentially including a third party the offender is merely supplying) is independently sufficient, mirroring the same intent-or-knowledge structure recurring consistently throughout this Code's dishonesty-based offences.",
+          "cite": "S.489D PPC's disjunctive 'for the purpose of being used, or knowing... intended to be used' structure — capturing both personal intent and mere knowledge of a third party's intended use, consistent with the recurring intent-or-knowledge pattern throughout this Code."
+        },
+        {
+          "q": "A buys specialized currency-printing paper from a legitimate, licensed paper manufacturer, genuinely intending to use it for a lawful purpose entirely unrelated to counterfeiting, but the paper happens to be of a type that COULD theoretically be used for counterfeiting by someone with the right additional equipment. Does S.489D capture this purely lawful purchase?",
+          "reveal": "No — S.489D requires that the machinery/instrument/material be possessed, made, bought, sold, or disposed of specifically 'for the purpose of being used' for counterfeiting, OR with knowledge/reason to believe it is SO intended. A's genuinely lawful purpose, with no connection to any actual or believed counterfeiting intent (whether A's own or any third party's), means A's purchase does not satisfy S.489D's required mental element, despite the material's theoretical capability for misuse by someone else in different circumstances — the section targets the purposive/knowing connection to counterfeiting, not merely the theoretical capability of materials that could, in principle, be misused.",
+          "cite": "S.489D PPC — requiring purposive or knowing connection to counterfeiting specifically; a genuinely lawful purchase with no such connection, despite the material's theoretical misuse capability, falls outside the section's scope."
+        }
+      ]
+    },
+    {
+      "id": "S489E",
+      "name": "Making or Using Documents Resembling Currency Notes or Bank Notes",
+      "sub": "S.489E PPC — the imitation-document provision, with a disclosure obligation and a presumption",
+      "step": "Element 4 of 7",
+      "atom": "S489E",
+      "desc": "S.489E(1): making, causing to be made, using for any purpose, or delivering to any person any document purporting to be, or resembling (or so nearly resembling as to be calculated to deceive), any currency/bank note — up to 1 year, fine, or both. S.489E(2): a person whose name appears on such a document who refuses, without lawful excuse, to disclose to a police officer who printed/made it — the identical up-to-1-year tier. S.489E(3): a presumption (rebuttable, 'until the contrary is proved') that a person whose name appears on the document caused it to be made.",
+      "legal": "S.489E (inserted 1943) addresses a meaningfully different, lesser harm than S.489A–D's true counterfeiting/forgery focus: documents that merely RESEMBLE currency without necessarily being intended as deceptive counterfeits in the full S.489A sense — for example, novelty items, advertising materials, or props that happen to closely resemble genuine currency. The comparatively modest 1-year ceiling (versus S.489A–D's severe tiers) reflects this lesser harm, while S.489E(2)'s disclosure obligation and S.489E(3)'s rebuttable presumption together create a practical enforcement mechanism: anyone whose name appears on such a resembling document is presumed to have caused its making, and faces independent liability for refusing to identify the actual printer/maker, ensuring accountability can be traced even where the document itself falls short of full counterfeiting.",
+      "cite": "S.489E PPC, all three sub-sections, inserted by the Indian Penal Code (Amendment) Act 1943 — official text. Cross-reference the rebuttable-presumption mechanism already encountered in S.371A/371B PPC (Kidnapping module) — a comparable burden-shifting evidentiary tool.",
+      "ll": "S.489E PPC — official text",
+      "section": "489E",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A creates a novelty item closely resembling a genuine currency note, intended purely for use as a party favor or advertising gimmick, with no intent to deceive anyone into believing it is genuine currency. Apply S.489E(1). Does this fall within the section despite A's non-deceptive purpose?",
+          "reveal": "Potentially yes — S.489E(1)'s text covers any document 'purporting to be, or in any way resembling, or so nearly resembling AS TO BE CALCULATED TO DECEIVE,' any currency/bank note. The 'calculated to deceive' language introduces an objective standard (similar to S.480/481's 'reasonably calculated' formula in the Trade Marks cluster) — if the resemblance is objectively close enough to be calculated to deceive, this could satisfy the section regardless of A's own subjectively non-deceptive intended purpose, though the precise application to genuinely harmless novelty items versus more concerning near-exact replicas would depend closely on just how close the resemblance actually is.",
+          "cite": "S.489E(1) PPC's objective 'calculated to deceive' standard — potentially capturing closely-resembling documents regardless of the maker's own subjectively non-deceptive purpose, depending on the closeness of the resemblance itself."
+        },
+        {
+          "q": "B's name appears on a document resembling a currency note in the manner S.489E(1) addresses. A police officer asks B to identify who printed or otherwise made the document. B refuses to answer, offering no lawful excuse for the refusal. Apply S.489E(2) and (3) together. What is B's situation?",
+          "reveal": "B faces two layers of exposure: first, under S.489E(3)'s rebuttable presumption, since B's name appears on the document, B is presumed (until B proves otherwise) to have caused the document to be made — potentially establishing B's own liability under S.489E(1) directly. Second, and independently, B's refusal to disclose the actual printer/maker's identity to the police officer, without lawful excuse, separately satisfies S.489E(2)'s own distinct offence, carrying the identical 1-year ceiling. B could therefore face liability under both the presumed-making offence (S.489E(1), via the S.489E(3) presumption) AND the separate non-disclosure offence (S.489E(2)) arising from the same underlying document.",
+          "cite": "S.489E(2) and (3) PPC — potentially cumulative exposure combining the rebuttable presumption of having caused the document's making with the independent non-disclosure offence for refusing to identify the actual maker."
+        },
+        {
+          "q": "How does S.489E(3)'s rebuttable presumption mechanism compare structurally to the rebuttable presumptions already encountered in S.371A/371B (Kidnapping module, presumption of prostitution-intent from disposal to a known brothel-keeper)?",
+          "reveal": "Both share the same underlying evidentiary technique: establishing a specific foundational fact (here, the person's name appearing on the document; there, disposal to/from a known prostitute or brothel-keeper) triggers a presumption of a further fact (here, having caused the document's making; there, prostitution-intent), shifting the burden to the defendant to disprove that presumed fact rather than requiring the prosecution to affirmatively establish it from scratch. This confirms rebuttable presumptions are a recurring, deliberately-deployed evidentiary tool across multiple, otherwise unrelated chapters of this Code wherever the legislature judges that a specific foundational fact reliably correlates with a further fact that might otherwise be difficult to directly prove.",
+          "cite": "S.489E(3) PPC's rebuttable presumption — structurally identical burden-shifting technique to S.371A/371B PPC (Kidnapping module), confirming this as a recurring, deliberately-deployed evidentiary tool across multiple chapters of this Code."
+        }
+      ]
+    },
+    {
+      "id": "S489F",
+      "name": "Dishonestly Issuing a Cheque",
+      "sub": "S.489F PPC — the modern (2002) dishonoured-cheque provision, with a reverse burden",
+      "step": "Element 5 of 7",
+      "atom": "S489F",
+      "desc": "Whoever dishonestly issues a cheque toward repayment of a loan or fulfillment of an obligation, which is dishonoured on presentation, is punished with imprisonment up to 3 years, fine, or both — UNLESS the offender establishes (with the burden of proof resting on them) that they had made arrangements with their bank to ensure the cheque would be honoured, and that the bank was at fault in not honouring it.",
+      "legal": "S.489F (inserted 2002, decades after the original 1860 Code and even after most of this chapter's other modern insertions) addresses a distinctly contemporary commercial problem: cheques issued dishonestly toward debt repayment that subsequently bounce. This is the THIRD confirmed reverse-burden provision within this Forgery/Currency cluster (alongside S.482 and S.486 in the Trade Marks module) — once the prosecution establishes dishonest issuance and dishonour on presentation, the burden shifts entirely to the defendant to prove BOTH that adequate banking arrangements were made AND that the bank itself was specifically at fault, a conjunctive two-part defence the defendant must establish in full to escape liability.",
+      "cite": "S.489F PPC, inserted by Ordinance 85 of 2002 — official text. Cross-reference S.482 PPC and S.486 PPC (Trade Marks module) — the third confirmed instance of a reverse-burden structure within this Forgery/Currency/Trade-Mark cluster.",
+      "ll": "S.489F PPC — official text",
+      "section": "489F",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A issues a cheque to Z toward repaying a loan, and the cheque is dishonoured when Z presents it for payment. A claims this was the bank's fault, but offers no evidence of having made any specific prior arrangement with the bank to ensure the cheque would be honoured. Apply S.489F's defence structure. Does A's bare, unsupported claim of bank fault succeed as a defence?",
+          "reveal": "No — S.489F's defence is conjunctive: the defendant must establish BOTH that arrangements were made with the bank to ensure honour AND that the bank was at fault in failing to honour the cheque despite those arrangements. A's claim of bank fault, without any evidence of having actually made the necessary prior arrangements in the first place, fails to satisfy the first, necessary half of this two-part defence — A cannot succeed merely by blaming the bank without first establishing that proper arrangements were actually in place that the bank then failed to honour.",
+          "cite": "S.489F PPC's conjunctive two-part defence — requiring proof of BOTH adequate banking arrangements AND specific bank fault; failing to establish either element defeats the defence."
+        },
+        {
+          "q": "How does S.489F's reverse-burden structure compare to S.482 and S.486's reverse burdens (Trade Marks module)? Is this now confirmed as a recurring pattern specifically within this broader Forgery/Currency/Trade-Mark chapter?",
+          "reveal": "Yes — S.489F is the third confirmed reverse-burden provision within this single broader chapter (Chapter XVIII), joining S.482 (false trade/property mark use) and S.486 (selling counterfeit-marked goods). This consistent pattern across an otherwise diverse chapter — covering forgery, trade marks, and now currency/cheques — suggests the legislature found reverse-burden structures particularly suited to commercial/financial dishonesty offences specifically, where the defendant's own commercial arrangements and intentions are often more readily within the defendant's own knowledge and documentation than within the prosecution's independent ability to establish.",
+          "cite": "S.489F PPC as the third confirmed reverse-burden provision within Chapter XVIII, alongside S.482 PPC and S.486 PPC (Trade Marks module) — a pattern particularly suited to commercial/financial dishonesty offences."
+        },
+        {
+          "q": "Does S.489F require that the cheque have been issued specifically toward a LOAN repayment, or does its scope extend more broadly to other kinds of obligations?",
+          "reveal": "S.489F's text covers cheques issued 'towards re-payment of a loan OR fulfillment of an obligation' — this disjunctive structure confirms the section is not confined to loan-repayment cheques specifically, but extends more broadly to cheques issued to fulfil any other kind of obligation as well. A dishonestly issued, subsequently dishonoured cheque issued toward fulfilling a different contractual or commercial obligation (not specifically a loan) would equally satisfy S.489F's scope, so long as the other elements (dishonest issuance, dishonour on presentation) are also established.",
+          "cite": "S.489F PPC's disjunctive 'loan or... obligation' language — extending beyond loan-repayment cheques specifically to cheques issued toward fulfilling any other obligation."
+        }
+      ]
+    },
+    {
+      "id": "S489G",
+      "name": "Counterfeiting or Using Documents Resembling Prize Bonds, or Unauthorized Sale Thereof",
+      "sub": "S.489G PPC — the most recent (2012) insertion in this chapter",
+      "step": "Element 6 of 7",
+      "atom": "S489G",
+      "desc": "Whoever counterfeits or causes to counterfeit, delivers to any person, performs any act, or uses for any purpose any document purporting to be (or resembling) a Prize Bond or its Serial Number, or sells/promotes the sale of Prize Bonds or their Serial Numbers without Federal Government authorization, is punished with imprisonment up to 7 years plus fine.",
+      "legal": "S.489G (inserted 2012, the most recent insertion in this entire chapter) extends this cluster's currency/bank-note protective logic specifically to Prize Bonds — a distinctly Pakistani financial instrument combining elements of a savings bond with a lottery-style prize draw mechanism. The section's coverage is broad, capturing not only counterfeiting itself but also unauthorized SALE or sale-promotion of Prize Bonds or their Serial Numbers, addressing a distinct secondary-market concern (unauthorized trading/promotion) alongside the more familiar counterfeiting concern already addressed for ordinary currency under S.489A. Given this section's 2012 insertion date, it is confirmed to postdate the CrPC Schedule II's relevant print run, meaning no Schedule II procedural classification exists for this specific section — consistent with the pattern already established for several other modern insertions throughout this app's build.",
+      "cite": "S.489G PPC, inserted by Act 23 of 2012 — official text. Cross-reference S.489A PPC (this same module) — the same underlying counterfeiting-protection logic, extended specifically to Prize Bonds as a distinct financial instrument.",
+      "ll": "S.489G PPC — official text",
+      "section": "489G",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, without any Federal Government authorization, sets up a business specifically promoting and facilitating the sale of Prize Bond Serial Numbers to interested buyers, without ever counterfeiting any actual Prize Bond document. Apply S.489G. Does A's conduct fall within the section despite the complete absence of any counterfeiting?",
+          "reveal": "Yes — S.489G's text explicitly covers, as an independent and separate limb, anyone who 'sells or promotes the sale of Prize Bonds or Serial Number of Prize Bonds unless authorized by the Federal Government' — this unauthorized-sale/promotion limb operates entirely independently of the counterfeiting-focused limbs earlier in the same section. A's unauthorized sale-promotion business, even without any counterfeiting whatsoever, independently satisfies this distinct limb of S.489G.",
+          "cite": "S.489G PPC's unauthorized sale/promotion limb — operating entirely independently of the section's counterfeiting-focused limbs, satisfied by unauthorized trading activity alone."
+        },
+        {
+          "q": "Why is no Schedule II (CrPC) procedural classification available for S.489G specifically, despite Schedule II classifications being available for S.489A through S.489F earlier in this same chapter?",
+          "reveal": "S.489G was inserted into the PPC in 2012 by Act 23 of 2012 — this postdates the CrPC Schedule II print run this app's verified extraction is based on, meaning the Schedule simply has no opportunity to have addressed a provision that did not yet exist at the time of that Schedule's relevant revision. This is consistent with the pattern already established for several other modern PPC insertions throughout this build (S.336A/336B, S.371A/371B, S.375A, S.377A/377B, S.402A-C, and others) — flagged honestly as a genuine gap reflecting the Schedule's age relative to this specific section, not an oversight in this app's own extraction work.",
+          "cite": "S.489G PPC's 2012 insertion date — honestly explaining the absence of Schedule II classification as reflecting the Schedule's age relative to this specific modern provision, consistent with the pattern already established for numerous other modern insertions throughout this app."
+        },
+        {
+          "q": "Does S.489G require that the counterfeited or resembling document specifically be a complete Prize Bond, or could counterfeiting merely the Serial Number alone (without replicating the entire bond document) also satisfy the section?",
+          "reveal": "S.489G's text explicitly covers documents 'purporting to be, or in any manner resembling, THE PRIZE BOND OR THE SERIAL NUMBER OF PRIZE BONDS' — this disjunctive structure confirms that counterfeiting or resembling merely the Serial Number specifically, without necessarily replicating the entire bond document, independently satisfies the section. This reflects a practical recognition that the Serial Number itself (used in the prize-draw mechanism) may be counterfeited or misused as a distinct, narrower target separate from the full physical bond document.",
+          "cite": "S.489G PPC's disjunctive 'Prize Bond or the Serial Number' language — counterfeiting or resembling the Serial Number alone independently sufficient, without requiring replication of the entire bond document."
+        }
+      ]
+    }
+  ]
+}

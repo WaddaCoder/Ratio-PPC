@@ -1,0 +1,226 @@
+{
+  "id": "intimidation",
+  "name": "Criminal Intimidation, Insult &amp; Annoyance",
+  "section": "S.503–510 PPC",
+  "formula": "Threat/Insult/Belief-Inducement → Coercion or Provocation → Public-Order/Personal-Dignity Protection",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "S503",
+      "name": "Criminal Intimidation — The Foundational Definition",
+      "sub": "S.503 PPC — threatening injury as a means of coercion",
+      "step": "Element 1 of 8",
+      "atom": "S503",
+      "desc": "Whoever threatens another with injury to their person, reputation, or property (or to a person/reputation of someone the threatened person is interested in), with intent to cause alarm, or to compel that person to do something they are not legally bound to do, or to omit something they are legally entitled to do (as a means of avoiding the threat's execution), commits criminal intimidation. The Explanation confirms a threat to injure a DECEASED person's reputation, where the threatened (living) person is interested in that deceased person, falls within the section.",
+      "legal": "S.503's structure mirrors the broad S.44 injury concept (body/mind/reputation/property) already engaged throughout this Code, but adds a specific COERCIVE MECHANISM requirement: the threat must be intended to cause alarm, OR to compel an act the victim is not legally bound to do, OR to compel an omission of an act they are legally entitled to do, with that compelled act/omission being the SPECIFIC MEANS of avoiding the threatened injury. This conceptually overlaps with, but is structurally distinct from, Extortion (S.383, already built) — criminal intimidation does not require the coerced outcome to be delivery of property specifically, extending to any act/omission the threat is used to compel, while Extortion specifically requires inducement to deliver property or a valuable security.",
+      "cite": "S.503 PPC, its Explanation, and its own Illustration — official text. Cross-reference Extortion module S.383 — a related but structurally distinct coercive offence, with criminal intimidation extending beyond property-delivery inducement to any compelled act or omission.",
+      "ll": "S.503 PPC and Illustration — official text",
+      "section": "503",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged against S.503–510 specifically as of this build; flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A, specifically for the purpose of inducing B to desist from prosecuting a civil lawsuit against A, threatens to burn down B's house. Apply S.503's own Illustration. Has A committed criminal intimidation, and which of the section's compulsion limbs does this satisfy?",
+          "reveal": "Yes — this is the Code's own Illustration directly: 'A, for the purpose of inducing B to desist from prosecuting a civil suit, threatens to burn B's house. A is guilty of criminal intimidation.' This satisfies the limb covering threats intended to compel the victim 'to omit to do any act which that person is legally entitled to do' — B is legally entitled to prosecute the civil suit, and A's threat is specifically intended to compel B to omit (abandon) that legally-entitled course of action.",
+          "cite": "S.503 PPC Illustration — threatening property destruction specifically to compel abandonment of a legally-entitled civil action, satisfying the 'omit an entitled act' limb."
+        },
+        {
+          "q": "A threatens to harm the reputation of B's deceased parent, specifically because B (who is alive and clearly interested in protecting the deceased parent's memory) would be alarmed by such a threat. Apply S.503's Explanation. Does this fall within criminal intimidation despite the threatened injury targeting a deceased person's reputation rather than B's own person, reputation, or property directly?",
+          "reveal": "Yes — the Explanation directly addresses this: 'a threat to injure the reputation of any deceased person in whom the person threatened is interested, is within this section.' B's clear interest in protecting the deceased parent's reputation, combined with A's threat targeting that reputation specifically to cause alarm to B, brings this within S.503's scope, extending the section's protection beyond merely the threatened person's own direct interests to interests in a deceased person they care about.",
+          "cite": "S.503 PPC Explanation — extending protection to threats against a deceased person's reputation where the living threatened person has a clear interest in that deceased person."
+        },
+        {
+          "q": "How does S.503's structure compare to Extortion's S.383 (already built)? Could the same threatening conduct potentially satisfy both sections, or are they mutually exclusive?",
+          "reveal": "They could potentially overlap on certain facts, but are not identical: Extortion (S.383) specifically requires the threat to dishonestly induce delivery of property or a valuable security (or consent to its retention). Criminal Intimidation (S.503) is considerably broader, extending to threats intended to compel ANY act the victim is not legally bound to do, or any omission of an act they are legally entitled to do — not limited to property-delivery inducement. A threat specifically used to extract property would likely satisfy BOTH sections simultaneously (the property-delivery aspect satisfying Extortion, the broader compulsion-by-threat structure also satisfying Criminal Intimidation), while a threat used to compel some non-property-related act or omission (like B's lawsuit-abandonment in S.503's own Illustration) would satisfy only Criminal Intimidation, not Extortion.",
+          "cite": "S.503 PPC vs S.383 PPC (Extortion module) — potentially overlapping where the compelled outcome is property delivery, but S.503's considerably broader 'any act or omission' scope extends well beyond Extortion's property-specific focus."
+        }
+      ]
+    },
+    {
+      "id": "S504",
+      "name": "Intentional Insult with Intent to Provoke Breach of the Peace",
+      "sub": "S.504 PPC — the provocation-to-disorder offence",
+      "step": "Element 2 of 8",
+      "atom": "S504",
+      "desc": "Whoever intentionally insults another, thereby giving provocation, intending or knowing it likely that the provocation will cause the insulted person to break the public peace or commit any other offence, is punished with imprisonment up to 2 years, fine, or both.",
+      "legal": "S.504's core concern is not the insult's harm to the insulted person directly, but rather the RISK OF PUBLIC DISORDER the insult is calculated or known likely to provoke — the offence is complete upon intentional insult combined with intent or knowledge that this will likely provoke a breach of public peace or some other offence, regardless of whether the insulted person actually does break the peace or commit any further offence in response. This positions S.504 as protecting public order and tranquility as much as (or more than) protecting the insulted individual's own personal dignity.",
+      "cite": "S.504 PPC — official text.",
+      "ll": "S.504 PPC — official text",
+      "section": "504",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A intentionally insults Z in a public place, in a manner A knows is likely to provoke Z into a violent public altercation. Z, however, exercises restraint and does not actually react violently or breach the peace at all. Apply S.504. Does A's offence still stand despite Z's restraint preventing any actual breach of the peace?",
+          "reveal": "Yes — S.504's text requires only that A intend or know it likely that the provocation 'will cause him to break the public peace, or to commit any other offence' — this is a forward-looking, likelihood-based mental-state requirement at the time of the insult, not a requirement that the insulted person actually go on to breach the peace. A's offence is complete upon the intentional insult combined with the requisite intent/knowledge regarding likely provocation, regardless of Z's own subsequent self-restraint.",
+          "cite": "S.504 PPC — complete upon intentional insult plus intent/knowledge of likely provocation to breach the peace, regardless of whether the insulted person actually does breach the peace."
+        },
+        {
+          "q": "How does S.504 differ from ordinary, casual rudeness or insult that carries no particular intent or knowledge regarding likely public-peace consequences?",
+          "reveal": "S.504 specifically requires the additional element of intent or knowledge that the insult is likely to provoke a breach of the public peace or commission of some other offence — mere rude or insulting speech, without this specific further mental element regarding public-order consequences, would not satisfy S.504, even though it might constitute some other wrong (civil or otherwise) in a different context. The section is narrowly calibrated to insults specifically calculated or known likely to trigger public disorder, not to insulting speech generally.",
+          "cite": "S.504 PPC's specific intent/knowledge-of-public-disorder requirement — distinguishing it from ordinary insulting speech lacking this particular further mental element."
+        },
+        {
+          "q": "Does S.504 require that the insult be delivered directly and personally to the victim, or could an insult delivered through an intermediary, or in the victim's absence but later communicated to them, also satisfy the section?",
+          "reveal": "S.504's text does not explicitly address the precise mode of delivery, focusing instead on the intentional insult combined with the requisite intent/knowledge of likely provocation — the most natural reading would require that the insult actually reach and provoke (or be intended/known likely to provoke) the specific person whose reaction is the section's concern, which could plausibly occur through direct personal delivery or through other means that achieve the same provocative effect, though the precise outer boundary of indirect-delivery scenarios is not exhaustively addressed in this brief section's own text.",
+          "cite": "S.504 PPC — focused on the intentional insult and its likely provocative effect, without exhaustively specifying the precise mode of delivery required."
+        }
+      ]
+    },
+    {
+      "id": "S505",
+      "name": "Statements Conducing to Public Mischief",
+      "sub": "S.505 PPC — the mutiny/public-fear/inter-communal-hatred provision, with a good-faith truth defence",
+      "step": "Element 3 of 8",
+      "atom": "S505",
+      "desc": "S.505(1): making, publishing, or circulating any statement/rumour/report with intent to cause (or which is likely to cause) (a) mutiny or dereliction of duty by armed forces personnel, (b) fear/alarm to the public inducing offences against the State or public tranquility, or (c) incitement of one class/community against another — up to 7 years plus fine. S.505(2): the same conduct specifically intending to create/promote (or likely to create/promote) enmity, hatred, or ill will between religious/racial/language/regional groups or castes/communities on any ground whatsoever — also up to 7 years plus fine. The Explanation provides a defence: no offence arises where the maker had reasonable grounds to believe the statement true, and made/published/circulated it in good faith without any of the prohibited intents.",
+      "legal": "S.505 addresses speech-based threats to public order and inter-communal harmony at a systemic level, distinct from S.504's narrower individual-insult-to-individual-provocation focus. The section's THREE limbs in subsection (1) and the SEPARATE, broader inter-group-hatred provision in subsection (2) together cover a wide range of socially destabilizing speech, calibrated to the same severe 7-year ceiling throughout. The Explanation's good-faith-truth defence is significant: it ensures genuinely truthful reporting, made in good faith and without any of the prohibited harmful intents, does not fall within this section merely because the true information happens to be alarming or destabilizing — a meaningful free-expression safeguard layered onto an otherwise broadly-worded, speech-restricting provision.",
+      "cite": "S.505 PPC, both subsections and the Explanation — official text.",
+      "ll": "S.505 PPC — official text",
+      "section": "505",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A circulates a report containing factually true information about a genuine, real event, having reasonable grounds to believe it true, made in good faith and with no intent to incite mutiny, cause public fear, or promote inter-communal hatred — but the report happens to be alarming and is, as an objective matter, likely to cause some public alarm regardless of A's own intent. Apply S.505's Explanation. Does A face liability despite the statement's truth and A's good faith?",
+          "reveal": "No — the Explanation directly provides: 'it does not amount to an offence within the meaning of this section, when the person... has reasonable grounds for believing that such statement... is true and makes, publishes or circulates it in good faith and without any such intent as aforesaid.' A's combination of reasonable grounds for believing the statement true, good faith, and absence of any of the prohibited intents brings A within this defence, even though the statement's content might, as an objective matter, still carry some inherent potential to alarm the public — the Explanation's protection turns on A's own state of mind and good faith, not on whether the true information happens to be unsettling.",
+          "cite": "S.505 PPC Explanation — a good-faith truth defence protecting genuinely truthful reporting made without any prohibited intent, regardless of the information's inherently alarming character."
+        },
+        {
+          "q": "How does S.505(1)'s three named limbs (mutiny/dereliction, public fear inducing offences against the State, inter-class/community incitement) differ structurally from S.505(2)'s separate inter-group-hatred provision?",
+          "reveal": "S.505(1)'s limbs are each tied to a specific, named TYPE of harmful consequence (military discipline breakdown, state-directed offences, or incitement specifically to commit offences between classes/communities), while S.505(2) addresses the BROADER, more diffuse harm of creating or promoting feelings of enmity, hatred, or ill will between groups defined along an extensive list of characteristics (religion, race, place of birth, residence, language, caste, community, 'or any other ground whatsoever') — without necessarily requiring that this enmity/hatred itself lead to any specific further offence being incited. S.505(2)'s deliberately open-ended 'any other ground whatsoever' language confirms it is drafted more broadly than S.505(1)'s more specifically enumerated harm-types.",
+          "cite": "S.505(1) PPC's specific named harm-types vs S.505(2) PPC's broader, open-ended inter-group-enmity provision — structurally distinct though both carrying the identical 7-year ceiling."
+        },
+        {
+          "q": "Does S.505 require that the statement actually succeed in causing mutiny, public fear, or inter-communal hatred, or is the act of making/publishing/circulating it, combined with the requisite intent OR likelihood, sufficient on its own?",
+          "reveal": "S.505's text covers statements made 'with intent to cause or incite, OR WHICH IS LIKELY to cause or incite' the relevant harms — this disjunctive structure confirms the offence is complete upon making/publishing/circulating the statement with either the requisite intent OR objective likelihood of the relevant harm, without requiring proof that the harm actually, successfully materialised. This mirrors the consistent intent-or-likelihood pattern recurring throughout this Code's offences addressing speech, deception, and public-order concerns.",
+          "cite": "S.505 PPC's 'intent to cause... or which is likely to cause' structure — complete upon the statement's making with either requisite intent or objective likelihood, not requiring proof of actually realized harm."
+        }
+      ]
+    },
+    {
+      "id": "S506_507",
+      "name": "Punishment for Criminal Intimidation, with an Enhanced Tier; Intimidation by Anonymous Communication",
+      "sub": "S.506/507 PPC — the base/enhanced punishment ladder and the anonymity aggravation",
+      "step": "Element 4 of 8",
+      "atom": "S506_507",
+      "desc": "S.506 base tier: criminal intimidation generally — up to 2 years, fine, or both. S.506 enhanced tier: where the threat is specifically to cause death, grievous hurt, destruction of property by fire, an offence punishable with death or life imprisonment or up to 7 years' imprisonment, or to impute unchastity to a woman — up to 7 years, fine, or both. S.507: criminal intimidation committed by anonymous communication, or having taken precaution to conceal the threatener's name/address, is punished with up to 2 years' imprisonment ADDITIONAL to whatever punishment S.506 already provides for the underlying intimidation.",
+      "legal": "S.506's enhanced tier specifically names several particularly severe categories of threatened harm — death, grievous hurt, arson, offences carrying the most severe punishments, and imputing unchastity to a woman — each warranting the higher 7-year ceiling regardless of which specific one of these categories the threat falls into. The imputation-of-unchastity category is a notable, specific inclusion reflecting the Code's recognition of this particular threat's serious reputational and social consequences for a woman, distinct from the more generally-framed death/hurt/arson/severe-offence categories. S.507's anonymity aggravation operates as an ADDITIVE enhancement layered on top of whatever S.506 tier already applies — the same cumulative-additive punishment structure already encountered for S.345 (Wrongful Restraint module, defying a liberation writ) and several other 'additional to' provisions throughout this app, reflecting the particular cowardice and difficulty-of-accountability associated with anonymous threats specifically.",
+      "cite": "S.506 and S.507 PPC — official text. Cross-reference S.345 PPC (Wrongful Restraint module) — the same cumulative-additive punishment structure recurring here for the anonymity aggravation.",
+      "ll": "S.506, S.507 PPC — official text",
+      "section": "506",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A threatens to falsely impute unchastity to a woman, Z, as a means of coercing her into some act she is not legally bound to do. Apply S.506's enhanced tier. Why does this specific category of threat trigger the higher 7-year ceiling rather than the general 2-year base tier?",
+          "reveal": "S.506's enhanced tier explicitly names 'to impute unchastity to a woman' as one of the specific categories triggering the higher ceiling, alongside threats of death, grievous hurt, arson, or offences carrying the most severe punishments. This reflects the Code's recognition that threatening to falsely impute unchastity carries serious, often severe and lasting reputational and social consequences specifically for a woman, warranting the same elevated 7-year treatment as threats of death or grievous hurt, rather than being treated as merely an ordinary, base-tier criminal intimidation threat.",
+          "cite": "S.506 PPC's enhanced tier — specifically naming imputation of unchastity to a woman alongside death/grievous-hurt/arson/severe-offence threats, reflecting the serious reputational consequences this specific threat carries."
+        },
+        {
+          "q": "A sends Z an anonymous threatening letter, having taken specific precautions to conceal A's identity and whereabouts, threatening to cause Z grievous hurt unless Z complies with A's demands. Apply S.506's enhanced tier and S.507 together. What is A's total punishment exposure?",
+          "reveal": "A faces up to 7 years under S.506's enhanced tier (since the threat specifically involves grievous hurt, one of the named enhanced-tier categories), PLUS an additional up to 2 years under S.507 specifically for committing this intimidation through anonymous communication with concealed identity — S.507's text explicitly provides this is 'in addition to the punishment provided for the offence by the last preceding section,' confirming the cumulative, additive structure. A's total exposure therefore combines both components, reflecting the compounded wrong of both the severe threatened harm and the cowardly anonymity used to deliver it.",
+          "cite": "S.507 PPC's explicit 'in addition to' language — cumulative additive punishment combining S.506's underlying tier (here, the 7-year enhanced tier) with S.507's further 2-year anonymity-specific component."
+        },
+        {
+          "q": "Does S.507 require that the threatener have used a literally anonymous communication (no name attached at all), or does 'having taken precaution to conceal the name or abode of the person from whom the threat comes' extend more broadly?",
+          "reveal": "S.507's text covers both an anonymous communication AND, disjunctively, a communication where the threatener has 'taken precaution to conceal the name or abode of the person from whom the threat comes' — this second limb extends beyond literal anonymity (no name at all) to situations where some identifying information might technically be present but the threatener has taken active steps to obscure their true identity or location, such as using a false name or an untraceable location, achieving practically the same accountability-evading effect as true anonymity.",
+          "cite": "S.507 PPC's disjunctive structure — covering both literal anonymity and active concealment of identity/location through other means, both achieving the same accountability-evading effect the section targets."
+        }
+      ]
+    },
+    {
+      "id": "S508",
+      "name": "Act Caused by Inducing a Belief of Divine Displeasure",
+      "sub": "S.508 PPC — the religiously-coercive compulsion offence",
+      "step": "Element 5 of 8",
+      "atom": "S508",
+      "desc": "Whoever voluntarily causes or attempts to cause any person to do (or omit) something they are not legally bound to do (or legally entitled to do), by inducing or attempting to induce a belief that they (or someone they're interested in) will become or be rendered an object of Divine displeasure through some act of the offender, if they don't do (or do) the relevant thing, is punished with imprisonment up to 1 year, fine, or both.",
+      "legal": "S.508 addresses a culturally and historically specific coercive mechanism — inducing fear of Divine displeasure as the means of compelling behaviour, rather than the more conventional physical/reputational/property-based threats addressed by S.503's Criminal Intimidation. The Code's own two Illustrations are instructive: 'sitting dhurna' (a traditional South Asian protest practice of sitting at someone's door to invoke perceived spiritual/social pressure) and threatening self-harm to one's own child under circumstances calculated to be perceived as invoking Divine displeasure upon the target — both confirming the section captures distinctly non-physical, belief-based coercive mechanisms that might otherwise escape the more conventional threat-based framework of S.503.",
+      "cite": "S.508 PPC and both its Illustrations — official text. Cross-reference S.503 PPC (this same module) — a structurally related but mechanistically distinct compulsion offence, using belief-induction rather than conventional threat as its coercive mechanism.",
+      "ll": "S.508 PPC and Illustrations — official text",
+      "section": "508",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A sits at Z's door (a traditional practice known as sitting 'dhurna'), with the specific intention of causing it to be believed that, by so sitting, A renders Z an object of Divine displeasure unless Z complies with some demand. Apply S.508's own Illustration (a). Has A committed the offence defined in this section?",
+          "reveal": "Yes — this is the Code's own Illustration (a) directly: 'A sits dhurna at Z's door with the intention of causing it to be believed that, by so sitting, he renders Z an object of Divine displeasure. A has committed the offence defined in this section.' This confirms the section's deliberate, specific capture of this particular traditional coercive practice as falling within its scope.",
+          "cite": "S.508 PPC Illustration (a) — the traditional practice of sitting 'dhurna' with the requisite belief-inducing intent, expressly confirmed by the Code as satisfying this section."
+        },
+        {
+          "q": "A threatens Z that, unless Z performs a certain act, A will kill one of A's own children, under circumstances such that this killing would be believed to render Z an object of Divine displeasure. Apply S.508's own Illustration (b). Does this fall within S.508 despite the threatened harm (killing A's own child) being directed at A's own family member rather than at Z directly?",
+          "reveal": "Yes — this is the Code's own Illustration (b) directly: 'A threatens Z that, unless Z performs a certain act, A will kill one of A's own children, under such circumstances that the killing would be believed to render Z an object of Divine displeasure. A has committed the offence defined in this section.' The section's concern is the belief-inducement mechanism used to compel Z's behaviour, not the specific target of whatever underlying act (here, the threatened killing of A's own child) is used to generate that belief-inducing effect.",
+          "cite": "S.508 PPC Illustration (b) — the offence satisfied through inducing belief in Divine displeasure via a threatened act against the offender's own family member, not requiring the threatened harm be directed at the victim Z directly."
+        },
+        {
+          "q": "How does S.508's belief-induction mechanism compare structurally to S.503's Criminal Intimidation, given both address compelling a person to do or omit an act they are not otherwise bound/entitled to do or omit?",
+          "reveal": "Both sections share the same underlying compulsion structure (compelling an act/omission as a means of avoiding some negative consequence), but differ specifically in the NATURE of the coercive mechanism: S.503 operates through threatened INJURY (to person, reputation, or property, in the conventional S.44 sense), while S.508 operates through inducing a BELIEF about supernatural/Divine consequences specifically. This distinction matters because S.508's belief-based mechanism would not necessarily satisfy S.503's injury-threat requirement (inducing belief in Divine displeasure is not, in itself, a threat of injury to person/reputation/property in the conventional sense S.503 addresses), justifying S.508's existence as its own distinct, specifically-tailored provision rather than simply being absorbed into S.503's general framework.",
+          "cite": "S.508 PPC's belief-induction mechanism vs S.503 PPC's conventional injury-threat mechanism — distinct enough in character to warrant S.508's own separate, specifically-tailored provision rather than absorption into S.503's general framework."
+        }
+      ]
+    },
+    {
+      "id": "S509",
+      "name": "Insulting Modesty or Causing Sexual Harassment",
+      "sub": "S.509 PPC — the 2010-modernised, dual-limb provision covering both traditional modesty-insult and contemporary workplace harassment",
+      "step": "Element 6 of 8",
+      "atom": "S509",
+      "desc": "S.509(i): intending to insult a woman's modesty, uttering any word, making any sound/gesture, or exhibiting any object (intending it be heard/seen by her), or intruding upon her privacy. S.509(ii): conducting sexual advances, demanding sexual favours, or using sexual verbal/non-verbal communication or physical conduct intending to annoy/insult/intimidate/threaten another, including at a workplace, or making submission to such conduct an explicit/implicit condition of employment, or retaliating for rejection of such conduct, or creating an intimidating/hostile/offensive working environment — punished with up to 3 years, fine up to 500,000 rupees, or both. Explanation 1: such conduct can occur in public OR private places. Explanation 2: defines 'workplace' broadly, extending beyond the physical premises to wherever the perpetrator's job-related access to the harassed person extends, even after working hours.",
+      "legal": "S.509 (substantially modernised by 2010 amendment) combines two conceptually related but distinct limbs: the traditional, narrower 'insulting modesty' offence (limb (i), addressing words/sounds/gestures/objects/privacy-intrusion intended to insult a woman's modesty specifically) and a considerably more elaborate, contemporary WORKPLACE SEXUAL HARASSMENT framework (limb (ii)), explicitly addressing quid pro quo harassment (submission as an employment condition), retaliation for rejection, and hostile-environment harassment — concepts drawn from modern employment-law sexual harassment doctrine rather than the original 1860 drafting. Explanation 2's broad 'workplace' definition is particularly significant: it extends protection beyond the literal physical premises to anywhere the perpetrator's job-related access to the victim extends, explicitly including situations occurring after working hours and outside the physical workplace, provided the access enabling the harassment derives from the job relationship itself.",
+      "cite": "S.509 PPC, both limbs, and both Explanations, substituted by Act I of 2010 — official text.",
+      "ll": "S.509 PPC — official text",
+      "section": "509",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, a supervisor, makes a woman's continued employment implicitly conditional on her submitting to A's unwanted sexual advances, with this dynamic playing out partly through communications occurring after normal working hours and away from the literal office premises, but made possible specifically because of A's supervisory job-related access to her. Apply S.509(ii) and Explanation 2. Does the fact that some of this conduct occurred after hours and off-premises prevent it from falling within S.509's 'workplace' harassment framework?",
+          "reveal": "No — Explanation 2 directly addresses this: 'sexual advances may occur after working hours and outside workplace. It is the access that perpetrator has to the person being harassed by virtue of a job situation or job related functions and activities' that defines the relevant connection, not the literal time or physical location of the conduct. Since A's ability to harass this woman derives specifically from A's job-related supervisory access to her, the after-hours, off-premises character of some of the conduct does not remove it from S.509(ii)'s workplace harassment framework.",
+          "cite": "S.509 PPC Explanation 2 — 'workplace' harassment defined by the perpetrator's job-related access to the victim, not confined to the literal physical premises or working hours."
+        },
+        {
+          "q": "A intentionally exhibits an object to a woman, specifically intending that she see it and that this will insult her modesty, in a public market. Apply S.509(i). Does this fall within the traditional modesty-insult limb, and does it matter that this occurred in a public, rather than private, location?",
+          "reveal": "Yes to both — S.509(i) explicitly covers 'exhibits any object' intending it be seen by the woman with the requisite modesty-insulting intent, and Explanation 1 confirms 'such behaviour might occur in public place, including, but not limited to, markets, public transport, streets or parks, or it might occur in private places' — the public market setting does not remove this conduct from S.509(i)'s scope; the section's protection extends across both public and private settings equally.",
+          "cite": "S.509(i) PPC and Explanation 1 — modesty-insulting conduct falling within the section's scope regardless of whether it occurs in a public or private setting."
+        },
+        {
+          "q": "How does S.509(ii)'s 'creating an intimidating, hostile, or offensive working environment' limb differ from the more specific quid-pro-quo limbs (submission as an employment condition, retaliation for rejection) also addressed in the same subsection?",
+          "reveal": "The quid-pro-quo limbs require a specific, identifiable LINK between the harassment and a concrete employment decision or consequence (submission being made an explicit/implicit condition of employment, or retaliation specifically following rejection of the conduct) — a more transactional, decision-specific form of harassment. The hostile-work-environment limb instead addresses a more DIFFUSE, atmospheric harm: conduct that 'unreasonably interfer[es] with an individual's work performance or creat[es] an intimidating, hostile, or offensive working environment,' without necessarily requiring any specific employment decision to be tied to the harassment at all — the harm here is the toxic environment itself, not necessarily any specific resulting employment consequence, reflecting the broader modern employment-law recognition that workplace sexual harassment can cause serious harm even without an explicit quid-pro-quo dynamic.",
+          "cite": "S.509(ii) PPC's hostile-work-environment limb — addressing diffuse atmospheric harm independent of any specific employment-decision link, distinct from the more transactional quid-pro-quo limbs in the same subsection."
+        }
+      ]
+    },
+    {
+      "id": "S510",
+      "name": "Misconduct in Public by a Drunken Person",
+      "sub": "S.510 PPC — the chapter-closing, final provision of the entire Pakistan Penal Code",
+      "step": "Element 7 of 8",
+      "atom": "S510",
+      "desc": "Whoever, in a state of intoxication, appears in any public place (or any place it is a trespass for them to enter), and conducts themselves there in a manner causing annoyance to any person, is punished with simple imprisonment for a term of 48 hours to 7 days, or fine of 10,000 to 100,000 rupees, or both.",
+      "legal": "S.510 closes the entire Pakistan Penal Code 1860, and is notable for several reasons within this app's build: it is one of the few provisions throughout the entire Code carrying BOTH a mandatory minimum AND a mandatory maximum on the SAME punishment component simultaneously (48 hours to 7 days' imprisonment; 10,000 to 100,000 rupees' fine) — a genuinely tight, narrowly-bounded sentencing range rather than the more typical 'up to X' ceiling-only structure, or even the floor-plus-ceiling structure already seen in several mandatory-minimum provisions throughout this app (which typically still leave the FINE as a more open, ceiling-only or discretionary component). This unusually precise dual-bounded structure for BOTH components reflects the legislature's apparent intent to leave courts very limited room for either excessive leniency or excessive severity for this comparatively minor, public-nuisance-type offence.",
+      "cite": "S.510 PPC, both figures substituted by Act XVIII of 2018 — official text.",
+      "ll": "S.510 PPC — official text",
+      "section": "510",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, visibly intoxicated, enters a public park and behaves in a manner that causes genuine annoyance to other park visitors. Apply S.510. What is the precise, narrowly-bounded sentencing range a court must work within, for both the imprisonment and fine components?",
+          "reveal": "For imprisonment: simple imprisonment for a term 'which may extend to seven days but shall not be less than forty eight hours' — a tightly bounded range of 2 to 7 days, with both a genuine floor and ceiling. For fine: 'which may extend to one hundred thousand rupees but shall not be less than ten thousand rupees' — similarly bounded between 10,000 and 100,000 rupees. A court sentencing under S.510 must select a specific point within both of these narrow, dual-bounded ranges, lacking the broader discretion (either toward leniency below the floor, or severity above the ceiling) that many other provisions throughout this Code would otherwise afford.",
+          "cite": "S.510 PPC — a precisely dual-bounded sentencing structure (floor AND ceiling on both the imprisonment term and the fine amount), a notably tight range compared to most other provisions throughout this Code."
+        },
+        {
+          "q": "Why might the legislature have chosen such an unusually precise, narrowly-bounded sentencing range specifically for this comparatively minor public-intoxication-and-annoyance offence, when far more serious offences throughout this Code typically leave courts with much broader 'up to X years' discretion?",
+          "reveal": "This is worth flagging as an observed structural choice rather than a definitively explained one: for a high-volume, relatively minor public-order offence like this, the legislature may have specifically sought to ensure consistent, predictable, and proportionate sentencing across a large number of routine cases, avoiding both excessively lenient outcomes that might fail to deter genuine public nuisance, and excessively severe outcomes that would be disproportionate to the genuinely minor nature of the underlying conduct. The tight, dual-bounded range may reflect a deliberate calibration exercise specifically suited to a frequently-charged, low-severity offence, distinct from the broader sentencing discretion more appropriate for the wide range of circumstances that might arise under more serious, less frequently-charged offences.",
+          "cite": "S.510 PPC's unusually tight, dual-bounded sentencing range — an observed structural choice plausibly reflecting a deliberate consistency/proportionality calibration for a high-volume, minor public-order offence."
+        },
+        {
+          "q": "Does S.510 require that the offender's intoxicated conduct actually cause SERIOUS harm or disorder, or is mere 'annoyance' to any person sufficient to satisfy the section?",
+          "reveal": "S.510's text requires only that the offender 'conducts himself in such a manner as to cause annoyance to any person' — 'annoyance' is a notably low threshold compared to many other harm-based requirements throughout this Code (compare, for example, the more substantial 'injury' concept under S.44 used throughout Extortion, Criminal Intimidation, and elsewhere). This confirms S.510 is calibrated as a genuinely minor public-order/nuisance offence, with even comparatively mild annoyance to a single person being sufficient to satisfy the section's threshold requirement, consistent with its position as the final, lightest-touch provision closing out the entire Code.",
+          "cite": "S.510 PPC's 'annoyance' threshold — a notably lower harm-bar than the more substantial 'injury' concept (S.44) used throughout most of this Code's other offences, consistent with S.510's role as a minor public-order/nuisance provision."
+        }
+      ]
+    }
+  ]
+}

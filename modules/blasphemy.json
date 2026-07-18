@@ -1,0 +1,136 @@
+{
+  "id": "blasphemy",
+  "name": "Blasphemy",
+  "section": "S.295-B / 295-C PPC",
+  "formula": "Act(desecration/derogation) ∧ Object/Target ∧ ¬Exception  →  S.295-B or S.295-C",
+  "type": "branch",
+  "els": [
+    {
+      "id": "Act295",
+      "name": "The Act of Blasphemy",
+      "sub": "S.295-B or S.295-C PPC — wilful defilement or derogatory remarks",
+      "step": "Element 1 of 4",
+      "atom": "Act295",
+      "desc": "S.295-B: wilful defilement, damage or desecration of a copy of the Holy Quran or extract therefrom — life imprisonment. S.295-C: derogatory remarks, spoken, written, or implied, in respect of the Prophet Muhammad (PBUH) — mandatory death or life imprisonment. Both require a deliberate act.",
+      "legal": "S.295-B requires wilful defilement — the mental element is deliberateness. Accidental or inadvertent damage does not satisfy the wilfulness requirement. S.295-C requires derogatory remarks — the act must be objectively derogatory and deliberately made. The subjective intent of the accused is highly relevant. Both sections require the act itself to be established with strict evidence given the severity of punishment.",
+      "cite": "S.295-B and S.295-C PPC. Asia Bibi PLD 2019 SC 64 — strict evidence required. Wilfulness as essential element.",
+      "ll": "S.295-B and S.295-C PPC — official text",
+      "section": "295-B",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Asia Bibi v. State PLD 2019 SC 64 — Supreme Court acquittal on evidentiary grounds after decade on death row. Mumtaz Qadri case (2015) — execution of Punjab Governor's assassin confirmed no right to take law into own hands. S.295-C carries mandatory death penalty with no judicial discretion on sentence. Mumtaz Qadri v. State PLD 2016 SC 17 — the assassination of Punjab Governor Salman Taseer (who had publicly criticised S.295-C and advocated for Asia Bibi) by his bodyguard Mumtaz Qadri. Supreme Court upheld death sentence and rejected the argument that defending the Prophet’s honour justified the killing. Decisively established that S.295-C enforcement is exclusively the state’s domain — no private citizen or vigilante has standing to punish alleged blasphemy.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "Pages from a Quranic text were found in the accused's rubbish bin. The accused says they were accidentally mixed with household waste. Is the wilfulness element satisfied?",
+          "reveal": "Not on these facts without more evidence. S.295-B requires wilful defilement — accidental or inadvertent disposal does not satisfy the mens rea. The prosecution must establish deliberate intent to defile. In Asia Bibi, the Supreme Court emphasised that mere allegation without reliable independent evidence is insufficient. Circumstantial evidence of intent would need to be strong.",
+          "cite": "S.295-B PPC — wilfulness requirement. Asia Bibi PLD 2019 SC 64"
+        },
+        {
+          "q": "The alleged blasphemous remarks were made in a private conversation with one witness. The accused denies saying anything. What is the evidentiary challenge?",
+          "reveal": "This is the classic evidentiary problem in S.295-C cases. The Supreme Court in Asia Bibi held that sole-witness testimony in blasphemy cases requires the highest scrutiny, particularly where: the witness had a prior dispute with the accused, the allegation arose in a heated context, and there is no independent corroboration. Fabrication of blasphemy allegations has been judicially recognised as a real phenomenon.",
+          "cite": "Asia Bibi PLD 2019 SC 64 — evidentiary scrutiny. Judicial recognition of false allegations"
+        },
+        {
+          "q": "A social media post allegedly containing blasphemous content was reported to police. The accused claims the account was hacked. How does the prosecution establish the act?",
+          "reveal": "The prosecution must establish: (1) the content was actually posted; (2) the accused was the author or had control of the account; (3) the posting was deliberate. Digital forensics — IP logs, device metadata, account access records — are relevant. The hacking defence shifts the burden back to requiring proof of authorship. Technological evidence in these cases is increasingly important.",
+          "cite": "Prevention of Electronic Crimes Act 2016 — digital evidence framework"
+        }
+      ]
+    },
+    {
+      "id": "Obj295",
+      "name": "Object or Target",
+      "sub": "S.295-B: Holy Quran — S.295-C: The Prophet (PBUH)",
+      "step": "Element 2 of 4",
+      "atom": "Obj295",
+      "desc": "S.295-B: the object must be the Holy Quran or an extract therefrom. S.295-C: the target must be the Prophet Muhammad (PBUH). These are strictly defined — S.295-C does not extend to other prophets or religious figures under its specific mandatory death penalty provision. S.295-A covers other religious feelings.",
+      "legal": "The specificity of the protected object/person is a crucial element. S.295-C applies exclusively to remarks about the Prophet Muhammad (PBUH) — the mandatory death penalty does not extend to remarks about other prophets under this section (they may fall under S.295-A). Courts must examine whether the alleged act actually targeted the specified object or person.",
+      "cite": "S.295-B and S.295-C PPC — specific objects protected. S.295-A for other religious insults.",
+      "ll": "S.295 series PPC — official text",
+      "section": "295-B",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The accused made derogatory remarks about Prophet Jesus (Hazrat Isa). Does S.295-C apply?",
+          "reveal": "No. S.295-C specifically and exclusively covers derogatory remarks in respect of the Prophet Muhammad (PBUH). Remarks about other prophets — including Prophet Jesus (Hazrat Isa), who is revered in Islam — do not fall under S.295-C. Such remarks may fall under S.295-A (deliberate acts to outrage religious feelings) which carries a different, lower punishment.",
+          "cite": "S.295-C PPC — exclusive to Prophet Muhammad (PBUH). S.295-A for other religious insults"
+        },
+        {
+          "q": "The accused damaged a translation of the Quran — not an Arabic original. Does S.295-B apply?",
+          "reveal": "Courts have held that S.295-B extends to translations and extracts of the Holy Quran — not solely Arabic originals. The purpose of the provision is to protect the sanctity of the text, and a translation containing Quranic verses falls within the protected category. However the wilfulness element still applies.",
+          "cite": "S.295-B PPC — scope of protected text. Judicial interpretation of extract"
+        },
+        {
+          "q": "A speech contained ambiguous statements that some listeners interpreted as blasphemous but others did not. Is the Object/Target element satisfied?",
+          "reveal": "This is one of the most contested areas. Courts must examine the objective meaning of the words — not merely the most extreme interpretation held by some listeners. The Asia Bibi Supreme Court judgment emphasised that the standard is what the words objectively meant, not how the most aggrieved listener chose to interpret them. Ambiguous statements interpreted uncharitably do not satisfy the element.",
+          "cite": "Asia Bibi PLD 2019 SC 64 — objective standard for interpreting allegedly blasphemous acts"
+        }
+      ]
+    },
+    {
+      "id": "Ev295",
+      "name": "Evidentiary Standard",
+      "sub": "Asia Bibi standard — strict scrutiny required",
+      "step": "Element 3 of 4",
+      "atom": "Ev295",
+      "desc": "The Supreme Court in Asia Bibi established a heightened evidentiary standard for blasphemy prosecutions given the severity of punishment (mandatory death for S.295-C). Evidence must be free from prior enmity, corroborated where possible, and evaluated with awareness that false allegations occur. The FIR and initial complaint circumstances are critically examined.",
+      "legal": "The Asia Bibi judgment identifies several red flags courts must examine: prior dispute between complainant and accused; delay between alleged act and complaint; allegation arising from a heated argument; sole testimony without corroboration; community pressure context. Where any of these are present, the court must apply heightened scrutiny. The mandatory nature of the death sentence under S.295-C makes rigorous evidence evaluation constitutionally imperative.",
+      "cite": "Asia Bibi v. State PLD 2019 SC 64 — five-factor scrutiny test. Mumtaz Qadri (2015) — no vigilante justice.",
+      "ll": "PLD 2019 SC 64 — Asia Bibi judgment",
+      "section": null,
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Walk through the Asia Bibi facts and explain why the Supreme Court acquitted.",
+          "reveal": "Asia Bibi was a Christian woman working in a field. After a dispute about water with Muslim co-workers, they alleged she had made derogatory remarks about the Prophet. Key factors for acquittal: (1) the allegations arose from a heated dispute with prior enmity; (2) the initial complainants had motive to fabricate; (3) the only witnesses were those with a dispute against her; (4) no independent corroboration; (5) the alleged words were reported inconsistently. The Supreme Court held that in the absence of reliable evidence free from motive to fabricate, the prosecution had not proven guilt beyond reasonable doubt.",
+          "cite": "Asia Bibi v. State PLD 2019 SC 64 — factual analysis"
+        },
+        {
+          "q": "A blasphemy FIR was registered 10 days after the alleged incident, filed by a local cleric who was not present. What does this suggest evidentiary about the case?",
+          "reveal": "This raises two Asia Bibi red flags: delay in reporting and complaint by someone not present at the alleged incident. Courts would examine: why the delay, who was the original witness, was the cleric's complaint based on hearsay, and what was the community context. A delayed complaint by a secondary complainant without direct knowledge significantly weakens the evidential foundation.",
+          "cite": "Asia Bibi PLD 2019 SC 64 — circumstances of complaint as evidence"
+        },
+        {
+          "q": "S.295-C carries a mandatory death penalty. Does this affect the court's approach to evidence and sentencing?",
+          "reveal": "Significantly. Where punishment is mandatory and irreversible, the Supreme Court has held that the standard of evidence must be correspondingly rigorous. Judicial discretion on sentence is eliminated — the court cannot impose a lesser punishment even if it finds extenuating circumstances. This makes the trial finding of guilt or innocence the only decision point, which courts have treated as requiring the highest possible standard of proof.",
+          "cite": "S.295-C PPC — mandatory death penalty. Asia Bibi PLD 2019 SC 64 — evidentiary rigor"
+        }
+      ]
+    },
+    {
+      "id": "¬ExB",
+      "name": "No General Exception",
+      "sub": "S.76–106 PPC + constitutional defences",
+      "step": "Element 4 of 4",
+      "atom": "¬ExB",
+      "desc": "The General Exceptions apply to blasphemy as to all PPC offences. S.84 (unsound mind) may be raised. Additionally, constitutional challenges — freedom of religion (Article 20), freedom of expression (Article 19), and fair trial rights (Article 10-A) — have been raised, though Pakistan's courts have generally held S.295-C does not violate the Constitution.",
+      "legal": "S.84 unsound mind is the most practically available General Exception in blasphemy cases. Freedom of expression under Article 19 of the Constitution does not extend to blasphemy — the Constitution itself subjects this right to reasonable restrictions. Article 20 (freedom of religion) similarly does not protect acts that insult other religions. Courts have upheld S.295-C against constitutional challenge, though academic debate continues.",
+      "cite": "S.84 PPC — insanity defence. Articles 19, 20, 10-A Constitution of Pakistan. S.295-C upheld as constitutional in multiple judgments.",
+      "ll": "S.295 series and Constitution of Pakistan — official text",
+      "section": "76",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The accused was suffering from schizophrenia and had a documented history of religious delusions. At the time of the alleged blasphemy he was in a psychotic episode. Can S.84 succeed?",
+          "reveal": "Potentially yes and this is one of the strongest available defences in blasphemy cases. S.84 requires incapacity at the time of the act — if the psychiatric evidence establishes that during the psychotic episode the accused could not understand the nature or wrongness of the act, the defence succeeds. Courts have accepted S.84 in blasphemy cases with strong psychiatric evidence, and this route avoids the constitutional controversy of challenging S.295-C directly.",
+          "cite": "S.84 PPC — insanity defence in blasphemy context. Multiple High Court judgments accepting psychiatric defence"
+        },
+        {
+          "q": "A defence lawyer argues S.295-C violates Article 19 (freedom of expression) and is unconstitutional. How have Pakistani courts responded?",
+          "reveal": "Pakistani courts have consistently upheld S.295-C as constitutional. The reasoning is that Article 19 expressly subjects freedom of expression to reasonable restrictions in the interest of the glory of Islam. Courts have held that S.295-C constitutes a reasonable restriction within this constitutional framework. The Federal Shariat Court and Supreme Court have rejected constitutional challenges. This position is contested in academic literature but is settled law in Pakistan.",
+          "cite": "Federal Shariat Court and Supreme Court judgments upholding S.295-C. Article 19 Constitution of Pakistan"
+        },
+        {
+          "q": "A non-Muslim accused is charged under S.295-C. Does religion of the accused affect the charge or punishment?",
+          "reveal": "S.295-C as drafted does not explicitly limit its application to Muslims — it applies to any person who makes derogatory remarks about the Prophet Muhammad (PBUH). The mandatory death penalty applies regardless of the accused's religion. This has been one of the most criticised aspects of S.295-C from international human rights perspectives. Pakistani courts have not created a religious exemption from S.295-C liability.",
+          "cite": "S.295-C PPC — applies regardless of accused's religion. International human rights critique documented"
+        }
+      ]
+    }
+  ]
+}

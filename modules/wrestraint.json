@@ -1,0 +1,346 @@
+{
+  "id": "wrestraint",
+  "name": "Wrongful Restraint & Confinement",
+  "section": "S.339–348 PPC",
+  "formula": "Restraint → Confinement → Duration/Secrecy/Purpose Aggravation",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "WRest",
+      "name": "Wrongful Restraint",
+      "sub": "S.339 PPC — obstructing a person's right to proceed in a direction",
+      "step": "Element 1 of 10",
+      "atom": "WRest",
+      "desc": "Whoever voluntarily obstructs any person so as to prevent that person from proceeding in any direction in which that person has a right to proceed, is said to wrongfully restrain that person. S.339 carries its own statutory Exception: obstruction of a private way over land or water that a person in good faith believes they have a lawful right to obstruct is not an offence under this section.",
+      "legal": "Wrongful Restraint is the foundational, least severe member of this cluster — it requires only obstruction of free movement in a particular direction, not total confinement. The key limiting concept is the victim's pre-existing right to proceed in that direction; obstructing someone from going somewhere they had no right to go in the first place is not wrongful restraint. The good-faith Exception is itself a miniature private-defence-of-property analysis: a person who genuinely and reasonably believes they have a lawful right to block a path is not liable, even if that belief later turns out to be legally incorrect, echoing the same good-faith standard defined in General Explanations S.52.",
+      "cite": "S.339 PPC and its Exception and Illustration — official text. Cross-reference General Explanations S.52 (good faith requires due care and attention, not mere sincerity).",
+      "ll": "S.339 PPC — official text",
+      "section": "339",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "This cluster has not yet had a verified Pakistani landmark case logged against it in this app. S.348 in particular (confinement to extort confession) is the natural statutory hook for custodial-coercion fact patterns already discussed elsewhere under General Explanations S.21(7) and the Rizwan Haider custody killing case (Blasphemy module), though that case was charged and analysed there under S.302 Murder rather than S.348 specifically. No standalone S.339–348 case has been independently verified and logged as of this build — flagged honestly rather than inventing a citation.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A obstructs a path along which Z has a right to pass. A does not believe in good faith that he has a right to stop the path. Z is thereby prevented from passing. Apply S.339 and its own Illustration.",
+          "reveal": "A wrongfully restrains Z — this is the Code's own Illustration directly. The two operative facts are that Z had a pre-existing right to pass along that path, and A's obstruction was not grounded in a good-faith belief in a lawful right to block it. Both facts must be present: had A genuinely and reasonably believed in a lawful right to obstruct, the statutory Exception would have applied and no offence would arise.",
+          "cite": "S.339 PPC Illustration — obstruction without good-faith belief in a right to obstruct."
+        },
+        {
+          "q": "A landowner genuinely but mistakenly believes, after consulting an old family document, that a path crossing their land is private property and blocks it, preventing Z from passing. The document later turns out to be inaccurate. Does S.339's Exception protect the landowner?",
+          "reveal": "Potentially yes, provided the belief was held in good faith as defined by S.52 — meaning not just sincere but held with due care and attention. Consulting an actual document before forming the belief is evidence of due care, which strengthens the case for the Exception applying. The Exception does not require the belief to be legally correct, only that it be a good-faith belief in a lawful right to obstruct; the landowner being factually wrong about the document's reliability does not by itself defeat the Exception, so long as reasonable care was taken in forming the belief.",
+          "cite": "S.339 PPC Exception. Cross-reference General Explanations S.52 — good faith requires due care and attention."
+        },
+        {
+          "q": "Z has no legal right whatsoever to cross A's private garden, but Z attempts to do so anyway. A physically blocks Z's path through the garden. Is this wrongful restraint under S.339?",
+          "reveal": "No. S.339 requires that the obstructed person have a right to proceed in that direction in the first place — 'prevent that person from proceeding in any direction in which that person has a right to proceed.' Since Z had no right to cross A's private garden, A's obstruction does not satisfy this threshold requirement at all, and the analysis does not even need to reach the good-faith Exception, because the core element of the offence itself is missing.",
+          "cite": "S.339 PPC — threshold requirement that the victim hold a pre-existing right to proceed in the obstructed direction."
+        }
+      ]
+    },
+    {
+      "id": "WConf",
+      "name": "Wrongful Confinement",
+      "sub": "S.340 PPC — restraint within circumscribing limits",
+      "step": "Element 2 of 10",
+      "atom": "WConf",
+      "desc": "Whoever wrongfully restrains any person in such a manner as to prevent that person from proceeding beyond certain circumscribing limits, is said to wrongfully confine that person. Wrongful Confinement is therefore a specific, more total form of Wrongful Restraint — every wrongful confinement is necessarily also a wrongful restraint, but not every wrongful restraint rises to the level of confinement.",
+      "legal": "The defining feature distinguishing confinement from mere restraint is the existence of a bounded area the victim cannot escape, rather than merely being blocked from one specific direction while other directions remain open. The Code's two Illustrations show both the physical method (locking someone within a walled space) and the threat-based method (armed men stationed at every exit, communicating that leaving will be met with force) — confirming that confinement can be achieved either through physical barriers or through a credible threat that functions as an equally effective barrier.",
+      "cite": "S.340 PPC and its Illustrations (a) and (b) — official text.",
+      "ll": "S.340 PPC — official text",
+      "section": "340",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A places armed men at every outlet of a building and tells Z that they will fire at Z if Z attempts to leave. Z never physically tests this and simply remains inside. Apply S.340 and its Illustration (b). Has A wrongfully confined Z, even though no physical barrier exists and Z was never actually touched?",
+          "reveal": "Yes — this is the Code's own Illustration (b) directly. Wrongful confinement does not require a physical barrier; a credible threat of force at every point of egress that effectively prevents the person from proceeding beyond the circumscribing limits of the building satisfies S.340 just as completely as a locked door would. The psychological and practical effect on Z's freedom of movement is identical either way, and the statute is drafted to capture both methods equally.",
+          "cite": "S.340 PPC Illustration (b) — confinement achieved through credible threat rather than physical barrier."
+        },
+        {
+          "q": "What is the precise structural relationship between S.339 Wrongful Restraint and S.340 Wrongful Confinement? Can a person be liable under S.340 without their conduct also satisfying S.339?",
+          "reveal": "No. S.340's own text defines wrongful confinement as a person who 'wrongfully restrains' someone 'in such a manner as to prevent that person from proceeding beyond certain circumscribing limits' — confinement is explicitly built on top of restraint as its foundation, adding the further requirement of a bounded area rather than a single blocked direction. Every instance of wrongful confinement is necessarily also an instance of wrongful restraint; the converse does not hold, since restraint in one direction while other directions remain open does not amount to confinement.",
+          "cite": "S.340 PPC — textually defined as a sub-species of S.339 restraint, distinguished by the circumscribing-limits requirement."
+        },
+        {
+          "q": "A causes Z to enter a large open field surrounded by a fence with one unlocked gate that Z does not know exists, and Z believes themselves trapped. Is this wrongful confinement under S.340?",
+          "reveal": "This depends on whether Z was in fact prevented from proceeding beyond the circumscribing limits — if an actual, usable exit existed and Z's belief that no exit existed was simply a mistaken perception rather than something A induced through deception or threat, the objective element of confinement (actual prevention from proceeding beyond the limits) may not be satisfied, since Z could in fact have left. If, however, A deliberately concealed the gate's existence or otherwise deceived Z into believing no exit existed as part of the confinement, that deception could itself form part of the wrongful conduct, depending on how the facts are framed and proven.",
+          "cite": "S.340 PPC — requires actual prevention from proceeding beyond circumscribing limits, raising fact-specific questions where a genuine but unknown exit exists."
+        }
+      ]
+    },
+    {
+      "id": "S341",
+      "name": "Punishment for Wrongful Restraint",
+      "sub": "S.341 PPC — base punishment tier",
+      "step": "Element 3 of 10",
+      "atom": "S341",
+      "desc": "Whoever wrongfully restrains any person shall be punished with simple imprisonment for a term up to one month, or with fine up to one thousand five hundred rupees, or with both.",
+      "legal": "S.341 sets the lightest punishment in the entire cluster, reflecting that mere restraint (blocking one direction while others remain open) is treated as the least severe form of interference with personal liberty in this chapter. Punishment is capped at simple imprisonment only — rigorous imprisonment is not available for restraint alone, distinguishing it from the confinement provisions that follow, several of which permit imprisonment of either description.",
+      "cite": "S.341 PPC — official text, fine amount as substituted by Ordinance 86 of 2002.",
+      "ll": "S.341 PPC — official text",
+      "section": "341",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why does S.341 permit only simple imprisonment, while S.342 (wrongful confinement) permits imprisonment of either description, including rigorous imprisonment?",
+          "reveal": "The graduated severity reflects the underlying conduct each section punishes. Wrongful restraint under S.339 involves blocking a person from proceeding in one particular direction while other directions of movement typically remain available — a comparatively limited interference with liberty. Wrongful confinement under S.340 involves a complete bounding of the person's movement within fixed limits, a more total deprivation of liberty. The legislature calibrated S.341's punishment ceiling to the lesser severity of mere restraint by withholding the more severe rigorous-imprisonment option that S.342 makes available for the more serious confinement offence.",
+          "cite": "S.341 vs S.342 PPC — graduated punishment reflecting graduated severity of restraint vs confinement."
+        },
+        {
+          "q": "Is S.341 a compoundable offence, and does the fine amount stated in the section reflect its original 1860 value?",
+          "reveal": "The fine figure of one thousand five hundred rupees is not the original 1860 figure — the footnote confirms it was substituted by Ordinance 86 of 2002, meaning the legislature has periodically revalued this particular fine to keep it meaningful, unlike some other PPC fine figures (such as those in S.67) which remain at their unrevised 1860 values. Whether the offence is compoundable is a CrPC question rather than a PPC punishments question, and falls outside the scope of this module; it would be addressed under CrPC S.345's schedule of compoundable offences.",
+          "cite": "S.341 PPC — fine substituted by Ordinance 86 of 2002. Cross-reference Statutory Interpretation Foundation module — contrast with S.67 PPC's unrevised 1860 rupee figures as an example of inconsistent legislative updating across the Code."
+        },
+        {
+          "q": "A wrongfully restrains Z for thirty seconds before voluntarily letting Z pass. Does the brevity of the restraint affect whether S.341 applies at all?",
+          "reveal": "S.339's definition of wrongful restraint contains no minimum duration requirement — it is satisfied the moment a person is voluntarily obstructed from proceeding in a direction they have a right to proceed in, however briefly. The brevity of the restraint may be highly relevant to sentencing within the available range (simple imprisonment up to one month, or fine up to the statutory maximum, or both), but it does not affect whether the offence itself is established at the threshold stage.",
+          "cite": "S.339 PPC — no statutory minimum duration for restraint to be established; duration is a sentencing factor, not an element."
+        }
+      ]
+    },
+    {
+      "id": "S342",
+      "name": "Punishment for Wrongful Confinement",
+      "sub": "S.342 PPC — base confinement punishment tier",
+      "step": "Element 4 of 10",
+      "atom": "S342",
+      "desc": "Whoever wrongfully confines any person shall be punished with imprisonment of either description for a term up to one year, or with fine up to three thousand rupees, or with both.",
+      "legal": "S.342 is the baseline confinement punishment, before any of the aggravating circumstances addressed in S.343 through S.348 (duration, secrecy, extortion purpose) are factored in. Notably it permits imprisonment of either description — rigorous or simple — unlike S.341's restriction to simple imprisonment only for mere restraint, confirming the graduated severity built into this cluster.",
+      "cite": "S.342 PPC — official text, fine amount as substituted by Ordinance 86 of 2002.",
+      "ll": "S.342 PPC — official text",
+      "section": "342",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A wrongfully confines Z for two days. No extortion purpose, no secrecy, no writ of liberation involved. Which provision in this cluster governs A's punishment?",
+          "reveal": "S.342 governs, since none of the aggravating thresholds in the later sections are met: S.343 requires confinement for three or more days (not met here at two days), S.344 requires ten or more days, and S.345–348 each require specific additional circumstances (a pending writ, secrecy of confinement, or an extortion/illegal-act purpose) that are not present on these facts. A faces the base tier: imprisonment of either description up to one year, or fine up to three thousand rupees, or both.",
+          "cite": "S.342 PPC as the applicable base provision where no aggravating circumstance under S.343–348 is satisfied."
+        },
+        {
+          "q": "How does S.342's punishment ceiling (one year) compare proportionally to S.341's ceiling (one month simple imprisonment)? What does this twelvefold jump suggest about how the legislature values the difference between restraint and confinement?",
+          "reveal": "The roughly twelvefold increase in maximum imprisonment, combined with the additional availability of rigorous imprisonment (not available under S.341 at all), reflects a clear legislative judgment that total confinement within bounded limits is substantially more serious than mere directional restraint, even before any of the aggravating circumstances in S.343 onward are considered. This proportional gap sets the baseline scale against which the further escalations in S.343 (two years), S.344 (three years), and the extortion-purpose provisions (three years each) can be measured.",
+          "cite": "S.341 vs S.342 PPC — comparative punishment ceilings establishing the cluster's baseline severity scale."
+        },
+        {
+          "q": "Does S.342 require that the confinement be total, with absolutely no possibility of escape, or is a practical, effective restriction on movement sufficient?",
+          "reveal": "S.340's underlying definition (which S.342 punishes) requires that the person be prevented 'from proceeding beyond certain circumscribing limits' — this is satisfied by an effective practical restriction, as the Code's own Illustration (b) under S.340 confirms (armed men at every exit, no physical lock required). The test is whether the person was, in practical and effective terms, prevented from leaving the bounded area, not whether escape was theoretically impossible under every conceivable circumstance.",
+          "cite": "S.340 PPC Illustration (b), incorporated by reference into the S.342 analysis — effective practical restriction suffices."
+        }
+      ]
+    },
+    {
+      "id": "S343_344",
+      "name": "Wrongful Confinement for Three or More / Ten or More Days",
+      "sub": "S.343/344 PPC — duration-based escalation",
+      "step": "Element 5 of 10",
+      "atom": "S343_344",
+      "desc": "S.343: wrongful confinement for three days or more is punished with imprisonment of either description up to two years, or fine, or both. S.344: wrongful confinement for ten days or more is punished with imprisonment of either description up to three years, and is also liable to fine — fine is mandatory at this tier, not merely available.",
+      "legal": "These two sections form a deliberate duration-based escalation ladder on top of S.342's baseline: three days crosses the first threshold (two-year ceiling, fine optional), ten days crosses the second (three-year ceiling, fine now mandatory in addition to imprisonment rather than an alternative to it). The shift from 'or with fine' (S.343) to 'and shall also be liable to fine' (S.344) is a precise drafting distinction — at the ten-day threshold, fine is no longer simply one of several sentencing options but a mandatory additional component of the sentence.",
+      "cite": "S.343 and S.344 PPC — official text. Note the precise drafting shift from optional fine ('or with fine') to mandatory additional fine ('and shall also be liable to fine') between the two tiers.",
+      "ll": "S.343 and S.344 PPC — official text",
+      "section": "343",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A confines Z for exactly three days, then releases Z. Does S.343 apply, or does the confinement need to exceed three full days?",
+          "reveal": "S.343 applies — the section's own language is 'for three days or more,' meaning the threshold is inclusive of exactly three days, not merely confinement exceeding three days. A confinement lasting precisely three days satisfies this section's duration requirement on its own terms.",
+          "cite": "S.343 PPC — 'three days or more' as an inclusive threshold."
+        },
+        {
+          "q": "A confines Z for twelve days. Which section applies — S.343, S.344, or both?",
+          "reveal": "S.344 applies, since twelve days exceeds the ten-day threshold it sets, and S.344 carries the higher punishment ceiling (three years, with mandatory fine) appropriate to the longer confinement. S.343 (the three-day threshold) is not separately or additionally charged on top of S.344 for the same continuous confinement — the longer-duration section subsumes the shorter one for the same act, since both are simply duration-based escalations of the same underlying wrongful confinement, not distinct offences requiring cumulative punishment under a S.71-style analysis.",
+          "cite": "S.344 PPC as the governing provision once the ten-day threshold is crossed; S.343 is subsumed rather than cumulatively charged."
+        },
+        {
+          "q": "Why might the legislature have made fine mandatory at the ten-day threshold (S.344) but merely optional at the three-day threshold (S.343)?",
+          "reveal": "The mandatory-fine requirement at the higher duration threshold likely reflects a legislative judgment that confinement sustained for ten days or more represents a sufficiently serious and sustained deprivation of liberty that purely custodial punishment, without an accompanying financial penalty, would understate the offender's culpability. At the lower three-day threshold, the legislature left courts more sentencing flexibility, presumably because the range of circumstances captured at that lower threshold (from just over three days to just under ten) is wider and a one-size mandatory-fine rule was judged less appropriate.",
+          "cite": "S.343 vs S.344 PPC — inferred rationale for the optional-to-mandatory fine shift at the duration thresholds."
+        }
+      ]
+    },
+    {
+      "id": "S345",
+      "name": "Confinement of Person for Whose Liberation a Writ Has Issued",
+      "sub": "S.345 PPC — defying a judicial liberation order",
+      "step": "Element 6 of 10",
+      "atom": "S345",
+      "desc": "Whoever keeps any person in wrongful confinement, knowing that a writ for that person's liberation has been duly issued, is punished with imprisonment of either description up to two years, in addition to any other term of imprisonment they may be liable to under any other section of this chapter.",
+      "legal": "S.345 punishes a distinct wrong layered on top of the underlying confinement itself: knowing defiance of a judicial liberation order, most obviously a writ of habeas corpus. The phrase 'in addition to any other term' is the key structural feature — this is an additive, cumulative punishment stacked on top of whatever sentence the underlying wrongful confinement (under S.342, 343, or 344) already carries, rather than a substitute or alternative offence. This reflects the gravity the Code attaches to defying the judiciary's own liberation orders, treating it as compounding the wrong of the confinement itself.",
+      "cite": "S.345 PPC — official text. Cross-reference General Explanations S.19 and S.20 (Judge and Court of Justice definitions) — a writ of liberation is the output of a Court of Justice exercising judicial power.",
+      "ll": "S.345 PPC — official text",
+      "section": "345",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A wrongfully confines Z for fifteen days, already exposing A to liability under S.344 (three-year ceiling, mandatory fine). A court issues a writ for Z's liberation on day ten, and A, knowing of the writ, keeps Z confined for the remaining five days. How does S.345 affect A's total exposure?",
+          "reveal": "S.345 adds up to two years' imprisonment on top of whatever sentence A already faces under S.344 for the underlying fifteen-day confinement — the section's own language specifies the punishment is 'in addition to any other term of imprisonment' under any other section of the chapter. A's total exposure therefore combines the S.344 sentence (up to three years, plus mandatory fine) with a further S.345 component (up to two more years) for the distinct wrong of knowingly defying the issued writ.",
+          "cite": "S.345 PPC — additive, cumulative punishment structure expressly stacked on top of other chapter offences."
+        },
+        {
+          "q": "Does S.345 require that the writ actually reach A, or only that a writ has been 'duly issued' and A knows of its issuance?",
+          "reveal": "The section's text requires knowledge that a writ 'has been duly issued' — the operative mental element is A's knowledge of the writ's issuance, not necessarily that A has personally received or been formally served with a copy of it. If A becomes aware through any reliable means that a liberation writ has been issued and nonetheless continues the confinement, the knowledge requirement is satisfied; formal personal service is not stated as a precondition in the section's own language.",
+          "cite": "S.345 PPC — 'knowing that a writ... has been duly issued' as the operative mental element."
+        },
+        {
+          "q": "Why does S.345 single out defiance of a judicial liberation writ for separate, additive punishment, rather than simply treating it as an aggravating factor within sentencing for the underlying confinement offence?",
+          "reveal": "Treating it as a freestanding additive offence, rather than a mere sentencing factor, ensures the wrong is formally recognised and punished as such regardless of how a sentencing court might otherwise weigh aggravating circumstances within its discretion for the underlying offence. It also creates a clear, separately chargeable wrong specifically targeting contempt of judicial authority embedded within the confinement itself — conceptually adjacent to, though structurally distinct from, the judicial-act protections under General Explanations S.77 and S.78, which protect judges and those acting under court orders, whereas S.345 punishes the opposite scenario of someone defying a court's order.",
+          "cite": "S.345 PPC rationale — freestanding additive offence for defiance of judicial liberation order. Cross-reference General Explanations S.77/S.78 as the structural converse (protecting compliance with judicial orders rather than punishing defiance of them)."
+        }
+      ]
+    },
+    {
+      "id": "S346",
+      "name": "Wrongful Confinement in Secret",
+      "sub": "S.346 PPC — concealment of the confinement itself",
+      "step": "Element 7 of 10",
+      "atom": "S346",
+      "desc": "Whoever wrongfully confines any person in a manner indicating an intention that the confinement not be known to any person interested in the confined person, or to any public servant, or that the place of confinement not be known to or discovered by any such person or public servant, is punished with imprisonment of either description up to two years, in addition to any other punishment for the wrongful confinement itself.",
+      "legal": "Like S.345, this is an additive offence layered on top of the underlying confinement punishment, but here the aggravating factor is secrecy rather than defiance of a writ. The provision targets two distinct forms of concealment: concealing the fact of confinement itself from interested persons or public servants, and concealing the location even where the fact of confinement may be known. Either form of concealment, evidenced by the manner in which the confinement is carried out, triggers the additional punishment — the section does not require both forms simultaneously.",
+      "cite": "S.346 PPC — official text.",
+      "ll": "S.346 PPC — official text",
+      "section": "346",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A confines Z and openly tells Z's family that Z is being held, but refuses to disclose the location and moves Z between several locations specifically to prevent discovery. Does S.346 apply even though the fact of confinement is known?",
+          "reveal": "Yes. S.346's text covers two independent limbs — confinement carried out so the fact of confinement is not known, OR so that the place of confinement is not known or discoverable. A's conduct satisfies the second limb even though the first limb (concealing the fact of confinement) is not met, since A openly disclosed that Z was confined. The section is satisfied by either form of concealment; both are not required simultaneously.",
+          "cite": "S.346 PPC — disjunctive structure covering concealment of the fact of confinement or concealment of its location, either sufficing independently."
+        },
+        {
+          "q": "What is the conceptual relationship between S.346 (secrecy) and S.345 (defiance of a liberation writ)? Could both apply to the same confinement simultaneously?",
+          "reveal": "Yes, both can apply simultaneously and cumulatively to the same underlying confinement, since each addresses a structurally distinct aggravating wrong: S.345 punishes knowing defiance of an already-issued judicial liberation order, while S.346 punishes the manner of secrecy in which the confinement itself is carried out, independent of whether any writ has been issued at all. A person could confine someone in secret (triggering S.346) and, once a liberation writ for that person is subsequently issued and the confiner becomes aware of it, continue defying that writ (triggering S.345 additionally) — both additive punishments stacking on top of the base confinement sentence under S.342, 343, or 344.",
+          "cite": "S.345 vs S.346 PPC — structurally distinct, independently triggerable, and cumulatively stackable aggravating provisions."
+        },
+        {
+          "q": "Why might the legislature treat secrecy as warranting separate, additive punishment rather than folding it into the general sentencing discretion already available under S.342–344?",
+          "reveal": "Secret confinement poses a distinct and serious practical harm beyond the loss of liberty itself: it frustrates the ability of family, interested persons, and the state (through public servants and the judicial process, including the very writ mechanism addressed in S.345) to locate, verify the wellbeing of, or seek the liberation of the confined person. Treating secrecy as a freestanding additive offence, rather than leaving it to general sentencing discretion, ensures this specific harm to the broader system of accountability and oversight is formally recognised and punished in its own right.",
+          "cite": "S.346 PPC rationale — secrecy frustrates external accountability mechanisms including the S.345 writ process, warranting independent recognition."
+        }
+      ]
+    },
+    {
+      "id": "S347",
+      "name": "Confinement to Extort Property or Constrain to an Illegal Act",
+      "sub": "S.347 PPC — purposive aggravation: extortion or coercion to illegality",
+      "step": "Element 8 of 10",
+      "atom": "S347",
+      "desc": "Whoever wrongfully confines any person for the purpose of extorting from the confined person, or from any person interested in them, any property or valuable security, or of constraining the confined person or any interested person to do anything illegal, or to give information that may facilitate the commission of an offence, is punished with imprisonment of either description up to three years, and is also liable to fine.",
+      "legal": "S.347 shifts the aggravating focus from duration (S.343/344) or manner (S.346) to purpose — the confinement is aggravated because of why it was undertaken. Three distinct purposes are captured disjunctively: extortion of property or valuable security, coercion into an illegal act, or coercion into disclosing information facilitating an offence. Any one of these purposes, even without proof of all three, satisfies the section. This sits in close conceptual proximity to the Theories of Punishment discussion of extortion-based property offences, since wrongful confinement deployed for extortion purposes functions as a coercive mechanism analogous to the fear-of-injury element already built into Robbery's Extortion limb.",
+      "cite": "S.347 PPC — official text. Cross-reference Robbery S.390 Extortion limb (S.383) — both provisions use confinement-adjacent coercion to extract property, though S.347 punishes the confinement itself as the offence rather than the resulting delivery of property as in Extortion/Robbery.",
+      "ll": "S.347 PPC — official text",
+      "section": "347",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A confines Z specifically in order to pressure Z's family into handing over a valuable necklace. The family never actually hands over the necklace because Z is rescued first. Does S.347 still apply to A?",
+          "reveal": "Yes. S.347 punishes confinement undertaken 'for the purpose of' extorting property — the offence is complete upon the purposive confinement itself, and does not require that the extortion actually succeed or that the property actually change hands. The section is structured around the confiner's purpose at the time of confining, not the ultimate outcome of that purpose.",
+          "cite": "S.347 PPC — 'for the purpose of extorting' as the operative element, satisfied regardless of whether the extortion succeeds."
+        },
+        {
+          "q": "How does S.347's structure (confinement for an extortionate purpose) relate to the Extortion limb of Robbery already built in this app under S.390/S.383? Are they the same offence viewed from different angles, or genuinely distinct?",
+          "reveal": "They are related but distinct. The Extortion limb of Robbery (S.383, elevated to Robbery under S.390 where force/fear is contemporaneous with the taking) punishes the act of putting a person in fear and thereby dishonestly inducing delivery of property — the focus is on the inducement and resulting delivery. S.347 instead punishes the confinement itself, undertaken with an extortionate purpose, regardless of whether any property is ever actually delivered. A single fact pattern could potentially engage both provisions if a confinement-based extortion attempt also results in actual delivery of property under threat, but S.347 does not require that outcome to be complete, while Extortion under S.383 generally contemplates the inducement-and-delivery sequence.",
+          "cite": "S.347 PPC vs S.383/S.390 PPC — confinement-for-purpose vs inducement-and-delivery as distinct but related coercive property offences."
+        },
+        {
+          "q": "A confines Z not to extract property, but specifically to force Z to reveal the password to a rival's computer system, intending to use that information to commit a separate cybercrime. Does S.347 capture this?",
+          "reveal": "Yes — S.347's third disjunctive limb covers confinement for the purpose of compelling the confined person 'to give information which may facilitate the commission of an offence,' which directly covers extracting a password intended to facilitate a future cybercrime. The section does not require the ultimate offence to actually be committed; it is sufficient that the confinement's purpose was to extract information that would facilitate such an offence.",
+          "cite": "S.347 PPC third limb — confinement to extract information facilitating the commission of an offence, satisfied independently of whether that further offence is ultimately committed."
+        }
+      ]
+    },
+    {
+      "id": "S348",
+      "name": "Confinement to Extort Confession or Compel Restoration of Property",
+      "sub": "S.348 PPC — the custodial-torture provision",
+      "step": "Element 9 of 10",
+      "atom": "S348",
+      "desc": "Whoever wrongfully confines any person for the purpose of extorting a confession, or any information that may lead to the detection of an offence or misconduct, or for the purpose of constraining the confined person to restore property or valuable security, satisfy a claim or demand, or give information leading to restoration of property, is punished with imprisonment of either description up to three years, and is also liable to fine.",
+      "legal": "S.348 is the provision most directly engaged by custodial coercion and torture-adjacent conduct — confinement specifically aimed at extracting a confession or information about an offence, or compelling restoration of property, sits at the heart of the kind of unlawful police or custodial conduct already flagged elsewhere in this app's General Explanations S.21(7) discussion of public servants whose duty is to prevent offences. Where the confiner is themselves a public servant using their official position to extract a confession through wrongful confinement, this section provides one statutory basis for liability, operating alongside (not displacing) any separate liability the same conduct might generate under provisions addressing custodial abuse more specifically.",
+      "cite": "S.348 PPC — official text. Cross-reference General Explanations S.21 sub-definition 7 (public servants whose duty includes preventing offences and bringing offenders to justice) — where the confiner holds this duty, their conduct under S.348 represents a direct inversion of that public role.",
+      "ll": "S.348 PPC — official text",
+      "section": "348",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A police officer wrongfully confines a suspect specifically to extract a confession to a crime, rather than following lawful interrogation procedure. Apply S.348. Does the officer's status as a public servant whose duty is to investigate offences provide any defence?",
+          "reveal": "No — if anything, the officer's public-servant status makes the conduct a more direct inversion of their lawful role rather than a defence. S.348 punishes confinement undertaken for the purpose of extorting a confession regardless of who the confiner is; a police officer's general duty to investigate and bring offenders to justice (the S.21(7) category) does not extend to using wrongful confinement as an interrogation method, and using that official position to facilitate the wrongful confinement does not immunise the conduct — it is the same inversion-of-duty problem already seen in the Rizwan Haider custody killing case logged under the Blasphemy module, where a public servant's protective duty was turned into the instrument of harm.",
+          "cite": "S.348 PPC — applies regardless of the confiner's public-servant status. Cross-reference General Explanations S.21(7) and the Rizwan Haider custody killing landmark case (Blasphemy module) as a comparable inversion-of-duty pattern."
+        },
+        {
+          "q": "What is the structural difference between S.347 (extortion of property, or coercion to an illegal act) and S.348 (extortion of confession, or compelled restoration of property)? Why does the Code separate these into two distinct sections rather than combining them?",
+          "reveal": "Although both sections punish confinement deployed for coercive purposes, S.347's purposes are oriented toward extracting new value or compelling new illegal conduct from the victim (handing over property never previously claimed, or doing something illegal), while S.348's purposes are oriented toward extracting confessions, investigative information, or restoring property/satisfying an existing claim — conduct more closely associated with coercive interrogation or debt-and-claim enforcement through unlawful means. The distinction allows the Code to address the custodial-interrogation-adjacent conduct of S.348 as its own analytically distinct category from the more general extortion/coercion conduct addressed in S.347, even though both carry identical punishment ceilings (three years, mandatory fine liability).",
+          "cite": "S.347 vs S.348 PPC — distinct purposive categories (new extraction/coercion vs confession/restoration) despite identical punishment ceilings."
+        },
+        {
+          "q": "A confines a debtor specifically to compel repayment of a genuine, legally valid debt that the debtor has simply refused to pay. Does S.348 apply even though the underlying claim (the debt) is entirely legitimate?",
+          "reveal": "Yes. S.348's text covers confinement for the purpose of constraining the confined person to 'satisfy any claim or demand' without qualifying that the underlying claim must itself be illegitimate or fraudulent. Even a genuine, legally enforceable debt does not entitle a creditor to use wrongful confinement as a self-help enforcement mechanism; the legitimacy of the underlying claim does not provide a defence to the wrongful confinement charge, since the law channels enforcement of legitimate claims through lawful civil process, not private confinement.",
+          "cite": "S.348 PPC — 'satisfy any claim or demand,' applying regardless of whether the underlying claim is itself legitimate."
+        }
+      ]
+    },
+    {
+      "id": "S348A",
+      "name": "False Imprisonment by an Influential Person",
+      "sub": "S.348A PPC — offence definition (2023 Amendment)",
+      "step": "Amendment (2023)",
+      "atom": "S348A",
+      "desc": "Whoever, being an influential person, operates a private jail within the state for the purpose of keeping peasants, labourers, workers, immigrants, IDPs, poor people, local persons, poor victims as hostage, or parties to Jirga disputes, or any other person for any purpose, is said to commit 'false imprisonment' of that person. (S.348A inserted by Criminal Laws (Amendment) Act, 2023.)",
+      "legal": "S.348A creates the offence and identifies the two necessary elements: (1) actor must be an 'influential person' (S.52D) and (2) must 'operate a private jail' (S.52C) for a specified purpose. S.348A has no independent Schedule II entry; the procedural flags attach to S.348B (setting up) and S.348C (imprisoning). A single accused who both establishes and uses a private jail may be charged under both S.348B and S.348C simultaneously.",
+      "cite": "Criminal Laws (Amendment) Act, 2023 (S.348A inserted after S.348, PPC 1860) — Senate of Pakistan",
+      "ll": "S.348A PPC — official text",
+      "section": "348A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "S.348A requires the actor to 'operate' a private jail. Does 'operate' require active day-to-day management, or does it cover a person who merely establishes the facility and directs proxies to staff it?",
+          "reveal": "'Operate' is undefined in the amendment. Given the legislative purpose — targeting powerful individuals who use proxies to avoid direct exposure — courts applying purposive construction would likely interpret 'operate' to include directing others to run the facility. A narrow reading limited to on-site management would defeat the provision entirely, since influential persons rarely manage their private jails personally.",
+          "cite": "S.348A PPC (inserted 2023); purposive construction principle"
+        }
+      ]
+    },
+    {
+      "id": "S348B",
+      "name": "Punishment for Setting Up a Private Jail",
+      "sub": "S.348B PPC — up to 3 years + Rs.1 million fine",
+      "step": "Amendment (2023)",
+      "atom": "S348B",
+      "desc": "Whoever, being an influential person, sets up a private jail in order to imprison any person in a false manner shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to one million rupees. Cognizable, summons, bailable, compoundable.",
+      "legal": "S.348B targets the infrastructure offence — establishing the facility. It is distinct from S.348C which targets the actual act of confinement. The lower maximum (3 years vs S.348C's 5 years) reflects that establishing the facility is considered less serious than using it to imprison. Both S.348B and S.348C are cognizable, bailable, and compoundable — procedural flags identical to the original S.348. The compoundability is potentially problematic: an influential person accused has economic leverage over the victim's family when compounding is available.",
+      "cite": "Criminal Laws (Amendment) Act, 2023 (S.348B inserted after S.348A, PPC 1860) — Senate of Pakistan; CrPC Schedule II (as amended)",
+      "ll": "S.348B PPC — official text",
+      "section": "348B",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "S.348B is both bailable and compoundable. Given that the amendment targets feudal influentials with power over their victims, does compoundability structurally undermine the provision?",
+          "reveal": "Yes — and this is the S.311 Fasad-fil-Arz problem in miniature. An influential person who is also the economic patron of the victim's family has enormous leverage over the compounding decision. Compoundability means the accused can settle with the victim and the criminal case ends. The amendment's stated purpose — protecting economically vulnerable persons from such influentials — is in direct tension with giving those same influentials the right to compound the offence.",
+          "cite": "S.348B PPC (inserted 2023); compare S.311 PPC on state override after waiver; CrPC Schedule II"
+        }
+      ]
+    },
+    {
+      "id": "S348C",
+      "name": "Punishment for False Imprisonment in a Private Jail",
+      "sub": "S.348C PPC — up to 5 years + Rs.2 million fine",
+      "step": "Amendment (2023)",
+      "atom": "S348C",
+      "desc": "Whoever, being an influential person, imprisons any person in a false manner inside a private jail shall be punished with imprisonment of either description for a term which may extend to five years and shall also be liable to fine which may extend to two million rupees. Cognizable, summons, bailable, compoundable.",
+      "legal": "S.348C targets the act of confinement itself, carrying a higher maximum (5 years, Rs.2M) than S.348B's infrastructure offence (3 years, Rs.1M). Together S.348A–C create a tripartite structure: S.348A defines the offence, S.348B punishes establishing the facility, S.348C punishes using it. A single accused who both sets up and operates a private jail could face charges under both S.348B and S.348C simultaneously — no merger clause exists. A sentencing court would likely impose concurrent sentences under the totality principle, but charging both gives the prosecution flexibility if evidence on one count is weaker.",
+      "cite": "Criminal Laws (Amendment) Act, 2023 (S.348C inserted after S.348B, PPC 1860) — Senate of Pakistan; CrPC Schedule II (as amended)",
+      "ll": "S.348C PPC — official text",
+      "section": "348C",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An influential person sets up a private jail and personally imprisons three labourers to resolve a debt dispute. Can they be charged under both S.348B and S.348C, or does S.348C absorb S.348B?",
+          "reveal": "No merger: the two offences have distinct actus reus elements — 'sets up' versus 'imprisons.' A court can convict under both where evidence supports each independently. The prosecution should charge both to prevent acquittal on one count defeating the entire case. On sentencing, concurrent sentences under the totality principle are the likely outcome, but the two convictions remain separately recorded.",
+          "cite": "S.348B, S.348C PPC (inserted 2023); totality principle in sentencing"
+        }
+      ]
+    }
+  ]
+}

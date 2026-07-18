@@ -1,0 +1,291 @@
+{
+  "id": "robbery",
+  "name": "Robbery",
+  "section": "S.390–402C PPC",
+  "formula": "( Theft ∨ Extortion ) ∧ F  →  Robbery (S.390)",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "T∨E",
+      "name": "Theft or Extortion",
+      "sub": "S.378 or S.383 PPC — either path suffices",
+      "step": "Element 1 of 3",
+      "atom": "T",
+      "desc": "Robbery requires either Theft (S.378) or Extortion (S.383) as its base offence. This is the disjunctive first level — the prosecution chooses which limb to run. Either path, if fully proven, satisfies this element.",
+      "legal": "The Theft limb requires all five S.378 elements. The Extortion limb (S.383) requires wrongful inducement to deliver property through fear of injury. Only one limb needs to be proven. If the defence defeats the Theft limb through consent, the Extortion limb may still survive.\n\nTheft Limb — S.378 PPC: Robbery is based on Theft. All five elements of S.378 must be established: Dishonest Intention (D), Movable Property (M), Out of Possession (P), Without Consent (¬C), Movement (V). The theft must have occurred or been attempted in order to which force or fear was applied. Punishment: Requires full S.378 analysis. Force/fear applied before, during, or immediately after the theft. Affects downstream analysis — if consent defence defeats Theft, Extortion limb may still be available.\n\nExtortion Limb — S.383 PPC: Robbery is based on Extortion. The accused put the complainant in fear of injury and thereby dishonestly induced delivery of property. The accused must have been present and the fear must have been of instant death, hurt, or wrongful restraint. Punishment: Key distinction from Theft limb — the victim delivers the property rather than it being taken. Presence of accused at scene required for Extortion to elevate to Robbery under S.390.",
+      "cite": "1998 SCMR 837 (State v. Raja Khurram) — fear alone sufficient for extortion even without injury caused.",
+      "ll": "S.378 and S.383 PPC — official text",
+      "section": "378",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "1998 SCMR 837 confirmed fear alone is sufficient for the extortion limb even without actual injury. The Punjab Prosecutor General digest confirms force or fear must be contemporaneous with the taking.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "The defence successfully argues the victim consented to the taking. Does this defeat Robbery entirely?",
+          "reveal": "Not necessarily. If the Theft limb fails through consent, the Extortion limb may still be available if wrongful inducement through fear is established. The disjunction gives the prosecution an alternative that must be actively closed.",
+          "cite": "S.390 PPC — disjunctive structure"
+        },
+        {
+          "q": "What distinguishes Extortion (S.383) from Theft (S.378) as a basis for Robbery?",
+          "reveal": "Theft requires taking without consent. Extortion requires inducing delivery through fear. In Extortion the victim hands over the property — the consent is coerced. In Theft the property is taken without any consent.",
+          "cite": "S.383 vs S.378 PPC — structural distinction"
+        },
+        {
+          "q": "Five persons commit what appears to be Robbery. Does it matter which limb — Theft or Extortion — is charged?",
+          "reveal": "Yes — for the elements to be proven. But under S.395 if five or more persons conjointly commit Robbery by either limb, each is guilty of Dacoity. The disjunction extends upward to S.395.",
+          "cite": "S.395 PPC — Dacoity as quantifier extension of Robbery"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Force or Fear",
+      "sub": "S.390 PPC — contemporaneous with the taking",
+      "step": "Element 2 of 3",
+      "atom": "F",
+      "desc": "The accused must voluntarily cause death, hurt, wrongful restraint, or fear of any of these. This force or fear must be contemporaneous — present before, during, or immediately after the taking.",
+      "legal": "Force or fear elevates Theft or Extortion to Robbery. The force need not be severe — any voluntary causing of hurt, restraint, or fear thereof suffices. Timing is critical: force applied long after the taking does not convert Theft into Robbery.",
+      "cite": "S.390 PPC — force or fear must be contemporaneous. Punjab PG digest confirms the timing requirement.",
+      "ll": "S.390 PPC — official text",
+      "section": "390",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A thief takes a bag. The victim chases him. The thief then pushes the victim away to escape. Is this Robbery?",
+          "reveal": "Yes under S.390. Force applied immediately after taking — in order to retain property or effect escape — is within the scope of S.390. The force is contemporaneous in the legal sense.",
+          "cite": "S.390 PPC — force immediately after taking suffices"
+        },
+        {
+          "q": "The accused threatened the victim the day before and demanded money. The next day the victim hands it over out of fear. Is this Robbery?",
+          "reveal": "This is likely Extortion (S.383) rather than Robbery. The force or fear was not contemporaneous with the delivery — it occurred the previous day. Robbery requires the force or fear to be present at or around the time of taking.",
+          "cite": "S.390 — contemporaneity is the distinguishing requirement"
+        },
+        {
+          "q": "The accused shows an unloaded gun which the victim believes is loaded. Fear is induced. Is force or fear established?",
+          "reveal": "Yes. Fear of injury is sufficient — it need not result from actual capability to cause injury. The test is subjective from the victim's perspective. If the victim genuinely feared injury, the element is satisfied.",
+          "cite": "1998 SCMR 837 — fear alone sufficient, actual injury not required"
+        }
+      ]
+    },
+    {
+      "id": "¬Ex",
+      "name": "No General Exception",
+      "sub": "S.76–106 PPC — negation layer",
+      "step": "Element 3 of 3",
+      "atom": "¬Ex",
+      "desc": "The negation layer applies across all offences. Any proven General Exception — private defence, necessity, mistake of fact, unsound mind — defeats the offence entirely regardless of the other elements.",
+      "legal": "Private defence is most commonly raised in Robbery. Under S.97 and S.103 the right of private defence of property extends to causing death in six specified circumstances. The right commences on reasonable apprehension and ends when the threat ends.",
+      "cite": "S.96-106 PPC — General Exceptions as universal negation layer. S.105: right continues as long as house-trespass continues.",
+      "ll": "S.96–106 PPC — General Exceptions, official text",
+      "section": "76",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The accused used force to retrieve their own property being taken by a thief. Can they raise private defence to defeat Robbery?",
+          "reveal": "Potentially yes. S.97 grants a right of private defence of property. S.103 permits causing death in defence of property in specified circumstances. The force must be proportionate and not exceed S.99 limitations.",
+          "cite": "S.97, S.99, S.103 PPC — private defence of property"
+        },
+        {
+          "q": "The accused claims they participated in Robbery under duress. Which exception applies?",
+          "reveal": "Potentially S.94 (act done under compulsion). However S.94 does not apply to offences punishable with death. For Robbery (S.392 up to 10 years) S.94 may be available if the threat was of instant death.",
+          "cite": "S.94 PPC — act done under compulsion"
+        },
+        {
+          "q": "If the General Exception is proven True, trace the logical consequence through the Robbery formula.",
+          "reveal": "If Exception is True then ¬Exception is False. Liability = (T∨E) ∧ F ∧ ¬Ex returns False. Both (T∨E) and F may be fully established but the proven exception negates the entire result.",
+          "cite": "S.76-106 PPC — universal negation layer"
+        }
+      ]
+    },
+    {
+      "id": "S391",
+      "name": "Dacoity — Robbery by Five or More",
+      "sub": "S.391 PPC — the numerical threshold escalating Robbery to Dacoity",
+      "step": "Element 4 of 11",
+      "atom": "S391",
+      "desc": "When five or more persons conjointly commit or attempt to commit a robbery — or where the total of those committing/attempting the robbery plus those present and aiding amount to five or more — every person so committing, attempting, or aiding commits Dacoity.",
+      "legal": "Dacoity's threshold is purely numerical: five or more participants, counting not only direct committers but also those merely present and aiding. This means a robbery committed by three persons, with two additional accomplices stationed nearby purely to assist if needed (without directly participating in the robbery itself), reaches the five-person threshold and elevates the offence for ALL FIVE participants to Dacoity — including the two who merely aided from a supporting position. This is conceptually adjacent to, but numerically more precise than, Common Intention's S.34 framework (already built), since Dacoity's threshold is a hard headcount rather than a qualitative common-intention/furtherance test.",
+      "cite": "S.391 PPC — official text. Cross-reference Common Intention S.34 — Dacoity's hard numerical threshold contrasted with S.34's qualitative furtherance-of-common-intention test.",
+      "ll": "S.391 PPC — official text",
+      "section": "391",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Three persons directly commit a robbery. Two additional accomplices stand nearby, present specifically to assist if the robbery encounters resistance, but they never have to act since the robbery proceeds without incident. Apply S.391. Does this scenario constitute Dacoity, and for how many of the five participants?",
+          "reveal": "Yes — S.391 expressly counts both those committing/attempting the robbery AND those present and aiding toward the five-person threshold. With three direct committers and two aiding accomplices, the total reaches five, elevating the offence to Dacoity for all five participants, including the two who merely stood by in a supporting role and never had to actively intervene.",
+          "cite": "S.391 PPC — counts both direct committers and aiding-and-present accomplices toward the five-person Dacoity threshold."
+        },
+        {
+          "q": "Four persons commit a robbery together, with no additional accomplices present at all. Does this constitute Dacoity?",
+          "reveal": "No. S.391's threshold is specifically five or more — four participants, however coordinated, do not reach the numerical threshold required to elevate the offence from Robbery to Dacoity. This would remain a Robbery (under S.390's already-built definition, with whatever specific limb — theft-based or extortion-based — applies on the facts), punished under S.392, not the more severe Dacoity provisions in S.395 onward.",
+          "cite": "S.391 PPC — strict five-person minimum; four participants remain Robbery, not Dacoity."
+        }
+      ]
+    },
+    {
+      "id": "S392",
+      "name": "Punishment for Robbery",
+      "sub": "S.392 PPC — with a highway-specific enhancement",
+      "step": "Element 5 of 11",
+      "atom": "S392",
+      "desc": "Whoever commits robbery is punished with rigorous imprisonment of 3–10 years plus fine; if the robbery is committed on the highway, the imprisonment may extend to 14 years.",
+      "legal": "S.392 sets the general Robbery punishment with a genuine mandatory minimum (not less than 3 years, per the 1980 amendment) and a location-based enhancement for highway robbery specifically, raising the ceiling from 10 to 14 years — reflecting the particular danger and historical prevalence of robbery committed against travellers on public roads, a concern with deep roots in both the original 1860 drafting and its continued relevance to modern highway crime in Pakistan.",
+      "cite": "S.392 PPC, mandatory minimum inserted by Ordinance 3 of 1980 — official text.",
+      "ll": "S.392 PPC — official text",
+      "section": "392",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A commits robbery against a victim travelling on a public highway. Apply S.392. What is the maximum imprisonment A could face, and how does this compare to robbery committed elsewhere?",
+          "reveal": "Up to 14 years, since S.392 specifically extends the otherwise-applicable 10-year ceiling to 14 years where the robbery is committed on the highway. Robbery committed in any other location remains capped at the general 3–10 year range. The highway-specific enhancement reflects a distinct, location-based aggravation similar in spirit to S.380's dwelling-house theft aggravation, but applied here to the more serious Robbery offence.",
+          "cite": "S.392 PPC — highway-specific enhancement extending the ceiling from 10 to 14 years."
+        },
+        {
+          "q": "Does S.392 leave the court discretion to impose less than 3 years' imprisonment for an otherwise minor robbery, given mitigating circumstances?",
+          "reveal": "No — the 1980 amendment inserted a genuine mandatory minimum ('shall not be less than three years'), removing judicial discretion to sentence below that floor for any robbery, regardless of how comparatively minor the specific circumstances might be. This is an earlier (1980) example of the same mandatory-minimum pattern that recurs throughout the more recent 2005/2016-era provisions already traced in the Theories of Punishment Evolutionary Arc — confirming that mandatory minimums in the PPC have a longer history than the 2005-onward cluster alone, predating even the 1990 Qisas/Diyat framework that the Evolutionary Arc's Era 2/3 analysis centres on.",
+          "cite": "S.392 PPC's 1980 mandatory minimum — an earlier example of the mandatory-minimum pattern, predating the 1990 Qisas/Diyat framework and the 2005-onward cluster discussed in the Theories of Punishment Evolutionary Arc."
+        }
+      ]
+    },
+    {
+      "id": "S393_394",
+      "name": "Attempt to Commit Robbery; Voluntarily Causing Hurt in Committing Robbery",
+      "sub": "S.393/394 PPC — the inchoate and the hurt-aggravated variants",
+      "step": "Element 6 of 11",
+      "atom": "S393_394",
+      "desc": "S.393 punishes attempted robbery with up to 7 years' rigorous imprisonment plus fine. S.394 punishes any person who, in committing or attempting to commit robbery, voluntarily causes hurt — along with any other person jointly concerned in that robbery or attempt — with life imprisonment or rigorous imprisonment of 4–10 years plus fine, applying this enhanced punishment to ALL joint participants, not merely the one who actually caused the hurt.",
+      "legal": "S.394's joint-liability feature is structurally significant: where any ONE participant in a jointly-committed robbery voluntarily causes hurt, EVERY person jointly concerned in that robbery faces the enhanced punishment — this operates similarly to the Common Intention framework (S.34, already built) in attributing one participant's act to the whole group, but does so through S.394's own specific statutory mechanism rather than requiring a separate S.34 common-intention analysis. A participant who took no part in causing the hurt, and perhaps did not even know hurt would be caused, nonetheless faces the same enhanced exposure as the person who actually caused it, simply by virtue of joint participation in the robbery itself.",
+      "cite": "S.393 and S.394 PPC — official text. Cross-reference Common Intention S.34 — S.394's joint-liability mechanism achieves a similar group-attribution effect through its own specific statutory language, without requiring independent S.34 analysis.",
+      "ll": "S.393, S.394 PPC — official text",
+      "section": "393",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A and B jointly commit a robbery. During the robbery, A voluntarily causes hurt to the victim; B takes no part in this and was unaware A would do so. Apply S.394. Does B face the same enhanced punishment as A, despite B's lack of involvement in or knowledge of the hurt?",
+          "reveal": "Yes. S.394's text explicitly extends the enhanced punishment to 'such person, and any other person jointly concerned in committing or attempting to commit such robbery' — the enhancement attaches to joint participation in the robbery itself, not to individual knowledge or involvement in the specific act of causing hurt. B faces the same life imprisonment or 4–10 year exposure as A, simply by virtue of having jointly committed the robbery during which A caused the hurt.",
+          "cite": "S.394 PPC — joint-liability mechanism extending enhanced punishment to all participants in the robbery, regardless of individual knowledge or involvement in the specific hurt-causing act."
+        },
+        {
+          "q": "How does S.394's joint-liability mechanism differ from relying on Common Intention (S.34, already built) to achieve the same result — holding all participants liable for one participant's act of causing hurt during a robbery?",
+          "reveal": "S.34 would require the prosecution to establish a pre-arranged plan or shared common intention extending to the causing of hurt specifically (per Mahbub Shah's foundational requirement, already logged as a landmark case), and that the hurt was caused in furtherance of that shared intention. S.394, by contrast, operates as its own self-contained statutory mechanism: it requires only joint participation in the robbery itself, without needing to separately establish that the hurt-causing act was specifically part of a shared plan or common intention. S.394 is, in effect, a more easily satisfied route to the same group-liability outcome for this specific combination of offences (robbery plus hurt), not requiring the more demanding common-intention analysis S.34 would otherwise require.",
+          "cite": "S.394 PPC (self-contained joint-liability mechanism, requiring only joint robbery participation) vs S.34 PPC Common Intention module (requiring proof of shared pre-arranged intention extending to the specific act) — S.394 as an easier-to-satisfy alternative route to group liability for this specific offence combination."
+        }
+      ]
+    },
+    {
+      "id": "S395_396",
+      "name": "Punishment for Dacoity; Dacoity with Murder",
+      "sub": "S.395/396 PPC — base Dacoity punishment and the murder-during-dacoity enhancement",
+      "step": "Element 7 of 11",
+      "atom": "S395_396",
+      "desc": "S.395 punishes Dacoity with life imprisonment or rigorous imprisonment of 4–10 years plus fine. S.396 provides that if any one of five or more persons conjointly committing Dacoity commits murder in the course of that Dacoity, EVERY one of those persons is punished with death, life imprisonment, or rigorous imprisonment of 4–10 years plus fine.",
+      "legal": "S.396 is Dacoity's own internal version of the same joint-liability mechanism already seen in S.394 for robbery-plus-hurt, but escalated to its most severe form: where any single dacoit commits murder during the dacoity, EVERY participant faces exposure up to death itself, regardless of whether they personally killed anyone or even knew murder would occur. This is the most severe group-liability provision encountered across this entire app's property-offence modules, and directly explains the legal mechanism behind several of the gravest dacoity-related news stories and case law in Pakistan, where entire groups face capital exposure for one member's lethal act.",
+      "cite": "S.395 and S.396 PPC — official text. Cross-reference S.394 PPC (the comparable but less severe joint-liability mechanism for robbery-plus-hurt) — S.396 as the most severe version of this same statutory pattern.",
+      "ll": "S.395, S.396 PPC — official text",
+      "section": "395",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Six persons conjointly commit a dacoity. During the course of the dacoity, one of the six, acting alone and without any prior agreement with the others, kills a resisting occupant. Apply S.396. What is the exposure for the five who did not kill anyone and had no advance knowledge that killing would occur?",
+          "reveal": "All six face exposure to death, life imprisonment, or rigorous imprisonment of 4–10 years under S.396 — the section's text is unambiguous: 'every one of those persons shall be punished' where any ONE of five or more conjointly committing dacoity commits murder in so committing it. The five who did not kill and had no advance knowledge face the identical punishment range as the one who actually committed the murder, simply by virtue of their joint participation in the dacoity itself.",
+          "cite": "S.396 PPC — unqualified joint liability extending death-eligible exposure to every dacoity participant where any one of them commits murder during the dacoity."
+        },
+        {
+          "q": "Why might the legislature have made S.396's joint liability for murder-during-dacoity unqualified (no requirement of shared intention or foreseeability), when the broadly comparable S.394 (robbery-plus-hurt) similarly imposes joint liability without requiring individual knowledge?",
+          "reveal": "Both provisions reflect a legislative judgment that participants who knowingly join a robbery or dacoity — inherently violent, coercive group enterprises — accept the risk that violence beyond what they individually intend may occur during the venture, and that imposing joint liability creates a strong deterrent against participating in such ventures at all, since no participant can safely assume they will escape the consequences of a co-participant's escalation. S.396 extends this same underlying logic to its most severe conclusion (death-eligible exposure) precisely because dacoity, involving five or more armed or coordinated persons, is treated as carrying the highest inherent risk of escalation to lethal violence among the property offences in this Code.",
+          "cite": "S.396 PPC and S.394 PPC — shared underlying rationale of deterring participation in inherently violent group property offences through unqualified joint liability for escalation."
+        }
+      ]
+    },
+    {
+      "id": "S397_398",
+      "name": "Robbery/Dacoity with Deadly Weapon or Attempt to Cause Death/Grievous Hurt",
+      "sub": "S.397/398 PPC — mandatory minimums for weapon use or attempted severe harm",
+      "step": "Element 8 of 11",
+      "atom": "S397_398",
+      "desc": "S.397: if at the time of committing robbery or dacoity the offender uses a deadly weapon, causes grievous hurt, or attempts to cause death or grievous hurt, the imprisonment shall not be less than 7 years. S.398: the parallel mandatory minimum applies where the offender is merely armed with a deadly weapon at the time of ATTEMPTING robbery or dacoity, even if the robbery/dacoity itself is not completed.",
+      "legal": "Both sections impose mandatory minimums (not mere ceilings) triggered by specific aggravating facts — actual weapon use or grievous hurt for S.397 (applicable to completed robbery/dacoity), and mere possession of a deadly weapon during an attempt for S.398 (applicable even where the underlying robbery/dacoity attempt itself fails). Notably, S.398's threshold is lower than S.397's in one respect: S.398 requires only that the offender be ARMED with a deadly weapon during an attempt, not that the weapon actually be used or that any hurt actually be caused — mere possession during the attempt is sufficient to trigger the same 7-year mandatory floor.",
+      "cite": "S.397 and S.398 PPC — official text.",
+      "ll": "S.397, S.398 PPC — official text",
+      "section": "397",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A attempts to commit robbery while carrying a deadly weapon, but the attempt fails before A ever displays, threatens with, or uses the weapon in any way. Apply S.398. Does the mere possession of the weapon during the failed attempt trigger the mandatory minimum?",
+          "reveal": "Yes. S.398's text covers an offender who 'is armed with any deadly weapon' at the time of attempting robbery or dacoity — it does not require that the weapon actually be displayed, brandished, or used in any way. Mere possession of the deadly weapon during the attempt is sufficient to trigger the mandatory minimum of not less than 7 years, even though the attempt itself failed and the weapon played no active role in the failed attempt.",
+          "cite": "S.398 PPC — mere possession of a deadly weapon during an attempt sufficient to trigger the mandatory minimum, regardless of whether the weapon is actually used."
+        },
+        {
+          "q": "How does S.397's 'attempts to cause death or grievous hurt' limb relate to S.390's own Robbery definition, which already requires the offender to voluntarily cause or attempt to cause death, hurt, or wrongful restraint as part of establishing Robbery in the first place?",
+          "reveal": "S.390's force/fear element (already built in the Robbery module) requires only an attempt to cause death, HURT (any hurt, not necessarily grievous), or wrongful restraint, or fear of any of these, as the threshold for the underlying conduct to qualify as Robbery at all. S.397 then operates as a further aggravation ON TOP of an already-established Robbery or Dacoity, specifically triggered by attempting to cause DEATH OR GRIEVOUS HURT specifically (a higher severity threshold than S.390's general 'hurt'), or by actual weapon use or actual grievous hurt. A robbery satisfying S.390's lower 'any hurt' threshold would not automatically trigger S.397's mandatory minimum unless the attempted or actual harm specifically reached the grievous-hurt or death threshold, or a deadly weapon was used.",
+          "cite": "S.397 PPC's grievous-hurt/death threshold as a further aggravation beyond S.390 PPC's (Robbery module) lower general 'any hurt' threshold for establishing Robbery itself."
+        }
+      ]
+    },
+    {
+      "id": "S399_402",
+      "name": "Preparation for Dacoity; Belonging to a Gang; Assembling for Dacoity",
+      "sub": "S.399/400/401/402 PPC — inchoate and status-based dacoity/gang offences",
+      "step": "Element 9 of 11",
+      "atom": "S399_402",
+      "desc": "S.399 punishes making preparation to commit dacoity, up to 10 years plus fine. S.400 punishes belonging to a gang associated for habitually committing dacoity, with life imprisonment or up to 10 years plus fine. S.401 punishes belonging to a wandering or other gang associated for habitually committing theft or robbery (excluding gangs of thugs or dacoits, which fall under other provisions), up to 7 years plus fine. S.402 punishes being one of five or more persons assembled for the purpose of committing dacoity, up to 7 years plus fine.",
+      "legal": "These four sections form a graduated series of inchoate and status-based offences sitting before the actual commission of robbery or dacoity: S.399 criminalises mere preparation (without requiring the dacoity itself to be attempted); S.400/401 criminalise ongoing GANG MEMBERSHIP for habitual commission of these offences (a status offence, similar in structure to the historical S.326/327 Thug provision already built in the Qatl Core module, which also requires habitual association); and S.402 criminalises mere ASSEMBLY of five or more for the purpose of committing dacoity, even before any preparation or attempt occurs. This creates a a layered timeline of liability: assembly (S.402) → preparation (S.399) → attempt (S.393, or S.398 if armed) → completion (S.392/395) → aggravated completion (S.394/396/397) — allowing the law to intervene and punish dacoity-related conduct at multiple distinct stages before any actual robbery or dacoity is completed.",
+      "cite": "S.399, S.400, S.401, and S.402 PPC — official text. Cross-reference Qatl Core module S.326/327 (the historical Thug provision) — the same habitual-association status-offence structure recurring here for dacoity/theft gangs. Cross-reference Stages of Crime foundation module — this cluster's layered intervention points (assembly, preparation, attempt, completion) as a concrete illustration of the stages-of-crime framework applied specifically to organised property crime.",
+      "ll": "S.399, S.400, S.401, S.402 PPC — official text",
+      "section": "399",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Five persons gather specifically for the purpose of committing a dacoity later that night, but they are apprehended before making any specific preparations (no weapons gathered, no plan finalised) and before any attempt begins. Apply S.402. Are they liable, despite no preparation or attempt having yet occurred?",
+          "reveal": "Yes. S.402 punishes simply being one of five or more persons ASSEMBLED for the purpose of committing dacoity — this is satisfied by the assembly itself with the requisite purpose, independent of whether any actual preparation (S.399) or attempt (S.393/398) has yet occurred. This represents the earliest possible intervention point in the layered timeline this cluster establishes, allowing prosecution before the group has taken any concrete steps beyond simply gathering with dacoity as their purpose.",
+          "cite": "S.402 PPC — satisfied by assembly with dacoity-purpose alone, the earliest intervention point before preparation or attempt."
+        },
+        {
+          "q": "How does S.400/401's gang-membership offence differ from S.402's assembly offence? Could a person be liable under S.400 without ever having been part of any specific S.402 assembly?",
+          "reveal": "Yes — they address different conduct entirely. S.402 punishes a specific, discrete assembly of five or more for a specific dacoity purpose on a particular occasion. S.400/401 punish the ongoing STATUS of belonging to a gang associated for HABITUALLY committing these offences — a person could be a long-standing, known member of such a gang (satisfying S.400/401) without that specific membership being tied to proof of any particular S.402 assembly on a specific date; the gang-membership offence is about the offender's general associational status over time, not a specific gathering event. Conversely, a person could be part of a one-off S.402 assembly without being a habitual gang member at all, if this is an isolated, non-repeated gathering for a single planned dacoity.",
+          "cite": "S.400/401 PPC (ongoing habitual-association status, no specific assembly event required) vs S.402 PPC (specific discrete assembly event, no habitual pattern required) — genuinely distinct offences capturing different aspects of organised property crime."
+        },
+        {
+          "q": "Why does S.401 specifically exclude 'a gang of thugs or dacoits' from its own scope, when S.401 otherwise covers gangs habitually committing theft or robbery?",
+          "reveal": "This exclusion avoids overlapping, redundant liability: gangs of dacoits are already separately and more severely covered by S.400 (gang of dacoits specifically, up to life imprisonment), and gangs of thugs are covered by the historical S.326/327 Thug provision (already built in the Qatl Core module, life imprisonment). S.401, with its comparatively lower 7-year ceiling, is reserved for the residual category of gangs habitually committing theft or robbery that do NOT rise to the level of organised dacoity or the specific historical Thug categorisation — ensuring each gang-type offence is captured by its own appropriately calibrated provision rather than all converging on a single, undifferentiated gang-membership offence.",
+          "cite": "S.401 PPC's exclusion of thug/dacoit gangs — avoiding overlap with S.400 PPC (dacoit gangs) and S.326/327 PPC (Qatl Core module, Thug gangs), each carrying their own calibrated punishment."
+        }
+      ]
+    },
+    {
+      "id": "S402A_402C",
+      "name": "Hijacking, Its Punishment, and Harbouring a Hijacker",
+      "sub": "S.402A/402B/402C PPC — the 1981-inserted aviation-security provisions",
+      "step": "Element 10 of 11",
+      "atom": "S402A_402C",
+      "desc": "S.402A defines Hijacking as unlawfully, by use or show of force or by threats of any kind, seizing or exercising control of an aircraft. S.402B punishes committing, conspiring or attempting to commit, or abetting hijacking, with death or life imprisonment, plus forfeiture of property and fine. S.402C punishes knowingly harbouring a person known or believed about to commit, having committed, or having abetted hijacking, or knowingly permitting such persons to meet/assemble in premises under one's control, with life imprisonment plus fine.",
+      "legal": "Inserted by the Pakistan Penal Code (Second Amendment) Ordinance 1981, this cluster reflects the international aviation-security concerns of that era, integrated into the Robbery/Dacoity chapter despite addressing a conceptually distinct form of unlawful seizure (of an aircraft, not property from a person). S.402B's punishment structure notably covers FOUR distinct modes of culpability in a single sentence — commission, conspiracy, attempt, OR abetment — all carrying the identical severe punishment (death or life imprisonment plus forfeiture and fine), a more compressed drafting approach than the separate dedicated provisions this app has seen elsewhere for analogous distinctions (compare the separate S.107–120 Abetment framework, or the separate S.120-A Conspiracy framework, both already built as their own extensive modules). S.402C's harbouring provision extends liability to those who shelter or facilitate hijackers without directly participating in the hijacking itself, conceptually parallel to S.118–120's concealment-of-design provisions already built in the Abetment module, but specifically tailored to the hijacking context with its own dedicated, severe life-imprisonment ceiling.",
+      "cite": "S.402A, S.402B, and S.402C PPC, inserted by the Pakistan Penal Code (Second Amendment) Ordinance 1981 — official text. Cross-reference Abetment module S.107–120 and Criminal Conspiracy module S.120-A — S.402B compresses commission/conspiracy/attempt/abetment into a single provision, contrasted with the separately-built, more elaborate frameworks for these same general concepts elsewhere in the Code.",
+      "ll": "S.402A, S.402B, S.402C PPC — official text",
+      "section": "402",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A conspires with others to hijack an aircraft but is arrested before the plan is carried out, with no hijacking ever actually attempted. Apply S.402B. Does mere conspiracy, without any attempt or completion, expose A to the full death/life-imprisonment range?",
+          "reveal": "Yes. S.402B's text explicitly covers 'commits, or conspires or attempts to commit, or abets the commission of, hijacking' — all four modes (commission, conspiracy, attempt, abetment) carry the identical punishment range of death or life imprisonment plus forfeiture and fine. Unlike the more granular, separately-calibrated treatment given to conspiracy generally (S.120-A/120-B, with its own distinct punishment structure) or abetment generally (S.107–120, with its own graduated, purpose-dependent punishment ladder), S.402B treats all four modes of hijacking-related culpability as equally severe, with no reduced punishment for the inchoate forms (conspiracy, attempt) compared to actual completion.",
+          "cite": "S.402B PPC — identical severe punishment for commission, conspiracy, attempt, or abetment of hijacking, unlike the graduated treatment given to conspiracy (S.120-A/B) and abetment (S.107–120) generally elsewhere in the Code."
+        },
+        {
+          "q": "A knowingly allows several persons A has reason to believe are planning a hijacking to meet and plan in a room A owns and controls, without A personally participating in the hijacking plan itself. Apply S.402C. Is A liable, despite not being a hijacker, conspirator, or abettor under S.402B's own terms?",
+          "reveal": "Yes, under S.402C specifically — a distinct offence from S.402B. S.402C punishes knowingly permitting persons A has reason to believe are about to commit, have committed, or have abetted hijacking, to meet or assemble in premises under A's possession or control — this is a freestanding harbouring/facilitation offence carrying its own life-imprisonment-plus-fine punishment, independent of whether A's own conduct would separately satisfy S.402B's commission/conspiracy/attempt/abetment categories. Merely providing the physical space for known or suspected hijackers to meet, with the requisite knowledge or belief, is sufficient on its own.",
+          "cite": "S.402C PPC — freestanding harbouring/facilitation offence, distinct from and not requiring satisfaction of S.402B's commission/conspiracy/attempt/abetment categories."
+        },
+        {
+          "q": "Why might this cluster of hijacking-specific provisions (S.402A–402C) have been inserted into Chapter XVII (Offences Against Property) specifically, rather than into a chapter more obviously concerned with offences against the state, terrorism, or public safety?",
+          "reveal": "This is a fair structural observation worth flagging honestly: hijacking does involve unlawful seizure of control over a specific piece of property (the aircraft itself), which gives it a surface-level kinship to the Robbery/Dacoity cluster's theme of unlawful seizure by force or threat — the placement immediately after the Robbery and Dacoity provisions suggests the 1981 drafters saw hijacking as analytically closest to forcible/threatening seizure offences, even though the conduct's real-world stakes (aviation safety, potential mass casualties, international terrorism implications) arguably sit closer to offences against the state or public safety more broadly. The placement reflects a drafting choice from 1981 rather than a perfect conceptual fit, and the question of where hijacking 'really' belongs in the Code's structure is a reasonable one a student might raise, without a single definitively correct answer.",
+          "cite": "S.402A–402C PPC's placement within Chapter XVII (Offences Against Property) — a structural observation about the 1981 drafters' apparent reasoning, flagged as an interpretive observation rather than a definitively settled rationale."
+        }
+      ]
+    }
+  ]
+}
