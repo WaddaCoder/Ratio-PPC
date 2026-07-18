@@ -3,7 +3,6 @@
   "name": "Theories of Punishment",
   "section": "Foundational Doctrine",
   "formula": "Offence → Theory Selection → Proportionate Sentence",
-  "operator": "Eclectic Approach",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "Just Desert — punishment as proportional payback",
       "step": "Theory 1 of 6",
       "atom": "Ret",
-      "operator": "",
       "desc": "The oldest theory. Punishment is an end in itself — the offender deserves to suffer for the wrong done. Based on proportionality: the punishment must fit the crime. Satisfied victim's sense of justice. Strongly reflected in Qisas (retaliation in kind) under Chapter XVI PPC.",
       "legal": "Retributive theory underpins S.302(a) Qisas directly — death as punishment for death, retaliation in kind. The proportionality principle appears throughout the PPC in the graduated punishments across offences. Critics argue retribution does not prevent future crime or reform the offender. Defenders argue it is the only theory that respects the moral equality of victims — it says the victim's suffering matters in itself.",
       "cite": "Chapter XVI PPC (S.299–338) — Qisas as retributive punishment. S.302(a) death as qisas.",
       "ll": "S.302 PPC — Qisas punishment, official text",
-      "section": "302",
-      "landmark": [],
+      "section": null,
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Muhammad Rafiq v. The State (Supreme Court sentencing policy judgment) — 'there is no single theory that fits all cases. In grave and heinous offences, deterrent and retributive considerations must prevail. In suitable cases especially first offenders and juveniles, reformative theory should be preferred. Punishment should balance the interests of the offender, the victim, and society.'",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "Qisas requires 'retaliation in kind.' If someone blinds another, the punishment is blindness. How does a court implement this proportionality in practice?",
@@ -43,12 +48,11 @@
       "sub": "Preventive by fear — specific and general deterrence",
       "step": "Theory 2 of 6",
       "atom": "Det",
-      "operator": "",
       "desc": "Punishment prevents future crimes. Specific deterrence: deters this offender from reoffending. General deterrence: the example of punishment deters others in society. Supported by Cesare Beccaria and the Classical School. Heavily applied in heinous offences like terrorism and murder in Pakistani courts.",
       "legal": "Deterrence operates at two levels. Specific deterrence targets the individual convicted — the experience of punishment makes them unlikely to reoffend. General deterrence targets the public — publicly known punishments reduce crime rates by raising the perceived cost. Beccaria argued punishment must be certain, swift, and proportionate to be effective. Uncertainty of punishment (low conviction rates) undermines deterrence even if the punishment is severe.",
       "cite": "Cesare Beccaria 'On Crimes and Punishments' (1764) — Classical School of Criminology. Muhammad Rafiq v. State — deterrence in heinous offences.",
       "ll": "S.53 PPC — kinds of punishment, official text",
-      "section": "53",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -74,12 +78,11 @@
       "sub": "Incapacitation — removing the danger from society",
       "step": "Theory 3 of 6",
       "atom": "Prev",
-      "operator": "",
       "desc": "The aim is to prevent the offender from repeating the crime by physically disabling them. Methods: death sentence (permanent incapacitation), life imprisonment, long-term incarceration. Applied especially for habitual offenders and dangerous organised criminals.",
       "legal": "Preventive theory is the purest form of public safety reasoning: it does not care about the offender's desert (retribution) or their future choices (deterrence) — it simply removes them from the equation. The death penalty is the ultimate preventive measure. Life imprisonment serves the same function. The theory justifies pre-trial detention (preventive detention) and the preventive orders under CrPC S.107–109.",
       "cite": "S.53 PPC — death and life imprisonment as preventive punishments. CrPC S.107–109 — preventive detention orders.",
       "ll": "S.53 PPC — kinds of punishment, official text",
-      "section": "53",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -105,12 +108,11 @@
       "sub": "Rehabilitation — transforming the offender",
       "step": "Theory 4 of 6",
       "atom": "Ref",
-      "operator": "",
       "desc": "Punishment should reform and rehabilitate the offender so they become a productive member of society. Modern humanitarian approach supported by the Positive School of Criminology. Applied in Pakistan through probation, the Juvenile Justice System Act 2018, and discretionary sentencing for first offenders.",
       "legal": "Reformative theory requires individualised justice — the punishment is tailored to the offender's capacity for rehabilitation, not just the offence committed. This conflicts with mandatory minimum sentences and equal treatment principles. The Juvenile Justice System Act 2018 embodies reformative theory for under-18 offenders: no capital punishment, preference for probation and rehabilitation over imprisonment.",
       "cite": "Juvenile Justice System Act 2018 — reformative theory in practice. Probation of Offenders Ordinance. Muhammad Rafiq v. State — reformative theory for first offenders.",
       "ll": "S.53 PPC — kinds of punishment including probation, official text",
-      "section": "53",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -136,12 +138,11 @@
       "sub": "Diyat and compensation — repairing the harm",
       "step": "Theory 5 of 6",
       "atom": "Res",
-      "operator": "",
       "desc": "Focuses on repairing the harm caused to the victim and restoring relationships. Victim-offender mediation, compensation (Diyat), and community service. Strongly supported in Pakistan through Diyat under Chapter XVI PPC and compromise in compoundable offences. A distinctly modern theory with deep Islamic roots.",
       "legal": "Restorative theory is operationalised in Pakistan through two main mechanisms: (1) Diyat — blood money compensation in homicide cases allowing heirs to settle with the offender; (2) Compounding of offences under CrPC S.345 — a list of offences that can be settled between parties. The 2016 amendments limited compounding for honour killings (S.311) precisely because restorative settlement was being abused.",
       "cite": "Chapter XVI PPC — Diyat as restorative mechanism. CrPC S.345 — compoundable offences. S.311 PPC — limits on compounding for karo kari.",
       "ll": "S.309–310 PPC Diyat provisions — official text",
-      "section": "309",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -167,12 +168,11 @@
       "sub": "How the dominant theory actually shifted over 165 years, traced through provisions already built in this app",
       "step": "Theory 6 of 6 — Historical Synthesis",
       "atom": "Evo",
-      "operator": "",
       "desc": "The five theories above (Retributive, Deterrent, Preventive, Reformative, Restorative) are not static, equally-weighted options Pakistani courts pick from at random — which theory actually dominates has shifted across three identifiable historical eras, each leaving a visible trail of specific provisions already built elsewhere in this app. Era 1 (1860–1990): colonial deterrence. Era 2 (1990–2005): Islamic retributive-restorative reintroduction. Era 3 (2005–present): state re-intervention against restorative-mechanism abuse.",
       "legal": "ERA 1 — COLONIAL DETERRENCE (1860 original PPC): the original Macaulay-drafted Code was built almost entirely on Deterrent and Retributive logic borrowed from English criminal law — fixed prison terms, transportation (later abolished, S.58/59 omitted 1972, Punishments module), forfeiture of property (S.61/62, repealed 1921), and the explicitly discriminatory S.56 racial sentencing differential (repealed 1949, now the seed of this app's Repeal & Omission Reform Arc). There was no Qisas/Diyat framework at all in this era — punishment was uniformly state-imposed and state-controlled, with no victim-level forgiveness mechanism.\n\nERA 2 — ISLAMIC RETRIBUTIVE-RESTORATIVE REINTRODUCTION (1990 onward): the Qisas and Diyat Ordinance 1990, codified into S.53's tenfold punishment list (Punishments module) and elaborated across S.299–338H (Qatl Core and Hurt modules), fundamentally restructured Pakistani punishment philosophy. For the first time, the framework shifted meaningful punishment authority away from the state and toward the *victim or their heirs* (the wali) — S.309/310's waiver and compounding mechanisms, S.337N's equivalent for hurt, gave private parties the power to forgive even the gravest offences. This is retributive in structure (Qisas is precisely calibrated retaliation) but restorative in practical operation (Diyat/Arsh/Daman compensation, family reconciliation through Badal-i-Sulh) — a genuinely hybrid theory not captured by treating Retributive and Restorative as separate, unrelated boxes.\n\nERA 3 — STATE RE-INTERVENTION AGAINST RESTORATIVE-MECHANISM ABUSE (2005–present): within 15 years, the legislature recognised the Era 2 forgiveness mechanism was being weaponised — family-level waiver was letting honour killings, acid attacks, and forced marriages-as-compensation go effectively unpunished. A precise sequence of provisions, ALL already built in this app across different modules, responds to this: S.305 (2005, excluding the offender from wali status in honour cases, Qatl Core), S.310/S.310A (2005, barring a female as Badal-i-Sulh, Qatl Core), S.311 (2016, corrected this session, mandating life imprisonment overriding waiver in honour cases, Murder module), S.324 (2005, mandatory 5-year floor for honour-motivated attempted Qatl, Qatl Core), S.336B (2011, mandatory 14-year floor for acid attacks, Hurt Part 1), S.337M(2) (2005/2016, mandatory one-third-of-maximum floor for recidivist/honour-motivated hurt, Hurt Part 2), and S.338E's second proviso (2016, extending the fasad-fil-arz override chapter-wide to ALL Chapter XVI offences, Hurt Part 2). This is neither pure Deterrent nor pure Retributive in the classical sense — it is the state asserting a *floor* beneath which private forgiveness cannot push the outcome, a distinct fourth move in the philosophical sequence.",
       "cite": "Punishments module S.53 (1990 insertion), S.56/58/59/61/62 (colonial-era provisions, repealed/omitted at various points — see also the Repeal & Omission Reform Arc). Qatl Core module S.305, S.309/310/310A, S.324. Murder module S.311 (corrected this session). Hurt Part 1 S.336A/336B. Hurt Part 2 S.337M(2), S.338E. Murder module landmark cases (Qandeel Baloch, Mumtaz Qadri) and Hurt Part 1's Fakhra Younus cross-reference all sit on this same timeline as the human stories behind the Era 3 legislative responses.",
       "ll": "Cross-cutting synthesis — no single section; traces provisions already verified across Punishments, Qatl Core, Murder, and Hurt modules",
-      "section": "",
+      "section": null,
       "landmark": [],
       "sq": [
         {

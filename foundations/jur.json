@@ -3,7 +3,6 @@
   "name": "PPC Jurisdiction",
   "section": "S.1–5 PPC",
   "formula": "S.1 ∧ (S.2 ∨ S.3 ∨ S.4) ∧ ¬S.5  →  PPC Applies",
-  "operator": "Threshold Analysis",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "S.1 PPC — applies throughout Pakistan",
       "step": "Threshold 1 of 5",
       "atom": "S.1",
-      "operator": "",
       "desc": "S.1 gives the Code its short title — the Pakistan Penal Code — and declares it shall take effect throughout Pakistan. This came into force on 6th October 1860. It establishes the Code as the primary substantive criminal law applicable across all of Pakistan.",
       "legal": "S.1 is the foundation of all jurisdiction. The phrase 'throughout Pakistan' means the Code applies uniformly in all provinces and territories. There is no geographic carve-out within Pakistan. Any offence committed anywhere in Pakistan falls within the Code's territorial ambit.",
       "cite": "S.1 PPC — title and extent. Muhammad Aslam v. State PLD 2005 SC 71 confirmed S.1–5 collectively define PPC jurisdiction.",
       "ll": "S.1 PPC — official text",
       "section": "1",
-      "landmark": [],
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Muhammad Aslam v. The State PLD 2005 SC 71 — The leading authority on extra-territorial jurisdiction. Facts: A Pakistani citizen committed an offence outside Pakistan and was tried in Pakistan under the PPC. Issue: Whether the PPC applies to offences committed by Pakistani citizens beyond Pakistani territory. Held: The Supreme Court confirmed that under S.4 PPC, the Code has extra-territorial application over Pakistani citizens and persons in the service of Pakistan anywhere in the world. Sections 1–5 collectively define the scope and jurisdiction of the PPC and must be read together as a unified jurisdictional framework.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "A foreign diplomat commits a theft in Lahore. S.1 says the Code applies throughout Pakistan. Does diplomatic immunity negate PPC jurisdiction entirely?",
@@ -43,7 +48,6 @@
       "sub": "S.2 PPC — territorial jurisdiction, every person",
       "step": "Threshold 2 of 5",
       "atom": "S.2",
-      "operator": "",
       "desc": "S.2 establishes the territorial principle: every person guilty of an act contrary to the PPC within Pakistan shall be liable to punishment under this Code and not otherwise. The phrase 'and not otherwise' is critical — it means PPC offences can only be punished under the PPC, not under parallel systems.",
       "legal": "S.2 applies to every person regardless of nationality or religion — Pakistani citizens, foreign nationals, and stateless persons are all equally liable for offences committed within Pakistan. The phrase 'and not otherwise' prevents parallel prosecution under customary or tribal systems for PPC offences, which has been significant in the context of jirga decisions.",
       "cite": "S.2 PPC — territorial jurisdiction. Note: Cross-reference CrPC S.177 (place of trial) for procedural aspects of territorial jurisdiction.",
@@ -74,7 +78,6 @@
       "sub": "S.3 PPC — committed abroad, triable here",
       "step": "Threshold 3 of 5",
       "atom": "S.3",
-      "operator": "",
       "desc": "S.3 deals with offences committed outside Pakistan but which are by any Pakistani law triable within Pakistan. Such persons shall be dealt with under the PPC as if the act had been committed within Pakistan. This bridges the territorial and extra-territorial regimes.",
       "legal": "S.3 operates as a bridge: when another Pakistani law (e.g. the Extradition Act, a bilateral treaty, or special legislation) makes a foreign-committed offence triable in Pakistan, S.3 applies the PPC as the substantive law for punishment. The act is fictional deemed to have occurred in Pakistan. This is the 'protective principle' of jurisdiction — Pakistan protects its interests even for acts abroad.",
       "cite": "S.3 PPC — quasi-territorial jurisdiction. Cross-reference CrPC S.188 (offences committed outside Pakistan). Extradition Act 1972.",
@@ -105,7 +108,6 @@
       "sub": "S.4 PPC — Pakistani citizens, state servants, vessels",
       "step": "Threshold 4 of 5",
       "atom": "S.4",
-      "operator": "",
       "desc": "S.4 extends the Code to: (1) any citizen of Pakistan or person in the service of Pakistan anywhere in the world; (2) any person on a ship or aircraft registered in Pakistan wherever it may be. This is based on the active nationality principle and flag state jurisdiction.",
       "legal": "S.4 establishes that being Pakistani — by citizenship or state service — means you carry the PPC with you globally. The flag state jurisdiction for ships and aircraft is based on international law: a Pakistani-registered vessel is Pakistani territory for jurisdictional purposes. The landmark case Muhammad Aslam PLD 2005 SC 71 confirmed this applies to all offences, not just specific ones.",
       "cite": "S.4 PPC — extra-territorial jurisdiction. Muhammad Aslam v. State PLD 2005 SC 71 — leading authority. Active nationality + flag state principles.",
@@ -136,7 +138,6 @@
       "sub": "S.5 PPC — military and special laws preserved",
       "step": "Threshold 5 of 5",
       "atom": "¬S.5",
-      "operator": "",
       "desc": "S.5 is the negation provision — the PPC's own savings clause. Nothing in the PPC is intended to repeal, vary, suspend or affect: (1) Military laws: Army Act, Navy Ordinance, Air Force Act; (2) Special laws: Anti-Terrorism Act 1997, Control of Narcotic Substances Act 1997, Prevention of Electronic Crimes Act 2016. Where a special law applies, the PPC does not displace it. However the PPC and a special law may operate simultaneously on the same act.",
       "legal": "S.5 operates as the lex specialis carve-out. The major statutes it explicitly saves fall into two categories. Military laws: Army Act 1952, Pakistan Navy Ordinance 1961, Pakistan Air Force Act 1953 — these govern mutiny, desertion, and military discipline exclusively. Special and local laws: Anti-Terrorism Act 1997 (ATA), Control of Narcotic Substances Act 1997 (CNSA), Prevention of Electronic Crimes Act 2016 (PECA), Anti-Money Laundering Act 2010. Each of these has its own offence definitions, evidentiary standards, and punishment regimes. S.5 ensures the PPC does not repeal, vary, or interfere with any of them. Critically however, S.5 does not create exclusivity — a single act may simultaneously engage both the PPC and a special law, and courts regularly apply PPC offences alongside ATA charges in terrorism prosecutions.",
       "cite": "S.5 PPC — savings clause. Military laws: Army Act 1952, Navy Ordinance 1961, Air Force Act 1953. Special laws: Anti-Terrorism Act 1997, CNSA 1997, PECA 2016, Anti-Money Laundering Act 2010. Mr. Faisal Awais explicitly named ATA and CNSA as primary examples in class.",

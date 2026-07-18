@@ -3,7 +3,6 @@
   "name": "Stages of Crime",
   "section": "Foundational Doctrine",
   "formula": "Intention → Preparation → Attempt → Commission",
-  "operator": "Progressive Stages",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "Stage 1 — purely mental, not punishable",
       "step": "Stage 1 of 4",
       "atom": "St1",
-      "operator": "",
       "desc": "Formation of the idea or intention to commit a crime. This is purely a mental stage. The law does not punish a person merely for thinking or intending to commit a crime. Thoughts cannot be proved, and punishing thoughts would violate personal freedom.",
       "legal": "The non-punishability of mere intention reflects both a practical and a principled position. Practically: thoughts are unverifiable and unprovable. Principally: criminalising thought is incompatible with personal autonomy and the presumption of innocence. A person may form and abandon criminal intentions many times without any social harm occurring.",
       "cite": "Stage 1 — Intention not punishable. Foundational principle of PPC criminal jurisprudence. No PPC provision punishes mere intention alone.",
       "ll": "PPC criminal liability framework — official text",
-      "section": "",
-      "landmark": [],
+      "section": null,
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Abdul Majid v. The State 1973 SCMR 108 — Supreme Court held that for an act to constitute attempt it must show clear intention coupled with overt acts beyond preparation. Mere preparation does not amount to attempt. S.511 PPC applies only when the act crosses the line of preparation.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "If intention is not punishable, what prevents a person from announcing they intend to kill someone and then doing it? Is there no legal response at all?",
@@ -43,12 +48,11 @@
       "sub": "Stage 2 — generally not punishable, narrow exceptions",
       "step": "Stage 2 of 4",
       "atom": "St2",
-      "operator": "",
       "desc": "Making arrangements or collecting materials for committing the crime. Generally not punishable. Exceptions where preparation IS punishable: S.126 (preparation to wage war against Pakistan), S.399 (preparation to commit dacoity), S.233-235 (counterfeiting currency).",
       "legal": "The general non-punishability of preparation reflects the ambiguity problem — the same act of buying a weapon can be innocent or preparatory. Exceptions are created for specific offences of such gravity that even preparation poses a serious social threat justifying early intervention. The test for whether preparation has crossed into attempt is always: was the act unambiguously directed at the specific offence?",
       "cite": "S.126 PPC — preparation to wage war. S.399 PPC — preparation for dacoity. Abdul Majid v. State 1973 SCMR 108.",
       "ll": "S.399 PPC preparation for dacoity — official text",
-      "section": "399",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -74,7 +78,6 @@
       "sub": "Stage 3 — punishable under S.511 PPC and specific sections",
       "step": "Stage 3 of 4",
       "atom": "St3",
-      "operator": "",
       "desc": "Doing an act towards commission of the offence that goes beyond preparation. The offender has started executing their intention. Punishable: S.511 PPC is the general attempt provision — punishment up to half the maximum for the main offence. Specific sections: S.307 (attempt to murder), S.324 (attempt to commit Qatl-i-Amd by hurt).",
       "legal": "S.511 PPC: 'Whoever attempts to commit an offence punishable with imprisonment, and in such attempt does any act towards the commission of the offence, shall be punished with imprisonment for up to one-half of the longest term prescribed for the offence.' Three ingredients: (1) intention to commit a specific offence; (2) an overt act towards commission; (3) the act goes beyond preparation.",
       "cite": "S.511 PPC — general attempt provision. S.307 PPC attempt to commit murder. Abdul Majid v. State 1973 SCMR 108.",
@@ -105,12 +108,11 @@
       "sub": "Stage 4 — offence complete, full punishment",
       "step": "Stage 4 of 4",
       "atom": "St4",
-      "operator": "",
       "desc": "The offence is fully completed and the desired result is achieved. This is the completed crime. The full punishment prescribed for the offence applies. All elements of the offence — Actus Reus, Mens Rea, and any circumstantial elements — are established.",
       "legal": "At the completion stage, the analysis shifts entirely to the offence elements and the General Exceptions. No further stage question arises. The timing of completion varies by offence: Theft is complete at the moment of movement (S.378); Murder is complete at the moment death is caused by the qualifying act; Robbery requires both the theft/extortion and the force/fear to be present.",
       "cite": "S.302 PPC murder — completion at death caused. S.378 PPC theft — completion at movement. Stage 4 as the full offence with full punishment.",
       "ll": "S.378 and S.302 PPC — completion moment, official text",
-      "section": "378",
+      "section": null,
       "landmark": [],
       "sq": [
         {

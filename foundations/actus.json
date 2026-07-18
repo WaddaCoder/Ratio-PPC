@@ -3,7 +3,6 @@
   "name": "Actus Reus & Mens Rea",
   "section": "Foundational Doctrine",
   "formula": "Actus Reus ∧ Mens Rea ∧ Concurrence  →  Criminal Liability",
-  "operator": "Concurrence Doctrine",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "Guilty Act — physical element of crime",
       "step": "Concept 1 of 4",
       "atom": "AR",
-      "operator": "",
       "desc": "The external physical element of crime. It includes: (1) a positive act — doing something forbidden; (2) an omission — failing to do something where there is a legal duty; (3) a series of acts resulting in a prohibited consequence. The act must be voluntary and causally connected to the result.",
       "legal": "Actus Reus in the PPC is expressed through words like 'whoever does' or 'whoever causes.' Involuntary acts do not satisfy Actus Reus — a person who moves their hand in their sleep and injures someone has not committed an actus reus. Causation is required where result offences are charged: the act must be the proximate operating cause of the prohibited result.",
       "cite": "S.40 PPC — definition of Offence. Sections 6–52 PPC Chapter II — General Explanations defining Act, Omission, Voluntarily.",
       "ll": "S.40 and S.6–52 PPC — official text",
-      "section": "40",
-      "landmark": [],
+      "section": null,
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "State v. Asif Adil 1997 SCMR 209 — Supreme Court held intention and act must concur. Mens Rea is an essential ingredient of most PPC offences unless specifically excluded by law. Leading authority in Pakistani criminal jurisprudence on the necessity of both elements.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "A parent fails to feed their child and the child dies. There is no positive act of killing. Is there an Actus Reus?",
@@ -43,12 +48,11 @@
       "sub": "Guilty Mind — mental element of crime",
       "step": "Concept 2 of 4",
       "atom": "MR",
-      "operator": "",
       "desc": "The internal mental element of crime. The PPC expresses Mens Rea through specific words: 'intentionally', 'voluntarily', 'knowingly', 'dishonestly', 'fraudulently'. Different degrees of Mens Rea include intention, knowledge, dishonesty, fraudulence, and recklessness/negligence.",
       "legal": "Mens Rea is not uniform across all offences. S.300 requires intent to cause death or knowledge of dangerous act. S.378 requires dishonest intention. S.295-C requires deliberate derogatory remarks. Courts infer Mens Rea from the surrounding circumstances, conduct, and words used — it is rarely directly observable. The prosecution bears the burden of proving Mens Rea beyond reasonable doubt.",
       "cite": "State v. Asif Adil 1997 SCMR 209 — Mens Rea essential ingredient unless excluded. S.6–52 PPC — definitions of mental states.",
       "ll": "S.6–52 PPC — mental state definitions, official text",
-      "section": "6",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -74,12 +78,11 @@
       "sub": "Both elements must coincide in time",
       "step": "Concept 3 of 4",
       "atom": "Con",
-      "operator": "",
       "desc": "Actus Reus and Mens Rea must coincide in time. Intention formed after the act is committed does not constitute crime. An act committed without a guilty mind, even if later regretted, does not retroactively create criminal liability.",
       "legal": "Concurrence is the temporal element that locks AR and MR together. It prevents retroactive criminalisation — a person who accidentally takes someone else's umbrella and later decides to keep it has no criminal liability at the moment of taking (no MR). However if they then dishonestly keep it, liability may arise under criminal misappropriation (S.403) from the moment the dishonest decision is made, not from the initial taking.",
       "cite": "State v. Asif Adil 1997 SCMR 209 — 'intention and act must concur.' Concurrence doctrine as foundational principle.",
       "ll": "S.378 and S.403 PPC — concurrence in property offences",
-      "section": "378",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -105,12 +108,11 @@
       "sub": "Where Mens Rea is excluded by law",
       "step": "Concept 4 of 4",
       "atom": "SL",
-      "operator": "",
       "desc": "In strict liability offences, Mens Rea is not required — the act alone is sufficient for liability. These are rare in the PPC but common in regulatory laws. The PPC itself requires Mens Rea for most offences unless 'specifically excluded by law' (per State v. Asif Adil).",
       "legal": "The PPC's general rule is Mens Rea required. Strict liability is the exception. Where a PPC section imposes liability without requiring intention, knowledge, or dishonesty — this is deliberate legislative choice. Courts interpret strict liability narrowly. The General Exceptions in S.76–106 remain available even in strict liability offences, as they negate the offence at a higher level than the Mens Rea element.",
       "cite": "State v. Asif Adil 1997 SCMR 209 — Mens Rea essential 'unless specifically excluded by law.' S.76–106 PPC exceptions apply even to strict liability.",
       "ll": "S.76–106 PPC General Exceptions — official text",
-      "section": "76",
+      "section": null,
       "landmark": [],
       "sq": [
         {

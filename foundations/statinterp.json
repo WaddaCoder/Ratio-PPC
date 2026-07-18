@@ -3,7 +3,6 @@
   "name": "Statutory Interpretation",
   "section": "Legal Foundation",
   "formula": "Statute → Literal ∨ Golden ∨ Mischief ∨ Purposive  →  Meaning",
-  "operator": "Four Rules of Interpretation",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "Plain and ordinary meaning of the words",
       "step": "Rule 1 of 4",
       "atom": "LR",
-      "operator": "",
       "desc": "The court must give the words of a statute their plain and ordinary meaning, even if the result seems absurd. The legislature is assumed to have meant what it said. Courts should not add, alter, or subtract words. This is the primary rule of interpretation in common law.",
       "legal": "The Literal Rule is the starting point in Pakistani courts. When the words of the PPC are clear, they are applied as written without reference to legislative intention or history. This is why 'dishonestly' in S.24, 'movable property' in S.22, and 'movement' in S.378 are given their statutory definitions — not their common language meanings. The Literal Rule has been criticised for producing absurd results when drafting is imperfect.",
       "cite": "Whitely v. Chappell (1868) — classic Literal Rule absurdity case. Pakistani courts apply literal rule as primary approach per Maxwell on Interpretation.",
       "ll": "PPC statutory language — official text",
-      "section": "",
-      "landmark": [],
+      "section": null,
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Heydon's Case (1584) 3 Co Rep 7a — the foundational Mischief Rule case. For the PPC specifically: Maxwell on Interpretation of Statutes (12th ed.) is the leading secondary authority cited in Pakistani courts. Attorney General v. Prince Ernest Augustus of Hanover [1957] AC 436 — leading Golden Rule authority.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "S.378 defines theft as taking 'movable property.' A hacker steals digital files — data with enormous commercial value. Applying the Literal Rule, is this theft?",
@@ -43,12 +48,11 @@
       "sub": "Modify literal meaning to avoid absurdity",
       "step": "Rule 2 of 4",
       "atom": "GR",
-      "operator": "",
       "desc": "Where the Literal Rule produces an absurd, repugnant, or inconsistent result, the court may modify the ordinary meaning to avoid that result. The Golden Rule is a safety valve for the Literal Rule. It comes in two forms: the narrow application (choosing between multiple possible meanings) and the wide application (departing from a clear meaning to avoid absurdity).",
       "legal": "The Golden Rule asks: would the literal meaning produce a result so absurd that the legislature could not have intended it? If yes, the court seeks the next most natural meaning. In Pakistani courts this rule is often applied when a strict literal reading would defeat the purpose of the statute or produce an injustice. The Golden Rule does not allow courts to rewrite legislation — it allows them to choose between available meanings.",
       "cite": "Grey v. Pearson (1857) — foundational Golden Rule authority. Attorney General v. Prince Ernest (1957) AC 436. Applied in Pakistani superior courts.",
       "ll": "PPC interpretation in Pakistani courts",
-      "section": "",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -74,12 +78,11 @@
       "sub": "Heydon's Case 1584 — what mischief was the statute addressing?",
       "step": "Rule 3 of 4",
       "atom": "MR2",
-      "operator": "",
       "desc": "The court examines: (1) what was the common law before the Act; (2) what mischief or defect the common law did not provide for; (3) what remedy Parliament has resolved to cure; (4) the true reason for the remedy. The court then interprets the statute to suppress the mischief and advance the remedy.",
       "legal": "The Mischief Rule is the most purposive of the traditional rules. It was formulated in Heydon's Case (1584) by the Barons of the Court of Exchequer. In Pakistani courts the Mischief Rule is frequently applied to special legislation — PECA, ATA, CNSA — where the legislature enacted law to address a specific social problem. The rule requires identifying the evil the legislature was targeting and interpreting the Act to fully suppress that evil.",
       "cite": "Heydon's Case (1584) 3 Co Rep 7a — foundational Mischief Rule authority. Applied in Pakistani courts for remedial legislation.",
       "ll": "PPC and special laws — mischief rule application",
-      "section": "",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -105,12 +108,11 @@
       "sub": "Modern rule — what was Parliament trying to achieve?",
       "step": "Rule 4 of 4",
       "atom": "PUR",
-      "operator": "",
       "desc": "The most modern approach. The court looks at the overall purpose of the legislation — not just the specific mischief but the broad objective Parliament was pursuing — and interprets every provision to further that purpose. Particularly important in constitutional interpretation and human rights law. Increasingly applied by Pakistani superior courts.",
       "legal": "The Purposive Approach goes further than the Mischief Rule: it asks not just what evil was addressed but what positive goal was pursued. For the PPC: the overall purpose is to protect society by defining and punishing crimes while protecting individual liberty. Every ambiguous provision should be interpreted in a way that furthers this dual purpose. The Supreme Court of Pakistan has applied purposive interpretation extensively in constitutional cases and increasingly in criminal law.",
       "cite": "R v. Secretary of State [2001] — purposive approach in modern UK law. Applied by Pakistani Supreme Court in constitutional interpretation. Maxwell on Interpretation of Statutes.",
       "ll": "Constitution of Pakistan 1973 — purposive interpretation in superior courts",
-      "section": "",
+      "section": null,
       "landmark": [],
       "sq": [
         {
