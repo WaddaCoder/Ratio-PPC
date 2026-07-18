@@ -709,7 +709,7 @@
           "label": "Abetment ladder: S.116 (imprisonment offence not committed) → S.115 (death/life offence not committed) → S.118 (offence committed)",
           "sub": "The gravity of the abetted offence and whether it was committed are the two rungs",
           "module": "ABETMENT",
-          "elementId": "s115a"
+          "elementId": "S115"
         }
       ]
     },
@@ -988,13 +988,13 @@
           "label": "S.115(1) and S.115(2): same abetment structure — variable is whether harm actually resulted",
           "sub": "Two rows, one structure; the variable is the downstream consequence of the abetted act",
           "module": "ABETMENT",
-          "elementId": "s115a"
+          "elementId": "S115"
         },
         {
           "label": "S.116(1) and S.116(2): same non-commission structure — variable is whether abettor is a public servant",
           "sub": "The public servant iteration always carries a higher sentence; one variable, one rung up",
           "module": "ABETMENT",
-          "elementId": "s115b"
+          "elementId": "S115"
         },
         {
           "label": "S.337-A(i)–(vi): Shajjah wound classification — six iterations of the same structure",
