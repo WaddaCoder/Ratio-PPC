@@ -18,12 +18,34 @@
     ]
   },
   {
+    "id": "GE",
+    "name": "General Exceptions",
+    "icon": "🛡️",
+    "section": "S.76–106 PPC",
+    "type": "accordion",
+    "src": "foundations/ge.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
     "id": "GEXPL",
     "name": "General Explanations",
     "icon": "📖",
     "section": "S.6–52D PPC",
     "type": "accordion",
     "src": "foundations/gexpl.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "PUNISH",
+    "name": "Punishments",
+    "icon": "⚖️",
+    "section": "S.53–75 PPC",
+    "type": "accordion",
+    "src": "foundations/punish.json",
     "tag": "Active",
     "palette": "general",
     "chapter": "general"
@@ -40,12 +62,23 @@
     "chapter": "general"
   },
   {
-    "id": "GE",
-    "name": "General Exceptions",
-    "icon": "🛡️",
-    "section": "S.76–106 PPC",
-    "type": "accordion",
-    "src": "foundations/ge.json",
+    "id": "CO",
+    "name": "Common Object",
+    "icon": "⚖️",
+    "section": "S.149 PPC",
+    "type": "module",
+    "src": "modules/co.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "CC",
+    "name": "Criminal Conspiracy",
+    "icon": "🤝",
+    "section": "S.120A/B PPC",
+    "type": "module",
+    "src": "modules/cc.json",
     "tag": "Active",
     "palette": "general",
     "chapter": "general"
@@ -57,29 +90,7 @@
     "section": "S.107–120 PPC",
     "type": "branch",
     "src": "modules/abetment.json",
-    "tag": "Soon",
-    "palette": "general",
-    "chapter": "general"
-  },
-  {
-    "id": "CC",
-    "name": "Criminal Conspiracy",
-    "icon": "🤝",
-    "section": "S.120A/B PPC",
-    "type": "module",
-    "src": "modules/cc.json",
-    "tag": "Soon",
-    "palette": "general",
-    "chapter": "general"
-  },
-  {
-    "id": "CO",
-    "name": "Common Object",
-    "icon": "⚖️",
-    "section": "S.149 PPC",
-    "type": "module",
-    "src": "modules/co.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "general",
     "chapter": "general"
   },
@@ -90,7 +101,7 @@
     "section": "S.299–302 PPC",
     "type": "module",
     "src": "modules/murder.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -101,18 +112,7 @@
     "section": "S.301–331 PPC",
     "type": "branch",
     "src": "modules/qatlcore.json",
-    "tag": "Soon",
-    "palette": "person",
-    "chapter": "person"
-  },
-  {
-    "id": "HURTCORE",
-    "name": "Hurt Core",
-    "icon": "🩺",
-    "section": "S.323–337H PPC",
-    "type": "module",
-    "src": "modules/hurtcore.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -123,7 +123,18 @@
     "section": "S.324, 326–329 PPC",
     "type": "accordion",
     "src": "modules/qatladj.json",
-    "tag": "Soon",
+    "tag": "Active",
+    "palette": "person",
+    "chapter": "person"
+  },
+  {
+    "id": "HURTCORE",
+    "name": "Hurt Core",
+    "icon": "🩺",
+    "section": "S.323–337H PPC",
+    "type": "module",
+    "src": "modules/hurtcore.json",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -145,7 +156,7 @@
     "section": "S.338–338C PPC",
     "type": "module",
     "src": "modules/isqat.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -156,7 +167,7 @@
     "section": "S.339–348C PPC",
     "type": "module",
     "src": "modules/wrestraint.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -167,7 +178,7 @@
     "section": "S.349–358 PPC",
     "type": "module",
     "src": "modules/forceassault.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -178,7 +189,7 @@
     "section": "S.359–374 PPC",
     "type": "module",
     "src": "modules/kidnap.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -189,7 +200,7 @@
     "section": "S.375–376 PPC",
     "type": "module",
     "src": "modules/rape.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
   },
@@ -200,9 +211,20 @@
     "section": "S.377 PPC",
     "type": "module",
     "src": "modules/unnatural.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "person",
     "chapter": "person"
+  },
+  {
+    "id": "THEFT",
+    "name": "Theft",
+    "icon": "👛",
+    "section": "S.378–382 PPC",
+    "type": "module",
+    "src": "modules/theft.json",
+    "tag": "Active",
+    "palette": "property",
+    "chapter": "property"
   },
   {
     "id": "EXTORTION",
@@ -211,7 +233,7 @@
     "section": "S.383–389 PPC",
     "type": "module",
     "src": "modules/extortion.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -222,7 +244,7 @@
     "section": "S.390–402 PPC",
     "type": "module",
     "src": "modules/robbery.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -233,7 +255,7 @@
     "section": "S.403–409 PPC",
     "type": "module",
     "src": "modules/misapprop.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -244,7 +266,7 @@
     "section": "S.410–414 PPC",
     "type": "module",
     "src": "modules/receiving.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -255,7 +277,7 @@
     "section": "S.415–420 PPC",
     "type": "module",
     "src": "modules/cheating.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -266,7 +288,7 @@
     "section": "S.421–424 PPC",
     "type": "module",
     "src": "modules/frauddeeds.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -277,7 +299,7 @@
     "section": "S.425–440 PPC",
     "type": "module",
     "src": "modules/mischief.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -288,7 +310,7 @@
     "section": "S.441–462 PPC",
     "type": "module",
     "src": "modules/trespass.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "property",
     "chapter": "property"
   },
@@ -299,7 +321,7 @@
     "section": "S.463–477A PPC",
     "type": "module",
     "src": "modules/forgery.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "repfam",
     "chapter": "repfam"
   },
@@ -310,7 +332,7 @@
     "section": "S.478–489 PPC",
     "type": "module",
     "src": "modules/trademarks.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "repfam",
     "chapter": "repfam"
   },
@@ -321,7 +343,7 @@
     "section": "S.489A–F PPC",
     "type": "module",
     "src": "modules/currency.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "repfam",
     "chapter": "repfam"
   },
@@ -332,7 +354,7 @@
     "section": "S.493–498C PPC",
     "type": "module",
     "src": "modules/marriage.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "repfam",
     "chapter": "repfam"
   },
@@ -343,7 +365,7 @@
     "section": "S.499–502 PPC",
     "type": "module",
     "src": "modules/defamation.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "repfam",
     "chapter": "repfam"
   },
@@ -354,7 +376,7 @@
     "section": "S.503–510 PPC",
     "type": "module",
     "src": "modules/intimidation.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "repfam",
     "chapter": "repfam"
   },
@@ -365,7 +387,7 @@
     "section": "S.121–130 PPC",
     "type": "module",
     "src": "modules/stateoff.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "state",
     "chapter": "state"
   },
@@ -376,7 +398,7 @@
     "section": "S.131–140 PPC",
     "type": "module",
     "src": "modules/armyoff.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "state",
     "chapter": "state"
   },
@@ -387,7 +409,7 @@
     "section": "S.141–160 PPC",
     "type": "module",
     "src": "modules/tranquillity.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "state",
     "chapter": "state"
   },
@@ -398,20 +420,9 @@
     "section": "S.295–295C PPC",
     "type": "branch",
     "src": "modules/blasphemy.json",
-    "tag": "Soon",
+    "tag": "Active",
     "palette": "state",
     "chapter": "state"
-  },
-  {
-    "id": "RABBIT_HOLE",
-    "name": "Rabbit Hole Essays",
-    "icon": "🐇",
-    "section": "15 deep-dive jurisprudential essays",
-    "type": "essays",
-    "src": "essays.json",
-    "tag": "Essays",
-    "palette": "tool",
-    "chapter": "tools"
   },
   {
     "id": "CODE_HYPERLINKS",
@@ -432,6 +443,17 @@
     "type": "arcs",
     "src": "arcs.json",
     "tag": "Arc",
+    "palette": "tool",
+    "chapter": "tools"
+  },
+  {
+    "id": "RABBIT_HOLE",
+    "name": "Rabbit Hole Essays",
+    "icon": "🐇",
+    "section": "15 deep-dive jurisprudential essays",
+    "type": "essays",
+    "src": "essays.json",
+    "tag": "Essays",
     "palette": "tool",
     "chapter": "tools"
   },
