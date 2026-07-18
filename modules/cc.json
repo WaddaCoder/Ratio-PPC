@@ -1,0 +1,118 @@
+{
+  "id": "cc",
+  "name": "Criminal Conspiracy",
+  "section": "S.120-A / 120-B PPC",
+  "formula": "Agreement ∧ Illegal Object ∧ (≥ 2 Persons)  →  Criminal Conspiracy (S.120-A)",
+  "type": "sequential",
+  "els": [
+    {
+      "id": "Agr",
+      "name": "Agreement",
+      "sub": "S.120-A PPC — the agreement is the offence",
+      "step": "Element 1 of 3",
+      "atom": "Agr",
+      "desc": "Two or more persons must agree to do or cause to be done an illegal act or a legal act by illegal means. The agreement itself is the Actus Reus. No further step is required. This is the defining characteristic of conspiracy — liability attaches at the mental stage of agreement, not at the act stage.",
+      "legal": "The agreement need not be express, written, or formal. It may be implied from the conduct of the parties. Courts infer agreement from circumstantial evidence: meeting of minds shown by parallel conduct, communication, shared benefit, and coordinated action. The agreement must be a meeting of minds — two people independently deciding on the same course of action, without knowledge of each other, does not constitute conspiracy.",
+      "cite": "S.120-A PPC — agreement as the offence. PLD 1968 SC 89 — agreement is the gist of conspiracy.",
+      "ll": "S.120-A PPC — official text",
+      "section": "120-A",
+      "landmark": [
+        {
+          "case": "State v. Dosso",
+          "citation": "PLD 1968 SC 89",
+          "holding": "Agreement is the gist of conspiracy; no overt act required.",
+          "verified": true
+        },
+        {
+          "case": "",
+          "citation": "1992 SCMR 2047",
+          "holding": "Conspiracy may be inferred from surrounding circumstances and conduct of accused; direct proof of agreement rarely available.",
+          "verified": true
+        },
+        {
+          "case": "Mirza Shaukat Baig v. Shahid Jamil",
+          "citation": "PLD 2005 SC 530",
+          "holding": "Leading authority on proof of conspiracy by circumstantial evidence.",
+          "verified": true
+        }
+      ],
+      "sq": [
+        {
+          "q": "Two drug dealers independently decide to sell drugs at the same market without knowing each other. Has a conspiracy been formed?",
+          "reveal": "No. Conspiracy requires a meeting of minds — a shared agreement between the parties. Independent parallel decisions, even if identical in effect, do not constitute conspiracy. The prosecution must establish that the accused knew of each other and agreed to the common criminal purpose. Coincidence of criminal activity is not conspiracy.",
+          "cite": "S.120-A PPC — meeting of minds essential. PLD 1968 SC 89"
+        },
+        {
+          "q": "The prosecution cannot produce any direct evidence of the agreement — no recorded conversation, no written plan, no witnesses to a meeting. Can conspiracy still be proved?",
+          "reveal": "Yes. The Supreme Court in Mirza Shaukat Baig v. Shahid Jamil PLD 2005 SC 530 confirmed conspiracy may be proved entirely by circumstantial evidence. The nature of conspiracy — secret agreement between criminals — makes direct evidence rare. Courts look at: prior relationship, communication, coordinated actions, shared benefit, simultaneous movements, and conduct before and after the offence. The totality of circumstances must establish the agreement beyond reasonable doubt.",
+          "cite": "Mirza Shaukat Baig v. Shahid Jamil PLD 2005 SC 530 — circumstantial proof of conspiracy"
+        },
+        {
+          "q": "How does S.120-A's agreement requirement connect to the Stages of Crime? At which stage does conspiracy make conduct punishable?",
+          "reveal": "S.120-A criminalises conduct at Stage 1 (intention/mental stage) which is normally not punishable. The agreement converts a private mental state into a social act — when two minds meet on a criminal purpose, the secrecy and coordination make early intervention justified. This is the legislature's policy choice: the combination of wills directed at crime poses a social danger exceeding that of individual intention. Conspiracy is therefore the exception that proves the rule of non-punishment of mere intention.",
+          "cite": "S.120-A PPC — agreement as exception to non-punishability of intention. Stages of Crime doctrine"
+        }
+      ]
+    },
+    {
+      "id": "Ill",
+      "name": "Illegal Object",
+      "sub": "S.120-A PPC — illegal act or legal act by illegal means",
+      "step": "Element 2 of 3",
+      "atom": "Ill",
+      "desc": "The object of the agreement must be: (1) to do an illegal act; or (2) to do a legal act by illegal means; or (3) to cause an illegal act to be done; or (4) to cause a legal act to be done by illegal means. This is a disjunction — any one of the four objects suffices.",
+      "legal": "'Illegal' under the PPC means an act or omission made punishable by any law for the time being in force. Importantly, agreeing to do a legal act by illegal means is also conspiracy — for example agreeing to win a contract through bribery. The means, not just the end, can make the conspiracy criminal. This covers sophisticated white-collar schemes where the ultimate objective (winning a contract, acquiring property) is lawful but the method (fraud, corruption) is not.",
+      "cite": "S.120-A PPC — four alternative illegal objects. S.43 PPC — definition of 'illegal'.",
+      "ll": "S.120-A and S.43 PPC — official text",
+      "section": "120-A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Two businessmen agree to bribe a government official to award them a contract they are legitimately entitled to. Is this criminal conspiracy?",
+          "reveal": "Yes. Even though the ultimate object — winning the contract — is legal, the agreed means — bribery — is illegal. S.120-A expressly covers agreement to accomplish a legal act by illegal means. This is one of the most practically important applications of conspiracy law in commercial contexts. Both businessmen are liable under S.120-A read with the Prevention of Corruption Act.",
+          "cite": "S.120-A PPC — legal act by illegal means. Prevention of Corruption Act 1947"
+        },
+        {
+          "q": "Two persons agree to jaywalk together — cross the road illegally. Is this criminal conspiracy under S.120-A?",
+          "reveal": "Technically the agreement element and the illegal object element could be satisfied. However S.120-B(2) provides that conspiracy to commit an offence punishable by fine only or by imprisonment up to two years is punished with imprisonment up to six months or fine. Jaywalking would fall into a low-level regulatory category. Courts would not typically prosecute conspiracy for trivial regulatory violations — the de minimis principle and prosecutorial discretion operate here. But the legal structure technically captures it.",
+          "cite": "S.120-B(2) PPC — reduced punishment for minor conspiracy. De minimis and prosecutorial discretion"
+        },
+        {
+          "q": "The illegal object agreed upon is impossible to achieve — for example, conspiring to obtain a government licence that no longer exists. Is conspiracy made out?",
+          "reveal": "Yes. Impossibility of the object does not negate conspiracy under Pakistani law. The agreement to achieve the illegal object is the offence; whether it could succeed is irrelevant. This mirrors the position on attempt — factual impossibility does not defeat liability. The social harm of the meeting of criminal minds exists regardless of whether the scheme could have worked.",
+          "cite": "S.120-A PPC — impossibility no defence. Consistent with S.511 attempt principle"
+        }
+      ]
+    },
+    {
+      "id": "Two",
+      "name": "Two or More Persons",
+      "sub": "S.120-A PPC — bilateral requirement",
+      "step": "Element 3 of 3",
+      "atom": "Two",
+      "desc": "Conspiracy requires at least two persons. One person cannot conspire alone. This is the bilateral nature of conspiracy — it is inherently a joint offence. If all co-conspirators except one are acquitted, the conviction of the remaining one is legally problematic.",
+      "legal": "The two-person minimum reflects that conspiracy is a social act — the combining of wills. If one accused is acquitted and only one remains, Pakistani courts have grappled with whether the sole conviction can stand. The prevailing view is that where the acquittal of co-conspirators is on grounds of insufficient evidence (not a finding that no conspiracy existed), the remaining accused may still be convicted. However if the acquittal establishes no conspiracy existed, the sole conviction cannot stand.",
+      "cite": "S.120-A PPC — two or more persons. Pakistani case law on sole surviving conspirator conviction.",
+      "ll": "S.120-A PPC — official text",
+      "section": "120-A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "One accused is convicted of conspiracy. The other co-accused is acquitted on the ground of insufficient evidence. Can the first conviction stand?",
+          "reveal": "Generally yes in Pakistani courts. Acquittal on insufficient evidence means the prosecution failed to prove that accused's participation beyond reasonable doubt — it is not a positive finding that no conspiracy existed. The first accused's guilt is established on the evidence against them. This is different from an acquittal that positively establishes the alleged co-conspirator was not party to any agreement, which would undermine the bilateral requirement.",
+          "cite": "Pakistani case law on sole conspirator — acquittal on evidence vs acquittal on facts"
+        },
+        {
+          "q": "A husband and wife conspire to defraud an insurance company. Can spouses conspire under S.120-A?",
+          "reveal": "Yes under Pakistani law. Unlike some common law jurisdictions that historically barred spousal conspiracy (on the fiction that husband and wife are one legal person), Pakistani courts have not adopted this exception. S.120-A requires 'two or more persons' without qualification. Spouses are legally distinct persons under Pakistani law and can be co-conspirators.",
+          "cite": "S.120-A PPC — no spousal exception in Pakistani law"
+        },
+        {
+          "q": "How does the two-person requirement of S.120-A compare to S.34 Common Intention and S.149 Unlawful Assembly?",
+          "reveal": "S.120-A requires 2+ persons and agreement alone. S.34 requires 2+ persons, common intention, AND an act done in furtherance — no minimum number specified but requires plurality. S.149 requires 5+ persons forming an unlawful assembly with a common object. The three provisions form a hierarchy of collective liability: conspiracy (agreement only, 2+), common intention (act done, any number), unlawful assembly (presence and membership, 5+). Each has a different threshold and different liability mechanism.",
+          "cite": "S.120-A vs S.34 vs S.149 PPC — three collective liability provisions compared"
+        }
+      ]
+    }
+  ]
+}

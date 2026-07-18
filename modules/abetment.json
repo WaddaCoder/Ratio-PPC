@@ -1,0 +1,478 @@
+{
+  "id": "abetment",
+  "name": "Abetment",
+  "section": "S.107–120 PPC",
+  "formula": "Instigation ∨ Conspiracy ∨ Aid  →  Abetment (S.107) → Punishment Variants (S.109–120)",
+  "type": "branch",
+  "els": [
+    {
+      "id": "Ins",
+      "name": "Instigation",
+      "sub": "S.107(1) PPC — inciting, encouraging or commanding",
+      "step": "Mode 1 of 3",
+      "atom": "Ins",
+      "desc": "Instigating a person to commit an offence. Instigation means actively suggesting, encouraging, or commanding another to commit an act. Mere acquiescence or silence does not amount to instigation. The instigation must be directed at a specific act.",
+      "legal": "Instigation requires an active mental element — the abettor must intend to bring about the commission of the offence. Words, gestures, or conduct can constitute instigation. The test is whether the accused's conduct had the effect of encouraging the principal to commit the offence. Instigation through a third party (indirect instigation) is expressly covered by the Explanation to S.107.",
+      "cite": "S.107 PPC Explanation 1 — instigation through another. Emperor v. Nga Aung Gyaw (1931) ILR 9 Rang 225.",
+      "ll": "S.107 PPC — official text",
+      "section": "107",
+      "landmark": [
+        {
+          "case": "Emperor v. Nga Aung Gyaw",
+          "citation": "(1931) ILR 9 Rang 225",
+          "holding": "Instigation requires active suggestion or support, not mere acquiescence.",
+          "verified": true
+        },
+        {
+          "case": "State v. Pir Bakhsh",
+          "citation": "PLD 1970 SC 93",
+          "holding": "Abettor need not be present at scene of offence.",
+          "verified": true
+        },
+        {
+          "case": "Mumtaz Qadri v. State",
+          "citation": "PLD 2016 SC 17",
+          "holding": "Religious clerics who publicly praised the assassination and called it justified were investigated under abetment by instigation (S.107(1)). The case drew the line between protected religious speech and criminal instigation; the Supreme Court's rejection of all justifications confirmed that public incitement to vigilante violence constitutes abetment regardless of the claimed religious motivation.",
+          "verified": true
+        }
+      ],
+      "sq": [
+        {
+          "q": "A says to B 'that man has wronged you, someone should teach him a lesson.' B later assaults the man. Has A instigated the assault?",
+          "reveal": "Probably not on these facts. Instigation requires active suggestion or encouragement of a specific act. A vague expression of grievance is not instigation of assault. Courts look for a direct causal link between the accused's words and the principal's act. If A said 'you should beat him' or 'go and settle scores', the analysis would be different. The test is whether the words were calculated to produce the commission of the offence.",
+          "cite": "S.107 PPC — instigation must be active and directed. Emperor v. Nga Aung Gyaw (1931)"
+        },
+        {
+          "q": "A instigates B to murder C. B instead murders D, a bystander. Is A liable for D's murder?",
+          "reveal": "S.111 PPC applies here. If the act done differs from the act abetted but is a probable consequence of the abetment, the abettor is liable as if they had directly abetted the act done. Murdering a bystander in the course of attempting to murder C could be a probable consequence. However if D's murder was entirely unforeseeable and unrelated to the original abetment, S.111 may not attach. Courts examine foreseeability carefully.",
+          "cite": "S.111 PPC — liability for act different from abetted act if probable consequence"
+        },
+        {
+          "q": "How does instigation under S.107(1) differ from Common Intention under S.34?",
+          "reveal": "S.34 requires all members to share a common intention AND participate in furtherance of it — it is a joint enterprise doctrine. Abetment by instigation under S.107(1) does not require the abettor to participate in the act at all — they may instigate and then step back entirely. S.34 attaches liability for the act itself; S.107 attaches liability for encouraging the act. An abettor can be convicted even if the principal is not caught or tried.",
+          "cite": "S.34 vs S.107 PPC — joint enterprise vs encouragement liability"
+        }
+      ]
+    },
+    {
+      "id": "Cons",
+      "name": "Conspiracy to Abet",
+      "sub": "S.107(2) PPC — engaging in conspiracy",
+      "step": "Mode 2 of 3",
+      "atom": "Cons",
+      "desc": "Abetment by engaging in a conspiracy with one or more persons to commit an illegal act or omission, where an act or illegal omission takes place pursuant to that conspiracy. This overlaps with but is distinct from Criminal Conspiracy under S.120-A.",
+      "legal": "Abetment by conspiracy under S.107(2) requires: (1) engagement in a conspiracy; (2) an act or illegal omission pursuant to that conspiracy. Unlike S.120-A Criminal Conspiracy which is itself an offence, S.107(2) is a mode of abetting a principal offence. Both may be charged simultaneously. S.107(2) requires the conspired act to actually occur; S.120-A is complete at the agreement stage.",
+      "cite": "S.107(2) PPC — abetment by conspiracy. Distinguish S.120-A PPC — criminal conspiracy as standalone offence.",
+      "ll": "S.107 PPC — official text",
+      "section": "107",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Three persons agree to rob a bank. One stands guard outside, one drives the car, one goes inside. The robbery is completed. How does S.107(2) apply to the guard and driver?",
+          "reveal": "All three are liable — but through different provisions. The guard and driver could be charged under S.107(2) (abetment by conspiracy) or S.34 (common intention) or both. S.107(2) applies because they engaged in a conspiracy and acts were done pursuant to it. S.34 applies because the act was done in furtherance of their common intention. In practice prosecutors charge both, giving the court flexibility.",
+          "cite": "S.107(2) and S.34 PPC — often charged together in robbery cases"
+        },
+        {
+          "q": "What is the key difference between abetment by conspiracy (S.107(2)) and criminal conspiracy (S.120-A)?",
+          "reveal": "S.120-A is complete at the agreement itself — no further act is required. S.107(2) requires an act or illegal omission to actually occur pursuant to the conspiracy. S.120-A is an independent offence; S.107(2) is a mode of abetting another offence. If the planned robbery never happens, S.120-A still captures the conspirators; S.107(2) does not attach because no act occurred.",
+          "cite": "S.107(2) vs S.120-A PPC — act required vs agreement sufficient"
+        },
+        {
+          "q": "A conspiracy is formed but A withdraws before any act is done. Is A liable under S.107(2)?",
+          "reveal": "No, if A genuinely withdrew before any act pursuant to the conspiracy occurred. S.107(2) requires both engagement in a conspiracy AND an act done pursuant to it. If A is out before the act, the second requirement is not met for A. However withdrawal from conspiracy is difficult to establish — courts require communication of withdrawal and positive steps to prevent the offence. Merely stepping back is insufficient.",
+          "cite": "S.107(2) PPC — withdrawal before act. S.120-A — liability from agreement onwards"
+        }
+      ]
+    },
+    {
+      "id": "Aid",
+      "name": "Intentional Aid",
+      "sub": "S.107(3) PPC — facilitating by act or illegal omission",
+      "step": "Mode 3 of 3",
+      "atom": "Aid",
+      "desc": "Intentionally aiding the commission of an act by doing something or by an illegal omission. The aid must be intentional — inadvertent assistance does not constitute abetment. The aid must actually facilitate the commission of the offence.",
+      "legal": "Aid under S.107(3) is the broadest mode of abetment. It includes providing weapons, information, shelter, transportation, or any assistance that facilitates the offence. The omission limb covers cases where a person with a legal duty to act deliberately fails to do so to facilitate the offence. The key elements are: intentionality of the assistance and causal connection to the offence.",
+      "cite": "S.107(3) PPC — intentional aid. Explanation 2 to S.107 — wrongful concealment as abetment.",
+      "ll": "S.107 PPC — official text",
+      "section": "107",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A locksmith teaches a lockpicking class. A student later uses the skill to break into a house. Is the locksmith liable under S.107(3)?",
+          "reveal": "No on these facts. S.107(3) requires intentional aid — the locksmith must have known the student intended to use the skill for burglary. Teaching a generally useful skill without knowledge of criminal intent does not satisfy the intentionality requirement. Compare: if the locksmith taught a person who said 'I want to break into my neighbour's house', the intentionality is clearly present.",
+          "cite": "S.107(3) — intentionality distinguishes abetment from innocent assistance"
+        },
+        {
+          "q": "A police officer deliberately looks the other way while knowing a murder is about to be committed. Is omission-based abetment established?",
+          "reveal": "Potentially yes. S.107(3) covers illegal omissions — failures to act in breach of a legal duty. A police officer has a legal duty to prevent crimes and protect persons. Deliberately failing to exercise that duty to facilitate a murder satisfies: (1) legal duty to act; (2) deliberate omission; (3) facilitating the offence. This is one of the most serious forms of abetment by omission.",
+          "cite": "S.107(3) Explanation 2 PPC — wrongful concealment and omission as abetment"
+        },
+        {
+          "q": "The principal offence is not completed — it was merely attempted. Can the person who aided still be convicted of abetment?",
+          "reveal": "Yes. S.109 PPC provides that if the act abetted is committed in consequence of the abetment, the abettor is punished with the punishment provided for the offence. S.115 and S.116 cover cases where the abetted offence is not committed — the abettor is still liable, albeit with reduced punishment. Abetment is complete when the abettor's act is done, not when the principal offence succeeds.",
+          "cite": "S.109, S.115, S.116 PPC — abetment liability even if principal offence not completed"
+        }
+      ]
+    },
+    {
+      "id": "S108A",
+      "name": "Abetment in Pakistan of Offences Outside It",
+      "sub": "S.108A PPC — jurisdictional extension of abetment",
+      "step": "Extension 1 of 6 — Jurisdiction",
+      "atom": "S108A",
+      "desc": "A person abets an offence within the meaning of the PPC who, while in Pakistan, abets the commission of any act outside Pakistan which would constitute an offence if committed within Pakistan. Added by the Indian Penal Code Amendment Act 1898, this closes a jurisdictional gap that would otherwise exist between Abetment and the extra-territorial reach of the Code generally.",
+      "legal": "Without S.108A, a person sitting in Pakistan who instigates an act abroad could fall into a gap: the act itself occurs outside Pakistan's territory, and S.107's basic definition is silent on where the abetted act must occur. S.108A closes that gap by deeming the abetment itself — which happens in Pakistan — as the operative act for jurisdictional purposes, regardless of where the principal offence is carried out. This should be read together with PPC Jurisdiction S.1–5, particularly the S.4 nationality/active-personality principle, since both provisions reach conduct connected to Pakistan even where the physical act occurs abroad.",
+      "cite": "S.108A PPC, inserted by Act 4 of 1898. Cross-reference PPC Jurisdiction S.4 — extra-territorial reach based on the accused's connection to Pakistan rather than the location of the act.",
+      "ll": "S.108A PPC — official text",
+      "section": "108A",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, while physically present in Pakistan, instigates B, a foreigner in Goa, to commit a murder in Goa. Apply S.108A and the Code's own Illustration. Is A guilty of abetting murder under Pakistani law?",
+          "reveal": "Yes — this is the Code's own Illustration to S.108A almost verbatim. A abets the murder while in Pakistan; the fact that the principal act (the murder itself) occurs entirely outside Pakistan, and that B is not even a Pakistani national, does not matter. S.108A deems A's abetment, located in Pakistan, sufficient on its own to found liability under the PPC — there is no requirement that the principal offence itself have any connection to Pakistan at all.",
+          "cite": "S.108A PPC Illustration — near-identical scenario in the original statutory text."
+        },
+        {
+          "q": "How does S.108A's jurisdictional logic differ from S.4 PPC's extra-territorial jurisdiction (which extends the Code to Pakistani citizens acting abroad)?",
+          "reveal": "S.4 extends jurisdiction outward — it follows the Pakistani citizen wherever they go, so an act committed abroad by a Pakistani citizen is still triable in Pakistan. S.108A works in the opposite direction: it anchors jurisdiction in Pakistan based on where the abetment itself occurs, regardless of the nationality of either the abettor or the person abetted, and regardless of where the principal act occurs. S.4 asks 'is the accused Pakistani?'; S.108A asks 'did the abetment happen in Pakistan?' They are complementary, not overlapping, jurisdictional hooks.",
+          "cite": "S.108A vs S.4 PPC — distinct jurisdictional bases."
+        },
+        {
+          "q": "Could a foreign national with no connection to Pakistan whatsoever be liable under S.108A?",
+          "reveal": "Yes, in principle — if that foreign national happens to be physically present in Pakistan at the moment they instigate, conspire toward, or aid an offence to be committed abroad. S.108A's only territorial requirement is that the abetment itself takes place in Pakistan; it does not require the abettor to be a Pakistani citizen, nor does it require any connection between the principal offence and Pakistan beyond the abettor's physical location at the time of abetting.",
+          "cite": "S.108A PPC — territorial location of the abetment, not nationality, is the operative jurisdictional fact."
+        }
+      ]
+    },
+    {
+      "id": "S110",
+      "name": "Different Intention or Knowledge from the Abettor",
+      "sub": "S.110 PPC — punishment tracks the act actually intended by the abettor",
+      "step": "Extension 2 of 6 — Divergent Mental State",
+      "atom": "S110",
+      "desc": "Where the person abetted carries out the act with a different intention or knowledge from that of the abettor, the abettor is punished according to what the offence would have been had the act been done with the abettor's own intention or knowledge — not according to the principal's actual mental state.",
+      "legal": "S.110 isolates the abettor's liability from the principal's actual mental state at the moment of commission. The abettor is judged by what they themselves intended or knew when they abetted, even if the person who carried out the act had a different, perhaps lesser, mental state. This protects against an abettor escaping serious liability merely because the principal happened to act with reduced intent — the abettor's own culpability is what is being punished, isolated from the principal's.",
+      "cite": "S.110 PPC — official text. Conceptually distinct from S.111 (different act done) and S.113 (different effect caused) — S.110 addresses a different mental state for the same act.",
+      "ll": "S.110 PPC — official text",
+      "section": "110",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A instigates B to kill Z with full intent that Z should die. B, acting with only the lower S.300 Clause 4 knowledge (that the act is imminently dangerous) rather than direct intent to kill, causes Z's death. Apply S.110. How is A punished?",
+          "reveal": "A is punished as if B had acted with A's own intention — that is, as if the killing satisfied the higher mental threshold A actually held when instigating, regardless of the lower mental state B in fact possessed when carrying out the act. S.110 deliberately decouples the abettor's punishment from the principal's actual mental state, anchoring it instead to what the abettor themselves intended or knew at the time of abetment.",
+          "cite": "S.110 PPC — abettor punished according to their own intention or knowledge, not the principal's."
+        },
+        {
+          "q": "Why does S.110 matter practically? Without it, what loophole would exist for abettors?",
+          "reveal": "Without S.110, an abettor's liability would risk being tied to whatever mental state the principal happened to actually have at the moment of the act — which the abettor cannot fully control or predict. A principal who acted recklessly rather than with full intent might receive a lesser offence classification, and if the abettor's punishment simply mirrored the principal's actual offence, a more culpable abettor could end up under-punished relative to their own state of mind. S.110 closes this gap by anchoring the abettor's liability to their own mental state.",
+          "cite": "S.110 PPC — rationale: abettor's culpability assessed independently of principal's actual mental state."
+        },
+        {
+          "q": "Does S.110 apply where the abettor's intention was actually lower than the principal's? For example, A merely instigates a beating, but B, with separate and independent murderous intent, kills Z.",
+          "reveal": "On these facts S.110 would likely not assist A in escaping the higher-mens-rea offence, because S.110's language anchors the abettor to what the offence would have been 'if the act had been done with the intention or knowledge of the abettor and with no other' — it is designed to hold the abettor to their own state of mind, which here is lower than B's. A would be liable according to A's own (lower) intention — abetting a mere beating — while B is separately liable for murder based on B's own independently-formed intent, since B's murderous intent was not what A instigated or could be said to have abetted.",
+          "cite": "S.110 PPC — the section anchors abettor liability to the abettor's own intention, which can cut either toward higher or lower liability depending on the facts."
+        }
+      ]
+    },
+    {
+      "id": "S111",
+      "name": "Different Act Abetted and Done",
+      "sub": "S.111 PPC — probable consequence extends liability to a different act",
+      "step": "Extension 3 of 6 — Different Act, Probable Consequence",
+      "atom": "S111",
+      "desc": "Where an act is abetted but a different act is actually done, the abettor is liable for the act actually done in the same manner as if they had directly abetted it — provided the act done was a probable consequence of the abetment, and was committed under the influence of the instigation, or with the aid of, or in pursuance of, the conspiracy that constituted the abetment.",
+      "legal": "S.111 is the abetment-side mirror of the foreseeability principle that runs through group-liability provisions generally. The key limiting word is 'probable' — the act actually done must be a probable consequence flowing from the abetment, not merely any consequence that happened to occur. Three Illustrations in the Code itself draw the boundary precisely: a child mistakenly poisoning the wrong victim (probable consequence, liability extends); a principal who burns a house but also separately commits theft during the act (theft is a distinct act, not a probable consequence, liability does not extend to the theft); and a robbery gang that murders a resisting occupant (if murder was a probable consequence of an armed night-time break-in, liability extends to the murder).",
+      "cite": "S.111 PPC and its three Illustrations — official text. Distinguish S.34 Common Intention's furtherance requirement, which operates prospectively on shared purpose rather than retrospectively on probable consequence of a completed abetment.",
+      "ll": "S.111 PPC and Illustrations — official text",
+      "section": "111",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A instigates B to burn down Z's house. While burning the house, B also steals property from inside it. Apply S.111 and the Code's own Illustration (b). Is A liable for the theft?",
+          "reveal": "No. This is the Code's own Illustration (b) to S.111, applied directly: A is guilty of abetting the burning, but not the theft, because the theft was a distinct act and not a probable consequence of the burning. S.111 does not extend an abettor's liability to every act the principal happens to commit during the episode — only to acts that are probable consequences flowing from the specific abetment given. A house fire does not probably entail theft; the theft was B's own independent, additional choice.",
+          "cite": "S.111 PPC Illustration (b)."
+        },
+        {
+          "q": "A instigates B and C to break into an inhabited house at midnight for robbery and supplies them with weapons. During the break-in, Z (an occupant) resists and is killed by B and C. Apply S.111 and the Code's Illustration (c). Is A liable for the murder?",
+          "reveal": "Yes, if the murder was a probable consequence of the abetment on these facts — again drawn directly from the Code's own Illustration (c). Supplying weapons for a night-time armed break-in for robbery makes violent resistance, and a potentially fatal response to that resistance, a probable consequence of the plan A set in motion. A is liable to the punishment provided for murder, exactly as if A had directly abetted the killing, even though A never instigated murder specifically — only the robbery.",
+          "cite": "S.111 PPC Illustration (c)."
+        },
+        {
+          "q": "A instigates a child to poison Z's food and supplies the poison for that purpose. By mistake, the child puts the poison into Y's food instead, which was sitting beside Z's. Apply S.111 and Illustration (a). Is A liable for any harm to Y?",
+          "reveal": "Yes, if the child was genuinely acting under the influence of A's instigation and the mistake was, in the circumstances, a probable consequence of the abetment — this is the Code's own Illustration (a), almost a direct transposition of the transferred-intent principle into the abetment context. A is liable in the same manner and to the same extent as if A had instigated the child to poison Y specifically. The mistake of the principal does not break the chain of liability where it remains a probable consequence of the abetment as originally given.",
+          "cite": "S.111 PPC Illustration (a) — mistaken-victim scenario as probable consequence."
+        }
+      ]
+    },
+    {
+      "id": "S112",
+      "name": "Cumulative Punishment for Act Abetted and Act Done",
+      "sub": "S.112 PPC — stacking liability where the different act is a distinct additional offence",
+      "step": "Extension 4 of 6 — Cumulative Liability",
+      "atom": "S112",
+      "desc": "Where the act for which the abettor is liable under S.111 is committed in addition to the act originally abetted, and constitutes a distinct offence in its own right, the abettor is liable to punishment for each of the offences — not merely the more serious of the two, and not a single combined punishment.",
+      "legal": "S.112 only operates once S.111 has already extended liability to the abettor for the different act done. It then asks a second, separate question: does that different act, on top of the originally abetted act, constitute two genuinely distinct offences? If so, the abettor faces cumulative punishment for both, exactly as the principal who actually committed both acts would. The Code's Illustration uses a public servant's distress (seizure of property) scenario: the principal resists the distress (one offence) and in doing so voluntarily causes grievous hurt to the officer (a second, distinct offence) — the abettor who knew grievous hurt was a likely consequence of the resistance faces liability for both offences cumulatively.",
+      "cite": "S.112 PPC and its Illustration — official text. Read together with S.111, on which S.112 depends entirely; S.112 has no independent operation without a prior S.111 finding.",
+      "ll": "S.112 PPC and Illustration — official text",
+      "section": "112",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A instigates B to resist by force a lawful distress (seizure of property) carried out by a public servant. B resists, and in the course of resisting, voluntarily causes grievous hurt to the officer executing the distress. Applying S.111 and S.112 together with the Code's own Illustration, what is B liable for, and what is A liable for if A knew grievous hurt was a likely consequence?",
+          "reveal": "B, the principal, has committed two distinct offences — resisting the distress and voluntarily causing grievous hurt — and is liable to punishment for both under the ordinary rule that a person answers for each distinct offence they commit. A, the abettor, is liable under S.111 for the grievous hurt (since it was a probable, foreseeable consequence of the resistance A instigated) in addition to the resistance A directly abetted, and S.112 then confirms A faces cumulative punishment for both offences — exactly as if A had committed both directly — because the prerequisite of S.112 (that A knew grievous hurt was a likely consequence) is met on these facts.",
+          "cite": "S.112 PPC Illustration — distress-resistance and grievous hurt scenario, taken near-verbatim from the Code."
+        },
+        {
+          "q": "What is the precise relationship between S.111 and S.112? Can S.112 operate independently of S.111?",
+          "reveal": "No. S.112 explicitly refers to 'the act for which the abettor is liable under the last preceding section' — meaning S.111. S.112 is parasitic on a prior S.111 finding: it does not create a new basis for extending abettor liability to a different act; it only determines, once S.111 has already done that extension, whether the different act and the originally abetted act are sufficiently distinct to warrant separate, cumulative punishment rather than a single punishment covering both.",
+          "cite": "S.112 PPC — textual reference to 'the last preceding section' confirms its dependence on S.111."
+        },
+        {
+          "q": "If the different act done is not a distinct offence in its own right — for example, it is simply a more severe version of the same harm already covered by the originally abetted offence — does S.112 apply?",
+          "reveal": "No. S.112 requires that the act for which the abettor is liable under S.111 'constitutes a distinct offence' in addition to the act abetted. If the different act done is not genuinely a separate offence — merely a more serious manifestation of the same underlying wrong already captured by the abetted offence — there is nothing for S.112 to add, and the abettor's liability under S.111 alone, for the single (more serious) act, governs without any cumulative stacking.",
+          "cite": "S.112 PPC — 'constitutes a distinct offence' as the operative limiting condition."
+        }
+      ]
+    },
+    {
+      "id": "S113",
+      "name": "Different Effect Caused by the Act Abetted",
+      "sub": "S.113 PPC — liability for an unintended effect, where the abettor knew it was likely",
+      "step": "Extension 5 of 6 — Different Effect, Foreseen Likelihood",
+      "atom": "S113",
+      "desc": "Where an act is abetted with the intention of causing a particular effect, but the act for which the abettor is liable in consequence of the abetment causes a different effect from that intended, the abettor is liable for the effect actually caused in the same manner as if they had abetted the act with intent to cause that effect — but only if the abettor knew the abetted act was likely to cause that different effect.",
+      "legal": "S.113 is conceptually distinct from S.111: S.111 deals with a different act being done; S.113 deals with the same act producing a different effect than the abettor intended. The decisive limiting condition is the abettor's own foreseen knowledge — not merely that the different effect was a 'probable consequence' in the abstract (the S.111 standard), but specifically that the abettor knew the act abetted was likely to cause that effect. This is a subjective knowledge requirement layered on top of an objective act, narrower in its operation than S.111's probable-consequence test.",
+      "cite": "S.113 PPC and its Illustration — official text. Distinguish from S.111 (different act) and S.110 (different mental state in the principal) — S.113 is specifically about a different consequence flowing from the same abetted act.",
+      "ll": "S.113 PPC and Illustration — official text",
+      "section": "113",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A instigates B to cause grievous hurt to Z. B, in consequence of the instigation, causes grievous hurt to Z. Z then dies as a result of that hurt. Applying S.113 and the Code's own Illustration, is A liable for murder?",
+          "reveal": "Yes, but only if A knew that the grievous hurt A was abetting was likely to cause death — this is the Code's own Illustration to S.113 directly. If that knowledge is established, A is liable to be punished with the punishment provided for murder, even though A only intended grievous hurt, not death. Without that specific knowledge on A's part, S.113 does not bridge the gap, and A's liability would remain confined to abetting grievous hurt rather than murder.",
+          "cite": "S.113 PPC Illustration — grievous hurt leading to death."
+        },
+        {
+          "q": "What is the precise difference between the knowledge standard in S.113 and the probable-consequence standard in S.111?",
+          "reveal": "S.111's test is objective and consequentialist: was the different act done a probable consequence of the abetment, judged from the circumstances as a whole? S.113's test is subjective and specific to the abettor: did the abettor personally know that the act they abetted was likely to cause the different effect that in fact resulted? S.111 asks what was probable in the situation; S.113 asks what this particular abettor actually knew. A fact pattern could satisfy one test without automatically satisfying the other, since an effect being objectively probable does not necessarily mean this specific abettor was subjectively aware of that likelihood.",
+          "cite": "S.111 vs S.113 PPC — objective probable-consequence test vs subjective knowledge-of-likelihood test."
+        },
+        {
+          "q": "A instigates B to slap Z once as a minor punishment, with no knowledge that Z has a rare medical condition making even minor blows potentially fatal. Z dies from the slap. Does S.113 extend A's liability to murder?",
+          "reveal": "No, on these facts S.113 would not extend A's liability to murder, because the section requires that the abettor knew the act abetted was likely to cause that effect — here, A had no knowledge of Z's condition and therefore could not have known that a minor slap was likely to cause death. Without that specific subjective knowledge, S.113 does not operate to elevate A's liability beyond what A actually intended and knew — abetting a minor assault, not a fatal one.",
+          "cite": "S.113 PPC — absence of the abettor's knowledge of likelihood defeats extension of liability to the unforeseen effect."
+        }
+      ]
+    },
+    {
+      "id": "S114",
+      "name": "Abettor Present When Offence Is Committed",
+      "sub": "S.114 PPC — presence converts abetment into direct commission",
+      "step": "Extension 6 of 6 — Presence at Commission",
+      "atom": "S114",
+      "desc": "Whenever a person who, if absent, would be liable to be punished as an abettor, is in fact present when the act or offence for which they would be punishable in consequence of the abetment is actually committed, that person shall be deemed to have committed the act or offence themselves — not merely abetted it.",
+      "legal": "S.114 performs a deliberate legal fiction: a person whose conduct would, on its own, only ground liability as an abettor is reclassified by their mere presence at the moment of commission as having directly committed the offence. This has real practical consequences — it can affect which specific punishment provision applies, since some PPC sections punish principals and abettors differently or under different express provisions, and S.114 collapses that distinction wherever presence at the scene is established. The provision is best understood as the bridge between abetment liability and Common Intention (S.34) liability, since both ultimately produce the same practical outcome of treating a non-principal actor as if they personally committed the act — but they reach that outcome through different routes: S.34 requires furtherance in pursuance of a common intention, while S.114 requires only abetment plus presence.",
+      "cite": "S.114 PPC — official text. Cross-reference Common Intention S.34, which independently produces a similar reclassification of liability through a different analytical route (furtherance of common intention rather than abetment plus presence).",
+      "ll": "S.114 PPC — official text",
+      "section": "114",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A instigates B to commit theft, but does not participate physically. If A is not present at the scene when B commits the theft, A is liable as an abettor under S.109. If A is present at the scene when B commits the theft, what changes under S.114, and why might this matter practically?",
+          "reveal": "Under S.114, A's presence at the scene of commission converts A's status from 'abettor' to a person 'deemed to have committed' the theft itself. Practically this can matter where a specific PPC section punishes the principal offence and the abetment of it differently, or where charging the substantive offence directly (rather than abetment of it) carries procedural or evidentiary advantages for the prosecution. S.114 removes the need to separately establish abetment-specific elements once presence at commission is shown — the abettor is simply treated as a co-principal.",
+          "cite": "S.114 PPC — deeming effect of presence at commission."
+        },
+        {
+          "q": "How does S.114's 'presence plus prior abetment' route to direct-commission liability differ from S.34's 'common intention plus furtherance' route?",
+          "reveal": "Both sections ultimately produce the same outcome — a person who did not personally perform the principal act is treated as if they had — but the analytical pathways differ. S.34 requires the prosecution to establish a shared common intention among all participants and an act done by any of them in furtherance of that shared intention; it does not require the accused to be the one who instigated the plan. S.114 instead requires the prosecution to first establish that the accused would, absent their presence, be liable purely as an abettor (instigation, conspiracy, or aid under S.107) and then separately establish their presence at the moment of commission. S.34 centres on the group's shared purpose; S.114 centres on an individual abettor's choice to be physically present.",
+          "cite": "S.114 vs S.34 PPC — distinct routes to the same deemed-commission outcome."
+        },
+        {
+          "q": "Does mere accidental presence at the scene — where the abettor happened to be nearby without any connection to having chosen to attend — trigger S.114?",
+          "reveal": "S.114 requires that the person, absent their presence, would already be liable as an abettor under S.107 — meaning instigation, conspiracy, or intentional aid must already be independently established. Mere coincidental physical proximity, without any prior abetment having occurred, does not bring S.114 into operation at all, because there is no abettor status for the presence to convert. S.114 only operates as a second step once abetment is already established as the first step; it does not itself create abetment liability out of presence alone.",
+          "cite": "S.114 PPC — requires pre-existing abettor status under S.107 as a precondition; presence alone is not abetment."
+        }
+      ]
+    },
+    {
+      "id": "S115",
+      "name": "Abetment of Offence Punishable with Death or Life Imprisonment, If Not Committed",
+      "sub": "S.115 PPC — two-tier punishment where the gravest abetted offence fails to occur",
+      "step": "Extension 7 of 12 — Grave Offence Not Committed",
+      "atom": "S115",
+      "desc": "Where a person abets the commission of an offence punishable with death or imprisonment for life, and that offence is not in fact committed in consequence of the abetment, the abettor is liable to imprisonment up to seven years and fine — rising to up to fourteen years and fine if any act done in consequence of the abetment causes hurt to any person, even though the gravest offence itself was never completed.",
+      "legal": "S.115 only operates where no express provision elsewhere in the Code already fixes the punishment for that specific abetment — it is a residual, general-purpose provision for the gravest category of abetted offences (death or life imprisonment) that fail to materialise. The two tiers below represent the two outcomes the section itself distinguishes.\n\nTier A — Offence Not Committed, No Harm Caused: The abetted offence (carrying death or life imprisonment) is not committed in consequence of the abetment, and no act done in consequence causes hurt to anyone. Punishment: Imprisonment of either description up to seven years, and fine.\n\nTier B — Offence Not Committed, But Harm Caused: The gravest abetted offence itself is still not committed, but some act done in consequence of the abetment causes hurt to any person. Punishment: Imprisonment of either description up to fourteen years, and fine — double the base tier, reflecting the partial harm actually realised.",
+      "cite": "S.115 PPC and its Illustration — official text.",
+      "ll": "S.115 PPC — official text",
+      "section": "115",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A instigates B to murder Z. B never carries out the murder. Apply S.115 and the Code's own Illustration. What is A liable for, and how would the answer change if B had caused some hurt to Z while attempting the abetted act?",
+          "reveal": "This is the Code's own Illustration almost verbatim. Since murder carries death or life imprisonment, and the offence was never committed, A falls into the base tier of S.115 — imprisonment up to seven years and fine. If any act done in consequence of the abetment caused hurt to Z (even though the murder itself was not completed), A moves into the enhanced tier — imprisonment up to fourteen years and fine. The statute's own logic is that partial harm flowing from a failed abetment of the gravest offences still warrants meaningfully harsher punishment than abetment producing no harm at all.",
+          "cite": "S.115 PPC Illustration — instigation to murder, offence not committed."
+        },
+        {
+          "q": "Why does S.115 only apply 'where no express provision is made by this Code for the punishment of such abetment'? What does this tell you about how S.115 fits into the wider Abetment scheme?",
+          "reveal": "S.115 is explicitly residual — it is a fallback provision that only fills gaps left where no other section already prescribes a specific penalty for that particular abetment. Many specific offences elsewhere in the Code (for example certain provisions in Chapter XVI dealing with murder-adjacent conduct) carry their own express abetment-punishment language, in which case those specific provisions control and S.115 never comes into play. This confirms the general statutory drafting principle (also visible in S.109) that specific provisions displace general residual ones.",
+          "cite": "S.115 PPC — 'no express provision' qualifying language."
+        },
+        {
+          "q": "Does S.115 require that the abettor personally cause the hurt in the enhanced tier, or can any act done in consequence of the abetment trigger it?",
+          "reveal": "The enhanced tier is triggered by 'any act for which the abettor is liable in consequence of the abetment, and which causes hurt to any person' — it does not require that the abettor personally inflict the hurt. If the act causing hurt is one for which the abettor is already liable under the general abetment-liability rules (for example via S.111's probable-consequence extension), that is sufficient to trigger the fourteen-year tier, even though the abettor never physically touched the victim.",
+          "cite": "S.115 PPC — enhanced tier language. Cross-reference S.111 probable-consequence liability."
+        }
+      ]
+    },
+    {
+      "id": "S116",
+      "name": "Abetment of Offence Punishable with Imprisonment, If Not Committed",
+      "sub": "S.116 PPC — two-tier punishment, with public-servant enhancement",
+      "step": "Extension 8 of 12 — Lesser Offence Not Committed, Public Servant Enhancement",
+      "atom": "S116",
+      "desc": "Where a person abets an offence punishable with imprisonment (rather than death or life imprisonment), and that offence is not committed in consequence of the abetment, the abettor faces up to one-fourth of the longest term provided for the offence — rising to up to one-half of that longest term if either the abettor or the person abetted is a public servant whose specific duty was to prevent that offence.",
+      "legal": "S.116's structure parallels S.115 but for the broader category of imprisonment-only offences, and adds a distinct enhancement absent from S.115: where either party (abettor or person abetted) occupies a public-servant role specifically tasked with preventing that offence, the punishment doubles in proportion. This is the section that most directly engages the S.14/S.21 public servant framework already built in General Explanations — specifically S.21 sub-definition 7 (officers whose duty it is to prevent offences). The Code's four Illustrations are unusually instructive here: (a) and (b) establish that abetment is complete the moment the act of abetment occurs, regardless of whether the principal ultimately refuses or fails to act; (c) and (d) confirm the public-servant enhancement applies symmetrically — whether the public servant is the one abetting, or the one being abetted, the enhanced tier applies either way.\n\nTier A — Ordinary Abettor, Offence Not Committed: Neither the abettor nor the person abetted is a public servant with a duty to prevent the offence. The abetted offence (punishable with imprisonment) is not committed. Punishment: Imprisonment of any description provided for the offence, up to one-fourth of the longest term, or fine, or both.\n\nTier B — Public Servant Involved, Offence Not Committed: Either the abettor or the person abetted is a public servant whose specific duty it was to prevent the commission of that offence (S.21 sub-definition 7). Applies symmetrically regardless of which party holds that duty. Punishment: Imprisonment up to one-half of the longest term provided for the offence, or fine, or both — double the ordinary tier, reflecting the breach of a specific preventive duty.",
+      "cite": "S.116 PPC and Illustrations (a)–(d) — official text. Direct cross-reference: General Explanations S.21 sub-definition 7 (public servants whose duty is to prevent offences) — the precise category whose involvement triggers S.116's enhanced tier.",
+      "ll": "S.116 PPC and Illustrations — official text",
+      "section": "116",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A offers a bribe to B, a public servant, as a reward for showing A favour in B's official duties. B refuses the bribe. Apply S.116 and Illustration (a). Is A liable, given that B never accepted?",
+          "reveal": "Yes — this is the Code's own Illustration (a), and it makes a point that recurs throughout the Abetment chapter: abetment is complete at the moment of instigation, conspiracy, or aid, regardless of whether the principal ultimately goes along with it. A is punishable under S.116 even though B refused the bribe and the underlying bribery offence was never committed, because S.116 specifically governs abetment of offences that are not committed.",
+          "cite": "S.116 PPC Illustration (a)."
+        },
+        {
+          "q": "A, a police officer whose duty it is to prevent robbery, abets the commission of a robbery, which is ultimately not committed. Separately, in a different scenario, B abets a robbery committed by A, a police officer whose duty it is to prevent that offence — and again the robbery is not committed. Apply S.116 and Illustrations (c) and (d) to both scenarios.",
+          "reveal": "Both A and B fall into the enhanced tier — one half of the longest term of imprisonment provided for robbery, plus fine — even though the robbery never occurs in either case. This is the Code's own Illustrations (c) and (d) demonstrating that the public-servant enhancement under S.116 applies symmetrically: it does not matter whether the public servant with the preventive duty is the one doing the abetting (Illustration c) or the one being abetted (Illustration d). Either configuration triggers the same enhanced punishment, because the underlying concern — a person specifically charged with preventing the offence being involved in its abetment — is identical either way.",
+          "cite": "S.116 PPC Illustrations (c) and (d) — symmetrical public-servant enhancement."
+        },
+        {
+          "q": "How does S.116's public-servant enhancement connect to the S.14/S.21 distinction already built in General Explanations? Which of the two definitions is the operative one here, and why?",
+          "reveal": "S.21 is the operative definition, specifically sub-definition 7: 'every officer of Government whose duty it is to prevent offences, to give information of offences, to bring offenders to justice, or to protect the public health, safety or convenience.' S.116's enhancement is triggered by exactly this category — a public servant whose duty it is to prevent the specific offence in question. S.14's narrower 'servant of Government' definition (the employment-relationship category) is not what S.116 is keyed to; S.116 cares about the public duty being breached, not the employment relationship as such, which is precisely the S.14/S.21 distinction Mr. Faisal emphasised — S.116 is a clean real-world application of why that distinction matters: a person could be a S.14 servant of government in some unrelated administrative role without holding the specific S.21(7) preventive duty that actually triggers this section.",
+          "cite": "S.116 PPC public-servant enhancement. Cross-reference General Explanations S.14 vs S.21, sub-definition 7."
+        }
+      ]
+    },
+    {
+      "id": "S117",
+      "name": "Abetting Commission of Offence by the Public or by More Than Ten Persons",
+      "sub": "S.117 PPC — abetment directed at the public generally or a large group",
+      "step": "Extension 9 of 12 — Mass Abetment",
+      "atom": "S117",
+      "desc": "Whoever abets the commission of an offence by the public generally, or by any number or class of persons exceeding ten, is punished with imprisonment of either description up to three years, or fine, or both. This is a single-tier provision distinct from the abetment provisions targeting abetment of one identified principal.",
+      "legal": "S.117 fills a structural gap the rest of the Abetment chapter does not address: most abetment provisions assume a defined principal or small group of principals. S.117 specifically targets abetment aimed diffusely at the public at large or any group exceeding ten persons, without requiring the prosecution to identify which specific member of that mass eventually acted. The Code's Illustration — a placard instigating a sect of more than ten to attack an opposing procession — is itself a clean real-world example of incitement to mob violence, conceptually adjacent to the Priyantha Kumara Sialkot lynching and Youhanabad mob lynching cases already logged elsewhere in this app's Common Intention and General Exceptions modules, though S.117 captures the instigator who set the mob in motion rather than the individual participants within it.",
+      "cite": "S.117 PPC and its Illustration — official text. Cross-reference Common Intention S.34 landmark cases (Priyantha Kumara lynching, Youhanabad mob lynching) — S.117 captures the originating instigator of mass action; S.34 captures the individual participants within the resulting mob.",
+      "ll": "S.117 PPC and Illustration — official text",
+      "section": "117",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A affixes a placard in a public place instigating a sect of more than ten members to assemble and attack members of a rival group during a procession. Apply S.117 and the Code's own Illustration. Has A committed an offence under this section even if no attack ultimately occurs?",
+          "reveal": "Yes — the Code's own Illustration states this directly: 'A has committed the offence defined in this section,' full stop, without any qualification about whether the attack actually took place. S.117 is complete upon the act of abetment directed at the public or a group exceeding ten persons — it does not require the prosecution to prove that any specific individual within that group acted on the instigation, nor that the instigated offence was actually carried out.",
+          "cite": "S.117 PPC Illustration — placard instigating a sect of more than ten."
+        },
+        {
+          "q": "How does S.117 relate to the Priyantha Kumara Sialkot lynching case (88 persons convicted), already logged under Common Intention S.34 in this app? Could S.117 have applied to anyone in that case, and to whom specifically?",
+          "reveal": "S.117 would be the natural charge against whoever originally instigated or incited the mob to act — for example, anyone who spread the initial blasphemy allegation with the intent or foreseeable effect of inciting the assembled crowd of hundreds (well exceeding ten persons) to violence. S.34 Common Intention, by contrast, is the provision that was actually used to convict the 88 individual participants who physically carried out the killing — it requires furtherance of a shared intention by identified participants, which is a different and more individualised inquiry from S.117's focus on the original act of mass-directed instigation. The two provisions are complementary: S.117 targets the spark, S.34 targets those who acted on it.",
+          "cite": "S.117 PPC vs Common Intention S.34 — instigator of mass action vs individual participant liability. Cross-reference Priyantha Kumara lynching landmark case."
+        },
+        {
+          "q": "Does S.117 require the abettor to know the identity of any specific person within the public or the group exceeding ten who will act on the instigation?",
+          "reveal": "No. The entire structural point of S.117 is that it operates where the abettor's instigation is directed diffusely at the public or a large undefined group, precisely because in such cases it would often be impossible to identify in advance which specific individual or individuals would respond. The section's punishment attaches to the act of abetting a mass or the public generally, without requiring proof of which particular person, if any, the abettor specifically had in mind.",
+          "cite": "S.117 PPC — directed at 'the public generally' or 'any number or class of persons exceeding ten,' not identified individuals."
+        }
+      ]
+    },
+    {
+      "id": "S118",
+      "name": "Concealing Design to Commit Offence Punishable with Death or Life Imprisonment",
+      "sub": "S.118 PPC — two-tier punishment for concealment by an ordinary person",
+      "step": "Extension 10 of 12 — Concealment of a Grave Design",
+      "atom": "S118",
+      "desc": "Whoever, intending to facilitate or knowing it likely that they will thereby facilitate the commission of an offence punishable with death or life imprisonment, voluntarily conceals (by act or illegal omission) the existence of a design to commit such offence, or makes a representation known to be false respecting that design, is liable to up to seven years' imprisonment if the offence is in fact committed, or up to three years if it is not — in either case also liable to fine.",
+      "legal": "S.118 criminalises silence and active misdirection, not just affirmative instigation — this is the Abetment chapter's clearest statutory recognition that an omission, where there is knowledge of a design to commit a grave offence and an intent or foreseeable likelihood of facilitating it, can itself constitute a serious offence. The Code's Illustration is instructive precisely because it shows active misdirection (falsely telling a Magistrate the dacoity will occur at the wrong location) rather than pure silence — demonstrating that S.118 captures both the passive concealment and the affirmative false representation limbs equally.\n\nTier A — Offence Committed: The concealed design relates to an offence punishable with death or life imprisonment, and that offence is in fact committed. Punishment: Imprisonment of either description up to seven years, and fine.\n\nTier B — Offence Not Committed: The concealed design relates to an offence punishable with death or life imprisonment, but the offence is not committed. Punishment: Imprisonment of either description up to three years, and fine — lower than Tier A, but concealment of a grave design remains punishable even where the underlying offence is ultimately averted.",
+      "cite": "S.118 PPC and its Illustration — official text. Cross-reference Actus Reus & Mens Rea (Foundation module) — S.118 is a clean statutory example of omission-based Actus Reus, paralleling S.36's general principle that an offence may be constituted partly or wholly by omission.",
+      "ll": "S.118 PPC and Illustration — official text",
+      "section": "118",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A knows that a dacoity is about to be committed at location B. With intent to facilitate the dacoity, A falsely informs the Magistrate that the dacoity will instead occur at location C, in the opposite direction, thereby misdirecting the authorities. The dacoity is then committed at B as planned. Apply S.118 and the Code's own Illustration.",
+          "reveal": "A is punishable under S.118 — this is the Code's own Illustration directly. A's false representation to the Magistrate satisfies the section's 'makes any representation which he knows to be false respecting such design' limb, and since the dacoity (punishable with severe imprisonment, falling within the scope of this section) was in fact committed at B in pursuance of the design A concealed, A falls into the higher tier: imprisonment up to seven years and fine, rather than the lower three-year tier that would apply had the dacoity been prevented or otherwise not occurred.",
+          "cite": "S.118 PPC Illustration — false information to Magistrate to misdirect investigation of dacoity."
+        },
+        {
+          "q": "Does S.118 require an affirmative act of concealment, or can pure silence — simply saying nothing despite knowing of the design — satisfy the section?",
+          "reveal": "S.118's text covers both limbs: 'voluntarily conceals, by any act or illegal omission, the existence of a design' (the omission limb, which can be satisfied by pure silence where there is a legal basis for treating that silence as an illegal omission) and separately 'makes any representation which he knows to be false respecting such design' (the affirmative misdirection limb, illustrated in the Code's own example). Pure silence alone, without more, would need to constitute an 'illegal omission' specifically — meaning there must be some legal duty to disclose that the silence breaches, rather than merely a moral failure to volunteer information.",
+          "cite": "S.118 PPC — disjunctive omission limb and false-representation limb."
+        },
+        {
+          "q": "How does S.118's two-tier structure (seven years if committed, three years if not) compare to S.115's two-tier structure (seven years base, fourteen years if harm results)? Are these measuring the same kind of variable?",
+          "reveal": "No — they measure different variables entirely, despite superficial similarity in using two tiers. S.115's tiers turn on whether harm resulted from an act done in consequence of an abetment of an offence that was itself never committed — both tiers in S.115 assume the gravest offence failed to occur, and the variable is whether some lesser harm nonetheless materialised. S.118's tiers turn on whether the concealed-design offence was actually committed or not — the variable is the success or failure of the underlying offence itself, not an intermediate harm. A student conflating these two two-tier structures would misapply the wrong condition to the wrong section.",
+          "cite": "S.115 vs S.118 PPC — distinct variables underlying superficially similar two-tier structures."
+        }
+      ]
+    },
+    {
+      "id": "S119",
+      "name": "Public Servant Concealing Design to Commit Offence Which It Is Their Duty to Prevent",
+      "sub": "S.119 PPC — three-tier punishment, public servant's preventive duty breached",
+      "step": "Extension 11 of 12 — Public Servant's Concealment",
+      "atom": "S119",
+      "desc": "Where a public servant, intending to facilitate or knowing it likely that they will thereby facilitate the commission of an offence which it is their specific duty as such public servant to prevent, voluntarily conceals (by act or illegal omission) the existence of a design to commit that offence, or makes a knowingly false representation respecting it, the punishment scales across three tiers depending on whether the offence is committed, is punishable with death or life imprisonment, or is not committed at all.",
+      "legal": "S.119 is the public-servant-specific sibling to S.118, but structurally richer — three tiers rather than two, because the public servant's breach of a specific preventive duty (the S.21 sub-definition 7 category again) is treated as warranting its own graduated scale independent of S.118's general two-tier structure. The Code's own Illustration involves a police officer legally bound to report designs to commit robbery who, knowing of such a design, omits to report it with intent to facilitate the robbery — directly engaging the same S.21(7) preventive-duty category already discussed under S.116, confirming this is a recurring structural concern across multiple Abetment sections rather than an isolated rule.\n\nTier A — Offence Committed (Ordinary): The concealed offence (which it was the public servant's specific duty to prevent) is in fact committed, and is not one punishable with death or life imprisonment. Punishment: Imprisonment of any description up to one-half of the longest term provided for the offence, or fine, or both.\n\nTier B — Offence Punishable with Death or Life Imprisonment: The concealed offence is one punishable with death or life imprisonment — this tier applies regardless of whether that gravest-category offence is ultimately committed or not. Punishment: Imprisonment of either description up to ten years — a fixed, severe tier reflecting the gravity of the concealed offence category itself, independent of the committed/not-committed question that governs the other two tiers.\n\nTier C — Offence Not Committed (Ordinary): The concealed offence (not one punishable with death or life imprisonment) is not in fact committed. Punishment: Imprisonment of any description up to one-fourth of the longest term provided for the offence, or fine, or both — the lowest of the three tiers, reflecting both the lesser gravity of the offence category and the fact that it did not occur.",
+      "cite": "S.119 PPC and its Illustration — official text. Direct cross-reference: General Explanations S.21 sub-definition 7 — the same public-servant preventive-duty category triggers both S.116's enhancement and the entirety of S.119's heightened three-tier scheme.",
+      "ll": "S.119 PPC and Illustration — official text",
+      "section": "119",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is a police officer who is legally bound to report all designs to commit robbery that come to his knowledge. A learns that B designs to commit a robbery, and, intending to facilitate that robbery, omits to report it. Apply S.119 and the Code's own Illustration. What is the legal basis for A's liability, and which tier applies if the robbery proceeds as an ordinary offence (not one punishable with death or life imprisonment)?",
+          "reveal": "This is the Code's own Illustration to S.119 directly. A has, by illegal omission, concealed the existence of B's design, satisfying the core elements of the section — A is a public servant with a specific legal duty to report such designs, and A's silence was intentional, aimed at facilitating the robbery. Since ordinary robbery is not punishable with death or life imprisonment, the middle 'punishable with death, etc.' tier does not apply; instead A falls into whichever of the first or third tiers fits depending on whether the robbery is actually committed — the first tier (up to one-half the longest term) if committed, the third tier (up to one-fourth the longest term) if not.",
+          "cite": "S.119 PPC Illustration — police officer's omission to report known robbery design."
+        },
+        {
+          "q": "Why does S.119 have three tiers when S.118 (its non-public-servant sibling) has only two? What is the additional variable S.119 is tracking?",
+          "reveal": "S.118 tracks a single binary variable: was the concealed-design offence committed or not. S.119 tracks that same variable but layers an additional consideration specific to public servants: whether the concealed offence itself was one punishable with death or life imprisonment, which triggers a distinct ten-year tier regardless of whether the offence was ultimately committed or not. This reflects the heightened concern where a public servant entrusted with preventing an offence conceals a design to commit the most serious category of crimes — the legislature treats this as warranting its own fixed tier rather than simply folding it into the ordinary committed/not-committed binary that governs the other two tiers.",
+          "cite": "S.119 PPC three-tier structure — committed / punishable with death or life / not committed."
+        },
+        {
+          "q": "Compare S.119's public-servant concealment scheme to S.116's public-servant enhancement. Both engage the same S.21(7) category — what is the structural difference between what each section actually punishes?",
+          "reveal": "S.116 punishes abetment by instigation, conspiracy, or aid (the S.107 modes) of an offence that is not committed, with an enhanced tier where a public servant with preventive duty is involved either as abettor or as the person abetted. S.119 punishes a categorically different form of conduct — concealment of a known design, or false representation about it — committed specifically by a public servant who personally holds the preventive duty in question. S.116's public servant could be on either side of an active abetment; S.119's public servant is specifically the one who stayed silent or lied about a design they had a personal duty to disclose. Both rest on the same S.21(7) definitional category, but they punish active abetment-with-enhancement versus passive-or-deceptive concealment-by-the-duty-holder respectively.",
+          "cite": "S.119 vs S.116 PPC — both keyed to General Explanations S.21(7), but punishing structurally distinct conduct."
+        }
+      ]
+    },
+    {
+      "id": "S120",
+      "name": "Concealing Design to Commit Offence Punishable with Imprisonment",
+      "sub": "S.120 PPC — two-tier punishment for the residual, least-grave concealment category",
+      "step": "Extension 12 of 12 — Concealment of an Ordinary Design",
+      "atom": "S120",
+      "desc": "Whoever, intending to facilitate or knowing it likely that they will thereby facilitate the commission of an offence punishable with imprisonment (the residual category, below death/life imprisonment offences governed by S.118/119), voluntarily conceals the existence of a design to commit it, or makes a knowingly false representation respecting it, is liable to up to one-fourth of the longest term provided for the offence if it is committed, or up to one-eighth if it is not.",
+      "legal": "S.120 closes the Abetment chapter and completes the concealment trilogy: S.118 covers concealment of designs to commit the gravest offences by an ordinary person, S.119 covers concealment by a public servant with a specific preventive duty (across three tiers), and S.120 covers concealment of the broader residual category of imprisonment-only offences by anyone, without the public-servant enhancement. The proportions are deliberately scaled down from S.118's seven-year/three-year structure to one-fourth/one-eighth of the offence's own maximum term — reflecting that the underlying offence category itself is already less grave, so even the concealment penalty calibrates downward in step. With S.120, Chapter V (Abetment) concludes; Chapter VA (Criminal Conspiracy, S.120-A/120-B) immediately follows and is already built in this app.\n\nTier A — Offence Committed: The concealed design relates to an offence punishable with imprisonment (the residual, non-death/life category), and that offence is in fact committed. Punishment: Imprisonment of the description provided for the offence, up to one-fourth of its longest term, or fine, or both.\n\nTier B — Offence Not Committed: The concealed design relates to an offence punishable with imprisonment, but the offence is not committed. Punishment: Imprisonment up to one-eighth of the offence's longest term, or fine, or both — half the proportional ceiling of Tier A, the lightest punishment tier in the entire concealment trilogy.",
+      "cite": "S.120 PPC — official text, no separate Illustration provided in the Code for this section. Completes the S.118–120 concealment trilogy. Immediately precedes Chapter VA Criminal Conspiracy (already built).",
+      "ll": "S.120 PPC — official text",
+      "section": "120",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Arrange S.118, S.119, and S.120 in a single comparative table by the category of offence each concealment provision protects, and the punishment ceiling each imposes where the underlying offence is committed.",
+          "reveal": "S.118 covers concealment relating to offences punishable with death or life imprisonment, committed by anyone, ceiling seven years if committed (three years if not). S.119 covers the same category of offences but specifically by a public servant with a personal duty to prevent that offence, with a distinct fixed ten-year tier triggered by the offence category itself, alongside one-half/one-fourth tiers turning on whether an ordinary (non-death/life) offence was committed. S.120 covers the residual category — offences punishable with imprisonment generally, by anyone — with a much lower one-fourth/one-eighth proportional ceiling tied to whatever maximum term the underlying offence itself carries. The three sections form a deliberate descending scale: gravest offence plus public duty (S.119) carries the highest exposure; gravest offence by anyone (S.118) is next; ordinary imprisonment offence by anyone (S.120) is lowest.",
+          "cite": "S.118, S.119, S.120 PPC — comparative concealment-offence scheme."
+        },
+        {
+          "q": "Why does S.120 use fractions of the underlying offence's own maximum term (one-fourth, one-eighth) rather than fixed year-figures, unlike S.118's fixed seven-year and three-year ceilings?",
+          "reveal": "S.120 covers the entire residual category of imprisonment-only offences, which spans an enormous range of severity — from offences carrying only a few months to those carrying many years. A fixed ceiling would either be far too lenient for the more serious offences within that residual category, or far too harsh for the most minor ones. By tying the concealment penalty proportionally to whatever maximum term the specific underlying offence carries, S.120 automatically scales its own severity to match the gravity of whatever offence's design was concealed, without the legislature needing to enumerate every possible offence individually.",
+          "cite": "S.120 PPC — proportional fractional ceiling as a scaling mechanism across a broad residual offence category."
+        },
+        {
+          "q": "S.120 immediately precedes Chapter VA Criminal Conspiracy (S.120-A/120-B) in the Code's numbering. Is there any substantive overlap between concealing a design under S.120 and conspiring under S.120-A, or are they addressing entirely separate conduct?",
+          "reveal": "They address related but analytically distinct conduct. S.120-A criminal conspiracy requires an agreement between two or more persons to do an illegal act, or a legal act by illegal means — the agreement itself is the actus reus. S.120 concealment requires only that a person, acting alone, knows of an existing design (which may or may not have arisen from a conspiracy between others) and voluntarily conceals it or lies about it. A person could be liable under S.120 without ever having agreed with anyone to commit the underlying offence — mere knowing concealment by an outsider to the original design suffices. Conversely, a conspirator under S.120-A who later also conceals the design from authorities could potentially face liability under both provisions for genuinely distinct conduct: the agreement (S.120-A) and the subsequent concealment (S.120) are separate acts capable of separate liability.",
+          "cite": "S.120 PPC vs S.120-A PPC — distinct conduct: knowing concealment by any person vs agreement between conspirators."
+        }
+      ]
+    }
+  ]
+}

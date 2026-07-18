@@ -1,0 +1,246 @@
+{
+  "id": "co",
+  "name": "S.149 — Common Object",
+  "section": "S.149 PPC",
+  "formula": "Unlawful Assembly (S.141) ∧ (Offence in Prosecution of Common Object ∨ Members Knew Likely) ∧ Membership at Time  →  Every Member Guilty",
+  "type": "branch",
+  "els": [
+    {
+      "id": "CO_Rule",
+      "name": "The Net, Not the Arrow — S.149's Foundational Rule",
+      "sub": "S.149 PPC — the complete statutory text and its central metaphor",
+      "step": "Element 1 of 8",
+      "atom": "CO_Rule",
+      "desc": "S.149 PPC (complete text): if an offence is committed by any member of an unlawful assembly in prosecution of the common object of that assembly, or such as the members of that assembly knew to be likely to be committed in prosecution of that object, every person who, at the time of the committing of that offence, is a member of the same assembly is guilty of that offence.",
+      "legal": "The most useful way to hold S.149 alongside S.34 without confusing them is this: S.34 shoots an arrow. It requires a meeting of minds aimed at a specific act — the intention must be common, it must be prior, and it must be directed at the very offence that occurred. S.149 casts a net. Once an unlawful assembly exists and a member commits an offence within the scope of the section, the net drops over every person who was a member at that moment, regardless of what each individual intended, knew, or planned. The question S.149 asks is not 'did you want this?' but 'were you there, as a member, when it happened?' — and 'was it either the object you assembled for, or something you knew was likely to happen?' That is a structurally different and considerably lower evidentiary threshold. The section has two independent limbs, joined by 'or': the prosecution-of-common-object limb (direct purposive connection) and the knew-to-be-likely limb (constructive foreseeability). Either limb alone is sufficient.",
+      "cite": "S.149 PPC — official text. Cross-reference S.34 PPC (Common Intention module) for the companion provision; Element 5 of this module for the full structural comparison.",
+      "ll": "S.149 PPC — official text",
+      "section": "149",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "No verified Pakistani landmark case is logged specifically against S.149 alone in this build, flagged honestly rather than inventing a citation. Cross-reference: the Priyantha Kumara lynching (Sialkot 2021, 88 persons convicted — Common Intention module landmark) and the Youhanabad mob lynching (Lahore 2015 — General Exceptions module landmark) both engaged S.149 alongside S.34 in the actual proceedings.",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A member of an unlawful assembly is charged under S.149 for a killing committed by a different member. The defence argues S.149 cannot apply because this specific accused had no intention whatsoever to kill anyone. How does S.149 respond to that argument?",
+          "reveal": "The argument is legally irrelevant to S.149. The section does not require each individual member to have intended the specific offence — it requires only (a) that an unlawful assembly exists under S.141, (b) that a member committed an offence in prosecution of the common object or one the members knew likely, and (c) that this accused was a member at the time. The absence of personal intention to kill defeats S.34, which requires shared intention for the specific act — it does not defeat S.149, which substitutes assembly membership for individual intent. This is the entire structural point of the provision.",
+          "cite": "S.149 PPC — personal intention to commit the specific offence is not a required element; assembly membership and the disjunctive trigger are the operative requirements."
+        },
+        {
+          "q": "The same provision appears in the Indian Penal Code 1860 as S.149 unchanged. Why might a single statutory text produce the same result in both jurisdictions for over 165 years, without either legislature feeling the need to amend it?",
+          "reveal": "Because S.149's architecture is logically watertight for its purpose: it closes the exact gap that would otherwise exist if liability required proving each member's individual intent for each specific act of mob violence — a proof standard that would effectively immunise every mob participant except the one who physically committed the act. The two-limb disjunction (prosecution of common object OR knew likely) covers both the planned and the foreseeable, leaving no daylight for the argument 'I was there but I didn't specifically plan this.' The threshold of S.141's unlawful assembly gates out mere innocent bystanders. The temporal requirement ('at the time') gates out people who had already left. The structure has remained because it is well-calibrated, not because no one thought to revisit it.",
+          "cite": "S.149 PPC — structural completeness of the provision as originally drafted, explaining its durability across jurisdictions and time."
+        },
+        {
+          "q": "Two accused in the same mob prosecution: X was an active participant throughout; Y was a peripheral member who spent most of the incident at the outer edge of the crowd, observed everything, and said nothing. Both were clearly 'members' at the time the offence was committed. Does S.149 treat them differently?",
+          "reveal": "S.149 on its own face does not — the section attaches the same liability ('every person who... is a member') to every qualifying member regardless of the degree of their individual participation. However, sentencing discretion under S.53's Ta'zir framework allows courts to calibrate punishment to the individual's role, even where liability attaches equally. S.149 determines guilt; the degree of involvement goes to sentence, not to the finding of liability itself. This is a critical distinction for defence counsel — arguing diminished individual participation in a S.149 case targets sentencing, not the conviction threshold.",
+          "cite": "S.149 PPC — uniform liability attachment regardless of degree of participation; sentencing discretion as the calibration mechanism, not the liability finding."
+        }
+      ]
+    },
+    {
+      "id": "CO_Gate",
+      "name": "The S.141 Gate — Unlawful Assembly Must Be Proven First",
+      "sub": "S.141 PPC — the threshold condition S.149 cannot operate without",
+      "step": "Element 2 of 8",
+      "atom": "CO_Gate",
+      "desc": "S.149 cannot operate unless the group first qualifies as an 'unlawful assembly' under S.141. That requires: (1) five or more persons, (2) with a common object that falls within one of S.141's five disjunctive categories (overawing government by criminal force; resisting law or legal process; committing mischief, criminal trespass, or other offence; taking or obtaining possession of property or depriving of a right by criminal force; compelling by criminal force to do or omit a legal act). If S.141 fails, S.149 never reaches the starting blocks.",
+      "legal": "The S.141 gateway is often where S.149 cases are most effectively attacked at trial. Two destruction strategies: attack the headcount (prove the participants numbered fewer than five), or attack the common object (prove the group did not share one of S.141's five enumerated objects). Either destroys the unlawful assembly finding, which collapses S.149 entirely. This is genuinely more tractable in many cases than arguing against the specific offence that occurred, because headcount and common-object evidence is often contested and dependent on eyewitness accounts that can be challenged. A skilled defence counsel in a mob violence case always checks S.141 before engaging the underlying offence.",
+      "cite": "S.141 PPC — unlawful assembly definition, which is the non-negotiable gateway S.149 depends on. See the full S.141/142 treatment in the Offences Against Public Tranquillity module (TRANQUILLITY).",
+      "ll": "S.141 PPC — official text; TRANQUILLITY module for full treatment",
+      "section": "141",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The prosecution charges twelve accused under S.302/149 for a mob killing. The defence establishes through video evidence that four of the accused were actually present but had not joined the mob, only watching from a shopfront doorway. Does this affect the S.149 charges against all twelve?",
+          "reveal": "It directly affects the four whose presence was passive — but S.149 requires not just five-or-more total persons in the assembly, but that each accused charged under it was themselves a 'member' under S.142 (aware of the unlawful nature and intentionally joining or continuing). The four watching from a doorway without joining may defeat their own individual S.149 liability for failure of the S.142 membership element. The total assembly headcount of the remaining eight still satisfies S.141's five-person threshold for those who genuinely joined. Each accused's membership must be individually established.",
+          "cite": "S.141/142 PPC — headcount for assembly threshold distinct from individual membership proof; each accused's S.142 membership status assessed separately."
+        },
+        {
+          "q": "A group of seven assembles with the common object of staging a peaceful sit-in protest (blocking a road without violence). Their actual common object is not one of S.141's five categories at the time of assembly. One member then spontaneously vandalises a shopfront. Can the others be charged under S.149 for the vandalism?",
+          "reveal": "Likely not at the moment of assembly — a peaceful road-blocking sit-in does not obviously satisfy S.141's five categories (overawing by criminal force, resisting law, mischief/criminal trespass/offence, forcible taking of property, or compelling by criminal force). Without S.141 being satisfied, S.149 cannot operate. However, S.141's own Explanation allows an assembly to become unlawful mid-gathering. If, before the vandalism, the assembly's common object had shifted to one of the five categories — for example, if the group collectively moved toward the shop with apparent common purpose of vandalising it — the S.141 finding could be established at that later point. Timing is critical.",
+          "cite": "S.141 PPC Explanation — a lawfully-formed assembly can become unlawful mid-gathering; the S.149 liability window opens only once S.141 is satisfied."
+        },
+        {
+          "q": "The prosecution proves an unlawful assembly of six persons with a common object of forcible property seizure. But only two members are identified by name; the other four remain unidentified. Can the two named accused be convicted under S.149?",
+          "reveal": "Yes — S.141 requires five or more persons to constitute an unlawful assembly, but does not require that all five be identified, named, or even apprehensible. The prosecution can establish the headcount through evidence of the assembly (eyewitnesses, video, physical evidence of group action) without identifying every participant. The two named accused's own S.142 membership and the assembly's S.141 qualification are independently established. Unidentified co-members do not defeat the named accused's conviction.",
+          "cite": "S.141 PPC — headcount established through evidence of assembly, not requiring identification of every member."
+        }
+      ]
+    },
+    {
+      "id": "CO_Limb1",
+      "name": "Limb 1 — In Prosecution of the Common Object",
+      "sub": "S.149 PPC, first limb — the offence was done as execution of what the assembly gathered to achieve",
+      "step": "Element 3 of 8",
+      "atom": "CO_Limb1",
+      "desc": "The first limb of S.149's disjunctive trigger: the offence committed by any member was done 'in prosecution of the common object of that assembly.' This requires a direct purposive connection — the offence must have been done as a means of achieving, advancing, or executing the assembly's shared common object. The offence is the common object materialising, or a step taken directly toward it.",
+      "legal": "Limb 1 is narrower than Limb 2 in one sense: it requires the offence to be causally and purposively tied to the assembly's own object, not merely foreseeable as a side-effect. If an assembly gathers to forcibly evict a tenant, and during the eviction one member kills the tenant as the direct means of effecting the eviction, that killing is 'in prosecution of the common object' — it was the mechanism by which the forcible eviction was carried out. By contrast, if one member slips away and commits an entirely unrelated robbery in a nearby street, that robbery is not 'in prosecution of the common object' of the eviction assembly. The causal and purposive connection must be genuine, not merely temporal coincidence. This is why Limb 2 exists — to capture the foreseeably-likely but not necessarily directly purposive offences.",
+      "cite": "S.149 PPC, first limb — 'in prosecution of the common object' requires purposive and causal connection between the offence and the assembly's object, not merely temporal proximity.",
+      "ll": "S.149 PPC — official text",
+      "section": "149",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An assembly gathers with the common object of attacking a rival community's property (S.141's third category — mischief). During the attack, one member kills a resident of a house they are vandalising. Is the killing 'in prosecution of the common object' under Limb 1?",
+          "reveal": "Very likely yes — the killing occurred during the direct execution of the assembly's common object (attacking property) and the resident's death was causally connected to that execution (the member killed the resident in the course of the property attack). The killing need not have been specifically planned — Limb 1 asks whether the offence was committed in prosecution of the common object, meaning as part of its execution, not whether it was the object itself. The killing during a property attack is plausibly a means used in prosecution of that attack.",
+          "cite": "S.149 PPC Limb 1 — offences committed during and causally connected to the execution of the common object satisfy the purposive connection requirement."
+        },
+        {
+          "q": "An unlawful assembly is formed to resist a lawful eviction (S.141's second category). One member, entirely independently and for personal reasons, picks the pocket of a bystander during the confusion. Is this pickpocketing 'in prosecution of the common object' under Limb 1?",
+          "reveal": "No. The pickpocketing has no purposive or causal connection to the assembly's object of resisting the eviction — it was a personal act entirely unrelated to the collective purpose. S.149 Limb 1 requires the offence to have been committed as prosecution of the common object, not merely committed by a member while the assembly was active. This member's individual liability for theft operates under the ordinary S.378 framework; the other assembly members are not rendered guilty of the theft under S.149 Limb 1 because the theft was not in prosecution of their common object.",
+          "cite": "S.149 PPC Limb 1 — a member's personal, unrelated offence during the assembly does not satisfy the purposive-connection requirement; only Limb 1 fails here, but Limb 2 would also fail on these facts since members would not have 'known' petty theft by one member was a likely consequence of resisting an eviction."
+        }
+      ]
+    },
+    {
+      "id": "CO_Limb2",
+      "name": "Limb 2 — Members Knew to Be Likely",
+      "sub": "S.149 PPC, second limb — constructive foreseeability, the broader and more litigated trigger",
+      "step": "Element 4 of 8",
+      "atom": "CO_Limb2",
+      "desc": "The second limb of S.149's disjunctive trigger: the offence committed was 'such as the members of that assembly knew to be likely to be committed in prosecution of that object.' The assembly need not have planned the specific offence; the members need only have known, at the relevant time, that it was a likely consequence of pursuing their common object. 'Knew' — not 'should have known,' not 'suspected' — is the operative word.",
+      "legal": "Limb 2 is where most real-world mob violence cases actually land, because mob violence is often not precisely pre-planned. The assembly may gather for one purpose and escalate into something worse during execution. Limb 2 asks: did the members know, when they assembled and pursued their common object, that this kind of offence was a likely consequence? The standard is subjective knowledge ('knew'), not an objective reasonable-person standard — though in practice courts infer subjective knowledge from the circumstances, particularly where the assembly was armed, outnumbered their targets, and gathered in an already volatile context. A key limitation: 'likely' is not 'possible.' Courts have held that merely conceivable outcomes do not satisfy Limb 2 — the outcome must have been one the members knew as a genuinely probable consequence of their collective action.",
+      "cite": "S.149 PPC, second limb — subjective knowledge of likelihood, not objective foreseeability; 'likely' sets a meaningful threshold above 'possible' or 'conceivable.'",
+      "ll": "S.149 PPC — official text",
+      "section": "149",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Seven members of an unlawful assembly gather armed with sticks and batons with the common object of 'teaching a lesson' to a rival family, with a history of escalating violence between the groups. During the confrontation, one member pulls out a concealed pistol (unknown to the others) and kills the rival. Under Limb 2, did the other six members 'know' the killing was likely?",
+          "reveal": "This is a genuinely hard case that Pakistani courts have had to address. The analysis turns on what the circumstances known to each member at the time of assembly actually showed: armed assembly with weapons, volatile inter-community history, a known target, and the word 'lesson' suggesting planned confrontation. Courts have held that in these circumstances, even members who did not know about the specific pistol knew that serious violence including potentially death was a likely consequence of their armed collective action. The concealment of the specific weapon goes to individual culpability of the member who used it — it does not break the Limb 2 chain for members who knew the confrontation was likely to turn violently serious.",
+          "cite": "S.149 PPC Limb 2 — subjective knowledge of likely death can be established from the circumstances even without knowledge of the specific weapon used."
+        },
+        {
+          "q": "An assembly gathers peacefully for a protest with the common object of blocking a street. The protest turns violent when police arrive, and a member throws a stone that kills a police officer. Would the other members 'know' this killing was likely under Limb 2 at the time of the original assembly?",
+          "reveal": "The timing of the 'knowing' matters critically. At the time of original assembly, if the group genuinely gathered for peaceful protest, the killing was not then 'known to be likely.' However, S.141's own Explanation allows an assembly to become unlawful mid-gathering; if the assembly's character changed once police arrived (the group moved from peaceful to confrontational, some members produced weapons, the object shifted to resisting police action), the relevant moment for assessing Limb 2 is not the original assembly but the moment at which the unlawful assembly crystallised — and at that later moment, members who continued participating may well have 'known' violent confrontation with police, including injury or death, was likely.",
+          "cite": "S.149 PPC Limb 2 — the timing of subjective knowledge assessment tracks the moment the S.141 unlawful assembly crystallised, not necessarily the original assembly."
+        },
+        {
+          "q": "A member of an unlawful assembly later claims they subjectively believed the confrontation would remain non-lethal. The prosecution has no direct evidence of what this member personally believed. How does a court establish subjective knowledge under Limb 2?",
+          "reveal": "Courts infer subjective knowledge from objective circumstances — this is the standard approach to inferring any subjective mental state in the absence of a confession. Relevant circumstances: the assembly's size and armament, the nature of the target (armed vs defenceless, individual vs group), prior history of violence between the groups, the nature of the common object, and any statements or actions by members before the offence. The inference that a member of an armed mob confronting a known target 'knew' serious violence was likely is drawn from these circumstances, not from a direct enquiry into the member's private belief. The member's claim of subjective non-lethal belief is then tested against whether any reasonable person with the same knowledge would have held that belief — at which point the distinction between 'knew' and 'should have known' narrows considerably in practice.",
+          "cite": "S.149 PPC Limb 2 — subjective knowledge proved by inference from objective circumstances, the standard method for inferring any mental state in criminal proceedings."
+        }
+      ]
+    },
+    {
+      "id": "CO_Compare",
+      "name": "S.34 vs S.149 — The Exam-Critical Comparative Grid",
+      "sub": "Four structural differences, one practical consequence",
+      "step": "Element 5 of 8",
+      "atom": "CO_Compare",
+      "desc": "S.34 (Common Intention) and S.149 (Common Object) are the two group-liability provisions in the PPC most commonly confused and most frequently tested in examinations and GAT design. They are not the same provision stated twice in different words. They are structurally distinct instruments that produce different analytical questions, different evidentiary burdens, and different tactical choices for both prosecution and defence. The four structural differences: (1) headcount — S.34 has no minimum, S.149 requires S.141's five-person threshold; (2) prior concert — S.34 requires a pre-arranged meeting of minds for the specific act, S.149 requires only a shared common object plus the disjunctive trigger; (3) scope of liability — S.34 limits liability to acts done in furtherance of the shared intention, S.149 extends it to acts in prosecution of common object OR known likely; (4) evidentiary burden — S.34 is harder to prove (must establish specific shared design); S.149 is easier (common object plus foreseeability or prosecution).",
+      "legal": "The practical consequence: wherever a group is five or more, prosecutors virtually always charge S.149 alongside or instead of S.34, because S.149's elements are structurally easier to establish. Defence counsel responding to a S.149 charge should focus their attack on S.141 (the unlawful assembly gate — headcount and common object) rather than on whether each accused personally intended the specific offence, because that is the argument S.34 invites, not S.149. The table below is the examination-standard comparison:\n\nS.34 Common Intention | S.149 Common Object\n--- | ---\nNo minimum headcount | 5+ persons (S.141 threshold)\nPrior concert required — meeting of minds for the specific act | No prior concert required — common object + membership\nShared intention must extend to the specific act committed | Limb 1: act in prosecution of object, OR Limb 2: known likely consequence\nHigher evidentiary burden — specific shared design must be proved | Lower — common object + knowledge of likely consequence\nMahbub Shah 1945 — bedrock authority | Derivative Schedule II — takes flags of underlying offence",
+      "cite": "S.34 PPC (Common Intention module — full 8-element treatment) vs S.149 PPC — four structural differences producing distinct analytical and evidentiary consequences.",
+      "ll": "S.34 and S.149 PPC — official text; Common Intention module for S.34 full treatment",
+      "section": null,
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A prosecution team has evidence of an assembly of eight persons who committed a robbery-with-violence. They can prove a shared common object of robbery but cannot prove that the specific violence (which injured a victim) was part of a pre-arranged plan. Should they charge under S.34 or S.149, and why?",
+          "reveal": "S.149 is the structurally correct and more easily proven charge on these facts. They can establish the unlawful assembly (eight persons, common object of robbery — S.141's third category, commission of an offence), and the violence was either in prosecution of that robbery or one the members knew likely in the course of a robbery. S.34 would require proving a specific shared intention for the violence itself as a pre-arranged element of the plan — which they acknowledge they cannot prove. Charging S.34 creates an evidentiary problem they cannot solve; charging S.149 works with the evidence they actually have.",
+          "cite": "S.149 PPC as the correct charge when common object is provable but specific shared intent for the particular offence is not — the central practical reason the two provisions are structurally distinct."
+        },
+        {
+          "q": "A group of three commit the same robbery-with-violence. The prosecution cannot use S.149 (why not?). What is the only available constructive liability route, and what additional element must they prove?",
+          "reveal": "S.149 is unavailable because three persons fall below S.141's five-person minimum — without an unlawful assembly, S.149 cannot be engaged. The only available constructive liability route is S.34 Common Intention, which requires the prosecution to establish a pre-arranged plan (meeting of minds) under which the violence was either specifically intended or done in furtherance of the shared common intention. Unlike S.149's foreseeability standard, S.34 requires the prosecution to get inside the minds of the three accused and prove a specific shared design — the higher evidentiary burden that S.149 was designed to circumvent in larger-group cases.",
+          "cite": "S.149 PPC's five-person floor as the dividing line — below five, only S.34 is available, with its more demanding prior-concert requirement."
+        },
+        {
+          "q": "A client is charged under S.302/34 AND S.302/149 in the alternative, for a mob killing. As defence counsel, which charge do you target first and why?",
+          "reveal": "Target S.149 first, because attacking S.141 (the gateway) collapses S.149 entirely and may be more tractable than attacking S.34's common intention directly. Specifically: can you challenge the headcount (were there really five-or-more identifiable members, or are some of the alleged members actually uninvolved bystanders)? Can you challenge the common object (was there really a shared S.141 qualifying object, or was this a spontaneous incident without a collective purpose)? If S.141 falls, S.149 falls with it. Then address S.34 — here the argument is: even if some group action occurred, was there a pre-arranged meeting of minds for the specific act your client faces liability for? Mahbub Shah 1945 and Basharat 2023 are your authorities. Running both attacks in parallel is correct strategy — you are not forced to choose, since they target different elements.",
+          "cite": "Strategic priority of attacking S.141 to collapse S.149, then S.34's prior-concert requirement — the correct dual-track defence approach in alternative-charge mob violence cases."
+        }
+      ]
+    },
+    {
+      "id": "CO_Member",
+      "name": "Membership at the Time — The Temporal Precision Clause",
+      "sub": "S.149 PPC — 'every person who, at the time of the committing of that offence, is a member'",
+      "step": "Element 6 of 8",
+      "atom": "CO_Member",
+      "desc": "S.149 is temporally precise: it captures only persons who were members of the unlawful assembly 'at the time of the committing of that offence.' The section has a clear temporal structure: the offence must be committed; the accused must be a member of the unlawful assembly; and that membership must exist at the moment the offence is committed — not at some earlier or later point. This temporal precision is one of S.149's built-in safety valves against over-broad liability.",
+      "legal": "The temporal clause operates as both a ceiling (it does not catch those who joined after the offence was committed) and a floor (it does not release those who were members at the material moment merely because they left afterward). For individual accused persons in a group prosecution: establish precisely when each accused was a member, and precisely when the offence occurred. An accused who can prove they had genuinely departed the assembly before the offence was committed is not caught by S.149 — but they must prove actual departure, not merely a private mental decision to disengage. The temporal clause also interacts with the question of when an assembly becomes unlawful under S.141's Explanation — since an assembly can shift from lawful to unlawful mid-event, a member who was present for the lawful phase only (and left before unlawful status crystallised) may be outside S.149's reach.",
+      "cite": "S.149 PPC — 'at the time of the committing of that offence' as the operative temporal boundary; both a limit on liability and a threshold requirement.",
+      "ll": "S.149 PPC — official text",
+      "section": "149",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "X joins an unlawful assembly with a common object of forcible eviction. An hour into the confrontation, X quarrels with fellow members and physically walks away from the assembly, separating from the group by approximately 200 metres. Fifteen minutes after X's departure, a member of the remaining assembly kills the target. Can X be convicted under S.149?",
+          "reveal": "Not on these facts, if X's departure is established. The temporal clause requires membership 'at the time of the committing of that offence' — X was not a member of the assembly at the moment of the killing (having departed 15 minutes earlier). The question for evidence purposes is whether X's departure was real and physical (which these facts suggest) or merely a private mental disengagement without actual separation. Physical departure from the assembly, 200 metres away, before the offence was committed, satisfies the temporal defence. The prosecution would need to establish that X was, in fact, still a member at the material moment — which, on these facts, it cannot.",
+          "cite": "S.149 PPC temporal clause — genuine physical departure before the offence is committed breaks the membership at-the-time requirement; private mental disengagement alone does not."
+        },
+        {
+          "q": "Y joins an unlawful assembly at 2pm. The assembly is still active at 6pm when the offence is committed. Y claims she had 'mentally checked out' of the assembly from around 4pm onwards, stopped participating actively, and stood quietly at the edge of the crowd. Apply S.149's temporal and membership requirements.",
+          "reveal": "Y is still caught, on these facts. S.149 requires membership 'at the time' — membership under S.142 is maintained by knowingly continuing in an unlawful assembly. Standing quietly at the edge of the crowd while the assembly continues, without physically departing, satisfies continuing membership — S.142 requires that a person 'intentionally joins or continues' in the assembly, and Y's presence without departure constitutes continuing. The mental checkout argument (the 'I stopped caring' defence) does not satisfy the law's requirement, because S.142's membership is terminated by actual departure, not by private disengagement while remaining physically present.",
+          "cite": "S.149 PPC membership at-the-time requirement — continuing membership through physical presence, not terminated by private mental disengagement without actual departure from the assembly."
+        }
+      ]
+    },
+    {
+      "id": "CO_Withdraw",
+      "name": "Withdrawal from the Assembly",
+      "sub": "S.149 PPC — how membership ends and liability with it",
+      "step": "Element 7 of 8",
+      "atom": "CO_Withdraw",
+      "desc": "S.149 imposes liability through membership. It follows that membership can end — and when it does, S.149 liability for subsequently-committed offences ends with it. The question is what constitutes legally effective withdrawal from an unlawful assembly sufficient to terminate membership for S.149 purposes. The standard is the same as already established in the Common Intention module for S.34: communicated, unambiguous withdrawal before the offence is committed. Private mental disengagement, alone, is insufficient.",
+      "legal": "The withdrawal standard for S.149 mirrors S.34's: you must do something that objectively demonstrates to the other members that you are no longer part of the collective enterprise, before the offence that creates liability occurs. Walking away is the clearest case — physical departure from the assembly, particularly if combined with some act of disassociation (leaving in a direction away from the target, departing the scene visibly), is the most defensible form of withdrawal. Merely moving to the rear of a crowd, standing still, or failing to participate actively is not sufficient withdrawal — you are still physically present in the assembly, still contributing to its apparent size and social force, and still legally a member. The timing requirement is strict: withdrawal after the offence is committed does not retroactively eliminate S.149 liability for that offence, though it may affect liability for subsequent offences if the assembly continues and commits further acts.",
+      "cite": "S.149 PPC — effective withdrawal requires unambiguous, communicated departure from the assembly before the offence is committed; the same standard as S.34 Common Intention's withdrawal doctrine (Common Intention module, Element 8 of 8).",
+      "ll": "S.149 PPC — official text; Common Intention module Element 8 for the parallel S.34 withdrawal standard",
+      "section": "149",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A is a member of an unlawful assembly. Before any offence occurs, A announces loudly to the group 'I want no part of this' and begins walking in the opposite direction from the target. The group ignores A and proceeds without him; A is not physically stopped. Twenty minutes later, the group commits the offence. Apply S.149's withdrawal standard to A.",
+          "reveal": "A has effectively withdrawn, on these facts. A's verbal announcement ('I want no part of this') is a communicated disassociation — it was heard by the group even if ignored — and A's physical departure in the opposite direction before any offence is committed satisfies both the communication and timing requirements. A was not a member of the assembly 'at the time of the committing of that offence' (twenty minutes later), and the withdrawal was genuine and pre-offence. A is not liable under S.149.",
+          "cite": "S.149 PPC — communicated, pre-offence withdrawal evidenced by verbal disassociation and physical departure satisfies the withdrawal standard."
+        },
+        {
+          "q": "B is a member of the same assembly who, as the group approaches the target, falls several paces behind and reduces their walking pace, making no statement and not turning back. The group commits the offence while B is roughly 30 metres behind. Apply S.149's withdrawal standard to B.",
+          "reveal": "B has not effectively withdrawn, on these facts. Slowing down and falling behind is passive behaviour — B made no statement, no visible act of disassociation, and remained in the same general direction of movement as the assembly. B was still physically proximate, still apparently moving toward the target, and still contributing to the assembly's visible presence. The S.149 temporal requirement is membership 'at the time of the committing of that offence' — 30 metres behind the group while moving in the same direction, without any communicated departure, keeps B inside the membership at the relevant moment. This is precisely the difference between walking away from an assembly (departure) and walking with it at the rear (continued membership).",
+          "cite": "S.149 PPC — passive lagging-behind without communication or direction-change does not satisfy the withdrawal standard; continued physical presence in the same direction maintains membership."
+        },
+        {
+          "q": "Compare the withdrawal standard under S.149 with the withdrawal standard under S.34 (Common Intention module, Element 8). Are they the same?",
+          "reveal": "Yes, functionally — both require communicated, unambiguous withdrawal before the offence is committed, and both treat private mental disengagement alone as insufficient. The logic is identical: you become liable through participation in a collective enterprise; you exit that liability by making your non-participation clear to the enterprise before it produces the harmful outcome. The fact that S.149 technically operates through assembly membership rather than shared intention does not change the underlying requirement, because membership is the mechanism by which S.149 attaches liability — and membership is terminated by the same kind of genuine, demonstrated departure that terminates S.34 involvement.",
+          "cite": "S.149 PPC withdrawal standard — functionally identical to S.34 PPC's withdrawal doctrine (Common Intention module) because both require terminating the mechanism of liability (membership / shared intention) by communicated, pre-offence departure."
+        }
+      ]
+    },
+    {
+      "id": "CO_GE",
+      "name": "No General Exception — The Negation Layer",
+      "sub": "S.76–106 PPC — applied to S.149 as to every offence",
+      "step": "Element 8 of 8",
+      "atom": "CO_GE",
+      "desc": "The General Exceptions (S.76–106) apply to S.149 by operation of S.6 PPC — as to every offence in the Code — without needing to be stated. A proven exception negates liability even where all other S.149 elements are fully established. In the context of mob violence and unlawful assembly, three exceptions are most practically relevant: private defence (S.96–106), duress / compulsion by threats (S.94), and accident (S.80). Each is available in principle; each faces distinct challenges in the unlawful-assembly context.",
+      "legal": "Private defence is the most commonly raised exception in mob violence cases, but it faces a significant limiting principle in this context: S.99's third limitation removes the right of private defence where there was time to have recourse to the protection of public authorities. A member of an unlawful assembly who had both the opportunity and time to call police before violence occurred will find S.99 operating against them. Private defence is more plausible for a defendant who can show they were effectively trapped in the assembly and faced genuine immediate threat — facts that are difficult to establish while simultaneously being a S.142-qualified member. Duress under S.94 requires threat of instant death — it is available in theory but requires the assembly member to establish that their continued presence was not voluntary but compelled by immediate lethal threat from co-members, a high bar. Accident under S.80 requires a lawful act done with proper care — difficult to establish for a member of an unlawful assembly, where the very underlying assembly was unlawful.",
+      "cite": "S.76-106 PPC General Exceptions — applied to S.149 by S.6's universal application; S.99 PPC third limitation (time to seek public authority) as the most practically significant restraint on private defence claims in unlawful assembly contexts.",
+      "ll": "S.76-106 PPC General Exceptions — official text; General Exceptions module for full treatment",
+      "section": null,
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A, a member of an unlawful assembly, is confronted directly by another member who holds a weapon to A's head and says 'stay or I kill you.' A remains in the assembly and is present when the offence is committed. Apply S.94 compulsion by threats to A's liability.",
+          "reveal": "S.94 is potentially available on these facts — immediate threat of death, from a co-member holding a weapon, is the kind of threat S.94 is designed for. The section requires: (a) a threat reasonably causing apprehension of instant death, (b) no prior voluntary placement in the situation. The key question is whether A voluntarily joined the assembly initially — if A joined freely and the compulsion arose later, the S.94 proviso (about voluntarily placing oneself in a situation enabling compulsion) may not apply, since A did not join the assembly knowing this coercion would occur. However, S.94 expressly excludes murder from its scope — so if the offence A faces liability for under S.149 is murder, S.94 cannot be a complete defence to that specific charge, even on these facts. It may be available for any other offence the assembly committed.",
+          "cite": "S.94 PPC compulsion by threats — potentially available in unlawful assembly context but (a) not applicable to murder charges and (b) limited by the voluntary-placement proviso if the coercion arose after the accused voluntarily joined."
+        },
+        {
+          "q": "B, a member of an unlawful assembly, raises private defence (S.96–106) on the basis that B personally used force against the victim in response to the victim attacking B first. This private defensive act incidentally makes B a participant in the killing. Apply S.99's limitations.",
+          "reveal": "The private defence claim here is formally available — B's responsive force was a reaction to an attack on B personally. However, the analysis under S.99 is critical: first, S.99's fourth limitation requires that the force used must not be more than necessary for the purpose of defence (proportionality). If B's responsive force was proportionate to the threat, that element is satisfied. Second, S.99's third limitation — whether there was time to seek public authority — is less likely to operate against B if the attack was genuinely sudden and immediate, leaving no time to call police. The private defence claim is stronger for B than for members who were active aggressors throughout and retroactively claim defence; it requires honest examination of the sequence of events.",
+          "cite": "S.99 PPC limitations on private defence — proportionality (fourth limitation) and time-to-seek-public-authority (third limitation) are the critical tests for private defence claims arising in the context of unlawful assembly participation."
+        },
+        {
+          "q": "C, a member of an unlawful assembly, argues that the offence for which C faces S.149 liability — a killing by another member — should be negated by the General Exceptions because C personally had a valid private defence right at the moment of the killing (another member was threatening C). Apply S.6 and the scope of General Exceptions under S.149.",
+          "reveal": "This is a structural mismatch worth flagging. C's personal private defence right would negate C's own liability for any offence C personally committed in exercise of that right — it does not negate the liability C faces under S.149 for the other member's act. S.149 imposes liability on every member for an offence committed by any member; the General Exception C raises relates to C's own conduct, not to the other member's killing. C would need to raise an exception that goes to the elements of S.149 itself (lack of membership, temporal gap, failure of the disjunctive trigger) rather than an exception to C's personal act, since the offence C is charged with under S.149 is the other member's killing, not C's own responsive force.",
+          "cite": "S.149 PPC — General Exceptions raised against S.149 liability must address the elements of S.149 itself (assembly, membership, trigger); personal private defence rights address C's own acts, not the imputed liability for another member's act."
+        }
+      ]
+    }
+  ]
+}
