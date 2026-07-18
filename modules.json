@@ -72,12 +72,12 @@
     "chapter": "general"
   },
   {
-    "id": "CO",
-    "name": "Common Object",
-    "icon": "⚖️",
-    "section": "S.149 PPC",
-    "type": "module",
-    "src": "modules/co.json",
+    "id": "ABETMENT",
+    "name": "Abetment",
+    "icon": "↪️",
+    "section": "S.107–120 PPC",
+    "type": "branch",
+    "src": "modules/abetment.json",
     "tag": "Active",
     "palette": "general",
     "chapter": "general"
@@ -94,12 +94,12 @@
     "chapter": "general"
   },
   {
-    "id": "ABETMENT",
-    "name": "Abetment",
-    "icon": "↪️",
-    "section": "S.107–120 PPC",
-    "type": "branch",
-    "src": "modules/abetment.json",
+    "id": "CO",
+    "name": "Common Object",
+    "icon": "⚖️",
+    "section": "S.149 PPC",
+    "type": "module",
+    "src": "modules/co.json",
     "tag": "Active",
     "palette": "general",
     "chapter": "general"
