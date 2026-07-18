@@ -2,8 +2,7 @@
   "id": "gexpl",
   "name": "General Explanations — Deep Dive",
   "section": "S.6–52 PPC",
-  "formula": "Gating Term \\u2192 Downstream Chapter Routing",
-  "operator": "\\u2192 Threshold Classification Before Substantive Analysis",
+  "formula": "Gating Term → Downstream Chapter Routing",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "S.21 PPC — eleven enumerated categories, the most cross-referenced term in the Code",
       "step": "Explanation (Tier 1)",
       "atom": "¬S21PS",
-      "operator": "",
       "desc": "S.21 lists eleven enumerated categories of person who qualify as a 'public servant': military/naval/air force officers, judges, court officers, jurymen/assessors/panchayat members, arbitrators, persons empowered to confine others, officers whose duty is to prevent/report offences or bring offenders to justice, officers of government, and several further categories tied to specific public functions.",
       "legal": "S.21 is not background vocabulary — it is a GATE that determines which entire branch of the Code applies before any substantive offence analysis begins. A police officer who breaks into the wrong house while executing a lawful arrest warrant must FIRST be classified under S.21 (almost certainly category 7 or 9, officer whose duty is to bring offenders to justice) before S.78's protection for executing a court order, or S.76/79's good-faith mistake defences, can even be reached — the General Exceptions chapter only becomes relevant once the actor's status and duty are correctly identified through this Explanation. The same gating function recurs throughout the Code: S.116/119's enhanced abetment-concealment tiers, the bribery-adjacent offences, and Criminal Force/Assault's aggravated tiers for assaulting a public servant all require S.21 classification as a threshold question, not an afterthought. Courts have repeatedly had to resolve borderline cases — contractors performing government functions, retired officials acting in a residual capacity, employees of statutory corporations — because the eleven categories, though detailed, do not cover every modern administrative arrangement cleanly.",
       "cite": "S.21 PPC, all eleven categories — official text. Cross-reference S.78 (General Exceptions, court-order execution), S.76/79 (General Exceptions, mistake of fact), S.116/119 (Abetment module, public-servant enhancement tiers).",
       "ll": "S.21 PPC — official text",
       "section": "21",
-      "landmark": [],
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Both terms function as universal gates across multiple chapters already built in this app (General Exceptions, Abetment, Forgery, Trade Marks, Currency Notes) rather than being tied to a single landmark case; no single citation captures their cross-cutting role, flagged honestly rather than inventing one.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "A police officer, executing a facially valid arrest warrant in good faith, breaks into the wrong house due to an address error not of his own making. The homeowner is injured resisting what he reasonably believes is a home invasion. Before any defence analysis begins, what is the FIRST question a lawyer must answer, and why does it matter which chapter the answer routes the case into?",
@@ -48,7 +53,6 @@
       "sub": "S.52 PPC — due care and attention, not mere sincerity",
       "step": "Explanation (Tier 1)",
       "atom": "¬S52GF",
-      "operator": "",
       "desc": "S.52: nothing is said to be done or believed in good faith which is done or believed without due care and attention.",
       "legal": "S.52 is arguably the single most consequential definitional sentence in the entire Code, despite its brevity, because it sets the STANDARD that every good-faith-dependent provision elsewhere silently incorporates: S.76/79 mistake of fact, S.78 court-order execution, S.88/89/92's consent-based medical exceptions, and the reverse-burden defences in Forgery (S.482, S.486) and Currency Notes (S.489F) all turn on whether the actor's belief was held in 'good faith' as S.52 defines it — and S.52 sets an OBJECTIVE standard (due care and attention), not a subjective one (genuine sincerity). This is the single most commonly misunderstood point by students and, in practice, by inexperienced counsel: a defendant who genuinely, sincerely believed something, but arrived at that belief carelessly, has NOT acted in good faith under S.52, and every downstream defence collapses as a result. The consequence of getting this wrong is binary and total — full acquittal versus full conviction — making S.52 the highest-stakes single definitional term in the Code for outcome severity, even though it appears in the statute less often than purely mechanical terms.",
       "cite": "S.52 PPC — official text. Cross-reference S.76/79, S.78, S.88/89/92 (General Exceptions, all built), S.482/486 (Forgery, Trade Marks modules), S.489F (Currency Notes module) — all silently incorporate this same objective due-care standard.",
@@ -62,18 +66,12 @@
           "cite": "S.52 PPC's objective due-care standard — sincere but careless belief fails the test, with the consequence that an entire downstream defence (here, S.78) becomes unavailable."
         },
         {
-          "q": "S.52B defines false imprisonment by reference to 'restraint' that 'confines' in a 'restricted area.' How does this differ from S.339 Wrongful Restraint and S.340 Wrongful Confinement? Could conduct satisfy S.52B without satisfying either?",
-          "reveal": "S.339 requires blocking movement in a particular direction; S.340 restricts in all directions. S.52B's 'restricted area' language most closely tracks S.340 but may be broader — it doesn't import S.340's specific elements. Critically, S.52B is a definition feeding into S.348A–C, which require confinement specifically by an influential person in a private jail — a narrower factual context than either S.339 or S.340.",
           "cite": "Criminal Laws (Amendment) Act, 2023 (S.52B inserted after S.52A, PPC 1860) — Senate of Pakistan"
         },
         {
-          "q": "S.52C's proviso extends 'private jail' to premises in possession of any relative or acquaintance of an influential person. Does this expose the relative to criminal liability, or does it merely define the premises?",
-          "reveal": "The proviso extends the definition of the premises only. Criminal liability under S.348A–C still requires the actor to be an 'influential person' who operates or uses the jail. A relative whose property is used without their involvement is not made criminally liable by the proviso — only the influential person directing the operation is. The proviso targets the property, not the owner.",
           "cite": "Criminal Laws (Amendment) Act, 2023 (S.52C inserted after S.52B, PPC 1860) — Senate of Pakistan"
         },
         {
-          "q": "S.52D defines influential person to include 'the most important person in a group or undertaking.' Could this expose ordinary business executives or NGO directors to liability under S.348A–C? What limiting principle applies?",
-          "reveal": "Ejusdem generis requires reading general terms in light of specific examples in the same list. The specific examples — feudal landlord, tribal chief, Jirga head, land owner — all share the feature of traditional structural power over economically vulnerable rural populations. A court applying ejusdem generis would restrict 'most important person in a group' to those who exercise similar power, excluding institutional hierarchy in commercial or civic organisations.",
           "cite": "Criminal Laws (Amendment) Act, 2023 (S.52D inserted after S.52C, PPC 1860) — Senate of Pakistan"
         },
         {
@@ -99,7 +97,6 @@
       "sub": "S.24/S.25 PPC — wrongful gain/loss vs deception, the line between Theft and Cheating",
       "step": "Explanation (Tier 1)",
       "atom": "¬S2425DF",
-      "operator": "",
       "desc": "S.24: 'dishonestly' means doing something with intent to cause wrongful gain to one person or wrongful loss to another. S.25: 'fraudulently' means doing something with intent to deceive.",
       "legal": "This pairing is the single most consequential mens rea fork in the entire property-offences chapter: which word a section uses determines which offence is even available to charge, and the two concepts are NOT interchangeable despite sounding similar. Dishonesty (S.24) is purely about gain/loss — it requires NO deception of anyone; a person who simply takes property knowing it isn't theirs, with no lie told to anyone, is dishonest but not fraudulent. Fraud (S.25) is purely about deception — it requires NO wrongful gain or loss to be intended; a person who deceives someone purely to embarrass them, with no property motive at all, is fraudulent but not dishonest. Theft (S.378) requires only dishonest intention. Cheating (S.415) requires fraudulent or dishonest inducement plus deception. Many Forgery and Criminal Misappropriation provisions hinge on which standard the prosecution can actually prove on the facts — getting this fork wrong at the charging stage can mean prosecuting under a section the facts don't support.",
       "cite": "S.24 and S.25 PPC — official text. Cross-reference S.378 PPC (Theft module), S.415 PPC (Cheating module), S.403 PPC (Misappropriation module) — each keyed to one or both of these standards.",
@@ -135,7 +132,6 @@
       "sub": "S.26 PPC — sufficient cause to believe, not certainty and not mere suspicion",
       "step": "Explanation (Tier 1)",
       "atom": "¬S26RTB",
-      "operator": "",
       "desc": "S.26: a person is said to have 'reason to believe' a thing if they have sufficient cause to believe that thing, and not otherwise.",
       "legal": "S.26 sets a deliberately calibrated middle standard, and the calibration matters enormously in practice: it is LOWER than actual knowledge (the person need not be certain or have direct proof) but HIGHER than mere suspicion or curiosity (idle doubt or a passing hunch does not satisfy it). This is the recurring evidentiary threshold in Receiving Stolen Property (S.410-414, where 'reason to believe' the property was stolen is the core mental element), several Abetment provisions, and reverse-burden defences across Forgery and Currency Notes already built elsewhere in this app. The standard is OBJECTIVE — sufficient cause judged by what a reasonable person in the defendant's position would have inferred from the circumstances actually known to them, not by what the defendant subjectively chose to believe or disbelieve.",
       "cite": "S.26 PPC — official text. Cross-reference S.410-414 (Receiving Stolen Property module) — the clearest example of 'reason to believe' as the entire operative mental element of an offence.",
@@ -171,7 +167,6 @@
       "sub": "S.34 PPC — full doctrinal treatment lives in the dedicated Common Intention module",
       "step": "Explanation (Tier 1, scoped)",
       "atom": "¬S34CI",
-      "operator": "",
       "desc": "S.34: when a criminal act is done by several persons in furtherance of the common intention of all, each is liable for that act as if done by him alone. Full 8-element treatment — the foundational rule, prior-concert requirement, the Common Intention vs Common Object (S.149) distinction, the different-intentions limiting principle, and withdrawal — is built in the dedicated Common Intention module.",
       "legal": "S.34's textual rarity in the Code (it appears far less often by name than its practical litigation weight would suggest) is itself the key insight: courts do not need to recite 'S.34' for the doctrine to be in play — it attaches silently to whichever substantive offence is charged, wherever several persons acted with a genuinely shared design. This is exactly why frequency-counting alone would undersell its importance, and exactly why this app gives it a full dedicated module rather than treating it as a minor General Explanations entry. If you have not yet worked through the Common Intention module, start there — this entry exists only to confirm the cross-reference and prevent this General Explanations Deep Dive from duplicating that work.",
       "cite": "S.34 PPC — official text. See the dedicated Common Intention module (8 elements: foundational rule, prior concert, vs Common Object, different-intentions limit, withdrawal) for full treatment.",
@@ -197,7 +192,6 @@
       "sub": "S.39 PPC — causing an effect by means which one had the power of controlling, with knowledge or reason to believe a likely effect",
       "step": "Explanation (Tier 1)",
       "atom": "¬S39VOL",
-      "operator": "",
       "desc": "S.39: a person is said to cause an effect 'voluntarily' when they cause it by means whereby they had the power of controlling its production, and either intended to cause it, or, by the means employed, knew or had reason to believe it likely to be caused.",
       "legal": "S.39 is the lowest-frequency-of-actual-dispute but highest-stakes term in this entire tier: it decides whether there is an Actus Reus at all, not merely how severe the offence is. A genuinely involuntary act — true automatism, a reflex, an externally-imposed physical force the person had no power to control — fails S.39 entirely, and the prosecution's case collapses at the threshold, before intention, knowledge, or any defence is even reached. This is conceptually distinct from, and prior to, every Mens Rea inquiry: a person can have had the clearest possible criminal intention and still escape liability if the act causing the prohibited effect was not voluntary in this specific S.39 sense, because intention without a voluntary controlling act is not Actus Reus at all.",
       "cite": "S.39 PPC — official text. Cross-reference Actus Reus & Mens Rea foundation module (already built) — S.39 supplies the precise statutory definition of the voluntariness this module's general doctrine depends on.",
@@ -233,7 +227,6 @@
       "sub": "S.43 PPC — defines both the negative (illegal) and positive (legally bound) sides of duty",
       "step": "Explanation (Tier 1)",
       "atom": "¬S43ILB",
-      "operator": "",
       "desc": "S.43: the word 'illegal' applies to everything which is an offence, or which is prohibited by law, or which furnishes ground for a civil action; a person is said to be 'legally bound to do' whatever it is illegal in him to omit.",
       "legal": "S.43's two halves do separate, equally important work. The 'illegal' half is BROADER than 'offence' — it sweeps in civil wrongs and merely prohibited conduct, not only criminal offences, which matters because several PPC provisions (the Wrongful Restraint exception, several abetment provisions) turn on whether conduct was 'illegal' in this wider sense. The 'legally bound to do' half is the precise mirror-image definition that makes OMISSION liability coherent at all: a person is only legally bound to do something if failing to do it would itself be illegal — this is the exact term your wrong-address-raid scenario implicates directly, since whether an officer was 'legally bound' to execute the warrant (and thus protected if executing it carefully) versus merely permitted to is the textual hook S.76/78 actually rely on.",
       "cite": "S.43 PPC — official text. Cross-reference S.76 PPC (General Exceptions, mistake of fact, 'bound by law'), S.118 PPC (Abetment module, illegal omission as concealment).",
@@ -269,7 +262,6 @@
       "sub": "S.44 PPC — harm to body, mind, reputation, or property",
       "step": "Explanation (Tier 1)",
       "atom": "¬S44INJ",
-      "operator": "",
       "desc": "S.44: the word 'injury' denotes any harm whatever illegally caused to any person, in body, mind, reputation, or property.",
       "legal": "S.44's deliberately broad, four-category definition (body, mind, reputation, property) is the harm concept that Criminal Intimidation (S.503's threat-of-injury structure), Hurt's proportionality analysis, and Private Defence's S.99 limitation (no more harm than necessary) all silently incorporate. The critical practical point is that 'injury' under the PPC is NOT limited to physical harm — purely psychological harm (mind), purely reputational harm (a threat to expose a damaging truth or falsehood), and purely economic/property harm each independently qualify, meaning a threat need not involve any physical violence at all to constitute criminal intimidation through threatened 'injury.' The word 'illegally' within the definition is also load-bearing: harm lawfully caused (a court-ordered fine, a lawful arrest causing reputational embarrassment) does not count as 'injury' for these purposes, however much actual harm results.",
       "cite": "S.44 PPC — official text. Cross-reference S.503 PPC (Criminal Intimidation module, threat of injury), S.99 PPC (General Exceptions, Private Defence proportionality limit).",
@@ -305,7 +297,6 @@
       "sub": "S.29 PPC — any matter expressed/described upon any substance by marks, used as evidence",
       "step": "Explanation (Tier 2)",
       "atom": "¬S29DOC",
-      "operator": "",
       "desc": "S.29: 'document' denotes any matter expressed or described upon any substance by means of letters, figures, or marks, intended to be used as evidence of that matter.",
       "legal": "S.29's definition is intentionally substance-neutral — paper is not required, only that marks be made on SOME substance with evidentiary intent. This load-bears the entire Forgery chapter (already built), where what counts as a 'document' capable of being forged determines the chapter's outer boundary.",
       "cite": "S.29 PPC — official text. Cross-reference Forgery module (S.463-477A, already built).",
@@ -326,7 +317,6 @@
       "sub": "S.30 PPC — a document creating, extending, transferring, or extinguishing a legal right",
       "step": "Explanation (Tier 2)",
       "atom": "¬S30VS",
-      "operator": "",
       "desc": "S.30: 'valuable security' denotes a document which is, or purports to be, a document whereby any legal right is created, extended, transferred, restricted, extinguished, or released, or whereby any person acknowledges that they lie under legal liability or have not a certain legal right.",
       "legal": "This is narrower than 'document' (S.29) — it specifically requires the document to operate on legal RIGHTS, which is why forging a valuable security (S.467, life imprisonment tier) is punished more severely than forging an ordinary document (S.465) within the already-built Forgery module.",
       "cite": "S.30 PPC — official text. Cross-reference S.467 PPC vs S.465 PPC (Forgery module) — the severity differential this distinction drives.",
@@ -347,7 +337,6 @@
       "sub": "S.22 PPC — corporeal property of every description, except land and things attached to earth",
       "step": "Explanation (Tier 2)",
       "atom": "¬S22MP",
-      "operator": "",
       "desc": "S.22: 'moveable property' includes corporeal property of every description, except land and things attached to the earth or permanently fastened to anything attached to the earth.",
       "legal": "This is the entire outer boundary of Theft (S.378, already built) — only moveable property can be stolen under the PPC's structure; immovable property is governed by separate trespass and land-law provisions. The 'corporeal' requirement is itself significant: this is why purely digital data has historically sat outside Theft's reach, a real gap addressed by separate cyber-crime legislation rather than the PPC itself.",
       "cite": "S.22 PPC — official text. Cross-reference S.378 PPC (Theft module) — moveable property is Theft's entire object-boundary.",
@@ -368,7 +357,6 @@
       "sub": "S.11 PPC — includes any Company, Association, or body of persons, incorporated or not",
       "step": "Explanation (Tier 2)",
       "atom": "¬S11PER",
-      "operator": "",
       "desc": "S.11: 'person' includes any Company or Association or body of persons, whether incorporated or not.",
       "legal": "This extends criminal liability beyond natural human beings to corporate and unincorporated bodies — directly relevant wherever a company is alleged to have committed an offence (e.g. Cheating, Mischief, regulatory PPC offences), and explains why corporate criminal liability is structurally possible under the PPC at all.",
       "cite": "S.11 PPC — official text.",
@@ -389,7 +377,6 @@
       "sub": "S.40 PPC — denotes a thing punishable under this Code, or under any special/local law",
       "step": "Explanation (Tier 2)",
       "atom": "¬S40OFF",
-      "operator": "",
       "desc": "S.40: 'offence' denotes a thing made punishable by this Code; in several specified sections it also extends to acts punishable under any special or local law.",
       "legal": "This confirms the PPC's 'offence' concept is not hermetically sealed — certain sections deliberately extend the term to capture special/local law violations as well, which matters for provisions (like several Abetment sections) that reference 'offence' broadly enough to sweep in non-PPC statutory crimes.",
       "cite": "S.40 PPC — official text. Cross-reference General Explanations S.5 (special laws preserved).",
@@ -410,7 +397,6 @@
       "sub": "S.20 PPC — a Judge empowered to act judicially alone, or a body of judges so empowered collectively",
       "step": "Explanation (Tier 2)",
       "atom": "¬S20COJ",
-      "operator": "",
       "desc": "S.20: 'Court of Justice' denotes a Judge empowered by law to act judicially alone, or a body of Judges empowered by law to act judicially as a body, when such Judge or body is acting judicially.",
       "legal": "The 'acting judicially' qualifier is the operative limit — a judge engaged in purely administrative tasks is not, at that moment, a 'Court of Justice' for PPC purposes, which matters for S.77's judicial-act immunity and S.78's court-order execution protection (both already built in General Exceptions), since both turn on whether the relevant act was genuinely judicial.",
       "cite": "S.20 PPC — official text. Cross-reference S.77/S.78 PPC (General Exceptions, already built).",
@@ -431,12 +417,11 @@
       "sub": "The invisible scaffolding: how every other section of the Code must be read",
       "step": "Explanation (Tier 2, structural)",
       "atom": "¬S6_37_38STRUCT",
-      "operator": "",
       "desc": "S.6: every offence definition, penal provision, and illustration is automatically subject to the General Exceptions chapter, even without saying so explicitly. S.37: where an offence requires several acts to be done together, a person who intentionally cooperates in any one of those acts by doing any other act is liable for the offence committed by that cooperation. S.38: persons engaged in the same criminal act may be guilty of different offences, depending on each person's own intention or knowledge.",
       "legal": "These three rules have zero name-recognition in litigated case law because they are never themselves the subject of a charge — they are the grammar that makes every other section readable correctly, which is precisely why they deserve deliberate attention despite contributing nothing to a frequency count. S.6 means a student should NEVER read an offence definition as if General Exceptions might not apply — it always does, by default, unless the Code says otherwise. S.37 confirms that partial cooperation in a multi-act offence is enough for full liability — a person need not perform every act personally. S.38 is the critical corrective to a common misconception: participants in the SAME criminal episode are not automatically guilty of the SAME offence — each person's liability is assessed by their own individual intention or knowledge, a principle already seen operating concretely in Common Intention's limiting principle (different intentions, different liability) and Abetment's S.110/S.113 divergent-mental-state rules.",
       "cite": "S.6, S.37, S.38 PPC — official text. Cross-reference Common Intention module's different-intentions limiting principle and S.110/S.113 PPC (Abetment module) — both concrete applications of S.38's underlying principle.",
       "ll": "S.6, S.37, S.38 PPC — official text",
-      "section": "6",
+      "section": null,
       "landmark": [],
       "sq": [
         {
@@ -462,12 +447,11 @@
       "sub": "Life, Death, Gender, Number, Man/Woman, Public, Government, Animal, Servant of Government, Wrongful Gain/Loss, Property in Possession of Clerk/Servant",
       "step": "Explanation (Tier 3, bundled)",
       "atom": "¬TIER3LIGHT",
-      "operator": "",
       "desc": "S.45 Life: the word 'life' denotes the life of a human being, unless contrary appears from context. S.46 Death: 'death' denotes the death of a human being, unless contrary appears. S.8 Gender: pronouns of one gender include the other. S.9 Number: singular includes plural and vice versa. S.10 Man/Woman: 'man' denotes a male human being of any age; 'woman' a female human being of any age. S.12 Public: includes any class of the public or community. S.17 Government: denotes the Federal Government or a Provincial Government. S.47 Animal: denotes any living creature other than a human being. S.14 Servant of Government: every officer/servant in the service of Government. S.23 Wrongful gain/loss: gain/loss by unlawful means of property to which the gaining/losing person is not legally entitled. S.27 Property in possession of wife/clerk/servant: deemed in the possession of the person on whose account it is held.",
       "legal": "These terms are bundled deliberately, not as a shortcut, but because the weighting principle established for this module specifically excludes them from heavy treatment: each is genuinely settled, rarely contested in practice, and supplies background clarity rather than gating any downstream chapter or producing a meaningful body of interpretive case law. The one item worth flagging specifically: S.10's definition of 'man'/'woman' applying to 'any age' (not adults specifically) is a small but real point of frequent confusion — it means these terms are NOT age-restricted the way 'major'/'minor' terminology would be, and a PPC provision using 'man' or 'woman' applies regardless of the person's age unless the specific section separately imposes an age requirement (as several offences, e.g. in the Marriage and Women module, separately and explicitly do).",
       "cite": "S.8, S.9, S.10, S.12, S.14, S.17, S.23, S.27, S.45, S.46, S.47 PPC — official text, bundled.",
       "ll": "S.8-S.47 PPC (selected) — official text",
-      "section": "8",
+      "section": null,
       "landmark": [],
       "sq": [
         {

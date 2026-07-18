@@ -2,8 +2,7 @@
   "id": "punish",
   "name": "Punishments — Deep Dive",
   "section": "S.53–75 PPC",
-  "formula": "Punishment Type \\u2192 Strategic/Procedural Consequence",
-  "operator": "\\u2192 Gating vs Mechanical Sentencing Provisions",
+  "formula": "Punishment Type → Strategic/Procedural Consequence",
   "type": "accordion",
   "els": [
     {
@@ -12,13 +11,19 @@
       "sub": "S.53 PPC — Qisas, Diyat, Arsh, Daman, Ta'zir, Death, Life Imprisonment, Imprisonment, Forfeiture, Fine",
       "step": "Punishment Type 1 of 4",
       "atom": "¬S53PUN",
-      "operator": "",
       "desc": "S.53 lists the punishments offenders are liable to: Qisas (retributive equivalence, primarily for Qatl/Hurt), Diyat (compensation), Arsh (compensation for hurt), Daman (compensation for property/financial loss), Ta'zir (discretionary state punishment), Death, Imprisonment for Life, Imprisonment (Rigorous or Simple), Forfeiture of Property, and Fine.",
       "legal": "S.53's list is not a menu of equivalent options — it reflects two genuinely distinct punishment PHILOSOPHIES operating side by side in the same Code, already mapped in the Theories of Punishment Evolutionary Arc module: the Qisas/Diyat/Arsh/Daman framework (Islamic-law-derived, victim/heir-controlled, primarily governing Qatl and Hurt) and the Ta'zir/Death/Imprisonment/Fine framework (state-controlled, discretionary, governing the vast majority of other PPC offences). The practical, career-defining implication is this: in Qisas-eligible offences, the VICTIM'S HEIRS, not the state alone, control whether the harshest punishment is actually imposed — they can waive Qisas, accept Diyat instead, or in honour-killing cases under S.311 (Murder module, already built), find that waiver itself overridden by a mandatory state floor. A lawyer who treats all PPC punishment as uniformly state-controlled will misadvise a client in any Qatl or Hurt matter.",
       "cite": "S.53 PPC — official text. Cross-reference Theories of Punishment Evolutionary Arc (already built), Qatl Core module (S.301-331, Qisas/Diyat mechanics), S.311 PPC (Murder module, honour-killing override).",
       "ll": "S.53 PPC — official text",
       "section": "53",
-      "landmark": [],
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "Connects directly to the Theories of Punishment Evolutionary Arc module already built, and to the Qatl Core / Murder modules’ Qisas/Diyat mechanics, rather than standing on a single isolated case.",
+          "verified": false
+        }
+      ],
       "sq": [
         {
           "q": "A client's relative was killed in what appears to be an ordinary, non-honour-related Qatl-i-Amd. The victim's heirs are considering forgiving the offender. Which punishment framework genuinely governs this decision, and who actually holds the power to decide the offender's fate?",
@@ -43,12 +48,11 @@
       "sub": "S.55A PPC — S.53-55's commutation provisions do not limit the President's constitutional pardon power",
       "step": "Punishment Type 2 of 4",
       "atom": "¬S55APREROG",
-      "operator": "",
       "desc": "S.55A: nothing in S.53, S.54, or S.55 shall affect the power of the President to grant pardons, reprieves, and respites, or to remit, suspend, or commute sentences, under the Constitution.",
       "legal": "S.55A is a deliberately narrow but practically vital clarification: it confirms that the PPC's own internal commutation rules (S.54's death-sentence commutation, S.55's life-imprisonment commutation) are a FLOOR, not a CEILING — they do not constrain or exhaust the separate, constitutionally-sourced presidential clemency power. A lawyer pursuing clemency for a client must understand this is a genuinely separate avenue from the Code's own commutation mechanisms, governed by constitutional rather than purely PPC criteria, and not foreclosed by however S.54/55 happen to apply (or fail to apply) to a given case.",
       "cite": "S.55A PPC — official text. Constitutional source: Presidential pardon power under the Constitution of Pakistan.",
       "ll": "S.55A PPC — official text",
-      "section": "55A",
+      "section": "55",
       "landmark": [],
       "sq": [
         {
@@ -64,7 +68,6 @@
       "sub": "S.71/S.72 PPC — preventing double-punishment traps",
       "step": "Punishment Type 3 of 4",
       "atom": "¬S7172LIMIT",
-      "operator": "",
       "desc": "S.71: where an act, or series of acts, constitutes an offence made up of several offences, the offender is not punished with more severe punishment than the court could award for any one of those constituent offences (subject to specific exceptions). S.72: where a person is found guilty of one of several offences, but the court is doubtful as to which one, the offender is punished for the offence carrying the LOWEST punishment, if the court is satisfied the offender is guilty of one of them.",
       "legal": "These are genuine, frequently-relevant litigation safeguards, not technical footnotes. S.71 directly addresses a real prosecutorial temptation: stacking separately-chargeable components of a single criminal episode to inflate cumulative punishment beyond what any single constituent offence would carry — S.71 caps this. S.72 is the punishment-stage application of the broader principle of resolving genuine doubt in the accused's favour: where the EVIDENCE clearly establishes guilt of SOMETHING but leaves genuine doubt about which of several specific offences was committed, the court must default to the lowest-punished option rather than the highest. Both provisions are defence-side tools worth knowing to invoke specifically, not merely background sentencing trivia.",
       "cite": "S.71, S.72 PPC — official text.",
@@ -90,7 +93,6 @@
       "sub": "S.75 PPC — prior conviction under Chapter XII or XVII enhances punishment for a repeat offence",
       "step": "Punishment Type 4 of 4",
       "atom": "¬S75RECID",
-      "operator": "",
       "desc": "S.75: where a person, having been previously convicted of an offence punishable under Chapter XII (offences relating to coin and government stamps) or Chapter XVII (offences against property), is again convicted of an offence punishable under either chapter, they are liable to enhanced punishment for the second offence.",
       "legal": "S.75's scope is genuinely narrow — it does NOT create a general recidivism enhancement across the whole Code; it is specifically confined to repeat offences within Chapter XII (coin/stamps) and Chapter XVII (property offences, the chapter housing Theft, Extortion, Robbery, Cheating, Mischief, Criminal Trespass, all already built in this app). A defence lawyer should know precisely this narrowness: a client with a prior conviction for an entirely unrelated offence (say, a Hurt offence) facing a NEW property-offence charge cannot be enhanced under S.75 on the basis of that unrelated prior conviction — only a prior conviction within these same two chapters triggers the enhancement.",
       "cite": "S.75 PPC — official text. Cross-reference the property-offence modules already built (Theft, Extortion, Robbery, Cheating, Mischief, Criminal Trespass — all within Chapter XVII).",
@@ -111,7 +113,6 @@
       "sub": "S.54/S.55 PPC — government's power to commute, distinct from presidential clemency",
       "step": "Mechanics 1 of 3",
       "atom": "¬S5455COMM",
-      "operator": "",
       "desc": "S.54: the appropriate Government may, without the offender's consent, commute a death sentence to any other punishment under the Code. S.55: the appropriate Government may, without the offender's consent, commute a life-imprisonment sentence to imprisonment for a term not exceeding fourteen years.",
       "legal": "These provisions sit one level below S.55A's presidential clemency power and operate through a different actor (the 'appropriate Government' — federal or provincial, depending on the matter) rather than the President personally. Practically: S.55's fourteen-year cap is a hard ceiling — a commuted life sentence cannot exceed fourteen years under this specific provision, a concrete number worth knowing precisely when advising a client on realistic outcomes.",
       "cite": "S.54, S.55 PPC — official text. Cross-reference S.55A PPC (presidential clemency, distinct power and actor).",
@@ -132,12 +133,11 @@
       "sub": "S.57, S.60, S.63–70 PPC — sentence composition and fine-to-imprisonment conversion",
       "step": "Mechanics 2 of 3",
       "atom": "¬S6070RIG",
-      "operator": "",
       "desc": "S.57: in calculating fractions of terms of punishment, life imprisonment is reckoned as a fixed term for fraction-calculation purposes. S.60: a court may direct a sentence of imprisonment be wholly or partly rigorous or simple. S.63-70: govern the amount of fine, default imprisonment for non-payment, the cap on such default imprisonment relative to the main sentence, and termination of imprisonment upon payment (including proportional payment).",
       "legal": "The practically critical rule across this cluster is S.65's CAP: default imprisonment for non-payment of fine cannot exceed one-fourth of the maximum term of imprisonment provided for the offence itself, wherever both fine and imprisonment are separately awardable — preventing a fine default from functionally imposing a near-equivalent prison term through the back door. S.69 is the client-protective complement: imprisonment terminates immediately upon payment of even a PROPORTIONAL part of the fine, not only full payment, meaning partial payment by a client's family can shorten default imprisonment proportionally rather than requiring the full amount before any benefit accrues.",
       "cite": "S.57, S.60, S.63-70 PPC — official text, grouped.",
       "ll": "S.63-70 PPC — official text",
-      "section": "63",
+      "section": "57",
       "landmark": [],
       "sq": [
         {
@@ -158,7 +158,6 @@
       "sub": "S.73/S.74 PPC — narrow availability, strict duration caps",
       "step": "Mechanics 3 of 3",
       "atom": "¬S7374SOLIT",
-      "operator": "",
       "desc": "S.73: a court may direct that an offender sentenced to rigorous imprisonment be kept in solitary confinement for a part of the term, subject to limits. S.74: solitary confinement cannot exceed fourteen days at a time, with intervals of at least the same duration between periods, and a maximum of three months total across the entire sentence, scaled down for shorter sentences.",
       "legal": "S.74's caps are precise and worth knowing exactly: no single solitary period may exceed fourteen days, periods must be separated by intervals of at least equal length, and the maximum total across an entire sentence is three months. These are genuine, hard ceilings — a sentence imposing solitary confinement beyond these specific limits is itself open to challenge, making this a concrete, citable defence point rather than background sentencing trivia.",
       "cite": "S.73, S.74 PPC — official text.",
