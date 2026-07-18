@@ -37,12 +37,6 @@
       "name": "Theories of Punishment",
       "section": "Penology",
       "src": "foundations/theories.json"
-    },
-    {
-      "id": "reasoning",
-      "name": "Ratio Legis",
-      "section": "Logic & Quantitative Reasoning",
-      "src": "foundations/reasoning.json"
     }
   ]
 }
