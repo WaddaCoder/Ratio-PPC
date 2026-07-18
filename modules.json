@@ -51,6 +51,61 @@
     "chapter": "general"
   },
   {
+    "id": "JUR",
+    "name": "PPC Jurisdiction",
+    "icon": "🗺️",
+    "section": "S.1–5 PPC",
+    "type": "accordion",
+    "src": "foundations/jur.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "ACTUS",
+    "name": "Actus Reus & Mens Rea",
+    "icon": "⚖️",
+    "section": "Foundational Doctrine",
+    "type": "accordion",
+    "src": "foundations/actus.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "STAGES",
+    "name": "Stages of Crime",
+    "icon": "🪜",
+    "section": "Foundational Doctrine",
+    "type": "accordion",
+    "src": "foundations/stages.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "THEORIES",
+    "name": "Theories of Punishment",
+    "icon": "⚖️",
+    "section": "Foundational Doctrine",
+    "type": "accordion",
+    "src": "foundations/theories.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "STATINTERP",
+    "name": "Statutory Interpretation",
+    "icon": "📖",
+    "section": "Legal Foundation",
+    "type": "accordion",
+    "src": "foundations/statinterp.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
     "id": "CI",
     "name": "Common Intention",
     "icon": "🔗",
