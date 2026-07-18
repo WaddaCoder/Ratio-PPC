@@ -3,7 +3,7 @@
     "id": "LEGAL_FOUNDATIONS",
     "name": "Legal Foundations",
     "icon": "⚖️",
-    "section": "S.6, S.76–106 PPC — 7 structural doctrines",
+    "section": "Foundational doctrine — 4 structural principles",
     "type": "submodule_registry",
     "src": "legal-foundations.json",
     "tag": "Gateway",
@@ -13,17 +13,16 @@
       "Actus Reus",
       "Stages of Crime",
       "Theories",
-      "Stat. Interpretation",
-      "Jurisdiction"
+      "Stat. Interpretation"
     ]
   },
   {
-    "id": "GE",
-    "name": "General Exceptions",
-    "icon": "🛡️",
-    "section": "S.76–106 PPC",
+    "id": "JUR",
+    "name": "PPC Jurisdiction",
+    "icon": "🗺️",
+    "section": "S.1–5 PPC",
     "type": "accordion",
-    "src": "foundations/ge.json",
+    "src": "foundations/jur.json",
     "tag": "Active",
     "palette": "general",
     "chapter": "general"
@@ -46,6 +45,17 @@
     "section": "S.53–75 PPC",
     "type": "accordion",
     "src": "foundations/punish.json",
+    "tag": "Active",
+    "palette": "general",
+    "chapter": "general"
+  },
+  {
+    "id": "GE",
+    "name": "General Exceptions",
+    "icon": "🛡️",
+    "section": "S.76–106 PPC",
+    "type": "accordion",
+    "src": "foundations/ge.json",
     "tag": "Active",
     "palette": "general",
     "chapter": "general"

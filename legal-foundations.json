@@ -3,40 +3,32 @@
   "subtitle": "Structural doctrines that govern every offence",
   "modules": [
     {
-      "id": "jur",
-      "name": "Jurisdiction",
-      "section": "S.1–5 PPC",
-      "src": "foundations/jur.json"
-    },
-    {
       "id": "actus",
       "name": "Actus Reus & Mens Rea",
       "section": "Core doctrine",
-      "src": "foundations/actus.json"
+      "src": "foundations/actus.json",
+      "icon": "🧠"
     },
     {
       "id": "statinterp",
       "name": "Statutory Interpretation",
       "section": "Doctrine",
-      "src": "foundations/statinterp.json"
+      "src": "foundations/statinterp.json",
+      "icon": "🔍"
     },
     {
       "id": "stages",
       "name": "Stages of Crime",
       "section": "S.511 PPC",
-      "src": "foundations/stages.json"
-    },
-    {
-      "id": "punish",
-      "name": "Punishment — S.53 Framework",
-      "section": "S.53 PPC",
-      "src": "foundations/punish.json"
+      "src": "foundations/stages.json",
+      "icon": "🪜"
     },
     {
       "id": "theories",
       "name": "Theories of Punishment",
       "section": "Penology",
-      "src": "foundations/theories.json"
+      "src": "foundations/theories.json",
+      "icon": "🏛️"
     }
   ]
 }
