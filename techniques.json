@@ -1,6 +1,143 @@
 {
-  "version": "2.0",
-  "last_updated": "2026-06-26",
+  "version": "2.9",
+  "last_updated": "2026-07-18",
+  "hyperlink_passes": [
+    {
+      "pass": 1,
+      "date": "2026-07-18",
+      "scope": "General Part — Foundational Doctrine",
+      "modules": [
+        "GE",
+        "GEXPL",
+        "PUNISH",
+        "JUR",
+        "ACTUS",
+        "STAGES",
+        "THEORIES",
+        "STATINTERP"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 8
+    },
+    {
+      "pass": 2,
+      "date": "2026-07-18",
+      "scope": "General Part — Liability Multipliers",
+      "modules": [
+        "CI",
+        "CO",
+        "CC",
+        "ABETMENT"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 5
+    },
+    {
+      "pass": 3,
+      "date": "2026-07-18",
+      "scope": "Person — Homicide",
+      "modules": [
+        "MURDER",
+        "QATLCORE",
+        "QATLADJ"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 3,
+      "id_fixes": [
+        "murder.json received this pass — fixed 2 pre-existing 'cl2' elementId errors (should have been 'Qisas') now that the real file could be checked"
+      ]
+    },
+    {
+      "pass": 4,
+      "date": "2026-07-18",
+      "scope": "Person — Hurt & Wrongful Restraint",
+      "modules": [
+        "HURTCORE",
+        "HURTCORE2",
+        "ISQAT",
+        "WRESTRAINT"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 5,
+      "id_fixes": [
+        "hurtcore/S337M ITER entry corrected: wrong module (belongs to HURTCORE2) AND fabricated content (described 'S.337-H rash/negligent act' provisions that don't exist anywhere in the extracted data) — replaced with S337M's real four-category Qisas-exclusion structure"
+      ]
+    },
+    {
+      "pass": 5,
+      "date": "2026-07-18",
+      "scope": "Person — Sexual & Liberty Offences",
+      "modules": [
+        "FORCEASSAULT",
+        "KIDNAP",
+        "RAPE",
+        "UNNATURAL"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 5,
+      "id_fixes": [
+        "rape/rc1 (CONJUNCT and DISJUNCT, 2 entries): elementId corrected to 'Act' and '¬Con' respectively — labels were already accurate, just pointing at a nonexistent ID"
+      ]
+    },
+    {
+      "pass": 6,
+      "date": "2026-07-18",
+      "scope": "Property — Theft & Robbery",
+      "modules": [
+        "THEFT",
+        "EXTORTION",
+        "ROBBERY"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 4,
+      "id_fixes": [
+        "robbery/rl1 (XREF): elementId corrected to 'T∨E' — label was accurate, just pointing at a nonexistent ID. This closes out every pre-existing mismatch identified back at v2.0 — all 4 original bad IDs across the whole file are now resolved."
+      ]
+    },
+    {
+      "pass": 7,
+      "date": "2026-07-18",
+      "scope": "Property — Fraud & Damage",
+      "modules": [
+        "MISAPPROP",
+        "RECEIVING",
+        "CHEATING",
+        "FRAUDDEEDS",
+        "MISCHIEF",
+        "TRESPASS"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 5
+    },
+    {
+      "pass": 8,
+      "date": "2026-07-18",
+      "scope": "Reputation, Family & Public Order",
+      "modules": [
+        "FORGERY",
+        "TRADEMARKS",
+        "CURRENCY",
+        "MARRIAGE",
+        "DEFAMATION",
+        "INTIMIDATION"
+      ],
+      "status": "COMPLETE",
+      "entries_added": 6
+    },
+    {
+      "pass": 9,
+      "date": "2026-07-18",
+      "scope": "State & Special Offences",
+      "modules": [
+        "STATEOFF",
+        "ARMYOFF",
+        "TRANQUILLITY",
+        "BLASPHEMY"
+      ],
+      "status": "COMPLETE — FINAL PASS, ALL 9 PASSES COMPLETE",
+      "entries_added": 4
+    }
+  ],
   "section_title": "Code Hyperlinks",
   "section_subtitle": "How the Code connects — 16 relationship types",
   "note": "Each entry: label, sub-label, target module key, elementId. Renderer calls startOAt(module, elementId) on tap. All module keys and elementIds verified against ppc_navigator_v82.html.",
@@ -145,7 +282,7 @@
           "label": "S.375 Rape: sexual act AND absence of consent — must coexist at the same moment",
           "sub": "Consent given before or after, but not at the time, does not satisfy the conjunction",
           "module": "RAPE",
-          "elementId": "rc1"
+          "elementId": "Act"
         },
         {
           "label": "S.499 Defamation: statement AND injury to reputation AND publication to a third party",
@@ -164,6 +301,30 @@
           "sub": "A threat without the intention to alarm, or alarm without a qualifying threat, fails the section",
           "module": "INTIMIDATION",
           "elementId": "S503"
+        },
+        {
+          "label": "AR ∧ MR ∧ Concurrence — all three required at the same moment for standard liability",
+          "sub": "Strict Liability is the sole carve-out where MR is dispensed with by deliberate legislative choice",
+          "module": "ACTUS",
+          "elementId": "Con"
+        },
+        {
+          "label": "S.107(3) Intentional Aid: intentional facilitation act/omission AND actual assistance to the commission — both required, not either alone",
+          "sub": "Inadvertent help that happens to assist doesn't count; deliberate help that fails to actually facilitate anything doesn't count either",
+          "module": "ABETMENT",
+          "elementId": "Aid"
+        },
+        {
+          "label": "S.339 Wrongful Restraint: voluntary obstruction AND the person has a legal right to proceed in that direction — both required",
+          "sub": "Obstructing someone from going somewhere they had no right to go anyway is not restraint at all",
+          "module": "WRESTRAINT",
+          "elementId": "WRest"
+        },
+        {
+          "label": "S.378 Theft: Dishonest Intention ∧ Movable Property ∧ Out of Possession ∧ Without Consent ∧ Movement — all five required simultaneously",
+          "sub": "Failing any single element collapses the whole charge — the Code's own textbook conjunction offence",
+          "module": "THEFT",
+          "elementId": "D"
         }
       ]
     },
@@ -227,6 +388,12 @@
           "sub": "An accessory after the fact — the principal offence determines the exposure",
           "module": "RECEIVING",
           "elementId": "S414"
+        },
+        {
+          "label": "S.377B carries no offence definition of its own — its punishment (14–20 years) attaches entirely and derivatively to conduct already defined in S.377A",
+          "sub": "A punishment-only section: reading S.377B in isolation tells you the sentence but nothing about what conduct triggers it",
+          "module": "UNNATURAL",
+          "elementId": "S377B"
         }
       ]
     },
@@ -265,7 +432,7 @@
           "label": "S.375 Rape: consent vitiated by any ONE of multiple circumstances",
           "sub": "Force / fear / intoxication / unsound mind / deception / minority — any one vitiates consent",
           "module": "RAPE",
-          "elementId": "rc1"
+          "elementId": "¬Con"
         },
         {
           "label": "S.390 Robbery: underlying offence is theft OR extortion — disjunctive foundation",
@@ -296,6 +463,24 @@
           "sub": "Two independent limbs; property delivery and act/omission are separate routes to the offence",
           "module": "CHEATING",
           "elementId": "S415"
+        },
+        {
+          "label": "S.120-A Illegal Object: illegal act OR legal act by illegal means OR causing an illegal act OR causing a legal act by illegal means — any ONE suffices",
+          "sub": "The means, not just the end, can turn an otherwise lawful objective into a criminal conspiracy",
+          "module": "CC",
+          "elementId": "Ill"
+        },
+        {
+          "label": "S.304 Proof of Qatl-i-Amd for Qisas: a voluntary confession before a competent court OR evidence under Qanun-e-Shahadat Order Art.17 — either suffices",
+          "sub": "An evidentiary disjunction, not a substantive one — the same two-mode proof standard also governs hurt liable to Qisas",
+          "module": "QATLCORE",
+          "elementId": "S304"
+        },
+        {
+          "label": "S.350 Criminal Force: force used without consent to commit an offence, OR intending injury/fear/annoyance, OR knowing injury/fear/annoyance is likely — any ONE route suffices",
+          "sub": "Three independent mental-state routes to the same offence; the prosecution only needs one",
+          "module": "FORCEASSAULT",
+          "elementId": "S350"
         }
       ]
     },
@@ -365,6 +550,12 @@
           "sub": "Each exception is a fully independent defence with its own elements and burden",
           "module": "DEFAMATION",
           "elementId": "S499_Exc1to3"
+        },
+        {
+          "label": "S.359 Kidnapping: one concept → two independent branches — S.360 (from Pakistan) and S.361 (from lawful guardianship)",
+          "sub": "Different actus reus, different victim class, different consent-holder — treat them as two separate offences sharing one name",
+          "module": "KIDNAP",
+          "elementId": "S359_362"
         }
       ]
     },
@@ -397,7 +588,7 @@
           "label": "Qisas regime vs Ta'zir regime: private right vs State punishment",
           "sub": "Qisas belongs to the wali and can be waived; Ta'zir belongs to the State and cannot",
           "module": "MURDER",
-          "elementId": "cl2"
+          "elementId": "Qisas"
         },
         {
           "label": "Wrongful Restraint (S.339) vs Wrongful Confinement (S.340): partial vs total restriction",
@@ -452,6 +643,66 @@
           "sub": "Truth without public good purpose does not satisfy Exception 1; a critical distinction",
           "module": "DEFAMATION",
           "elementId": "S499"
+        },
+        {
+          "label": "S.82 Infancy (absolute bar, under 10) vs S.83 Infancy (10–14, rebuttable maturity test)",
+          "sub": "S.82 admits no evidence either way; S.83 turns entirely on proving maturity of understanding on that occasion",
+          "module": "GE",
+          "elementId": "¬Inf7"
+        },
+        {
+          "label": "S.85 Involuntary Intoxication (full defence) vs S.86 Voluntary Intoxication (narrow specific-intent carve-out only)",
+          "sub": "Voluntary intoxication never negates general-intent liability — only specific-intent offences get the narrower S.86 relief",
+          "module": "GE",
+          "elementId": "¬IntoxInv"
+        },
+        {
+          "label": "Literal Rule vs Purposive Approach, applied to S.300: the four murder clauses are joined by ‘or’ and must be read disjunctively",
+          "sub": "A purposive reading that tried to import extra conditions into any one clause would collapse the section's actual disjunctive structure",
+          "module": "STATINTERP",
+          "elementId": "LR"
+        },
+        {
+          "label": "S.34 Common Intention (requires the criminal act to actually be done) vs S.120-A Conspiracy (agreement alone is the completed offence, no act required)",
+          "sub": "Conspiracy is the earliest possible liability point in group-crime law — CI can't attach until the underlying offence actually happens",
+          "module": "CC",
+          "elementId": "Agr"
+        },
+        {
+          "label": "S.511 general attempt (half the max sentence) vs S.324 Qatl-specific attempt (fixed cap, up to 10 years, minimum 5 for honour-pretext)",
+          "sub": "S.324 displaces the general STAGES formula entirely for attempted Qatl — it doesn't halve S.302's punishment, it substitutes its own fixed range",
+          "module": "QATLADJ",
+          "elementId": "S324"
+        },
+        {
+          "label": "Isqat-i-Haml (S.338, before organ formation) vs Isqat-i-Janin (S.338B, after organ formation) — same act, the threshold is foetal development, not consent",
+          "sub": "Two separate comparative axes exist in this cluster: consent (already covered) and developmental stage (this one) — don't conflate them",
+          "module": "ISQAT",
+          "elementId": "S338B"
+        },
+        {
+          "label": "S.377 (1860, penetration required, any victim) vs S.377A (2016, no penetration required, victim under 18 only) — two different offences, not overlapping degrees of the same one",
+          "sub": "S.377A doesn't replace or narrow S.377 — it fills a gap S.377's penetration requirement left completely uncovered",
+          "module": "UNNATURAL",
+          "elementId": "S377A"
+        },
+        {
+          "label": "S.428 (general animals, 10rs+ value) vs S.429 (named livestock at ANY value, or other animals at 50rs+)",
+          "sub": "Named livestock — elephants, camels, horses, cattle — get value-blind protection; everything else needs to clear a rupee threshold first",
+          "module": "MISCHIEF",
+          "elementId": "S428_429"
+        },
+        {
+          "label": "S.121 Waging War: wages war, attempts to wage war, OR abets the waging of war — all three carry the IDENTICAL punishment ceiling (death or life)",
+          "sub": "A deliberate departure from the general STAGES principle that attempt draws only half the maximum sentence — for this one offence, intention-in-motion is treated as gravely as completion",
+          "module": "STATEOFF",
+          "elementId": "S121_121A"
+        },
+        {
+          "label": "S.128 voluntary escape of a State prisoner (life/10yr) vs S.129 negligent escape of the same (3yr, simple imprisonment) — identical outcome, mens rea is the entire distinction",
+          "sub": "Same custodian, same prisoner, same escape — the sentencing gap runs entirely on intent versus carelessness",
+          "module": "STATEOFF",
+          "elementId": "S128_130"
         }
       ]
     },
@@ -509,6 +760,18 @@
           "sub": "No separate charge needed; S.511 cascades from the incomplete attempt automatically",
           "module": "STAGES",
           "elementId": "St4"
+        },
+        {
+          "label": "S.328 Exposure of a child → if the child dies as a result, a separate and more serious Qatl-i-Amd / Shibh-i-Amd / Bis-Sabab charge attaches",
+          "sub": "The module's own text is explicit: S.328 liability does not displace the homicide charge — both can run",
+          "module": "QATLADJ",
+          "elementId": "S328_329"
+        },
+        {
+          "label": "S.383 Extortion: fear induced → dishonest inducement operates on the victim's will → property delivered as a result — a causal chain, not simultaneous elements",
+          "sub": "Unlike Theft's conjunction, Extortion's elements only work in sequence: no fear, no inducement; no inducement, no delivery",
+          "module": "EXTORTION",
+          "elementId": "S383"
         }
       ]
     },
@@ -584,6 +847,18 @@
           "sub": "Four children each specifying a variant; all inherit the deception element from S.415",
           "module": "CHEATING",
           "elementId": "S415"
+        },
+        {
+          "label": "S.53 Tripartite Framework (Parent) → S.54–55 Commutation / S.60–70 Imprisonment Mechanics / S.71–72 Doubtful-Case Limits / S.73–74 Solitary Limits / S.75 Recidivism (Children)",
+          "sub": "Six implementing sections all inherit and elaborate S.53's five punishment types; none stand alone",
+          "module": "PUNISH",
+          "elementId": "¬S53PUN"
+        },
+        {
+          "label": "S.332 (Parent, five-way classification) → Itlaf-i-Udw (S.333-334) / Itlaf-i-Salahiyyat-i-Udw (S.335-336) / Shajjah (S.337) / Jurh (S.337B-D) / all other hurt (Children)",
+          "sub": "S.332(2)'s own five-way classification is the map every subsequent Hurt section fills in — nothing in this cluster stands outside it",
+          "module": "HURTCORE",
+          "elementId": "S332"
         }
       ]
     },
@@ -641,6 +916,12 @@
           "sub": "S.6 is the outer wrapper that holds everything; it is the parent nest of the entire Code",
           "module": "GEXPL",
           "elementId": "¬S6_37_38STRUCT"
+        },
+        {
+          "label": "Force (S.349, physical definition) → Criminal Force (S.350, Force + mens rea) → Assault (S.351, mere apprehension of Criminal Force — no contact needed at all)",
+          "sub": "Each definition presupposes the one before it; Assault is the furthest-nested and requires no physical contact whatsoever",
+          "module": "FORCEASSAULT",
+          "elementId": "S351"
         }
       ]
     },
@@ -710,6 +991,42 @@
           "sub": "The gravity of the abetted offence and whether it was committed are the two rungs",
           "module": "ABETMENT",
           "elementId": "S115"
+        },
+        {
+          "label": "Stages ladder: St1 Intention (unpunishable) → St2 Preparation (punishable only in named exceptions) → St3 Attempt (S.511, half sentence) → St4 Completion (full sentence)",
+          "sub": "Each rung is a step up in both proximity to harm and the punishment a court may impose",
+          "module": "STAGES",
+          "elementId": "St1"
+        },
+        {
+          "label": "Shajjah ladder: Khafifah → Mudihah → Hashimah → Munaqqilah → Ammah → Damighah — six rungs of head/face wound severity",
+          "sub": "The module's own text calls these 'six progressively severe sub-types' — Diyat percentage and Ta'zir ceiling both climb with each rung",
+          "module": "HURTCORE",
+          "elementId": "S337_1to3"
+        },
+        {
+          "label": "Theft punishment ladder: S.379 base (3yr) → S.380 dwelling house (7yr) → S.381/381A clerk-servant or motor vehicle (7yr) → S.382 with violence-preparation (10yr, rigorous)",
+          "sub": "S.382 sits at what the module's own text calls 'the conceptual threshold between pure Theft and Robbery'",
+          "module": "THEFT",
+          "elementId": "S379_380"
+        },
+        {
+          "label": "Receiving ladder: S.411 base (3yr) → S.412 dacoity-tainted property (life) → S.413 habitual dealing (life/10yr)",
+          "sub": "S.412's jump to life imprisonment specifically traces to the property's Dacoity origin — the same organised-crime concern already visible throughout the Robbery module",
+          "module": "RECEIVING",
+          "elementId": "S412"
+        },
+        {
+          "label": "S.494 base bigamy vs S.495 bigamy with concealment from the new spouse — concealment is the aggravating fact that escalates punishment",
+          "sub": "The Exception's own disclosure condition is exactly what S.495 turns into a separate, harsher offence",
+          "module": "MARRIAGE",
+          "elementId": "S494_495"
+        },
+        {
+          "label": "Unlawful assembly punishment: S.143 mere membership (6mo) → S.144 armed with a deadly weapon (2yr) → S.145 defying a lawful dispersal order (2yr)",
+          "sub": "The module's own text calls these 'Base, Armed, and Defiance Tiers' — each rung adds one aggravating fact to simple membership",
+          "module": "TRANQUILLITY",
+          "elementId": "S143_145"
         }
       ]
     },
@@ -787,7 +1104,7 @@
           "label": "Qatl-i-Amd: Qisas layer (private right of heirs) + Ta'zir layer (State power) simultaneously",
           "sub": "Two complete punishment regimes on one conviction; the wali's decision determines which activates",
           "module": "MURDER",
-          "elementId": "cl2"
+          "elementId": "Qisas"
         },
         {
           "label": "S.311 Fasad-fil-Arz: PPC private law layer + Islamic public interest doctrine layer on same case",
@@ -830,6 +1147,18 @@
           "sub": "Civil compensation (Diyat) and State punishment (Ta'zir) are independent layers on one negligent act",
           "module": "QATLCORE",
           "elementId": "S321_322"
+        },
+        {
+          "label": "S.5 Savings Clause: PPC is one layer among several — Army Act, Anti-Terrorism Act 1997, and narcotics law all apply simultaneously",
+          "sub": "S.5 is the Code's own admission that it doesn't occupy the field alone — check the special-law layer before assuming PPC governs",
+          "module": "JUR",
+          "elementId": "¬S.5"
+        },
+        {
+          "label": "S.459 Hurt/Qatl during trespass: trespass punishment AND ALSO the full Chapter XVI Qatl/hurt punishment — cumulative, not merged into one sentence",
+          "sub": "Two convictions running together for one course of conduct — the trespass charge isn't subsumed into or discounted by the homicide charge",
+          "module": "TRESPASS",
+          "elementId": "S459_460"
         }
       ]
     },
@@ -974,6 +1303,18 @@
           "sub": "Four group liability provisions in ascending headcount and decreasing prior-concert requirement",
           "module": "CI",
           "elementId": "CI"
+        },
+        {
+          "label": "Reverse-burden-of-proof arc: TRADEMARKS S.482 ('unless they prove no intent to defraud') → S.486 ('unless they prove reasonable precautions') → CURRENCY S.489F ('burden of proof resting on' the accused)",
+          "sub": "A recurring drafting technique across the property-mark and currency chapters — the offence is presumed on the facts, and the accused must displace it",
+          "module": "TRADEMARKS",
+          "elementId": "S482"
+        },
+        {
+          "label": "CURRENCY's counterfeit/use/possess-materials triad (S.489A / S.489B_C / S.489D) mirrors FORGERY's own making/using/possessing structure applied to a different instrument class",
+          "sub": "Same three-stage offence architecture, same escalating culpability logic — learn the shape once at Forgery, recognise it again at Currency",
+          "module": "CURRENCY",
+          "elementId": "S489D"
         }
       ]
     },
@@ -1033,9 +1374,9 @@
           "elementId": "S504"
         },
         {
-          "label": "S.337-H(i) and (ii): hurt by rash/negligent act iterated — variable is degree of danger caused",
-          "sub": "Same rash/negligent act structure; the variable is whether it endangered life or caused specific hurt",
-          "module": "HURTCORE",
+          "label": "S.337M's four Qisas-exclusion categories: minor/insane offender, victim's own request, victim's pre-existing organ imperfection, offender's matching organ missing",
+          "sub": "Same 'not liable to Qisas' structure, four different disqualifying facts — compare against S.306's Qatl exclusions from Pass 3",
+          "module": "HURTCORE2",
           "elementId": "S337M"
         },
         {
@@ -1043,6 +1384,42 @@
           "sub": "Same threat structure; the variable is whether the threatened accusation is an unnatural offence",
           "module": "EXTORTION",
           "elementId": "S388_389"
+        },
+        {
+          "label": "S.87 → S.88 → S.89 → S.90 → S.91 → S.92: six consent variations, same underlying structure",
+          "sub": "The variable across each: harm severity, who can consent, what vitiates consent, and what falls outside consent's reach entirely",
+          "module": "GE",
+          "elementId": "¬Con87"
+        },
+        {
+          "label": "Arsh scales by organ multiplicity: single organs (S.337Q) = full Diyat, paired organs (S.337R) = half Diyat per organ, quadruplicate organs (S.337S) = quarter Diyat per organ",
+          "sub": "The fraction is always 1/n, where n is how many of that organ type the body normally has — same formula, three iterations",
+          "module": "HURTCORE2",
+          "elementId": "S337Q"
+        },
+        {
+          "label": "S.421 → S.422 → S.423 → S.424: same dishonest-or-fraudulent-defeat-of-creditors structure, four different methods",
+          "sub": "The variable across each: physical removal, debt-blocking, false-consideration deeds, claim-release — same mens rea and target, different mechanics",
+          "module": "FRAUDDEEDS",
+          "elementId": "S421"
+        },
+        {
+          "label": "S.482 and S.486: same reverse-burden structure, different things the accused must prove — absence of fraudulent intent vs reasonable precautions taken",
+          "sub": "Both shift the proof burden onto the defendant once the prosecution shows the mark or goods were false — the variable is only what discharges it",
+          "module": "TRADEMARKS",
+          "elementId": "S482"
+        },
+        {
+          "label": "S.498A → S.498B → S.498C: same 2011/2017-era women's-protection structure, three different harms — inheritance deprivation, forced marriage, Quran-marriage",
+          "sub": "All three share the same drafting DNA: modern amendments closing gaps the 1860 Code never anticipated",
+          "module": "MARRIAGE",
+          "elementId": "S498A"
+        },
+        {
+          "label": "S.133 (mere abetment of assault on a superior officer, 3yr) → S.134 (same abetment where the assault actually occurs, 7yr) — the identical 'variable = whether the abetted act happened' structure already seen in Abetment's S.115/S.116",
+          "sub": "Same drafting pattern, different chapter — once learned in the general Abetment module, it's instantly recognisable here",
+          "module": "ARMYOFF",
+          "elementId": "S133_134"
         }
       ]
     },
@@ -1063,7 +1440,7 @@
           "label": "S.390 Robbery explicitly defined in terms of S.378 Theft and S.383 Extortion",
           "sub": "Robbery is statutory shorthand for (theft or extortion) + force/fear; neither root can be read alone",
           "module": "ROBBERY",
-          "elementId": "rl1"
+          "elementId": "T∨E"
         },
         {
           "label": "S.120-A Criminal Conspiracy cross-references S.43 (illegal act) in the agreement element",
@@ -1118,6 +1495,36 @@
           "sub": "Dacoity is defined as robbery committed by five or more — S.390 is the explicit baseline",
           "module": "ROBBERY",
           "elementId": "¬Ex"
+        },
+        {
+          "label": "S.149 withdrawal standard explicitly mirrors S.34's: objective disassociation before the offence occurs, in both sections",
+          "sub": "Learn the withdrawal test once at Common Intention, apply it identically at Common Object — no separate doctrine to memorise",
+          "module": "CO",
+          "elementId": "CO_Withdraw"
+        },
+        {
+          "label": "S.108A Abetment jurisdiction gap-filler cross-references the general extraterritorial framework in JUR S.3–S.4",
+          "sub": "S.108A is not a new principle — it's S.3/S.4's extraterritorial logic applied specifically to abettors who stay physically inside Pakistan",
+          "module": "ABETMENT",
+          "elementId": "S108A"
+        },
+        {
+          "label": "S.382 Theft-with-violence-preparation explicitly borders Robbery's T∨E element — the same advance-preparation-for-violence fact pattern that would make it Robbery if the force were actually used",
+          "sub": "Read S.382 and Robbery's opening element side by side: the only thing missing from a full Robbery charge is the force itself being deployed",
+          "module": "THEFT",
+          "elementId": "S382"
+        },
+        {
+          "label": "S.411's mens rea — 'knowing or having reason to believe' — imports GEXPL's S.26 objective evidentiary standard directly",
+          "sub": "Reason to believe is judged objectively, not by what the accused actually thought — same standard as GE's own Reason to Believe entry",
+          "module": "RECEIVING",
+          "elementId": "S411"
+        },
+        {
+          "label": "S.489B_C's mens rea — 'knowing or having reason to believe' — imports GEXPL's S.26 objective evidentiary standard directly",
+          "sub": "Third module this project has traced back to the same GEXPL gate — Theft, Receiving, and now Currency all run on the identical objective test",
+          "module": "CURRENCY",
+          "elementId": "S489B_C"
         }
       ]
     }
