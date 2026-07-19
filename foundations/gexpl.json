@@ -6,6 +6,77 @@
   "type": "accordion",
   "els": [
     {
+      "id": "¬S6_37_38STRUCT",
+      "name": "Structural Reading Rules — S.6, S.37, S.38",
+      "sub": "The invisible scaffolding: how every other section of the Code must be read",
+      "step": "Explanation (Tier 2, structural)",
+      "atom": "¬S6_37_38STRUCT",
+      "desc": "S.6: every offence definition, penal provision, and illustration is automatically subject to the General Exceptions chapter, even without saying so explicitly. S.37: where an offence requires several acts to be done together, a person who intentionally cooperates in any one of those acts by doing any other act is liable for the offence committed by that cooperation. S.38: persons engaged in the same criminal act may be guilty of different offences, depending on each person's own intention or knowledge.",
+      "legal": "These three rules have zero name-recognition in litigated case law because they are never themselves the subject of a charge — they are the grammar that makes every other section readable correctly, which is precisely why they deserve deliberate attention despite contributing nothing to a frequency count. S.6 means a student should NEVER read an offence definition as if General Exceptions might not apply — it always does, by default, unless the Code says otherwise. S.37 confirms that partial cooperation in a multi-act offence is enough for full liability — a person need not perform every act personally. S.38 is the critical corrective to a common misconception: participants in the SAME criminal episode are not automatically guilty of the SAME offence — each person's liability is assessed by their own individual intention or knowledge, a principle already seen operating concretely in Common Intention's limiting principle (different intentions, different liability) and Abetment's S.110/S.113 divergent-mental-state rules.",
+      "cite": "S.6, S.37, S.38 PPC — official text. Cross-reference Common Intention module's different-intentions limiting principle and S.110/S.113 PPC (Abetment module) — both concrete applications of S.38's underlying principle.",
+      "ll": "S.6, S.37, S.38 PPC — official text",
+      "section": null,
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A statute defines an offence with no mention of any exception or defence anywhere in its text. Does General Exceptions still apply to a person charged under it?",
+          "reveal": "Yes — S.6 makes this automatic: every offence definition is read as subject to General Exceptions whether or not the specific section says so. A defendant is never barred from raising a General Exception merely because the charging section is silent about exceptions.",
+          "cite": "S.6 PPC — General Exceptions apply automatically to every offence definition in the Code, regardless of whether the specific section mentions exceptions."
+        },
+        {
+          "q": "Three people participate in a single violent episode. A struck the fatal blow with clear intent to kill. B held the victim down, aware only that A intended to cause some hurt, not death. C stood watch outside with no awareness of what was happening inside. Apply S.38. Are all three guilty of the same offence?",
+          "reveal": "No — S.38 explicitly confirms persons engaged in the same criminal act may be guilty of DIFFERENT offences depending on each person's own intention or knowledge. A's clear intent to kill likely supports a murder charge; B's more limited awareness (intent to cause hurt only) may support a lesser charge; C's apparent lack of any relevant knowledge may support no liability at all for the killing itself. The 'same episode' does not produce 'same offence' — this is the same individualised-liability principle already confirmed in the Common Intention module's limiting principle.",
+          "cite": "S.38 PPC — different offences for different participants in the same criminal episode, based on individual mental state; directly mirrored in the Common Intention module's limiting principle on shared intention."
+        },
+        {
+          "q": "An offence requires two coordinated acts to be completed together — for example, one person distracting a guard while another removes property. A person who only performs the distraction, never touching the property themselves, claims they cannot be liable for the full offence since they didn't personally complete every element. Apply S.37.",
+          "reveal": "The claim fails. S.37 confirms that intentionally cooperating in even ONE of several acts constituting an offence makes a person liable for the offence as a whole — partial performance of a coordinated multi-act offence is sufficient, not merely a partial defence. The distractor is liable for the full offence, not a lesser version of it.",
+          "cite": "S.37 PPC — intentional cooperation in any one act of a multi-act offence is sufficient for full liability, not merely partial liability."
+        }
+      ],
+      "dike": "S.6: every offence definition → automatically subject to General Exceptions (no need to say so)\nS.37: several acts required together ∧ person cooperates in only ONE → still liable for that one act\nS.38: several persons ∧ same criminal act ∧ different intentions → each judged on their OWN mental state, not the group's"
+    },
+    {
+      "id": "¬S11PER",
+      "name": "Person",
+      "sub": "S.11 PPC — includes any Company, Association, or body of persons, incorporated or not",
+      "step": "Explanation (Tier 2)",
+      "atom": "¬S11PER",
+      "desc": "S.11: 'person' includes any Company or Association or body of persons, whether incorporated or not.",
+      "legal": "This extends criminal liability beyond natural human beings to corporate and unincorporated bodies — directly relevant wherever a company is alleged to have committed an offence (e.g. Cheating, Mischief, regulatory PPC offences), and explains why corporate criminal liability is structurally possible under the PPC at all.",
+      "cite": "S.11 PPC — official text.",
+      "ll": "S.11 PPC — official text",
+      "section": "11",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Can an unincorporated business association, not a registered company, be charged as a 'person' under the PPC?",
+          "reveal": "Yes — S.11's definition explicitly covers 'any Company or Association... whether incorporated or not,' meaning formal incorporation is not required for the entity itself to be treated as a person capable of bearing criminal liability under the Code.",
+          "cite": "S.11 PPC — extending personhood to unincorporated associations, not only registered companies."
+        }
+      ]
+    },
+    {
+      "id": "¬S20COJ",
+      "name": "Court of Justice",
+      "sub": "S.20 PPC — a Judge empowered to act judicially alone, or a body of judges so empowered collectively",
+      "step": "Explanation (Tier 2)",
+      "atom": "¬S20COJ",
+      "desc": "S.20: 'Court of Justice' denotes a Judge empowered by law to act judicially alone, or a body of Judges empowered by law to act judicially as a body, when such Judge or body is acting judicially.",
+      "legal": "The 'acting judicially' qualifier is the operative limit — a judge engaged in purely administrative tasks is not, at that moment, a 'Court of Justice' for PPC purposes, which matters for S.77's judicial-act immunity and S.78's court-order execution protection (both already built in General Exceptions), since both turn on whether the relevant act was genuinely judicial.",
+      "cite": "S.20 PPC — official text. Cross-reference S.77/S.78 PPC (General Exceptions, already built).",
+      "ll": "S.20 PPC — official text",
+      "section": "20",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A judge, while handling purely administrative court scheduling unrelated to any judicial decision, makes an error causing harm to a litigant. Does S.77's judicial-act immunity protect the judge for this specific act?",
+          "reveal": "Not necessarily — S.20 requires the judge be 'acting judicially' for the body/person to constitute a 'Court of Justice' in the relevant sense, and purely administrative scheduling, distinct from judicial decision-making, may fall outside that qualifier, meaning S.77's immunity (tied to judicial acts specifically) may not extend to this particular error.",
+          "cite": "S.20 PPC's 'acting judicially' qualifier — limiting S.77 PPC's judicial-act immunity (General Exceptions) to genuinely judicial conduct, not all conduct by a judge."
+        }
+      ]
+    },
+    {
       "id": "¬S21PS",
       "name": "Public Servant — The Gatekeeping Definition",
       "sub": "S.21 PPC — eleven enumerated categories, the most cross-referenced term in the Code",
@@ -49,49 +120,24 @@
       "dike": "Actor qualifies as 'public servant' if ANY ONE of eleven enumerated categories is met\n(military/naval/air officer ∨ judge ∨ court officer ∨ juryman/assessor/panchayat member ∨ arbitrator ∨ ... )\nDisjunction, not conjunction — one category alone is enough"
     },
     {
-      "id": "¬S52GF",
-      "name": "Good Faith — The Universal Gatekeeper",
-      "sub": "S.52 PPC — due care and attention, not mere sincerity",
-      "step": "Explanation (Tier 1)",
-      "atom": "¬S52GF",
-      "desc": "S.52: nothing is said to be done or believed in good faith which is done or believed without due care and attention.",
-      "legal": "S.52 is arguably the single most consequential definitional sentence in the entire Code, despite its brevity, because it sets the STANDARD that every good-faith-dependent provision elsewhere silently incorporates: S.76/79 mistake of fact, S.78 court-order execution, S.88/89/92's consent-based medical exceptions, and the reverse-burden defences in Forgery (S.482, S.486) and Currency Notes (S.489F) all turn on whether the actor's belief was held in 'good faith' as S.52 defines it — and S.52 sets an OBJECTIVE standard (due care and attention), not a subjective one (genuine sincerity). This is the single most commonly misunderstood point by students and, in practice, by inexperienced counsel: a defendant who genuinely, sincerely believed something, but arrived at that belief carelessly, has NOT acted in good faith under S.52, and every downstream defence collapses as a result. The consequence of getting this wrong is binary and total — full acquittal versus full conviction — making S.52 the highest-stakes single definitional term in the Code for outcome severity, even though it appears in the statute less often than purely mechanical terms.",
-      "cite": "S.52 PPC — official text. Cross-reference S.76/79, S.78, S.88/89/92 (General Exceptions, all built), S.482/486 (Forgery, Trade Marks modules), S.489F (Currency Notes module) — all silently incorporate this same objective due-care standard.",
-      "ll": "S.52 PPC — official text",
-      "section": "52",
+      "id": "¬S22MP",
+      "name": "Moveable Property",
+      "sub": "S.22 PPC — corporeal property of every description, except land and things attached to earth",
+      "step": "Explanation (Tier 2)",
+      "atom": "¬S22MP",
+      "desc": "S.22: 'moveable property' includes corporeal property of every description, except land and things attached to the earth or permanently fastened to anything attached to the earth.",
+      "legal": "This is the entire outer boundary of Theft (S.378, already built) — only moveable property can be stolen under the PPC's structure; immovable property is governed by separate trespass and land-law provisions. The 'corporeal' requirement is itself significant: this is why purely digital data has historically sat outside Theft's reach, a real gap addressed by separate cyber-crime legislation rather than the PPC itself.",
+      "cite": "S.22 PPC — official text. Cross-reference S.378 PPC (Theft module) — moveable property is Theft's entire object-boundary.",
+      "ll": "S.22 PPC — official text",
+      "section": "22",
       "landmark": [],
       "sq": [
         {
-          "q": "Returning to the wrong-address raid: the officer genuinely and sincerely believed he had the correct address, but it later emerges he never actually checked the warrant against the door number, relying instead on a colleague's verbal say-so from two days earlier. Apply S.52. Does the officer's sincere belief satisfy 'good faith'?",
-          "reveal": "No. S.52's test is objective — due care and attention — not subjective sincerity. However genuinely the officer believed he had the right address, failing to verify the warrant against the actual door number before forcing entry is a failure of due care, not merely an innocent mistake. This single finding can collapse the entire defence: without good faith established, S.78's protection for executing even a defective court order (which itself requires good-faith belief in jurisdiction/correctness) becomes unavailable, and the officer is left relying on weaker, more general arguments. This is precisely why S.52 functions as a gate rather than a formality — the same sincere officer succeeds or fails entirely depending on one fact: did he check.",
-          "cite": "S.52 PPC's objective due-care standard — sincere but careless belief fails the test, with the consequence that an entire downstream defence (here, S.78) becomes unavailable."
-        },
-        {
-          "cite": "Criminal Laws (Amendment) Act, 2023 (S.52B inserted after S.52A, PPC 1860) — Senate of Pakistan"
-        },
-        {
-          "cite": "Criminal Laws (Amendment) Act, 2023 (S.52C inserted after S.52B, PPC 1860) — Senate of Pakistan"
-        },
-        {
-          "cite": "Criminal Laws (Amendment) Act, 2023 (S.52D inserted after S.52C, PPC 1860) — Senate of Pakistan"
-        },
-        {
-          "q": "A surgeon performs emergency treatment on an unconscious patient without consent, genuinely believing the procedure necessary, but bypasses the hospital's own standard pre-operative verification checklist due to time pressure that, on review, was not as severe as the surgeon believed. Apply S.52 and S.92 (emergency action without consent). Is the consent-bypass protected?",
-          "reveal": "This is a genuinely contestable application, not a clean one: S.92's protection requires the act be done in good faith, and S.52 asks whether due care and attention was exercised given the actual circumstances, not the circumstances as the surgeon mistakenly perceived them. If a court finds the time pressure was objectively less severe than believed, and that following the standard checklist remained genuinely feasible, the surgeon's belief that bypassing it was necessary may fail the due-care standard despite being sincerely held — illustrating that S.52's objective standard can defeat even a textbook-sympathetic defendant (a doctor acting to save a life) if the care-and-attention element is not independently satisfied.",
-          "cite": "S.52 PPC applied to S.92 PPC (General Exceptions, emergency consent) — even sympathetic, life-saving conduct can fail the objective good-faith standard if due care was not independently exercised."
-        },
-        {
-          "q": "How does S.52's objective 'due care and attention' standard differ from a pure negligence standard in civil law, and why does this distinction matter for a defendant relying on a General Exception?",
-          "reveal": "S.52 is narrower and more forgiving than a full negligence inquiry: it asks only whether SOME meaningful care and attention was exercised in forming the relevant belief, not whether the defendant met the standard of a reasonably prudent person in all respects, nor whether a better-informed actor could have done more. This matters practically because it means a defendant does not need to prove perfection or best practice — only that the belief was not formed carelessly or recklessly. The distinction is genuinely important for defence strategy: arguing 'my client could have done more' (a civil-negligence framing) is the wrong target; the actual question is narrower — was there a genuine, attentive basis for the belief at all, however imperfect.",
-          "cite": "S.52 PPC's due-care standard — narrower than full civil negligence, asking only whether meaningful care was exercised, not whether the defendant met an ideal standard."
-        },
-        {
-          "q": "Does S.52 require that the belief ultimately turn out to be factually correct, or only that it was carefully formed?",
-          "reveal": "Only carefully formed — S.52 says nothing about the belief's ultimate correctness. This is the entire functional purpose of good-faith-based defences throughout the Code: they protect people who, despite exercising genuine care, were nonetheless factually wrong, which is precisely the wrong-address-raid scenario in its clean form. If good faith required actual correctness, S.76/79/78/88/89/92 would add nothing beyond a simple 'were you right' test — the entire point of incorporating S.52's standard is to protect careful-but-mistaken actors, distinguishing them from careless ones, regardless of outcome.",
-          "cite": "S.52 PPC — protects careful-but-mistaken belief regardless of ultimate factual correctness, which is the entire functional purpose of every good-faith-dependent exception built on top of it."
+          "q": "A removes a valuable, free-standing decorative pillar that was merely resting on a property's foundation (not permanently fastened) and carries it away. Is the pillar 'moveable property' capable of being stolen under S.378?",
+          "reveal": "Likely yes — S.22 excludes things 'permanently fastened,' and a free-standing pillar merely resting (not affixed) would not meet that exclusion, making it corporeal moveable property within Theft's reach, unlike a genuinely fixed structural element.",
+          "cite": "S.22 PPC's 'permanently fastened' exclusion — narrowly construed, leaving non-affixed items within moveable property even if large or structural-looking."
         }
-      ],
-      "dike": "Good faith ≡ ~(done without due care and attention)\nDue care ∧ due attention required — honest belief alone is NOT enough if careless"
+      ]
     },
     {
       "id": "¬S2425DF",
@@ -165,6 +211,47 @@
       ]
     },
     {
+      "id": "¬S29DOC",
+      "name": "Document",
+      "sub": "S.29 PPC — any matter expressed/described upon any substance by marks, used as evidence",
+      "step": "Explanation (Tier 2)",
+      "atom": "¬S29DOC",
+      "desc": "S.29: 'document' denotes any matter expressed or described upon any substance by means of letters, figures, or marks, intended to be used as evidence of that matter.",
+      "legal": "S.29's definition is intentionally substance-neutral — paper is not required, only that marks be made on SOME substance with evidentiary intent. This load-bears the entire Forgery chapter (already built), where what counts as a 'document' capable of being forged determines the chapter's outer boundary.",
+      "cite": "S.29 PPC — official text. Cross-reference Forgery module (S.463-477A, already built).",
+      "ll": "S.29 PPC — official text",
+      "section": "29",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A makes identifying marks on a wooden plank, intended to later serve as evidence of a property boundary agreement. Is the plank a 'document' under S.29?",
+          "reveal": "Yes. S.29 is substance-neutral — 'upon any substance' — requiring only marks expressing matter with evidentiary intent, not paper specifically. The plank qualifies, which matters for the outer boundary of what can be forged under the Forgery chapter.",
+          "cite": "S.29 PPC's substance-neutral definition — extending beyond paper to any substance bearing evidentiary marks."
+        }
+      ]
+    },
+    {
+      "id": "¬S30VS",
+      "name": "Valuable Security",
+      "sub": "S.30 PPC — a document creating, extending, transferring, or extinguishing a legal right",
+      "step": "Explanation (Tier 2)",
+      "atom": "¬S30VS",
+      "desc": "S.30: 'valuable security' denotes a document which is, or purports to be, a document whereby any legal right is created, extended, transferred, restricted, extinguished, or released, or whereby any person acknowledges that they lie under legal liability or have not a certain legal right.",
+      "legal": "This is narrower than 'document' (S.29) — it specifically requires the document to operate on legal RIGHTS, which is why forging a valuable security (S.467, life imprisonment tier) is punished more severely than forging an ordinary document (S.465) within the already-built Forgery module.",
+      "cite": "S.30 PPC — official text. Cross-reference S.467 PPC vs S.465 PPC (Forgery module) — the severity differential this distinction drives.",
+      "ll": "S.30 PPC — official text",
+      "section": "30",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "Why does forging a valuable security (S.467) carry a far more severe penalty than forging an ordinary document (S.465), and how does S.30's definition explain the gap?",
+          "reveal": "S.30 requires the document operate on actual legal rights — creating, transferring, or extinguishing them — meaning a forged valuable security can directly corrupt someone's legal entitlements (property deeds, promissory notes), a more severe harm than forging a document with no direct rights-effect, justifying the Forgery module's tiered severity.",
+          "cite": "S.30 PPC's rights-based definition explaining the severity gap between S.467 and S.465 PPC (Forgery module)."
+        }
+      ],
+      "dike": "Valuable security ≡ document whereby a legal right is (created ∨ extended ∨ transferred ∨ restricted ∨ extinguished ∨ released) ∨ document acknowledging legal liability\nSix-way disjunction on what the document does to a right"
+    },
+    {
       "id": "¬S34CI",
       "name": "Common Intention — Cross-Reference Note",
       "sub": "S.34 PPC — full doctrinal treatment lives in the dedicated Common Intention module",
@@ -224,6 +311,26 @@
         }
       ],
       "dike": "Voluntarily ≡ power of controlling the effect's production ∧ (intended to cause it ∨ knew/had reason to believe it likely)\nConjunction of control with a disjunction of mental states — either intention or foresight satisfies the second limb"
+    },
+    {
+      "id": "¬S40OFF",
+      "name": "Offence",
+      "sub": "S.40 PPC — denotes a thing punishable under this Code, or under any special/local law",
+      "step": "Explanation (Tier 2)",
+      "atom": "¬S40OFF",
+      "desc": "S.40: 'offence' denotes a thing made punishable by this Code; in several specified sections it also extends to acts punishable under any special or local law.",
+      "legal": "This confirms the PPC's 'offence' concept is not hermetically sealed — certain sections deliberately extend the term to capture special/local law violations as well, which matters for provisions (like several Abetment sections) that reference 'offence' broadly enough to sweep in non-PPC statutory crimes.",
+      "cite": "S.40 PPC — official text. Cross-reference General Explanations S.5 (special laws preserved).",
+      "ll": "S.40 PPC — official text",
+      "section": "40",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "An Abetment provision uses the word 'offence' in one of the sections where S.40 extends the term to special/local law. Does abetting a violation of a special law (e.g. a narcotics-control statute) fall within that Abetment provision?",
+          "reveal": "Yes, where the specific Abetment section is one of those S.40 extends — the offence concept is not limited to PPC-defined crimes alone in those provisions, meaning abetment of a special-law violation can be captured even though the underlying offence sits outside the PPC itself.",
+          "cite": "S.40 PPC's extension to special/local law — relevant wherever a PPC provision references 'offence' in a section S.40 specifically extends."
+        }
+      ]
     },
     {
       "id": "¬S43ILB",
@@ -298,156 +405,49 @@
       "dike": "Injury ≡ harm to (body ∨ mind ∨ reputation ∨ property)\nFour-way disjunction — the broadest harm concept in the Code, any one limb suffices"
     },
     {
-      "id": "¬S29DOC",
-      "name": "Document",
-      "sub": "S.29 PPC — any matter expressed/described upon any substance by marks, used as evidence",
-      "step": "Explanation (Tier 2)",
-      "atom": "¬S29DOC",
-      "desc": "S.29: 'document' denotes any matter expressed or described upon any substance by means of letters, figures, or marks, intended to be used as evidence of that matter.",
-      "legal": "S.29's definition is intentionally substance-neutral — paper is not required, only that marks be made on SOME substance with evidentiary intent. This load-bears the entire Forgery chapter (already built), where what counts as a 'document' capable of being forged determines the chapter's outer boundary.",
-      "cite": "S.29 PPC — official text. Cross-reference Forgery module (S.463-477A, already built).",
-      "ll": "S.29 PPC — official text",
-      "section": "29",
+      "id": "¬S52GF",
+      "name": "Good Faith — The Universal Gatekeeper",
+      "sub": "S.52 PPC — due care and attention, not mere sincerity",
+      "step": "Explanation (Tier 1)",
+      "atom": "¬S52GF",
+      "desc": "S.52: nothing is said to be done or believed in good faith which is done or believed without due care and attention.",
+      "legal": "S.52 is arguably the single most consequential definitional sentence in the entire Code, despite its brevity, because it sets the STANDARD that every good-faith-dependent provision elsewhere silently incorporates: S.76/79 mistake of fact, S.78 court-order execution, S.88/89/92's consent-based medical exceptions, and the reverse-burden defences in Forgery (S.482, S.486) and Currency Notes (S.489F) all turn on whether the actor's belief was held in 'good faith' as S.52 defines it — and S.52 sets an OBJECTIVE standard (due care and attention), not a subjective one (genuine sincerity). This is the single most commonly misunderstood point by students and, in practice, by inexperienced counsel: a defendant who genuinely, sincerely believed something, but arrived at that belief carelessly, has NOT acted in good faith under S.52, and every downstream defence collapses as a result. The consequence of getting this wrong is binary and total — full acquittal versus full conviction — making S.52 the highest-stakes single definitional term in the Code for outcome severity, even though it appears in the statute less often than purely mechanical terms.",
+      "cite": "S.52 PPC — official text. Cross-reference S.76/79, S.78, S.88/89/92 (General Exceptions, all built), S.482/486 (Forgery, Trade Marks modules), S.489F (Currency Notes module) — all silently incorporate this same objective due-care standard.",
+      "ll": "S.52 PPC — official text",
+      "section": "52",
       "landmark": [],
       "sq": [
         {
-          "q": "A makes identifying marks on a wooden plank, intended to later serve as evidence of a property boundary agreement. Is the plank a 'document' under S.29?",
-          "reveal": "Yes. S.29 is substance-neutral — 'upon any substance' — requiring only marks expressing matter with evidentiary intent, not paper specifically. The plank qualifies, which matters for the outer boundary of what can be forged under the Forgery chapter.",
-          "cite": "S.29 PPC's substance-neutral definition — extending beyond paper to any substance bearing evidentiary marks."
-        }
-      ]
-    },
-    {
-      "id": "¬S30VS",
-      "name": "Valuable Security",
-      "sub": "S.30 PPC — a document creating, extending, transferring, or extinguishing a legal right",
-      "step": "Explanation (Tier 2)",
-      "atom": "¬S30VS",
-      "desc": "S.30: 'valuable security' denotes a document which is, or purports to be, a document whereby any legal right is created, extended, transferred, restricted, extinguished, or released, or whereby any person acknowledges that they lie under legal liability or have not a certain legal right.",
-      "legal": "This is narrower than 'document' (S.29) — it specifically requires the document to operate on legal RIGHTS, which is why forging a valuable security (S.467, life imprisonment tier) is punished more severely than forging an ordinary document (S.465) within the already-built Forgery module.",
-      "cite": "S.30 PPC — official text. Cross-reference S.467 PPC vs S.465 PPC (Forgery module) — the severity differential this distinction drives.",
-      "ll": "S.30 PPC — official text",
-      "section": "30",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "Why does forging a valuable security (S.467) carry a far more severe penalty than forging an ordinary document (S.465), and how does S.30's definition explain the gap?",
-          "reveal": "S.30 requires the document operate on actual legal rights — creating, transferring, or extinguishing them — meaning a forged valuable security can directly corrupt someone's legal entitlements (property deeds, promissory notes), a more severe harm than forging a document with no direct rights-effect, justifying the Forgery module's tiered severity.",
-          "cite": "S.30 PPC's rights-based definition explaining the severity gap between S.467 and S.465 PPC (Forgery module)."
-        }
-      ],
-      "dike": "Valuable security ≡ document whereby a legal right is (created ∨ extended ∨ transferred ∨ restricted ∨ extinguished ∨ released) ∨ document acknowledging legal liability\nSix-way disjunction on what the document does to a right"
-    },
-    {
-      "id": "¬S22MP",
-      "name": "Moveable Property",
-      "sub": "S.22 PPC — corporeal property of every description, except land and things attached to earth",
-      "step": "Explanation (Tier 2)",
-      "atom": "¬S22MP",
-      "desc": "S.22: 'moveable property' includes corporeal property of every description, except land and things attached to the earth or permanently fastened to anything attached to the earth.",
-      "legal": "This is the entire outer boundary of Theft (S.378, already built) — only moveable property can be stolen under the PPC's structure; immovable property is governed by separate trespass and land-law provisions. The 'corporeal' requirement is itself significant: this is why purely digital data has historically sat outside Theft's reach, a real gap addressed by separate cyber-crime legislation rather than the PPC itself.",
-      "cite": "S.22 PPC — official text. Cross-reference S.378 PPC (Theft module) — moveable property is Theft's entire object-boundary.",
-      "ll": "S.22 PPC — official text",
-      "section": "22",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A removes a valuable, free-standing decorative pillar that was merely resting on a property's foundation (not permanently fastened) and carries it away. Is the pillar 'moveable property' capable of being stolen under S.378?",
-          "reveal": "Likely yes — S.22 excludes things 'permanently fastened,' and a free-standing pillar merely resting (not affixed) would not meet that exclusion, making it corporeal moveable property within Theft's reach, unlike a genuinely fixed structural element.",
-          "cite": "S.22 PPC's 'permanently fastened' exclusion — narrowly construed, leaving non-affixed items within moveable property even if large or structural-looking."
-        }
-      ]
-    },
-    {
-      "id": "¬S11PER",
-      "name": "Person",
-      "sub": "S.11 PPC — includes any Company, Association, or body of persons, incorporated or not",
-      "step": "Explanation (Tier 2)",
-      "atom": "¬S11PER",
-      "desc": "S.11: 'person' includes any Company or Association or body of persons, whether incorporated or not.",
-      "legal": "This extends criminal liability beyond natural human beings to corporate and unincorporated bodies — directly relevant wherever a company is alleged to have committed an offence (e.g. Cheating, Mischief, regulatory PPC offences), and explains why corporate criminal liability is structurally possible under the PPC at all.",
-      "cite": "S.11 PPC — official text.",
-      "ll": "S.11 PPC — official text",
-      "section": "11",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "Can an unincorporated business association, not a registered company, be charged as a 'person' under the PPC?",
-          "reveal": "Yes — S.11's definition explicitly covers 'any Company or Association... whether incorporated or not,' meaning formal incorporation is not required for the entity itself to be treated as a person capable of bearing criminal liability under the Code.",
-          "cite": "S.11 PPC — extending personhood to unincorporated associations, not only registered companies."
-        }
-      ]
-    },
-    {
-      "id": "¬S40OFF",
-      "name": "Offence",
-      "sub": "S.40 PPC — denotes a thing punishable under this Code, or under any special/local law",
-      "step": "Explanation (Tier 2)",
-      "atom": "¬S40OFF",
-      "desc": "S.40: 'offence' denotes a thing made punishable by this Code; in several specified sections it also extends to acts punishable under any special or local law.",
-      "legal": "This confirms the PPC's 'offence' concept is not hermetically sealed — certain sections deliberately extend the term to capture special/local law violations as well, which matters for provisions (like several Abetment sections) that reference 'offence' broadly enough to sweep in non-PPC statutory crimes.",
-      "cite": "S.40 PPC — official text. Cross-reference General Explanations S.5 (special laws preserved).",
-      "ll": "S.40 PPC — official text",
-      "section": "40",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "An Abetment provision uses the word 'offence' in one of the sections where S.40 extends the term to special/local law. Does abetting a violation of a special law (e.g. a narcotics-control statute) fall within that Abetment provision?",
-          "reveal": "Yes, where the specific Abetment section is one of those S.40 extends — the offence concept is not limited to PPC-defined crimes alone in those provisions, meaning abetment of a special-law violation can be captured even though the underlying offence sits outside the PPC itself.",
-          "cite": "S.40 PPC's extension to special/local law — relevant wherever a PPC provision references 'offence' in a section S.40 specifically extends."
-        }
-      ]
-    },
-    {
-      "id": "¬S20COJ",
-      "name": "Court of Justice",
-      "sub": "S.20 PPC — a Judge empowered to act judicially alone, or a body of judges so empowered collectively",
-      "step": "Explanation (Tier 2)",
-      "atom": "¬S20COJ",
-      "desc": "S.20: 'Court of Justice' denotes a Judge empowered by law to act judicially alone, or a body of Judges empowered by law to act judicially as a body, when such Judge or body is acting judicially.",
-      "legal": "The 'acting judicially' qualifier is the operative limit — a judge engaged in purely administrative tasks is not, at that moment, a 'Court of Justice' for PPC purposes, which matters for S.77's judicial-act immunity and S.78's court-order execution protection (both already built in General Exceptions), since both turn on whether the relevant act was genuinely judicial.",
-      "cite": "S.20 PPC — official text. Cross-reference S.77/S.78 PPC (General Exceptions, already built).",
-      "ll": "S.20 PPC — official text",
-      "section": "20",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A judge, while handling purely administrative court scheduling unrelated to any judicial decision, makes an error causing harm to a litigant. Does S.77's judicial-act immunity protect the judge for this specific act?",
-          "reveal": "Not necessarily — S.20 requires the judge be 'acting judicially' for the body/person to constitute a 'Court of Justice' in the relevant sense, and purely administrative scheduling, distinct from judicial decision-making, may fall outside that qualifier, meaning S.77's immunity (tied to judicial acts specifically) may not extend to this particular error.",
-          "cite": "S.20 PPC's 'acting judicially' qualifier — limiting S.77 PPC's judicial-act immunity (General Exceptions) to genuinely judicial conduct, not all conduct by a judge."
-        }
-      ]
-    },
-    {
-      "id": "¬S6_37_38STRUCT",
-      "name": "Structural Reading Rules — S.6, S.37, S.38",
-      "sub": "The invisible scaffolding: how every other section of the Code must be read",
-      "step": "Explanation (Tier 2, structural)",
-      "atom": "¬S6_37_38STRUCT",
-      "desc": "S.6: every offence definition, penal provision, and illustration is automatically subject to the General Exceptions chapter, even without saying so explicitly. S.37: where an offence requires several acts to be done together, a person who intentionally cooperates in any one of those acts by doing any other act is liable for the offence committed by that cooperation. S.38: persons engaged in the same criminal act may be guilty of different offences, depending on each person's own intention or knowledge.",
-      "legal": "These three rules have zero name-recognition in litigated case law because they are never themselves the subject of a charge — they are the grammar that makes every other section readable correctly, which is precisely why they deserve deliberate attention despite contributing nothing to a frequency count. S.6 means a student should NEVER read an offence definition as if General Exceptions might not apply — it always does, by default, unless the Code says otherwise. S.37 confirms that partial cooperation in a multi-act offence is enough for full liability — a person need not perform every act personally. S.38 is the critical corrective to a common misconception: participants in the SAME criminal episode are not automatically guilty of the SAME offence — each person's liability is assessed by their own individual intention or knowledge, a principle already seen operating concretely in Common Intention's limiting principle (different intentions, different liability) and Abetment's S.110/S.113 divergent-mental-state rules.",
-      "cite": "S.6, S.37, S.38 PPC — official text. Cross-reference Common Intention module's different-intentions limiting principle and S.110/S.113 PPC (Abetment module) — both concrete applications of S.38's underlying principle.",
-      "ll": "S.6, S.37, S.38 PPC — official text",
-      "section": null,
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A statute defines an offence with no mention of any exception or defence anywhere in its text. Does General Exceptions still apply to a person charged under it?",
-          "reveal": "Yes — S.6 makes this automatic: every offence definition is read as subject to General Exceptions whether or not the specific section says so. A defendant is never barred from raising a General Exception merely because the charging section is silent about exceptions.",
-          "cite": "S.6 PPC — General Exceptions apply automatically to every offence definition in the Code, regardless of whether the specific section mentions exceptions."
+          "q": "Returning to the wrong-address raid: the officer genuinely and sincerely believed he had the correct address, but it later emerges he never actually checked the warrant against the door number, relying instead on a colleague's verbal say-so from two days earlier. Apply S.52. Does the officer's sincere belief satisfy 'good faith'?",
+          "reveal": "No. S.52's test is objective — due care and attention — not subjective sincerity. However genuinely the officer believed he had the right address, failing to verify the warrant against the actual door number before forcing entry is a failure of due care, not merely an innocent mistake. This single finding can collapse the entire defence: without good faith established, S.78's protection for executing even a defective court order (which itself requires good-faith belief in jurisdiction/correctness) becomes unavailable, and the officer is left relying on weaker, more general arguments. This is precisely why S.52 functions as a gate rather than a formality — the same sincere officer succeeds or fails entirely depending on one fact: did he check.",
+          "cite": "S.52 PPC's objective due-care standard — sincere but careless belief fails the test, with the consequence that an entire downstream defence (here, S.78) becomes unavailable."
         },
         {
-          "q": "Three people participate in a single violent episode. A struck the fatal blow with clear intent to kill. B held the victim down, aware only that A intended to cause some hurt, not death. C stood watch outside with no awareness of what was happening inside. Apply S.38. Are all three guilty of the same offence?",
-          "reveal": "No — S.38 explicitly confirms persons engaged in the same criminal act may be guilty of DIFFERENT offences depending on each person's own intention or knowledge. A's clear intent to kill likely supports a murder charge; B's more limited awareness (intent to cause hurt only) may support a lesser charge; C's apparent lack of any relevant knowledge may support no liability at all for the killing itself. The 'same episode' does not produce 'same offence' — this is the same individualised-liability principle already confirmed in the Common Intention module's limiting principle.",
-          "cite": "S.38 PPC — different offences for different participants in the same criminal episode, based on individual mental state; directly mirrored in the Common Intention module's limiting principle on shared intention."
+          "cite": "Criminal Laws (Amendment) Act, 2023 (S.52B inserted after S.52A, PPC 1860) — Senate of Pakistan"
         },
         {
-          "q": "An offence requires two coordinated acts to be completed together — for example, one person distracting a guard while another removes property. A person who only performs the distraction, never touching the property themselves, claims they cannot be liable for the full offence since they didn't personally complete every element. Apply S.37.",
-          "reveal": "The claim fails. S.37 confirms that intentionally cooperating in even ONE of several acts constituting an offence makes a person liable for the offence as a whole — partial performance of a coordinated multi-act offence is sufficient, not merely a partial defence. The distractor is liable for the full offence, not a lesser version of it.",
-          "cite": "S.37 PPC — intentional cooperation in any one act of a multi-act offence is sufficient for full liability, not merely partial liability."
+          "cite": "Criminal Laws (Amendment) Act, 2023 (S.52C inserted after S.52B, PPC 1860) — Senate of Pakistan"
+        },
+        {
+          "cite": "Criminal Laws (Amendment) Act, 2023 (S.52D inserted after S.52C, PPC 1860) — Senate of Pakistan"
+        },
+        {
+          "q": "A surgeon performs emergency treatment on an unconscious patient without consent, genuinely believing the procedure necessary, but bypasses the hospital's own standard pre-operative verification checklist due to time pressure that, on review, was not as severe as the surgeon believed. Apply S.52 and S.92 (emergency action without consent). Is the consent-bypass protected?",
+          "reveal": "This is a genuinely contestable application, not a clean one: S.92's protection requires the act be done in good faith, and S.52 asks whether due care and attention was exercised given the actual circumstances, not the circumstances as the surgeon mistakenly perceived them. If a court finds the time pressure was objectively less severe than believed, and that following the standard checklist remained genuinely feasible, the surgeon's belief that bypassing it was necessary may fail the due-care standard despite being sincerely held — illustrating that S.52's objective standard can defeat even a textbook-sympathetic defendant (a doctor acting to save a life) if the care-and-attention element is not independently satisfied.",
+          "cite": "S.52 PPC applied to S.92 PPC (General Exceptions, emergency consent) — even sympathetic, life-saving conduct can fail the objective good-faith standard if due care was not independently exercised."
+        },
+        {
+          "q": "How does S.52's objective 'due care and attention' standard differ from a pure negligence standard in civil law, and why does this distinction matter for a defendant relying on a General Exception?",
+          "reveal": "S.52 is narrower and more forgiving than a full negligence inquiry: it asks only whether SOME meaningful care and attention was exercised in forming the relevant belief, not whether the defendant met the standard of a reasonably prudent person in all respects, nor whether a better-informed actor could have done more. This matters practically because it means a defendant does not need to prove perfection or best practice — only that the belief was not formed carelessly or recklessly. The distinction is genuinely important for defence strategy: arguing 'my client could have done more' (a civil-negligence framing) is the wrong target; the actual question is narrower — was there a genuine, attentive basis for the belief at all, however imperfect.",
+          "cite": "S.52 PPC's due-care standard — narrower than full civil negligence, asking only whether meaningful care was exercised, not whether the defendant met an ideal standard."
+        },
+        {
+          "q": "Does S.52 require that the belief ultimately turn out to be factually correct, or only that it was carefully formed?",
+          "reveal": "Only carefully formed — S.52 says nothing about the belief's ultimate correctness. This is the entire functional purpose of good-faith-based defences throughout the Code: they protect people who, despite exercising genuine care, were nonetheless factually wrong, which is precisely the wrong-address-raid scenario in its clean form. If good faith required actual correctness, S.76/79/78/88/89/92 would add nothing beyond a simple 'were you right' test — the entire point of incorporating S.52's standard is to protect careful-but-mistaken actors, distinguishing them from careless ones, regardless of outcome.",
+          "cite": "S.52 PPC — protects careful-but-mistaken belief regardless of ultimate factual correctness, which is the entire functional purpose of every good-faith-dependent exception built on top of it."
         }
       ],
-      "dike": "S.6: every offence definition → automatically subject to General Exceptions (no need to say so)\nS.37: several acts required together ∧ person cooperates in only ONE → still liable for that one act\nS.38: several persons ∧ same criminal act ∧ different intentions → each judged on their OWN mental state, not the group's"
+      "dike": "Good faith ≡ ~(done without due care and attention)\nDue care ∧ due attention required — honest belief alone is NOT enough if careless"
     },
     {
       "id": "¬TIER3LIGHT",

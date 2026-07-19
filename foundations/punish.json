@@ -44,74 +44,6 @@
       "dike": "Offender liable to ANY ONE OR MORE of: Qisas ∨ Diyat ∨ Arsh ∨ Daman ∨ Ta'zir ∨ Death ∨ Imprisonment for Life ∨ Imprisonment (rigorous/simple) ∨ Forfeiture ∨ Fine\nNot a single track — the applicable subset depends entirely on the specific offence section"
     },
     {
-      "id": "¬S55APREROG",
-      "name": "Saving for Presidential Prerogative",
-      "sub": "S.55A PPC — S.53-55's commutation provisions do not limit the President's constitutional pardon power",
-      "step": "Punishment Type 2 of 4",
-      "atom": "¬S55APREROG",
-      "desc": "S.55A: nothing in S.53, S.54, or S.55 shall affect the power of the President to grant pardons, reprieves, and respites, or to remit, suspend, or commute sentences, under the Constitution.",
-      "legal": "S.55A is a deliberately narrow but practically vital clarification: it confirms that the PPC's own internal commutation rules (S.54's death-sentence commutation, S.55's life-imprisonment commutation) are a FLOOR, not a CEILING — they do not constrain or exhaust the separate, constitutionally-sourced presidential clemency power. A lawyer pursuing clemency for a client must understand this is a genuinely separate avenue from the Code's own commutation mechanisms, governed by constitutional rather than purely PPC criteria, and not foreclosed by however S.54/55 happen to apply (or fail to apply) to a given case.",
-      "cite": "S.55A PPC — official text. Constitutional source: Presidential pardon power under the Constitution of Pakistan.",
-      "ll": "S.55A PPC — official text",
-      "section": "55",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A death-sentenced client does not qualify for the specific commutation criteria under S.54. Does this foreclose any further avenue for relief from execution?",
-          "reveal": "No — S.55A explicitly preserves the President's separate constitutional clemency power, entirely independent of whether S.54's own commutation criteria are met. A lawyer should pursue presidential clemency as a genuinely distinct avenue, not treat S.54's inapplicability as the end of the matter.",
-          "cite": "S.55A PPC — preserving presidential clemency as an independent avenue, regardless of whether the PPC's own internal commutation provisions (S.54/55) apply to the specific case."
-        }
-      ],
-      "dike": "Actor: President (constitutional power, not statutory)\nPower: pardon ∨ reprieve ∨ respite ∨ remit ∨ suspend ∨ commute\n~ limited or displaced by S.53/S.54/S.55 — operates above and independent of ordinary Government commutation"
-    },
-    {
-      "id": "¬S7172LIMIT",
-      "name": "Punishment Limits — Doubtful and Multi-Offence Cases",
-      "sub": "S.71/S.72 PPC — preventing double-punishment traps",
-      "step": "Punishment Type 3 of 4",
-      "atom": "¬S7172LIMIT",
-      "desc": "S.71: where an act, or series of acts, constitutes an offence made up of several offences, the offender is not punished with more severe punishment than the court could award for any one of those constituent offences (subject to specific exceptions). S.72: where a person is found guilty of one of several offences, but the court is doubtful as to which one, the offender is punished for the offence carrying the LOWEST punishment, if the court is satisfied the offender is guilty of one of them.",
-      "legal": "These are genuine, frequently-relevant litigation safeguards, not technical footnotes. S.71 directly addresses a real prosecutorial temptation: stacking separately-chargeable components of a single criminal episode to inflate cumulative punishment beyond what any single constituent offence would carry — S.71 caps this. S.72 is the punishment-stage application of the broader principle of resolving genuine doubt in the accused's favour: where the EVIDENCE clearly establishes guilt of SOMETHING but leaves genuine doubt about which of several specific offences was committed, the court must default to the lowest-punished option rather than the highest. Both provisions are defence-side tools worth knowing to invoke specifically, not merely background sentencing trivia.",
-      "cite": "S.71, S.72 PPC — official text.",
-      "ll": "S.71, S.72 PPC — official text",
-      "section": "71",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A single criminal episode technically satisfies the elements of three separately-punishable offences, each a component of one continuous course of conduct. The prosecution seeks to stack the maximum punishment for all three cumulatively. Apply S.71.",
-          "reveal": "S.71 caps this — where the act or series of acts constitutes an offence made up of several offences, the court cannot award more severe punishment than it could for any ONE of the constituent offences (absent a specific statutory exception). This directly defeats the prosecutorial strategy of inflating total punishment through component-stacking, and is a defence argument worth raising explicitly wherever a single episode is being charged as multiple overlapping offences.",
-          "cite": "S.71 PPC — capping cumulative punishment for a single episode's constituent offences at the maximum for any one of them, defeating component-stacking strategies."
-        },
-        {
-          "q": "The evidence clearly establishes the accused committed either Theft or Criminal Misappropriation arising from the same facts, but the court genuinely cannot determine which, given how closely the two offences' elements overlap on these specific facts. Apply S.72.",
-          "reveal": "The court must convict and punish for whichever of the two offences carries the LOWER punishment, provided it is satisfied the accused is guilty of one of them. This is the punishment-stage embodiment of resolving genuine uncertainty in the accused's favour — a defence counsel facing ambiguous evidence between two charged alternatives should affirmatively argue for application of S.72 rather than allowing the court to default toward the more severe option.",
-          "cite": "S.72 PPC — genuine doubt between alternative offences resolved in favour of the lower punishment, not the higher one."
-        }
-      ],
-      "dike": "S.71: single act/series constitutes several offences → punishment ≤ max for any ONE constituent offence (not cumulative)\nS.72: uncertain which of several offences was actually committed → court punishes for the lowest"
-    },
-    {
-      "id": "¬S75RECID",
-      "name": "Enhanced Punishment for Recidivism",
-      "sub": "S.75 PPC — prior conviction under Chapter XII or XVII enhances punishment for a repeat offence",
-      "step": "Punishment Type 4 of 4",
-      "atom": "¬S75RECID",
-      "desc": "S.75: where a person, having been previously convicted of an offence punishable under Chapter XII (offences relating to coin and government stamps) or Chapter XVII (offences against property), is again convicted of an offence punishable under either chapter, they are liable to enhanced punishment for the second offence.",
-      "legal": "S.75's scope is genuinely narrow — it does NOT create a general recidivism enhancement across the whole Code; it is specifically confined to repeat offences within Chapter XII (coin/stamps) and Chapter XVII (property offences, the chapter housing Theft, Extortion, Robbery, Cheating, Mischief, Criminal Trespass, all already built in this app). A defence lawyer should know precisely this narrowness: a client with a prior conviction for an entirely unrelated offence (say, a Hurt offence) facing a NEW property-offence charge cannot be enhanced under S.75 on the basis of that unrelated prior conviction — only a prior conviction within these same two chapters triggers the enhancement.",
-      "cite": "S.75 PPC — official text. Cross-reference the property-offence modules already built (Theft, Extortion, Robbery, Cheating, Mischief, Criminal Trespass — all within Chapter XVII).",
-      "ll": "S.75 PPC — official text",
-      "section": "75",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A client has a prior conviction for Wrongful Confinement (Chapter XVI) and is now charged with Theft (Chapter XVII). Does S.75's enhanced-punishment provision apply to this second offence?",
-          "reveal": "No. S.75's enhancement is narrowly confined to repeat convictions WITHIN Chapter XII or Chapter XVII specifically — a prior conviction under Chapter XVI (where Wrongful Confinement sits) does not trigger S.75's enhancement for a subsequent Chapter XVII Theft charge, however genuinely the client may be a repeat offender in a broader sense. This narrowness is a real, arguable defence point against an overreaching prosecution attempt to invoke S.75 based on an unrelated prior conviction.",
-          "cite": "S.75 PPC's narrow chapter-specific scope — confined to repeat offences within Chapter XII or XVII only, not a general recidivism provision across the whole Code."
-        }
-      ],
-      "dike": "Prior conviction (Chapter XII ∨ Chapter XVII) ∧ subsequent conviction (Chapter XII ∨ Chapter XVII)\n→ Enhanced punishment (recidivism trigger)\nBoth convictions must fall within these two specific chapters — doesn't apply to repeat offenders generally"
-    },
-    {
       "id": "¬S5455COMM",
       "name": "Commutation of Death and Life Sentences",
       "sub": "S.54/S.55 PPC — government's power to commute, distinct from presidential clemency",
@@ -131,6 +63,27 @@
         }
       ],
       "dike": "Actor: appropriate Government (Federal ∨ Provincial, per subject matter)\nS.54 — ~ offender's consent\n→ Death sentence → any other punishment under the Code (unbounded)\nS.55 — ~ offender's consent\n→ Life imprisonment → ≤14 years (Rigorous ∨ Simple)\n~ Victim/Heir's consent for either — that requirement belongs to S.309–311's Qisas-waiver track, not this one"
+    },
+    {
+      "id": "¬S55APREROG",
+      "name": "Saving for Presidential Prerogative",
+      "sub": "S.55A PPC — S.53-55's commutation provisions do not limit the President's constitutional pardon power",
+      "step": "Punishment Type 2 of 4",
+      "atom": "¬S55APREROG",
+      "desc": "S.55A: nothing in S.53, S.54, or S.55 shall affect the power of the President to grant pardons, reprieves, and respites, or to remit, suspend, or commute sentences, under the Constitution.",
+      "legal": "S.55A is a deliberately narrow but practically vital clarification: it confirms that the PPC's own internal commutation rules (S.54's death-sentence commutation, S.55's life-imprisonment commutation) are a FLOOR, not a CEILING — they do not constrain or exhaust the separate, constitutionally-sourced presidential clemency power. A lawyer pursuing clemency for a client must understand this is a genuinely separate avenue from the Code's own commutation mechanisms, governed by constitutional rather than purely PPC criteria, and not foreclosed by however S.54/55 happen to apply (or fail to apply) to a given case.",
+      "cite": "S.55A PPC — official text. Constitutional source: Presidential pardon power under the Constitution of Pakistan.",
+      "ll": "S.55A PPC — official text",
+      "section": "55",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A death-sentenced client does not qualify for the specific commutation criteria under S.54. Does this foreclose any further avenue for relief from execution?",
+          "reveal": "No — S.55A explicitly preserves the President's separate constitutional clemency power, entirely independent of whether S.54's own commutation criteria are met. A lawyer should pursue presidential clemency as a genuinely distinct avenue, not treat S.54's inapplicability as the end of the matter.",
+          "cite": "S.55A PPC — preserving presidential clemency as an independent avenue, regardless of whether the PPC's own internal commutation provisions (S.54/55) apply to the specific case."
+        }
+      ],
+      "dike": "Actor: President (constitutional power, not statutory)\nPower: pardon ∨ reprieve ∨ respite ∨ remit ∨ suspend ∨ commute\n~ limited or displaced by S.53/S.54/S.55 — operates above and independent of ordinary Government commutation"
     },
     {
       "id": "¬S6070RIG",
@@ -159,6 +112,32 @@
       "dike": "Court discretion: sentence ≡ wholly rigorous ∨ wholly simple ∨ part rigorous + part simple\nFine default: non-payment → imprisonment in default, term set by S.63–70's schedule\nS.57: life imprisonment reckoned as a fixed term, for fraction-calculation purposes only"
     },
     {
+      "id": "¬S7172LIMIT",
+      "name": "Punishment Limits — Doubtful and Multi-Offence Cases",
+      "sub": "S.71/S.72 PPC — preventing double-punishment traps",
+      "step": "Punishment Type 3 of 4",
+      "atom": "¬S7172LIMIT",
+      "desc": "S.71: where an act, or series of acts, constitutes an offence made up of several offences, the offender is not punished with more severe punishment than the court could award for any one of those constituent offences (subject to specific exceptions). S.72: where a person is found guilty of one of several offences, but the court is doubtful as to which one, the offender is punished for the offence carrying the LOWEST punishment, if the court is satisfied the offender is guilty of one of them.",
+      "legal": "These are genuine, frequently-relevant litigation safeguards, not technical footnotes. S.71 directly addresses a real prosecutorial temptation: stacking separately-chargeable components of a single criminal episode to inflate cumulative punishment beyond what any single constituent offence would carry — S.71 caps this. S.72 is the punishment-stage application of the broader principle of resolving genuine doubt in the accused's favour: where the EVIDENCE clearly establishes guilt of SOMETHING but leaves genuine doubt about which of several specific offences was committed, the court must default to the lowest-punished option rather than the highest. Both provisions are defence-side tools worth knowing to invoke specifically, not merely background sentencing trivia.",
+      "cite": "S.71, S.72 PPC — official text.",
+      "ll": "S.71, S.72 PPC — official text",
+      "section": "71",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A single criminal episode technically satisfies the elements of three separately-punishable offences, each a component of one continuous course of conduct. The prosecution seeks to stack the maximum punishment for all three cumulatively. Apply S.71.",
+          "reveal": "S.71 caps this — where the act or series of acts constitutes an offence made up of several offences, the court cannot award more severe punishment than it could for any ONE of the constituent offences (absent a specific statutory exception). This directly defeats the prosecutorial strategy of inflating total punishment through component-stacking, and is a defence argument worth raising explicitly wherever a single episode is being charged as multiple overlapping offences.",
+          "cite": "S.71 PPC — capping cumulative punishment for a single episode's constituent offences at the maximum for any one of them, defeating component-stacking strategies."
+        },
+        {
+          "q": "The evidence clearly establishes the accused committed either Theft or Criminal Misappropriation arising from the same facts, but the court genuinely cannot determine which, given how closely the two offences' elements overlap on these specific facts. Apply S.72.",
+          "reveal": "The court must convict and punish for whichever of the two offences carries the LOWER punishment, provided it is satisfied the accused is guilty of one of them. This is the punishment-stage embodiment of resolving genuine uncertainty in the accused's favour — a defence counsel facing ambiguous evidence between two charged alternatives should affirmatively argue for application of S.72 rather than allowing the court to default toward the more severe option.",
+          "cite": "S.72 PPC — genuine doubt between alternative offences resolved in favour of the lower punishment, not the higher one."
+        }
+      ],
+      "dike": "S.71: single act/series constitutes several offences → punishment ≤ max for any ONE constituent offence (not cumulative)\nS.72: uncertain which of several offences was actually committed → court punishes for the lowest"
+    },
+    {
       "id": "¬S7374SOLIT",
       "name": "Solitary Confinement Limits",
       "sub": "S.73/S.74 PPC — narrow availability, strict duration caps",
@@ -178,6 +157,27 @@
         }
       ],
       "dike": "Rigorous imprisonment ∧ court so directs\n→ Solitary confinement, subject to: ≤14 days at a time ∧ interval ≥ same duration between periods ∧ aggregate cap tied to total sentence length\n(Three independent caps — all must be satisfied simultaneously)"
+    },
+    {
+      "id": "¬S75RECID",
+      "name": "Enhanced Punishment for Recidivism",
+      "sub": "S.75 PPC — prior conviction under Chapter XII or XVII enhances punishment for a repeat offence",
+      "step": "Punishment Type 4 of 4",
+      "atom": "¬S75RECID",
+      "desc": "S.75: where a person, having been previously convicted of an offence punishable under Chapter XII (offences relating to coin and government stamps) or Chapter XVII (offences against property), is again convicted of an offence punishable under either chapter, they are liable to enhanced punishment for the second offence.",
+      "legal": "S.75's scope is genuinely narrow — it does NOT create a general recidivism enhancement across the whole Code; it is specifically confined to repeat offences within Chapter XII (coin/stamps) and Chapter XVII (property offences, the chapter housing Theft, Extortion, Robbery, Cheating, Mischief, Criminal Trespass, all already built in this app). A defence lawyer should know precisely this narrowness: a client with a prior conviction for an entirely unrelated offence (say, a Hurt offence) facing a NEW property-offence charge cannot be enhanced under S.75 on the basis of that unrelated prior conviction — only a prior conviction within these same two chapters triggers the enhancement.",
+      "cite": "S.75 PPC — official text. Cross-reference the property-offence modules already built (Theft, Extortion, Robbery, Cheating, Mischief, Criminal Trespass — all within Chapter XVII).",
+      "ll": "S.75 PPC — official text",
+      "section": "75",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A client has a prior conviction for Wrongful Confinement (Chapter XVI) and is now charged with Theft (Chapter XVII). Does S.75's enhanced-punishment provision apply to this second offence?",
+          "reveal": "No. S.75's enhancement is narrowly confined to repeat convictions WITHIN Chapter XII or Chapter XVII specifically — a prior conviction under Chapter XVI (where Wrongful Confinement sits) does not trigger S.75's enhancement for a subsequent Chapter XVII Theft charge, however genuinely the client may be a repeat offender in a broader sense. This narrowness is a real, arguable defence point against an overreaching prosecution attempt to invoke S.75 based on an unrelated prior conviction.",
+          "cite": "S.75 PPC's narrow chapter-specific scope — confined to repeat offences within Chapter XII or XVII only, not a general recidivism provision across the whole Code."
+        }
+      ],
+      "dike": "Prior conviction (Chapter XII ∨ Chapter XVII) ∧ subsequent conviction (Chapter XII ∨ Chapter XVII)\n→ Enhanced punishment (recidivism trigger)\nBoth convictions must fall within these two specific chapters — doesn't apply to repeat offenders generally"
     }
   ]
 }
