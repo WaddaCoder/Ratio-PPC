@@ -6,6 +6,37 @@
   "type": "branch",
   "els": [
     {
+      "id": "CO_Gate",
+      "name": "The S.141 Gate — Unlawful Assembly Must Be Proven First",
+      "sub": "S.141 PPC — the threshold condition S.149 cannot operate without",
+      "step": "Element 2 of 8",
+      "atom": "CO_Gate",
+      "desc": "S.149 cannot operate unless the group first qualifies as an 'unlawful assembly' under S.141. That requires: (1) five or more persons, (2) with a common object that falls within one of S.141's five disjunctive categories (overawing government by criminal force; resisting law or legal process; committing mischief, criminal trespass, or other offence; taking or obtaining possession of property or depriving of a right by criminal force; compelling by criminal force to do or omit a legal act). If S.141 fails, S.149 never reaches the starting blocks.",
+      "legal": "The S.141 gateway is often where S.149 cases are most effectively attacked at trial. Two destruction strategies: attack the headcount (prove the participants numbered fewer than five), or attack the common object (prove the group did not share one of S.141's five enumerated objects). Either destroys the unlawful assembly finding, which collapses S.149 entirely. This is genuinely more tractable in many cases than arguing against the specific offence that occurred, because headcount and common-object evidence is often contested and dependent on eyewitness accounts that can be challenged. A skilled defence counsel in a mob violence case always checks S.141 before engaging the underlying offence.",
+      "cite": "S.141 PPC — unlawful assembly definition, which is the non-negotiable gateway S.149 depends on. See the full S.141/142 treatment in the Offences Against Public Tranquillity module (TRANQUILLITY).",
+      "ll": "S.141 PPC — official text; TRANQUILLITY module for full treatment",
+      "section": "141",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "The prosecution charges twelve accused under S.302/149 for a mob killing. The defence establishes through video evidence that four of the accused were actually present but had not joined the mob, only watching from a shopfront doorway. Does this affect the S.149 charges against all twelve?",
+          "reveal": "It directly affects the four whose presence was passive — but S.149 requires not just five-or-more total persons in the assembly, but that each accused charged under it was themselves a 'member' under S.142 (aware of the unlawful nature and intentionally joining or continuing). The four watching from a doorway without joining may defeat their own individual S.149 liability for failure of the S.142 membership element. The total assembly headcount of the remaining eight still satisfies S.141's five-person threshold for those who genuinely joined. Each accused's membership must be individually established.",
+          "cite": "S.141/142 PPC — headcount for assembly threshold distinct from individual membership proof; each accused's S.142 membership status assessed separately."
+        },
+        {
+          "q": "A group of seven assembles with the common object of staging a peaceful sit-in protest (blocking a road without violence). Their actual common object is not one of S.141's five categories at the time of assembly. One member then spontaneously vandalises a shopfront. Can the others be charged under S.149 for the vandalism?",
+          "reveal": "Likely not at the moment of assembly — a peaceful road-blocking sit-in does not obviously satisfy S.141's five categories (overawing by criminal force, resisting law, mischief/criminal trespass/offence, forcible taking of property, or compelling by criminal force). Without S.141 being satisfied, S.149 cannot operate. However, S.141's own Explanation allows an assembly to become unlawful mid-gathering. If, before the vandalism, the assembly's common object had shifted to one of the five categories — for example, if the group collectively moved toward the shop with apparent common purpose of vandalising it — the S.141 finding could be established at that later point. Timing is critical.",
+          "cite": "S.141 PPC Explanation — a lawfully-formed assembly can become unlawful mid-gathering; the S.149 liability window opens only once S.141 is satisfied."
+        },
+        {
+          "q": "The prosecution proves an unlawful assembly of six persons with a common object of forcible property seizure. But only two members are identified by name; the other four remain unidentified. Can the two named accused be convicted under S.149?",
+          "reveal": "Yes — S.141 requires five or more persons to constitute an unlawful assembly, but does not require that all five be identified, named, or even apprehensible. The prosecution can establish the headcount through evidence of the assembly (eyewitnesses, video, physical evidence of group action) without identifying every participant. The two named accused's own S.142 membership and the assembly's S.141 qualification are independently established. Unidentified co-members do not defeat the named accused's conviction.",
+          "cite": "S.141 PPC — headcount established through evidence of assembly, not requiring identification of every member."
+        }
+      ],
+      "dike": "S.149 cannot operate until S.141 is satisfied first:\n(≥5 persons) ∧ common object falls within ONE of S.141's five disjunctive categories\nThreshold gate — fail this, S.149 never even engages"
+    },
+    {
       "id": "CO_Rule",
       "name": "The Net, Not the Arrow — S.149's Foundational Rule",
       "sub": "S.149 PPC — the complete statutory text and its central metaphor",
@@ -42,37 +73,6 @@
         }
       ],
       "dike": "Offence committed by ANY member ∧ (in prosecution of the common object ∨ known-likely in prosecution of that object)\n→ EVERY member (present at the time) is guilty of that offence\nThe net catches the whole assembly, not just the arrow that was thrown"
-    },
-    {
-      "id": "CO_Gate",
-      "name": "The S.141 Gate — Unlawful Assembly Must Be Proven First",
-      "sub": "S.141 PPC — the threshold condition S.149 cannot operate without",
-      "step": "Element 2 of 8",
-      "atom": "CO_Gate",
-      "desc": "S.149 cannot operate unless the group first qualifies as an 'unlawful assembly' under S.141. That requires: (1) five or more persons, (2) with a common object that falls within one of S.141's five disjunctive categories (overawing government by criminal force; resisting law or legal process; committing mischief, criminal trespass, or other offence; taking or obtaining possession of property or depriving of a right by criminal force; compelling by criminal force to do or omit a legal act). If S.141 fails, S.149 never reaches the starting blocks.",
-      "legal": "The S.141 gateway is often where S.149 cases are most effectively attacked at trial. Two destruction strategies: attack the headcount (prove the participants numbered fewer than five), or attack the common object (prove the group did not share one of S.141's five enumerated objects). Either destroys the unlawful assembly finding, which collapses S.149 entirely. This is genuinely more tractable in many cases than arguing against the specific offence that occurred, because headcount and common-object evidence is often contested and dependent on eyewitness accounts that can be challenged. A skilled defence counsel in a mob violence case always checks S.141 before engaging the underlying offence.",
-      "cite": "S.141 PPC — unlawful assembly definition, which is the non-negotiable gateway S.149 depends on. See the full S.141/142 treatment in the Offences Against Public Tranquillity module (TRANQUILLITY).",
-      "ll": "S.141 PPC — official text; TRANQUILLITY module for full treatment",
-      "section": "141",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "The prosecution charges twelve accused under S.302/149 for a mob killing. The defence establishes through video evidence that four of the accused were actually present but had not joined the mob, only watching from a shopfront doorway. Does this affect the S.149 charges against all twelve?",
-          "reveal": "It directly affects the four whose presence was passive — but S.149 requires not just five-or-more total persons in the assembly, but that each accused charged under it was themselves a 'member' under S.142 (aware of the unlawful nature and intentionally joining or continuing). The four watching from a doorway without joining may defeat their own individual S.149 liability for failure of the S.142 membership element. The total assembly headcount of the remaining eight still satisfies S.141's five-person threshold for those who genuinely joined. Each accused's membership must be individually established.",
-          "cite": "S.141/142 PPC — headcount for assembly threshold distinct from individual membership proof; each accused's S.142 membership status assessed separately."
-        },
-        {
-          "q": "A group of seven assembles with the common object of staging a peaceful sit-in protest (blocking a road without violence). Their actual common object is not one of S.141's five categories at the time of assembly. One member then spontaneously vandalises a shopfront. Can the others be charged under S.149 for the vandalism?",
-          "reveal": "Likely not at the moment of assembly — a peaceful road-blocking sit-in does not obviously satisfy S.141's five categories (overawing by criminal force, resisting law, mischief/criminal trespass/offence, forcible taking of property, or compelling by criminal force). Without S.141 being satisfied, S.149 cannot operate. However, S.141's own Explanation allows an assembly to become unlawful mid-gathering. If, before the vandalism, the assembly's common object had shifted to one of the five categories — for example, if the group collectively moved toward the shop with apparent common purpose of vandalising it — the S.141 finding could be established at that later point. Timing is critical.",
-          "cite": "S.141 PPC Explanation — a lawfully-formed assembly can become unlawful mid-gathering; the S.149 liability window opens only once S.141 is satisfied."
-        },
-        {
-          "q": "The prosecution proves an unlawful assembly of six persons with a common object of forcible property seizure. But only two members are identified by name; the other four remain unidentified. Can the two named accused be convicted under S.149?",
-          "reveal": "Yes — S.141 requires five or more persons to constitute an unlawful assembly, but does not require that all five be identified, named, or even apprehensible. The prosecution can establish the headcount through evidence of the assembly (eyewitnesses, video, physical evidence of group action) without identifying every participant. The two named accused's own S.142 membership and the assembly's S.141 qualification are independently established. Unidentified co-members do not defeat the named accused's conviction.",
-          "cite": "S.141 PPC — headcount established through evidence of assembly, not requiring identification of every member."
-        }
-      ],
-      "dike": "S.149 cannot operate until S.141 is satisfied first:\n(≥5 persons) ∧ common object falls within ONE of S.141's five disjunctive categories\nThreshold gate — fail this, S.149 never even engages"
     },
     {
       "id": "CO_Limb1",
@@ -132,37 +132,6 @@
       "dike": "~ specifically planned\n∧ members knew it likely, at the relevant time\nObjective foreseeability standard — weaker than CI's shared-intention requirement, which is exactly why S.149 catches more people"
     },
     {
-      "id": "CO_Compare",
-      "name": "S.34 vs S.149 — The Exam-Critical Comparative Grid",
-      "sub": "Four structural differences, one practical consequence",
-      "step": "Element 5 of 8",
-      "atom": "CO_Compare",
-      "desc": "S.34 (Common Intention) and S.149 (Common Object) are the two group-liability provisions in the PPC most commonly confused and most frequently tested in examinations and GAT design. They are not the same provision stated twice in different words. They are structurally distinct instruments that produce different analytical questions, different evidentiary burdens, and different tactical choices for both prosecution and defence. The four structural differences: (1) headcount — S.34 has no minimum, S.149 requires S.141's five-person threshold; (2) prior concert — S.34 requires a pre-arranged meeting of minds for the specific act, S.149 requires only a shared common object plus the disjunctive trigger; (3) scope of liability — S.34 limits liability to acts done in furtherance of the shared intention, S.149 extends it to acts in prosecution of common object OR known likely; (4) evidentiary burden — S.34 is harder to prove (must establish specific shared design); S.149 is easier (common object plus foreseeability or prosecution).",
-      "legal": "The practical consequence: wherever a group is five or more, prosecutors virtually always charge S.149 alongside or instead of S.34, because S.149's elements are structurally easier to establish. Defence counsel responding to a S.149 charge should focus their attack on S.141 (the unlawful assembly gate — headcount and common object) rather than on whether each accused personally intended the specific offence, because that is the argument S.34 invites, not S.149. The table below is the examination-standard comparison:\n\nS.34 Common Intention | S.149 Common Object\n--- | ---\nNo minimum headcount | 5+ persons (S.141 threshold)\nPrior concert required — meeting of minds for the specific act | No prior concert required — common object + membership\nShared intention must extend to the specific act committed | Limb 1: act in prosecution of object, OR Limb 2: known likely consequence\nHigher evidentiary burden — specific shared design must be proved | Lower — common object + knowledge of likely consequence\nMahbub Shah 1945 — bedrock authority | Derivative Schedule II — takes flags of underlying offence",
-      "cite": "S.34 PPC (Common Intention module — full 8-element treatment) vs S.149 PPC — four structural differences producing distinct analytical and evidentiary consequences.",
-      "ll": "S.34 and S.149 PPC — official text; Common Intention module for S.34 full treatment",
-      "section": null,
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A prosecution team has evidence of an assembly of eight persons who committed a robbery-with-violence. They can prove a shared common object of robbery but cannot prove that the specific violence (which injured a victim) was part of a pre-arranged plan. Should they charge under S.34 or S.149, and why?",
-          "reveal": "S.149 is the structurally correct and more easily proven charge on these facts. They can establish the unlawful assembly (eight persons, common object of robbery — S.141's third category, commission of an offence), and the violence was either in prosecution of that robbery or one the members knew likely in the course of a robbery. S.34 would require proving a specific shared intention for the violence itself as a pre-arranged element of the plan — which they acknowledge they cannot prove. Charging S.34 creates an evidentiary problem they cannot solve; charging S.149 works with the evidence they actually have.",
-          "cite": "S.149 PPC as the correct charge when common object is provable but specific shared intent for the particular offence is not — the central practical reason the two provisions are structurally distinct."
-        },
-        {
-          "q": "A group of three commit the same robbery-with-violence. The prosecution cannot use S.149 (why not?). What is the only available constructive liability route, and what additional element must they prove?",
-          "reveal": "S.149 is unavailable because three persons fall below S.141's five-person minimum — without an unlawful assembly, S.149 cannot be engaged. The only available constructive liability route is S.34 Common Intention, which requires the prosecution to establish a pre-arranged plan (meeting of minds) under which the violence was either specifically intended or done in furtherance of the shared common intention. Unlike S.149's foreseeability standard, S.34 requires the prosecution to get inside the minds of the three accused and prove a specific shared design — the higher evidentiary burden that S.149 was designed to circumvent in larger-group cases.",
-          "cite": "S.149 PPC's five-person floor as the dividing line — below five, only S.34 is available, with its more demanding prior-concert requirement."
-        },
-        {
-          "q": "A client is charged under S.302/34 AND S.302/149 in the alternative, for a mob killing. As defence counsel, which charge do you target first and why?",
-          "reveal": "Target S.149 first, because attacking S.141 (the gateway) collapses S.149 entirely and may be more tractable than attacking S.34's common intention directly. Specifically: can you challenge the headcount (were there really five-or-more identifiable members, or are some of the alleged members actually uninvolved bystanders)? Can you challenge the common object (was there really a shared S.141 qualifying object, or was this a spontaneous incident without a collective purpose)? If S.141 falls, S.149 falls with it. Then address S.34 — here the argument is: even if some group action occurred, was there a pre-arranged meeting of minds for the specific act your client faces liability for? Mahbub Shah 1945 and Basharat 2023 are your authorities. Running both attacks in parallel is correct strategy — you are not forced to choose, since they target different elements.",
-          "cite": "Strategic priority of attacking S.141 to collapse S.149, then S.34's prior-concert requirement — the correct dual-track defence approach in alternative-charge mob violence cases."
-        }
-      ],
-      "dike": "S.34: Member ∧ CommonIntention ∧ Furtherance → Liable\nS.149: Member(at time) ∧ (Limb1 ∨ Limb2) → Liable\nSame quantifier, different predicate strength — S.149's predicate is strictly weaker, so its truth set is strictly larger"
-    },
-    {
       "id": "CO_Member",
       "name": "Membership at the Time — The Temporal Precision Clause",
       "sub": "S.149 PPC — 'every person who, at the time of the committing of that offence, is a member'",
@@ -218,6 +187,37 @@
         }
       ],
       "dike": "Effective withdrawal ≡ objective disassociation BEFORE the offence occurs\nMembership ends → S.149 liability for subsequent offences ends with it\nMirrors S.34's own withdrawal standard exactly"
+    },
+    {
+      "id": "CO_Compare",
+      "name": "S.34 vs S.149 — The Exam-Critical Comparative Grid",
+      "sub": "Four structural differences, one practical consequence",
+      "step": "Element 5 of 8",
+      "atom": "CO_Compare",
+      "desc": "S.34 (Common Intention) and S.149 (Common Object) are the two group-liability provisions in the PPC most commonly confused and most frequently tested in examinations and GAT design. They are not the same provision stated twice in different words. They are structurally distinct instruments that produce different analytical questions, different evidentiary burdens, and different tactical choices for both prosecution and defence. The four structural differences: (1) headcount — S.34 has no minimum, S.149 requires S.141's five-person threshold; (2) prior concert — S.34 requires a pre-arranged meeting of minds for the specific act, S.149 requires only a shared common object plus the disjunctive trigger; (3) scope of liability — S.34 limits liability to acts done in furtherance of the shared intention, S.149 extends it to acts in prosecution of common object OR known likely; (4) evidentiary burden — S.34 is harder to prove (must establish specific shared design); S.149 is easier (common object plus foreseeability or prosecution).",
+      "legal": "The practical consequence: wherever a group is five or more, prosecutors virtually always charge S.149 alongside or instead of S.34, because S.149's elements are structurally easier to establish. Defence counsel responding to a S.149 charge should focus their attack on S.141 (the unlawful assembly gate — headcount and common object) rather than on whether each accused personally intended the specific offence, because that is the argument S.34 invites, not S.149. The table below is the examination-standard comparison:\n\nS.34 Common Intention | S.149 Common Object\n--- | ---\nNo minimum headcount | 5+ persons (S.141 threshold)\nPrior concert required — meeting of minds for the specific act | No prior concert required — common object + membership\nShared intention must extend to the specific act committed | Limb 1: act in prosecution of object, OR Limb 2: known likely consequence\nHigher evidentiary burden — specific shared design must be proved | Lower — common object + knowledge of likely consequence\nMahbub Shah 1945 — bedrock authority | Derivative Schedule II — takes flags of underlying offence",
+      "cite": "S.34 PPC (Common Intention module — full 8-element treatment) vs S.149 PPC — four structural differences producing distinct analytical and evidentiary consequences.",
+      "ll": "S.34 and S.149 PPC — official text; Common Intention module for S.34 full treatment",
+      "section": null,
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A prosecution team has evidence of an assembly of eight persons who committed a robbery-with-violence. They can prove a shared common object of robbery but cannot prove that the specific violence (which injured a victim) was part of a pre-arranged plan. Should they charge under S.34 or S.149, and why?",
+          "reveal": "S.149 is the structurally correct and more easily proven charge on these facts. They can establish the unlawful assembly (eight persons, common object of robbery — S.141's third category, commission of an offence), and the violence was either in prosecution of that robbery or one the members knew likely in the course of a robbery. S.34 would require proving a specific shared intention for the violence itself as a pre-arranged element of the plan — which they acknowledge they cannot prove. Charging S.34 creates an evidentiary problem they cannot solve; charging S.149 works with the evidence they actually have.",
+          "cite": "S.149 PPC as the correct charge when common object is provable but specific shared intent for the particular offence is not — the central practical reason the two provisions are structurally distinct."
+        },
+        {
+          "q": "A group of three commit the same robbery-with-violence. The prosecution cannot use S.149 (why not?). What is the only available constructive liability route, and what additional element must they prove?",
+          "reveal": "S.149 is unavailable because three persons fall below S.141's five-person minimum — without an unlawful assembly, S.149 cannot be engaged. The only available constructive liability route is S.34 Common Intention, which requires the prosecution to establish a pre-arranged plan (meeting of minds) under which the violence was either specifically intended or done in furtherance of the shared common intention. Unlike S.149's foreseeability standard, S.34 requires the prosecution to get inside the minds of the three accused and prove a specific shared design — the higher evidentiary burden that S.149 was designed to circumvent in larger-group cases.",
+          "cite": "S.149 PPC's five-person floor as the dividing line — below five, only S.34 is available, with its more demanding prior-concert requirement."
+        },
+        {
+          "q": "A client is charged under S.302/34 AND S.302/149 in the alternative, for a mob killing. As defence counsel, which charge do you target first and why?",
+          "reveal": "Target S.149 first, because attacking S.141 (the gateway) collapses S.149 entirely and may be more tractable than attacking S.34's common intention directly. Specifically: can you challenge the headcount (were there really five-or-more identifiable members, or are some of the alleged members actually uninvolved bystanders)? Can you challenge the common object (was there really a shared S.141 qualifying object, or was this a spontaneous incident without a collective purpose)? If S.141 falls, S.149 falls with it. Then address S.34 — here the argument is: even if some group action occurred, was there a pre-arranged meeting of minds for the specific act your client faces liability for? Mahbub Shah 1945 and Basharat 2023 are your authorities. Running both attacks in parallel is correct strategy — you are not forced to choose, since they target different elements.",
+          "cite": "Strategic priority of attacking S.141 to collapse S.149, then S.34's prior-concert requirement — the correct dual-track defence approach in alternative-charge mob violence cases."
+        }
+      ],
+      "dike": "S.34: Member ∧ CommonIntention ∧ Furtherance → Liable\nS.149: Member(at time) ∧ (Limb1 ∨ Limb2) → Liable\nSame quantifier, different predicate strength — S.149's predicate is strictly weaker, so its truth set is strictly larger"
     },
     {
       "id": "CO_GE",

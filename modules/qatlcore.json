@@ -6,106 +6,6 @@
   "type": "branch",
   "els": [
     {
-      "id": "S315_317",
-      "name": "Qatl Shibh-i-Amd and Debarment from Succession",
-      "sub": "S.315/316/317 PPC — the intermediate homicide category and its inheritance consequence",
-      "step": "Element 10 of 17",
-      "atom": "S315_317",
-      "desc": "Qatl Shibh-i-Amd (S.315) is committed where a person, intending to cause bodily/mental harm (not death), causes death by means or an act not ordinarily likely to cause death — the Code's own Illustration is striking a person with a stick or stone not ordinarily fatal, where death nonetheless results. S.316 punishes this with Diyat liability and up to 25 years' Ta'zir imprisonment. S.317 then applies a succession-law consequence common to both Qatl-i-Amd and Qatl Shibh-i-Amd: a person who commits either is debarred from succeeding to the victim's estate as an heir or beneficiary under a will.",
-      "legal": "Qatl Shibh-i-Amd occupies the conceptual space between Qatl-i-Amd (S.300's intentional/knowing killing) and Qatl-i-Khata (S.318's mistake-based killing, covered next): the offender genuinely intended only to cause harm, using means objectively unlikely to cause death, yet death resulted anyway. This maps onto a mental state lower than any of the four S.300 Niyyat clauses but higher than pure accident — a useful comparative point against the Murder module's existing Niyyat framework, since Shibh-i-Amd sits in the gap S.300's clauses do not reach. S.317's debarment-from-succession rule applies a clean, almost automatic civil consequence on top of the criminal punishment, reflecting the general legal principle that a person should not profit from their own wrongdoing against the very person whose estate they would inherit.",
-      "cite": "S.315, S.316, S.317 PPC and S.315's Illustration — official text. Cross-reference Murder S.300 Niyyat element — Qatl Shibh-i-Amd occupies the mental-state space below S.300's four clauses.",
-      "ll": "S.315, S.316, S.317 PPC — official text",
-      "section": "315",
-      "landmark": [
-        {
-          "case": "",
-          "citation": "",
-          "holding": "This module corrects a factual error identified and fixed this session: the Murder module’s existing S.311 element previously stated the honour-killing override as ‘minimum 14 years, up to 25 years’ Taʼzir. Verified directly against the Bare Act, S.311’s actual text provides a general Taʼzir ceiling of death/life/up to 14 years, with the honour-killing proviso specifically mandating life imprisonment — not a 14–25 year range. This has been corrected in the Murder module’s S.311 element as part of this build. No fabricated landmark case citation is offered for this module specifically; the procedural Qisas/Diyat mechanics here are most commonly litigated as part of the same proceedings already captured by the landmark cases logged under the Murder module (Qandeel Baloch, ZA Bhutto, Mumtaz Qadri, Safia Bano).",
-          "verified": false
-        }
-      ],
-      "sq": [
-        {
-          "q": "A, intending only to cause hurt, strikes Z with a stick — an object which in the ordinary course of nature is not likely to cause death. Z unexpectedly dies as a result. Apply S.315 and its own Illustration. What is A guilty of, and how does this differ from Qatl-i-Amd under S.300?",
-          "reveal": "This is the Code's own Illustration to S.315 directly: A is guilty of Qatl Shibh-i-Amd, not Qatl-i-Amd. The critical distinguishing feature from S.300 is the nature of the means used: a stick is, in the ordinary course of nature, not likely to cause death — this is precisely why none of S.300's four Niyyat clauses (which all require either intent to kill, intent to cause likely-fatal injury, intent to cause injury sufficient in the ordinary course to cause death, or knowledge of an imminently dangerous act) are satisfied. A's mental state (mere intent to cause harm) combined with objectively non-lethal means produces the intermediate Shibh-i-Amd category instead.",
-          "cite": "S.315 PPC Illustration — stick/stone as means not ordinarily likely to cause death, distinguishing Shibh-i-Amd from S.300 Qatl-i-Amd."
-        },
-        {
-          "q": "An offender is convicted of Qatl Shibh-i-Amd against their own parent, and would otherwise be entitled to inherit from that parent's estate as the closest surviving heir. Apply S.317. Does the conviction affect the inheritance?",
-          "reveal": "Yes. S.317 expressly debars a person who commits Qatl-i-Amd OR Qatl Shibh-i-Amd from succeeding to the victim's estate as an heir or beneficiary under a will — the debarment applies regardless of which of these two categories the conviction falls under, and regardless of how close the family relationship otherwise was. The offender forfeits any inheritance rights they would have held against the very person they killed, even where the killing falls short of full Qatl-i-Amd.",
-          "cite": "S.317 PPC — debarment from succession applies to both Qatl-i-Amd and Qatl Shibh-i-Amd convictions."
-        },
-        {
-          "q": "Compare the punishment exposure under S.316 (Qatl Shibh-i-Amd: Diyat plus up to 25 years Ta'zir) to the Murder module's existing S.302(c) tier (Ta'zir imprisonment up to 25 years where Qisas is not applicable in law). Is Shibh-i-Amd simply a lesser-included version of S.302(c), or are they structurally distinct punishment tracks?",
-          "reveal": "They are structurally distinct, even though the imprisonment ceiling happens to coincide at 25 years. S.302(c) operates within the Qatl-i-Amd framework specifically — it is one of three punishment tracks (alongside Qisas and Ta'zir-death) available once Qatl-i-Amd itself, with its S.300 Niyyat requirement, has been established. S.316, by contrast, governs an entirely separate homicide category (Shibh-i-Amd) that exists precisely because the S.300 Niyyat requirement is NOT met. Critically, S.316 always includes mandatory Diyat liability alongside the optional Ta'zir imprisonment, whereas S.302(c) is a pure imprisonment track with no separate Diyat component built into that specific clause. A student conflating the two as 'the same 25-year tier' would miss that one requires proof of full Qatl-i-Amd intent and the other specifically applies where that intent is absent.",
-          "cite": "S.316 PPC vs Murder module S.302(c) — structurally distinct tracks despite a coincidentally identical imprisonment ceiling; S.316 always carries mandatory Diyat, S.302(c) does not."
-        }
-      ],
-      "dike": "Intending (bodily ∨ mental harm, NOT death) ∧ death caused by means NOT ordinarily likely to cause death\n→ Qatl Shibh-i-Amd (not Qatl-i-Amd)\nCode's own illustration: striking with a stick/stone not ordinarily fatal, where death nonetheless results"
-    },
-    {
-      "id": "S318_320",
-      "name": "Qatl-i-Khata — Killing by Mistake",
-      "sub": "S.318/319/320 PPC — mistake of act or fact, including the negligent-driving variant",
-      "step": "Element 11 of 17",
-      "atom": "S318_320",
-      "desc": "Qatl-i-Khata (S.318) is committed where a person, without any intention to cause death or harm, causes death either by mistake of act or mistake of fact — the Code's own Illustrations cover both: aiming at a deer and accidentally killing a bystander instead (mistake of act), and shooting at what is believed to be a boar but turns out to be a human (mistake of fact). S.319 punishes the base form with Diyat liability, with an additional proviso allowing up to 5 years' Ta'zir where the Khata arose from rash or negligent conduct other than driving. S.320 separately and more severely addresses Qatl-i-Khata specifically by rash or negligent driving, mandating Diyat plus up to 10 years' imprisonment, having regard to the facts and circumstances.",
-      "legal": "Qatl-i-Khata sits at the lowest end of the homicide-culpability spectrum built into Chapter XVI — genuinely no intention to cause death or harm at all, distinguishing it sharply from both Qatl-i-Amd (S.300's intentional/knowing framework) and Qatl Shibh-i-Amd (S.315's intent-to-harm-but-not-kill framework). The two Illustrations are carefully chosen to show the two distinct species of mistake the section covers: mistake of act (the bodily movement itself goes wrong — aiming at one target, hitting another) and mistake of fact (the bodily movement goes exactly as intended, but a false belief about the nature of the target was held). S.320's specific, harsher treatment of negligent-driving deaths reflects a deliberate legislative carve-out responding to the particular social prevalence and seriousness of road-traffic fatalities, treating them as warranting double the maximum Ta'zir exposure compared to other rash/negligent Khata under S.319's proviso.",
-      "cite": "S.318, S.319, S.320 PPC and S.318's two Illustrations — official text. Cross-reference General Explanations S.39 (Voluntarily) — Qatl-i-Khata is precisely the category of death-causing conduct that falls outside S.39's voluntariness definition, since neither intention nor knowledge of likely death is present.",
-      "ll": "S.318, S.319, S.320 PPC — official text",
-      "section": "318",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A aims at what A genuinely and reasonably believes to be a wild boar in thick brush and fires, intending only to hunt the animal. The target turns out to be a human being, who dies. Apply S.318 and its own Illustration (b). What category of Qatl is this, and why is it not Qatl-i-Amd?",
-          "reveal": "This is the Code's own Illustration (b) to S.318 directly: A is guilty of Qatl-i-Khata, specifically the mistake-of-fact variant. It is not Qatl-i-Amd because none of the S.300 Niyyat clauses are satisfied — A had no intention to cause death or harm to any person at all, and A's belief, however mistaken, was that the target was an animal, not a human being. The entire mental architecture of S.300 (which all four clauses require some form of intent or knowledge directed at causing death or serious harm to a person) is simply absent on these facts.",
-          "cite": "S.318 PPC Illustration (b) — mistake of fact (wrong belief about the nature of the target) as one of the two Qatl-i-Khata variants."
-        },
-        {
-          "q": "A driver, while genuinely driving with rash disregard for pedestrian safety (speeding through a clearly marked pedestrian crossing), strikes and kills a pedestrian. Apply S.320 specifically, rather than S.319's general rash/negligent proviso. Why does this fact pattern fall under S.320 rather than S.319?",
-          "reveal": "S.319's proviso for rash or negligent conduct explicitly carves out driving — it applies only to rash/negligent Khata 'other than rash or negligent driving.' Since this fact pattern specifically involves driving, S.320 governs instead, mandating Diyat plus up to 10 years' imprisonment (double S.319's 5-year ceiling for other forms of rash/negligent Khata), reflecting the legislature's specific, heightened concern with road-traffic fatalities as their own distinct sub-category requiring separate, harsher treatment.",
-          "cite": "S.319 PPC proviso's express exclusion of driving, and S.320 PPC as the specific, harsher provision governing rash/negligent-driving Khata."
-        },
-        {
-          "q": "Does Qatl-i-Khata under S.318 require that the death-causing act itself be lawful, or can Khata arise even from an unlawful act, provided there was no intention to cause death or harm?",
-          "reveal": "S.318's text requires only the absence of intention to cause death or harm, and that death results from mistake of act or mistake of fact — it does not on its face require the underlying act to have been lawful. This distinguishes Qatl-i-Khata from Qatl Bis-Sabab (S.321, covered separately), which specifically requires an unlawful act as its trigger. A genuinely lawful but mistaken act (such as the hunting scenarios in S.318's own Illustrations) falls naturally within S.318; whether an unlawful but non-death-intending act resulting in death falls under S.318's mistake framework or S.321's unlawful-act framework would depend on the precise causal mechanism on the facts — S.321 specifically requires the unlawful act itself to 'become a cause' of death, a structurally distinct causal pathway from S.318's mistake-based pathway.",
-          "cite": "S.318 PPC (mistake-based, no lawfulness requirement stated) vs S.321 PPC Qatl Bis-Sabab (unlawful-act-based) — structurally distinct causal pathways to an unintended death."
-        }
-      ],
-      "dike": "~ intention to cause death or harm\n∧ (mistake of act ∨ mistake of fact)\n→ Qatl-i-Khata\nAiming at a deer and killing a bystander instead = mistake of act; mistaking a person for game = mistake of fact"
-    },
-    {
-      "id": "S321_322",
-      "name": "Qatl Bis-Sabab — Death Caused by an Unlawful Act",
-      "sub": "S.321/322 PPC — death as an indirect consequence of unlawful conduct",
-      "step": "Element 12 of 17",
-      "atom": "S321_322",
-      "desc": "Qatl Bis-Sabab (S.321) is committed where a person, without any intention to cause death or harm to anyone, does an unlawful act that becomes a cause of another person's death. The Code's own Illustration is unlawfully digging a pit in a public thoroughfare without intending harm to anyone, where a passer-by falls in and dies. S.322 punishes this with Diyat liability alone — no additional Ta'zir component is provided for, unlike the rash/negligent variants of Qatl-i-Khata.",
-      "legal": "Qatl Bis-Sabab is the final, residual homicide category in this cluster, distinguished from Qatl-i-Khata by its causal structure rather than its mental-state structure: both categories share the complete absence of intent to cause death or harm, but Khata involves a mistake in the offender's own direct act (aiming wrong, or misidentifying the target), while Bis-Sabab involves an unlawful act that merely becomes a cause of death through some intervening chain of events, without the offender's own conduct being the direct, proximate physical cause in the way a gunshot or blow would be. The pit-digging Illustration is instructive precisely because the unlawful act (digging an unauthorised pit in a public way) and the resulting death are separated by an intervening event entirely outside the offender's control — the victim's own decision to walk that route and fall in.",
-      "cite": "S.321 and S.322 PPC and S.321's own Illustration — official text. Cross-reference General Explanations S.43 (Illegal — includes anything prohibited by law or furnishing ground for civil action) — the 'unlawful act' triggering S.321 liability draws on this same broad definitional category.",
-      "ll": "S.321, S.322 PPC — official text",
-      "section": "321",
-      "landmark": [],
-      "sq": [
-        {
-          "q": "A unlawfully digs a pit in a public thoroughfare, with no intention whatsoever of harming anyone — perhaps purely for some unrelated unlawful purpose. B, passing by some time later, falls into the pit and dies. Apply S.321 and its own Illustration. What is A liable for?",
-          "reveal": "This is the Code's own Illustration to S.321 directly: A has committed Qatl Bis-Sabab. The unlawful act (digging the unauthorised pit) became a cause of B's death, even though A never intended harm to B or anyone else, and even though the death occurred through an intervening chain of events (B's later, independent decision to walk that route) rather than through any direct physical act by A against B.",
-          "cite": "S.321 PPC Illustration — unlawful pit-digging becoming a cause of an unrelated passer-by's later death."
-        },
-        {
-          "q": "Why does S.322 provide for Diyat liability only, with no Ta'zir imprisonment component at all — contrasting with S.319's proviso allowing up to 5 years' Ta'zir for rash/negligent Khata, or S.320's mandatory imprisonment for negligent-driving Khata?",
-          "reveal": "The structural difference reflects the more attenuated causal and culpability profile of Bis-Sabab compared to even the rash/negligent variants of Khata. In Khata, the offender's own direct act causes death through a mistake in execution or belief — there is at least a direct causal link between the offender's conduct and the result, even without intent. In Bis-Sabab, the offender's unlawful act merely 'becomes a cause' of death through some further intervening sequence of events, a more remote causal relationship. The legislature appears to have calibrated S.322's pure-Diyat punishment to this more attenuated culpability, reserving the additional Ta'zir imprisonment options for the more directly-caused Khata categories.",
-          "cite": "S.322 PPC (Diyat only) vs S.319/320 PPC (Diyat plus Ta'zir options) — calibrated to the more attenuated causal chain in Bis-Sabab compared to Khata."
-        },
-        {
-          "q": "Does the unlawful act underlying Qatl Bis-Sabab need to be one that is itself dangerous or likely to cause harm, or can any unlawful act — however minor or unrelated to physical safety — trigger S.321 liability if it happens to become a cause of death?",
-          "reveal": "S.321's text requires only that the act be unlawful and that it 'becomes a cause for the death of another person' — it does not on its face require the unlawful act to be inherently dangerous or safety-related. The pit-digging Illustration involves an act (unauthorised excavation in a public way) that does carry an inherent physical safety risk, but the section's wording is broader than that specific example might suggest, focusing on the causal outcome (the unlawful act becoming a cause of death) rather than requiring the unlawful act to fall into any particular category of inherently dangerous conduct.",
-          "cite": "S.321 PPC — textual focus on causal outcome rather than requiring the underlying unlawful act to be inherently dangerous."
-        }
-      ],
-      "dike": "~ intention to cause death or harm to anyone\n∧ unlawful act\n∧ that act becomes a cause of another's death\n→ Qatl Bis-Sabab\nUnlawfully digging a pit without intending harm, someone later falls in and dies"
-    },
-    {
       "id": "S301",
       "name": "Causing Death of Person Other Than the Person Whose Death Was Intended",
       "sub": "S.301 PPC — transferred intent for Qatl-i-Amd",
@@ -383,6 +283,106 @@
         }
       ],
       "dike": "Wali kills a convict already forgiven (waived under S.309 ∨ compounded under S.310) ∧ (personally waived/compounded ∨ knew of another's waiver)\n→ that wali faces Qisas themselves\n~ such knowledge → Diyat instead"
+    },
+    {
+      "id": "S315_317",
+      "name": "Qatl Shibh-i-Amd and Debarment from Succession",
+      "sub": "S.315/316/317 PPC — the intermediate homicide category and its inheritance consequence",
+      "step": "Element 10 of 17",
+      "atom": "S315_317",
+      "desc": "Qatl Shibh-i-Amd (S.315) is committed where a person, intending to cause bodily/mental harm (not death), causes death by means or an act not ordinarily likely to cause death — the Code's own Illustration is striking a person with a stick or stone not ordinarily fatal, where death nonetheless results. S.316 punishes this with Diyat liability and up to 25 years' Ta'zir imprisonment. S.317 then applies a succession-law consequence common to both Qatl-i-Amd and Qatl Shibh-i-Amd: a person who commits either is debarred from succeeding to the victim's estate as an heir or beneficiary under a will.",
+      "legal": "Qatl Shibh-i-Amd occupies the conceptual space between Qatl-i-Amd (S.300's intentional/knowing killing) and Qatl-i-Khata (S.318's mistake-based killing, covered next): the offender genuinely intended only to cause harm, using means objectively unlikely to cause death, yet death resulted anyway. This maps onto a mental state lower than any of the four S.300 Niyyat clauses but higher than pure accident — a useful comparative point against the Murder module's existing Niyyat framework, since Shibh-i-Amd sits in the gap S.300's clauses do not reach. S.317's debarment-from-succession rule applies a clean, almost automatic civil consequence on top of the criminal punishment, reflecting the general legal principle that a person should not profit from their own wrongdoing against the very person whose estate they would inherit.",
+      "cite": "S.315, S.316, S.317 PPC and S.315's Illustration — official text. Cross-reference Murder S.300 Niyyat element — Qatl Shibh-i-Amd occupies the mental-state space below S.300's four clauses.",
+      "ll": "S.315, S.316, S.317 PPC — official text",
+      "section": "315",
+      "landmark": [
+        {
+          "case": "",
+          "citation": "",
+          "holding": "This module corrects a factual error identified and fixed this session: the Murder module’s existing S.311 element previously stated the honour-killing override as ‘minimum 14 years, up to 25 years’ Taʼzir. Verified directly against the Bare Act, S.311’s actual text provides a general Taʼzir ceiling of death/life/up to 14 years, with the honour-killing proviso specifically mandating life imprisonment — not a 14–25 year range. This has been corrected in the Murder module’s S.311 element as part of this build. No fabricated landmark case citation is offered for this module specifically; the procedural Qisas/Diyat mechanics here are most commonly litigated as part of the same proceedings already captured by the landmark cases logged under the Murder module (Qandeel Baloch, ZA Bhutto, Mumtaz Qadri, Safia Bano).",
+          "verified": false
+        }
+      ],
+      "sq": [
+        {
+          "q": "A, intending only to cause hurt, strikes Z with a stick — an object which in the ordinary course of nature is not likely to cause death. Z unexpectedly dies as a result. Apply S.315 and its own Illustration. What is A guilty of, and how does this differ from Qatl-i-Amd under S.300?",
+          "reveal": "This is the Code's own Illustration to S.315 directly: A is guilty of Qatl Shibh-i-Amd, not Qatl-i-Amd. The critical distinguishing feature from S.300 is the nature of the means used: a stick is, in the ordinary course of nature, not likely to cause death — this is precisely why none of S.300's four Niyyat clauses (which all require either intent to kill, intent to cause likely-fatal injury, intent to cause injury sufficient in the ordinary course to cause death, or knowledge of an imminently dangerous act) are satisfied. A's mental state (mere intent to cause harm) combined with objectively non-lethal means produces the intermediate Shibh-i-Amd category instead.",
+          "cite": "S.315 PPC Illustration — stick/stone as means not ordinarily likely to cause death, distinguishing Shibh-i-Amd from S.300 Qatl-i-Amd."
+        },
+        {
+          "q": "An offender is convicted of Qatl Shibh-i-Amd against their own parent, and would otherwise be entitled to inherit from that parent's estate as the closest surviving heir. Apply S.317. Does the conviction affect the inheritance?",
+          "reveal": "Yes. S.317 expressly debars a person who commits Qatl-i-Amd OR Qatl Shibh-i-Amd from succeeding to the victim's estate as an heir or beneficiary under a will — the debarment applies regardless of which of these two categories the conviction falls under, and regardless of how close the family relationship otherwise was. The offender forfeits any inheritance rights they would have held against the very person they killed, even where the killing falls short of full Qatl-i-Amd.",
+          "cite": "S.317 PPC — debarment from succession applies to both Qatl-i-Amd and Qatl Shibh-i-Amd convictions."
+        },
+        {
+          "q": "Compare the punishment exposure under S.316 (Qatl Shibh-i-Amd: Diyat plus up to 25 years Ta'zir) to the Murder module's existing S.302(c) tier (Ta'zir imprisonment up to 25 years where Qisas is not applicable in law). Is Shibh-i-Amd simply a lesser-included version of S.302(c), or are they structurally distinct punishment tracks?",
+          "reveal": "They are structurally distinct, even though the imprisonment ceiling happens to coincide at 25 years. S.302(c) operates within the Qatl-i-Amd framework specifically — it is one of three punishment tracks (alongside Qisas and Ta'zir-death) available once Qatl-i-Amd itself, with its S.300 Niyyat requirement, has been established. S.316, by contrast, governs an entirely separate homicide category (Shibh-i-Amd) that exists precisely because the S.300 Niyyat requirement is NOT met. Critically, S.316 always includes mandatory Diyat liability alongside the optional Ta'zir imprisonment, whereas S.302(c) is a pure imprisonment track with no separate Diyat component built into that specific clause. A student conflating the two as 'the same 25-year tier' would miss that one requires proof of full Qatl-i-Amd intent and the other specifically applies where that intent is absent.",
+          "cite": "S.316 PPC vs Murder module S.302(c) — structurally distinct tracks despite a coincidentally identical imprisonment ceiling; S.316 always carries mandatory Diyat, S.302(c) does not."
+        }
+      ],
+      "dike": "Intending (bodily ∨ mental harm, NOT death) ∧ death caused by means NOT ordinarily likely to cause death\n→ Qatl Shibh-i-Amd (not Qatl-i-Amd)\nCode's own illustration: striking with a stick/stone not ordinarily fatal, where death nonetheless results"
+    },
+    {
+      "id": "S318_320",
+      "name": "Qatl-i-Khata — Killing by Mistake",
+      "sub": "S.318/319/320 PPC — mistake of act or fact, including the negligent-driving variant",
+      "step": "Element 11 of 17",
+      "atom": "S318_320",
+      "desc": "Qatl-i-Khata (S.318) is committed where a person, without any intention to cause death or harm, causes death either by mistake of act or mistake of fact — the Code's own Illustrations cover both: aiming at a deer and accidentally killing a bystander instead (mistake of act), and shooting at what is believed to be a boar but turns out to be a human (mistake of fact). S.319 punishes the base form with Diyat liability, with an additional proviso allowing up to 5 years' Ta'zir where the Khata arose from rash or negligent conduct other than driving. S.320 separately and more severely addresses Qatl-i-Khata specifically by rash or negligent driving, mandating Diyat plus up to 10 years' imprisonment, having regard to the facts and circumstances.",
+      "legal": "Qatl-i-Khata sits at the lowest end of the homicide-culpability spectrum built into Chapter XVI — genuinely no intention to cause death or harm at all, distinguishing it sharply from both Qatl-i-Amd (S.300's intentional/knowing framework) and Qatl Shibh-i-Amd (S.315's intent-to-harm-but-not-kill framework). The two Illustrations are carefully chosen to show the two distinct species of mistake the section covers: mistake of act (the bodily movement itself goes wrong — aiming at one target, hitting another) and mistake of fact (the bodily movement goes exactly as intended, but a false belief about the nature of the target was held). S.320's specific, harsher treatment of negligent-driving deaths reflects a deliberate legislative carve-out responding to the particular social prevalence and seriousness of road-traffic fatalities, treating them as warranting double the maximum Ta'zir exposure compared to other rash/negligent Khata under S.319's proviso.",
+      "cite": "S.318, S.319, S.320 PPC and S.318's two Illustrations — official text. Cross-reference General Explanations S.39 (Voluntarily) — Qatl-i-Khata is precisely the category of death-causing conduct that falls outside S.39's voluntariness definition, since neither intention nor knowledge of likely death is present.",
+      "ll": "S.318, S.319, S.320 PPC — official text",
+      "section": "318",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A aims at what A genuinely and reasonably believes to be a wild boar in thick brush and fires, intending only to hunt the animal. The target turns out to be a human being, who dies. Apply S.318 and its own Illustration (b). What category of Qatl is this, and why is it not Qatl-i-Amd?",
+          "reveal": "This is the Code's own Illustration (b) to S.318 directly: A is guilty of Qatl-i-Khata, specifically the mistake-of-fact variant. It is not Qatl-i-Amd because none of the S.300 Niyyat clauses are satisfied — A had no intention to cause death or harm to any person at all, and A's belief, however mistaken, was that the target was an animal, not a human being. The entire mental architecture of S.300 (which all four clauses require some form of intent or knowledge directed at causing death or serious harm to a person) is simply absent on these facts.",
+          "cite": "S.318 PPC Illustration (b) — mistake of fact (wrong belief about the nature of the target) as one of the two Qatl-i-Khata variants."
+        },
+        {
+          "q": "A driver, while genuinely driving with rash disregard for pedestrian safety (speeding through a clearly marked pedestrian crossing), strikes and kills a pedestrian. Apply S.320 specifically, rather than S.319's general rash/negligent proviso. Why does this fact pattern fall under S.320 rather than S.319?",
+          "reveal": "S.319's proviso for rash or negligent conduct explicitly carves out driving — it applies only to rash/negligent Khata 'other than rash or negligent driving.' Since this fact pattern specifically involves driving, S.320 governs instead, mandating Diyat plus up to 10 years' imprisonment (double S.319's 5-year ceiling for other forms of rash/negligent Khata), reflecting the legislature's specific, heightened concern with road-traffic fatalities as their own distinct sub-category requiring separate, harsher treatment.",
+          "cite": "S.319 PPC proviso's express exclusion of driving, and S.320 PPC as the specific, harsher provision governing rash/negligent-driving Khata."
+        },
+        {
+          "q": "Does Qatl-i-Khata under S.318 require that the death-causing act itself be lawful, or can Khata arise even from an unlawful act, provided there was no intention to cause death or harm?",
+          "reveal": "S.318's text requires only the absence of intention to cause death or harm, and that death results from mistake of act or mistake of fact — it does not on its face require the underlying act to have been lawful. This distinguishes Qatl-i-Khata from Qatl Bis-Sabab (S.321, covered separately), which specifically requires an unlawful act as its trigger. A genuinely lawful but mistaken act (such as the hunting scenarios in S.318's own Illustrations) falls naturally within S.318; whether an unlawful but non-death-intending act resulting in death falls under S.318's mistake framework or S.321's unlawful-act framework would depend on the precise causal mechanism on the facts — S.321 specifically requires the unlawful act itself to 'become a cause' of death, a structurally distinct causal pathway from S.318's mistake-based pathway.",
+          "cite": "S.318 PPC (mistake-based, no lawfulness requirement stated) vs S.321 PPC Qatl Bis-Sabab (unlawful-act-based) — structurally distinct causal pathways to an unintended death."
+        }
+      ],
+      "dike": "~ intention to cause death or harm\n∧ (mistake of act ∨ mistake of fact)\n→ Qatl-i-Khata\nAiming at a deer and killing a bystander instead = mistake of act; mistaking a person for game = mistake of fact"
+    },
+    {
+      "id": "S321_322",
+      "name": "Qatl Bis-Sabab — Death Caused by an Unlawful Act",
+      "sub": "S.321/322 PPC — death as an indirect consequence of unlawful conduct",
+      "step": "Element 12 of 17",
+      "atom": "S321_322",
+      "desc": "Qatl Bis-Sabab (S.321) is committed where a person, without any intention to cause death or harm to anyone, does an unlawful act that becomes a cause of another person's death. The Code's own Illustration is unlawfully digging a pit in a public thoroughfare without intending harm to anyone, where a passer-by falls in and dies. S.322 punishes this with Diyat liability alone — no additional Ta'zir component is provided for, unlike the rash/negligent variants of Qatl-i-Khata.",
+      "legal": "Qatl Bis-Sabab is the final, residual homicide category in this cluster, distinguished from Qatl-i-Khata by its causal structure rather than its mental-state structure: both categories share the complete absence of intent to cause death or harm, but Khata involves a mistake in the offender's own direct act (aiming wrong, or misidentifying the target), while Bis-Sabab involves an unlawful act that merely becomes a cause of death through some intervening chain of events, without the offender's own conduct being the direct, proximate physical cause in the way a gunshot or blow would be. The pit-digging Illustration is instructive precisely because the unlawful act (digging an unauthorised pit in a public way) and the resulting death are separated by an intervening event entirely outside the offender's control — the victim's own decision to walk that route and fall in.",
+      "cite": "S.321 and S.322 PPC and S.321's own Illustration — official text. Cross-reference General Explanations S.43 (Illegal — includes anything prohibited by law or furnishing ground for civil action) — the 'unlawful act' triggering S.321 liability draws on this same broad definitional category.",
+      "ll": "S.321, S.322 PPC — official text",
+      "section": "321",
+      "landmark": [],
+      "sq": [
+        {
+          "q": "A unlawfully digs a pit in a public thoroughfare, with no intention whatsoever of harming anyone — perhaps purely for some unrelated unlawful purpose. B, passing by some time later, falls into the pit and dies. Apply S.321 and its own Illustration. What is A liable for?",
+          "reveal": "This is the Code's own Illustration to S.321 directly: A has committed Qatl Bis-Sabab. The unlawful act (digging the unauthorised pit) became a cause of B's death, even though A never intended harm to B or anyone else, and even though the death occurred through an intervening chain of events (B's later, independent decision to walk that route) rather than through any direct physical act by A against B.",
+          "cite": "S.321 PPC Illustration — unlawful pit-digging becoming a cause of an unrelated passer-by's later death."
+        },
+        {
+          "q": "Why does S.322 provide for Diyat liability only, with no Ta'zir imprisonment component at all — contrasting with S.319's proviso allowing up to 5 years' Ta'zir for rash/negligent Khata, or S.320's mandatory imprisonment for negligent-driving Khata?",
+          "reveal": "The structural difference reflects the more attenuated causal and culpability profile of Bis-Sabab compared to even the rash/negligent variants of Khata. In Khata, the offender's own direct act causes death through a mistake in execution or belief — there is at least a direct causal link between the offender's conduct and the result, even without intent. In Bis-Sabab, the offender's unlawful act merely 'becomes a cause' of death through some further intervening sequence of events, a more remote causal relationship. The legislature appears to have calibrated S.322's pure-Diyat punishment to this more attenuated culpability, reserving the additional Ta'zir imprisonment options for the more directly-caused Khata categories.",
+          "cite": "S.322 PPC (Diyat only) vs S.319/320 PPC (Diyat plus Ta'zir options) — calibrated to the more attenuated causal chain in Bis-Sabab compared to Khata."
+        },
+        {
+          "q": "Does the unlawful act underlying Qatl Bis-Sabab need to be one that is itself dangerous or likely to cause harm, or can any unlawful act — however minor or unrelated to physical safety — trigger S.321 liability if it happens to become a cause of death?",
+          "reveal": "S.321's text requires only that the act be unlawful and that it 'becomes a cause for the death of another person' — it does not on its face require the unlawful act to be inherently dangerous or safety-related. The pit-digging Illustration involves an act (unauthorised excavation in a public way) that does carry an inherent physical safety risk, but the section's wording is broader than that specific example might suggest, focusing on the causal outcome (the unlawful act becoming a cause of death) rather than requiring the unlawful act to fall into any particular category of inherently dangerous conduct.",
+          "cite": "S.321 PPC — textual focus on causal outcome rather than requiring the underlying unlawful act to be inherently dangerous."
+        }
+      ],
+      "dike": "~ intention to cause death or harm to anyone\n∧ unlawful act\n∧ that act becomes a cause of another's death\n→ Qatl Bis-Sabab\nUnlawfully digging a pit without intending harm, someone later falls in and dies"
     },
     {
       "id": "S323",
