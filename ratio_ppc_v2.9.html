@@ -1,0 +1,2063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1e2233">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+  <title>Ratio PPC</title>
+  <style>
+  /* ═══════════════════════════════════════════════════════
+     CSS VARIABLES — every font-size uses these. No px elsewhere.
+     setFont() overrides :root and everything scales.
+  ═══════════════════════════════════════════════════════ */
+  :root {
+    /* Font sizes — rem + CSS custom properties so setFont() scales
+       everything with one :root override. Base values calibrated to
+       visually match v97's fixed-px sizes at the default 15px setting. */
+    --fs-xs:   0.68rem;   /* ~9-10px  — mono labels, badges, citations */
+    --fs-sm:   0.80rem;   /* ~11.5px — sub-text, sparring text */
+    --fs-base: 0.87rem;   /* ~13px   — body/legal text */
+    --fs-lg:   0.94rem;   /* ~14px   — card names */
+    --fs-xl:   1.0rem;    /* ~15px   — element titles */
+    --fs-2xl:  1.2rem;    /* ~18px   — home hero title */
+
+    /* Palette — extracted directly from PPC Navigator v97 */
+    --navy:    #1e2233;
+    --nmid:    #2d3a6e;   /* legal/sparring header banners, active checklist border */
+    --nsoft:   #3d4f8a;   /* source-link colour */
+    --gold:    #c8a96e;
+    --glt:     #e8d5a8;   /* light gold, formula text */
+    --bg:      #f5f4f0;
+    --white:   #ffffff;
+    --bgc:     #ffffff;
+    --bgs:     #eef0f7;   /* active/selected card tint */
+    --ink:     #1a1a1a;
+    --tmid:    #4a4a4a;   /* secondary body text */
+    --ink-lt:  #888888;   /* light grey — subtitles, hints */
+    --rule:    #dddbd5;
+
+    --grn:     #2d6a4f;
+    --grnb:    #e8f5ee;
+    --grnbd:   #b7ddc8;
+    --amb:     #92622a;
+    --ambb:    #fdf3e8;
+    --ambbd:   #e8c88a;
+
+    --r:       12px;
+    --rsm:     8px;
+    --sans:    'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --disp:    'Plus Jakarta Sans', 'DM Sans', sans-serif;
+    --title:   'Oswald', sans-serif;
+    --serif:   Georgia, serif;
+    --mono:    'DM Mono', 'Courier New', monospace;
+    --hdr-h:   62px;
+
+    /* Foundation section palette */
+    --parch:      #f7f3ed;
+    --parch-dk:   #ede6da;
+    --terra:      #8b4513;
+    --terra-lt:   #c4703a;
+    --terra-bg:   #fdf6f0;
+    --terra-bd:   #e8c4a0;
+    --reform:     #2c4a6e;
+    --reform-bg:  #f0f4f8;
+    --reform-bd:  #a8c0d8;
+    --sched:      #1a5c52;
+    --sched-bg:   #f0f8f6;
+    --sched-bd:   #a0cfc8;
+
+    /* Palette accent colours (home card chapters) */
+    --c-general:  #2c4a7e;
+    --c-person:   #8b2535;
+    --c-property: #7a4f10;
+    --c-repfam:   #4a3070;
+    --c-state:    #0d4a3e;
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     RESET
+  ═══════════════════════════════════════════════════════ */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; overflow: hidden; background: var(--navy); }
+  body {
+    font-family: var(--sans);
+    font-size: var(--fs-base);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  button { -webkit-appearance: none; appearance: none; border: none; background: none; cursor: pointer; font-family: inherit; }
+
+  /* ═══════════════════════════════════════════════════════
+     HEADER
+  ═══════════════════════════════════════════════════════ */
+  #hdr { display: none; } /* replaced by static headers */
+
+  #backbtn {
+    width: 34px; height: 34px;
+    border-radius: var(--rsm);
+    background: rgba(200,169,110,0.1);
+    border: 1px solid rgba(200,169,110,0.22);
+    color: var(--gold);
+    font-size: var(--fs-lg);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s;
+  }
+  #backbtn.vis { display: flex; }
+  #backbtn:active { background: rgba(200,169,110,0.2); }
+
+  /* ── LOGO SLOT ─────────────────────────────────────────
+     Replace the div.logo-slot contents with <img> or <svg>
+     when the final logo is ready. Size: 36×36px.
+  ──────────────────────────────────────────────────────── */
+  .logo-slot {
+    width: 36px; height: 36px;
+    border-radius: 9px;
+    background: rgba(200,169,110,0.1);
+    border: 1px solid rgba(200,169,110,0.25);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  #hdr-brand { flex: 1; min-width: 0; }
+  #hdr-brand h1 {
+    font-family: var(--title);
+    font-size: var(--fs-lg);
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  #hdr-brand h1 span { color: var(--gold); }
+  #hdr-sub {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: rgba(200,169,110,0.45);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #bc {
+    display: none;
+    flex: 1;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: rgba(200,169,110,0.5);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+  #bc b { color: var(--gold); font-weight: 700; }
+
+  .hdr-btns { display: flex; gap: 6px; flex-shrink: 0; }
+  .ibtn {
+    width: 32px; height: 32px;
+    border-radius: var(--rsm);
+    background: rgba(200,169,110,0.08);
+    border: 1px solid rgba(200,169,110,0.2);
+    color: var(--gold);
+    font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.15s;
+  }
+  .ibtn:active { background: rgba(200,169,110,0.2); }
+
+  /* ═══════════════════════════════════════════════════════
+     SCREENS — #home and #main are alternate full-screen
+     scrollable containers. Only one is active at a time.
+  ═══════════════════════════════════════════════════════ */
+  #home, #main {
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 100%; max-width: 480px;
+    margin: 0 auto;
+    background: var(--bg);
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 0;
+    display: none;
+  }
+  #home.on, #main.on { display: block; }
+
+  /* ═══════════════════════════════════════════════════════
+     HOME — SECTION DIVIDERS
+  ═══════════════════════════════════════════════════════ */
+  .sec-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 14px 6px;
+    scroll-snap-align: start;
+  }
+  .sec-div-line {
+    height: 1px;
+    background: rgba(0,0,0,0.16);
+    flex: 1;
+  }
+  .sec-div-line-sm { width: 14px; flex: none; }
+  .sec-div-lbl {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.28);
+    white-space: nowrap;
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     HOME — MODULE CARDS
+     Structure matches v97's .ocard exactly: flat white card,
+     1px rule border, no shadow, colour identity carried by the
+     icon square (not a left accent bar or tinted card body).
+  ═══════════════════════════════════════════════════════ */
+  .mc {
+    margin: 0 12px 8px;
+    background: var(--bgc);
+    border-radius: var(--r);
+    border: 1px solid var(--rule);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: filter 0.14s, transform 0.14s;
+  }
+  .mc:active { filter: brightness(0.93); transform: scale(0.985); }
+
+  .mc-icon {
+    width: 42px; height: 42px;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .mc-info { flex: 1; min-width: 0; }
+  .mc-name { font-family: var(--title); font-size: var(--fs-lg); font-weight: 600; color: var(--navy); line-height: 1.28; letter-spacing: 0.01em; }
+  .mc-sec  { font-family: var(--serif); font-style: italic; font-size: var(--fs-xs); color: var(--ink-lt); margin-top: 2px; letter-spacing: 0.01em; }
+  .mc-tag  {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 3px 8px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  /* Chapter colour identity — carried by the icon square + tag only.
+     Card body stays flat white per benchmark. */
+  .p-general  .mc-icon { background: var(--c-general); }
+  .p-general  .mc-tag  { background: rgba(44,74,126,0.1);  color: var(--c-general); }
+
+  .p-person   .mc-icon { background: var(--c-person); }
+  .p-person   .mc-tag  { background: rgba(139,37,53,0.1);  color: var(--c-person); }
+
+  .p-property .mc-icon { background: var(--c-property); }
+  .p-property .mc-tag  { background: rgba(122,79,16,0.1);  color: var(--c-property); }
+
+  .p-repfam   .mc-icon { background: var(--c-repfam); }
+  .p-repfam   .mc-tag  { background: rgba(74,48,112,0.1);  color: var(--c-repfam); }
+
+  .p-state    .mc-icon { background: var(--c-state); }
+  .p-state    .mc-tag  { background: rgba(13,74,62,0.1);   color: var(--c-state); }
+
+  /* Foundation sub-modules — terracotta, matching v97's foundation identity */
+  .p-terra    .mc-icon { background: var(--terra); }
+  .p-terra    .mc-tag  { background: rgba(139,69,19,0.1);  color: var(--terra); }
+
+  /* Gateway card (Legal Foundations) — navy, gold accents, per approved brief */
+  .p-gateway {
+    background: var(--navy);
+    border: 1px solid rgba(200,169,110,0.28);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 14px 15px;
+  }
+  .p-gateway .mc-icon { background: rgba(200,169,110,0.14); border: 1px solid rgba(200,169,110,0.25); }
+  .p-gateway .mc-name { color: #ffffff; font-size: var(--fs-lg); }
+  .p-gateway .mc-sec  { color: rgba(200,169,110,0.4); }
+  .p-gateway .mc-tag  { background:rgba(200,169,110,0.12); color:var(--gold); border:1px solid rgba(200,169,110,0.22); }
+  .gw-row { display: flex; align-items: center; gap: 11px; }
+  .gw-chips { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 10px; }
+  .gw-chip {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 5px;
+    background: rgba(200,169,110,0.08);
+    color: rgba(200,169,110,0.6);
+    white-space: nowrap;
+  }
+
+  /* Tool cards (Thinking Tools) — navy, gold accents, per approved brief */
+  .p-tool {
+    background: var(--navy);
+    border-color: rgba(200,169,110,0.15);
+  }
+  .p-tool .mc-name { color: #ffffff; }
+  .p-tool .mc-sec  { color: rgba(200,169,110,0.45); }
+  .p-tool .mc-tag  { background:rgba(200,169,110,0.1); color:var(--gold); }
+  .tool-ico {
+    width: 42px; height: 42px;
+    border-radius: 10px;
+    background: rgba(200,169,110,0.1);
+    border: 1px solid rgba(200,169,110,0.22);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     ELEMENT VIEW — PROGRESS BAR
+  ═══════════════════════════════════════════════════════ */
+  .prog-bar {
+    background: var(--navy);
+    padding: 8px 14px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .prog-meta {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    gap: 8px;
+    min-width: 0;
+  }
+  .prog-track {
+    height: 3px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .prog-fill {
+    height: 100%;
+    background: var(--gold);
+    border-radius: 2px;
+    transition: width 0.44s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     ELEMENT VIEW — HEADER CARD
+  ═══════════════════════════════════════════════════════ */
+  .el-hdr {
+    background: var(--navy);
+    padding: 16px 16px 14px;
+  }
+  .el-step {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: rgba(200,169,110,0.65);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .el-name {
+    font-family: var(--title);
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+    margin-bottom: 8px;
+  }
+  .el-op {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: rgba(200,169,110,0.7);
+    background: rgba(200,169,110,0.1);
+    border: 1px solid rgba(200,169,110,0.22);
+    padding: 3px 11px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Accordion-card preview strip — operator chip + formula highlight,
+     white-background variant of el-op/el-fml (colours extracted from
+     v97's showGEAccordion: #8b6f1f operator text, #6b5226 formula text) */
+  .acc-preview { padding: 12px 14px 0; }
+  .acc-op-chip {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    color: #8b6f1f;
+    background: rgba(200,169,110,0.18);
+    border: 1px solid rgba(200,169,110,0.3);
+    border-radius: 6px;
+    padding: 2px 8px;
+    margin-bottom: 9px;
+  }
+  .acc-fml {
+    background: rgba(200,169,110,0.08);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 6px 6px 0;
+    padding: 8px 10px;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: #6b5226;
+    line-height: 1.7;
+    margin-bottom: 9px;
+  }
+  .acc-fml .cur-atom { background: var(--gold); color: var(--navy); padding: 0 4px; border-radius: 3px; font-weight: 700; }
+  .acc-desc { font-size: var(--fs-sm); color: var(--tmid); line-height: 1.6; padding: 0 14px 12px; }
+  .el-desc {
+    font-size: var(--fs-sm);
+    color: rgba(240,236,224,0.74);
+    line-height: 1.66;
+    margin-bottom: 12px;
+  }
+
+  /* Schedule II pills — dark variant, for use on the navy .el-hdr card */
+  .pills { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pill {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 20px;
+    letter-spacing: 0.02em;
+    cursor: default;
+    white-space: nowrap;
+  }
+  .pill-cog  { background:rgba(26,92,82,0.28);  color:#9edcd4; border:1px solid rgba(26,92,82,0.5); }
+  .pill-ncog { background:rgba(92,42,0,0.28);   color:#e0b878; border:1px solid rgba(92,42,0,0.5); }
+  .pill-warr { background:rgba(92,42,0,0.28);   color:#e0b878; border:1px solid rgba(92,42,0,0.5); }
+  .pill-sum  { background:rgba(44,74,126,0.28); color:#a8c0f0; border:1px solid rgba(44,74,126,0.5); }
+  .pill-bail { background:rgba(44,95,46,0.28);  color:#8ecf90; border:1px solid rgba(44,95,46,0.5); }
+  .pill-nbail{ background:rgba(139,37,53,0.28); color:#f0a0a8; border:1px solid rgba(139,37,53,0.5); }
+  .pill-comp { background:rgba(74,48,112,0.28); color:#c0b0f0; border:1px solid rgba(74,48,112,0.5); }
+  .pill-ncomp{ background:rgba(50,50,60,0.28);  color:#b0b0c0; border:1px solid rgba(50,50,60,0.5); }
+
+  /* Schedule II chips — light variant, exact v97 values, for white-card
+     contexts (Schedule II reference screen). */
+  .schip {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 3px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  .sp-cog     { background: rgba(255,140,0,0.15);  color: #b35a00; border: 1px solid rgba(255,140,0,0.45); }
+  .sp-noncog  { background: rgba(33,150,243,0.15); color: #0d6eaa; border: 1px solid rgba(33,150,243,0.4); }
+  .sp-warrant { background: rgba(109,76,65,0.15);  color: #4a2c22; border: 1px solid rgba(109,76,65,0.4); }
+  .sp-summons { background: rgba(0,150,136,0.15);  color: #00635a; border: 1px solid rgba(0,150,136,0.4); }
+  .sp-bail    { background: rgba(56,142,60,0.15);  color: #1b5e20; border: 1px solid rgba(56,142,60,0.4); }
+  .sp-nonbail { background: rgba(211,47,47,0.15);  color: #b71c1c; border: 1px solid rgba(211,47,47,0.4); }
+  .sp-comp    { background: rgba(123,31,162,0.15); color: #4a148c; border: 1px solid rgba(123,31,162,0.4); }
+  .sp-noncomp { background: rgba(38,50,56,0.12);   color: #263238; border: 1px solid rgba(38,50,56,0.35); }
+
+  /* ═══════════════════════════════════════════════════════
+     ELEMENT VIEW — CONNECTIONS
+  ═══════════════════════════════════════════════════════ */
+  .conn-wrap {
+    padding: 10px 14px 8px;
+    background: var(--bg);
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .conn-lbl {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-lt);
+    margin-bottom: 7px;
+  }
+  .conn-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .conn-pill {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    padding: 4px 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.12s, opacity 0.12s;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 100%;
+    line-height: 1.4;
+  }
+  .conn-pill:active { transform: scale(0.97); opacity: 0.8; }
+  .cp-essay     { background:#fef0e0; color:var(--c-property); border:1px solid rgba(122,79,16,0.22); }
+  .cp-technique { background:#e2f2ef; color:var(--c-state);    border:1px solid rgba(13,74,62,0.22); }
+  .cp-element   { background:#e8edf6; color:var(--c-general);  border:1px solid rgba(44,74,126,0.22); }
+  .cp-arc       { background:#ede8f5; color:var(--c-repfam);   border:1px solid rgba(74,48,112,0.22); }
+
+  /* ═══════════════════════════════════════════════════════
+     ELEMENT VIEW — ACCORDION SECTIONS
+  ═══════════════════════════════════════════════════════ */
+  .acc {
+    margin: 6px 12px;
+    border-radius: var(--r);
+    border: 1px solid var(--rule);
+    overflow: hidden;
+    background: var(--bgc);
+    scroll-snap-align: start;
+  }
+  .acc-hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.16s;
+    gap: 8px;
+  }
+  .acc-hdr:active { background: rgba(0,0,0,0.03); }
+
+  /* Rich two-line variant for element accordion cards (General Exceptions
+     etc) — ID code + bold navy name + grey sub, not truncated to one line */
+  .acc-hdr-rich { align-items: flex-start; gap: 10px; }
+  .acc-el-id { font-family: var(--mono); font-size: var(--fs-xs); font-weight: 700; color: var(--ink-lt); letter-spacing: 0.02em; margin-bottom: 3px; }
+  .acc-el-titlewrap { flex: 1; min-width: 0; }
+  .acc-el-name { font-family: var(--title); font-size: var(--fs-base); font-weight: 600; color: var(--navy); line-height: 1.3; letter-spacing: 0.01em; }
+  .acc-el-sub { font-family: var(--serif); font-style: italic; font-size: var(--fs-xs); color: var(--ink-lt); margin-top: 2px; line-height: 1.4; }
+  .acc-ttl {
+    font-family: var(--mono);
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-lt);
+    transition: color 0.18s;
+    flex: 1;
+    min-width: 0;
+  }
+  .acc-ttl.open-color { color: inherit; }
+
+  /* Solid banner variant — Legal Position, Sparring, Landmark Cases.
+     Matches v97's .leghdr/.sphdr: always-solid navy banner, not
+     text-color-only like the generic accordion. */
+  .acc.acc-solid { border: 1.5px solid var(--nmid); }
+  .acc-solid .acc-hdr {
+    background: var(--nmid);
+    padding: 8px 14px;
+  }
+  .acc-solid .acc-hdr:active { background: var(--nmid); filter: brightness(1.08); }
+  .acc-solid .acc-ttl { color: rgba(255,255,255,0.85); font-size: var(--fs-xs); letter-spacing: 0.12em; }
+  .acc-solid .acc-chev { color: var(--gold); }
+
+  .acc-chev {
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    color: var(--ink-lt);
+    transition: transform 0.24s ease;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .acc-chev.r { transform: rotate(90deg); }
+
+  /* Animation — all accordions use this pair */
+  .aw  { max-height: 0;    overflow: hidden; transition: max-height 0.28s ease; }
+  .awo { max-height: 6000px; transition: max-height 0.38s ease; }
+  .acc-body { border-top: 1px solid var(--rule); }
+
+  /* ── Legal position ─── */
+  .legal-text {
+    padding: 12px 14px;
+    font-size: var(--fs-base);
+    color: var(--tmid);
+    line-height: 1.65;
+  }
+  .legal-p { margin-bottom: 7px; }
+  .legal-p:last-child { margin-bottom: 0; }
+  .legal-cite {
+    margin: 0 14px 7px;
+    font-size: var(--fs-sm);
+    color: var(--ink-lt);
+    font-style: italic;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+  .legal-link {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 14px 12px;
+    font-family: var(--mono);
+    font-size: var(--fs-sm);
+    color: var(--nmid);
+    border-bottom: 1px solid var(--nsoft);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /* ── Rabbit Hole essay body — Georgia serif, distinct from
+     statutory legal text which stays sans-serif ─── */
+  .rh-text {
+    padding: 12px 14px;
+    font-family: var(--serif);
+    font-size: var(--fs-base);
+    color: #3a3226;
+    line-height: 1.75;
+  }
+  .rh-p { margin-bottom: 10px; white-space: pre-line; }
+  .rh-p:last-child { margin-bottom: 0; }
+  .rh-reflect { background: #f0e8d8; border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; margin: 4px 14px 14px; padding: 12px 14px; }
+  .rh-reflect-q { font-family: var(--serif); font-style: italic; font-size: var(--fs-sm); color: #4a3d28; line-height: 1.55; padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.06); }
+  .rh-reflect-q:last-child { border-bottom: none; }
+
+  /* ── Sparring questions ─── */
+  .sq {
+    border-bottom: 1px solid var(--rule);
+    padding: 12px 14px;
+  }
+  .sq:last-child { border-bottom: none; }
+  .sq-num {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 3px;
+  }
+  .sq-q {
+    font-size: var(--fs-base);
+    color: var(--ink);
+    line-height: 1.65;
+    padding-left: 10px;
+    border-left: 2.5px solid var(--gold);
+    cursor: pointer;
+  }
+  .sq-rev-wrap { max-height: 0; overflow: hidden; transition: max-height 0.26s ease; }
+  .sq-rev-wrap.o { max-height: 2000px; transition: max-height 0.34s ease; }
+  .sq-rev {
+    background: var(--bgs);
+    border-left: 3px solid var(--nmid);
+    border-radius: 0 8px 8px 0;
+    margin-top: 8px;
+    padding: 10px 12px;
+  }
+  .sq-ans {
+    font-size: var(--fs-sm);
+    color: var(--tmid);
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+  .sq-cite {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: var(--ink-lt);
+    font-style: italic;
+  }
+
+  /* ── Landmark cases ─── */
+  .lm {
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 14px;
+  }
+  .lm:last-child { border-bottom: none; }
+  .lm-case {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    color: var(--terra);
+    margin-bottom: 2px;
+  }
+  .lm-cit {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: var(--ink-lt);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .lm-vbadge {
+    font-size: 7px;
+    background: var(--grnb);
+    color: var(--grn);
+    padding: 1px 5px;
+    border-radius: 4px;
+    border: 1px solid var(--grnbd);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+  .lm-hold {
+    font-size: var(--fs-sm);
+    color: var(--tmid);
+    line-height: 1.56;
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     ELEMENT VIEW — JUDGEMENT CARD
+  ═══════════════════════════════════════════════════════ */
+  .jcard {
+    margin: 8px 12px 16px;
+    padding: 14px;
+    scroll-snap-align: start;
+    background: rgba(0,0,0,0.02);
+    border-radius: var(--r);
+    border: 1px solid var(--rule);
+  }
+  .jlbl {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-lt);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .jbtns { display: flex; gap: 10px; }
+  .jbtn {
+    flex: 1;
+    height: 52px;
+    border-radius: var(--rsm);
+    border: 1.5px solid transparent;
+    font-family: var(--disp);
+    font-size: var(--fs-base);
+    font-weight: 700;
+    transition: background 0.18s, color 0.18s, transform 0.14s;
+    cursor: pointer;
+  }
+  .jbtn:active { transform: scale(0.96); }
+  .jyes { background: var(--grnb); border-color: var(--grnbd); color: var(--grn); }
+  .jno  { background: var(--ambb); border-color: var(--ambbd); color: var(--amb); }
+  .jyes.sel { background: var(--grn); border-color: var(--grn); color: #fff; }
+  .jno.sel  { background: var(--amb); border-color: var(--amb); color: #fff; }
+
+  /* ═══════════════════════════════════════════════════════
+     RESULT SCREENS
+  ═══════════════════════════════════════════════════════ */
+  .result-wrap {
+    padding: 50px 24px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .result-icon { font-size: 52px; }
+  .result-h {
+    font-family: var(--title);
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.3;
+    letter-spacing: 0.01em;
+  }
+  .result-sub {
+    font-size: var(--fs-sm);
+    color: var(--ink-lt);
+    line-height: 1.5;
+    max-width: 280px;
+  }
+  .result-btn {
+    margin-top: 8px;
+    padding: 12px 24px;
+    border-radius: var(--r);
+    background: var(--navy);
+    color: #ffffff;
+    font-size: var(--fs-base);
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .result-btn:active { opacity: 0.8; }
+
+  /* ── Step summary — recap list on Complete/Terminated screens ── */
+  .result-steps {
+    margin: 8px 20px 0;
+    background: var(--bgc);
+    border: 1px solid var(--rule);
+    border-radius: var(--r);
+    overflow: hidden;
+  }
+  .result-steps-lbl {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-lt);
+    padding: 10px 14px 8px;
+  }
+  .result-step-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 9px 14px;
+    border-top: 1px solid var(--rule);
+  }
+  .result-step-name { font-size: var(--fs-sm); color: var(--navy); line-height: 1.4; }
+  .result-step-icon { font-size: var(--fs-base); font-weight: 700; flex-shrink: 0; }
+  .result-step-icon.ok { color: var(--grn); }
+  .result-step-icon.no { color: var(--amb); }
+
+  /* ═══════════════════════════════════════════════════════
+     FLOATING SCROLL ARROW
+     Lives OUTSIDE #main as sibling — immune to the
+     WebKit transform + -webkit-overflow-scrolling bug.
+  ═══════════════════════════════════════════════════════ */
+  #fabwrap {
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 100%; max-width: 480px;
+    margin: 0 auto;
+    pointer-events: none;
+    z-index: 60;
+    display: none;
+  }
+  #fab {
+    position: absolute;
+    bottom: 78px; right: 16px;
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    background: rgba(200,169,110,0.95);
+    color: #2c1a0e;
+    border: 1px solid rgba(200,169,110,0.7);
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    pointer-events: auto;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+    transition: transform 0.15s;
+  }
+  #fab:active { transform: scale(0.91); }
+
+  /* ═══════════════════════════════════════════════════════
+     TOAST
+  ═══════════════════════════════════════════════════════ */
+  #toast {
+    position: fixed;
+    bottom: 90px;
+    left: 0; right: 0;
+    width: 100%; max-width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 200;
+  }
+  .toast-inner {
+    color: #fff;
+    border-radius: 24px;
+    padding: 9px 18px;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.22);
+    white-space: nowrap;
+    animation: toastIn 0.28s ease;
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     FONT BAR — scrolls with content, last child of screen
+  ═══════════════════════════════════════════════════════ */
+  .mod-nav {
+    background: var(--navy); padding: 10px 12px;
+    display: flex; align-items: center; gap: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06); flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  .mod-nav-back {
+    width: 32px; height: 32px; border-radius: var(--rsm);
+    background: rgba(200,169,110,0.1); border: 1px solid rgba(200,169,110,0.22);
+    color: var(--gold); font-size: 16px; display: flex;
+    align-items: center; justify-content: center;
+    cursor: pointer; flex-shrink: 0; transition: background 0.15s;
+  }
+  .mod-nav-back:active { background: rgba(200,169,110,0.22); }
+  .mod-nav-bc {
+    flex: 1; font-family: var(--mono); font-size: var(--fs-xs);
+    color: rgba(200,169,110,0.5); white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis; min-width: 0;
+  }
+  .mod-nav-bc b { color: var(--gold); }
+  .mod-nav-home {
+    width: 30px; height: 30px; border-radius: var(--rsm);
+    background: rgba(200,169,110,0.08); border: 1px solid rgba(200,169,110,0.15);
+    color: var(--gold); font-size: 12px; display: flex;
+    align-items: center; justify-content: center;
+    cursor: pointer; transition: background 0.15s;
+  }
+  .mod-nav-home:active { background: rgba(200,169,110,0.18); }
+  .font-bar {
+    background: var(--navy);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding: 11px 0 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 4px;
+  }
+  .fb-lbl {
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(240,236,224,0.32);
+    white-space: nowrap;
+  }
+  .fb-btns { display: flex; gap: 5px; }
+  .fpb {
+    font-family: var(--mono);
+    font-weight: 700;
+    border: 1px solid rgba(200,169,110,0.22);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    line-height: 1;
+    background: rgba(200,169,110,0.06);
+    color: rgba(200,169,110,0.42);
+    transition: background 0.18s, color 0.18s, border-color 0.18s;
+  }
+  .fpb.on {
+    background: var(--gold);
+    color: #1a1408;
+    border-color: var(--gold);
+  }
+
+  /* ═══════════════════════════════════════════════════════
+     ANIMATIONS
+  ═══════════════════════════════════════════════════════ */
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes toastIn {
+    from { opacity: 0; transform: translateY(12px) scale(0.96); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  @keyframes toastOut {
+    from { opacity: 1; transform: translateY(0) scale(1); }
+    to   { opacity: 0; transform: translateY(8px) scale(0.97); }
+  }
+  @keyframes jpulse {
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.07); }
+    100% { transform: scale(1); }
+  }
+  .ci { animation: cardIn 0.32s ease both; }
+
+  /* ═══════════════════════════════════════════════════════
+     IPAD LANDSCAPE — structural overrides only.
+     No font-size rules: CSS variables handle all scaling.
+  ═══════════════════════════════════════════════════════ */
+  @media (min-width:1024px) and (orientation:landscape){
+    #hdr, #home, #main, #fabwrap, #toast { max-width: 820px; margin: 0 auto; }
+    .mc   { padding: 14px 16px; }
+    .el-hdr { padding: 18px 20px; }
+    .acc  { margin: 8px 16px; }
+    .jcard { margin: 8px 16px; }
+    .result-wrap { padding: 60px 32px; }
+  }
+
+  /* ── Overflow protection ───────────────────────────── */
+  .acc-ttl { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .acc-chev { flex-shrink: 0; }
+  .mc-info { min-width: 0; }
+  .mc-name { overflow-wrap: break-word; }
+  .mc-sec  { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .el-name, .el-desc, .legal-p, .sq-q, .sq-ans, .lm-hold,
+  .mod-nav-bc { word-break: break-word; overflow-wrap: break-word; }
+  .prog-meta span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+    </style>
+  <style id="fs-override"></style>
+</head>
+<body>
+
+<!-- ── HEADER ────────────────────────────────────────────── -->
+<header id="hdr">
+  <button id="backbtn" onclick="goBack()" aria-label="Back">&#8592;</button>
+  <div class="logo-slot">&#9878;&#xFE0F;</div><!-- LOGO SLOT -->
+  <div id="hdr-brand">
+    <h1>RATIO <span>PPC</span></h1>
+    <div id="hdr-sub">Pakistan Penal Code 1860</div>
+  </div>
+  <div id="bc"></div>
+  <div class="hdr-btns">
+    <button class="ibtn" onclick="goHome()" title="Home" aria-label="Home">&#8962;</button>
+    <button class="ibtn" title="Grid" aria-label="Grid">&#9638;</button>
+  </div>
+</header>
+
+<!-- ── HOME SCREEN ────────────────────────────────────────── -->
+<div id="home"></div>
+
+<!-- ── ELEMENT / MODULE SCREEN ───────────────────────────── -->
+<div id="main"></div>
+
+<!-- ── FLOATING ARROW (outside #main — immune to WebKit bug) -->
+<div id="fabwrap">
+  <div id="fab" aria-label="Scroll">&#8595;</div>
+</div>
+
+<!-- ── TOAST ─────────────────────────────────────────────── -->
+<div id="toast"></div>
+
+<script>
+'use strict';
+
+/* ═══════════════════════════════════════════════════════════
+   STATE
+═══════════════════════════════════════════════════════════ */
+var CACHE    = {};   // url → parsed JSON (never re-fetched)
+var SCHED2   = {};   // section string → {cog,warr,bail,comp,n}
+var LINKS_FW = {};   // "moduleId/elId" → [{type,target,label}]
+var LINKS_BK = {};   // "moduleId/elId" → [{type,src,label}]
+var HISTORY  = [];   // navigation stack [{type, ...}]
+var CUR_MOD  = null; // current module JSON
+var CUR_IDX  = 0;    // current element index
+var CUR_RES  = [];   // [{id, result}]
+var FS       = 15;   // current font size
+
+/* ═══════════════════════════════════════════════════════════
+   UTILITIES
+═══════════════════════════════════════════════════════════ */
+var $ = function(id){ return document.getElementById(id); };
+
+function mk(tag, cls){
+  var el = document.createElement(tag);
+  if(cls) el.className = cls;
+  return el;
+}
+
+function txt(el, t){ el.textContent = t; return el; }
+
+/* ═══════════════════════════════════════════════════════════
+   FETCH WITH CACHE
+═══════════════════════════════════════════════════════════ */
+function fetchJ(url){
+  if(CACHE[url]) return Promise.resolve(CACHE[url]);
+  return fetch(url)
+    .then(function(r){
+      if(!r.ok) throw new Error('HTTP '+r.status+': '+url);
+      return r.json();
+    })
+    .then(function(d){ CACHE[url]=d; return d; });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   STARTUP
+═══════════════════════════════════════════════════════════ */
+window.addEventListener('load', function(){
+  setFont(15);
+  Promise.all([
+    fetchJ('sched2.json').then(buildSched2).catch(function(e){ console.warn('sched2.json:', e); }),
+    fetchJ('links.json').then(buildLinks).catch(function(e){   console.warn('links.json:', e); }),
+    fetchJ('modules.json').then(renderHome).catch(function(e){ console.error('modules.json:', e); renderHome([]); })
+  ]);
+});
+
+/* ═══════════════════════════════════════════════════════════
+   INDEX BUILDERS
+═══════════════════════════════════════════════════════════ */
+function buildSched2(rows){
+  rows.forEach(function(r){ SCHED2[r.s] = r; });
+}
+
+function buildLinks(rows){
+  rows.forEach(function(lnk){
+    var fk = lnk.from.module+'/'+lnk.from.element;
+    if(!LINKS_FW[fk]) LINKS_FW[fk]=[];
+    LINKS_FW[fk].push({ type:lnk.to.type, target:lnk.to, label:lnk.label });
+    if(lnk.to.module && lnk.to.element){
+      var bk = lnk.to.module+'/'+lnk.to.element;
+      if(!LINKS_BK[bk]) LINKS_BK[bk]=[];
+      LINKS_BK[bk].push({ type:'element', src:lnk.from, label:lnk.label });
+    }
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════
+   NAVIGATION
+═══════════════════════════════════════════════════════════ */
+function showScreen(s){
+  $('home').classList.toggle('on', s==='home');
+  $('main').classList.toggle('on', s==='main');
+  if(s==='home'){ $('main').innerHTML=''; $('main').scrollTop=0; }
+}
+
+function updHeader(mode, modName, elName){
+  /* Static nav strips built per-screen — nothing to update globally */
+  void(mode); void(modName); void(elName);
+}
+
+function goHome(){
+  HISTORY=[]; CUR_MOD=null; CUR_IDX=0; CUR_RES=[];
+  showScreen('home');
+  updHeader('home');
+  fabHide();
+}
+
+function goBack(){
+  if(!HISTORY.length){ goHome(); return; }
+  var prev = HISTORY.pop();
+  if(prev.type==='home'){ goHome(); }
+  else if(prev.type==='sublist'){ renderSubList(prev.data); }
+  else if(prev.type==='accordion'){ renderAccordionMod(prev.data); }
+  else if(prev.type==='techniques'){ renderTechniques(prev.data); }
+  else if(prev.type==='el'){
+    CUR_MOD=prev.mod; CUR_IDX=prev.idx; CUR_RES=prev.res||[];
+    renderEl(CUR_MOD, CUR_IDX);
+  } else { goHome(); }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   HOME SCREEN
+═══════════════════════════════════════════════════════════ */
+var CHAPTER_LABELS = {
+  general:  'General Part',
+  person:   'Offences Against Person',
+  property: 'Offences Against Property',
+  repfam:   'Reputation, Family & Public Order',
+  state:    'State & Special Offences',
+  tools:    'Thinking Tools'
+};
+
+function renderHome(mods){
+  var home = $('home');
+  home.innerHTML = '';
+  showScreen('home');
+  updHeader('home');
+
+  // Hero
+  /* Static home header — scrolls with content */
+  var homeHdr = mk('div');
+  homeHdr.style.cssText = 'background:var(--navy);padding:14px 14px 12px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,0.06)';
+  homeHdr.innerHTML = '<div class="logo-slot" style="width:38px;height:38px;font-size:18px;flex-shrink:0">⚖️</div>'
+    + '<div style="flex:1;min-width:0">'
+    + '<div style="font-family:var(--title);font-size:var(--fs-2xl);font-weight:600;color:#ffffff;letter-spacing:0.1em;text-transform:uppercase">RATIO <span style="color:var(--gold)">PPC</span></div>'
+    + '<div style="font-family:var(--mono);font-size:var(--fs-xs);color:rgba(200,169,110,0.45);letter-spacing:0.12em;text-transform:uppercase;margin-top:2px">Pakistan Penal Code 1860</div>'
+    + '</div>';
+  home.appendChild(homeHdr);
+
+  // Group cards by chapter
+  var chapters=[], seen={};
+  mods.forEach(function(m){
+    var ch = m.chapter || '__top__';
+    if(!seen[ch]){ seen[ch]=true; chapters.push(ch); }
+  });
+
+  chapters.forEach(function(ch, ci){
+    var lbl = CHAPTER_LABELS[ch];
+    if(lbl){
+      var div = mk('div','sec-div ci');
+      div.style.animationDelay = (ci*20)+'ms';
+      div.innerHTML = '<div class="sec-div-line sec-div-line-sm"></div><span class="sec-div-lbl">'+lbl+'</span><div class="sec-div-line"></div>';
+      home.appendChild(div);
+    }
+    mods.filter(function(m){ return (m.chapter||'__top__')===ch; })
+      .forEach(function(m, mi){
+        home.appendChild(makeModCard(m, (ci*4+mi)*35));
+      });
+  });
+
+  home.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; home.appendChild(pad);
+}
+
+function makeModCard(m, delay){
+  var card = mk('div', 'mc p-'+(m.palette||'general')+' ci');
+  card.style.animationDelay = delay+'ms';
+
+  if(m.palette==='gateway'){
+    var row = mk('div','gw-row');
+    row.innerHTML = '<div class="mc-icon" style="font-size:20px">'+m.icon+'</div>'
+      +'<div class="mc-info"><div class="mc-name">'+m.name+'</div><div class="mc-sec">'+m.section+'</div></div>'
+      +'<span class="mc-tag">'+m.tag+'</span>'
+      +'<span style="color:var(--gold);font-size:18px;opacity:0.7;flex-shrink:0">\u203a</span>';
+    card.appendChild(row);
+    if(m.chips && m.chips.length){
+      var chips=mk('div','gw-chips');
+      m.chips.forEach(function(c){ chips.innerHTML+='<span class="gw-chip">'+c+'</span>'; });
+      card.appendChild(chips);
+    }
+  } else if(m.palette==='tool'){
+    card.innerHTML = '<div class="tool-ico">'+m.icon+'</div>'
+      +'<div class="mc-info"><div class="mc-name">'+m.name+'</div><div class="mc-sec">'+m.section+'</div></div>'
+      +'<span class="mc-tag">'+m.tag+'</span>';
+  } else {
+    card.innerHTML = '<div class="mc-icon">'+m.icon+'</div>'
+      +'<div class="mc-info"><div class="mc-name">'+m.name+'</div><div class="mc-sec">'+m.section+'</div></div>'
+      +'<span class="mc-tag">'+m.tag+'</span>';
+  }
+
+  card.addEventListener('click', function(){ openMod(m); });
+  return card;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   MODULE OPEN
+═══════════════════════════════════════════════════════════ */
+function openMod(m){
+  if(m.type==='module'){
+    fetchJ(m.src)
+      .then(function(data){
+        CUR_MOD=data; CUR_IDX=0; CUR_RES=[];
+        HISTORY.push({type:'home'});
+        renderEl(data, 0);
+      })
+      .catch(function(){ toast('Module not yet available','#4a3070'); });
+  } else if(m.type==='reasoning'){
+    fetchJ(m.src)
+      .then(function(data){ CUR_MOD=data; HISTORY.push({type:'home'}); renderReasoning(data); })
+      .catch(function(){ toast('Module not yet available','#4a3070'); });
+  } else if(m.type==='accordion'||m.type==='branch'){
+    fetchJ(m.src)
+      .then(function(data){ CUR_MOD=data; HISTORY.push({type:'home'}); renderAccordionMod(data); })
+      .catch(function(){ toast('Module not yet available','#4a3070'); });
+  } else if(m.type==='submodule_registry'){
+    fetchJ(m.src)
+      .then(function(data){ HISTORY.push({type:'home'}); renderSubList(data); })
+      .catch(function(){ toast('Coming soon','#4a3070'); });
+  } else if(m.type==='arcs'){
+    fetchJ(m.src)
+      .then(function(data){ HISTORY.push({type:'home'}); renderArcs(data); })
+      .catch(function(){ toast('Coming soon','#4a3070'); });
+  } else if(m.type==='sched2'){
+    fetchJ(m.src)
+      .then(function(data){ HISTORY.push({type:'home'}); renderSched2Screen(data); })
+      .catch(function(){ toast('Coming soon','#4a3070'); });
+  } else if(m.type==='essays'){
+    fetchJ(m.src).then(renderEssays).catch(function(){ toast('Essays not available','#4a3070'); });
+  } else if(m.type==='techniques'){
+    fetchJ(m.src).then(renderTechniques).catch(function(){ toast('Techniques not available','#4a3070'); });
+  } else {
+    toast('Coming in the next build','#2c4a6e');
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ELEMENT VIEW
+═══════════════════════════════════════════════════════════ */
+function renderEl(mod, idx){
+  var el    = mod.els[idx];
+  var total = mod.els.length;
+  var main  = $('main');
+
+  showScreen('main');
+  updHeader('el', mod.name, el.name);
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav(mod.name, el.name));
+
+  /* Progress bar */
+  var pb = mk('div','prog-bar');
+  var pct = Math.round((idx+1)/total*100);
+  pb.innerHTML = '<div class="prog-meta"><span>'+mod.name.toUpperCase()+'</span><span>'+(idx+1)+' of '+total+'</span></div>'
+    +'<div class="prog-track"><div class="prog-fill" style="width:'+pct+'%"></div></div>';
+  main.appendChild(pb);
+
+  /* Element header */
+  main.appendChild(makeElHdr(el, mod.id));
+
+  /* Connections (from links index) */
+  var lks = getLinks(mod.id, el.id);
+  if(lks.length) main.appendChild(makeConnRow(lks));
+
+  /* Legal Position — open by default */
+  main.appendChild(makeAcc('Legal Position', null, makeLegalBody(el), true, true));
+
+  /* Dike's Hidden Grammar — closed by default */
+  if(el.dike)
+    main.appendChild(makeAcc('\u25C8 The Hidden Grammar', null, makeDikeBody(el.dike), false, true));
+
+  /* Sparring Questions — closed by default */
+  if(el.sq && el.sq.length)
+    main.appendChild(makeAcc('\u2694 Sparring ('+el.sq.length+')', null, makeSparBody(el.sq), false, true));
+
+  /* Landmark Cases — closed by default */
+  if(el.landmark && el.landmark.length)
+    main.appendChild(makeAcc('\u2605 Landmark Cases ('+el.landmark.length+')', null, makeLMBody(el.landmark), false, true));
+
+  /* Judgement */
+  main.appendChild(makeJCard(el, idx, total, mod));
+
+  /* Font bar + padding */
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+
+  /* Floating arrow */
+  fabSetup(main);
+}
+
+/* ── Element header ── */
+function makeElHdr(el, modId){
+  var hdr = mk('div','el-hdr');
+  hdr.appendChild(txt(mk('div','el-step'), el.step));
+  hdr.appendChild(txt(mk('div','el-name'), el.name));
+  if(el.operator){
+    hdr.appendChild(txt(mk('div','el-op'), el.operator));
+  }
+  hdr.appendChild(txt(mk('div','el-desc'), el.desc));
+
+  /* Schedule II pills from sched2.json index */
+  var sd = SCHED2[el.section];
+  if(sd){
+    var pr = mk('div','pills');
+    if(sd.cog  !== undefined) pr.appendChild(txt(mk('span','pill '+(sd.cog?'pill-cog':'pill-ncog')),  sd.cog?'Cognizable':'Non-Cognizable'));
+    if(sd.warr !== undefined) pr.appendChild(txt(mk('span','pill '+(sd.warr?'pill-warr':'pill-sum')), sd.warr?'Warrant':'Summons'));
+    if(sd.bail !== undefined) pr.appendChild(txt(mk('span','pill '+(sd.bail?'pill-bail':'pill-nbail')),sd.bail?'Bailable':'Non-Bailable'));
+    if(sd.comp !== undefined) pr.appendChild(txt(mk('span','pill '+(sd.comp?'pill-comp':'pill-ncomp')),sd.comp?'Compoundable':'Non-Compoundable'));
+    hdr.appendChild(pr);
+  }
+  return hdr;
+}
+
+/* ── Connections ── */
+function getLinks(modId, elId){
+  var k = modId+'/'+elId;
+  return (LINKS_FW[k]||[]).concat(LINKS_BK[k]||[]);
+}
+function makeConnRow(lks){
+  var w=mk('div','conn-wrap');
+  var lbl=mk('div','conn-lbl'); lbl.textContent='Connections'; w.appendChild(lbl);
+  var row=mk('div','conn-row');
+  lks.forEach(function(l){
+    var type=l.type||'element';
+    var p=mk('span','conn-pill cp-'+type);
+    p.textContent=l.label;
+    p.addEventListener('click',function(){ navigateLink(l); });
+    row.appendChild(p);
+  });
+  w.appendChild(row);
+  return w;
+}
+
+function navigateLink(l, returnEntry){
+  var type=l.type||'element';
+  if(type==='essay'){
+    fetchJ('essays.json').then(function(data){
+      var eidx=data.findIndex(function(e){ return e.id===(l.target&&l.target.id); });
+      HISTORY.push(returnEntry || {type:'el',mod:CUR_MOD,idx:CUR_IDX,res:CUR_RES.slice()});
+      renderEssays(data);
+      setTimeout(function(){
+        var cards=$('main').querySelectorAll('.acc');
+        if(cards[eidx>0?eidx:0]) cards[eidx>0?eidx:0].scrollIntoView({behavior:'smooth'});
+      },120);
+    }).catch(function(){ toast('Essays not available','#4a3070'); });
+  } else if(type==='technique'){
+    fetchJ('techniques.json').then(function(data){
+      HISTORY.push(returnEntry || {type:'el',mod:CUR_MOD,idx:CUR_IDX,res:CUR_RES.slice()});
+      renderTechniques(data);
+    }).catch(function(){ toast('Techniques not available','#4a3070'); });
+  } else if(type==='arc'){
+    fetchJ('arcs.json').then(function(data){
+      HISTORY.push(returnEntry || {type:'el',mod:CUR_MOD,idx:CUR_IDX,res:CUR_RES.slice()});
+      renderArcs(data);
+    }).catch(function(){ toast('Arcs not available','#4a3070'); });
+  } else if(type==='element'){
+    var tgt=l.target||l.src||{};
+    var fndMods=['ge','gexpl','actus','stages','theories','statinterp','jur','punish','reasoning'];
+    var src=(fndMods.indexOf(tgt.module)>=0?'foundations/':'modules/')+tgt.module+'.json';
+    fetchJ(src).then(function(data){
+      var eidx=(data.els||[]).findIndex(function(e){ return e.id===tgt.element; });
+      if(eidx<0) eidx=0;
+      HISTORY.push(returnEntry || {type:'el',mod:CUR_MOD,idx:CUR_IDX,res:CUR_RES.slice()});
+      CUR_MOD=data; CUR_IDX=eidx; CUR_RES=[];
+      renderEl(data,eidx);
+    }).catch(function(){ toast('Module not available','#4a3070'); });
+  } else {
+    toast('Coming soon','#2c4a7e');
+  }
+}
+function makeAcc(title, accentColor, body, open, banner){
+  var sec  = mk('div', banner ? 'acc acc-solid' : 'acc');
+  var hdr  = mk('div','acc-hdr');
+  var ttl  = mk('div','acc-ttl'); ttl.textContent=title;
+  var chev = mk('div','acc-chev'); chev.textContent='\u203a';
+  if(open) chev.classList.add('r');
+  if(open && !banner) ttl.style.color=accentColor;
+  hdr.appendChild(ttl); hdr.appendChild(chev);
+
+  var wrap = mk('div','aw'); if(open) wrap.classList.add('awo');
+  var bd   = mk('div','acc-body'); bd.appendChild(body);
+  wrap.appendChild(bd);
+
+  hdr.addEventListener('click', function(){
+    var isOpen = wrap.classList.contains('awo');
+    wrap.classList.toggle('awo', !isOpen);
+    chev.classList.toggle('r', !isOpen);
+    if(!banner) ttl.style.color = !isOpen ? accentColor : '';
+  });
+
+  sec.appendChild(hdr); sec.appendChild(wrap);
+  return sec;
+}
+
+/* ── Legal body ── */
+function makeLegalBody(el){
+  var w = mk('div');
+  var lt = mk('div','legal-text');
+  (el.legal||'').split('\n\n').forEach(function(p){
+    if(!p.trim()) return;
+    lt.appendChild(txt(mk('p','legal-p'), p.trim()));
+  });
+  w.appendChild(lt);
+  if(el.cite){ w.appendChild(txt(mk('div','legal-cite'), el.cite)); }
+  if(el.ll){
+    var lnk = mk('div','legal-link');
+    lnk.textContent = '\u2197 '+el.ll;
+    w.appendChild(lnk);
+  }
+  return w;
+}
+
+/* ── Sparring body ── */
+/* Dike's Hidden Grammar \u2014 actor/AND/OR/NOT symbolic decomposition,
+   reuses the existing gold formula-block styling (.acc-fml) so no new
+   CSS is needed. */
+function makeDikeBody(dikeText){
+  var w = mk('div'); w.style.padding = '12px 14px';
+  var block = mk('div','acc-fml'); block.style.margin = '0';
+  block.innerHTML = escHtml(dikeText).split('\n').join('<br>');
+  w.appendChild(block);
+  return w;
+}
+
+function makeSparBody(sqs){
+  var w = mk('div');
+  sqs.forEach(function(sq, i){
+    var item = mk('div','sq');
+    item.appendChild(txt(mk('div','sq-num'), 'Q'+(i+1)));
+    var q = txt(mk('div','sq-q'), sq.q);
+    var rv = mk('div','sq-rev-wrap');
+    var ri = mk('div','sq-rev');
+    ri.appendChild(txt(mk('div','sq-ans'), sq.reveal));
+    if(sq.cite) ri.appendChild(txt(mk('div','sq-cite'), sq.cite));
+    rv.appendChild(ri);
+    q.addEventListener('click', function(){ rv.classList.toggle('o'); });
+    item.appendChild(q); item.appendChild(rv);
+    w.appendChild(item);
+  });
+  return w;
+}
+
+/* ── Landmark body ── */
+function makeLMBody(cases){
+  var w = mk('div');
+  cases.forEach(function(c){
+    var item = mk('div','lm');
+    item.appendChild(txt(mk('div','lm-case'), c.case));
+    var cit = mk('div','lm-cit');
+    cit.appendChild(document.createTextNode(c.citation+'\u00a0'));
+    if(c.verified){ cit.appendChild(txt(mk('span','lm-vbadge'), '\u2713 VERIFIED')); }
+    item.appendChild(cit);
+    item.appendChild(txt(mk('div','lm-hold'), c.holding));
+    w.appendChild(item);
+  });
+  return w;
+}
+
+/* ── Judgement card ── */
+function makeJCard(el, idx, total, mod){
+  var card = mk('div','jcard');
+  var jlbl = mk('div','jlbl'); jlbl.textContent='Your Judgement \u2014 Is This Element Established?'; card.appendChild(jlbl);
+  var btns = mk('div','jbtns');
+  var yes  = mk('button','jbtn jyes'); yes.textContent='\u2713 Established';
+  var no   = mk('button','jbtn jno');  no.textContent='\u2717 Absent';
+
+  yes.addEventListener('click', function(){
+    yes.classList.add('sel');
+    yes.style.animation='jpulse 0.22s ease';
+    setTimeout(function(){ yes.style.animation=''; },240);
+    CUR_RES.push({id:el.id, result:'yes'});
+    toast('\u2713 Established \u2014 proceeding', '#2c5f2e');
+    setTimeout(function(){
+      if(idx+1 < total){
+        HISTORY.push({type:'el', mod:mod, idx:idx, res:CUR_RES.slice()});
+        CUR_IDX=idx+1;
+        renderEl(mod, idx+1);
+      } else { showComplete(mod); }
+    }, 900);
+  });
+
+  no.addEventListener('click', function(){
+    no.classList.add('sel');
+    no.style.animation='jpulse 0.22s ease';
+    setTimeout(function(){ no.style.animation=''; },240);
+    CUR_RES.push({id:el.id, result:'no'});
+    toast('\u2717 Element absent \u2014 charge fails', '#8b2535');
+    setTimeout(function(){ showTerminated(el, mod); }, 1200);
+  });
+
+  btns.appendChild(yes); btns.appendChild(no);
+  card.appendChild(btns);
+  return card;
+}
+
+/* ── Step summary — recap of every element judged to reach this result ── */
+function makeStepSummary(mod, res){
+  var wrap = mk('div','result-steps');
+  var lbl = mk('div','result-steps-lbl'); lbl.textContent='Path to This Result'; wrap.appendChild(lbl);
+  (res||[]).forEach(function(r){
+    var el = (mod.els||[]).filter(function(e){ return e.id===r.id; })[0];
+    var row = mk('div','result-step-row');
+    var name = mk('span','result-step-name'); name.textContent = el ? el.name : r.id;
+    var icon = mk('span','result-step-icon '+(r.result==='yes' ? 'ok' : 'no'));
+    icon.textContent = r.result==='yes' ? '\u2713' : '\u2717';
+    row.appendChild(name); row.appendChild(icon);
+    wrap.appendChild(row);
+  });
+  return wrap;
+}
+
+/* ── Complete screen ── */
+function showComplete(mod){
+  var main=$('main'); main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  var w=mk('div','result-wrap ci');
+  w.innerHTML='<div class="result-icon">\u2705</div>'
+    +'<div class="result-h">All Elements Established</div>'
+    +'<div class="result-sub">'+mod.name+' \u2014 every element is made out on the facts.</div>';
+  main.appendChild(w);
+  main.appendChild(makeStepSummary(mod, CUR_RES));
+  var btn=mk('button','result-btn'); btn.textContent='Return Home'; btn.onclick=goHome;
+  var btnWrap=mk('div'); btnWrap.style.cssText='display:flex;justify-content:center;padding:8px 24px 24px';
+  btnWrap.appendChild(btn); main.appendChild(btnWrap);
+  main.appendChild(makeFontBar());
+  updHeader('el', mod.name, 'Complete'); fabHide();
+}
+
+/* ── Terminated screen ── */
+function showTerminated(el, mod){
+  var main=$('main'); main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  var w=mk('div','result-wrap ci');
+  w.innerHTML='<div class="result-icon">\u274C</div>'
+    +'<div class="result-h">Element Absent</div>'
+    +'<div class="result-sub"><b>'+el.name+'</b> is not established on these facts.<br>The charge cannot be sustained.</div>';
+  main.appendChild(w);
+  main.appendChild(makeStepSummary(mod, CUR_RES));
+  var btn=mk('button','result-btn'); btn.textContent='Return Home'; btn.onclick=goHome;
+  var btnWrap=mk('div'); btnWrap.style.cssText='display:flex;justify-content:center;padding:8px 24px 24px';
+  btnWrap.appendChild(btn); main.appendChild(btnWrap);
+  main.appendChild(makeFontBar());
+  updHeader('el', mod.name, 'Absent'); fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   FLOATING ARROW
+═══════════════════════════════════════════════════════════ */
+function fabSetup(scrollEl){
+  var wrap=$('fabwrap'), fab=$('fab');
+  wrap.style.display='block';
+
+  function upd(){
+    var bot = scrollEl.scrollTop+scrollEl.clientHeight >= scrollEl.scrollHeight-60;
+    fab.innerHTML = bot ? '\u2191' : '\u2193';
+    fab.dataset.d = bot ? 'up' : 'dn';
+  }
+
+  fab.onclick = function(){
+    if(fab.dataset.d==='up') scrollEl.scrollTo({top:0,behavior:'smooth'});
+    else scrollEl.scrollTo({top:scrollEl.scrollHeight,behavior:'smooth'});
+  };
+
+  scrollEl.onscroll = upd;
+  scrollEl.onfocusin  = function(e){ if(e.target && (e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')) fab.style.visibility='hidden'; };
+  scrollEl.onfocusout = function(e){ if(e.target && (e.target.tagName==='TEXTAREA'||e.target.tagName==='INPUT')) fab.style.visibility='visible'; };
+  upd();
+}
+
+function fabHide(){ $('fabwrap').style.display='none'; }
+
+/* ═══════════════════════════════════════════════════════════
+   TOAST
+═══════════════════════════════════════════════════════════ */
+var _tt = null;
+function toast(msg, color){
+  var t=$('toast');
+  t.innerHTML='<div class="toast-inner" style="background:'+color+'">'+msg+'</div>';
+  if(_tt) clearTimeout(_tt);
+  _tt = setTimeout(function(){
+    var inner=t.querySelector('.toast-inner');
+    if(inner) inner.style.animation='toastOut 0.3s ease forwards';
+    setTimeout(function(){ t.innerHTML=''; },320);
+  }, 2000);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   FONT BAR
+═══════════════════════════════════════════════════════════ */
+function makeModNav(modName, elName){
+  var nav = mk('div','mod-nav');
+  var back = mk('button','mod-nav-back');
+  back.innerHTML = '&#8592;';
+  back.setAttribute('aria-label','Back');
+  back.addEventListener('click', goBack);
+  var bc = mk('div','mod-nav-bc');
+  bc.innerHTML = (modName||'') + (elName ? ' &rsaquo; <b>'+elName+'</b>' : '');
+  var home = mk('button','mod-nav-home');
+  home.innerHTML = '&#8962;';
+  home.setAttribute('aria-label','Home');
+  home.addEventListener('click', goHome);
+  nav.appendChild(back); nav.appendChild(bc); nav.appendChild(home);
+  return nav;
+}
+
+function makeFontBar(){
+  var bar=mk('div','font-bar');
+  var lbl=mk('span','fb-lbl'); lbl.textContent='Text size'; bar.appendChild(lbl);
+  var ps=mk('div','fb-btns');
+  [12,13,15,16,18].forEach(function(sz){
+    var b=mk('button','fpb');
+    b.style.fontSize=sz+'px';
+    b.textContent='A';
+    b.setAttribute('data-sz',sz);
+    if(sz===FS) b.classList.add('on');
+    b.addEventListener('click', function(){ setFont(sz); });
+    ps.appendChild(b);
+  });
+  bar.appendChild(ps);
+  return bar;
+}
+
+function syncBars(){
+  document.querySelectorAll('.fpb').forEach(function(b){
+    b.classList.toggle('on', parseInt(b.getAttribute('data-sz'))===FS);
+  });
+}
+
+function setFont(size){
+  FS = size;
+  var s = size/15;
+  $('fs-override').textContent = ':root{'
+    +'--fs-xs:'  +(0.72*s).toFixed(3)+'rem;'
+    +'--fs-sm:'  +(0.83*s).toFixed(3)+'rem;'
+    +'--fs-base:'+(0.94*s).toFixed(3)+'rem;'
+    +'--fs-lg:'  +(1.06*s).toFixed(3)+'rem;'
+    +'--fs-xl:'  +(1.28*s).toFixed(3)+'rem;'
+    +'--fs-2xl:' +(1.55*s).toFixed(3)+'rem;'
+    +'}';
+  syncBars();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ACCORDION MODULE VIEW (foundations, reference modules)
+═══════════════════════════════════════════════════════════ */
+/* Rich element-accordion header: ID code + bold name + sub, non-truncated.
+   Shares makeAcc's open/close mechanics but with a richer collapsed row. */
+function makeElAcc(el, body, open){
+  var sec  = mk('div','acc');
+  var hdr  = mk('div','acc-hdr acc-hdr-rich');
+  var titleWrap = mk('div','acc-el-titlewrap');
+  titleWrap.appendChild(txt(mk('div','acc-el-id'), el.id||''));
+  titleWrap.appendChild(txt(mk('div','acc-el-name'), el.name));
+  if(el.sub) titleWrap.appendChild(txt(mk('div','acc-el-sub'), el.sub));
+  var chev = mk('div','acc-chev'); chev.textContent='\u203a';
+  if(open) chev.classList.add('r');
+  hdr.appendChild(titleWrap); hdr.appendChild(chev);
+
+  var wrap = mk('div','aw'); if(open) wrap.classList.add('awo');
+  var bd   = mk('div','acc-body'); bd.appendChild(body);
+  wrap.appendChild(bd);
+
+  hdr.addEventListener('click', function(){
+    var isOpen = wrap.classList.contains('awo');
+    wrap.classList.toggle('awo', !isOpen);
+    chev.classList.toggle('r', !isOpen);
+  });
+
+  sec.appendChild(hdr); sec.appendChild(wrap);
+  return sec;
+}
+
+function escHtml(s){
+  return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; });
+}
+
+function renderAccordionMod(mod){
+  showScreen('main');
+  updHeader('el', mod.name, null);
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav(mod.name, null));
+
+  var els = mod.els || [];
+  els.forEach(function(el, i){
+    var body = mk('div');
+
+    /* Operator chip + formula highlight — mirrors v97's rich preview strip */
+    if(el.operator || (mod.formula && el.atom)){
+      var prev = mk('div','acc-preview');
+      if(el.operator) prev.appendChild(txt(mk('span','acc-op-chip'), el.operator));
+      if(mod.formula && el.atom){
+        var fml = mk('div','acc-fml');
+        var safeAtom = escHtml(el.atom), safeFormula = escHtml(mod.formula);
+        fml.innerHTML = safeFormula.split(safeAtom).join('<span class="cur-atom">'+safeAtom+'</span>');
+        prev.appendChild(fml);
+      }
+      body.appendChild(prev);
+    }
+    if(el.desc) body.appendChild(txt(mk('div','acc-desc'), el.desc));
+
+    /* Legal Position — same solid navy banner card used throughout the app */
+    body.appendChild(makeAcc('Legal Position', null, makeLegalBody(el), true, true));
+
+    /* Dike's Hidden Grammar — closed by default */
+    if(el.dike)
+      body.appendChild(makeAcc('\u25C8 The Hidden Grammar', null, makeDikeBody(el.dike), false, true));
+
+    if(el.sq && el.sq.length){
+      body.appendChild(makeAcc('\u2694 Sparring ('+el.sq.length+')', null, makeSparBody(el.sq), false, true));
+    }
+    if(el.landmark && el.landmark.length){
+      body.appendChild(makeAcc('\u2605 Landmark Cases ('+el.landmark.length+')', null, makeLMBody(el.landmark), false, true));
+    }
+
+    var sec = makeElAcc(el, body, i===0);
+    main.appendChild(sec);
+  });
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SUBMODULE LIST (Legal Foundations)
+═══════════════════════════════════════════════════════════ */
+function renderSubList(data){
+  showScreen('main');
+  updHeader('el', data.title, null);
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav(data.title, null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:14px 14px 16px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-family:var(--mono);font-size:var(--fs-xs);color:rgba(200,169,110,0.5);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:5px">Legal Foundations</div>'
+    +'<div style="font-size:var(--fs-xl);font-weight:800;color:#ffffff;margin-bottom:4px">'+data.title+'</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.6)">'+data.subtitle+'</div>';
+  main.appendChild(hdr);
+
+  (data.modules||[]).forEach(function(sub, i){
+    var card=mk('div','mc p-terra ci');
+    card.style.animationDelay=(i*40)+'ms';
+    card.innerHTML='<div class="mc-icon">'+(sub.icon||'\u2696\uFE0F')+'</div>'
+      +'<div class="mc-info"><div class="mc-name">'+sub.name+'</div><div class="mc-sec">'+sub.section+'</div></div>'
+      +'<span class="mc-tag">Open</span>';
+    card.addEventListener('click', function(){
+      fetchJ(sub.src)
+        .then(function(modData){
+          HISTORY.push({type:'sublist', data:data});
+          CUR_MOD=modData; renderAccordionMod(modData);
+        })
+        .catch(function(){ toast('Module not yet available','#4a3070'); });
+    });
+    main.appendChild(card);
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ARCS SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderArcs(arcs){
+  showScreen('main');
+  updHeader('el', 'Reform Arcs', null);
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav('Reform Arcs', null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:14px 14px 16px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#ffffff;margin-bottom:4px">Social-Legal Reform Arcs</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.6)">Legislative change timelines across Pakistani criminal law</div>';
+  main.appendChild(hdr);
+
+  arcs.forEach(function(arc, i){
+    var body=mk('div');
+    var bcmap={gap:'#8b4513',case:'#c8a96e',decision:'#5c3d2e',legislation:'#8b4513',current:'#4a7c59'};
+    arc.stages.forEach(function(stage, si){
+      if(si>0){ var conn=mk('div'); conn.style.cssText='width:2px;height:12px;background:rgba(139,69,19,0.2);margin:0 auto'; body.appendChild(conn); }
+      var scard=mk('div');
+      scard.style.cssText='display:flex;border-radius:8px;border:1px solid rgba(139,69,19,0.18);background:#fdf6f0;overflow:hidden;margin:0 2px';
+      var bar=mk('div'); bar.style.cssText='width:4px;background:'+(bcmap[stage.type]||'#8b4513')+';flex-shrink:0';
+      var content=mk('div'); content.style.cssText='flex:1;padding:9px 11px';
+      var lbl=mk('div'); lbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;color:#8b4513;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:3px';
+      lbl.textContent=stage.label;
+      var stxt=mk('div'); stxt.style.cssText='font-size:var(--fs-sm);color:var(--navy);line-height:1.55';
+      stxt.textContent=stage.text;
+      content.appendChild(lbl); content.appendChild(stxt);
+      scard.appendChild(bar); scard.appendChild(content);
+      body.appendChild(scard);
+    });
+    var bwrap=mk('div'); bwrap.style.padding='12px 14px'; bwrap.appendChild(body);
+    main.appendChild(makeAcc('⇄ '+arc.title+' — '+arc.subtitle.substring(0,45),'#8b4513',bwrap,i===0));
+  });
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SCHEDULE II REFERENCE SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderSched2Screen(rows){
+  showScreen('main');
+  updHeader('el', 'Schedule II', 'CrPC Reference');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav('Schedule II', 'CrPC Reference'));
+
+  var wrap=mk('div'); wrap.style.padding='8px 12px';
+  rows.forEach(function(row){
+    var item=mk('div');
+    item.style.cssText='padding:9px 0;border-bottom:1px solid var(--rule);display:flex;align-items:flex-start;gap:10px';
+    var sec=mk('div');
+    sec.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;color:var(--nmid);width:40px;flex-shrink:0;padding-top:2px';
+    sec.textContent='S.'+row.s;
+    var info=mk('div'); info.style.flex='1';
+    var name=mk('div'); name.style.cssText='font-size:var(--fs-sm);color:var(--navy);margin-bottom:5px';
+    name.textContent=row.n;
+    var pills=mk('div','pills');
+    pills.appendChild(txt(mk('span','schip '+(row.cog?'sp-cog':'sp-noncog')), row.cog?'Cognizable':'Non-Cognizable'));
+    pills.appendChild(txt(mk('span','schip '+(row.warr?'sp-warrant':'sp-summons')), row.warr?'Warrant':'Summons'));
+    pills.appendChild(txt(mk('span','schip '+(row.bail?'sp-bail':'sp-nonbail')), row.bail?'Bailable':'Non-Bailable'));
+    pills.appendChild(txt(mk('span','schip '+(row.comp?'sp-comp':'sp-noncomp')), row.comp?'Compoundable':'Non-Compoundable'));
+    info.appendChild(name); info.appendChild(pills);
+    item.appendChild(sec); item.appendChild(info);
+    wrap.appendChild(item);
+  });
+  main.appendChild(wrap);
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   ESSAYS SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderEssays(essays){
+  showScreen('main');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav('Rabbit Hole Essays', null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:12px 14px 14px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#ffffff;margin-bottom:3px">Rabbit Hole Essays</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.55)">Deep jurisprudential dives beyond the doctrine</div>';
+  main.appendChild(hdr);
+
+  essays.forEach(function(essay, i){
+    var body=mk('div');
+    var txt=mk('div','rh-text');
+    (essay.text||'').split('\n\n').forEach(function(p){
+      if(!p.trim()) return;
+      var pd=mk('p','rh-p'); pd.textContent=p.trim(); txt.appendChild(pd);
+    });
+    body.appendChild(txt);
+    if(essay.reflect && essay.reflect.length){
+      var rfSec=mk('div','rh-reflect');
+      essay.reflect.forEach(function(q){
+        var item=mk('div','rh-reflect-q'); item.textContent=q;
+        rfSec.appendChild(item);
+      });
+      body.appendChild(rfSec);
+    }
+    main.appendChild(makeAcc((i+1)+'. '+essay.title, 'var(--terra)', body, false));
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TECHNIQUES SCREEN
+═══════════════════════════════════════════════════════════ */
+function renderTechniques(data){
+  showScreen('main');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav('Code Hyperlinks', null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:12px 14px 14px;margin-bottom:4px';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#ffffff;margin-bottom:3px">Code Hyperlinks</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.55)">'+(data.techniques||[]).length+' relationship types</div>';
+  main.appendChild(hdr);
+
+  (data.techniques||[]).forEach(function(tech){
+    var reversed=['DISJUNCT','CASCADE','NEST','LAYER','ICEBERG','XREF'].indexOf(tech.id)>=0;
+    var body=mk('div');
+    (tech.entries||[]).forEach(function(e,ei){
+      var row=mk('div');
+      row.style.cssText='display:flex;gap:9px;padding:9px 14px;border-bottom:1px solid var(--rule);align-items:flex-start;cursor:pointer';
+      row.style.borderBottom = ei<tech.entries.length-1 ? '1px solid var(--rule)' : 'none';
+      var dot=mk('div'); dot.style.cssText='width:5px;height:5px;border-radius:50%;margin-top:5px;flex-shrink:0;background:'+tech.color;
+      var content=mk('div'); content.style.flex='1';
+      var lbl=mk('div'); lbl.style.cssText='font-size:var(--fs-sm);font-weight:600;color:var(--navy);line-height:1.4'; lbl.textContent=e.label;
+      var sub=mk('div'); sub.style.cssText='font-size:var(--fs-xs);color:var(--ink-lt);margin-top:2px;line-height:1.4'; sub.textContent=e.sub;
+      var modTag=mk('div'); modTag.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;margin-top:4px;color:'+tech.color; modTag.textContent='\u2192 '+e.module;
+      content.appendChild(lbl); content.appendChild(sub); content.appendChild(modTag);
+      row.appendChild(dot); row.appendChild(content);
+      row.addEventListener('click',function(ev){
+        ev.stopPropagation();
+        navigateLink(
+          { type:'element', target:{ module:(e.module||'').toLowerCase(), element:e.elementId } },
+          { type:'techniques', data:data }
+        );
+      });
+      body.appendChild(row);
+    });
+    var techBg = reversed ? tech.color : 'rgba(0,0,0,0.04)';
+    var techFg = reversed ? '#fff' : tech.color;
+    main.appendChild(makeAcc(tech.icon+' '+tech.title, tech.color, body, false));
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+
+/* ═══════════════════════════════════════════════════════════
+   RATIO LEGIS — REASONING MODULE RENDERER
+═══════════════════════════════════════════════════════════ */
+function renderReasoning(mod){
+  showScreen('main');
+  var main=$('main');
+  main.innerHTML=''; main.scrollTop=0;
+  main.className='on ci';
+  main.appendChild(makeModNav(mod.name, null));
+
+  var hdr=mk('div');
+  hdr.style.cssText='background:var(--navy);padding:12px 14px 14px;border-bottom:1px solid rgba(255,255,255,0.06)';
+  hdr.innerHTML='<div style="font-size:var(--fs-xl);font-weight:800;color:#ffffff;margin-bottom:3px">'+mod.name+'</div>'
+    +'<div style="font-size:var(--fs-sm);color:rgba(240,236,224,0.55)">'+mod.sub+'</div>';
+  main.appendChild(hdr);
+
+  (mod.groups||[]).forEach(function(group){
+    /* Group section divider */
+    var div=mk('div');
+    div.style.cssText='display:flex;align-items:center;gap:10px;padding:16px 14px 6px';
+    div.innerHTML='<div style="height:1px;width:14px;background:rgba(0,0,0,0.18);flex-shrink:0"></div>'
+      +'<span style="font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:'+group.accent+';white-space:nowrap">'+group.title+'</span>'
+      +'<div style="height:1px;flex:1;background:rgba(0,0,0,0.18)"></div>';
+    main.appendChild(div);
+
+    (group.concepts||[]).forEach(function(c){
+      main.appendChild(makeConceptCard(c, group.accent));
+    });
+  });
+
+  main.appendChild(makeFontBar());
+  var pad=mk('div'); pad.style.height='16px'; main.appendChild(pad);
+  fabHide();
+}
+
+function makeConceptCard(c, accent){
+  /* Concept body */
+  var body=mk('div');
+
+  /* Symbol + Core */
+  var coreDiv=mk('div'); coreDiv.style.padding='12px 14px';
+  var sym=mk('div');
+  sym.style.cssText='font-family:var(--mono);font-size:var(--fs-2xl);color:'+accent+';font-weight:700;margin-bottom:8px;letter-spacing:0.1em';
+  sym.textContent=c.symbol;
+  coreDiv.appendChild(sym);
+  var coreP=mk('div'); coreP.style.cssText='font-size:var(--fs-base);color:var(--navy);line-height:1.7';
+  (c.core||'').split('\n\n').forEach(function(p){
+    var pd=mk('p','legal-p'); pd.textContent=p.trim(); coreP.appendChild(pd);
+  });
+  coreDiv.appendChild(coreP);
+  body.appendChild(coreDiv);
+
+  /* PPC Bridge */
+  var bridgeDiv=mk('div');
+  bridgeDiv.style.cssText='border-top:1px solid var(--rule);padding:10px 14px;background:rgba(0,0,0,0.02)';
+  var bridgeLbl=mk('div');
+  bridgeLbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:'+accent+';margin-bottom:6px';
+  bridgeLbl.textContent='PPC Bridge';
+  bridgeDiv.appendChild(bridgeLbl);
+  var bridgeP=mk('div'); bridgeP.style.cssText='font-size:var(--fs-sm);color:var(--navy);line-height:1.65';
+  (c.ppc_bridge||'').split('\n\n').forEach(function(p){
+    var pd=mk('p','legal-p'); pd.textContent=p.trim(); bridgeP.appendChild(pd);
+  });
+  bridgeDiv.appendChild(bridgeP);
+  body.appendChild(bridgeDiv);
+
+  /* Worked Examples — nested accordions */
+  if(c.worked && c.worked.length){
+    var wrapDiv=mk('div'); wrapDiv.style.cssText='border-top:1px solid var(--rule);padding:10px 14px 4px';
+    var wrapLbl=mk('div');
+    wrapLbl.style.cssText='font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-lt);margin-bottom:8px';
+    wrapLbl.textContent='Worked Examples';
+    wrapDiv.appendChild(wrapLbl);
+    var tierColors={E:'#2c5f2e',M:'#8b4513',H:'#8b2535'};
+    c.worked.forEach(function(w){
+      var color=tierColors[w.tier]||'#2c4a7e';
+      var wbody=mk('div');
+      var qDiv=mk('div'); qDiv.style.cssText='padding:10px 12px;font-size:var(--fs-sm);color:var(--navy);line-height:1.55;font-weight:600';
+      qDiv.textContent=w.q;
+      var aDiv=mk('div'); aDiv.style.cssText='padding:0 12px 10px;font-size:var(--fs-sm);color:var(--navy);line-height:1.65;border-top:1px solid var(--rule)';
+      aDiv.innerHTML='<div style="font-family:var(--mono);font-size:var(--fs-xs);font-weight:700;color:'+color+';text-transform:uppercase;letter-spacing:0.08em;padding:8px 0 5px">Answer</div>'+w.a;
+      wbody.appendChild(qDiv); wbody.appendChild(aDiv);
+      wrapDiv.appendChild(makeAcc('['+w.tier+'] '+w.label, color, wbody, false));
+    });
+    body.appendChild(wrapDiv);
+  }
+
+  /* Sparring Questions */
+  if(c.sq && c.sq.length){
+    body.appendChild(makeAcc('\u2694 Sparring ('+c.sq.length+')', '#8b4513', makeSparBody(c.sq), false));
+  }
+
+  /* Advanced Card */
+  if(c.depth && c.depth.length){
+    var advBody=mk('div'); advBody.style.padding='12px 14px';
+    c.depth.forEach(function(d){
+      var dd=mk('p','legal-p'); dd.textContent=d; advBody.appendChild(dd);
+    });
+    body.appendChild(makeAcc('\u25B2 Advanced', accent, advBody, false));
+  }
+
+  return makeAcc(c.symbol+' \u2014 '+c.title, accent, body, false);
+}
+
+</script>
+</body>
+</html>
