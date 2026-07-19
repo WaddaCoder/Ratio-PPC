@@ -52,7 +52,8 @@
           "reveal": "S.120-A criminalises conduct at Stage 1 (intention/mental stage) which is normally not punishable. The agreement converts a private mental state into a social act — when two minds meet on a criminal purpose, the secrecy and coordination make early intervention justified. This is the legislature's policy choice: the combination of wills directed at crime poses a social danger exceeding that of individual intention. Conspiracy is therefore the exception that proves the rule of non-punishment of mere intention.",
           "cite": "S.120-A PPC — agreement as exception to non-punishability of intention. Stages of Crime doctrine"
         }
-      ]
+      ],
+      "dike": "≥2 persons agree ∧ (illegal act ∨ legal act by illegal means)\n→ Agreement ITSELF is the actus reus\n~ any further step required — liability attaches at the mental stage, unlike almost every other offence in the Code"
     },
     {
       "id": "Ill",
@@ -82,7 +83,8 @@
           "reveal": "Yes. Impossibility of the object does not negate conspiracy under Pakistani law. The agreement to achieve the illegal object is the offence; whether it could succeed is irrelevant. This mirrors the position on attempt — factual impossibility does not defeat liability. The social harm of the meeting of criminal minds exists regardless of whether the scheme could have worked.",
           "cite": "S.120-A PPC — impossibility no defence. Consistent with S.511 attempt principle"
         }
-      ]
+      ],
+      "dike": "Object of the agreement ≡ (illegal act ∨ legal act by illegal means ∨ causing an illegal act ∨ causing a legal act by illegal means)\nFour-way disjunction — any ONE suffices; the means, not just the end, can make an otherwise lawful objective criminal"
     },
     {
       "id": "Two",
@@ -112,7 +114,8 @@
           "reveal": "S.120-A requires 2+ persons and agreement alone. S.34 requires 2+ persons, common intention, AND an act done in furtherance — no minimum number specified but requires plurality. S.149 requires 5+ persons forming an unlawful assembly with a common object. The three provisions form a hierarchy of collective liability: conspiracy (agreement only, 2+), common intention (act done, any number), unlawful assembly (presence and membership, 5+). Each has a different threshold and different liability mechanism.",
           "cite": "S.120-A vs S.34 vs S.149 PPC — three collective liability provisions compared"
         }
-      ]
+      ],
+      "dike": "Persons ≥ 2\n~ one person conspiring alone (logically impossible — conspiracy is inherently bilateral)\nIf all co-conspirators but one are acquitted, the sole remaining conviction is legally problematic"
     }
   ]
 }

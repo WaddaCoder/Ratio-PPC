@@ -40,7 +40,8 @@
           "reveal": "The prosecution must establish: (1) the content was actually posted; (2) the accused was the author or had control of the account; (3) the posting was deliberate. Digital forensics — IP logs, device metadata, account access records — are relevant. The hacking defence shifts the burden back to requiring proof of authorship. Technological evidence in these cases is increasingly important.",
           "cite": "Prevention of Electronic Crimes Act 2016 — digital evidence framework"
         }
-      ]
+      ],
+      "dike": "S.295-B — wilful (defilement ∨ damage ∨ desecration) of the Holy Quran/an extract → life imprisonment\nS.295-C — (spoken ∨ written ∨ implied) derogatory remarks re: the Prophet Muhammad (PBUH) → mandatory death ∨ life\nBoth require deliberate, wilful conduct — neither is a strict-liability offence"
     },
     {
       "id": "Obj295",
@@ -70,7 +71,8 @@
           "reveal": "This is one of the most contested areas. Courts must examine the objective meaning of the words — not merely the most extreme interpretation held by some listeners. The Asia Bibi Supreme Court judgment emphasised that the standard is what the words objectively meant, not how the most aggrieved listener chose to interpret them. Ambiguous statements interpreted uncharitably do not satisfy the element.",
           "cite": "Asia Bibi PLD 2019 SC 64 — objective standard for interpreting allegedly blasphemous acts"
         }
-      ]
+      ],
+      "dike": "S.295-B — object MUST be = the Holy Quran or an extract therefrom\nS.295-C — target MUST be = the Prophet Muhammad (PBUH) specifically\n~ other prophets/religious figures under S.295-C's mandatory-death provision (S.295-A covers other religious feelings generally, at a lesser tier)\nThe object/target is a strict gate, not a flexible standard"
     },
     {
       "id": "Ev295",
@@ -100,7 +102,8 @@
           "reveal": "Significantly. Where punishment is mandatory and irreversible, the Supreme Court has held that the standard of evidence must be correspondingly rigorous. Judicial discretion on sentence is eliminated — the court cannot impose a lesser punishment even if it finds extenuating circumstances. This makes the trial finding of guilt or innocence the only decision point, which courts have treated as requiring the highest possible standard of proof.",
           "cite": "S.295-C PPC — mandatory death penalty. Asia Bibi PLD 2019 SC 64 — evidentiary rigor"
         }
-      ]
+      ],
+      "dike": "Mandatory death (S.295-C) → heightened evidentiary standard (Supreme Court, Asia Bibi)\nEvidence must be: free from prior enmity ∧ corroborated where possible ∧ evaluated with awareness of false-allegation risk\nThe severity of the punishment is what drives the evidentiary standard upward, not a separate rule"
     },
     {
       "id": "¬ExB",
@@ -130,7 +133,8 @@
           "reveal": "S.295-C as drafted does not explicitly limit its application to Muslims — it applies to any person who makes derogatory remarks about the Prophet Muhammad (PBUH). The mandatory death penalty applies regardless of the accused's religion. This has been one of the most criticised aspects of S.295-C from international human rights perspectives. Pakistani courts have not created a religious exemption from S.295-C liability.",
           "cite": "S.295-C PPC — applies regardless of accused's religion. International human rights critique documented"
         }
-      ]
+      ],
+      "dike": "General Exceptions apply as to all PPC offences ∨ S.84 (unsound mind) may specifically be raised\nConstitutional challenges also raised: freedom of religion (Art.20) ∨ freedom of expression (Art.19) ∨ fair trial rights (Art.10-A)\nCheck current case law for how these constitutional arguments have actually fared — don't assume outcome from the existence of the challenge alone"
     }
   ]
 }

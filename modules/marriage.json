@@ -40,7 +40,8 @@
           "reveal": "S.493A's text requires only that the woman 'is not lawfully married to him' — referring specifically to the absence of a lawful marriage between her and the deceiving man, not to her marital status generally. A woman who is, for example, separately and validly married to a different man, but who is deceived by this man into believing she is ALSO lawfully married to HIM, would still fall within S.493A's protection, since the section's concern is specifically the deceived belief about marriage to this particular man, not her overall marital status.",
           "cite": "S.493A PPC — 'not lawfully married to him' referring specifically to the absence of a lawful marriage with the deceiving man, not to the woman's marital status generally."
         }
-      ]
+      ],
+      "dike": "Man ∧ deceitfully causes a woman NOT lawfully married to him to believe she IS ∧ she cohabits in that belief\n→ ≤25 years rigorous ∧ fine\nAmong the harshest ceilings in this chapter — deception sustained over cohabitation, not a single false statement"
     },
     {
       "id": "S494_495",
@@ -70,7 +71,8 @@
           "reveal": "No — the Exception's first limb (a court having already declared the marriage to the living spouse void) operates independently and unconditionally, without any separate disclosure requirement attached to it. This makes sense structurally: once a competent court has formally declared the prior marriage void, there is no longer, in the law's own eyes, a 'living husband or wife' in the relevant sense at all — the legal predicate for bigamy liability has already been judicially removed, unlike the second limb's scenario, where the former spouse's marital status remains technically unresolved (merely unheard-of, not judicially declared void or dead), making the disclosure condition a necessary safeguard specifically for that more uncertain scenario.",
           "cite": "S.494 PPC Exception's first limb (court-declared void) operating unconditionally, distinguished from the second limb's (7-year absence) disclosure-conditioned structure, reflecting the different degree of legal certainty in each scenario."
         }
-      ]
+      ],
+      "dike": "S.494 — marries again ∧ living spouse ∧ second marriage void by reason of the first spouse's lifetime\n→ ≤7 years ∧ fine\nException: (a) prior marriage court-declared void ∨ (b) 7-year continuous unheard-of absence WITH disclosure to the new spouse\nS.495 — SAME conduct WITHOUT that disclosure → escalated punishment; concealment is the aggravating fact"
     },
     {
       "id": "S496",
@@ -100,7 +102,8 @@
           "reveal": "S.496's text focuses on the offender's own knowledge and dishonest/fraudulent intention in going through the ceremony — it does not explicitly require that the OTHER party be unaware or deceived. However, the dishonest or fraudulent intention element most naturally suggests some wrongful purpose typically directed at deceiving someone (whether the other party to the ceremony, or third parties who might be led to believe a lawful marriage occurred), and a scenario where both parties knowingly participate in a sham ceremony with shared, non-fraudulent understanding (and no intent to deceive any third party either) might not straightforwardly satisfy the dishonest/fraudulent intention requirement, though the precise boundary is not exhaustively addressed in the section's own brief text.",
           "cite": "S.496 PPC — focused on the offender's own dishonest/fraudulent intention; the precise treatment of a scenario where both ceremony participants knowingly and non-fraudulently understand its invalidity is not exhaustively addressed in the text."
         }
-      ]
+      ],
+      "dike": "(Dishonestly ∨ fraudulent intention) ∧ goes through a marriage ceremony ∧ knowing ~ lawfully married as a result\n→ ≤7 years ∧ fine"
     },
     {
       "id": "S496A",
@@ -130,7 +133,8 @@
           "reveal": "S.496A's text requires the act (taking, enticing, concealing, or detaining) combined with the specific intent that the woman may have illicit intercourse — consistent with the general pattern throughout this Code's intent-based offences, the offence is most naturally read as complete upon the qualifying act done with the requisite intent, without requiring proof that the illicit intercourse itself was actually accomplished, or that the taking/enticement/concealment/detention persisted for any particular minimum duration beyond what is needed to establish the act itself occurred.",
           "cite": "S.496A PPC — the qualifying act combined with the requisite intent as the operative completion point, consistent with the general intent-based-offence-completion pattern throughout this Code, not requiring proof that the illicit intercourse was actually accomplished."
         }
-      ]
+      ],
+      "dike": "(Takes ∨ entices away) a woman ∧ intent = illicit intercourse with any person\n∨ (conceals ∨ detains) a woman with the same intent\n→ ≤7 years ∧ fine"
     },
     {
       "id": "S496B_C",
@@ -160,7 +164,8 @@
           "reveal": "The proviso allows the Presiding Officer, having dismissed the original complaint under CrPC S.203C and given the accused an opportunity to show cause, to proceed directly to sentencing under S.496C without requiring any further, separate proof process — provided the court is satisfied an offence under S.496C (the false accusation itself) has been committed. This is a notable procedural efficiency: rather than requiring an entirely fresh prosecution and proof process for the false-accusation charge, the same proceedings that established the original complaint was false/unfounded can flow directly into sentencing for that false accusation, so long as the accused was given a fair opportunity to respond first.",
           "cite": "S.496C PPC's proviso — a streamlined procedural mechanism allowing direct sentencing for the false accusation within the same proceedings that dismissed the original complaint, rather than requiring a fresh proof process."
         }
-      ]
+      ],
+      "dike": "S.496B — man ∧ woman ∧ ~ married to each other ∧ willfully have intercourse → Fornication → ≤5 years ∧ ≤Rs.10,000\nS.496C — (brings ∨ levels ∨ gives evidence of) a FALSE accusation of fornication → separate offence, protecting against the accusation itself being weaponised"
     },
     {
       "id": "S498A",
@@ -190,7 +195,8 @@
           "reveal": "S.498A's text does not specify a permanence or completeness requirement — it covers deprivation 'from inheriting any movable or immovable property,' which would naturally extend to deprivation of any portion of what the woman is lawfully entitled to inherit, not only a complete and permanent deprivation of her entire inheritance. Depriving a woman of even part of her lawful share through deceitful or illegal means would likely satisfy the section, consistent with the general pattern throughout this Code where partial harm is typically treated as satisfying an offence's core requirement, with the EXTENT of the harm being more relevant to sentencing within the available range than to threshold liability itself.",
           "cite": "S.498A PPC — no apparent permanence or completeness requirement; partial deprivation of a lawful inheritance share likely sufficient to satisfy the section's threshold requirement."
         }
-      ]
+      ],
+      "dike": "(Deceitful ∨ illegal means) ∧ deprives a woman from inheriting (movable ∨ immovable) property, at the time succession opens\n→ ≤10 years, ≥5 years floor ∧ fine"
     },
     {
       "id": "S498B",
@@ -220,7 +226,8 @@
           "reveal": "S.498B's text explicitly uses the broad formulation 'coerces or in any manner whatsoever compels' — the phrase 'in any manner whatsoever' is deliberately expansive, confirming the section is not confined to physical coercion specifically. Social, financial, psychological, or other non-physical forms of compulsion that genuinely compel a woman into marriage against her will would independently satisfy this broad language, consistent with the general pattern throughout this Code of using deliberately broad, non-exhaustive language wherever the legislature wants to ensure comprehensive coverage of the various methods by which a particular wrong might be accomplished.",
           "cite": "S.498B PPC's 'in any manner whatsoever compels' language — deliberately broad, extending beyond physical coercion to social, financial, psychological, or other non-physical forms of compulsion."
         }
-      ]
+      ],
+      "dike": "Coerces ∨ compels a woman to enter marriage\n→ ≤7 years, ≥3 years floor ∧ Rs.500,000 fine\n2017 PROVISO: victim is a child → more severe sub-tier"
     },
     {
       "id": "S498C",
@@ -250,7 +257,8 @@
           "reveal": "S.498C's text requires that someone 'compels or arranges or facilitates' the marriage/oath — the section is concerned with externally imposed compulsion, arrangement, or facilitation by another person, not with a woman's own genuinely free and voluntary religious choice made entirely independently and without any compelling, arranging, or facilitating conduct by anyone else. A woman's sincere, freely-chosen religious devotion, with no other person compelling, arranging, or facilitating it for the kind of inheritance/marriage-prevention purpose this section addresses, would not naturally fall within this section's prohibition, which specifically targets the wrongful conduct of those who impose this practice on a woman against her genuine will.",
           "cite": "S.498C PPC — targeting the compelling/arranging/facilitating conduct of others, not a woman's own genuinely free and voluntary religious choice made without external compulsion."
         }
-      ]
+      ],
+      "dike": "Compels ∨ arranges ∨ facilitates marriage of a woman WITH the Holy Quran\n→ ≤7 years, ≥3 years floor ∧ Rs.500,000 fine\nAn oath sworn under compulsion doesn't count as valid consent — the Explanation confirms this expressly"
     }
   ]
 }

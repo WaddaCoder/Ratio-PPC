@@ -35,7 +35,8 @@
           "reveal": "Without proof of death there is no murder regardless of intent — the actus reus is missing. The conjunction requires all elements simultaneously but the logical sequence is: (1) death occurred, (2) the accused caused it, (3) the requisite intent existed, (4) no exception applies.",
           "cite": "S.302 PPC — logical structure of the murder offence"
         }
-      ]
+      ],
+      "dike": "Death established as a fact ∧ accused's act = proximate cause\n~ remote cause breaks the chain automatically — Pakistani courts generally apply the thin-skull principle: the accused takes the victim as found, a pre-existing condition doesn't itself sever causation"
     },
     {
       "id": "Niyyat",
@@ -66,7 +67,8 @@
           "reveal": "Likely none — making this culpable homicide NOT amounting to murder rather than murder. Without intent to cause death (Cl.1), intent to cause likely-fatal injury (Cl.2/3), or knowledge of imminently dangerous character (Cl.4), S.300 is not satisfied. This falls under S.299 culpable homicide with a lower mens rea.",
           "cite": "S.299 vs S.300 PPC — the crucial distinction"
         }
-      ]
+      ],
+      "dike": "Qatl ∧ (clause 1: intent to cause death ∨ clause 2: intent to cause GH likely to cause death ∨ clause 3: intent to cause injury sufficient in the ordinary course to cause death ∨ clause 4: knowledge the act is imminently dangerous, most probably causing death)\nOne section, four alternative gateways — any ONE suffices"
     },
     {
       "id": "Qisas",
@@ -97,7 +99,8 @@
           "reveal": "Under S.302(a) Qisas, challenging the eyewitness evidence or confession to a higher standard can prevent the death sentence while still allowing S.302(b) conviction. Under S.302(b) Taʼzir, the standard evidence rules apply. Defence counsel must analyse which regime is being pursued and attack the evidence accordingly.",
           "cite": "S.302(a) vs S.302(b) PPC — strategic implications"
         }
-      ]
+      ],
+      "dike": "Three punishment tracks, disjunctive on proof/waiver status:\n(a) Qisas — death as retribution, strict proof required, waivable for Diyat\n∨ (b) Ta'zir death — where Qisas proof is unavailable\n∨ (c) Ta'zir imprisonment ≤ 25 years — where Qisas is not applicable in law"
     },
     {
       "id": "¬Exc",
@@ -128,7 +131,8 @@
           "reveal": "S.76 provides a complete defence if the soldier genuinely believed in good faith that they were bound by law to act. This negates the Niyyat element — without wrongful intent, S.300 cannot be satisfied. The key question is whether the belief was sincere and based on reasonable grounds. This is the classic S.76 Illustration (a) scenario.",
           "cite": "S.76 PPC Illustration (a) — soldier acting under orders in good faith"
         }
-      ]
+      ],
+      "dike": "Two independent negation layers, different consequences:\nS.300's four provisos → murder DOWNGRADES to culpable homicide (still guilty of a lesser offence)\nGeneral Exceptions (S.76–106) → offence negated ENTIRELY (full acquittal)\nBoth must be checked — they don't do the same thing"
     },
     {
       "id": "¬H",
@@ -159,7 +163,8 @@
           "reveal": "S.311 prevents the Diyat acceptance (which normally negates Qisas consequences) from fully terminating the criminal proceedings. The formula becomes: if Murder established AND honour killing character found AND Diyat accepted, THEN Taʼzir still applies. The heirs' forgiveness negates Qisas but not Taʼzir. It is a partial negation only.",
           "cite": "S.311 PPC — logical position in the murder analysis"
         }
-      ]
+      ],
+      "dike": "Murder already established (Elements 1–4) — this overlay determines OUTCOME, not guilt\n~(all wali have waived or compounded qisas) ∨ fasad-fil-arz attracted\n→ Court may impose death ∨ life ∨ Ta'zir ≤14yr\nPROVISO: if committed in the name/pretext of honour → mandatory life imprisonment specifically, discretion removed"
     }
   ]
 }

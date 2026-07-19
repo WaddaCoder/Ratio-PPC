@@ -40,7 +40,8 @@
           "reveal": "Either suffices. S.24 states \"with the intention of causing wrongful gain to one person OR wrongful loss to another.\" The disjunction is explicit in the statute.",
           "cite": "S.24 PPC — plain statutory language"
         }
-      ]
+      ],
+      "dike": "Intent to cause (wrongful gain ∨ wrongful loss) [S.24 exhaustive definition]\n∧ must exist AT THE MOMENT of taking — not formed before, not formed after"
     },
     {
       "id": "M",
@@ -70,7 +71,8 @@
           "reveal": "Generally no — water in a natural stream is not in private possession. However water in a private tank would be different. The possession element (P) becomes the key analysis, not movability.",
           "cite": "S.378 PPC — all elements must conjoin"
         }
-      ]
+      ],
+      "dike": "Movable ∧ ~ (land ∨ things permanently attached to it)\nS.22's own definition draws the line"
     },
     {
       "id": "P",
@@ -100,7 +102,8 @@
           "reveal": "Yes. A person retains possession even when unconscious. Possession in law is not destroyed by temporary incapacity. The victim's unawareness is irrelevant.",
           "cite": "General principle of constructive possession"
         }
-      ]
+      ],
+      "dike": "Taken out of the possession of some person\n~ possession ≡ ownership (a servant holding the employer's goods is still in possession)\n~ abandoned property (no one possesses it, so nothing to take it 'out of')"
     },
     {
       "id": "¬C",
@@ -130,7 +133,8 @@
           "reveal": "If C is True then ¬C is False. One False conjunct makes the entire conjunction False. The offence fails here regardless of D, M, P, and V being fully established.",
           "cite": "1994 SCMR 1230 — confirmed in law"
         }
-      ]
+      ],
+      "dike": "~ consent of the person in possession\n~ consent obtained by fraud ∨ fear (never valid consent)\nA negation element — proven genuine consent defeats the whole offence regardless of D/M/P/V all being satisfied"
     },
     {
       "id": "V",
@@ -160,7 +164,8 @@
           "reveal": "Yes if the loading constituted movement of the property. Moving property onto a vehicle is moving the property. The vehicle need not depart.",
           "cite": "S.378 Illustrations — movement of property is decisive"
         }
-      ]
+      ],
+      "dike": "Actual movement of the property ∧ slightest movement suffices\n→ Complete AT THE MOMENT of movement\n~ escape required — theft doesn't wait for the thief to get away"
     },
     {
       "id": "S379_380",
@@ -185,7 +190,8 @@
           "reveal": "S.380's text requires only that the building, tent, or vessel 'is used as a human dwelling, or used for the custody of property' — it does not require that someone actually be present or that the structure be occupied at the precise moment of the theft. A house that is its owner's residence but temporarily empty (the owner away at work, for example) still satisfies S.380's dwelling-use requirement, since the section is concerned with the structure's general use and character, not momentary occupancy.",
           "cite": "S.380 PPC — 'used as' a dwelling, not requiring contemporaneous occupancy at the time of the theft."
         }
-      ]
+      ],
+      "dike": "Base theft → ≤3 years\nIN (a dwelling ∨ a vessel used as dwelling/property-custody) → ≤7 years ∧ fine\nLocation alone escalates the ceiling"
     },
     {
       "id": "S381_381A",
@@ -210,7 +216,8 @@
           "reveal": "Yes — S.381A's Explanation expressly extends the section's coverage: 'Theft of an electric motor of a tube well or transformer shall be within the meaning of this section.' Despite S.381A's main text addressing cars and motor vehicles specifically, the Explanation deliberately broadens the section to capture this economically significant but vehicle-unrelated category of theft, likely reflecting the practical reality that tube-well motors and transformers were (or remain) a frequent target of theft in Pakistan, warranting the same elevated 7-year ceiling as vehicle theft.",
           "cite": "S.381A PPC Explanation — extending vehicle-theft coverage to tube-well motors and transformers despite the main text's vehicle-specific framing."
         }
-      ]
+      ],
+      "dike": "S.381 — theft by (clerk ∨ servant) of property in their employer's possession → ≤7 years ∧ fine\nS.381A [1996] — theft of a motor vehicle (car ∨ motorcycle ∨ scooter ∨ tractor) → ≤7 years ∧ fine\nBoth carry the same ceiling despite very different fact patterns"
     },
     {
       "id": "S382",
@@ -240,7 +247,8 @@
           "reveal": "Yes — this is the Code's own Illustration (b) directly, structurally parallel to Illustration (a) but using positioned accomplices rather than a concealed weapon as the prepared means of potential restraint. The preparation (positioning companions in advance for the specific purpose of restraining Z if needed) satisfies S.382 regardless of whether the companions ever actually had to act, confirming the section's threshold is preparation itself, not deployment.",
           "cite": "S.382 PPC Illustration (b) — advance positioning of accomplices for potential restraint, satisfying the section even though never deployed."
         }
-      ]
+      ],
+      "dike": "Theft ∧ preparation for (death ∨ hurt ∨ restraint ∨ fear of any of these)\n∧ purpose = (commit the theft ∨ effect escape afterward ∨ retain the stolen property)\n→ ≤10 years rigorous ∧ fine\nSits at the conceptual threshold between pure Theft and Robbery — the only thing missing from a Robbery charge is the force actually being deployed"
     }
   ]
 }

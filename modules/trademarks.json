@@ -40,7 +40,8 @@
           "reveal": "This confirms S.478's PPC definition deliberately incorporates and defers to the formal trademark registration system established under the separate Trade Marks Act 1940, rather than creating an entirely independent, freestanding PPC-only concept of what counts as a trade mark. This means the full scope of what qualifies as a protected trade mark for purposes of this entire PPC cluster cannot be fully determined from the PPC text alone — it depends in part on the registration scheme of a separate statute this app has not independently built or verified, a genuine boundary of this module's scope worth flagging honestly.",
           "cite": "S.478 PPC's cross-reference to the Trade Marks Act 1940 — honestly flagging that full determination of trade mark scope depends partly on a separate statute outside this app's verified coverage."
         }
-      ]
+      ],
+      "dike": "S.478 — Trade Mark ≡ mark denoting goods are the manufacture/merchandise of a particular person ∨ registered under the Trade Marks Act 1940\nS.479 — Property Mark ≡ mark denoting movable property belongs to a particular person\nTwo distinct concepts, often confused — one marks the MAKER, the other marks the OWNER"
     },
     {
       "id": "S482",
@@ -70,7 +71,8 @@
           "reveal": "The section's own text does not specify the precise standard of proof the defendant must meet to discharge this reverse burden — this is a matter that would typically be addressed by general evidentiary principles and procedural law (the CrPC and broader rules of evidence) rather than by the PPC's own substantive text. This app's PPC-only scope means the precise evidentiary standard applicable to this specific reverse burden is not something to be confidently asserted here without venturing into procedural/evidentiary law this module has not independently verified.",
           "cite": "S.482 PPC — the precise standard of proof for discharging the reverse burden left to general evidentiary/procedural principles outside this module's PPC-specific scope, honestly flagged rather than asserted."
         }
-      ]
+      ],
+      "dike": "Uses a false (trade ∨ property) mark\n→ ≤1 year ∧ fine\nUNLESS the accused proves ~ intent to defraud\nReverse burden — the offence is presumed on the facts, and the accused must displace it"
     },
     {
       "id": "S483_485",
@@ -100,7 +102,8 @@
           "reveal": "The second limb is independent of the counterfeiting act itself — it covers anyone who 'uses as genuine any such mark knowing the same to be counterfeit,' regardless of who originally created the counterfeit. This mirrors the same derivative-use structure already seen in S.471 (Forgery module, using a forged document as genuine) — a person who knowingly uses a counterfeit public-servant mark, even without having personally counterfeited it, satisfies S.484's second limb on their own knowing use, independent of and in addition to whatever liability the original counterfeiter separately faces.",
           "cite": "S.484 PPC's second limb — independent knowing-use liability regardless of who originally counterfeited the mark, paralleling S.471 PPC's (Forgery module) derivative-use structure."
         }
-      ]
+      ],
+      "dike": "S.483 — counterfeits a trade/property mark used by another person → ≤2 years ∧ fine\nS.484 — counterfeits a mark used BY A PUBLIC SERVANT (denoting origin ∨ time/place ∨ quality ∨ passage through inspection) → enhanced tier\nThe mark's official status, not just the counterfeiting itself, drives the escalation"
     },
     {
       "id": "S486",
@@ -130,7 +133,8 @@
           "reveal": "Selling goods through a commercial supply chain presents a distinctively complex evidentiary situation compared to directly using a false mark oneself (S.482's context): a seller may have received already-counterfeit-marked goods from an upstream supplier without ever personally creating or even closely examining the mark, making a simple 'no intent to defraud' formula potentially too blunt an instrument. The more elaborate (a)+(b)/(c) structure specifically addresses the realistic commercial scenario of an innocent intermediary in a supply chain, requiring either demonstrated reasonable diligence plus transparency about the supply source, or a more general showing of innocence, rather than the single, simpler intent-focused inquiry S.482 uses for direct false-mark-use.",
           "cite": "S.486 PPC's more elaborate three-part defence vs S.482 PPC's simpler formula — reflecting the distinctively complex evidentiary situation of an intermediary seller in a commercial supply chain, as opposed to a person directly using a false mark themselves."
         }
-      ]
+      ],
+      "dike": "(Sells ∨ exposes for sale ∨ possesses for sale/trade/manufacture) goods bearing a counterfeit mark\n→ ≤1 year ∧ fine\nUNLESS the accused proves (a) all reasonable precautions taken ∨ (b) [second limb]\nSame reverse-burden structure as S.482, different thing to prove"
     },
     {
       "id": "S487_488",
@@ -160,7 +164,8 @@
           "reveal": "S.488's text does not restate the reverse-burden defence language independently — it relies entirely on the incorporation-by-reference formula ('punished as if he had committed an offence against that section') to import S.487's complete framework, including its 'unless he proves that he acted without intent to defraud' defence. This is a clean, efficient drafting technique avoiding the need to restate an identical defence structure twice, while still ensuring the same defence is genuinely available to the S.488 user-offender as is available to the original S.487 mark-maker.",
           "cite": "S.488 PPC — incorporating S.487's full framework, including its reverse-burden defence, entirely by reference rather than restating it independently."
         }
-      ]
+      ],
+      "dike": "Makes a false mark on a case/package/receptacle\n∧ reasonably calculated to cause belief that (it contains goods it doesn't ∨ it doesn't contain goods it does ∨ the contained goods differ in nature/quality)\nThree alternative false impressions, any ONE satisfies the section"
     },
     {
       "id": "S489",
@@ -190,7 +195,8 @@
           "reveal": "Adding to an existing genuine property mark could alter its meaning or create confusion about its scope or application just as effectively as removing or defacing it — for example, adding additional markings that suggest the property mark covers more items than it genuinely does, or that modify the apparent ownership claim in some misleading way. This fourth limb ensures the section captures alteration-by-addition as comparably wrongful to alteration-by-subtraction (removal/destruction/defacement), recognising that tampering with a mark's integrity can be accomplished by adding false elements just as much as by removing or damaging genuine ones.",
           "cite": "S.489 PPC's 'adds to' limb — capturing alteration-by-addition as comparably wrongful to alteration-by-subtraction, both potentially distorting the mark's genuine meaning or scope."
         }
-      ]
+      ],
+      "dike": "(Removes ∨ destroys ∨ defaces ∨ adds to) a property mark\n∧ (intending ∨ knowing likely) this may cause injury to any person\n→ ≤1 year ∧ fine"
     }
   ]
 }

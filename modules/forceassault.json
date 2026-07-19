@@ -40,7 +40,8 @@
           "reveal": "Contact with clothing or carried items is sufficient — this is precisely the point of Illustration (e). S.349's text explicitly extends to motion that 'brings that substance into contact with any part of that other's body, or with anything which that other is wearing or carrying, or with anything so situated that such contact affects that other's sense of feeling.' The splashing water reaching Z's clothes (rather than Z's bare skin directly) still satisfies the definition, since clothing being worn is expressly included.",
           "cite": "S.349 PPC Illustration (e) and the section's own text — contact with clothing/carried items expressly sufficient, not requiring direct bodily contact."
         }
-      ]
+      ],
+      "dike": "Causes (motion ∨ change of motion ∨ cessation of motion) to another person\n∨ causes such motion to a substance that brings it into contact with (their body ∨ clothing ∨ anything carried)\nPurely physical — no mental element yet"
     },
     {
       "id": "S350",
@@ -70,7 +71,8 @@
           "reveal": "First, under S.349, A has used force on Z by inducing an animal (the dog) to move toward Z — satisfying the third specified method of causing motion. Second, under S.350, since A acted without Z's consent and intended to cause Z fear (one of the three named harms: injury, fear, or annoyance), this elevates the S.349 force into criminal force. This Illustration (h) is useful precisely because it shows the two-step analysis explicitly: first establish S.349 force through the relevant method, then layer S.350's mental state and consent requirements on top.",
           "cite": "S.349 PPC (third method, inducing an animal) combined with S.350 PPC (intent to cause fear) and Illustration (h) — the two-step force-then-criminal-force analysis."
         }
-      ]
+      ],
+      "dike": "S.349 force ∧ intentional ∧ ~ consent\n∧ (in order to commit an offence ∨ intending injury/fear/annoyance ∨ knowing it likely)\nThree independent mental-state routes to the same offence — prosecution only needs one"
     },
     {
       "id": "S351",
@@ -100,7 +102,8 @@
           "reveal": "Preparatory conduct toward an indirect threat is sufficient — this is the Code's own Illustration (b). S.351's text covers 'any gesture, or any preparation,' and unloosing a dog's muzzle is a preparatory act rather than a direct threatening gesture aimed personally at Z. Since it is done with the intent or knowledge that it will cause Z to apprehend an imminent attack (via the dog as the instrument), it satisfies S.351 just as directly as a more conventional threatening gesture would.",
           "cite": "S.351 PPC Illustration (b) — preparatory conduct toward an indirect threat (unloosing a dog) satisfies the 'preparation' limb of assault."
         }
-      ]
+      ],
+      "dike": "Gesture ∨ preparation ∧ (intending ∨ knowing likely) to cause a person present to apprehend imminent criminal force\n~ mere words (Explanation excludes words alone, however threatening)\nNo contact required at all — apprehension is the whole offence"
     },
     {
       "id": "S352_355",
@@ -130,7 +133,8 @@
           "reveal": "No. The Explanation's second limb specifically excludes provocation mitigation where 'the provocation is given by anything done in obedience to the law, or by a public servant, in the lawful exercise of the powers of such public servant.' A lawful arrest by a police officer acting within their powers falls squarely within this exclusion — Z cannot claim the benefit of reduced punishment under S.358 merely because being lawfully arrested provoked an angry reaction; Z instead faces the full S.352 (or, given the public-servant target, potentially S.353, covered next) punishment ceiling.",
           "cite": "S.352 PPC Explanation, second limb — lawful exercise of public servant powers excluded as a basis for provocation mitigation."
         }
-      ]
+      ],
+      "dike": "Assault/criminal force ∧ ~ grave and sudden provocation → ≤3 months\nSAME conduct WITH grave and sudden provocation (S.358) → markedly reduced punishment\nProvocation doesn't excuse — it downgrades"
     },
     {
       "id": "S353",
@@ -160,7 +164,8 @@
           "reveal": "No. S.353 requires one of three specific connections to the victim's public duty: execution of duty at the time, intent to deter/prevent that duty, or consequence of something done in lawful discharge of that duty. An assault on a public servant that is entirely unconnected to their official function — occurring off-duty, for unrelated personal reasons — does not satisfy any of these three limbs, and would instead fall under the ordinary S.352 (or other applicable) provisions governing assault generally, without S.353's enhancement.",
           "cite": "S.353 PPC — requires one of three specific duty-connections; an assault entirely unconnected to the victim's public servant function does not engage this section."
         }
-      ]
+      ],
+      "dike": "Assault/criminal force ∧ against a public servant\n∧ (in execution of duty ∨ intent to deter from duty ∨ in consequence of duty already discharged)\n→ Enhanced punishment above the base S.352 tier"
     },
     {
       "id": "S354",
@@ -190,7 +195,8 @@
           "reveal": "In principle, yes, if the facts independently satisfy both sections' distinct requirements — for example, criminal force used against a woman who is also a public servant, executed in a manner connected to her official duty (satisfying S.353) AND also intended or known likely to outrage her modesty (satisfying S.354). The two sections protect different interests (public administration function vs personal modesty) and are not mutually exclusive; a single act of criminal force could theoretically trigger liability analysis under both provisions if the specific facts independently satisfy each section's own distinct elements, raising the same kind of cumulative-charging questions already explored under S.71 (Punishments module) and S.328/328A (Qatl Core module).",
           "cite": "S.354 PPC vs S.353 PPC — potentially overlapping but independently-satisfied provisions protecting different interests, raising S.71-style cumulative-charging considerations."
         }
-      ]
+      ],
+      "dike": "Assault/criminal force ∧ against a woman ∧ (intending ∨ knowing likely) to outrage her modesty\n→ ≤2 years"
     },
     {
       "id": "S354A",
@@ -220,7 +226,8 @@
           "reveal": "The careful approach is exactly what this build does: state clearly what the CURRENT verified text says (life imprisonment plus fine), note explicitly that a 2025 amendment changed the punishment language, and flag honestly that the precise prior wording that was omitted is not something to guess at or reconstruct from memory — since inventing the prior text risks exactly the kind of unverified content this app's standing rules are built to avoid. Where a footnote references an omission without the omitted text itself being clearly recoverable from the available source, the honest position is to note the amendment occurred and rely only on the current, verified text for substantive analysis.",
           "cite": "S.354A PPC 2025 amendment — honest acknowledgment of a recent change without speculative reconstruction of the omitted prior language."
         }
-      ]
+      ],
+      "dike": "Assault/criminal force ∧ against a woman ∧ strips her of clothes ∧ exposes her to public view in that condition\n→ Life imprisonment\nDramatically more severe than S.354 — stripping-and-exposure is treated as categorically different, not merely aggravated modesty"
     },
     {
       "id": "S356_357",
@@ -250,7 +257,8 @@
           "reveal": "S.357 addresses only the use of force in an ATTEMPT at wrongful confinement that does not succeed, while S.342 addresses an actually COMPLETED wrongful confinement. The comparatively modest 1-year ceiling for S.357 (which happens to roughly match S.342's own base 1-year ceiling for completed confinement, though S.342's aggravated tiers under S.343/344/345/346/347/348 can rise far higher) reflects that an unsuccessful attempt, even involving the use of force, is generally treated as less severe than a completed deprivation of liberty — consistent with the broader Stages of Crime principle that attempts are typically punished less severely than completed offences.",
           "cite": "S.357 PPC (1 year, attempted confinement with force) vs S.342 PPC (Wrongful Restraint & Confinement module, base 1 year for completed confinement, rising with aggravators) — reflecting the general attempt-vs-completion severity distinction."
         }
-      ]
+      ],
+      "dike": "Assault/criminal force ∧ (attempting theft of property worn/carried by the victim ∨ attempting wrongful confinement)\n→ ≤2 years each\nThe assault/force is instrumental here — punished as the means toward a different attempted offence"
     }
   ]
 }

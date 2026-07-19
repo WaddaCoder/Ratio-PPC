@@ -40,7 +40,8 @@
           "reveal": "They are structurally distinct, even though the imprisonment ceiling happens to coincide at 25 years. S.302(c) operates within the Qatl-i-Amd framework specifically — it is one of three punishment tracks (alongside Qisas and Ta'zir-death) available once Qatl-i-Amd itself, with its S.300 Niyyat requirement, has been established. S.316, by contrast, governs an entirely separate homicide category (Shibh-i-Amd) that exists precisely because the S.300 Niyyat requirement is NOT met. Critically, S.316 always includes mandatory Diyat liability alongside the optional Ta'zir imprisonment, whereas S.302(c) is a pure imprisonment track with no separate Diyat component built into that specific clause. A student conflating the two as 'the same 25-year tier' would miss that one requires proof of full Qatl-i-Amd intent and the other specifically applies where that intent is absent.",
           "cite": "S.316 PPC vs Murder module S.302(c) — structurally distinct tracks despite a coincidentally identical imprisonment ceiling; S.316 always carries mandatory Diyat, S.302(c) does not."
         }
-      ]
+      ],
+      "dike": "Intending (bodily ∨ mental harm, NOT death) ∧ death caused by means NOT ordinarily likely to cause death\n→ Qatl Shibh-i-Amd (not Qatl-i-Amd)\nCode's own illustration: striking with a stick/stone not ordinarily fatal, where death nonetheless results"
     },
     {
       "id": "S318_320",
@@ -70,7 +71,8 @@
           "reveal": "S.318's text requires only the absence of intention to cause death or harm, and that death results from mistake of act or mistake of fact — it does not on its face require the underlying act to have been lawful. This distinguishes Qatl-i-Khata from Qatl Bis-Sabab (S.321, covered separately), which specifically requires an unlawful act as its trigger. A genuinely lawful but mistaken act (such as the hunting scenarios in S.318's own Illustrations) falls naturally within S.318; whether an unlawful but non-death-intending act resulting in death falls under S.318's mistake framework or S.321's unlawful-act framework would depend on the precise causal mechanism on the facts — S.321 specifically requires the unlawful act itself to 'become a cause' of death, a structurally distinct causal pathway from S.318's mistake-based pathway.",
           "cite": "S.318 PPC (mistake-based, no lawfulness requirement stated) vs S.321 PPC Qatl Bis-Sabab (unlawful-act-based) — structurally distinct causal pathways to an unintended death."
         }
-      ]
+      ],
+      "dike": "~ intention to cause death or harm\n∧ (mistake of act ∨ mistake of fact)\n→ Qatl-i-Khata\nAiming at a deer and killing a bystander instead = mistake of act; mistaking a person for game = mistake of fact"
     },
     {
       "id": "S321_322",
@@ -100,7 +102,8 @@
           "reveal": "S.321's text requires only that the act be unlawful and that it 'becomes a cause for the death of another person' — it does not on its face require the unlawful act to be inherently dangerous or safety-related. The pit-digging Illustration involves an act (unauthorised excavation in a public way) that does carry an inherent physical safety risk, but the section's wording is broader than that specific example might suggest, focusing on the causal outcome (the unlawful act becoming a cause of death) rather than requiring the unlawful act to fall into any particular category of inherently dangerous conduct.",
           "cite": "S.321 PPC — textual focus on causal outcome rather than requiring the underlying unlawful act to be inherently dangerous."
         }
-      ]
+      ],
+      "dike": "~ intention to cause death or harm to anyone\n∧ unlawful act\n∧ that act becomes a cause of another's death\n→ Qatl Bis-Sabab\nUnlawfully digging a pit without intending harm, someone later falls in and dies"
     },
     {
       "id": "S301",
@@ -130,7 +133,8 @@
           "reveal": "No. S.301 requires that the death actually be caused by the act A intended or knew likely to cause death — here, C's death was caused by an entirely unrelated event, not by A's poisoning act at all. S.301 transfers intent across victims where the dangerous act itself causes the unintended death; it does not create liability for coincidental, causally unconnected deaths that happen to occur near in time to the accused's act.",
           "cite": "S.301 PPC — requires the unintended victim's death to actually be caused by the accused's dangerous act, not merely coincide with it."
         }
-      ]
+      ],
+      "dike": "Act intended/known-likely to cause the death of person A\n∧ actually causes the death of person B (unintended)\n→ Treated identically to intended Qatl-i-Amd\nTransferred-malice doctrine — the wrong target doesn't dilute the offence"
     },
     {
       "id": "S303",
@@ -160,7 +164,8 @@
           "reveal": "S.94 explicitly excludes offences punishable with death from its scope, meaning it cannot operate as a complete defence to a Qatl charge regardless of how severe the duress was. S.303 is therefore the specific, operative duress provision for homicide — it does not offer a complete defence either, but instead recalibrates punishment and shifts substantial liability to the coercer. A defendant facing a duress-induced Qatl charge must rely on S.303's specific framework, not the general S.94 exception, which is simply unavailable for this category of offence.",
           "cite": "S.303 PPC vs General Exceptions S.94 — S.94's express exclusion of capital offences makes S.303 the operative duress provision for Qatl."
         }
-      ]
+      ],
+      "dike": "Qatl committed under Ikrah-i-Tam (complete duress: fear of instant death ∨ instant permanent organ impairment ∨ instant sodomy/zina-bil-jabr, threatened against self ∨ spouse ∨ close blood relative)\n∨ Ikrah-i-Naqis (incomplete duress — lesser threats)\nDifferent duress tiers, different liability for the direct killer vs the person who compelled them"
     },
     {
       "id": "S304",
@@ -190,7 +195,8 @@
           "reveal": "There is a fallback — this is precisely the function of S.302(b) Ta'zir, already built in the Murder module: where Qisas proof under S.304 is not available, the court may still convict and sentence under the Ta'zir track using standard criminal evidence (circumstantial evidence, forensics, credible single-witness testimony), with death or life imprisonment still available as Ta'zir, having regard to the facts and circumstances. S.304's strict proof requirement governs only the Qisas track specifically; it does not create a general evidentiary barrier to conviction for Qatl-i-Amd as a whole.",
           "cite": "S.304 PPC governing the Qisas track only; S.302(b) Ta'zir as the standard-evidence fallback, already built in the Murder module."
         }
-      ]
+      ],
+      "dike": "Proof of Qatl-i-Amd for Qisas ≡ (voluntary true confession before a competent court ∨ evidence under Qanun-e-Shahadat Order Art.17)\nEither suffices — same two-mode standard also governs hurt liable to Qisas"
     },
     {
       "id": "S305",
@@ -220,7 +226,8 @@
           "reveal": "S.305(b) provides that the Government becomes the wali where there is no heir. Practically, this affects S.309's waiver mechanism directly, since S.309(1)(a) expressly provides that the right of Qisas shall not be waived where the Government is the wali — meaning a victim with no surviving heirs effectively forecloses the waiver route entirely, leaving the Qisas/Ta'zir framework to operate without the possibility of private forgiveness extinguishing the right.",
           "cite": "S.305(b) PPC (Government as wali where no heir exists) read with S.309(1)(a)'s express bar on waiver where the Government holds that status."
         }
-      ]
+      ],
+      "dike": "Wali ≡ heirs per personal law\n~ the accused/convict themselves, where the Qatl was committed in the name or pretext of honour (2005 amendment carve-out)\n∨ no heir exists → Government stands as wali"
     },
     {
       "id": "S306_307",
@@ -250,7 +257,8 @@
           "reveal": "No. S.306(a)'s proviso explicitly anticipates and forecloses exactly this evasion strategy: 'where a person liable to qisas associates himself in the commission of the offence with a person not liable to qisas with the intention of saving himself from qisas, he shall not be exempted from qisas.' The adult offender's Qisas liability is expressly preserved despite the minor's involvement; the minor's own non-liability (due to age) does not transfer any protection to the adult co-offender who deliberately engineered that association.",
           "cite": "S.306(a) PPC proviso — anti-evasion provision preventing a Qisas-liable offender from sheltering behind a non-liable co-offender."
         }
-      ]
+      ],
+      "dike": "S.306 — NEVER liable to Qisas at all if: (offender is minor ∨ insane, anti-evasion proviso applies) ∨ [further named categories]\nS.307 — liable in law, but Qisas CANNOT be enforced in practice (e.g. offender dies before execution)\nDifferent legal status: S.306 = never was liable; S.307 = liable but unenforceable"
     },
     {
       "id": "S308",
@@ -280,7 +288,8 @@
           "reveal": "Both can be imposed cumulatively. S.308(2) explicitly states 'Notwithstanding anything contained in sub section (1), the court... may punish the offender with imprisonment... in addition to the punishment of diyat' — the 'notwithstanding' and 'in addition to' language confirms this is an additive power, not an alternative one. A court can impose the Diyat liability required by S.308(1) and separately add Ta'zir imprisonment up to 25 years under S.308(2), having regard to the facts and circumstances of the case, without this being treated as double punishment for the same wrong.",
           "cite": "S.308(2) PPC — 'notwithstanding' and 'in addition to' confirming Diyat and Ta'zir imprisonment are cumulative, not alternative."
         }
-      ]
+      ],
+      "dike": "(S.306 exclusion applies ∨ S.307(c) unenforceable)\n→ Diyat instead of Qisas\nPayable from the minor/insane offender's own property, or a court-determined person where applicable"
     },
     {
       "id": "S309_310",
@@ -310,7 +319,8 @@
           "reveal": "The logical sequence is: first, S.305 determines who is even eligible to be wali (excluding the offender in honour cases); second, that valid wali may attempt to waive under S.309 or compound under S.310; third, both sections' 2016 provisos immediately flag that if fasad-fil-arz is attracted, the waiver/compounding does not operate to fully extinguish the matter — instead S.311 takes over, allowing the court to award Ta'zir (death, life, or up to 14 years generally, but mandatorily life imprisonment specifically where the honour proviso applies) regardless of the wali's waiver or compounding. The family-level forgiveness mechanism and the state-level Ta'zir override operate as sequential, not competing, layers — the wali's waiver/compounding is given effect for Qisas purposes, but S.311 ensures it cannot be the final word where honour-motivated killing is established.",
           "cite": "S.309/S.310 2016 provisos operating sequentially with S.311 PPC (corrected this session in the Murder module) — family forgiveness layer followed by state Ta'zir override layer."
         }
-      ]
+      ],
+      "dike": "Adult, sane wali may waive (Afw) at any time ∧ ~ compensation required\nUNLESS (Government is the wali ∨ right vests in a minor/insane person ∨ fasad-fil-arz attracted [2016])\n→ then S.311 governs instead of ordinary waiver"
     },
     {
       "id": "S311",
@@ -340,7 +350,8 @@
           "reveal": "S.311 only makes sense once a waiver or compounding has actually occurred — it is the state's check on the private settlement S.309/310 just created. S.312, immediately following, addresses what happens if a wali takes matters into their own hands after that same settlement. The sequence S.309/310 → S.311 → S.312 traces one continuous narrative: private forgiveness, the state's override of it, and the consequence of a wali acting outside the process entirely.",
           "cite": "S.311 PPC's structural position — the state override sitting directly between the private settlement mechanism and the anti-vigilante provision that follows it."
         }
-      ]
+      ],
+      "dike": "~(all wali waive or compound) ∨ fasad-fil-arz attracted\n→ Court may punish with (death ∨ life ∨ Ta'zir imprisonment)\nPROVISO: honour-pretext → mandatory life imprisonment specifically, judicial discretion removed"
     },
     {
       "id": "S312_314",
@@ -370,7 +381,8 @@
           "reveal": "The court, in consultation with an authorised medical officer, may postpone execution of Qisas for up to two years after the child's birth. During that postponement period, she may be released on bail upon furnishing security to the court's satisfaction, or, if not so released, she is dealt with as if sentenced to simple imprisonment — meaning the more severe consequence of Qisas itself is held in abeyance, and her treatment during the interim defaults to the comparatively lighter simple-imprisonment regime rather than continued exposure to the death sentence during pregnancy and the child's earliest infancy.",
           "cite": "S.314(3) PPC — pregnancy-based postponement of Qisas execution, with bail or simple-imprisonment treatment during the postponement period."
         }
-      ]
+      ],
+      "dike": "Wali kills a convict already forgiven (waived under S.309 ∨ compounded under S.310) ∧ (personally waived/compounded ∨ knew of another's waiver)\n→ that wali faces Qisas themselves\n~ such knowledge → Diyat instead"
     },
     {
       "id": "S323",
@@ -400,7 +412,8 @@
           "reveal": "The silver-weight floor (30,630 grams) is itself the legislature's codification of the classical Islamic Diyat valuation, meaning courts do not need to independently re-derive the figure from primary religious sources in each case — the statutory floor already embodies that determination. The court's task under S.323 is to fix the actual value (which may exceed the floor) having regard to the convict's and heirs' financial position, operating within the boundary the legislature has already set by codifying the religious-law minimum into a specific, administratively-updatable figure.",
           "cite": "S.323 PPC — the silver-weight floor as the legislature's own codification of the religious-law Diyat valuation, not a starting point for independent re-derivation in each case."
         }
-      ]
+      ],
+      "dike": "Diyat value fixed by the court ∧ subject to Islamic injunctions (Quran ∧ Sunnah) ∧ regard to financial position of (convict ∧ heirs)\n~ ever less than 30,630 grams of silver (statutory floor, cannot be waived downward)"
     },
     {
       "id": "S330_331",
@@ -430,7 +443,8 @@
           "reveal": "Under S.331(2), the convict may be kept in jail and dealt with as if sentenced to simple imprisonment until the Diyat is paid in full, OR released on bail if they furnish security (or surety) equivalent to the amount of Diyat to the court's satisfaction, OR released on parole as may be prescribed by rule. The section gives the court a menu of enforcement mechanisms rather than a single mandatory consequence, allowing some flexibility in how non-payment is addressed depending on the convict's circumstances and the security they can offer.",
           "cite": "S.331(2) PPC — jail-as-simple-imprisonment, bail-on-security, or parole as the three available enforcement responses to non-payment after the instalment period expires."
         }
-      ]
+      ],
+      "dike": "Diyat disbursed among heirs ∧ according to their respective inheritance shares\nHeir forgoes their share → that portion simply not recovered\n~ redistributed to the other heirs (doesn't inflate their shares)"
     }
   ]
 }

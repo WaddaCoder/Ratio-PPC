@@ -40,7 +40,8 @@
           "reveal": "No. S.339 requires that the obstructed person have a right to proceed in that direction in the first place — 'prevent that person from proceeding in any direction in which that person has a right to proceed.' Since Z had no right to cross A's private garden, A's obstruction does not satisfy this threshold requirement at all, and the analysis does not even need to reach the good-faith Exception, because the core element of the offence itself is missing.",
           "cite": "S.339 PPC — threshold requirement that the victim hold a pre-existing right to proceed in the obstructed direction."
         }
-      ]
+      ],
+      "dike": "Voluntary obstruction ∧ prevents the person proceeding in a direction they have a legal RIGHT to proceed in\n~ obstructing someone from going somewhere they had no right to go anyway — that isn't restraint at all"
     },
     {
       "id": "WConf",
@@ -70,7 +71,8 @@
           "reveal": "This depends on whether Z was in fact prevented from proceeding beyond the circumscribing limits — if an actual, usable exit existed and Z's belief that no exit existed was simply a mistaken perception rather than something A induced through deception or threat, the objective element of confinement (actual prevention from proceeding beyond the limits) may not be satisfied, since Z could in fact have left. If, however, A deliberately concealed the gate's existence or otherwise deceived Z into believing no exit existed as part of the confinement, that deception could itself form part of the wrongful conduct, depending on how the facts are framed and proven.",
           "cite": "S.340 PPC — requires actual prevention from proceeding beyond circumscribing limits, raising fact-specific questions where a genuine but unknown exit exists."
         }
-      ]
+      ],
+      "dike": "WRest ∧ prevents proceeding BEYOND circumscribing limits (not just one direction — total enclosure)\nA more complete, bounded form of Wrongful Restraint, not a separate concept"
     },
     {
       "id": "S341",
@@ -100,7 +102,8 @@
           "reveal": "S.339's definition of wrongful restraint contains no minimum duration requirement — it is satisfied the moment a person is voluntarily obstructed from proceeding in a direction they have a right to proceed in, however briefly. The brevity of the restraint may be highly relevant to sentencing within the available range (simple imprisonment up to one month, or fine up to the statutory maximum, or both), but it does not affect whether the offence itself is established at the threshold stage.",
           "cite": "S.339 PPC — no statutory minimum duration for restraint to be established; duration is a sentencing factor, not an element."
         }
-      ]
+      ],
+      "dike": "WRest → ≤1 month simple imprisonment ∨ ≤Rs.1,500 fine ∨ both"
     },
     {
       "id": "S342",
@@ -130,7 +133,8 @@
           "reveal": "S.340's underlying definition (which S.342 punishes) requires that the person be prevented 'from proceeding beyond certain circumscribing limits' — this is satisfied by an effective practical restriction, as the Code's own Illustration (b) under S.340 confirms (armed men at every exit, no physical lock required). The test is whether the person was, in practical and effective terms, prevented from leaving the bounded area, not whether escape was theoretically impossible under every conceivable circumstance.",
           "cite": "S.340 PPC Illustration (b), incorporated by reference into the S.342 analysis — effective practical restriction suffices."
         }
-      ]
+      ],
+      "dike": "WConf → ≤1 year ∨ ≤Rs.3,000 fine ∨ both"
     },
     {
       "id": "S343_344",
@@ -160,7 +164,8 @@
           "reveal": "The mandatory-fine requirement at the higher duration threshold likely reflects a legislative judgment that confinement sustained for ten days or more represents a sufficiently serious and sustained deprivation of liberty that purely custodial punishment, without an accompanying financial penalty, would understate the offender's culpability. At the lower three-day threshold, the legislature left courts more sentencing flexibility, presumably because the range of circumstances captured at that lower threshold (from just over three days to just under ten) is wider and a one-size mandatory-fine rule was judged less appropriate.",
           "cite": "S.343 vs S.344 PPC — inferred rationale for the optional-to-mandatory fine shift at the duration thresholds."
         }
-      ]
+      ],
+      "dike": "WConf ∧ (≥3 days → ≤2 years) ∨ (≥10 days → ≤3 years + fine)\nPunishment escalates directly with duration of confinement"
     },
     {
       "id": "S345",
@@ -190,7 +195,8 @@
           "reveal": "Treating it as a freestanding additive offence, rather than a mere sentencing factor, ensures the wrong is formally recognised and punished as such regardless of how a sentencing court might otherwise weigh aggravating circumstances within its discretion for the underlying offence. It also creates a clear, separately chargeable wrong specifically targeting contempt of judicial authority embedded within the confinement itself — conceptually adjacent to, though structurally distinct from, the judicial-act protections under General Explanations S.77 and S.78, which protect judges and those acting under court orders, whereas S.345 punishes the opposite scenario of someone defying a court's order.",
           "cite": "S.345 PPC rationale — freestanding additive offence for defiance of judicial liberation order. Cross-reference General Explanations S.77/S.78 as the structural converse (protecting compliance with judicial orders rather than punishing defiance of them)."
         }
-      ]
+      ],
+      "dike": "WConf ∧ knows a writ for the confined person's liberation has been duly issued\n→ ≤2 years, IN ADDITION to any other imprisonment already liable to — cumulative, not merged"
     },
     {
       "id": "S346",
@@ -220,7 +226,8 @@
           "reveal": "Secret confinement poses a distinct and serious practical harm beyond the loss of liberty itself: it frustrates the ability of family, interested persons, and the state (through public servants and the judicial process, including the very writ mechanism addressed in S.345) to locate, verify the wellbeing of, or seek the liberation of the confined person. Treating secrecy as a freestanding additive offence, rather than leaving it to general sentencing discretion, ensures this specific harm to the broader system of accountability and oversight is formally recognised and punished in its own right.",
           "cite": "S.346 PPC rationale — secrecy frustrates external accountability mechanisms including the S.345 writ process, warranting independent recognition."
         }
-      ]
+      ],
+      "dike": "WConf ∧ intention that (the confinement itself ∨ its location) NOT be known to (an interested person ∨ a public servant)\n→ Aggravated — secrecy is itself the aggravating fact"
     },
     {
       "id": "S347",
@@ -250,7 +257,8 @@
           "reveal": "Yes — S.347's third disjunctive limb covers confinement for the purpose of compelling the confined person 'to give information which may facilitate the commission of an offence,' which directly covers extracting a password intended to facilitate a future cybercrime. The section does not require the ultimate offence to actually be committed; it is sufficient that the confinement's purpose was to extract information that would facilitate such an offence.",
           "cite": "S.347 PPC third limb — confinement to extract information facilitating the commission of an offence, satisfied independently of whether that further offence is ultimately committed."
         }
-      ]
+      ],
+      "dike": "WConf ∧ purpose = (extort property/valuable security ∨ constrain to an illegal act)"
     },
     {
       "id": "S348",
@@ -280,7 +288,8 @@
           "reveal": "Yes. S.348's text covers confinement for the purpose of constraining the confined person to 'satisfy any claim or demand' without qualifying that the underlying claim must itself be illegitimate or fraudulent. Even a genuine, legally enforceable debt does not entitle a creditor to use wrongful confinement as a self-help enforcement mechanism; the legitimacy of the underlying claim does not provide a defence to the wrongful confinement charge, since the law channels enforcement of legitimate claims through lawful civil process, not private confinement.",
           "cite": "S.348 PPC — 'satisfy any claim or demand,' applying regardless of whether the underlying claim is itself legitimate."
         }
-      ]
+      ],
+      "dike": "WConf ∧ purpose = (extort a confession ∨ extort information leading to detection of an offence ∨ constrain to restore property/valuable security)"
     },
     {
       "id": "S348A",
@@ -300,7 +309,8 @@
           "reveal": "'Operate' is undefined in the amendment. Given the legislative purpose — targeting powerful individuals who use proxies to avoid direct exposure — courts applying purposive construction would likely interpret 'operate' to include directing others to run the facility. A narrow reading limited to on-site management would defeat the provision entirely, since influential persons rarely manage their private jails personally.",
           "cite": "S.348A PPC (inserted 2023); purposive construction principle"
         }
-      ]
+      ],
+      "dike": "Actor MUST be an 'influential person' ∧ operates a private jail ∧ purpose = holding (peasants ∨ labourers ∨ workers ∨ immigrants ∨ IDPs ∨ poor/local persons ∨ Jirga-dispute parties ∨ any other person) as hostage\nActor-status is a threshold element here — an ordinary person doing the identical acts doesn't trigger S.348A–C at all"
     },
     {
       "id": "S348B",
@@ -320,7 +330,8 @@
           "reveal": "Yes — and this is the S.311 Fasad-fil-Arz problem in miniature. An influential person who is also the economic patron of the victim's family has enormous leverage over the compounding decision. Compoundability means the accused can settle with the victim and the criminal case ends. The amendment's stated purpose — protecting economically vulnerable persons from such influentials — is in direct tension with giving those same influentials the right to compound the offence.",
           "cite": "S.348B PPC (inserted 2023); compare S.311 PPC on state override after waiver; CrPC Schedule II"
         }
-      ]
+      ],
+      "dike": "Influential person ∧ sets up a private jail ∧ purpose = false imprisonment\n→ ≤3 years ∧ fine\nPunishes the SETUP, before anyone is actually imprisoned"
     },
     {
       "id": "S348C",
@@ -340,7 +351,8 @@
           "reveal": "No merger: the two offences have distinct actus reus elements — 'sets up' versus 'imprisons.' A court can convict under both where evidence supports each independently. The prosecution should charge both to prevent acquittal on one count defeating the entire case. On sentencing, concurrent sentences under the totality principle are the likely outcome, but the two convictions remain separately recorded.",
           "cite": "S.348B, S.348C PPC (inserted 2023); totality principle in sentencing"
         }
-      ]
+      ],
+      "dike": "Influential person ∧ actually imprisons a person in a false manner inside a private jail\n→ ≤5 years ∧ fine\nHigher than S.348B — this is the completed act, not merely establishing the jail"
     }
   ]
 }

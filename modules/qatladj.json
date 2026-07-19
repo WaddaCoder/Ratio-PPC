@@ -33,7 +33,8 @@
           "reveal": "S.324's proviso specifically addresses this: where the punishment for the hurt would be Qisas which is not executable, the offender is instead liable to Arsh (the Chapter XVI compensation category for hurt, parallel to Diyat for Qatl) and may additionally be punished with imprisonment of either description up to 7 years. This mirrors the same Qisas-to-Diyat/Ta'zir fallback logic already seen in S.308 for completed Qatl, applied here specifically to the hurt component of an attempted Qatl where that hurt's own Qisas track is unavailable.",
           "cite": "S.324 PPC proviso — Arsh plus up to 7 years' imprisonment substituting for unexecutable Qisas on the hurt component of an attempted Qatl."
         }
-      ]
+      ],
+      "dike": "Act done ∧ (intention ∨ knowledge) ∧ circumstances such that death would have made it Qatl-i-Amd\n→ ≤10 years\nFLOOR: ≥5 years if committed in the name or pretext of honour — this is a fixed range, NOT half the S.302 maximum (displaces the general S.511 attempt formula entirely)"
     },
     {
       "id": "S326_327",
@@ -63,7 +64,8 @@
           "reveal": "S.326's text defines a Thug as a person 'habitually associated with any other or others' for the purpose of committing robbery or child-stealing 'by means of or accompanied with qatl' — the definition centres on habitual association for the combined criminal purpose, not on personally performing the killing. This suggests a person who consistently participates in the broader criminal enterprise (whatever their specific role within it) while that enterprise habitually combines robbery/child-stealing with Qatl could fall within the definition, though as with most group-offence provisions in this app, the precise allocation of liability for the underlying Qatl itself would still need separate analysis under the Common Intention (S.34) or Abetment (S.107–120) frameworks already built elsewhere in this app.",
           "cite": "S.326 PPC — status defined by habitual association for the combined purpose, with separate liability analysis for the underlying Qatl itself via Common Intention S.34 or Abetment S.107–120."
         }
-      ]
+      ],
+      "dike": "Habitual association ∧ with ≥1 others ∧ purpose = (robbery ∨ child-stealing) ∧ by means of/accompanied with Qatl\n→ Thug → life imprisonment ∧ fine"
     },
     {
       "id": "S328_329",
@@ -93,7 +95,8 @@
           "reveal": "Yes, potentially. S.329's text covers concealment of birth 'whether such child dies before or after or during its birth' through secret burial or disposal with intent to conceal the birth — the section does not require that the death itself have been wrongfully caused by anyone. The wrong S.329 specifically targets is the concealment of the birth/death through secret disposal, which is a distinct wrong from causing the death itself, meaning even a natural, blameless death can still give rise to S.329 liability if the birth is then concealed through secret disposal of the body.",
           "cite": "S.329 PPC — concealment-of-birth offence applies regardless of whether the child's death itself was wrongfully caused, focusing instead on the secret-disposal concealment."
         }
-      ]
+      ],
+      "dike": "Parent/carer ∧ exposes or abandons child <12 ∧ intent to WHOLLY abandon\n→ ≤7 years ∧ fine\n~ displaces separate Qatl liability — if the child actually dies as a result, a separate and more serious Qatl-i-Amd/Shibh-i-Amd/Bis-Sabab charge attaches on top"
     }
   ]
 }

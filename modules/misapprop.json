@@ -40,7 +40,8 @@
           "reveal": "A has NOT committed the offence — this is the Code's own Illustration (a) to Explanation 2: where there is no means of discovering the owner at all, simply picking up and keeping found property is not dishonest misappropriation. B, however, HAS committed the offence — Illustration (b): since the letter's contents revealed the owner's identity, B's appropriation of the note despite that knowledge satisfies S.403. The distinguishing factor is not whether the finder makes inquiries, but whether the means to discover the owner were actually available and known to the finder at the time of appropriation.",
           "cite": "S.403 PPC Explanation 2 and Illustrations (a) and (b) — liability turns on whether means of discovering the owner were available, not merely on the act of keeping found property."
         }
-      ]
+      ],
+      "dike": "Dishonest ∧ (misappropriates ∨ converts to own use) ∧ movable property\n→ ≤2 years ∧ fine\n~ permanence required — even TEMPORARY misappropriation satisfies the section (Explanation 1)"
     },
     {
       "id": "S404",
@@ -70,7 +71,8 @@
           "reveal": "The clerk/servant status only affects the punishment tier, not whether the offence is triggered at all. S.404's base offence requires only that the offender 'knowingly' misappropriates property known to have been in a deceased person's possession at death, not yet reaching anyone legally entitled to it — this applies to ANY person who dishonestly takes such property, stranger or household member alike, at the base 3-year tier. The clerk/servant relationship is purely an aggravating factor elevating the ceiling to 7 years; it is not a required element of the underlying offence itself.",
           "cite": "S.404 PPC — clerk/servant status as a punishment-tier aggravation only, not a required element of the base offence."
         }
-      ]
+      ],
+      "dike": "Dishonest ∧ (misappropriates ∨ converts) ∧ knowing the property was in a DECEASED person's possession at death\n∧ ~ since come into the possession of anyone legally entitled to it\n→ ≤3 years"
     },
     {
       "id": "S405",
@@ -100,7 +102,8 @@
           "reveal": "A's entrustment obligation here arises from the LAW governing executors under a will, not from a contract — this is the Code's own Illustration (a), and it confirms S.405's text covers entrustment obligations arising from 'any direction of law prescribing the mode in which such trust is to be discharged,' which is textually distinct from and in addition to 'any legal contract, express or implied.' An executor's duty to follow a will's distribution scheme is a legally-imposed obligation independent of any separate contractual arrangement, and dishonestly disregarding it satisfies S.405 just as fully as breaching an actual contract would.",
           "cite": "S.405 PPC Illustration (a) and the section's disjunctive 'direction of law... or... legal contract' language — confirming entrustment obligations can arise from statute/legal duty as well as from contract."
         }
-      ]
+      ],
+      "dike": "Entrusted with (property ∨ dominion over property)\n∧ dishonestly (misappropriates ∨ converts to own use ∨ uses/disposes in violation of legal direction or contractual obligation)\n→ Criminal Breach of Trust\nThe entrustment itself is the element Theft never requires — CBT starts from lawful possession, Theft never does"
     },
     {
       "id": "S406_407",
@@ -130,7 +133,8 @@
           "reveal": "S.407 applies specifically where the breach of trust occurs 'in respect of such property' — meaning property entrusted to the person specifically in their carrier/wharfinger/warehouse-keeper capacity. If the same individual commits a criminal breach of trust in some entirely separate, non-commercial capacity (for example, as a personal friend entrusted with a private item unrelated to their business), that separate breach would fall under the general S.406 provision instead, since S.407's specific application is tied to the capacity in which the entrustment arose, not simply to the offender's profession in the abstract.",
           "cite": "S.407 PPC's scope tied to entrustment arising specifically in the carrier/wharfinger/warehouse-keeper capacity, not to the offender's profession generally."
         }
-      ]
+      ],
+      "dike": "CBT generally → ≤7 years ∧ fine\nCBT BY a (carrier ∨ wharfinger ∨ warehouse-keeper), in respect of property entrusted specifically in that capacity → enhanced tier\nThe actor's professional role is what shifts the punishment band, not the underlying conduct"
     },
     {
       "id": "S408",
@@ -160,7 +164,8 @@
           "reveal": "S.408's text requires only that the offender be entrusted 'in such capacity' — as a clerk or servant — with property or dominion over property, without specifying that the property must belong to the employer personally. If an employer's business model involves clients entrusting property to the business, and a clerk is entrusted with that client property specifically through their employment role (for example, a warehouse clerk handling customer goods), a dishonest breach of that trust would still satisfy S.408's 'entrusted in such capacity' requirement, since the entrustment still flows through and depends on the employment relationship, even though the ultimate property owner is a third party rather than the employer.",
           "cite": "S.408 PPC — 'entrusted in such capacity' does not require the property to belong to the employer personally, only that the entrustment arise through the employment relationship."
         }
-      ]
+      ],
+      "dike": "(Clerk ∨ servant) ∧ entrusted in that specific capacity ∧ commits CBT\n→ ≤7 years\nSame conduct as S.405, but the employment relationship is what routes it here rather than the general S.406 tier"
     },
     {
       "id": "S409",
@@ -190,7 +195,8 @@
           "reveal": "The text of S.409 specifically and exhaustively names these categories ('in his capacity of a public servant or in the way of his business as a banker, merchant, factor, broker, attorney or agent') — a person occupying some other commercial trust role not falling within any of these named categories, or within the public-servant definition, would not be charged under S.409 specifically, even if their conduct is otherwise comparable in severity. Such a person's breach of trust would instead be addressed under the general S.406 provision (or S.407/408 if the carrier/wharfinger/warehouse-keeper or clerk/servant categories happen to apply), since S.409's enhanced punishment is reserved specifically for the named categories the legislature chose to single out.",
           "cite": "S.409 PPC — a specifically and exhaustively named list of categories, not extending by analogy to comparable but unlisted commercial trust roles."
         }
-      ]
+      ],
+      "dike": "Entrusted AS (public servant ∨ banker ∨ merchant ∨ factor ∨ broker ∨ attorney ∨ agent) ∧ commits CBT\n→ Enhanced tier above S.406\nHigher public/professional trust triggers a correspondingly higher punishment band"
     }
   ]
 }

@@ -40,7 +40,8 @@
           "reveal": "No. S.410's text expressly states the designation applies 'whether the transfer has been made, or the misappropriation or breach of trust has been committed, within or without Pakistan' — property stolen, extorted, or otherwise tainted entirely outside Pakistan's territory still qualifies as 'stolen property' for purposes of the receiving offences built on this definition, should it later be received within Pakistan's jurisdiction. This extraterritorial reach prevents the receiving offences from being circumvented simply by ensuring the original tainting offence occurs abroad.",
           "cite": "S.410 PPC — explicit extraterritorial reach, the 'stolen property' designation applying regardless of where the original tainting offence occurred."
         }
-      ]
+      ],
+      "dike": "Property ≡ (transferred by theft ∨ extortion ∨ robbery) ∨ (criminally misappropriated ∨ subject of criminal breach of trust)\n→ 'Stolen property' — regardless of who currently possesses it or how many hands it has passed through since"
     },
     {
       "id": "S411",
@@ -70,7 +71,8 @@
           "reveal": "No — S.411 is conceptually and practically aimed at a DIFFERENT person from the one who committed the original tainting offence; it punishes a distinct individual's dishonest receipt or retention of property already tainted by someone else's earlier offence. A person who personally stole the property is liable for Theft itself (S.378) and does not separately 'receive' it from their own prior theft in any meaningful sense — S.411's receiving offence is designed to capture the secondary market for stolen goods, the chain of people who knowingly deal in property after the original offence, not to create a redundant, second charge against the original offender for the same underlying conduct.",
           "cite": "S.411 PPC — conceptually targeting secondary receivers distinct from the original offender, not creating redundant liability for the same person's own prior theft."
         }
-      ]
+      ],
+      "dike": "Dishonest ∧ (receives ∨ retains) stolen property ∧ (knowing ∨ reason to believe it stolen)\n→ ≤3 years\n'Reason to believe' imports GEXPL's S.26 objective evidentiary standard directly — judged on what a reasonable person would infer, not what the accused actually thought"
     },
     {
       "id": "S412",
@@ -100,7 +102,8 @@
           "reveal": "Yes — S.412's text explicitly covers a person known or believed 'to belong or to have belonged to a gang of dacoits,' using the disjunctive present-or-past tense deliberately. The receiver's knowledge of even past gang membership, combined with knowledge that the property is stolen, is sufficient to trigger S.412's enhanced tier; the section does not require that the source person currently still be an active dacoit at the time of the receiving transaction.",
           "cite": "S.412 PPC — 'belong or have belonged' explicitly covering both current and past gang membership, with no requirement of ongoing active dacoity participation at the time of receiving."
         }
-      ]
+      ],
+      "dike": "Dishonest ∧ (receives ∨ retains) ∧ (knowing/reason-to-believe obtained via Dacoity ∨ receives from a person known/believed to belong to a gang of dacoits)\n→ Life imprisonment\nDramatically higher than S.411's 3-year ceiling — the Dacoity taint alone drives the jump"
     },
     {
       "id": "S413",
@@ -130,7 +133,8 @@
           "reveal": "S.413's text focuses on the habitual character of the conduct itself — 'whoever habitually receives or deals in property which he knows or has reason to believe to be stolen property' — the section's gravamen is the demonstrated pattern, not necessarily requiring the prosecution to separately prove each individual transaction within that pattern to the full standard that would be required to convict on a standalone S.411 charge for that specific instance. The habitual pattern, established through the totality of the evidence, is itself what S.413 punishes, distinguishing its evidentiary focus from S.411's transaction-specific focus.",
           "cite": "S.413 PPC — the habitual pattern itself as the operative element, distinguishing its evidentiary focus from S.411's transaction-specific approach."
         }
-      ]
+      ],
+      "dike": "Habitually (receives ∨ deals in) property (known ∨ believed) to be stolen\n→ Life ∨ ≤10 years ∧ fine\nHabituality itself is the aggravating fact, distinct from S.411's single-instance version"
     },
     {
       "id": "S414",
@@ -160,7 +164,8 @@
           "reveal": "S.414's text covers a person who 'voluntarily assists in concealing or disposing of or making away with' stolen property — the section's focus is on the voluntary act of assistance itself, with knowledge or reason to believe the property is stolen, rather than on the ultimate success of the concealment or disposal effort. A person who voluntarily renders such assistance, even if the concealment attempt is ultimately discovered or fails to achieve its purpose, would still satisfy the section's core requirement, since the wrong S.414 targets is the knowing facilitation itself, not a guaranteed successful outcome.",
           "cite": "S.414 PPC — the voluntary act of assistance itself as the operative element, not requiring proof that the concealment or disposal effort actually succeeded."
         }
-      ]
+      ],
+      "dike": "Voluntarily assists in (concealing ∨ disposing of ∨ making away with) property (known ∨ believed) to be stolen\n→ ≤3 years ∧ fine\nAssisting the concealment is punished even without ever personally receiving or retaining the property"
     }
   ]
 }

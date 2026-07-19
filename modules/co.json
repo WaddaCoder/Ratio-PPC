@@ -40,7 +40,8 @@
           "reveal": "S.149 on its own face does not — the section attaches the same liability ('every person who... is a member') to every qualifying member regardless of the degree of their individual participation. However, sentencing discretion under S.53's Ta'zir framework allows courts to calibrate punishment to the individual's role, even where liability attaches equally. S.149 determines guilt; the degree of involvement goes to sentence, not to the finding of liability itself. This is a critical distinction for defence counsel — arguing diminished individual participation in a S.149 case targets sentencing, not the conviction threshold.",
           "cite": "S.149 PPC — uniform liability attachment regardless of degree of participation; sentencing discretion as the calibration mechanism, not the liability finding."
         }
-      ]
+      ],
+      "dike": "Offence committed by ANY member ∧ (in prosecution of the common object ∨ known-likely in prosecution of that object)\n→ EVERY member (present at the time) is guilty of that offence\nThe net catches the whole assembly, not just the arrow that was thrown"
     },
     {
       "id": "CO_Gate",
@@ -70,7 +71,8 @@
           "reveal": "Yes — S.141 requires five or more persons to constitute an unlawful assembly, but does not require that all five be identified, named, or even apprehensible. The prosecution can establish the headcount through evidence of the assembly (eyewitnesses, video, physical evidence of group action) without identifying every participant. The two named accused's own S.142 membership and the assembly's S.141 qualification are independently established. Unidentified co-members do not defeat the named accused's conviction.",
           "cite": "S.141 PPC — headcount established through evidence of assembly, not requiring identification of every member."
         }
-      ]
+      ],
+      "dike": "S.149 cannot operate until S.141 is satisfied first:\n(≥5 persons) ∧ common object falls within ONE of S.141's five disjunctive categories\nThreshold gate — fail this, S.149 never even engages"
     },
     {
       "id": "CO_Limb1",
@@ -95,7 +97,8 @@
           "reveal": "No. The pickpocketing has no purposive or causal connection to the assembly's object of resisting the eviction — it was a personal act entirely unrelated to the collective purpose. S.149 Limb 1 requires the offence to have been committed as prosecution of the common object, not merely committed by a member while the assembly was active. This member's individual liability for theft operates under the ordinary S.378 framework; the other assembly members are not rendered guilty of the theft under S.149 Limb 1 because the theft was not in prosecution of their common object.",
           "cite": "S.149 PPC Limb 1 — a member's personal, unrelated offence during the assembly does not satisfy the purposive-connection requirement; only Limb 1 fails here, but Limb 2 would also fail on these facts since members would not have 'known' petty theft by one member was a likely consequence of resisting an eviction."
         }
-      ]
+      ],
+      "dike": "Offence ∧ done AS A MEANS of achieving/advancing/executing the common object\nDirect purposive connection required — not just present while the object was being pursued"
     },
     {
       "id": "CO_Limb2",
@@ -125,7 +128,8 @@
           "reveal": "Courts infer subjective knowledge from objective circumstances — this is the standard approach to inferring any subjective mental state in the absence of a confession. Relevant circumstances: the assembly's size and armament, the nature of the target (armed vs defenceless, individual vs group), prior history of violence between the groups, the nature of the common object, and any statements or actions by members before the offence. The inference that a member of an armed mob confronting a known target 'knew' serious violence was likely is drawn from these circumstances, not from a direct enquiry into the member's private belief. The member's claim of subjective non-lethal belief is then tested against whether any reasonable person with the same knowledge would have held that belief — at which point the distinction between 'knew' and 'should have known' narrows considerably in practice.",
           "cite": "S.149 PPC Limb 2 — subjective knowledge proved by inference from objective circumstances, the standard method for inferring any mental state in criminal proceedings."
         }
-      ]
+      ],
+      "dike": "~ specifically planned\n∧ members knew it likely, at the relevant time\nObjective foreseeability standard — weaker than CI's shared-intention requirement, which is exactly why S.149 catches more people"
     },
     {
       "id": "CO_Compare",
@@ -155,7 +159,8 @@
           "reveal": "Target S.149 first, because attacking S.141 (the gateway) collapses S.149 entirely and may be more tractable than attacking S.34's common intention directly. Specifically: can you challenge the headcount (were there really five-or-more identifiable members, or are some of the alleged members actually uninvolved bystanders)? Can you challenge the common object (was there really a shared S.141 qualifying object, or was this a spontaneous incident without a collective purpose)? If S.141 falls, S.149 falls with it. Then address S.34 — here the argument is: even if some group action occurred, was there a pre-arranged meeting of minds for the specific act your client faces liability for? Mahbub Shah 1945 and Basharat 2023 are your authorities. Running both attacks in parallel is correct strategy — you are not forced to choose, since they target different elements.",
           "cite": "Strategic priority of attacking S.141 to collapse S.149, then S.34's prior-concert requirement — the correct dual-track defence approach in alternative-charge mob violence cases."
         }
-      ]
+      ],
+      "dike": "S.34: Member ∧ CommonIntention ∧ Furtherance → Liable\nS.149: Member(at time) ∧ (Limb1 ∨ Limb2) → Liable\nSame quantifier, different predicate strength — S.149's predicate is strictly weaker, so its truth set is strictly larger"
     },
     {
       "id": "CO_Member",
@@ -180,7 +185,8 @@
           "reveal": "Y is still caught, on these facts. S.149 requires membership 'at the time' — membership under S.142 is maintained by knowingly continuing in an unlawful assembly. Standing quietly at the edge of the crowd while the assembly continues, without physically departing, satisfies continuing membership — S.142 requires that a person 'intentionally joins or continues' in the assembly, and Y's presence without departure constitutes continuing. The mental checkout argument (the 'I stopped caring' defence) does not satisfy the law's requirement, because S.142's membership is terminated by actual departure, not by private disengagement while remaining physically present.",
           "cite": "S.149 PPC membership at-the-time requirement — continuing membership through physical presence, not terminated by private mental disengagement without actual departure from the assembly."
         }
-      ]
+      ],
+      "dike": "Offence committed ∧ accused was a member AT THE TIME of that specific commission\n~ member before only ∧ ~ member after only — must be member at the precise moment"
     },
     {
       "id": "CO_Withdraw",
@@ -210,7 +216,8 @@
           "reveal": "Yes, functionally — both require communicated, unambiguous withdrawal before the offence is committed, and both treat private mental disengagement alone as insufficient. The logic is identical: you become liable through participation in a collective enterprise; you exit that liability by making your non-participation clear to the enterprise before it produces the harmful outcome. The fact that S.149 technically operates through assembly membership rather than shared intention does not change the underlying requirement, because membership is the mechanism by which S.149 attaches liability — and membership is terminated by the same kind of genuine, demonstrated departure that terminates S.34 involvement.",
           "cite": "S.149 PPC withdrawal standard — functionally identical to S.34 PPC's withdrawal doctrine (Common Intention module) because both require terminating the mechanism of liability (membership / shared intention) by communicated, pre-offence departure."
         }
-      ]
+      ],
+      "dike": "Effective withdrawal ≡ objective disassociation BEFORE the offence occurs\nMembership ends → S.149 liability for subsequent offences ends with it\nMirrors S.34's own withdrawal standard exactly"
     },
     {
       "id": "CO_GE",
@@ -240,7 +247,8 @@
           "reveal": "This is a structural mismatch worth flagging. C's personal private defence right would negate C's own liability for any offence C personally committed in exercise of that right — it does not negate the liability C faces under S.149 for the other member's act. S.149 imposes liability on every member for an offence committed by any member; the General Exception C raises relates to C's own conduct, not to the other member's killing. C would need to raise an exception that goes to the elements of S.149 itself (lack of membership, temporal gap, failure of the disjunctive trigger) rather than an exception to C's personal act, since the offence C is charged with under S.149 is the other member's killing, not C's own responsive force.",
           "cite": "S.149 PPC — General Exceptions raised against S.149 liability must address the elements of S.149 itself (assembly, membership, trigger); personal private defence rights address C's own acts, not the imputed liability for another member's act."
         }
-      ]
+      ],
+      "dike": "All S.149 elements fully established ∧ a General Exception (S.76–106) is proven\n→ Liability still negated\nGE applies automatically via S.6 — no need to plead it separately, and it overrides even a fully-proven S.149 case"
     }
   ]
 }

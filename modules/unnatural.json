@@ -40,7 +40,8 @@
           "reveal": "Yes, under S.377's own text, the punishment provision applies uniformly regardless of whether the act involved a man, woman, or animal — the section does not differentiate punishment based on which of the three categories was involved. This is a notable feature of S.377's drafting: a single punishment range (life imprisonment, or 2–10 years, plus fine) applies across all three categories named in the section, without the kind of victim-category-based punishment tiering seen elsewhere in this Code (for example, S.376(3)'s enhanced punishment specifically for rape of a minor or person with disability, in the Rape module).",
           "cite": "S.377 PPC — uniform punishment range applying regardless of whether the act involved a man, woman, or animal, with no category-based tiering."
         }
-      ]
+      ],
+      "dike": "Voluntary carnal intercourse against the order of nature ∧ (with man ∨ woman ∨ animal)\n→ life ∨ 2–10 years ∧ fine\nPenetration alone is sufficient (Explanation)"
     },
     {
       "id": "S377A",
@@ -70,7 +71,8 @@
           "reveal": "The simulation language extends liability to conduct that mimics or play-acts the prohibited categories (fondling, exhibitionism, etc.) without the conduct necessarily being 'real' in some narrower technical sense — for example, staged or performative conduct designed to simulate sexual activity for an audience or recording, even where the parties might argue the conduct was not a genuine instance of the named category but merely an imitation or performance of it. Including simulation prevents an obvious evasion strategy where an offender might argue their conduct was merely a simulation or performance rather than the 'real' prohibited act.",
           "cite": "S.377A PPC's 'simulation of such conduct' language — closing a potential evasion route based on characterising conduct as merely performative or simulated rather than genuine."
         }
-      ]
+      ],
+      "dike": "(Employs ∨ uses ∨ forces ∨ persuades ∨ induces ∨ entices ∨ coerces) any person\n∧ into (fondling ∨ stroking ∨ caressing ∨ exhibitionism ∨ voyeurism ∨ any obscene/sexually-explicit conduct or its simulation)\n2016 insertion — fills the non-penetrative gap S.377's penetration requirement left completely open"
     },
     {
       "id": "S377B",
@@ -100,7 +102,8 @@
           "reveal": "S.377B's text, as verified, prescribes the punishment for 'the offence of sexual abuse' without itself addressing multiple-victim or repeat-occurrence scenarios specifically — unlike, for example, S.338C's explicit multiple-fetus proviso (Isqat module) which expressly directs separate liability for each affected child. Whether multiple instances or victims would generate cumulative punishment would likely be assessed under the general principles already built in this app (S.71 in the Punishments module, governing punishment for offences made up of multiple acts or affecting multiple distinct victims) rather than through any S.377A/377B-specific multiple-victim provision, since the text itself does not supply one.",
           "cite": "S.377B PPC — no explicit multiple-victim/multiple-occurrence provision in the text itself; general S.71 PPC principles (Punishments module) would likely govern cumulative liability questions instead, in the absence of a specific provision."
         }
-      ]
+      ],
+      "dike": "S.377A offence committed\n→ ≥14 years, ≤20 years ∧ ≥Rs.1,000,000 fine\nBoth floors are mandatory — court cannot go below either regardless of mitigating circumstances"
     }
   ]
 }

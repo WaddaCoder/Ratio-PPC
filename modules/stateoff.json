@@ -40,7 +40,8 @@
           "reveal": "This reflects a deliberate legislative judgment that waging war against the state represents a categorically distinct, maximal threat to the state's existence itself, not merely a serious harm to be calibrated by degree — the binary death-or-life structure signals that any successful or attempted act of war against the state is treated as equally grave regardless of its particular circumstances, a structural choice setting S.121 apart from the graduated severity ladders seen throughout virtually every other chapter already built in this app.",
           "cite": "S.121 PPC's binary death-or-life structure — a deliberate departure from this Code's otherwise near-universal graduated-severity pattern, reflecting the categorically maximal threat the offence represents."
         }
-      ]
+      ],
+      "dike": "(Wages war ∨ attempts to wage war ∨ abets waging war) against Pakistan\n→ death ∨ life ∧ fine\nAll THREE carry the IDENTICAL punishment ceiling — a deliberate departure from STAGES' general rule that attempt draws only half the completed offence's sentence"
     },
     {
       "id": "S122_123",
@@ -65,7 +66,8 @@
           "reveal": "B is liable under S.123 — concealing the existence of a design to wage war, even by omission (deliberate silence) rather than affirmative action, satisfies the section provided B intended or knew it likely the concealment would facilitate the war. B's own non-involvement in the underlying design is irrelevant; the concealment itself is the offence.",
           "cite": "S.123 PPC — concealment by omission satisfies the section independently of the concealer's own involvement in the underlying war-design."
         }
-      ]
+      ],
+      "dike": "S.122 — (collects men/arms/ammunition ∨ otherwise prepares) to wage war ∧ intent = wage or be prepared to wage war → life ∨ ≤10 years ∧ fine\nS.123 — (act ∨ illegal omission) ∧ conceals the existence of a design to wage war → separate, lesser tier"
     },
     {
       "id": "S123A_123B",
@@ -95,7 +97,8 @@
           "reveal": "S.123B is a narrower, purely conduct-based offence protecting the physical Flag itself — no speech, intent-to-influence-public-opinion, or sovereignty-endangerment element is required at all; deliberately defiling, burning, or unauthorisedly removing the Flag from government property is itself sufficient, a structurally simpler and more concrete offence than S.123A's speech-and-intent-laden provision.",
           "cite": "S.123B PPC — a purely conduct-based, symbolic-property offence, structurally simpler than S.123A's speech-and-influence-based provision."
         }
-      ]
+      ],
+      "dike": "S.123A — (within ∨ outside Pakistan) ∧ (intent to influence ∨ knowing likely to influence) prejudicial to safety/ideology ∨ endangering sovereignty ∧ condemns the creation of the State\nS.123B — defiling the national flag\nTwo distinct symbolic/ideological offences bundled under one element ID"
     },
     {
       "id": "S124_124A",
@@ -125,7 +128,8 @@
           "reveal": "Because the prohibition's core terms — 'hatred,' 'contempt,' 'disaffection' — are inherently broad and could, without careful boundary-drawing, sweep in ordinary, legitimate political criticism and journalism. The three Explanations do the actual work of distinguishing protected speech (good-faith criticism seeking lawful change, good-faith criticism of specific administrative actions) from prohibited incitement, making them the practical battleground in any genuine sedition dispute — a defendant's case typically turns not on whether the words were critical, but on whether they fall within or outside the Explanations' protection.",
           "cite": "S.124A PPC's three Explanations — functioning as the practical boundary-drawing mechanism between protected political criticism and prohibited incitement, often the actual contested issue in sedition litigation."
         }
-      ]
+      ],
+      "dike": "S.124 — intent = (induce ∨ compel) the President/Governor to (exercise ∨ refrain from exercising) lawful power ∧ (assaults ∨ wrongfully restrains ∨ overawes by criminal force/show of force)\n→ ≤7 years\nS.124A — Sedition, a separate and distinct offence sharing this element ID"
     },
     {
       "id": "S125_127",
@@ -150,7 +154,8 @@
           "reveal": "B is independently liable under S.127, which punishes knowing receipt of property taken in the commission of the S.125/126 offences, with forfeiture of the received property — mirroring the same downstream-receiving liability structure already confirmed in Receiving Stolen Property and Currency Notes, extending accountability along the chain of who benefits from the underlying offence.",
           "cite": "S.127 PPC — knowing-receipt liability extending accountability along the property chain, the same structural pattern already confirmed in Receiving Stolen Property and Currency Notes modules."
         }
-      ]
+      ],
+      "dike": "S.125 — (wages war ∨ attempts ∨ abets) against an ALLIED power → life ∧ fine ∨ ≤7 years ∧ fine ∨ fine alone\nThree alternative punishment tracks, not a single fixed range\nS.126 — depredation on allied territory; S.127 — receiving war property — both lesser satellite offences around the same core"
     },
     {
       "id": "S128_130",
@@ -180,7 +185,8 @@
           "reveal": "B is independently liable under S.130, which explicitly covers harbouring or concealing 'any such prisoner who has escaped from lawful custody' as one of several distinct triggering acts (alongside aiding escape, rescuing, and resisting recapture) — B's lack of involvement in the original escape does not matter, since harbouring after the fact is itself independently sufficient.",
           "cite": "S.130 PPC — harbouring an already-escaped prisoner independently triggers liability, regardless of the harbourer's non-involvement in the original escape."
         }
-      ]
+      ],
+      "dike": "S.128 — public servant, custody of a State prisoner/POW ∧ VOLUNTARILY allows escape → life ∨ ≤10 years ∧ fine\nS.129 — SAME custodian ∧ NEGLIGENTLY suffers the escape → simple ≤3 years\nIdentical outcome, mens rea (voluntary vs negligent) is the entire distinction — same structural pattern as the wider Code"
     }
   ]
 }

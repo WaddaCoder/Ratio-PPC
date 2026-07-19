@@ -40,7 +40,8 @@
           "reveal": "The property route is narrower and specifically transactional — it requires the deception to induce delivery of property or consent to its retention. The act-or-omission route is considerably broader, covering ANY induced conduct (not limited to property transactions) that causes or is likely to cause harm across the full S.44 range (body, mind, reputation, or property). A single deceptive scheme could indeed satisfy both routes simultaneously — for example, deceiving someone into both handing over money (the property route) AND taking some other harmful action they would not otherwise have taken, such as signing away a legal right (the act-or-omission route) — though only one route needs to be established for the cheating offence itself to be made out.",
           "cite": "S.415 PPC's two disjunctive routes — the narrower property-transaction route and the broader act-or-omission route engaging the full S.44 injury concept, either independently sufficient and potentially overlapping on the same facts."
         }
-      ]
+      ],
+      "dike": "By deceiving ∧ (fraudulently ∨ dishonestly) induces the deceived person to (deliver property ∨ consent that property be retained)\n∨ intentionally induces them to (do ∨ omit) something they would not otherwise ∧ causing/likely causing harm\nTwo alternative outcomes — property delivery isn't the only route to Cheating"
     },
     {
       "id": "S416",
@@ -70,7 +71,8 @@
           "reveal": "S.416's text simply requires that the offender 'cheats by pretending to be some other person' — it does not require personation to be the sole deceptive mechanism employed. A broader scheme combining personation with other false statements or concealments would still satisfy S.416 so long as the personation itself genuinely contributed to the deception that induced the cheating, even where other deceptive elements were also present in the same overall scheme.",
           "cite": "S.416 PPC — no requirement that personation be the sole or exclusive deceptive mechanism within a broader scheme."
         }
-      ]
+      ],
+      "dike": "Cheats BY (pretending to be another person ∨ knowingly substituting one person for another ∨ representing self/another as someone they are not)\n→ Cheating by Personation — a distinct, aggravated species of S.415"
     },
     {
       "id": "S417",
@@ -100,7 +102,8 @@
           "reveal": "No — S.417's text sets a single, undifferentiated 1-year ceiling for cheating generally, without any value-based or sophistication-based tiering built into the section itself. Both A and B would face the identical statutory ceiling under S.417, with the value involved and the sophistication of the scheme being relevant only to where within that single ceiling a sentencing court chooses to position the actual sentence, rather than to which statutory provision applies in the first place. This contrasts with several other property offences already built in this app (such as Theft's S.380 dwelling-house aggravation or S.381A's vehicle-specific provision) which create entirely separate, more severely punished tiers for specific aggravating circumstances.",
           "cite": "S.417 PPC — a single undifferentiated ceiling regardless of property value or scheme sophistication, contrasted with the more granular tiering seen in other property offences already built in this app."
         }
-      ]
+      ],
+      "dike": "Cheats → ≤1 year ∧ fine\nBase tier"
     },
     {
       "id": "S418",
@@ -130,7 +133,8 @@
           "reveal": "Knowledge of the likelihood is sufficient on its own — S.418's text covers cheating 'with the knowledge that he is likely thereby to cause wrongful loss,' which is a forward-looking, likelihood-based mental-state requirement at the time of the cheating, not a requirement that the wrongful loss actually materialise afterward. This mirrors the same 'likely to cause' structure already built into S.415's own definition of cheating generally, confirming a consistent approach across this cluster: the offender's knowledge or awareness of likely harm at the time of acting is what matters, not proof of an ultimately realized harmful outcome.",
           "cite": "S.418 PPC — knowledge of likely wrongful loss at the time of cheating is sufficient, mirroring S.415's own 'likely to cause' structure; actual realized loss is not a required element."
         }
-      ]
+      ],
+      "dike": "Cheats ∧ knowledge likely to cause wrongful loss to a PROTECTED person — whose interest the accused was, by law or legal contract, bound to protect\n→ ≤3 years\nThe breach of a protective duty is the aggravating fact, not the cheating itself"
     },
     {
       "id": "S419",
@@ -160,7 +164,8 @@
           "reveal": "In principle, yes, both could be satisfied on the same facts if a person bound by a legal or contractual duty to protect a victim's interest also chose to cheat that victim specifically through personation. Since S.419 carries the higher ceiling (7 years) compared to S.418's 3 years, and both provisions punish the broader underlying offence of cheating (as defined in S.415) with different aggravating-circumstance enhancements layered on top, the more severely punished provision — S.419, given personation is established — would likely be the one actually charged and applied, since it already comprehensively captures the wrong on these facts at a higher severity level than S.418 would.",
           "cite": "S.419 PPC and S.418 PPC — potentially overlapping aggravations on the same facts, with the more severely punished provision (S.419, given personation) likely governing in practice."
         }
-      ]
+      ],
+      "dike": "Cheats by personation (S.416)\n→ ≤7 years ∧ fine\nDramatically higher than S.417's base 1-year ceiling"
     },
     {
       "id": "S420",
@@ -190,7 +195,8 @@
           "reveal": "Where a cheating scheme actually results in dishonestly induced delivery of property (or the making/altering/destroying of a valuable security), S.420 is the specifically applicable, more severely punished provision (7 years, mandatory fine) and would be the one charged, rather than the general S.417 (1 year). S.417 remains the applicable provision specifically for cheating that does NOT result in any of S.420's specific outcomes — for example, cheating that merely induces some other harmful act or omission falling under S.415's broader act-or-omission route, without any property delivery or valuable-security manipulation occurring. The two provisions are not cumulative for the same conduct; S.420 is the specific, more severely punished variant that applies once its particular property-delivery or security-manipulation outcome is established.",
           "cite": "S.420 PPC as the specific, more severely punished variant applicable once property delivery or valuable-security manipulation is established, with S.417 remaining the general provision for cheating outcomes falling outside S.420's specific scope."
         }
-      ]
+      ],
+      "dike": "Cheats ∧ thereby dishonestly induces (delivery of property ∨ making/altering/destroying a valuable security ∨ a signed/sealed thing convertible into one)\n→ Higher tier, matching S.419's severity for the property-and-security-specific track"
     }
   ]
 }

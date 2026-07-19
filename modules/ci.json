@@ -40,7 +40,8 @@
           "reveal": "S.34 requires a common intention shared by all members and active participation in furtherance of that intention. S.149 requires membership of an unlawful assembly of five or more — liability attaches by mere membership even without active participation.",
           "cite": "S.34 vs S.149 PPC — structural distinction"
         }
-      ]
+      ],
+      "dike": "All members ∧ share the common intention\n~ pre-arrangement required (can develop on the spot)\n~ shared by merely some — must be shared by ALL"
     },
     {
       "id": "Act",
@@ -70,7 +71,8 @@
           "reveal": "Yes. The acquittal of the principal does not automatically acquit those charged under S.34. If common intention and furtherance are established for the other accused, their liability under S.34 is independent.",
           "cite": "1993 SCMR 1934 (Piran Ditta) — common intention judged from all circumstances"
         }
-      ]
+      ],
+      "dike": "Criminal act actually done ∧ by ANY member of the group\n~ independent offence — S.34 is a rule of joint liability, it attaches to an underlying completed offence, it doesn't stand alone"
     },
     {
       "id": "Fur",
@@ -100,7 +102,8 @@
           "reveal": "The quantifier fails for that specific member only. ∀x means for ALL x satisfying the conditions. If CI(x) ∧ Act ∧ Furtherance(x) is False for a specific x, that x is not liable — even if all other group members are.",
           "cite": "S.34 PPC — individual liability assessed for each accused"
         }
-      ]
+      ],
+      "dike": "Participation ∧ in furtherance of the common intention ∧ active\n~ mere presence at the scene (that alone never satisfies this limb)"
     }
   ]
 }

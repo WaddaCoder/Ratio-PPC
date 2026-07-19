@@ -40,7 +40,8 @@
           "reveal": "The final limb functions as a broad, catch-all category alongside the four more specific ones — damage/injury, supporting a claim/title, inducing property transfer, and inducing contract entry are all, in a sense, particular species of fraud-adjacent harm, but the final limb's broader 'fraud' language ensures the section captures forgery undertaken for fraudulent purposes that might not neatly fit within one of the four more specifically described categories. This drafting technique (several specific examples followed by a broader catch-all) recurs throughout this Code wherever the legislature wants to ensure comprehensive coverage without having to enumerate every conceivable variant of the underlying wrong.",
           "cite": "S.463 PPC's final 'fraud' limb as a broad catch-all alongside four more specific intent categories, ensuring comprehensive coverage of forgery's harmful purposes."
         }
-      ]
+      ],
+      "dike": "Makes a false document/part of one\n∧ intent = (damage/injury to the public/any person ∨ support a claim or title ∨ cause a person to part with property ∨ enter a contract)\n→ Forgery"
     },
     {
       "id": "S464",
@@ -70,7 +71,8 @@
           "reveal": "No — this is the Code's own Illustration to Explanation 2 directly: 'A draws a bill of exchange upon a fictitious person, and fraudulently accepts the bill in the name of such fictitious person with intent to negotiate it. A commits forgery.' Explanation 2 expressly confirms that making a false document in the name of an entirely fictitious person, intending it to be believed the document was made by a real person, independently satisfies forgery — mirroring the same real-or-imaginary-person principle already encountered in S.416's Cheating-by-Personation provision (Cheating module), now confirmed to apply equally to forgery.",
           "cite": "S.464 PPC Explanation 2 and its Illustration — forgery in the name of an entirely fictitious person, paralleling the same real-or-imaginary principle already confirmed for S.416 PPC Cheating by Personation (Cheating module)."
         }
-      ]
+      ],
+      "dike": "'Makes a false document' ≡ dishonestly/fraudulently (making ∨ signing ∨ sealing ∨ executing a document, or a mark denoting execution) intending it be believed made by someone/at some time it wasn't\n∨ [second limb] ∨ [third limb]\nThree alternative routes, any ONE satisfies the making element"
     },
     {
       "id": "S465",
@@ -100,7 +102,8 @@
           "reveal": "The substantial increase from S.465 to S.466 reflects that the LEGISLATURE has identified certain document categories — official court records, public registers, public-servant certificates — as warranting elevated protection specifically because of their institutional and evidentiary significance to the broader legal and administrative system, independent of whatever specific further purpose (damage, fraud, property-transfer inducement) the forger may have had under S.463. This confirms the chapter's structure layers document-type significance as an independent escalating factor on top of the underlying forgery offence, similar to how other chapters in this Code layer aggravating factors like value thresholds or named protected categories on top of their own base offences.",
           "cite": "S.465 PPC vs S.466 PPC — document-type significance as an independent escalating factor, reflecting the institutional/evidentiary importance of certain document categories regardless of the forger's specific underlying purpose."
         }
-      ]
+      ],
+      "dike": "Forgery → ≤2 years ∧ fine\nBase tier"
     },
     {
       "id": "S466_467",
@@ -130,7 +133,8 @@
           "reveal": "This is a fair observation worth noting honestly rather than overstating: S.467's specific reference to 'an authority to adopt a son' likely reflects the 1860 drafting context, where formal authorizations to adopt (particularly significant under certain personal-law traditions where adoption carries specific inheritance and family-status consequences) were a recognized category of legally significant document. This app has not independently built out the personal-law adoption framework itself, so the precise modern interaction between this specific S.467 protection and Pakistan's current adoption-law landscape is not something this module can confidently elaborate on without risking unverified claims — flagged honestly as a boundary of this module's current scope rather than an area to speculate about.",
           "cite": "S.467 PPC's adoption-authority protection — honestly flagged as reflecting historical personal-law context, with the precise modern interaction left unaddressed rather than speculated upon."
         }
-      ]
+      ],
+      "dike": "S.466 — forging a (court record ∨ public register ∨ official certificate ∨ authority to sue/confess judgment)\nS.467 — forging (valuable securities ∨ wills ∨ related instruments) → higher tier\nThe TYPE of document forged, not just the act of forging, drives the punishment band"
     },
     {
       "id": "S468_469",
@@ -160,7 +164,8 @@
           "reveal": "S.469's text covers forgery undertaken either 'intending that the document forged shall harm the reputation of any party, OR knowing that it is likely to be used for that purpose' — this disjunctive structure means knowledge of likely reputation-harming use, even without specific personal intent to cause that harm, is independently sufficient. This mirrors the same intent-or-knowledge disjunctive structure recurring throughout this Code's mental-state requirements (S.415 Cheating, S.425 Mischief, and numerous others already built), confirming a consistently applied drafting convention rather than an isolated feature unique to S.469.",
           "cite": "S.469 PPC's disjunctive 'intending... or knowing... likely' structure — knowledge of likely reputation-harming use independently sufficient, consistent with the recurring intent-or-knowledge pattern throughout this Code."
         }
-      ]
+      ],
+      "dike": "S.468 — forgery ∧ intending the document be used for cheating → ≤7 years ∧ fine\nS.469 — forgery ∧ (intending ∨ knowing likely) to harm reputation → ≤3 years\nSame act, different downstream purpose, very different ceilings"
     },
     {
       "id": "S470_471",
@@ -190,7 +195,8 @@
           "reveal": "S.471's text covers using a document 'which he knows OR HAS REASON TO BELIEVE to be a forged document' — the same objective 'reason to believe' standard already built into General Explanations S.26 and applied in S.411 Receiving Stolen Property (Receiving module) applies here as well. A user who lacks actual certainty but has objectively sufficient cause to believe the document is forged still satisfies S.471's mental-state requirement, mirroring the same pattern of consistent mental-state drafting recurring throughout this Code's dishonesty-based offences.",
           "cite": "S.471 PPC's 'knows or has reason to believe' standard — the same objective standard already built into General Explanations S.26 and applied in S.411 PPC Receiving Stolen Property (Receiving module)."
         }
-      ]
+      ],
+      "dike": "S.470 — false document made wholly/partly by forgery ≡ 'a forged document' (pure definition)\nS.471 — (fraudulently ∨ dishonestly) uses as genuine a document (known ∨ reasonably believed) forged\n→ SAME punishment as if the user had forged it themselves — using is treated as equivalent to making"
     },
     {
       "id": "S472_476",
@@ -220,7 +226,8 @@
           "reveal": "Seals, plates, and instruments (S.472/473) are typically physical tools used to directly produce or execute a forged document or signature, while authenticating devices or marks (S.475/476) are more specifically about replicating the distinctive markings, watermarks, or other authentication features that give a document or material the APPEARANCE of genuineness once forged — a related but conceptually distinct preparatory act focused on the verification/authentication layer rather than the document-creation act itself. Separating these into distinct provisions allows the legislature to precisely target each distinct stage and method of forgery-preparation, consistent with the granular, methodical structure already seen throughout this entire chapter.",
           "cite": "S.472/473 PPC (seals/plates/instruments, document-creation tools) vs S.475/476 PPC (authenticating devices/marks, appearance-of-genuineness tools) — distinct preparatory stages and methods warranting separate, precisely targeted provisions."
         }
-      ]
+      ],
+      "dike": "S.472 — (makes/counterfeits ∨ possesses with knowledge) a seal/plate/instrument intended for S.467-tier forgery → life ∨ ≤7 years ∧ fine\nS.473 — IDENTICAL conduct, intended for a lesser tier of forgery → correspondingly lower punishment\nThe tool's intended use, not the tool itself, sets the tier"
     },
     {
       "id": "S477",
@@ -250,7 +257,8 @@
           "reveal": "Secreting (hiding) a will or valuable security achieves a practically similar harm to actually destroying it — if the document cannot be found or produced when needed, its legal effect is frustrated just as completely as if it had been physically destroyed, even though the document itself remains intact somewhere. Including secretion as an independent route ensures the section captures this practically-equivalent-but-physically-different method of defeating the document's effect, rather than allowing a person to escape liability simply by hiding rather than destroying the document, when the practical harm to the rightful parties is functionally identical either way.",
           "cite": "S.477 PPC's 'secretes' limb — capturing the practically equivalent harm of hiding a document, since an undiscoverable document is functionally as defeated as a destroyed one."
         }
-      ]
+      ],
+      "dike": "(Fraudulently ∨ dishonestly ∨ intent to damage/injure) ∧ (cancels ∨ destroys ∨ defaces ∨ attempts to ∨ secretes/attempts to secrete)\n∧ document that IS ∨ PURPORTS TO BE (a will ∨ adoption authority ∨ valuable security)\nAttempt and secretion are treated on the same footing as the completed act"
     },
     {
       "id": "S477A",
@@ -280,7 +288,8 @@
           "reveal": "S.477A's text covers records 'which belongs to or is in the possession of his employer, or has been received by him for or on behalf of his employer' — this language extends beyond records the employer personally owns, to records merely in the employer's possession or received on the employer's behalf, which would naturally include records belonging to a third party (such as a client) but held or managed by the employer's business. An employee who falsifies such third-party-owned but employer-held records, in the course of their employment, would still satisfy S.477A's scope, since the section's protective concern extends to the full range of records the employer's business handles, not merely those the employer personally and exclusively owns.",
           "cite": "S.477A PPC's 'belongs to or is in the possession of... or has been received... on behalf of' language — extending coverage to third-party-owned records held or managed by the employer, not merely employer-owned records."
         }
-      ]
+      ],
+      "dike": "(Being ∨ employed as) a clerk/officer/servant ∧ wilfully ∧ intent to defraud\n∧ (destroys ∨ alters ∨ mutilates ∨ falsifies) a (book ∨ paper ∨ writing ∨ valuable security ∨ account) belonging to/possessed by their employer\nEmployment relationship is a threshold element — an outsider doing the identical act falls under ordinary Forgery, not this section"
     }
   ]
 }

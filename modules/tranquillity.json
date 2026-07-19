@@ -40,7 +40,8 @@
           "reveal": "No — S.142 requires awareness of the facts rendering the assembly unlawful. Mere innocent presence without that awareness does not make A a member for liability purposes; A's position resembles a bystander rather than a participant unless and until A becomes aware and continues regardless.",
           "cite": "S.142 PPC — awareness is a required element; innocent, unaware presence does not establish membership."
         }
-      ]
+      ],
+      "dike": "≥5 persons ∧ common object = ANY ONE of five things:\n(1) overawe by criminal force the Government/Legislature/a public servant ∨ (2) resist execution of law ∨ (3–5) [three further named objects]\n→ Unlawful Assembly — disjunctive, one object alone qualifies the whole group"
     },
     {
       "id": "S143_145",
@@ -70,7 +71,8 @@
           "reveal": "C faces up to 2 years under S.145 — defiance of a lawful dispersal command, independent of weapon possession, is its own aggravating factor with the same 2-year ceiling as S.144, reflecting that continuing participation after an explicit lawful command to stop is treated as comparably serious to being armed.",
           "cite": "S.145 PPC — dispersal-order defiance as an independently serious aggravation, calibrated to the same ceiling as weapon possession under S.144."
         }
-      ]
+      ],
+      "dike": "S.143 — mere membership → ≤6 months\nS.144 — armed with a deadly weapon (or anything likely to cause death if used as one) → ≤2 years\nS.145 — defies a lawful dispersal order → ≤2 years\nThe module's own title calls these 'Base, Armed, and Defiance Tiers' — each rung adds one aggravating fact"
     },
     {
       "id": "S146_148",
@@ -95,7 +97,8 @@
           "reveal": "Both follow the same escalation logic — weapon possession during the underlying conduct (mere assembly membership for S.144, actual rioting for S.148) raises the ceiling. S.148's 3-year ceiling exceeds S.144's 2-year ceiling, reflecting that armed rioting (force already used) is more severe than armed mere-membership (no force yet used).",
           "cite": "S.148 PPC vs S.144 PPC — parallel weapon-aggravation structure, calibrated higher for S.148 since actual force has already occurred."
         }
-      ]
+      ],
+      "dike": "Force/violence used BY (the unlawful assembly ∨ any member) in prosecution of the common object\n→ EVERY member guilty of Rioting (S.146) → ≤2 years (S.147)\nArmed variant (S.148) → higher tier\nSame net-not-arrow constructive liability as S.149, applied to the moment force is actually used"
     },
     {
       "id": "S149",
@@ -125,7 +128,8 @@
           "reveal": "S.149's evidentiary burden is genuinely lower: common object (which need not even be unlawful in itself — only one of S.141's five categories) plus mere knowledge of likely consequence, versus S.34's requirement of proving actual shared intention for the specific act. Wherever the group is five or more and a common object can be shown, S.149 offers a considerably easier path to convicting every member, which is precisely why distinguishing the two provisions correctly is one of the most consequential analytical choices in group-offence litigation.",
           "cite": "S.149 PPC's comparatively lower evidentiary bar versus S.34 PPC — the central practical reason this distinction matters in charging strategy."
         }
-      ]
+      ],
+      "dike": "Offence committed by ANY member ∧ (in prosecution of the common object ∨ known likely in prosecution of it)\n→ EVERY member present at the time is guilty of that offence\nThe foundational constructive-liability rule this whole chapter's group offences build on"
     },
     {
       "id": "S150_151",
@@ -150,7 +154,8 @@
           "reveal": "S.151 governs, precisely because this scenario falls OUTSIDE S.141's unlawful-assembly definition — the Explanation to S.151 expressly confirms that if the assembly WERE unlawful under S.141, S.145 would apply instead. The two provisions are deliberately non-overlapping, each governing dispersal-defiance for a different category of assembly.",
           "cite": "S.151 PPC Explanation — expressly routing unlawful-assembly dispersal-defiance to S.145, confirming S.151's residual, non-overlapping scope."
         }
-      ]
+      ],
+      "dike": "S.150 — (hires ∨ engages ∨ employs ∨ promotes/connives at hiring) a person to join an unlawful assembly\n→ punished AS IF the hirer were a member themselves, AND as if the hirer had committed any offence the hired person committed as a member\nDouble imputation — membership AND downstream offences both attach to someone who never joined"
     },
     {
       "id": "S152_153",
@@ -175,7 +180,8 @@
           "reveal": "Where rioting results, A faces up to 1 year. Where the same provocation occurs but rioting does NOT result, A faces a reduced ceiling of up to 6 months — S.153 calibrates punishment to the actual outcome of the provocation, a graduated structure reflecting that successfully causing actual disorder is treated more seriously than provocation that fails to produce its intended effect.",
           "cite": "S.153 PPC's graduated structure — 1 year if rioting results, 6 months if it does not, calibrated to actual outcome rather than intent alone."
         }
-      ]
+      ],
+      "dike": "S.152 — (assaults ∨ threatens ∨ obstructs) a public servant discharging their duty to (disperse an unlawful assembly ∨ suppress a riot/affray)\n∨ uses/threatens criminal force against them\n→ ≤3 years ∧ fine\nS.153 — maliciously provokes a riot"
     },
     {
       "id": "S153A_153B",
@@ -205,7 +211,8 @@
           "reveal": "S.153B is narrower and specifically targets inducement of STUDENTS or student-connected institutions into politically disruptive activity — it does not require the inter-group hatred/enmity element S.153A demands; ordinary political mobilization of students that disturbs public order can satisfy S.153B without any showing of group-based animus at all, making it a distinct, standalone offence rather than a sub-category of S.153A.",
           "cite": "S.153B PPC — a standalone, narrower offence targeting student-political-mobilization specifically, requiring no inter-group hatred element."
         }
-      ]
+      ],
+      "dike": "S.153A — three disjunctive limbs: (a) promoting/inciting disharmony/enmity/hatred between groups on religion/race/place of birth/residence/language/caste/community/any other ground ∨ (b) prejudicial acts disturbing public tranquility ∨ (c) organizing [activity]\nS.153B — inducing students into political activity"
     },
     {
       "id": "S154_158",
@@ -235,7 +242,8 @@
           "reveal": "Each faces INDEPENDENT liability on the same knowledge-and-failure-to-prevent basis — S.155 targets the beneficiary personally, S.156 targets the agent/manager acting on the beneficiary's behalf, each assessed by their own individual knowledge and failure to act, rather than the agent's liability being merely derivative of the beneficiary's. Both could be liable simultaneously, or only one, depending on which of them actually had the requisite knowledge and failed to act.",
           "cite": "S.155 PPC and S.156 PPC — independent, parallel liability for the beneficiary and their agent, each assessed on their own knowledge rather than one being derivative of the other."
         }
-      ]
+      ],
+      "dike": "S.154 — owner/occupier of land where an unlawful assembly/riot occurs ∧ (knew ∨ reason to believe it likely) ∧ ~(gave earliest notice to police ∨ used lawful means to prevent/suppress it)\n→ liable to fine\nS.155–158 extend comparable constructive liability to beneficiaries and those responsible for recruitment"
     }
   ]
 }

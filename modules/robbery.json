@@ -40,7 +40,8 @@
           "reveal": "Yes — for the elements to be proven. But under S.395 if five or more persons conjointly commit Robbery by either limb, each is guilty of Dacoity. The disjunction extends upward to S.395.",
           "cite": "S.395 PPC — Dacoity as quantifier extension of Robbery"
         }
-      ]
+      ],
+      "dike": "Robbery requires (Theft [S.378] ∨ Extortion [S.383]) as its base offence\nDisjunctive first level — prosecution chooses which limb to run; either, fully proven, satisfies this element"
     },
     {
       "id": "F",
@@ -70,7 +71,8 @@
           "reveal": "Yes. Fear of injury is sufficient — it need not result from actual capability to cause injury. The test is subjective from the victim's perspective. If the victim genuinely feared injury, the element is satisfied.",
           "cite": "1998 SCMR 837 — fear alone sufficient, actual injury not required"
         }
-      ]
+      ],
+      "dike": "Voluntary (death ∨ hurt ∨ wrongful restraint ∨ fear of any of these)\n∧ contemporaneous — present before ∨ during ∨ immediately after the taking\nTiming is not incidental — force that comes too late doesn't convert theft into robbery"
     },
     {
       "id": "¬Ex",
@@ -100,7 +102,8 @@
           "reveal": "If Exception is True then ¬Exception is False. Liability = (T∨E) ∧ F ∧ ¬Ex returns False. Both (T∨E) and F may be fully established but the proven exception negates the entire result.",
           "cite": "S.76-106 PPC — universal negation layer"
         }
-      ]
+      ],
+      "dike": "Any proven General Exception (private defence ∨ necessity ∨ mistake of fact ∨ unsound mind)\n→ defeats the offence entirely, regardless of T∨E and F both being fully established"
     },
     {
       "id": "S391",
@@ -125,7 +128,8 @@
           "reveal": "No. S.391's threshold is specifically five or more — four participants, however coordinated, do not reach the numerical threshold required to elevate the offence from Robbery to Dacoity. This would remain a Robbery (under S.390's already-built definition, with whatever specific limb — theft-based or extortion-based — applies on the facts), punished under S.392, not the more severe Dacoity provisions in S.395 onward.",
           "cite": "S.391 PPC — strict five-person minimum; four participants remain Robbery, not Dacoity."
         }
-      ]
+      ],
+      "dike": "≥5 persons conjointly (commit ∨ attempt) robbery\n∨ (those committing/attempting + those present and aiding) total ≥5\n→ Dacoity — EVERY participant, however their individual role, commits Dacoity"
     },
     {
       "id": "S392",
@@ -150,7 +154,8 @@
           "reveal": "No — the 1980 amendment inserted a genuine mandatory minimum ('shall not be less than three years'), removing judicial discretion to sentence below that floor for any robbery, regardless of how comparatively minor the specific circumstances might be. This is an earlier (1980) example of the same mandatory-minimum pattern that recurs throughout the more recent 2005/2016-era provisions already traced in the Theories of Punishment Evolutionary Arc — confirming that mandatory minimums in the PPC have a longer history than the 2005-onward cluster alone, predating even the 1990 Qisas/Diyat framework that the Evolutionary Arc's Era 2/3 analysis centres on.",
           "cite": "S.392 PPC's 1980 mandatory minimum — an earlier example of the mandatory-minimum pattern, predating the 1990 Qisas/Diyat framework and the 2005-onward cluster discussed in the Theories of Punishment Evolutionary Arc."
         }
-      ]
+      ],
+      "dike": "Robbery → 3–10 years rigorous ∧ fine\nON THE HIGHWAY → ≤14 years\nLocation alone escalates the ceiling, same pattern as Theft's S.379/380"
     },
     {
       "id": "S393_394",
@@ -175,7 +180,8 @@
           "reveal": "S.34 would require the prosecution to establish a pre-arranged plan or shared common intention extending to the causing of hurt specifically (per Mahbub Shah's foundational requirement, already logged as a landmark case), and that the hurt was caused in furtherance of that shared intention. S.394, by contrast, operates as its own self-contained statutory mechanism: it requires only joint participation in the robbery itself, without needing to separately establish that the hurt-causing act was specifically part of a shared plan or common intention. S.394 is, in effect, a more easily satisfied route to the same group-liability outcome for this specific combination of offences (robbery plus hurt), not requiring the more demanding common-intention analysis S.34 would otherwise require.",
           "cite": "S.394 PPC (self-contained joint-liability mechanism, requiring only joint robbery participation) vs S.34 PPC Common Intention module (requiring proof of shared pre-arranged intention extending to the specific act) — S.394 as an easier-to-satisfy alternative route to group liability for this specific offence combination."
         }
-      ]
+      ],
+      "dike": "S.393 — attempted robbery → ≤7 years rigorous ∧ fine\nS.394 — (committing ∨ attempting robbery) ∧ voluntarily causes hurt → enhanced, AND extends to every person jointly concerned in that robbery or attempt — group liability, not just the one who struck the blow"
     },
     {
       "id": "S395_396",
@@ -200,7 +206,8 @@
           "reveal": "Both provisions reflect a legislative judgment that participants who knowingly join a robbery or dacoity — inherently violent, coercive group enterprises — accept the risk that violence beyond what they individually intend may occur during the venture, and that imposing joint liability creates a strong deterrent against participating in such ventures at all, since no participant can safely assume they will escape the consequences of a co-participant's escalation. S.396 extends this same underlying logic to its most severe conclusion (death-eligible exposure) precisely because dacoity, involving five or more armed or coordinated persons, is treated as carrying the highest inherent risk of escalation to lethal violence among the property offences in this Code.",
           "cite": "S.396 PPC and S.394 PPC — shared underlying rationale of deterring participation in inherently violent group property offences through unqualified joint liability for escalation."
         }
-      ]
+      ],
+      "dike": "S.395 — Dacoity → life ∨ 4–10 years rigorous ∧ fine\nS.396 — ≥5 persons conjointly commit Dacoity ∧ ONE of them commits murder in the course of it\n→ EVERY one of the five-plus is punished at the murder tier — the net, not the arrow, same structural logic as CO_Rule (S.149)"
     },
     {
       "id": "S397_398",
@@ -225,7 +232,8 @@
           "reveal": "S.390's force/fear element (already built in the Robbery module) requires only an attempt to cause death, HURT (any hurt, not necessarily grievous), or wrongful restraint, or fear of any of these, as the threshold for the underlying conduct to qualify as Robbery at all. S.397 then operates as a further aggravation ON TOP of an already-established Robbery or Dacoity, specifically triggered by attempting to cause DEATH OR GRIEVOUS HURT specifically (a higher severity threshold than S.390's general 'hurt'), or by actual weapon use or actual grievous hurt. A robbery satisfying S.390's lower 'any hurt' threshold would not automatically trigger S.397's mandatory minimum unless the attempted or actual harm specifically reached the grievous-hurt or death threshold, or a deadly weapon was used.",
           "cite": "S.397 PPC's grievous-hurt/death threshold as a further aggravation beyond S.390 PPC's (Robbery module) lower general 'any hurt' threshold for establishing Robbery itself."
         }
-      ]
+      ],
+      "dike": "Robbery/Dacoity ∧ (uses a deadly weapon ∨ causes grievous hurt ∨ attempts to cause death/grievous hurt)\n→ mandatory MINIMUM ≥7 years (S.397 for the completed offence, S.398 the parallel minimum for attempt)\nA floor, not a ceiling — court has no discretion to go below it once any one trigger is proven"
     },
     {
       "id": "S399_402",
@@ -255,7 +263,8 @@
           "reveal": "This exclusion avoids overlapping, redundant liability: gangs of dacoits are already separately and more severely covered by S.400 (gang of dacoits specifically, up to life imprisonment), and gangs of thugs are covered by the historical S.326/327 Thug provision (already built in the Qatl Core module, life imprisonment). S.401, with its comparatively lower 7-year ceiling, is reserved for the residual category of gangs habitually committing theft or robbery that do NOT rise to the level of organised dacoity or the specific historical Thug categorisation — ensuring each gang-type offence is captured by its own appropriately calibrated provision rather than all converging on a single, undifferentiated gang-membership offence.",
           "cite": "S.401 PPC's exclusion of thug/dacoit gangs — avoiding overlap with S.400 PPC (dacoit gangs) and S.326/327 PPC (Qatl Core module, Thug gangs), each carrying their own calibrated punishment."
         }
-      ]
+      ],
+      "dike": "S.399 — preparation for dacoity → ≤10 years ∧ fine\nS.400 — belonging to a gang habitually committing dacoity → life ∨ ≤10 years ∧ fine\nS.401 — belonging to a wandering gang of a similar character → comparable tier\nThree escalating tiers of mere association, before any specific robbery is even committed"
     },
     {
       "id": "S402A_402C",
@@ -285,7 +294,8 @@
           "reveal": "This is a fair structural observation worth flagging honestly: hijacking does involve unlawful seizure of control over a specific piece of property (the aircraft itself), which gives it a surface-level kinship to the Robbery/Dacoity cluster's theme of unlawful seizure by force or threat — the placement immediately after the Robbery and Dacoity provisions suggests the 1981 drafters saw hijacking as analytically closest to forcible/threatening seizure offences, even though the conduct's real-world stakes (aviation safety, potential mass casualties, international terrorism implications) arguably sit closer to offences against the state or public safety more broadly. The placement reflects a drafting choice from 1981 rather than a perfect conceptual fit, and the question of where hijacking 'really' belongs in the Code's structure is a reasonable one a student might raise, without a single definitively correct answer.",
           "cite": "S.402A–402C PPC's placement within Chapter XVII (Offences Against Property) — a structural observation about the 1981 drafters' apparent reasoning, flagged as an interpretive observation rather than a definitively settled rationale."
         }
-      ]
+      ],
+      "dike": "S.402A — unlawfully (use/show of force ∨ threats) ∧ seizing/exercising control of an aircraft → Hijacking, defined\nS.402B — (committing ∨ conspiring ∨ attempting ∨ abetting) hijacking → death ∨ life ∧ fine\nS.402C — harbouring a hijacker → separate offence, its own tier"
     }
   ]
 }

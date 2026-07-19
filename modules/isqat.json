@@ -40,7 +40,8 @@
           "reveal": "Yes — the two limbs are disjunctive and address different scenarios. 'Saving the life of the woman' covers the narrower, more acute scenario where continuing the pregnancy poses a direct threat to the woman's survival. 'Providing necessary treatment to her' is broader, covering situations where the miscarriage is a necessary incident of medical treatment the woman requires for some other condition, even where her life is not immediately at risk — for example, treatment for a serious illness where the pregnancy itself is not the life-threatening factor, but the required treatment incidentally causes miscarriage. Both limbs require the same good-faith, due-care standard, but they cover genuinely different medical justifications.",
           "cite": "S.338 PPC — disjunctive two-limb exception ('saving the life' OR 'necessary treatment'), covering distinct medical justifications."
         }
-      ]
+      ],
+      "dike": "Causes miscarriage ∧ woman's organs NOT yet formed\n~ (good faith to save the woman's life ∨ necessary treatment)\n→ Isqat-i-Haml\nSelf-induced miscarriage falls within this section too"
     },
     {
       "id": "S338A",
@@ -70,7 +71,8 @@
           "reveal": "Both scenarios are covered. The proviso's text states 'if as a result of isqat i haml, any hurt is caused to woman OR SHE DIES, the convict shall also be liable to the punishment provided for such hurt or death as the case may be' — the disjunctive 'or she dies' limb extends the same cumulative-liability principle to a fatal outcome, meaning the convict would face liability for whatever category of Qatl (Qatl-i-Amd, Shibh-i-Amd, Khata, or Bis-Sabab, depending on the precise facts) the resulting death falls into, in addition to the Isqat-i-Haml punishment itself.",
           "cite": "S.338A PPC proviso — disjunctive coverage of both resulting hurt and resulting death, with cumulative liability for either outcome."
         }
-      ]
+      ],
+      "dike": "(with the woman's consent → ≤3 years) ∨ (without her consent → ≤10 years)\nPROVISO: hurt ∨ death to the woman results → additional liability layered on top"
     },
     {
       "id": "S338B",
@@ -100,7 +102,8 @@
           "reveal": "Partial formation is sufficient. S.338B's text specifies 'a woman with child SOME of whose limbs or organs have been formed' — the word 'some' confirms that complete formation of every limb and organ is not required; once any limbs or organs have begun to form, the pregnancy has crossed the threshold separating S.338's pre-organ-formation category from S.338B's post-organ-formation category.",
           "cite": "S.338B PPC — 'some of whose limbs or organs have been formed' as the operative, partial-formation threshold."
         }
-      ]
+      ],
+      "dike": "Causes miscarriage ∧ woman's organs HAVE formed (some limbs/organs)\n~ good faith to save the woman's life ONLY — note this exception is NARROWER than S.338's (no 'necessary treatment' carve-out here)\n→ Isqat-i-Janin"
     },
     {
       "id": "S338C",
@@ -130,7 +133,8 @@
           "reveal": "They are structurally parallel but apply to different underlying offences (S.338A governs the proviso for Isqat-i-Haml specifically; S.338C governs the identical-in-substance proviso for Isqat-i-Janin specifically) — a single act could only trigger one or the other, not both simultaneously, since a given miscarriage is classified as either Isqat-i-Haml (pre-organ-formation) or Isqat-i-Janin (post-organ-formation) based on the pregnancy's developmental stage at the time, never both at once. Both provisos share the identical underlying principle (cumulative liability for resulting harm to the woman, on top of the base offence), simply restated separately in each section to ensure the rule is clearly stated for whichever of the two offences actually applies on the facts.",
           "cite": "S.338A PPC proviso vs S.338C PPC proviso — identical underlying principle, restated separately for Isqat-i-Haml and Isqat-i-Janin respectively, since the two offences are mutually exclusive based on developmental stage."
         }
-      ]
+      ],
+      "dike": "(child born dead → 1/20 Diyat) ∨ (child born alive, dies as a result → full Diyat)\n∧ (≤7 years Ta'zir — REGARDLESS of which of the first two applies, cumulative not exclusive)\nThe Ta'zir limb always attaches on top of whichever Diyat outcome applies"
     }
   ]
 }

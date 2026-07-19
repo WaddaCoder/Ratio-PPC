@@ -40,7 +40,8 @@
           "reveal": "Yes under S.375-A. The section specifically provides that where rape is committed by two or more persons, each person involved is deemed to have committed the offence — regardless of whether they personally performed the penetrating act. This is a specific extension of liability beyond the general S.34 common intention doctrine.",
           "cite": "S.375-A PPC — gang rape, each participant deemed to have committed the offence"
         }
-      ]
+      ],
+      "dike": "Penetration, however slight → satisfies the physical element\n2021 amendment broadened the definition beyond the original formulation — check the current text, not the pre-2021 one, for exact scope"
     },
     {
       "id": "¬Con",
@@ -70,7 +71,8 @@
           "reveal": "No. Under S.375 as amended, where the complainant is under 16 years of age, consent is not a valid defence regardless of the complainant's stated agreement. The law deems persons under 16 legally incapable of giving valid consent to sexual acts. This is statutory rape — the consent element is irrebuttably established.",
           "cite": "S.375 PPC — age 16 as threshold for valid consent"
         }
-      ]
+      ],
+      "dike": "Consent absent/vitiated if ANY ONE of seven circumstances: force ∨ threat ∨ intoxication ∨ unsoundness of mind ∨ age <16 ∨ [spousal-relationship carve-out] ∨ deception\nSeven-way disjunction — one circumstance alone is enough; consent must independently be free ∧ voluntary ∧ informed"
     },
     {
       "id": "Proof",
@@ -100,7 +102,8 @@
           "reveal": "The court must refuse. The Supreme Court in 2021 declared the two-finger test inadmissible as both scientifically unreliable (prior sexual activity does not establish consent) and as a violation of the complainant's human dignity and right to privacy under Articles 9 and 14 of the Constitution. Defence counsel making such an application risks adverse comment from the court.",
           "cite": "PLD 2021 SC 600 — two-finger test declared inadmissible"
         }
-      ]
+      ],
+      "dike": "Post-2021: complainant's sole testimony → sufficient IF credible ∧ reliable\nDNA evidence → admissible, ~ mandatory\n~ two-finger test (inadmissible)\n~ delay in reporting, alone, defeating the complaint"
     },
     {
       "id": "¬ExR",
@@ -130,7 +133,8 @@
           "reveal": "The formal legal standard remains proof beyond reasonable doubt throughout — it does not formally increase with the severity of the offence. However in practice Pakistani courts apply heightened scrutiny to both the prosecution and defence evidence in capital and near-capital cases. The Supreme Court has emphasized careful evaluation of evidence where the death penalty is a possibility.",
           "cite": "S.376 PPC — punishment. Supreme Court practice on capital cases"
         }
-      ]
+      ],
+      "dike": "General Exceptions apply generally, but narrowly available here:\nmistake of fact as to consent → most commonly raised\n~ private defence available\n~ necessity available\n∨ insanity (S.84) may be raised"
     }
   ]
 }

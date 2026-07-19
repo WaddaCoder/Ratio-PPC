@@ -40,7 +40,8 @@
           "reveal": "They could potentially overlap on certain facts, but are not identical: Extortion (S.383) specifically requires the threat to dishonestly induce delivery of property or a valuable security (or consent to its retention). Criminal Intimidation (S.503) is considerably broader, extending to threats intended to compel ANY act the victim is not legally bound to do, or any omission of an act they are legally entitled to do — not limited to property-delivery inducement. A threat specifically used to extract property would likely satisfy BOTH sections simultaneously (the property-delivery aspect satisfying Extortion, the broader compulsion-by-threat structure also satisfying Criminal Intimidation), while a threat used to compel some non-property-related act or omission (like B's lawsuit-abandonment in S.503's own Illustration) would satisfy only Criminal Intimidation, not Extortion.",
           "cite": "S.503 PPC vs S.383 PPC (Extortion module) — potentially overlapping where the compelled outcome is property delivery, but S.503's considerably broader 'any act or omission' scope extends well beyond Extortion's property-specific focus."
         }
-      ]
+      ],
+      "dike": "Threatens another with injury to (person ∨ reputation ∨ property) ∨ to someone they're interested in\n∧ intent = (cause alarm ∨ compel them to do something not legally bound to do ∨ compel them to omit something legally entitled to do)\n→ Criminal Intimidation"
     },
     {
       "id": "S504",
@@ -70,7 +71,8 @@
           "reveal": "S.504's text does not explicitly address the precise mode of delivery, focusing instead on the intentional insult combined with the requisite intent/knowledge of likely provocation — the most natural reading would require that the insult actually reach and provoke (or be intended/known likely to provoke) the specific person whose reaction is the section's concern, which could plausibly occur through direct personal delivery or through other means that achieve the same provocative effect, though the precise outer boundary of indirect-delivery scenarios is not exhaustively addressed in this brief section's own text.",
           "cite": "S.504 PPC — focused on the intentional insult and its likely provocative effect, without exhaustively specifying the precise mode of delivery required."
         }
-      ]
+      ],
+      "dike": "Intentionally insults ∧ gives provocation ∧ (intending ∨ knowing likely) the provocation causes (breach of public peace ∨ any other offence)\n→ ≤2 years ∧ fine"
     },
     {
       "id": "S505",
@@ -100,7 +102,8 @@
           "reveal": "S.505's text covers statements made 'with intent to cause or incite, OR WHICH IS LIKELY to cause or incite' the relevant harms — this disjunctive structure confirms the offence is complete upon making/publishing/circulating the statement with either the requisite intent OR objective likelihood of the relevant harm, without requiring proof that the harm actually, successfully materialised. This mirrors the consistent intent-or-likelihood pattern recurring throughout this Code's offences addressing speech, deception, and public-order concerns.",
           "cite": "S.505 PPC's 'intent to cause... or which is likely to cause' structure — complete upon the statement's making with either requisite intent or objective likelihood, not requiring proof of actually realized harm."
         }
-      ]
+      ],
+      "dike": "(Makes ∨ publishes ∨ circulates) a statement/rumour/report\n∧ (intent to cause ∨ likely to cause) (mutiny/dereliction by armed forces ∨ fear/alarm inducing offences against the State or public peace ∨ further named harms)\nThe harm need only be LIKELY, not intended, for two of the three limbs"
     },
     {
       "id": "S506_507",
@@ -130,7 +133,8 @@
           "reveal": "S.507's text covers both an anonymous communication AND, disjunctively, a communication where the threatener has 'taken precaution to conceal the name or abode of the person from whom the threat comes' — this second limb extends beyond literal anonymity (no name at all) to situations where some identifying information might technically be present but the threatener has taken active steps to obscure their true identity or location, such as using a false name or an untraceable location, achieving practically the same accountability-evading effect as true anonymity.",
           "cite": "S.507 PPC's disjunctive structure — covering both literal anonymity and active concealment of identity/location through other means, both achieving the same accountability-evading effect the section targets."
         }
-      ]
+      ],
+      "dike": "Base tier — criminal intimidation generally → ≤2 years ∧ fine\nENHANCED tier — threat specifically = (death ∨ grievous hurt ∨ destruction of property by fire ∨ an offence punishable with death/life/≤7 years) → higher ceiling\nS.507 — SAME intimidation delivered by anonymous communication → aggravated further, on top of whichever base/enhanced tier applies"
     },
     {
       "id": "S508",
@@ -160,7 +164,8 @@
           "reveal": "Both sections share the same underlying compulsion structure (compelling an act/omission as a means of avoiding some negative consequence), but differ specifically in the NATURE of the coercive mechanism: S.503 operates through threatened INJURY (to person, reputation, or property, in the conventional S.44 sense), while S.508 operates through inducing a BELIEF about supernatural/Divine consequences specifically. This distinction matters because S.508's belief-based mechanism would not necessarily satisfy S.503's injury-threat requirement (inducing belief in Divine displeasure is not, in itself, a threat of injury to person/reputation/property in the conventional sense S.503 addresses), justifying S.508's existence as its own distinct, specifically-tailored provision rather than simply being absorbed into S.503's general framework.",
           "cite": "S.508 PPC's belief-induction mechanism vs S.503 PPC's conventional injury-threat mechanism — distinct enough in character to warrant S.508's own separate, specifically-tailored provision rather than absorption into S.503's general framework."
         }
-      ]
+      ],
+      "dike": "Voluntarily (causes ∨ attempts to cause) a person to (do ∨ omit) something they are not legally bound/entitled to do\n∧ BY inducing a belief of divine displeasure (their own or someone they're interested in)\nCompulsion through a religious/supernatural threat, structurally parallel to S.503's ordinary threats"
     },
     {
       "id": "S509",
@@ -190,7 +195,8 @@
           "reveal": "The quid-pro-quo limbs require a specific, identifiable LINK between the harassment and a concrete employment decision or consequence (submission being made an explicit/implicit condition of employment, or retaliation specifically following rejection of the conduct) — a more transactional, decision-specific form of harassment. The hostile-work-environment limb instead addresses a more DIFFUSE, atmospheric harm: conduct that 'unreasonably interfer[es] with an individual's work performance or creat[es] an intimidating, hostile, or offensive working environment,' without necessarily requiring any specific employment decision to be tied to the harassment at all — the harm here is the toxic environment itself, not necessarily any specific resulting employment consequence, reflecting the broader modern employment-law recognition that workplace sexual harassment can cause serious harm even without an explicit quid-pro-quo dynamic.",
           "cite": "S.509(ii) PPC's hostile-work-environment limb — addressing diffuse atmospheric harm independent of any specific employment-decision link, distinct from the more transactional quid-pro-quo limbs in the same subsection."
         }
-      ]
+      ],
+      "dike": "S.509(i) — intending to insult a woman's modesty ∧ (utters a word ∨ makes a sound/gesture ∨ exhibits an object, intending it be heard/seen by her) ∨ intrudes upon her privacy\nS.509(ii) — conducts sexual advances ∨ demands sexual favours ∨ [other harassment conduct]\nTwo separate limbs — verbal/gestural insult, and active harassment — not requiring the same elements"
     },
     {
       "id": "S510",
@@ -220,7 +226,8 @@
           "reveal": "S.510's text requires only that the offender 'conducts himself in such a manner as to cause annoyance to any person' — 'annoyance' is a notably low threshold compared to many other harm-based requirements throughout this Code (compare, for example, the more substantial 'injury' concept under S.44 used throughout Extortion, Criminal Intimidation, and elsewhere). This confirms S.510 is calibrated as a genuinely minor public-order/nuisance offence, with even comparatively mild annoyance to a single person being sufficient to satisfy the section's threshold requirement, consistent with its position as the final, lightest-touch provision closing out the entire Code.",
           "cite": "S.510 PPC's 'annoyance' threshold — a notably lower harm-bar than the more substantial 'injury' concept (S.44) used throughout most of this Code's other offences, consistent with S.510's role as a minor public-order/nuisance provision."
         }
-      ]
+      ],
+      "dike": "Intoxicated ∧ appears in (a public place ∨ a place trespass to enter)\n∧ conducts themselves in a manner causing annoyance to any person\n→ 48 hours to 7 days simple imprisonment\nThe narrowest window of any punishment range in the Code — a floor AND a tight ceiling"
     }
   ]
 }

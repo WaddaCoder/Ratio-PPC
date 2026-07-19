@@ -40,7 +40,8 @@
           "reveal": "Yes — the Explanation confirms the terms 'officer,' 'soldier,' 'sailor,' or 'airman' include any person subject to the Pakistan Army Act 1952, Pakistan Navy Ordinance 1961, or Pakistan Air Force Act 1953, ensuring the section's protective scope tracks the actual statutory definition of who falls under military discipline, not merely a narrower colloquial understanding of these terms.",
           "cite": "S.131 PPC Explanation — extending coverage to anyone subject to the relevant Pakistan armed forces statutes, not merely formally commissioned personnel."
         }
-      ]
+      ],
+      "dike": "Abets mutiny by a service member (officer ∨ soldier ∨ sailor ∨ airman)\n∨ attempts to seduce them from allegiance/duty\n→ life ∨ ≤10 years ∧ fine"
     },
     {
       "id": "S133_134",
@@ -65,7 +66,8 @@
           "reveal": "A's case (S.133, mere abetment) is triable by a Magistrate of First Class. B's case (S.134, completed assault) escalates to the Court of Session — confirming that completion of the abetted act elevates not just the punishment ceiling but the trial court's seniority as well.",
           "cite": "S.133 PPC vs S.134 PPC — trial-court allocation escalating from Magistrate of First Class to Court of Session upon the abetted act's completion."
         }
-      ]
+      ],
+      "dike": "S.133 — abets an assault by a service member on a superior officer, in execution of office → ≤3 years ∧ fine\nS.134 — SAME abetment, assault ACTUALLY committed in consequence → ≤7 years ∧ fine\nIdentical structure to Abetment's S.115/S.116 — variable is only whether the abetted act happened; same pattern recognised across chapters"
     },
     {
       "id": "S135_136",
@@ -95,7 +97,8 @@
           "reveal": "S.135's text covers 'abets the desertion' without requiring proof the desertion actually succeeded — consistent with the general abetment-liability pattern already established throughout this Code (Abetment module), the abetment itself, done with the requisite intent, is independently sufficient regardless of whether the underlying desertion was actually completed.",
           "cite": "S.135 PPC — abetment of desertion sufficient on its own terms, consistent with the general abetment-liability pattern requiring no proof the underlying act succeeded."
         }
-      ]
+      ],
+      "dike": "S.135 — abets desertion → ≤2 years ∧ fine\nS.136 — (knowingly ∨ reason to believe) a person has deserted ∧ harbours them → ≤2 years ∧ fine\nAbetting the desertion and sheltering the deserter carry the same ceiling despite being different acts"
     },
     {
       "id": "S137",
@@ -125,7 +128,8 @@
           "reveal": "Not directly — S.137's text is specifically calibrated to negligent failure to discover concealment ('might have known... but for some neglect'), not deliberate concealment. A master who deliberately and knowingly concealed a deserter would more likely fall within S.136's harbouring provision (knowing or having reason to believe), which carries a more severe 2-year ceiling rather than S.137's modest fine-only structure.",
           "cite": "S.137 PPC vs S.136 PPC — negligent non-discovery (S.137, fine-only) distinguished from knowing harbouring (S.136, up to 2 years), based on the master's actual mental state."
         }
-      ]
+      ],
+      "dike": "Master/person-in-charge of a merchant vessel ∧ deserter concealed on board\n∧ MIGHT HAVE KNOWN but for negligence (not actual knowledge required)\n→ ≤Rs.1,500 penalty\nA negligence-based liability standard, distinct from the knowledge/reason-to-believe standard used almost everywhere else in this chapter"
     },
     {
       "id": "S138_139",
@@ -150,7 +154,8 @@
           "reveal": "No — S.139 explicitly confirms that persons subject to the Pakistan Army Act, Pakistan Air Force Act, or Pakistan Navy Ordinance are NOT subject to punishment under THIS Code for any offence defined in this Chapter. Such a person's conduct would instead be addressed through the separate military justice framework established by those specific statutes, not through this PPC chapter, avoiding a double jeopardy overlap between the two systems.",
           "cite": "S.139 PPC — a jurisdictional saving clause excluding persons already subject to military justice statutes from PPC liability for the same chapter's offences, preventing overlap between the civilian and military justice systems."
         }
-      ]
+      ],
+      "dike": "S.138 — abets ∧ knows it is insubordination ∧ act ACTUALLY committed in consequence → ≤6 months ∧ fine\nS.139 — scope-limiting clause: applies only to persons subject to the Pakistan Army Act and equivalent Service Acts\nS.139 doesn't create liability — it narrows WHO the rest of this chapter can even apply to"
     },
     {
       "id": "S140",
@@ -175,7 +180,8 @@
           "reveal": "S.140 is the only provision in this chapter that is both cognizable AND bailable simultaneously — every other cognizable provision in this cluster (S.131, S.132, S.136, S.138) is non-bailable, while S.137 is the chapter's sole non-cognizable provision. This unique combination places S.140 at a genuinely distinct, lighter procedural position than every other offence in Chapter VII, consistent with impersonation through garb being treated as a real but comparatively modest wrong relative to mutiny, desertion, and assault on a superior officer.",
           "cite": "S.140 PPC's unique cognizable-and-bailable combination — the lightest-touch procedural treatment among the chapter's intent-based offences, distinguishing it from every other provision in Chapter VII."
         }
-      ]
+      ],
+      "dike": "NOT a service member ∧ wears garb/carries a token resembling one\n∧ intention = cause belief they ARE such a person\n→ Fraudulent impersonation of military/naval/air service status"
     }
   ]
 }

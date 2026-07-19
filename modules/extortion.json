@@ -40,7 +40,8 @@
           "reveal": "Yes, the line can be subtle. Theft requires the offender to move property out of the victim's possession without the victim's consent — the victim plays no voluntary role in the transfer. Extortion requires the victim's own act of delivery, but that delivery is not truly voluntary in the ordinary sense — it is dishonestly induced by fear. The same item of property changing hands could be Theft (if simply taken without any inducement) or Extortion (if the victim themselves hands it over because they were put in fear) depending entirely on whether the victim's own act of delivery was the mechanism, or whether the offender unilaterally took the property. This distinction is precisely why Robbery's own definition (S.390, already built) separately addresses 'when theft is robbery' and 'when extortion is robbery' as two distinct routes to the same overarching offence.",
           "cite": "S.383 PPC (fear-induced delivery) vs S.378 PPC (Theft module, dishonest taking without consent) — the victim's own act of delivery as the defining distinction, directly feeding into Robbery's dual-route structure already built."
         }
-      ]
+      ],
+      "dike": "Intentionally puts a person in fear of (injury to them ∨ injury to any other person)\n→ thereby dishonestly induces delivery of (property ∨ valuable security ∨ a signed/sealed thing convertible into one)\nA causal chain, not simultaneous elements — no fear, no inducement; no inducement, no delivery"
     },
     {
       "id": "S384",
@@ -65,7 +66,8 @@
           "reveal": "S.384 applies to extortion generally, as defined in S.383, without itself distinguishing by the type or severity of fear/injury used — that differentiation is precisely what the subsequent sections (S.385 for fear of injury generally, S.386/387 for fear of death/grievous hurt, S.388/389 for fear of accusation of a serious offence) provide. S.384 functions as the residual/base provision applicable whenever none of the more specific, more severely punished variants in S.385–389 are engaged on the facts.",
           "cite": "S.384 PPC as the residual base provision, with S.385–389 providing the more specific, more severely punished fear-source variants."
         }
-      ]
+      ],
+      "dike": "Extortion committed → ≤3 years ∧ fine ∧/∨"
     },
     {
       "id": "S385_387",
@@ -95,7 +97,8 @@
           "reveal": "No dedicated completion-stage provision exists for this specific category beyond the general S.384 base provision. Completed extortion by ordinary fear of injury (not amounting to fear of death or grievous hurt) is charged under S.384's general 3-year ceiling, since S.384 itself does not specify the severity of the fear/injury used — it is the catch-all completion provision for extortion generally. S.385 only adds attempt-stage liability for the ordinary-injury category (in case the extortion attempt fails), without a separate, more specific completion provision parallel to S.386's structure for the death/grievous-hurt category.",
           "cite": "S.384 PPC as the only completion-stage provision for ordinary-injury extortion, since no dedicated 'fear of ordinary injury, completed' provision parallel to S.386 exists in the text."
         }
-      ]
+      ],
+      "dike": "S.385 — (putting ∨ attempting to put) in fear of ANY injury ∧ purpose = extortion → ≤2 years, REGARDLESS of whether the extortion actually succeeds (inchoate)\nS.386 — COMPLETED extortion ∧ achieved specifically BY fear of (death ∨ grievous hurt) → markedly higher tier"
     },
     {
       "id": "S388_389",
@@ -125,7 +128,8 @@
           "reveal": "This is a structural observation worth noting honestly rather than resolving definitively, since the text itself does not explain the asymmetry: one plausible reading is that the threat-of-accusation category (S.388/389) was treated as comparably serious whether or not the extortion actually succeeded, given that merely uttering such a threat already inflicts significant reputational and psychological harm independent of whether payment follows — whereas the fear-of-death/grievous-hurt category (S.385–387) was calibrated to treat actual completion as meaningfully more serious than the bare attempt, perhaps reflecting that the physical threat's harm is more closely tied to whether the extortion is consummated. This remains an interpretive observation rather than a stated legislative rationale, flagged honestly as such.",
           "cite": "S.388/389 PPC's symmetric structure vs S.385–387 PPC's asymmetric structure — a structural pattern noted without an invented definitive legislative rationale, since the text itself does not supply one."
         }
-      ]
+      ],
+      "dike": "Completed extortion ∧ achieved by fear of being accused of an offence punishable with (death ∨ life ∨ ≤10 years)\n∨ fear of having attempted to induce another to commit such an offence\n→ ≤10 years ∧ fine, rising further at S.389's tier"
     }
   ]
 }

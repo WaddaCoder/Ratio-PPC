@@ -40,7 +40,8 @@
           "reveal": "S.421's text requires intent to prevent (or knowledge it is likely to prevent) 'the distribution of that property according to law among his creditors' — this presupposes the existence of creditors whose lawful distribution rights are being defeated. Where no actual debt or creditor relationship yet exists at all, and the offender is merely speculating about a hypothetical future dispute with no concrete creditor claim, the section's core requirement of defeating an existing or ascertainable creditor distribution scheme would not obviously be satisfied — though the precise boundary of how concrete or imminent the creditor relationship must be is not exhaustively specified in the text itself.",
           "cite": "S.421 PPC — requiring an existing creditor relationship or distribution scheme being defeated, with the precise boundary for merely anticipated future claims not exhaustively specified in the text."
         }
-      ]
+      ],
+      "dike": "(Dishonestly ∨ fraudulently) (removes ∨ conceals ∨ delivers to another ∨ transfers without adequate consideration) property\n∧ intending (∨ knowing likely) to prevent distribution among creditors"
     },
     {
       "id": "S422",
@@ -70,7 +71,8 @@
           "reveal": "S.422's text covers preventing the debt or demand 'from being made available according to law for payment' — it does not specify a permanence requirement, and the parallel logic already established for S.403's Explanation 1 (temporary misappropriation is still misappropriation, Misappropriation module) suggests a consistent approach across this part of the Code: even temporarily preventing the debt's availability, at the time creditors would otherwise be entitled to access it, likely satisfies S.422 without requiring proof that the debt is permanently and irretrievably lost.",
           "cite": "S.422 PPC, read consistently with S.403 PPC's Explanation 1 (Misappropriation module) — temporary prevention of availability likely sufficient, without requiring permanent loss."
         }
-      ]
+      ],
+      "dike": "(Dishonestly ∨ fraudulently) prevents a (debt ∨ demand) due (to self ∨ to another)\nfrom being available, according to law, for payment of debts\n→ ≤2 years ∧ fine"
     },
     {
       "id": "S423",
@@ -100,7 +102,8 @@
           "reveal": "S.423's text requires only that the offender 'dishonestly or fraudulently' execute, sign, or become party to a deed containing the relevant false statement — it does not on its face require proof that the false statement actually deceived any specific person or caused any specific realized harm. The dishonest or fraudulent execution of the falsified instrument itself, with the requisite false content, appears to be the operative wrong, consistent with the general pattern already seen elsewhere in this Code (such as S.415 Cheating's 'likely to cause' language) where the offender's culpable conduct and mental state, rather than a guaranteed realized harmful outcome, is typically what completes these dishonesty-based offences.",
           "cite": "S.423 PPC — dishonest/fraudulent execution of the falsified instrument as the operative wrong, without an apparent requirement of proven actual deception or realized harm, consistent with the general pattern in S.415 PPC Cheating (already built)."
         }
-      ]
+      ],
+      "dike": "(Dishonestly ∨ fraudulently) (signs ∨ executes ∨ becomes party to) a deed/instrument transferring or charging property\n∧ contains a FALSE statement about (the consideration ∨ the persons involved)"
     },
     {
       "id": "S424",
@@ -130,7 +133,8 @@
           "reveal": "Where the specific creditor-defeat intent required by S.421 is present, the same act of concealment would likely satisfy both S.421's more specific requirements AND S.424's broader, general requirements simultaneously, since S.424 does not exclude conduct that happens to also satisfy a more specific provision. In practice, where the more specific S.421 applies (creditor-defeat motive established), it would likely be the provision actually charged, following the same general principle already encountered elsewhere in this Code that a specific provision addressing a particular fact pattern typically takes precedence in charging practice over a broader, more general provision that would also technically apply to the same facts.",
           "cite": "S.421 PPC vs S.424 PPC — potential overlap where creditor-defeat intent is present, with the more specific S.421 likely governing charging practice over the broader, general S.424 in such cases."
         }
-      ]
+      ],
+      "dike": "(Dishonestly ∨ fraudulently) (conceals ∨ removes) property, own or another's\n∨ assists in such concealment/removal\n∨ dishonestly releases a demand/claim they are entitled to\nFour separate methods, same underlying dishonest-defeat-of-creditors structure as S.421–423"
     }
   ]
 }
