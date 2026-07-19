@@ -45,7 +45,8 @@
           "reveal": "A single broad definition would create exactly the kind of interpretive uncertainty S.21 is designed to avoid — enumerated categories give courts a checklist to apply rather than an open-ended standard to debate from scratch in every case. This reflects a deliberate drafting choice favouring predictability over flexibility: the cost is that genuinely public-function actors in administrative arrangements not contemplated in 1860 (contractors, statutory corporation employees) sit in genuine grey zones, but the benefit is that the vast majority of cases — judges, police, military, court officers — are resolved instantly without argument. The grey zones are real, but they are the deliberate price of avoiding a much larger number of disputes the enumerated approach prevents.",
           "cite": "S.21 PPC's enumerated-category structure — a deliberate predictability-over-flexibility drafting choice, with the residual grey zones being a known and accepted cost."
         }
-      ]
+      ],
+      "dike": "Actor qualifies as 'public servant' if ANY ONE of eleven enumerated categories is met\n(military/naval/air officer ∨ judge ∨ court officer ∨ juryman/assessor/panchayat member ∨ arbitrator ∨ ... )\nDisjunction, not conjunction — one category alone is enough"
     },
     {
       "id": "¬S52GF",
@@ -89,7 +90,8 @@
           "reveal": "Only carefully formed — S.52 says nothing about the belief's ultimate correctness. This is the entire functional purpose of good-faith-based defences throughout the Code: they protect people who, despite exercising genuine care, were nonetheless factually wrong, which is precisely the wrong-address-raid scenario in its clean form. If good faith required actual correctness, S.76/79/78/88/89/92 would add nothing beyond a simple 'were you right' test — the entire point of incorporating S.52's standard is to protect careful-but-mistaken actors, distinguishing them from careless ones, regardless of outcome.",
           "cite": "S.52 PPC — protects careful-but-mistaken belief regardless of ultimate factual correctness, which is the entire functional purpose of every good-faith-dependent exception built on top of it."
         }
-      ]
+      ],
+      "dike": "Good faith ≡ ~(done without due care and attention)\nDue care ∧ due attention required — honest belief alone is NOT enough if careless"
     },
     {
       "id": "¬S2425DF",
@@ -124,7 +126,8 @@
           "reveal": "Separating the two standards lets each offence in the property chapter be precisely calibrated to the specific wrong it targets: Theft (taking without consent) only needs a gain/loss motive, since no deception of the victim is involved in the taking itself; Cheating (gain through induced consent) specifically needs deception, since the wrong lies in corrupting the victim's own decision-making. A single combined standard would either over-criminalise simple non-deceptive dishonesty as if it required proving deception, or under-capture pure deception schemes with no direct property-gain motive. The two-standard structure lets the legislature match each offence's mental element precisely to its actus reus.",
           "cite": "S.24 PPC and S.25 PPC as independently calibrated standards — precisely matched to each offence's distinct actus reus (non-consensual taking vs deception-induced consent) rather than a single blended test."
         }
-      ]
+      ],
+      "dike": "Dishonestly (S.24): intent to cause wrongful gain ∨ wrongful loss\nFraudulently (S.25): intent to deceive\nParallel definitions, not synonyms — an act can be one without the other"
     },
     {
       "id": "¬S26RTB",
@@ -219,7 +222,8 @@
           "reveal": "S.39's text is disjunctive: voluntariness is satisfied if the person either intended to cause the effect, OR knew or had reason to believe, by the means employed, that the effect was a LIKELY consequence. This means S.39 does not require pinpoint intent to the exact outcome — a person who employs a means they have reason to believe is likely to produce a given effect satisfies voluntariness for that effect even without specifically intending it, which is the same broader logic already seen in S.300's lower mens rea clauses for murder (knowledge of imminently dangerous acts).",
           "cite": "S.39 PPC's disjunctive structure — intention OR reason to believe likely, mirroring the broader knowledge-based liability already seen in S.300 PPC's lower mens rea clauses (Murder module)."
         }
-      ]
+      ],
+      "dike": "Voluntarily ≡ power of controlling the effect's production ∧ (intended to cause it ∨ knew/had reason to believe it likely)\nConjunction of control with a disjunction of mental states — either intention or foresight satisfies the second limb"
     },
     {
       "id": "¬S43ILB",
@@ -254,7 +258,8 @@
           "reveal": "This mirrors the same structural logic seen in good-faith and voluntariness definitions throughout this chapter: rather than attempting an exhaustive, necessarily incomplete list of every duty-creating relationship (which would inevitably miss categories the drafters didn't anticipate), S.43 ties the existence of a duty to the separately-defined concept of illegality, allowing the duty question to be answered by reference to whatever other law (criminal, civil, or statutory) actually creates the relevant obligation, rather than requiring this single section to enumerate every possible duty relationship itself.",
           "cite": "S.43 PPC's negative-definition structure — avoiding an exhaustive, inevitably incomplete list of duty-creating relationships by tying the duty question to the separately-defined concept of illegality."
         }
-      ]
+      ],
+      "dike": "'Illegal' ≡ (an offence ∨ prohibited by law ∨ furnishes ground for a civil action)\n'Legally bound to do' ≡ omission of it would be illegal (same three-way test, applied to omission)"
     },
     {
       "id": "¬S44INJ",
@@ -289,7 +294,8 @@
           "reveal": "A physical-harm-only definition would leave significant categories of serious, real harm — psychological terror, reputational destruction, financial ruin — entirely outside the reach of harm-based offences like Criminal Intimidation, despite these forms of harm often being just as devastating to a victim as physical injury, and frequently being the PRIMARY tool of coercion in extortion and intimidation schemes specifically because they avoid the more easily punished and more easily proven category of physical violence. The broad four-category definition ensures the Code's harm-based protections are not circumvented simply by choosing a non-physical method of inflicting serious harm.",
           "cite": "S.44 PPC's four-category breadth — preventing circumvention of harm-based offences through non-physical (but equally serious) methods of coercion, particularly relevant to intimidation and extortion schemes."
         }
-      ]
+      ],
+      "dike": "Injury ≡ harm to (body ∨ mind ∨ reputation ∨ property)\nFour-way disjunction — the broadest harm concept in the Code, any one limb suffices"
     },
     {
       "id": "¬S29DOC",
@@ -329,7 +335,8 @@
           "reveal": "S.30 requires the document operate on actual legal rights — creating, transferring, or extinguishing them — meaning a forged valuable security can directly corrupt someone's legal entitlements (property deeds, promissory notes), a more severe harm than forging a document with no direct rights-effect, justifying the Forgery module's tiered severity.",
           "cite": "S.30 PPC's rights-based definition explaining the severity gap between S.467 and S.465 PPC (Forgery module)."
         }
-      ]
+      ],
+      "dike": "Valuable security ≡ document whereby a legal right is (created ∨ extended ∨ transferred ∨ restricted ∨ extinguished ∨ released) ∨ document acknowledging legal liability\nSix-way disjunction on what the document does to a right"
     },
     {
       "id": "¬S22MP",
@@ -439,7 +446,8 @@
           "reveal": "The claim fails. S.37 confirms that intentionally cooperating in even ONE of several acts constituting an offence makes a person liable for the offence as a whole — partial performance of a coordinated multi-act offence is sufficient, not merely a partial defence. The distractor is liable for the full offence, not a lesser version of it.",
           "cite": "S.37 PPC — intentional cooperation in any one act of a multi-act offence is sufficient for full liability, not merely partial liability."
         }
-      ]
+      ],
+      "dike": "S.6: every offence definition → automatically subject to General Exceptions (no need to say so)\nS.37: several acts required together ∧ person cooperates in only ONE → still liable for that one act\nS.38: several persons ∧ same criminal act ∧ different intentions → each judged on their OWN mental state, not the group's"
     },
     {
       "id": "¬TIER3LIGHT",

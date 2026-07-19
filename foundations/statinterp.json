@@ -70,7 +70,8 @@
           "reveal": "This is the fundamental challenge. The limit is that the Golden Rule must work within the range of meanings a word can bear — it cannot attribute a meaning the word is incapable of carrying. A court cannot use the Golden Rule to substitute entirely different words or concepts. The test: could the legislature, using these words, have intended this meaning? If yes, the Golden Rule permits it. If the court is effectively adding new words, it has exceeded the Golden Rule and is legislating, which is impermissible.",
           "cite": "Golden Rule limits — must work within available meanings. Separation of powers constraint"
         }
-      ]
+      ],
+      "dike": "Literal Rule applied ∧ (result is absurd ∨ repugnant ∨ inconsistent)\n→ Court may modify the ordinary meaning to avoid that result\nSafety valve — only triggers once the Literal Rule has already produced a bad outcome, not a free-standing alternative"
     },
     {
       "id": "MR2",
@@ -100,7 +101,8 @@
           "reveal": "S.295-C was added to the PPC in 1986 by the Zia-ul-Haq government. The stated mischief was derogatory remarks about the Prophet Muhammad (PBUH) that were causing communal tension. The Mischief Rule asks the court to interpret S.295-C to suppress that specific mischief. This analysis cuts both ways: critics argue the mischief was narrow (communal peace) and the section is being over-applied; defenders argue the mischief was the derogatory act itself and the section should be applied as written.",
           "cite": "S.295-C PPC — legislative history 1986. Mischief Rule applied to contentious provisions"
         }
-      ]
+      ],
+      "dike": "Four-question sequence (Heydon's Rule), all four must be worked through in order:\n(1) what was the law before the Act? → (2) what mischief/defect did it not address? → (3) what remedy did the legislature resolve on? → (4) the true reason for that remedy\n→ Interpret the statute to suppress the mischief and advance the remedy"
     },
     {
       "id": "PUR",

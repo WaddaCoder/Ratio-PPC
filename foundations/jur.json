@@ -70,7 +70,8 @@
           "reveal": "This is the classic special law vs general law problem. The Anti-Terrorism Act 1997 is a special law; the PPC is the general law. The general principle is that a special law prevails over a general law (lex specialis derogat legi generali). However the ATA has its own provision allowing courts to apply PPC offences alongside ATA offences. The 'and not otherwise' in S.2 is qualified by S.5 PPC which preserves special laws.",
           "cite": "S.2 and S.5 PPC — interaction with special laws. Anti-Terrorism Act 1997 S.6 and Schedule"
         }
-      ]
+      ],
+      "dike": "Act contrary to PPC ∧ within Pakistan\n→ Liable under PPC\n~ punishable under any other law for the same act ('and not otherwise' — exclusivity clause)"
     },
     {
       "id": "S.3",
@@ -100,7 +101,8 @@
           "reveal": "Yes, potentially under S.3 read with the Prevention of Electronic Crimes Act 2016 (PECA). PECA S.44 gives Pakistani courts jurisdiction over cybercrimes committed outside Pakistan where the effects are felt within Pakistan or where a Pakistani national or entity is affected. S.3 then applies the PPC as the substantive punishment framework. This is exactly the type of cross-reference Mr. Faisal emphasised — the PPC provides the offence and punishment; PECA provides the jurisdictional hook.",
           "cite": "S.3 PPC + Prevention of Electronic Crimes Act 2016 S.44 — cyber jurisdiction"
         }
-      ]
+      ],
+      "dike": "Offence committed outside Pakistan ∧ triable within Pakistan under some Pakistani law\n→ Treated as if committed within Pakistan\nBridges the territorial (S.2) and extra-territorial (S.4) regimes"
     },
     {
       "id": "S.4",
@@ -130,7 +132,8 @@
           "reveal": "Pakistan has primary jurisdiction under S.4 — the aircraft is registered in Pakistan and is therefore Pakistani territory for jurisdictional purposes under the flag state principle and the Tokyo Convention on Offences Committed on Board Aircraft 1963. The country of departure and destination may also claim jurisdiction. Pakistan's claim under S.4 is however the strongest and most direct.",
           "cite": "S.4 PPC — flag state jurisdiction. Tokyo Convention 1963 on Offences on Board Aircraft"
         }
-      ]
+      ],
+      "dike": "Jurisdiction extends to:\n(citizen of Pakistan ∨ person in service of Pakistan) — ANYWHERE in the world\n∨\n(person on a Pakistan-registered ship/aircraft) — ANYWHERE\nTwo independent bases: active nationality principle ∨ flag-state jurisdiction"
     },
     {
       "id": "¬S.5",
@@ -160,7 +163,8 @@
           "reveal": "No. PECA 2016 creates new offences and punishments for cyber-specific acts. However where a cybercrime also constitutes a PPC offence — for example cybercrime used to commit fraud (S.420 PPC) or threaten (S.506 PPC) — the PPC provisions apply concurrently or are incorporated by PECA. S.5 prevents the PPC from interfering with PECA's specific provisions; it does not exclude PPC offences that overlap with cyber conduct.",
           "cite": "S.5 PPC + PECA 2016. Concurrent application of PPC and special laws"
         }
-      ]
+      ],
+      "dike": "PPC does NOT repeal, vary, suspend, or affect:\nmilitary law (Army Act ∨ Navy Ordinance ∨ Air Force Act)\n∨ special law (Anti-Terrorism Act 1997 ∨ Control of Narcotic Substances Act 1997 ∨ ...)\n~ PPC exclusive — several parallel regimes remain fully live alongside it"
     }
   ]
 }

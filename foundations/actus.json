@@ -40,7 +40,8 @@
           "reveal": "Movement (V) is the Actus Reus of Theft — the physical completing act that S.378 requires. Dishonest Intention (D) is the Mens Rea. The remaining elements (M, P, ¬C) define the circumstances that must accompany the act. This illustrates the conjunction model: AR + MR + circumstances = offence. S.378 is therefore a result-based offence where the Actus Reus is the physical displacement of property.",
           "cite": "S.378 PPC — Movement as Actus Reus, Dishonest Intention as Mens Rea"
         }
-      ]
+      ],
+      "dike": "(Positive act ∨ omission where a legal duty exists ∨ series of acts causing a prohibited consequence)\n∧ voluntary\n∧ causally connected to the result"
     },
     {
       "id": "MR",
@@ -70,7 +71,8 @@
           "reveal": "No. Sleepwalking negates Mens Rea because the person has no conscious awareness, intention, or knowledge during the act. It also arguably negates Actus Reus because the act is involuntary. This is the classic automatism defence — distinct from S.84 unsound mind. Automatism provides a complete defence precisely because both elements of criminal liability are absent.",
           "cite": "Actus Reus + Mens Rea — automatism defence. S.84 PPC unsound mind is a separate but related provision"
         }
-      ]
+      ],
+      "dike": "Expressed through specific statutory words — intention ∨ knowledge ∨ dishonesty ∨ fraudulence ∨ recklessness/negligence\nDifferent words mark different degrees; the PPC never uses them interchangeably"
     },
     {
       "id": "Con",
@@ -100,7 +102,8 @@
           "reveal": "In murder, AR (Qatl — causing death) and MR (Niyyat — the intention or knowledge required by one of S.300's four clauses) must coincide at the moment the fatal act is done. Intent formed before the act satisfies concurrence — premeditation does not break it. But if the accused intended to kill Person A and accidentally kills Person B, the transferred intent doctrine may apply MR to the unintended victim. Concurrence is satisfied as long as MR exists at the moment of the actus reus, whoever the actual victim.",
           "cite": "S.299–300 PPC — murder analysis. Transferred intent doctrine in Pakistani criminal jurisprudence"
         }
-      ]
+      ],
+      "dike": "AR ∧ MR, both present AT THE SAME MOMENT\n~ intention formed after the act (too late — no retroactive liability)\n~ guilty mind alone without the act (no liability without conduct)"
     },
     {
       "id": "SL",
@@ -130,7 +133,8 @@
           "reveal": "In strict liability the formula reduces to: Actus Reus → Liability. The conjunction loses one of its terms. This is not a logical contradiction — it is a deliberate legislative modification of the standard formula. The law is in effect saying: for this specific offence, AR alone is sufficient. This is why strict liability is always created explicitly by statute — courts will not infer it from silence, because the default formula requires both elements.",
           "cite": "Actus Reus ∧ Mens Rea — standard formula. Strict liability as legislative modification of the conjunction"
         }
-      ]
+      ],
+      "dike": "~ MR required (the one exception to AR ∧ MR ∧ Con)\nAct alone → liability\nRare in the PPC itself; the default presumption runs the other way — MR is required unless specifically excluded by law"
     }
   ]
 }

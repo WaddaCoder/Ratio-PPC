@@ -40,7 +40,8 @@
           "reveal": "Generally no — outside the Qisas/Diyat-eligible offences (chiefly Qatl and certain Hurt categories), punishment is governed by the Ta'zir/state-control model, where the victim's wishes (forgiveness, desire for leniency) may be relevant to sentencing discretion or to whether an offence is compoundable under CrPC S.345, but the victim does not hold the same structural, statute-recognised power to determine the outcome that heirs hold under Qisas/Diyat. This distinction is the single most important practical consequence of S.53's dual framework for case strategy.",
           "cite": "S.53 PPC — the Qisas/Diyat victim-control model does not extend to Ta'zir-governed offences generally, where victim input affects discretion rather than controlling outcome directly."
         }
-      ]
+      ],
+      "dike": "Offender liable to ANY ONE OR MORE of: Qisas ∨ Diyat ∨ Arsh ∨ Daman ∨ Ta'zir ∨ Death ∨ Imprisonment for Life ∨ Imprisonment (rigorous/simple) ∨ Forfeiture ∨ Fine\nNot a single track — the applicable subset depends entirely on the specific offence section"
     },
     {
       "id": "¬S55APREROG",
@@ -60,7 +61,8 @@
           "reveal": "No — S.55A explicitly preserves the President's separate constitutional clemency power, entirely independent of whether S.54's own commutation criteria are met. A lawyer should pursue presidential clemency as a genuinely distinct avenue, not treat S.54's inapplicability as the end of the matter.",
           "cite": "S.55A PPC — preserving presidential clemency as an independent avenue, regardless of whether the PPC's own internal commutation provisions (S.54/55) apply to the specific case."
         }
-      ]
+      ],
+      "dike": "Actor: President (constitutional power, not statutory)\nPower: pardon ∨ reprieve ∨ respite ∨ remit ∨ suspend ∨ commute\n~ limited or displaced by S.53/S.54/S.55 — operates above and independent of ordinary Government commutation"
     },
     {
       "id": "¬S7172LIMIT",
@@ -85,7 +87,8 @@
           "reveal": "The court must convict and punish for whichever of the two offences carries the LOWER punishment, provided it is satisfied the accused is guilty of one of them. This is the punishment-stage embodiment of resolving genuine uncertainty in the accused's favour — a defence counsel facing ambiguous evidence between two charged alternatives should affirmatively argue for application of S.72 rather than allowing the court to default toward the more severe option.",
           "cite": "S.72 PPC — genuine doubt between alternative offences resolved in favour of the lower punishment, not the higher one."
         }
-      ]
+      ],
+      "dike": "S.71: single act/series constitutes several offences → punishment ≤ max for any ONE constituent offence (not cumulative)\nS.72: uncertain which of several offences was actually committed → court punishes for the lowest"
     },
     {
       "id": "¬S75RECID",
@@ -105,7 +108,8 @@
           "reveal": "No. S.75's enhancement is narrowly confined to repeat convictions WITHIN Chapter XII or Chapter XVII specifically — a prior conviction under Chapter XVI (where Wrongful Confinement sits) does not trigger S.75's enhancement for a subsequent Chapter XVII Theft charge, however genuinely the client may be a repeat offender in a broader sense. This narrowness is a real, arguable defence point against an overreaching prosecution attempt to invoke S.75 based on an unrelated prior conviction.",
           "cite": "S.75 PPC's narrow chapter-specific scope — confined to repeat offences within Chapter XII or XVII only, not a general recidivism provision across the whole Code."
         }
-      ]
+      ],
+      "dike": "Prior conviction (Chapter XII ∨ Chapter XVII) ∧ subsequent conviction (Chapter XII ∨ Chapter XVII)\n→ Enhanced punishment (recidivism trigger)\nBoth convictions must fall within these two specific chapters — doesn't apply to repeat offenders generally"
     },
     {
       "id": "¬S5455COMM",
@@ -125,7 +129,8 @@
           "reveal": "Fourteen years — S.55 sets this as a hard statutory ceiling on commutation of a life sentence under this provision, a specific figure worth knowing precisely rather than approximately when advising a client on realistic best-case outcomes.",
           "cite": "S.55 PPC — fourteen-year statutory ceiling on commuted life-imprisonment terms."
         }
-      ]
+      ],
+      "dike": "Actor: appropriate Government (Federal ∨ Provincial, per subject matter)\nS.54 — ~ offender's consent\n→ Death sentence → any other punishment under the Code (unbounded)\nS.55 — ~ offender's consent\n→ Life imprisonment → ≤14 years (Rigorous ∨ Simple)\n~ Victim/Heir's consent for either — that requirement belongs to S.309–311's Qisas-waiver track, not this one"
     },
     {
       "id": "¬S6070RIG",
@@ -150,7 +155,8 @@
           "reveal": "Partial payment helps proportionally — S.69 specifically provides that imprisonment terminates on payment of a PROPORTIONAL part of the fine, not only full payment. Advising a client's family that partial payment is worthless unless the full amount is raised would be incorrect; even partial payment shortens the default-imprisonment term proportionally.",
           "cite": "S.69 PPC — proportional fine payment proportionally reduces default imprisonment, not requiring full payment for any benefit."
         }
-      ]
+      ],
+      "dike": "Court discretion: sentence ≡ wholly rigorous ∨ wholly simple ∨ part rigorous + part simple\nFine default: non-payment → imprisonment in default, term set by S.63–70's schedule\nS.57: life imprisonment reckoned as a fixed term, for fraction-calculation purposes only"
     },
     {
       "id": "¬S7374SOLIT",
@@ -170,7 +176,8 @@
           "reveal": "No — S.74 caps any single period of solitary confinement at fourteen days; a continuous twenty-day period exceeds this hard statutory limit and is challengeable on that specific, precise ground, regardless of the total sentence length or offence severity.",
           "cite": "S.74 PPC's fourteen-day single-period cap — a precise, citable ceiling independent of the overall sentence length."
         }
-      ]
+      ],
+      "dike": "Rigorous imprisonment ∧ court so directs\n→ Solitary confinement, subject to: ≤14 days at a time ∧ interval ≥ same duration between periods ∧ aggregate cap tied to total sentence length\n(Three independent caps — all must be satisfied simultaneously)"
     }
   ]
 }

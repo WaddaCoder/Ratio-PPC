@@ -40,7 +40,8 @@
           "reveal": "Because preparation involves external acts that are verifiable, while intention is purely internal. But most preparation is inherently ambiguous — buying a knife could be for cooking or for killing. The attempt stage is chosen as the primary punishable threshold because at attempt the accused has committed an act unambiguously directed at the crime, removing the ambiguity of preparation. The law balances liberty (don't punish too early) against safety (don't wait for completion).",
           "cite": "Stages of crime theory — balancing liberty and prevention"
         }
-      ]
+      ],
+      "dike": "Mental formation of intent only\n~ any act\n→ Not punishable (thoughts alone are never criminal)"
     },
     {
       "id": "St2",
@@ -70,7 +71,8 @@
           "reveal": "This is the classic borderline case. Merely possessing tools is preparation. Approaching the specific house with the tools and beginning to pick the lock is attempt. Being found outside the house at night with the tools is ambiguous — courts will look at all circumstances: prior targeting of the house, time, other behaviour, explanations offered. The proximity to the specific target house is the key factor pushing toward attempt.",
           "cite": "Preparation vs attempt — proximity and unambiguity test. S.511 PPC general attempt provision"
         }
-      ]
+      ],
+      "dike": "Arrangements/materials collected\n~ punishable, UNLESS (S.126 waging-war prep ∨ S.399 dacoity prep ∨ S.233–235 counterfeiting prep)\nDefault is non-punishable; only named exceptions flip this"
     },
     {
       "id": "St3",
@@ -100,7 +102,8 @@
           "reveal": "Because harm has not actually been caused. Proportionality in punishment requires that the sanction correspond to the actual harm done to the victim and society. An attempt causes fear and poses danger but the ultimate harm — death, injury, loss — has not materialised. However the accused's culpability (intention + overt act) is close to full, which is why S.511 still punishes significantly. The half-maximum rule balances reduced harm against near-complete culpability.",
           "cite": "S.511 PPC — proportionality rationale. Theories of punishment applied to attempt"
         }
-      ]
+      ],
+      "dike": "Act beyond preparation ∧ execution of intention begun\n→ Punishable\nDefault: S.511 (≤ half the max sentence for the completed offence)\nOVERRIDE: specific sections (e.g. S.307 attempt-to-murder) carry their own dedicated punishment, displacing S.511's general halving rule"
     },
     {
       "id": "St4",
@@ -130,7 +133,8 @@
           "reveal": "Yes — culpable homicide not amounting to murder under S.304 PPC. The act is complete (death occurred) but S.300 Niyyat is absent or reduced by a proviso. This is not a stage of crime question but an element deficit question. The offence is still completed — just at the S.304 level rather than S.302. The stages doctrine asks when the act crossed from preparation to attempt to completion; the element analysis then determines which completed offence was committed.",
           "cite": "S.299–304 PPC — completed offence without full S.300 Niyyat = culpable homicide not murder"
         }
-      ]
+      ],
+      "dike": "AR ∧ MR ∧ any circumstantial elements, all established ∧ result achieved\n→ Full prescribed punishment applies"
     }
   ]
 }
