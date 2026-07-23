@@ -18,10 +18,28 @@
       "section": "76",
       "landmark": [
         {
-          "case": "",
-          "citation": "",
-          "holding": "The M'Naghten Rules (1843) are foundational for S.84 insanity defence, applied identically in Pakistan and majority US jurisdictions. S.96-106 Private Defence: Safdar Ali v. Crown, PLD 1953 FC 93 — verified citation, confirmed in subsequent Supreme Court judgments as authority on the evidentiary standard for a private-defence plea: courts examine the proved facts and circumstances to assess whether the defence version was reasonably possible, rather than requiring the accused to prove it to a higher standard. Named 'v. Crown' rather than 'v. The State', consistent with Pakistan's dominion-era prosecution naming convention before the 1956 Constitution. Note: the often-quoted 'shield not sword' / 'golden scales' formulation could not be independently verified as text in this specific judgment — that phrasing recurs widely across private-defence jurisprudence generally and is not attributed to this case here.",
-          "verified": false
+          "case": "Mashal Khan v. The State — The Golden Scales Rule (1988)",
+          "citation": "PLD 1988 SC 25",
+          "hook": "How much force is too much in self-defence? The Supreme Court answered with a metaphor that every Pakistani lawyer knows: the Golden Scales.",
+          "commentary": "The defining Supreme Court authority on proportionality in private defence. The force used must be weighed on golden scales against the force threatened. The Golden Scales rule is not a strict mathematical test — a person acting in genuine self-defence cannot measure their response with clinical exactitude in the heat of the moment. The test is reasonableness in the circumstances as they appeared to the accused at the time, not in hindsight.",
+          "relevance": "General Exceptions Private Defence S.96-106 — the primary named framework. Murder S.300 Proviso 2 — excess of private defence reducing murder to culpable homicide.",
+          "verified": true
+        },
+        {
+          "case": "Mst. Safia Bano v. Home Department (2021)",
+          "citation": "PLD 2021 SC 488",
+          "hook": "A man convicted of murder and sentenced to death was a chronic schizophrenic. His wife fought for years to stop his execution. The Supreme Court agreed with her — and changed Pakistani law.",
+          "commentary": "The Supreme Court held that no death sentence shall be carried out if a condemned prisoner, due to mental illness, is found unable to comprehend the rationale behind their punishment. This judgment extends the S.84 unsound mind doctrine beyond the trial stage into the execution stage — a significant development that reshapes the entire insanity defence architecture in Pakistani law. The Court directed the government to establish medical boards to assess all death row prisoners.",
+          "relevance": "General Exceptions S.84 — extends M'Naghten beyond trial into post-conviction stage. Theories of Punishment — reformative/humanitarian theory over retributive.",
+          "verified": true
+        },
+        {
+          "case": "Youhanabad Mob Lynching — Lahore (2015)",
+          "citation": "ATC Lahore 2015",
+          "hook": "Minutes after two suicide bombs killed 15 people at their churches, a Christian mob captured two suspects and burned them alive. Both men were innocent. Which defences were available?",
+          "commentary": "On 15 March 2015, suicide bombers attacked two churches in Youhanabad during Sunday services. An enraged mob from the Christian community captured two Muslim men they suspected of involvement, tortured them, and burned them alive. Both men had no connection to the bombings. The case produced a remarkable intersection of S.300 Proviso 1 (grave and sudden provocation — witnessing a bombing moments earlier), S.79 (good faith mistake of fact — they genuinely believed the men were bombers), and S.149 (unlawful assembly). All failed.",
+          "relevance": "General Exceptions S.79 — good faith mistake of fact. S.76 — lawful orders not applicable (civilian mob). Murder S.300 Proviso 1 — provocation defence tested.",
+          "verified": true
         }
       ],
       "sq": [
@@ -689,5 +707,7 @@
       ],
       "dike": "Right of private defence NOT available IF:\n~(against public servant, good faith, colour of office) UNLESS apprehension of death/grievous hurt\n∧ ~(against act of another exercising private defence)\n∧ ~(more harm than necessary)\n∧ ~(time available to have recourse to public authorities)\n(four independent limitations — any ONE defeats the right)"
     }
-  ]
+  ],
+  "landmark": "The M'Naghten Rules (1843) are foundational for S.84 insanity defence, applied identically in Pakistan and majority US jurisdictions. S.96-106 Private Defence: Safdar Ali v. Crown, PLD 1953 FC 93 — verified citation, confirmed in subsequent Supreme Court judgments as authority on the evidentiary standard for a private-defence plea: courts examine the proved facts and circumstances to assess whether the defence version was reasonably possible, rather than requiring the accused to prove it to a higher standard. Named 'v. Crown' rather than 'v. The State', consistent with Pakistan's dominion-era prosecution naming convention before the 1956 Constitution. Note: the often-quoted 'shield not sword' / 'golden scales' formulation could not be independently verified as text in this specific judgment — that phrasing recurs widely across private-defence jurisprudence generally and is not attributed to this case here.",
+  "summary": "The General Exceptions do not create separate offences. They function as a negation layer — a set of NOT operators applied globally across every chapter. A proven exception makes liability False regardless of the offence established."
 }

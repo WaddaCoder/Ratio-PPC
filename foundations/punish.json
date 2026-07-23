@@ -179,5 +179,7 @@
       ],
       "dike": "Prior conviction (Chapter XII ∨ Chapter XVII) ∧ subsequent conviction (Chapter XII ∨ Chapter XVII)\n→ Enhanced punishment (recidivism trigger)\nBoth convictions must fall within these two specific chapters — doesn't apply to repeat offenders generally"
     }
-  ]
+  ],
+  "landmark": "Connects directly to the Theories of Punishment Evolutionary Arc module already built, and to the Qatl Core / Murder modules’ Qisas/Diyat mechanics, rather than standing on a single isolated case.",
+  "summary": "Supplements the Punishments reference browser with deep, practice-oriented treatment of the sections that genuinely shape case strategy — weighted by litigation consequence rather than treating all 19 sections uniformly. S.53’s tripartite Qisas/Diyat/Ta’zir framework (the conceptual heart of the whole punishment system, already connected to the Theories of Punishment Evolutionary Arc), S.55A’s presidential clemency saving clause, S.71/72’s double-punishment and doubtful-offence safeguards (real defence-side tools), and S.75’s narrowly-scoped recidivism enhancement."
 }
