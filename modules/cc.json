@@ -30,9 +30,19 @@
           "verified": true
         },
         {
-          "case": "Mirza Shaukat Baig v. Shahid Jamil",
+          "case": "Mirza Shaukat Baig v. Shahid Jamil (2005)",
           "citation": "PLD 2005 SC 530",
-          "holding": "Leading authority on proof of conspiracy by circumstantial evidence.",
+          "hook": "The prosecution had no recorded meeting, no written plan, and no witness to any agreement. Can conspiracy still be proved?",
+          "commentary": "The Supreme Court confirmed that criminal conspiracy under S.120-A may be proved entirely by circumstantial evidence. The nature of conspiracy — secret agreement between criminals — makes direct evidence rare. Courts look at: prior relationship, communication, coordinated actions, shared benefit, simultaneous movements, and conduct before and after the offence. The totality of circumstances must establish the agreement beyond reasonable doubt.",
+          "relevance": "Criminal Conspiracy Element 1 (Agreement) — proof by circumstantial evidence. The nature of conspiracy as a secret agreement makes this the primary evidentiary framework.",
+          "verified": true
+        },
+        {
+          "case": "Kasur Child Abuse Scandal (2015)",
+          "citation": "ATC Kasur 2015-2017",
+          "hook": "Hundreds of children in one village were systematically abused, filmed, and blackmailed over years. The ring operated in plain sight while police looked away.",
+          "commentary": "A paedophile ring in Husain Khanwala, Kasur, systematically abused hundreds of children, filmed the abuse, and used recordings for blackmail. When families reported to police they were threatened into silence. The legal framework required charging the ring under S.120-A conspiracy (the organised network), S.107 abetment (filmers, distributors, blackmailers each in different modes), and PECA 2016 (distribution of child abuse material as a digital offence). The same district — the same pattern of police inaction — produced the Zainab Ansari murder three years later.",
+          "relevance": "Criminal Conspiracy S.120-A — organised abuse network as conspiracy. Abetment S.107 — multiple modes simultaneous. PECA 2016 intersection — digital evidence of abuse.",
           "verified": true
         }
       ],
