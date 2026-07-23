@@ -18,21 +18,19 @@
       "section": "107",
       "landmark": [
         {
-          "case": "Emperor v. Nga Aung Gyaw",
-          "citation": "(1931) ILR 9 Rang 225",
-          "holding": "Instigation requires active suggestion or support, not mere acquiescence.",
+          "case": "ZA Bhutto v. State (1979)",
+          "citation": "PLD 1979 SC 53",
+          "hook": "Pakistan's Prime Minister was convicted of murder as an abettor — he ordered the killing but never touched his victim.",
+          "commentary": "Bhutto was convicted under S.109 as abettor of the murder of Nawab Muhammad Ahmed Khan Kasuri's father. The Federal Security Force carried out the actual killing. S.109 provides the abettor is punished with the same punishment as the principal where the act is committed in consequence of the abetment. This is the most senior-level application of S.107/109 in Pakistani legal history.",
+          "relevance": "Abetment S.107(1) Instigation — instigation at the highest political level. S.109 — abettor liable for same punishment as principal.",
           "verified": true
         },
         {
-          "case": "State v. Pir Bakhsh",
-          "citation": "PLD 1970 SC 93",
-          "holding": "Abettor need not be present at scene of offence.",
-          "verified": true
-        },
-        {
-          "case": "Mumtaz Qadri v. State",
+          "case": "Mumtaz Qadri — Abetment by Religious Incitement (2016)",
           "citation": "PLD 2016 SC 17",
-          "holding": "Religious clerics who publicly praised the assassination and called it justified were investigated under abetment by instigation (S.107(1)). The case drew the line between protected religious speech and criminal instigation; the Supreme Court's rejection of all justifications confirmed that public incitement to vigilante violence constitutes abetment regardless of the claimed religious motivation.",
+          "hook": "Religious clerics praised the assassination publicly and called it Islamically justified. Were they abettors? The case drew the line between protected speech and criminal instigation.",
+          "commentary": "After Qadri's assassination of Governor Taseer, religious clerics who publicly praised the killing and declared it justified were investigated under S.107(1) abetment by instigation. The case drew a crucial line: general statements about religious duty to defend the Prophet are on one side; specific encouragement to kill a named individual is on the other. The test is whether the words were calculated to produce the commission of a specific offence in a specific context.",
+          "relevance": "Abetment S.107(1) Instigation — public speech dimension. Distinguishes protected expression from criminal encouragement.",
           "verified": true
         }
       ],
@@ -489,5 +487,7 @@
       ],
       "dike": "(Intending ∨ knowing likely) to facilitate ∧ offence punishable with imprisonment (residual category, below the death/life threshold governed by S.118/S.119) ∧ voluntarily conceals\n→ Liable, at the corresponding lower tier"
     }
-  ]
+  ],
+  "landmark": "Emperor v. Nga Aung Gyaw (1931) ILR 9 Rang 225 — instigation requires active suggestion or support, not mere acquiescence. PLD 1970 SC 93 (State v. Pir Bakhsh) — abettor need not be present at scene of offence. Mumtaz Qadri v. State PLD 2016 SC 17 — critical abetment dimension: religious clerics who publicly praised the assassination and called it justified were investigated under abetment by instigation (S.107(1)). The case drew the line between protected religious speech and criminal instigation. Supreme Court’s rejection of all justifications confirmed that public incitement to vigilante violence constitutes abetment regardless of the claimed religious motivation.",
+  "summary": "Abetment under S.107 PPC is a three-way disjunction: a person abets an offence by instigating, by conspiracy, or by intentional aid. Unlike S.34 Common Intention which requires the act to be done, abetment attaches liability even before the principal offence is completed. The abettor's liability mirrors the principal's unless the act abetted differs from what was done. Sections 108A and 110–120 govern the punishment-variant rules that follow once abetment is established under S.107: jurisdiction over abetment of acts abroad (S.108A), divergent mental states (S.110), different acts done (S.111), cumulative punishment (S.112), different effects caused (S.113), presence at commission (S.114), abetment of offences not committed (S.115–116), abetment of the public or large groups (S.117), and concealing a known design to commit an offence (S.118–120). All sections S.107–120 are now fully built, completing Chapter V Abetment in its entirety."
 }

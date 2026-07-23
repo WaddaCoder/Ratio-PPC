@@ -18,10 +18,28 @@
       "section": "295-B",
       "landmark": [
         {
-          "case": "",
-          "citation": "",
-          "holding": "Asia Bibi v. State PLD 2019 SC 64 — Supreme Court acquittal on evidentiary grounds after decade on death row. Mumtaz Qadri case (2015) — execution of Punjab Governor's assassin confirmed no right to take law into own hands. S.295-C carries mandatory death penalty with no judicial discretion on sentence. Mumtaz Qadri v. State PLD 2016 SC 17 — the assassination of Punjab Governor Salman Taseer (who had publicly criticised S.295-C and advocated for Asia Bibi) by his bodyguard Mumtaz Qadri. Supreme Court upheld death sentence and rejected the argument that defending the Prophet’s honour justified the killing. Decisively established that S.295-C enforcement is exclusively the state’s domain — no private citizen or vigilante has standing to punish alleged blasphemy.",
-          "verified": false
+          "case": "Asia Bibi v. State — The Weaponisation Doctrine (2019)",
+          "citation": "PLD 2019 SC 64",
+          "hook": "A Christian farmworker spent a decade on death row for blasphemy. The Supreme Court acquitted her — and in doing so named the five warning signs that a blasphemy allegation is fabricated.",
+          "commentary": "Asia Bibi was convicted of blasphemy in 2010 after a water dispute with Muslim co-workers. She spent over a decade on death row. The Supreme Court acquitted her in October 2018, identifying five red flags: prior enmity between complainant and accused, allegation arising from a heated confrontation, sole testimony without independent corroboration, inconsistent reporting of the alleged words, and community pressure context. The judgment judicially recognised that S.295-C allegations are frequently fabricated instruments of personal vendetta, property disputes, and minority persecution. The acquittal triggered violent protests and threats against the Supreme Court judges.",
+          "relevance": "Blasphemy Evidentiary Standard element — the five red-flag framework is the app's core analytical tool. Theories of Punishment — deterrent theory weaponised against the wrong target.",
+          "verified": true
+        },
+        {
+          "case": "Mumtaz Qadri v. State — State Enforcement Monopoly (2016)",
+          "citation": "PLD 2016 SC 17",
+          "hook": "He killed his protectee for blasphemy. Millions called him a hero. The Supreme Court executed him and established that no citizen can appoint themselves as the law's enforcer.",
+          "commentary": "Governor Salman Taseer had publicly criticised S.295-C as a black law and advocated for Asia Bibi while she was on death row. His bodyguard Mumtaz Qadri shot him 27 times and surrendered. The Supreme Court rejected the blasphemy justification and established conclusively: S.295-C enforcement belongs exclusively to the state. No private citizen, regardless of religious conviction, has standing to punish alleged blasphemy. The state holds the monopoly on criminal enforcement.",
+          "relevance": "Blasphemy S.295-C — state enforcement monopoly principle. The Asia Bibi and Mumtaz Qadri cases are inseparable: the same law that put Asia Bibi on death row also motivated Taseer's murder.",
+          "verified": true
+        },
+        {
+          "case": "Rizwan Haider — Custody Killing (2014)",
+          "citation": "Gujrat, Punjab, 2014",
+          "hook": "A police officer killed a blasphemy suspect with an axe inside a police station. He did not claim orders — he claimed personal religious duty.",
+          "commentary": "Police officer Faraz Naveed killed a Shia Muslim detainee with an axe inside a Gujrat police station after the detainee allegedly insulted the companions of the Prophet during questioning. Naveed surrendered immediately and stated he acted on personal religious conviction. This case is distinct from every other blasphemy case because the killing was committed inside the state's own custodial institution by a uniformed officer — the very person responsible for protecting the accused from mob justice became the vigilante.",
+          "relevance": "Blasphemy S.295-C — vigilante enforcement inside the state apparatus itself. General Exceptions S.76 — officer did not claim lawful orders; S.76 unavailable. Murder S.302 — straightforward conviction.",
+          "verified": true
         }
       ],
       "sq": [
@@ -136,5 +154,7 @@
       ],
       "dike": "General Exceptions apply as to all PPC offences ∨ S.84 (unsound mind) may specifically be raised\nConstitutional challenges also raised: freedom of religion (Art.20) ∨ freedom of expression (Art.19) ∨ fair trial rights (Art.10-A)\nCheck current case law for how these constitutional arguments have actually fared — don't assume outcome from the existence of the challenge alone"
     }
-  ]
+  ],
+  "landmark": "Asia Bibi v. State PLD 2019 SC 64 — Supreme Court acquittal on evidentiary grounds after decade on death row. Mumtaz Qadri case (2015) — execution of Punjab Governor's assassin confirmed no right to take law into own hands. S.295-C carries mandatory death penalty with no judicial discretion on sentence. Mumtaz Qadri v. State PLD 2016 SC 17 — the assassination of Punjab Governor Salman Taseer (who had publicly criticised S.295-C and advocated for Asia Bibi) by his bodyguard Mumtaz Qadri. Supreme Court upheld death sentence and rejected the argument that defending the Prophet’s honour justified the killing. Decisively established that S.295-C enforcement is exclusively the state’s domain — no private citizen or vigilante has standing to punish alleged blasphemy.",
+  "summary": "Blasphemy under PPC has two primary provisions: S.295-B (defiling the Holy Quran — life imprisonment) and S.295-C (derogatory remarks about the Prophet Muhammad (PBUH) — mandatory death penalty). Both provisions are highly contested, carry the highest evidentiary stakes in Pakistani criminal law, and have generated significant domestic and international jurisprudence. The Asia Bibi case (2018) is the defining landmark."
 }

@@ -18,10 +18,36 @@
       "section": "375",
       "landmark": [
         {
-          "case": "",
-          "citation": "",
-          "holding": "Criminal Laws Amendment Act 2021 completely rewrote S.375 consent definition. PLD 2021 SC 600 (Salman Akram Raja J.) on DNA evidence standards. S.375-A added for gang rape — each participant liable as if sole perpetrator. Two-finger test declared inadmissible by Supreme Court 2021.",
-          "verified": false
+          "case": "Safia Bibi v. State (1985)",
+          "citation": "1985 PLD FSC 120",
+          "hook": "A nearly blind girl was raped, became pregnant, and was then convicted of the crime committed against her — while her rapists walked free. This case changed Pakistani law.",
+          "commentary": "A nearly blind young woman suffering from acute myopia was raped by her employer and his son. She became pregnant — and that pregnancy was used as evidence against her. The Federal Shariat Court convicted Safia Bibi of Zina under the Hudood Ordinance 1979 while acquitting her rapists. The Zina-bil-jabr provision required four male Muslim witnesses — impossible to obtain. The pregnancy was proof of Zina against the victim. She was sentenced to lashes and imprisonment. The case became a national scandal and the central case in the campaign for the Women's Protection Act 2006.",
+          "relevance": "Rape S.375-376 — the case that most directly explains why the 2006 and 2021 reforms happened. Theories of Punishment — deterrent theory inverted: the law deterred victims from reporting.",
+          "verified": true
+        },
+        {
+          "case": "Mukhtaran Mai v. State (2005/2011)",
+          "citation": "Multiple SC proceedings 2005-2011",
+          "hook": "A village council ordered a gang rape as punishment for her brother's alleged misbehaviour. Most of her rapists were eventually acquitted. She used her compensation to build a school.",
+          "commentary": "In June 2002, Mukhtaran Mai was gang-raped on the orders of a panjayat in Meerwala, Punjab — collective punishment for her younger brother. The ATC initially convicted six accused. The Lahore High Court acquitted five. The Supreme Court in 2011 upheld most acquittals due to evidentiary insufficiency. The acquittals despite international documentation of the facts became as significant as the crime. Mukhtaran Mai used her compensation to build a school in Meerwala — restorative justice achieved outside the formal legal system when the system failed.",
+          "relevance": "Rape S.375-376 — pre-S.375A gang rape. Proof Standards — witness intimidation and community pressure. Theories of Punishment — restorative theory outside the system.",
+          "verified": true
+        },
+        {
+          "case": "Two-Finger Test Abolition (2021)",
+          "citation": "PLD 2021 SC 600 / Criminal Laws Amendment Act 2021",
+          "hook": "For decades, Pakistani courts allowed a medical test that put rape victims' entire sexual history on trial. In 2021 the Supreme Court abolished it.",
+          "commentary": "The two-finger test — purporting to assess prior sexual activity — was used for decades to impugn complainant credibility and imply consent. The Supreme Court declared it inadmissible on two grounds: scientific unreliability (prior sexual activity tells you nothing about consent on the occasion in question) and violation of Articles 9 and 14 of the Constitution (dignity and right to life). The Criminal Laws Amendment Act 2021 codified the ban. Conceptually linked to Consent Circumstance 7 — both reject the inference that a woman's sexual history or passive response is evidence of consent.",
+          "relevance": "Rape Proof Standards element — abolishes a core evidentiary practice. Rape Consent sub-clause 7 — conceptually linked reform. Theories of Punishment — the test deterred victims from reporting.",
+          "verified": true
+        },
+        {
+          "case": "Veena Hayat — Political Weaponisation (1991)",
+          "citation": "Karachi, November 1991",
+          "hook": "She was a prominent political figure's close friend. She was gang-raped for 12 hours at gunpoint in her own home. The police refused to register her complaint until the Army Chief intervened.",
+          "commentary": "Veena Hayat — close friend of Benazir Bhutto, granddaughter of Sir Sikandar Hayat — was gang-raped inside her own home by five assailants in November 1991. She directly accused Irfanullah Khan Marwat — son-in-law of sitting President Ghulam Ishaq Khan — of orchestrating the attack. The police refused to register her FIR until Army Chief General Asif Nawaz Janjua intervened personally. This is the only case in the log where rape was allegedly deployed as a direct instrument of political intimidation — targeting a political figure's associate to send a message.",
+          "relevance": "Rape S.375-376 — political weaponisation of sexual violence. Proof Standards — political obstruction of investigation as evidentiary challenge. Theories of Punishment — deterrent theory completely failed when the alleged orchestrator had presidential connections.",
+          "verified": true
         }
       ],
       "sq": [
@@ -136,5 +162,7 @@
       ],
       "dike": "General Exceptions apply generally, but narrowly available here:\nmistake of fact as to consent → most commonly raised\n~ private defence available\n~ necessity available\n∨ insanity (S.84) may be raised"
     }
-  ]
+  ],
+  "landmark": "Criminal Laws Amendment Act 2021 completely rewrote S.375 consent definition. PLD 2021 SC 600 (Salman Akram Raja J.) on DNA evidence standards. S.375-A added for gang rape — each participant liable as if sole perpetrator. Two-finger test declared inadmissible by Supreme Court 2021.",
+  "summary": "Rape under S.375 PPC (post-2021 Criminal Laws Amendment Act) is defined by the act of penetration combined with absence of valid consent or incapacity to consent. The 2021 amendments substantially rewrote the consent definition, added S.375-A for gang rape, and introduced a DNA evidence framework. Punishment under S.376 ranges from 10 to 25 years or death."
 }

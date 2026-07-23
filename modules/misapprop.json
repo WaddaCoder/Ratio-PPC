@@ -198,5 +198,7 @@
       ],
       "dike": "Entrusted AS (public servant ∨ banker ∨ merchant ∨ factor ∨ broker ∨ attorney ∨ agent) ∧ commits CBT\n→ Enhanced tier above S.406\nHigher public/professional trust triggers a correspondingly higher punishment band"
     }
-  ]
+  ],
+  "landmark": "No verified Pakistani landmark case is logged against S.403–409 specifically as of this build. Flagged honestly rather than inventing a citation.",
+  "summary": "This module covers two closely related chapters: Criminal Misappropriation of Property (S.403–404) and Criminal Breach of Trust (S.405–409), both immediately following Robbery, Dacoity & Hijacking. Both chapters share the core conceptual distinction from Theft and Extortion: the offender already lawfully possesses the property (through mistake, finding, joint ownership, or deliberate entrustment) and the offence arises from a subsequent dishonest act, not from the initial taking. S.403 covers general misappropriation including found property (both original Explanations and all nine Illustrations included); S.404 adds a death-specific variant with a clerk/servant enhancement; S.405 defines Criminal Breach of Trust around the key additional element of entrustment (all six original Illustrations included, including the good-faith-deviation Illustration (d) marking the offence’s outer boundary); S.406–409 build a graduated punishment ladder by the offender’s relationship to the entrusted property — general, carrier/wharfinger/warehouse-keeper, clerk/servant, and finally the most severe tier for public servants and named commercial trust roles."
 }

@@ -18,10 +18,20 @@
       "section": "378",
       "landmark": [
         {
-          "case": "",
-          "citation": "",
-          "holding": "1998 SCMR 837 confirmed fear alone is sufficient for the extortion limb even without actual injury. The Punjab Prosecutor General digest confirms force or fear must be contemporaneous with the taking.",
-          "verified": false
+          "case": "Muhammad Shafi v. The State (1959)",
+          "citation": "PLD 1959 Kar. 648",
+          "hook": "When does a theft become a robbery? The 1959 Karachi High Court established the contemporaneity test that still governs this question today.",
+          "commentary": "The defining authority on the threshold at which Theft escalates to Robbery through the application of force or fear. The force or fear must be causally connected to the taking — not merely incidental to it. The transaction is examined as a whole: force applied before, during, or immediately after the taking to retain what was taken or effect escape satisfies the test. A thief who uses force in an unrelated altercation after a completed theft may not be guilty of robbery.",
+          "relevance": "Robbery Element 2 (Force or Fear) — primary authority on contemporaneity. Stages of Crime — engages the completion question.",
+          "verified": true
+        },
+        {
+          "case": "Ghulam Mohiuddin alias Haji Babu v. The State (2014)",
+          "citation": "2014 SCMR 1034",
+          "hook": "If one robbery group member kills during the robbery without the others agreeing to lethal force, does S.34 make everyone a murderer?",
+          "commentary": "Supreme Court authority on vicarious liability in dacoity and armed robbery under S.392/395 read with S.34. The case tests the outer boundary of the universal quantifier in Common Intention: if A, B, and C agree to rob but only A agreed to kill, are B and C liable for the death? The Supreme Court examined what falls within the agreed common purpose and what is a frolic of one member's own.",
+          "relevance": "Robbery S.390/395 — vicarious liability in dacoity. Common Intention S.34 — outer boundary of the universal quantifier in group robbery.",
+          "verified": true
         }
       ],
       "sq": [
@@ -297,5 +307,7 @@
       ],
       "dike": "S.402A — unlawfully (use/show of force ∨ threats) ∧ seizing/exercising control of an aircraft → Hijacking, defined\nS.402B — (committing ∨ conspiring ∨ attempting ∨ abetting) hijacking → death ∨ life ∧ fine\nS.402C — harbouring a hijacker → separate offence, its own tier"
     }
-  ]
+  ],
+  "landmark": "1998 SCMR 837 confirmed fear alone is sufficient for the extortion limb even without actual injury. The Punjab Prosecutor General digest confirms force or fear must be contemporaneous with the taking.",
+  "summary": "Robbery under S.390 is a two-level formula. At the first level it is a disjunction — Theft-based or Extortion-based. At the second level a conjunction applies — whichever base offence is proven, force or fear must also be present."
 }

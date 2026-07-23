@@ -167,5 +167,7 @@
       ],
       "dike": "Voluntarily assists in (concealing ∨ disposing of ∨ making away with) property (known ∨ believed) to be stolen\n→ ≤3 years ∧ fine\nAssisting the concealment is punished even without ever personally receiving or retaining the property"
     }
-  ]
+  ],
+  "landmark": "No verified Pakistani landmark case is logged against S.410–414 specifically as of this build. Flagged honestly rather than inventing a citation.",
+  "summary": "This module covers the full chapter ‘Of the Receiving of Stolen Property’ (S.410–414), immediately following Criminal Misappropriation & Breach of Trust. It builds the consolidated ‘stolen property’ definition (S.410, gathering the tainting effect of five separate source offences — Theft, Extortion, Robbery, Misappropriation, and Criminal Breach of Trust — all already built elsewhere in this app), the base receiving/retaining offence engaging the General Explanations ‘reason to believe’ standard (S.411), the dacoity-specific escalation to life imprisonment (S.412), the habitual-dealing escalation following the same single-act-vs-habitual pattern already seen in at least three other chapters of this app (S.413), and the facilitation-without-receiving gap-closing provision (S.414)."
 }

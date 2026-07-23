@@ -18,7 +18,48 @@
       "cite": "S.299(k) PPC — Qatl defined. Medical evidence requirement confirmed in multiple Supreme Court judgments.",
       "ll": "S.299 PPC — definitions, official text",
       "section": "299",
-      "landmark": [],
+      "landmark": [
+        {
+          "case": "Mumtaz Qadri v. State (2016)",
+          "citation": "PLD 2016 SC 17",
+          "hook": "A bodyguard shot his own protectee 27 times in broad daylight, then surrendered. He was celebrated as a hero by millions. The Supreme Court disagreed.",
+          "commentary": "Mumtaz Qadri was the Punjab Governor's bodyguard who assassinated Governor Salman Taseer in January 2011. Taseer had publicly criticised S.295-C as a 'black law' and advocated for Asia Bibi. Qadri fired 27 bullets into Taseer at close range. The Supreme Court rejected every defence: private defence (the victim posed no threat), provocation (words cannot justify killing), and religious duty (no citizen has legal authority to enforce the blasphemy law). He was executed in February 2016.",
+          "relevance": "Murder S.302 — landmark conviction upheld at every appellate level. Blasphemy S.295-C — state enforcement monopoly principle. Abetment S.107 — clerics who praised the killing investigated for abetment by instigation.",
+          "verified": true
+        },
+        {
+          "case": "ZA Bhutto v. State (1979)",
+          "citation": "PLD 1979 SC 53",
+          "hook": "Pakistan's elected Prime Minister was hanged for a murder he did not personally commit. The Supreme Court split 4-3.",
+          "commentary": "The trial and execution of Prime Minister Zulfikar Ali Bhutto for the murder of Nawab Muhammad Ahmed Khan Kasuri's father. The Federal Security Force carried out the actual killing. Bhutto was convicted as abettor and under S.34 Common Intention. The 4-3 Supreme Court majority confirmed the death sentence. The three dissenting judgments remain as analytically significant as the majority. Bhutto was executed in April 1979 under General Zia ul-Haq's martial law government. The Supreme Court itself in 2011 observed in a suo motu proceeding that Bhutto may not have received a fair trial.",
+          "relevance": "Murder S.302 — application to a head of government. Common Intention S.34 — Bhutto did not physically kill anyone. Abetment S.109 — abettor liable for same punishment as principal.",
+          "verified": true
+        },
+        {
+          "case": "Qandeel Baloch Murder / S.311 Test Case (2016/2022)",
+          "citation": "State v. Muhammad Waseem, LHC 2019 / SC 2022",
+          "hook": "Her parents forgave her killer and accepted blood money. The court refused to let him go. This was the first real test of the 2016 honour killing law.",
+          "commentary": "Qandeel Baloch — Pakistan's most prominent social media celebrity — was strangled by her brother Muhammad Waseem in July 2016. He confessed and claimed honour as justification. The parents formally forgave him and accepted Diyat. The Lahore High Court applied S.311 fasad-fil-arz — finding the honour killing character of the killing meant parental forgiveness was legally ineffective. Life imprisonment confirmed by Supreme Court in 2022. S.311 was enacted in October 2016, three months after Qandeel's death in July. The case became the amendment's proof of concept.",
+          "relevance": "Murder S.311 overlay — defining real-world application. PATH A confirmed: karo kari character established → Ta'zir mandatory → Diyat ineffective. Theories of Punishment — state overriding victim family's restorative choice.",
+          "verified": true
+        },
+        {
+          "case": "Mst. Safia Bano v. Home Department (2021)",
+          "citation": "PLD 2021 SC 488",
+          "hook": "A man was convicted of murder and sentenced to death. His wife proved he was a chronic schizophrenic. The Supreme Court barred his execution.",
+          "commentary": "Imdad Ali was convicted of murder under S.302 and sentenced to death. He was a chronic schizophrenic. His wife Safia Bano petitioned that executing a prisoner who cannot comprehend the rationale behind their punishment is unlawful. The Supreme Court agreed, establishing a constitutional bar on executing the mentally ill. The Court directed establishment of medical boards to assess all death row prisoners. This judgment does not disturb the conviction — it bars execution of the sentence.",
+          "relevance": "Murder S.302 — creates a constitutional bar on executing the sentence where mental illness prevents comprehension. General Exceptions S.84 — extends beyond trial into post-conviction stage.",
+          "verified": true
+        },
+        {
+          "case": "Sher Khan v. The State (1991)",
+          "citation": "1991 SCMR 241",
+          "hook": "A fight breaks out suddenly and someone is killed. Is it murder or culpable homicide? The 1991 Supreme Court defined exactly when the sudden fight proviso applies.",
+          "commentary": "The defining Supreme Court authority on S.300 Proviso 4 — the sudden fight exclusion that reduces murder to culpable homicide not amounting to murder. The case defines what \"sudden\" means, what \"heat of passion\" requires, what constitutes \"undue advantage,\" and why premeditation defeats the proviso entirely. A manufactured quarrel designed to create an opportunity to kill does not attract Proviso 4 — the fight must be genuinely spontaneous.",
+          "relevance": "Murder S.300 Proviso 4 — the named authority. Murder Niyyat — Clause 1 intent makes Proviso 4 harder to sustain; Clause 4 knowledge makes it more available.",
+          "verified": true
+        }
+      ],
       "sq": [
         {
           "q": "The accused stabbed the victim once. The victim survived the stab but died three weeks later of a hospital infection. Is Qatl established?",
@@ -166,5 +207,7 @@
       ],
       "dike": "Murder already established (Elements 1–4) — this overlay determines OUTCOME, not guilt\n~(all wali have waived or compounded qisas) ∨ fasad-fil-arz attracted\n→ Court may impose death ∨ life ∨ Ta'zir ≤14yr\nPROVISO: if committed in the name/pretext of honour → mandatory life imprisonment specifically, discretion removed"
     }
-  ]
+  ],
+  "landmark": "PLD 1980 FSC 1 (Muhammad Riaz v. Federation) declared original S.302 repugnant to Islam, triggering the Qisas and Diyat Ordinance 1990. Justice Khosa 3-2 majority judgment (2015) declared Qisas and Taʼzir as mutually exclusive regimes. S.311 fasad-fil-arz provision added by Criminal Law Amendment Act 2016 for honour killings. Mumtaz Qadri v. State PLD 2016 SC 17 — landmark execution case: bodyguard who assassinated Punjab Governor Salman Taseer (2011) was convicted under S.302, sentenced to death, and executed. Supreme Court rejected all defences including private defence and provocation. Court held no citizen has legal authority to appoint themselves enforcer of blasphemy law. Most significant S.302 judgment of the 21st century in Pakistan.",
+  "summary": "Murder under Pakistani law operates through a cascading definitional structure: S.299 defines terms, S.300 elevates culpable homicide to murder through four clauses, and S.302 prescribes a tripartite punishment regime — Qisas (retributive death), Taʼzir death, or Taʼzir imprisonment. The Qisas and Diyat Ordinance 1990 overlays Islamic law principles across the entire cluster."
 }

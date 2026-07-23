@@ -250,5 +250,7 @@
       ],
       "dike": "All S.149 elements fully established ∧ a General Exception (S.76–106) is proven\n→ Liability still negated\nGE applies automatically via S.6 — no need to plead it separately, and it overrides even a fully-proven S.149 case"
     }
-  ]
+  ],
+  "landmark": "No verified Pakistani landmark case is logged specifically against S.149 alone in this build, flagged honestly rather than inventing a citation. Cross-reference: the Priyantha Kumara lynching (Sialkot 2021, 88 persons convicted — Common Intention module landmark) and the Youhanabad mob lynching (Lahore 2015 — General Exceptions module landmark) both engaged S.149 alongside S.34 in the actual proceedings. Those two cases together represent the most significant recent judicial engagement with assembly-based constructive liability in Pakistani law.",
+  "summary": "S.149 is the assembly-based constructive liability provision — the most frequently tested group-offence pairing with S.34 Common Intention in Pakistani criminal law and GAT examination design. It stands apart from S.34 in three structural ways: a fixed five-person headcount threshold (S.141), no requirement of prior concert or shared intention for the specific offence, and a disjunctive trigger — liability attaches if the offence was committed either in prosecution of the common object, or was one the members knew was likely to be committed in that prosecution. The metaphor that captures it best: S.34 shoots an arrow — it requires a meeting of minds aimed at a specific target. S.149 casts a net — if you were a member of the assembly when the net came down, you are caught, whether or not you personally threw it."
 }

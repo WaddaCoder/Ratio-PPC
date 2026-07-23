@@ -18,18 +18,6 @@
       "section": "120-A",
       "landmark": [
         {
-          "case": "State v. Dosso",
-          "citation": "PLD 1968 SC 89",
-          "holding": "Agreement is the gist of conspiracy; no overt act required.",
-          "verified": true
-        },
-        {
-          "case": "",
-          "citation": "1992 SCMR 2047",
-          "holding": "Conspiracy may be inferred from surrounding circumstances and conduct of accused; direct proof of agreement rarely available.",
-          "verified": true
-        },
-        {
           "case": "Mirza Shaukat Baig v. Shahid Jamil (2005)",
           "citation": "PLD 2005 SC 530",
           "hook": "The prosecution had no recorded meeting, no written plan, and no witness to any agreement. Can conspiracy still be proved?",
@@ -127,5 +115,7 @@
       ],
       "dike": "Persons ≥ 2\n~ one person conspiring alone (logically impossible — conspiracy is inherently bilateral)\nIf all co-conspirators but one are acquitted, the sole remaining conviction is legally problematic"
     }
-  ]
+  ],
+  "landmark": "PLD 1968 SC 89 (State v. Dosso) — agreement is the gist of conspiracy; no overt act required. 1992 SCMR 2047 — conspiracy may be inferred from surrounding circumstances and conduct of accused; direct proof of agreement rarely available. Mirza Shaukat Baig v. Shahid Jamil PLD 2005 SC 530 — leading authority on proof of conspiracy by circumstantial evidence.",
+  "summary": "Criminal Conspiracy under S.120-A is the only PPC offence where the Actus Reus is a purely mental agreement between two or more persons. No overt act is required. The agreement itself to commit an illegal act, cause an illegal act to be done, or commit a legal act by illegal means, completes the offence. S.120-B prescribes punishment. This makes conspiracy the earliest punishable stage in the law."
 }

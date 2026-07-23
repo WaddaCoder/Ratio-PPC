@@ -131,5 +131,7 @@
       ],
       "dike": "Completed extortion ∧ achieved by fear of being accused of an offence punishable with (death ∨ life ∨ ≤10 years)\n∨ fear of having attempted to induce another to commit such an offence\n→ ≤10 years ∧ fine, rising further at S.389's tier"
     }
-  ]
+  ],
+  "landmark": "No verified Pakistani landmark case is logged against S.383–389 specifically as of this build. Flagged honestly rather than inventing a citation.",
+  "summary": "This module covers the full Extortion cluster, S.383–389, sitting between Theft (S.378–382, completed this session) and Robbery (S.390–402C, completed this session). It builds the foundational fear-induced-delivery definition (S.383, all four original Code Illustrations included), the base punishment tier (S.384), the escalating fear-of-injury and fear-of-death/grievous-hurt attempt/completion pairs (S.385–387), and the blackmail-by-threat-of-accusation provisions with their distinctive S.377-linked life-imprisonment enhancement (S.388–389). Extortion is the second of the two source offences feeding into Robbery’s own dual-route definition, already built."
 }

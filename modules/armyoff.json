@@ -183,5 +183,7 @@
       ],
       "dike": "NOT a service member ∧ wears garb/carries a token resembling one\n∧ intention = cause belief they ARE such a person\n→ Fraudulent impersonation of military/naval/air service status"
     }
-  ]
+  ],
+  "landmark": "No verified Pakistani landmark case is logged against S.131-140 specifically as of this build; flagged honestly rather than inventing a citation.",
+  "summary": "Chapter VII: Of Offences Relating to the Army, Navy and Air Force (S.131–140), the final and narrowest of the three chapters identified as missing from the original build, closing Batch 3. Covers S.131/132 — abetting mutiny, with the same attempt-vs-completion escalation pattern recurring throughout this chapter; S.133/134 — the same structure scaled to assault on a superior officer, with trial-court escalation from Magistrate to Sessions upon completion; S.135/136 — abetment of desertion and harbouring a deserter, with S.136’s notable spousal exception; S.137 — the chapter’s sole negligence-based provision and its sole non-cognizable, summons-only offence, confirmed via direct Schedule II extraction; S.138/139 — insubordination abetment combining knowledge and completion into one offence, plus the pure jurisdictional saving clause excluding persons already subject to military justice statutes; and S.140 — the chapter-closing impersonation offence, uniquely both cognizable and bailable."
 }

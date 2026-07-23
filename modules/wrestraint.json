@@ -354,5 +354,7 @@
       ],
       "dike": "Influential person ∧ actually imprisons a person in a false manner inside a private jail\n→ ≤5 years ∧ fine\nHigher than S.348B — this is the completed act, not merely establishing the jail"
     }
-  ]
+  ],
+  "landmark": "This cluster has not yet had a verified Pakistani landmark case logged against it in this app. S.348 in particular (confinement to extort confession) is the natural statutory hook for custodial-coercion fact patterns already discussed elsewhere under General Explanations S.21(7) and the Rizwan Haider custody killing case (Blasphemy module), though that case was charged and analysed there under S.302 Murder rather than S.348 specifically. No standalone S.339–348 case has been independently verified and logged as of this build — flagged honestly rather than inventing a citation.",
+  "summary": "Chapter XVIA of the PPC criminalises interference with personal liberty short of kidnapping or abduction, arranged as a deliberate escalation ladder. S.339 Wrongful Restraint is the foundational, least severe wrong — blocking a person from one direction of movement they have a right to take. S.340 Wrongful Confinement escalates this to total bounding within fixed limits. S.341–344 then scale punishment by severity and duration. S.345–348 add four independent, additive aggravating circumstances on top of the base confinement punishment: defying a judicial liberation writ, confining in secret, confining to extort property or compel illegality, and confining to extort confession or compel restoration of property — the provision most directly engaged by custodial coercion."
 }

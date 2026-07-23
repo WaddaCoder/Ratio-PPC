@@ -198,5 +198,7 @@
       ],
       "dike": "(Counterfeits ∨ causes to counterfeit ∨ delivers ∨ performs an act ∨ uses) a document purporting to be ∨ resembling a Prize Bond or its Serial Number\n∨ (sells ∨ promotes the sale of) Prize Bonds/Serial Numbers without authorization\nTwo separate wrongs bundled into one section: counterfeiting the instrument, and unauthorized dealing in it"
     }
-  ]
+  ],
+  "landmark": "S.489F is confirmed as the third reverse-burden provision within this broader Chapter XVIII, alongside S.482 and S.486 (Trade Marks module). No verified Pakistani landmark case is logged against S.489A–489G specifically as of this build; flagged honestly rather than inventing a citation.",
+  "summary": "This module covers the third and final sub-cluster of Chapter XVIII: ‘Of Currency Notes and Bank Notes’ (S.489A–489G), completing the broader ‘Forgery, Currency Notes and Bank Notes’ topic. It builds the foundational counterfeiting offence with its deliberately global ‘bank-note’ definition (S.489A, life imprisonment, among the most severe ceilings in this entire app); the downstream-use/trafficking and possession tiers (S.489B/C, notably NOT derivative of a lesser underlying tier the way S.471 in Forgery is, but independently fixed at S.489A’s own full severity for S.489B specifically); the preparatory-instrument provision matching S.489A’s full severity exactly (S.489D); the imitation-document provision with its disclosure obligation and rebuttable presumption (S.489E); the modern (2002) dishonoured-cheque provision, the third confirmed reverse-burden structure in this broader chapter (S.489F); and the most recent (2012) Prize Bond provision (S.489G, confirmed absent from Schedule II as it postdates that Schedule’s print run)."
 }
